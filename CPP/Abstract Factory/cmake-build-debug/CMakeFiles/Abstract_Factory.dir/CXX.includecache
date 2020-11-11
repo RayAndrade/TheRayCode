@@ -1,0 +1,98 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ray/CLionProjects/Abstract Factory/AbstractFactory.h
+AbstractProductA.h
+/home/ray/CLionProjects/Abstract Factory/AbstractProductA.h
+AbstractProductB.h
+/home/ray/CLionProjects/Abstract Factory/AbstractProductB.h
+
+/home/ray/CLionProjects/Abstract Factory/AbstractProductA.h
+iostream
+-
+
+/home/ray/CLionProjects/Abstract Factory/AbstractProductB.h
+iostream
+-
+AbstractProductA.h
+/home/ray/CLionProjects/Abstract Factory/AbstractProductA.h
+
+/home/ray/CLionProjects/Abstract Factory/SolidFactory1.cpp
+SolidFactory1.h
+/home/ray/CLionProjects/Abstract Factory/SolidFactory1.h
+
+/home/ray/CLionProjects/Abstract Factory/SolidFactory1.h
+AbstractFactory.h
+/home/ray/CLionProjects/Abstract Factory/AbstractFactory.h
+SolidProductA1.h
+/home/ray/CLionProjects/Abstract Factory/SolidProductA1.h
+SolidProductB1.h
+/home/ray/CLionProjects/Abstract Factory/SolidProductB1.h
+
+/home/ray/CLionProjects/Abstract Factory/SolidFactory2.cpp
+SolidFactory2.h
+/home/ray/CLionProjects/Abstract Factory/SolidFactory2.h
+
+/home/ray/CLionProjects/Abstract Factory/SolidFactory2.h
+AbstractFactory.h
+/home/ray/CLionProjects/Abstract Factory/AbstractFactory.h
+SolidProductA2.h
+/home/ray/CLionProjects/Abstract Factory/SolidProductA2.h
+SolidProductB2.h
+/home/ray/CLionProjects/Abstract Factory/SolidProductB2.h
+
+/home/ray/CLionProjects/Abstract Factory/SolidProductA1.cpp
+SolidProductA1.h
+/home/ray/CLionProjects/Abstract Factory/SolidProductA1.h
+
+/home/ray/CLionProjects/Abstract Factory/SolidProductA1.h
+AbstractProductA.h
+/home/ray/CLionProjects/Abstract Factory/AbstractProductA.h
+
+/home/ray/CLionProjects/Abstract Factory/SolidProductA2.cpp
+SolidProductA2.h
+/home/ray/CLionProjects/Abstract Factory/SolidProductA2.h
+
+/home/ray/CLionProjects/Abstract Factory/SolidProductA2.h
+AbstractProductA.h
+/home/ray/CLionProjects/Abstract Factory/AbstractProductA.h
+
+/home/ray/CLionProjects/Abstract Factory/SolidProductB1.cpp
+SolidProductB1.h
+/home/ray/CLionProjects/Abstract Factory/SolidProductB1.h
+
+/home/ray/CLionProjects/Abstract Factory/SolidProductB1.h
+iostream
+-
+AbstractProductA.h
+/home/ray/CLionProjects/Abstract Factory/AbstractProductA.h
+AbstractProductB.h
+/home/ray/CLionProjects/Abstract Factory/AbstractProductB.h
+
+/home/ray/CLionProjects/Abstract Factory/SolidProductB2.cpp
+SolidProductB2.h
+/home/ray/CLionProjects/Abstract Factory/SolidProductB2.h
+
+/home/ray/CLionProjects/Abstract Factory/SolidProductB2.h
+AbstractProductB.h
+/home/ray/CLionProjects/Abstract Factory/AbstractProductB.h
+
+/home/ray/CLionProjects/Abstract Factory/main.cpp
+iostream
+-
+AbstractProductA.h
+/home/ray/CLionProjects/Abstract Factory/AbstractProductA.h
+AbstractProductB.h
+/home/ray/CLionProjects/Abstract Factory/AbstractProductB.h
+AbstractFactory.h
+/home/ray/CLionProjects/Abstract Factory/AbstractFactory.h
+SolidFactory1.h
+/home/ray/CLionProjects/Abstract Factory/SolidFactory1.h
+SolidFactory2.h
+/home/ray/CLionProjects/Abstract Factory/SolidFactory2.h
+
