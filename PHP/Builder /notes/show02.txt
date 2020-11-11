@@ -1,0 +1,4 @@
+class ConcreteBuilder1 implements Builder
+{
+
+}
