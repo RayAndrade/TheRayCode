@@ -1,0 +1,7 @@
+class ConcreteFactory1 implements AbstractFactory
+{
+    public function createProductA(): AbstractProductA
+}
+{
+    return new ConcreteProductA1;
+}
