@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ray/CLionProjects/ChainOfResponsibility/AbstractHandler.h
+Handler.h
+/home/ray/CLionProjects/ChainOfResponsibility/Handler.h
+
+/home/ray/CLionProjects/ChainOfResponsibility/DogHandler.h
+AbstractHandler.h
+/home/ray/CLionProjects/ChainOfResponsibility/AbstractHandler.h
+
+/home/ray/CLionProjects/ChainOfResponsibility/Handler.h
+iostream
+-
+
+/home/ray/CLionProjects/ChainOfResponsibility/MonkeyHandler.h
+AbstractHandler.h
+/home/ray/CLionProjects/ChainOfResponsibility/AbstractHandler.h
+
+/home/ray/CLionProjects/ChainOfResponsibility/SquirrelHandler.h
+AbstractHandler.h
+/home/ray/CLionProjects/ChainOfResponsibility/AbstractHandler.h
+
+/home/ray/CLionProjects/ChainOfResponsibility/main.cpp
+iostream
+-
+vector
+-
+Handler.h
+/home/ray/CLionProjects/ChainOfResponsibility/Handler.h
+MonkeyHandler.h
+/home/ray/CLionProjects/ChainOfResponsibility/MonkeyHandler.h
+SquirrelHandler.h
+/home/ray/CLionProjects/ChainOfResponsibility/SquirrelHandler.h
+DogHandler.h
+/home/ray/CLionProjects/ChainOfResponsibility/DogHandler.h
+

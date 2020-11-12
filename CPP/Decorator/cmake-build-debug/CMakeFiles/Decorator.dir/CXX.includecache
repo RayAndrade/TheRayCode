@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ray/CLionProjects/Decorator/Component.h
+iostream
+-
+
+/home/ray/CLionProjects/Decorator/ConcreteComponent.h
+Component.h
+/home/ray/CLionProjects/Decorator/Component.h
+
+/home/ray/CLionProjects/Decorator/ConcreteDecoratorA.cpp
+ConcreteDecoratorA.h
+/home/ray/CLionProjects/Decorator/ConcreteDecoratorA.h
+
+/home/ray/CLionProjects/Decorator/ConcreteDecoratorA.h
+Decorator.h
+/home/ray/CLionProjects/Decorator/Decorator.h
+
+/home/ray/CLionProjects/Decorator/ConcreteDecoratorB.cpp
+ConcreteDecoratorB.h
+/home/ray/CLionProjects/Decorator/ConcreteDecoratorB.h
+
+/home/ray/CLionProjects/Decorator/ConcreteDecoratorB.h
+Decorator.h
+/home/ray/CLionProjects/Decorator/Decorator.h
+
+/home/ray/CLionProjects/Decorator/Decorator.h
+Component.h
+/home/ray/CLionProjects/Decorator/Component.h
+
+/home/ray/CLionProjects/Decorator/main.cpp
+ConcreteComponent.h
+/home/ray/CLionProjects/Decorator/ConcreteComponent.h
+ConcreteDecoratorA.h
+/home/ray/CLionProjects/Decorator/ConcreteDecoratorA.h
+ConcreteDecoratorB.h
+/home/ray/CLionProjects/Decorator/ConcreteDecoratorB.h
+

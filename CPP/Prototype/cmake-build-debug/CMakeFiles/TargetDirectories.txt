@@ -1,0 +1,3 @@
+/home/ray/CLionProjects/Prototype/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ray/CLionProjects/Prototype/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ray/CLionProjects/Prototype/cmake-build-debug/CMakeFiles/Prototype.dir

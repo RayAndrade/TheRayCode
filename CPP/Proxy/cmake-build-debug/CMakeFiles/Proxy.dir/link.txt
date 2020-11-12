@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Proxy.dir/main.cpp.o CMakeFiles/Proxy.dir/Subject.cpp.o CMakeFiles/Proxy.dir/RealSubject.cpp.o CMakeFiles/Proxy.dir/Proxy.cpp.o  -o Proxy 

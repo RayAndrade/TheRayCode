@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ray/CLionProjects/Bridge/Abstraction.h
+string
+-
+Implementation.h
+/home/ray/CLionProjects/Bridge/Implementation.h
+
+/home/ray/CLionProjects/Bridge/ConcreteImplementationA.h
+Implementation.h
+/home/ray/CLionProjects/Bridge/Implementation.h
+
+/home/ray/CLionProjects/Bridge/ConcreteImplementationB.h
+Implementation.h
+/home/ray/CLionProjects/Bridge/Implementation.h
+
+/home/ray/CLionProjects/Bridge/ExtendedAbstraction.h
+Abstraction.h
+/home/ray/CLionProjects/Bridge/Abstraction.h
+
+/home/ray/CLionProjects/Bridge/Implementation.h
+iostream
+-
+
+/home/ray/CLionProjects/Bridge/main.cpp
+string
+-
+ConcreteImplementationA.h
+/home/ray/CLionProjects/Bridge/ConcreteImplementationA.h
+ConcreteImplementationB.h
+/home/ray/CLionProjects/Bridge/ConcreteImplementationB.h
+ExtendedAbstraction.h
+/home/ray/CLionProjects/Bridge/ExtendedAbstraction.h
+

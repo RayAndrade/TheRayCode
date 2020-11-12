@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Template.dir/main.cpp.o CMakeFiles/Template.dir/AbstractClass.cpp.o CMakeFiles/Template.dir/ConcreteClass1.cpp.o CMakeFiles/Template.dir/ConcreteClass2.cpp.o  -o Template 

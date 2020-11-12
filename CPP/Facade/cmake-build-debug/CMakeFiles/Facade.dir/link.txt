@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Facade.dir/main.cpp.o CMakeFiles/Facade.dir/Subsystem1.cpp.o CMakeFiles/Facade.dir/Subsystem2.cpp.o CMakeFiles/Facade.dir/Facade.cpp.o  -o Facade 
