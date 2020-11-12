@@ -1,0 +1,13 @@
+/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility
+/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.deps.json
+/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.runtimeconfig.json
+/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.runtimeconfig.dev.json
+/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.dll
+/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.pdb
+/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csprojAssemblyReference.cache
+/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.AssemblyInfoInputs.cache
+/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.AssemblyInfo.cs
+/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csproj.CoreCompileInputs.cache
+/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.dll
+/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.pdb
+/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.genruntimeconfig.cache

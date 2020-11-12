@@ -1,0 +1,13 @@
+/home/ray/RiderProjects/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy
+/home/ray/RiderProjects/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy.deps.json
+/home/ray/RiderProjects/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy.runtimeconfig.json
+/home/ray/RiderProjects/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy.runtimeconfig.dev.json
+/home/ray/RiderProjects/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy.dll
+/home/ray/RiderProjects/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy.pdb
+/home/ray/RiderProjects/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.csprojAssemblyReference.cache
+/home/ray/RiderProjects/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.AssemblyInfoInputs.cache
+/home/ray/RiderProjects/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.AssemblyInfo.cs
+/home/ray/RiderProjects/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.csproj.CoreCompileInputs.cache
+/home/ray/RiderProjects/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.dll
+/home/ray/RiderProjects/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.pdb
+/home/ray/RiderProjects/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.genruntimeconfig.cache

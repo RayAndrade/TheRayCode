@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "W/80gXv5cFQwnAyNjzO7vz/v8MaXbVTg8lzT9uwYoF+YmfkFGo1eGJBj3tAzyQYYf+fAIG2fnt5dORJsmsuKWQ==",
+  "success": true,
+  "projectFilePath": "/home/ray/RiderProjects/Flyweight/Flyweight/Flyweight.csproj",
+  "expectedPackageFiles": [
+    "/home/ray/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

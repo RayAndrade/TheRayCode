@@ -1,0 +1,13 @@
+/home/ray/RiderProjects/Command/Command/bin/Debug/netcoreapp3.1/Command
+/home/ray/RiderProjects/Command/Command/bin/Debug/netcoreapp3.1/Command.deps.json
+/home/ray/RiderProjects/Command/Command/bin/Debug/netcoreapp3.1/Command.runtimeconfig.json
+/home/ray/RiderProjects/Command/Command/bin/Debug/netcoreapp3.1/Command.runtimeconfig.dev.json
+/home/ray/RiderProjects/Command/Command/bin/Debug/netcoreapp3.1/Command.dll
+/home/ray/RiderProjects/Command/Command/bin/Debug/netcoreapp3.1/Command.pdb
+/home/ray/RiderProjects/Command/Command/obj/Debug/netcoreapp3.1/Command.csprojAssemblyReference.cache
+/home/ray/RiderProjects/Command/Command/obj/Debug/netcoreapp3.1/Command.AssemblyInfoInputs.cache
+/home/ray/RiderProjects/Command/Command/obj/Debug/netcoreapp3.1/Command.AssemblyInfo.cs
+/home/ray/RiderProjects/Command/Command/obj/Debug/netcoreapp3.1/Command.csproj.CoreCompileInputs.cache
+/home/ray/RiderProjects/Command/Command/obj/Debug/netcoreapp3.1/Command.dll
+/home/ray/RiderProjects/Command/Command/obj/Debug/netcoreapp3.1/Command.pdb
+/home/ray/RiderProjects/Command/Command/obj/Debug/netcoreapp3.1/Command.genruntimeconfig.cache

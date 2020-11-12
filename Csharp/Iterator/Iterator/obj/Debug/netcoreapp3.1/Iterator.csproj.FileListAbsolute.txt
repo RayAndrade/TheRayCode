@@ -1,0 +1,13 @@
+/home/ray/RiderProjects/Iterator/Iterator/bin/Debug/netcoreapp3.1/Iterator
+/home/ray/RiderProjects/Iterator/Iterator/bin/Debug/netcoreapp3.1/Iterator.deps.json
+/home/ray/RiderProjects/Iterator/Iterator/bin/Debug/netcoreapp3.1/Iterator.runtimeconfig.json
+/home/ray/RiderProjects/Iterator/Iterator/bin/Debug/netcoreapp3.1/Iterator.runtimeconfig.dev.json
+/home/ray/RiderProjects/Iterator/Iterator/bin/Debug/netcoreapp3.1/Iterator.dll
+/home/ray/RiderProjects/Iterator/Iterator/bin/Debug/netcoreapp3.1/Iterator.pdb
+/home/ray/RiderProjects/Iterator/Iterator/obj/Debug/netcoreapp3.1/Iterator.csprojAssemblyReference.cache
+/home/ray/RiderProjects/Iterator/Iterator/obj/Debug/netcoreapp3.1/Iterator.AssemblyInfoInputs.cache
+/home/ray/RiderProjects/Iterator/Iterator/obj/Debug/netcoreapp3.1/Iterator.AssemblyInfo.cs
+/home/ray/RiderProjects/Iterator/Iterator/obj/Debug/netcoreapp3.1/Iterator.csproj.CoreCompileInputs.cache
+/home/ray/RiderProjects/Iterator/Iterator/obj/Debug/netcoreapp3.1/Iterator.dll
+/home/ray/RiderProjects/Iterator/Iterator/obj/Debug/netcoreapp3.1/Iterator.pdb
+/home/ray/RiderProjects/Iterator/Iterator/obj/Debug/netcoreapp3.1/Iterator.genruntimeconfig.cache

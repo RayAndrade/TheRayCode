@@ -1,0 +1,13 @@
+/home/ray/RiderProjects/Prototype/Prototype/bin/Debug/netcoreapp3.1/Prototype
+/home/ray/RiderProjects/Prototype/Prototype/bin/Debug/netcoreapp3.1/Prototype.deps.json
+/home/ray/RiderProjects/Prototype/Prototype/bin/Debug/netcoreapp3.1/Prototype.runtimeconfig.json
+/home/ray/RiderProjects/Prototype/Prototype/bin/Debug/netcoreapp3.1/Prototype.runtimeconfig.dev.json
+/home/ray/RiderProjects/Prototype/Prototype/bin/Debug/netcoreapp3.1/Prototype.dll
+/home/ray/RiderProjects/Prototype/Prototype/bin/Debug/netcoreapp3.1/Prototype.pdb
+/home/ray/RiderProjects/Prototype/Prototype/obj/Debug/netcoreapp3.1/Prototype.csprojAssemblyReference.cache
+/home/ray/RiderProjects/Prototype/Prototype/obj/Debug/netcoreapp3.1/Prototype.AssemblyInfoInputs.cache
+/home/ray/RiderProjects/Prototype/Prototype/obj/Debug/netcoreapp3.1/Prototype.AssemblyInfo.cs
+/home/ray/RiderProjects/Prototype/Prototype/obj/Debug/netcoreapp3.1/Prototype.csproj.CoreCompileInputs.cache
+/home/ray/RiderProjects/Prototype/Prototype/obj/Debug/netcoreapp3.1/Prototype.dll
+/home/ray/RiderProjects/Prototype/Prototype/obj/Debug/netcoreapp3.1/Prototype.pdb
+/home/ray/RiderProjects/Prototype/Prototype/obj/Debug/netcoreapp3.1/Prototype.genruntimeconfig.cache

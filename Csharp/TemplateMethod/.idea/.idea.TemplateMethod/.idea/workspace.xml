@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4d10fe2-0956-4026-9883-678d090f495a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TemplateMethod/Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TemplateMethod/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TemplateMethod/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TemplateMethod/AbstractClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TemplateMethod/Class2.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TemplateMethod/AbstractClass.cs" />
+        <option value="$PROJECT_DIR$/TemplateMethod/ConcreteClass1.cs" />
+        <option value="$PROJECT_DIR$/TemplateMethod/Class1.cs" />
+        <option value="$PROJECT_DIR$/TemplateMethod/Class2.cs" />
+        <option value="$PROJECT_DIR$/TemplateMethod/Client.cs" />
+        <option value="$PROJECT_DIR$/TemplateMethod/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eEiUJDuMTVn5yt07z14XIUwo4b" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TemplateMethod" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TemplateMethod/TemplateMethod.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4d10fe2-0956-4026-9883-678d090f495a" name="Default Changelist" comment="" />
+      <created>1593893166484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593893166484</updated>
+      <workItem from="1593893171142" duration="80000" />
+      <workItem from="1594231248237" duration="136000" />
+      <workItem from="1596170836079" duration="1015000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1807" height="287" key="GridCell.Tab.0.bottom" timestamp="1596172062504">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="287" key="GridCell.Tab.0.bottom/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1596172062504" />
+    <state width="1807" height="287" key="GridCell.Tab.0.center" timestamp="1596172062504">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="287" key="GridCell.Tab.0.center/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1596172062504" />
+    <state width="1807" height="287" key="GridCell.Tab.0.left" timestamp="1596172062503">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="287" key="GridCell.Tab.0.left/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1596172062503" />
+    <state width="1807" height="287" key="GridCell.Tab.0.right" timestamp="1596172062504">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="287" key="GridCell.Tab.0.right/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1596172062504" />
+    <state x="588" y="274" width="800" height="530" key="Rider.ProjectTemplateDialog.Size" timestamp="1593893166519">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="274" width="800" height="530" key="Rider.ProjectTemplateDialog.Size/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1593893166519" />
+  </component>
+</project>

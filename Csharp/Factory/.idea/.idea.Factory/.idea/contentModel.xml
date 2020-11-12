@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_Factory.1600982232.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Factory" t="IncludeRecursive">
+        <e p="Client.cs" t="Include" />
+        <e p="ConcreteCreator1.cs" t="Include" />
+        <e p="ConcreteCreator2.cs" t="Include" />
+        <e p="ConcreteProduct1.cs" t="Include" />
+        <e p="ConcreteProduct2.cs" t="Include" />
+        <e p="Creator.cs" t="Include" />
+        <e p="Director.cs" t="Include" />
+        <e p="Factory.csproj" t="IncludeRecursive" />
+        <e p="IBuilder.cs" t="Include" />
+        <e p="IProduct.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="notes" t="Include">
+          <e p="orignal.txt" t="Include" />
+          <e p="show.txt" t="Include" />
+          <e p="show1.txt" t="Include" />
+          <e p="show2.txt" t="Include" />
+          <e p="show3.txt" t="Include" />
+          <e p="show4.txt" t="Include" />
+          <e p="show5.txt" t="Include" />
+          <e p="show6.txt" t="Include" />
+          <e p="show7.txt" t="Include" />
+          <e p="show8.txt" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Factory.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Factory.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
