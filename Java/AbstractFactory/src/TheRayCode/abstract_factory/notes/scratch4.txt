@@ -1,0 +1,6 @@
+public class WindowsFactory implements GUIFactory {
+
+    @Override
+    return new WindowsButton();
+    return new WindowsCheckbox();
+}
