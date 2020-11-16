@@ -1,7 +1,6 @@
 <?php
 include_once ('Composite.php');
 include_once ('Leaf.php');
-//include_once ('Component.php');
 
 function clientCode(Component $component)
 {
