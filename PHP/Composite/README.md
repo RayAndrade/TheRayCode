@@ -6,3 +6,5 @@ TheRayCode PHP
 #### heading 4
 
 [Github](https://www.TheRayCode.com)
+
+[mastering-markdown](https://guides.github.com/features/mastering-markdown/)
