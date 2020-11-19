@@ -1,42 +1,33 @@
 package TheRayCode.Show;
 
-import TheRayCode.Show.adapters.SquarePegAdapter;
-import TheRayCode.Show.round.RoundHole;
-import TheRayCode.Show.round.RoundPeg;
-import TheRayCode.Show.square.SquarePeg;
+
+import TheRayCode.Show.editor.ImageEditor;
+import TheRayCode.Show.shapes.Circle;
+import TheRayCode.Show.shapes.CompoundShape;
+import TheRayCode.Show.shapes.Dot;
+import TheRayCode.Show.shapes.Rectangle;
+
+import java.awt.*;
 
 public class Demo {
+    public static void main(String[] args) {
+        ImageEditor editor = new ImageEditor();
 
-     public static void main(String[] args) {
+        editor.loadShapes(
+                new Circle(10, 10, 10, Color.BLUE),
 
+                new CompoundShape(
+                        new Circle(110, 110, 50, Color.RED),
+                        new Dot(160, 160, Color.RED)
+                ),
 
-         // Round fits round, no surprise.
-         RoundHole hole = new RoundHole(5);
-         RoundPeg rpeg = new RoundPeg(5);
-         if (hole.fits(rpeg)) {
-             System.out.println("Round peg r5 fits round hole r5.");
-         }
-
-
-         SquarePeg smallSqPeg = new SquarePeg(2);
-         SquarePeg largeSqPeg = new SquarePeg(20);
-
-
-        // hole.fits(smallSqPeg); // Won't compile.
-        // Adapter solves the problem.
-
-         SquarePegAdapter smallSqPegAdapter = new SquarePegAdapter(smallSqPeg);
-         SquarePegAdapter largeSqPegAdapter = new SquarePegAdapter(largeSqPeg);
-         if (hole.fits(smallSqPegAdapter)) {
-             System.out.println("Square peg w2 fits round hole r5.");
-         }
-         if (!hole.fits(largeSqPegAdapter)) {
-             System.out.println("Square peg w20 does not fit into round hole r5.");
-         }
-
-
-         System.out.println("TheRayCode is AWESOME!!!");
-     }
+                new CompoundShape(
+                        new Rectangle(250, 250, 100, 100, Color.GREEN),
+                        new Dot(240, 240, Color.GREEN),
+                        new Dot(240, 360, Color.GREEN),
+                        new Dot(360, 360, Color.GREEN),
+                        new Dot(360, 240, Color.GREEN)
+                )
+        );
+    }
 }
-
-
