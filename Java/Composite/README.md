@@ -1,6 +1,14 @@
 
 # TheRayCode
-TheRayCode Java PHP C# CPP UML
+TheRayCode Java 
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
 
 Here you will find all the code I use at the <http://rayandrade.com> homepage.
 
