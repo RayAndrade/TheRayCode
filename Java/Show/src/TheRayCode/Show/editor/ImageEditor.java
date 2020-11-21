@@ -9,6 +9,7 @@ import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
+
 public class ImageEditor {
     private EditorCanvas canvas;
     private CompoundShape allShapes = new CompoundShape();

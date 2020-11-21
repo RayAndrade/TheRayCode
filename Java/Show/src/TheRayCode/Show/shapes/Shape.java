@@ -3,7 +3,6 @@ package TheRayCode.Show.shapes;
 import java.awt.*;
 
 public interface Shape {
-
     int getX();
     int getY();
     int getWidth();
@@ -14,5 +13,4 @@ public interface Shape {
     void unSelect();
     boolean isSelected();
     void paint(Graphics graphics);
-
 }
