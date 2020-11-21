@@ -2,16 +2,15 @@ package TheRayCode.Show.shapes;
 
 import java.awt.*;
 
-public class Rectangle extends BaseShape {
+public class Rectangle extends BaseShape{
     public int width;
     public int height;
 
-    public Rectangle(int x, int y, int width, int height, Color color) {
+    Rectangle(int x, int y, Color color) {
         super(x, y, color);
         this.width = width;
         this.height = height;
     }
-
     @Override
     public int getWidth() {
         return width;
@@ -28,3 +27,4 @@ public class Rectangle extends BaseShape {
         graphics.drawRect(x, y, getWidth() - 1, getHeight() - 1);
     }
 }
+

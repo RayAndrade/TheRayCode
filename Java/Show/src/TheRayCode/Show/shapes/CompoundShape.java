@@ -1,13 +1,17 @@
 package TheRayCode.Show.shapes;
 
-
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class CompoundShape extends BaseShape {
+
+public class CompoundShape extends BaseShape{
+
+
     protected List<TheRayCode.Show.shapes.Shape> children = new ArrayList<>();
+
+
 
     public CompoundShape(TheRayCode.Show.shapes.Shape... components) {
         super(0, 0, Color.BLACK);
@@ -138,3 +142,5 @@ public class CompoundShape extends BaseShape {
         }
     }
 }
+
+

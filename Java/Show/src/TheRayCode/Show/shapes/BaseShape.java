@@ -3,6 +3,7 @@ package TheRayCode.Show.shapes;
 import java.awt.*;
 
 abstract class BaseShape implements Shape {
+
     public int x;
     public int y;
     public Color color;
@@ -87,7 +88,6 @@ abstract class BaseShape implements Shape {
         else {
             disableSelectionStyle(graphics);
         }
-
-        // ...
     }
 }
+
