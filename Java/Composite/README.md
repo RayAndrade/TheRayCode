@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 # TheRayCode
 TheRayCode Java 
@@ -599,3 +600,13 @@ public class Demo {
 Here you will find all the code I use at the <http://rayandrade.com> homepage.
 
 You can also mail me: <TheRayCode@RayAndrade.com>
+=======
+# TheRayCode
+TheRayCode PHP 
+# TheRayCode
+## heading 2
+### heading 3
+#### heading 4
+
+[Github](https://www.TheRayCode.com)
+>>>>>>> Stashed changes

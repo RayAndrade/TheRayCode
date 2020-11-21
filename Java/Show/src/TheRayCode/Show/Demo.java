@@ -1,6 +1,5 @@
 package TheRayCode.Show;
 
-
 import TheRayCode.Show.editor.ImageEditor;
 import TheRayCode.Show.shapes.Circle;
 import TheRayCode.Show.shapes.CompoundShape;
@@ -9,7 +8,7 @@ import TheRayCode.Show.shapes.Rectangle;
 
 import java.awt.*;
 
-public class Demo {
+public class Demo{
     public static void main(String[] args) {
         ImageEditor editor = new ImageEditor();
 

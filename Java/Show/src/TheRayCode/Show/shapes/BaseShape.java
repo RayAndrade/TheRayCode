@@ -2,7 +2,7 @@ package TheRayCode.Show.shapes;
 
 import java.awt.*;
 
-public class BaseShape implements Shape{
+abstract class BaseShape implements Shape {
     public int x;
     public int y;
     public Color color;

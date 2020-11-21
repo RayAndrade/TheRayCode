@@ -20,97 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f515af2-971f-4ecc-b2be-02509f20349f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TheRayCode/Composite/editor/ImageEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TheRayCode/Composite/shapes/BaseShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TheRayCode/Composite/shapes/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TheRayCode/Composite/shapes/CompoundShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TheRayCode/Composite/shapes/Dot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TheRayCode/Composite/shapes/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TheRayCode/Composite/shapes/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/.idea/Composite.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/Component.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/Component.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/Composite.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/Composite.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/Leaf.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/Leaf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/Composite.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/Composite.dir/Component.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/Composite.dir/Composite.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/Composite.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/Composite.dir/Leaf.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/Composite.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/Composite.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/Composite.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/Composite.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/Composite.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/Composite.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/Composite.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/Composite.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/Composite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/Composite.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Composite/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Composite/TheRayCode/composite/example/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Composite/TheRayCode/composite/example/editor/ImageEditor$EditorCanvas$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Composite/TheRayCode/composite/example/editor/ImageEditor$EditorCanvas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Composite/TheRayCode/composite/example/editor/ImageEditor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Composite/TheRayCode/composite/example/shapes/BaseShape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Composite/TheRayCode/composite/example/shapes/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Composite/TheRayCode/composite/example/shapes/CompoundShape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Composite/TheRayCode/composite/example/shapes/Dot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Composite/TheRayCode/composite/example/shapes/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Composite/TheRayCode/composite/example/shapes/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheRayCode/composite/example/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheRayCode/composite/example/editor/ImageEditor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheRayCode/composite/example/shapes/BaseShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheRayCode/composite/example/shapes/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheRayCode/composite/example/shapes/CompoundShape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheRayCode/composite/example/shapes/Dot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheRayCode/composite/example/shapes/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TheRayCode/composite/example/shapes/Shape.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/adapters/SquarePegAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/round/RoundHole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/round/RoundPeg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/square/SquarePeg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/shapes/BaseShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/shapes/BaseShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/shapes/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/shapes/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/shapes/CompoundShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/shapes/CompoundShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/shapes/Dot.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/shapes/Dot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/shapes/ImageEditor$EditorCanvas$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/shapes/ImageEditor$EditorCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/shapes/ImageEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/shapes/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Show/out/production/Show/TheRayCode/Show/shapes/Rectangle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/adapters/SquarePegAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/round/RoundHole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/round/RoundPeg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/square/SquarePeg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/editor/ImageEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/editor/ImageEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/shapes/BaseShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/shapes/BaseShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/shapes/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/shapes/CompoundShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/shapes/CompoundShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/shapes/Dot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/shapes/Dot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/shapes/ImageEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Show/src/TheRayCode/Show/shapes/Rectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,5 +106,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1605920535575">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/1920.0.1920.1080/58.27.1862.1053@1920.0.1920.1080" timestamp="1605920535575" />
+    <state width="1816" height="275" key="GridCell.Tab.0.bottom/1920.0.1920.1080/58.27.1862.1053@58.27.1862.1053" timestamp="1605815780082" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1605920535575">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.center/1920.0.1920.1080/58.27.1862.1053@1920.0.1920.1080" timestamp="1605920535575" />
+    <state width="1816" height="275" key="GridCell.Tab.0.center/1920.0.1920.1080/58.27.1862.1053@58.27.1862.1053" timestamp="1605815780081" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1605920535575">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.left/1920.0.1920.1080/58.27.1862.1053@1920.0.1920.1080" timestamp="1605920535575" />
+    <state width="1816" height="275" key="GridCell.Tab.0.left/1920.0.1920.1080/58.27.1862.1053@58.27.1862.1053" timestamp="1605815780081" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1605920535575">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.right/1920.0.1920.1080/58.27.1862.1053@1920.0.1920.1080" timestamp="1605920535575" />
+    <state width="1816" height="275" key="GridCell.Tab.0.right/1920.0.1920.1080/58.27.1862.1053@58.27.1862.1053" timestamp="1605815780082" />
   </component>
 </project>

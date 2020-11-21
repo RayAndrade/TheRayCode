@@ -2,7 +2,7 @@ package TheRayCode.Show.shapes;
 
 import java.awt.*;
 
-public class Circle extends BaseShape{
+public class Circle extends BaseShape {
     public int radius;
 
     public Circle(int x, int y, int radius, Color color) {
