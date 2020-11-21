@@ -28,5 +28,6 @@ public class Demo {
                         new Dot(360, 240, Color.GREEN)
                 )
         );
+        System.out.println("The Ray Code is AWESOME!!!");
     }
 }
