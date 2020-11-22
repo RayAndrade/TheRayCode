@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5784.34/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5784.34/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ray/CLionProjects/Decorator
+CMAKE_SOURCE_DIR = /home/ray/Desktop/TheRayCode/CPP/Decorator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ray/CLionProjects/Decorator/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ray/Desktop/TheRayCode/CPP/Decorator/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Decorator.dir/depend.make
@@ -79,81 +79,81 @@ include CMakeFiles/Decorator.dir/flags.make
 
 CMakeFiles/Decorator.dir/main.cpp.o: CMakeFiles/Decorator.dir/flags.make
 CMakeFiles/Decorator.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/CLionProjects/Decorator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Decorator.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Decorator.dir/main.cpp.o -c /home/ray/CLionProjects/Decorator/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/Desktop/TheRayCode/CPP/Decorator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Decorator.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Decorator.dir/main.cpp.o -c /home/ray/Desktop/TheRayCode/CPP/Decorator/main.cpp
 
 CMakeFiles/Decorator.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Decorator.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/CLionProjects/Decorator/main.cpp > CMakeFiles/Decorator.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/Desktop/TheRayCode/CPP/Decorator/main.cpp > CMakeFiles/Decorator.dir/main.cpp.i
 
 CMakeFiles/Decorator.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Decorator.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/CLionProjects/Decorator/main.cpp -o CMakeFiles/Decorator.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/Desktop/TheRayCode/CPP/Decorator/main.cpp -o CMakeFiles/Decorator.dir/main.cpp.s
 
 CMakeFiles/Decorator.dir/Component.cpp.o: CMakeFiles/Decorator.dir/flags.make
 CMakeFiles/Decorator.dir/Component.cpp.o: ../Component.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/CLionProjects/Decorator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Decorator.dir/Component.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Decorator.dir/Component.cpp.o -c /home/ray/CLionProjects/Decorator/Component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/Desktop/TheRayCode/CPP/Decorator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Decorator.dir/Component.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Decorator.dir/Component.cpp.o -c /home/ray/Desktop/TheRayCode/CPP/Decorator/Component.cpp
 
 CMakeFiles/Decorator.dir/Component.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Decorator.dir/Component.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/CLionProjects/Decorator/Component.cpp > CMakeFiles/Decorator.dir/Component.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/Desktop/TheRayCode/CPP/Decorator/Component.cpp > CMakeFiles/Decorator.dir/Component.cpp.i
 
 CMakeFiles/Decorator.dir/Component.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Decorator.dir/Component.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/CLionProjects/Decorator/Component.cpp -o CMakeFiles/Decorator.dir/Component.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/Desktop/TheRayCode/CPP/Decorator/Component.cpp -o CMakeFiles/Decorator.dir/Component.cpp.s
 
 CMakeFiles/Decorator.dir/ConcreteComponent.cpp.o: CMakeFiles/Decorator.dir/flags.make
 CMakeFiles/Decorator.dir/ConcreteComponent.cpp.o: ../ConcreteComponent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/CLionProjects/Decorator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Decorator.dir/ConcreteComponent.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Decorator.dir/ConcreteComponent.cpp.o -c /home/ray/CLionProjects/Decorator/ConcreteComponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/Desktop/TheRayCode/CPP/Decorator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Decorator.dir/ConcreteComponent.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Decorator.dir/ConcreteComponent.cpp.o -c /home/ray/Desktop/TheRayCode/CPP/Decorator/ConcreteComponent.cpp
 
 CMakeFiles/Decorator.dir/ConcreteComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Decorator.dir/ConcreteComponent.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/CLionProjects/Decorator/ConcreteComponent.cpp > CMakeFiles/Decorator.dir/ConcreteComponent.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/Desktop/TheRayCode/CPP/Decorator/ConcreteComponent.cpp > CMakeFiles/Decorator.dir/ConcreteComponent.cpp.i
 
 CMakeFiles/Decorator.dir/ConcreteComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Decorator.dir/ConcreteComponent.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/CLionProjects/Decorator/ConcreteComponent.cpp -o CMakeFiles/Decorator.dir/ConcreteComponent.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/Desktop/TheRayCode/CPP/Decorator/ConcreteComponent.cpp -o CMakeFiles/Decorator.dir/ConcreteComponent.cpp.s
 
 CMakeFiles/Decorator.dir/Decorator.cpp.o: CMakeFiles/Decorator.dir/flags.make
 CMakeFiles/Decorator.dir/Decorator.cpp.o: ../Decorator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/CLionProjects/Decorator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Decorator.dir/Decorator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Decorator.dir/Decorator.cpp.o -c /home/ray/CLionProjects/Decorator/Decorator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/Desktop/TheRayCode/CPP/Decorator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Decorator.dir/Decorator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Decorator.dir/Decorator.cpp.o -c /home/ray/Desktop/TheRayCode/CPP/Decorator/Decorator.cpp
 
 CMakeFiles/Decorator.dir/Decorator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Decorator.dir/Decorator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/CLionProjects/Decorator/Decorator.cpp > CMakeFiles/Decorator.dir/Decorator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/Desktop/TheRayCode/CPP/Decorator/Decorator.cpp > CMakeFiles/Decorator.dir/Decorator.cpp.i
 
 CMakeFiles/Decorator.dir/Decorator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Decorator.dir/Decorator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/CLionProjects/Decorator/Decorator.cpp -o CMakeFiles/Decorator.dir/Decorator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/Desktop/TheRayCode/CPP/Decorator/Decorator.cpp -o CMakeFiles/Decorator.dir/Decorator.cpp.s
 
 CMakeFiles/Decorator.dir/ConcreteDecoratorA.cpp.o: CMakeFiles/Decorator.dir/flags.make
 CMakeFiles/Decorator.dir/ConcreteDecoratorA.cpp.o: ../ConcreteDecoratorA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/CLionProjects/Decorator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Decorator.dir/ConcreteDecoratorA.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Decorator.dir/ConcreteDecoratorA.cpp.o -c /home/ray/CLionProjects/Decorator/ConcreteDecoratorA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/Desktop/TheRayCode/CPP/Decorator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Decorator.dir/ConcreteDecoratorA.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Decorator.dir/ConcreteDecoratorA.cpp.o -c /home/ray/Desktop/TheRayCode/CPP/Decorator/ConcreteDecoratorA.cpp
 
 CMakeFiles/Decorator.dir/ConcreteDecoratorA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Decorator.dir/ConcreteDecoratorA.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/CLionProjects/Decorator/ConcreteDecoratorA.cpp > CMakeFiles/Decorator.dir/ConcreteDecoratorA.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/Desktop/TheRayCode/CPP/Decorator/ConcreteDecoratorA.cpp > CMakeFiles/Decorator.dir/ConcreteDecoratorA.cpp.i
 
 CMakeFiles/Decorator.dir/ConcreteDecoratorA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Decorator.dir/ConcreteDecoratorA.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/CLionProjects/Decorator/ConcreteDecoratorA.cpp -o CMakeFiles/Decorator.dir/ConcreteDecoratorA.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/Desktop/TheRayCode/CPP/Decorator/ConcreteDecoratorA.cpp -o CMakeFiles/Decorator.dir/ConcreteDecoratorA.cpp.s
 
 CMakeFiles/Decorator.dir/ConcreteDecoratorB.cpp.o: CMakeFiles/Decorator.dir/flags.make
 CMakeFiles/Decorator.dir/ConcreteDecoratorB.cpp.o: ../ConcreteDecoratorB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/CLionProjects/Decorator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Decorator.dir/ConcreteDecoratorB.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Decorator.dir/ConcreteDecoratorB.cpp.o -c /home/ray/CLionProjects/Decorator/ConcreteDecoratorB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/Desktop/TheRayCode/CPP/Decorator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Decorator.dir/ConcreteDecoratorB.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Decorator.dir/ConcreteDecoratorB.cpp.o -c /home/ray/Desktop/TheRayCode/CPP/Decorator/ConcreteDecoratorB.cpp
 
 CMakeFiles/Decorator.dir/ConcreteDecoratorB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Decorator.dir/ConcreteDecoratorB.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/CLionProjects/Decorator/ConcreteDecoratorB.cpp > CMakeFiles/Decorator.dir/ConcreteDecoratorB.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/Desktop/TheRayCode/CPP/Decorator/ConcreteDecoratorB.cpp > CMakeFiles/Decorator.dir/ConcreteDecoratorB.cpp.i
 
 CMakeFiles/Decorator.dir/ConcreteDecoratorB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Decorator.dir/ConcreteDecoratorB.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/CLionProjects/Decorator/ConcreteDecoratorB.cpp -o CMakeFiles/Decorator.dir/ConcreteDecoratorB.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/Desktop/TheRayCode/CPP/Decorator/ConcreteDecoratorB.cpp -o CMakeFiles/Decorator.dir/ConcreteDecoratorB.cpp.s
 
 # Object files for target Decorator
 Decorator_OBJECTS = \
@@ -175,7 +175,7 @@ Decorator: CMakeFiles/Decorator.dir/ConcreteDecoratorA.cpp.o
 Decorator: CMakeFiles/Decorator.dir/ConcreteDecoratorB.cpp.o
 Decorator: CMakeFiles/Decorator.dir/build.make
 Decorator: CMakeFiles/Decorator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ray/CLionProjects/Decorator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Decorator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ray/Desktop/TheRayCode/CPP/Decorator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Decorator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Decorator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -188,6 +188,6 @@ CMakeFiles/Decorator.dir/clean:
 .PHONY : CMakeFiles/Decorator.dir/clean
 
 CMakeFiles/Decorator.dir/depend:
-	cd /home/ray/CLionProjects/Decorator/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ray/CLionProjects/Decorator /home/ray/CLionProjects/Decorator /home/ray/CLionProjects/Decorator/cmake-build-debug /home/ray/CLionProjects/Decorator/cmake-build-debug /home/ray/CLionProjects/Decorator/cmake-build-debug/CMakeFiles/Decorator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ray/Desktop/TheRayCode/CPP/Decorator/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ray/Desktop/TheRayCode/CPP/Decorator /home/ray/Desktop/TheRayCode/CPP/Decorator /home/ray/Desktop/TheRayCode/CPP/Decorator/cmake-build-debug /home/ray/Desktop/TheRayCode/CPP/Decorator/cmake-build-debug /home/ray/Desktop/TheRayCode/CPP/Decorator/cmake-build-debug/CMakeFiles/Decorator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Decorator.dir/depend
 

@@ -6,37 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ray/CLionProjects/Show/Abstraction.h
-string
--
-Implementation.h
-/home/ray/CLionProjects/Show/Implementation.h
-
-/home/ray/CLionProjects/Show/ConcreteImplementationA.h
-Implementation.h
-/home/ray/CLionProjects/Show/Implementation.h
-
-/home/ray/CLionProjects/Show/ConcreteImplementationB.h
-Implementation.h
-/home/ray/CLionProjects/Show/Implementation.h
-
-/home/ray/CLionProjects/Show/ExtendedAbstraction.h
-Abstraction.h
-/home/ray/CLionProjects/Show/Abstraction.h
-
-/home/ray/CLionProjects/Show/Implementation.h
+/home/ray/Desktop/TheRayCode/CPP/Show/main.cpp
 iostream
 -
-
-/home/ray/CLionProjects/Show/main.cpp
-iostream
--
-string
--
-ConcreteImplementationA.h
-/home/ray/CLionProjects/Show/ConcreteImplementationA.h
-ConcreteImplementationB.h
-/home/ray/CLionProjects/Show/ConcreteImplementationB.h
-ExtendedAbstraction.h
-/home/ray/CLionProjects/Show/ExtendedAbstraction.h
 

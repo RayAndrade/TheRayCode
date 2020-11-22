@@ -1,0 +1,35 @@
+        -:    0:Source:/home/ray/Desktop/TheRayCode/CPP/Decorator/Decorator.h
+        -:    0:Graph:/home/ray/Desktop/TheRayCode/CPP/Decorator/cmake-build-debug-coverage/CMakeFiles/Decorator.dir/main.cpp.gcno
+        -:    0:Data:/home/ray/Desktop/TheRayCode/CPP/Decorator/cmake-build-debug-coverage/CMakeFiles/Decorator.dir/main.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by ray on 8/25/20.
+        -:    3://
+        -:    4:
+        -:    5:#ifndef DECORATOR_DECORATOR_H
+        -:    6:#define DECORATOR_DECORATOR_H
+        -:    7:
+        -:    8:#include "Component.h"
+        -:    9:
+        -:   10:class Decorator : public Component {
+        -:   11:    /**
+        -:   12:     * @var Component
+        -:   13:     */
+        -:   14:protected:
+        -:   15:    Component* component_;
+        -:   16:
+        -:   17:public:
+        2:   18:    Decorator(Component* component) : component_(component) {
+        2:   18-block  0
+        2:   19:    }
+        -:   20:    /**
+        -:   21:     * The Decorator delegates all work to the wrapped component.
+        -:   22:     */
+        2:   23:    std::string Operation() const override {
+        2:   24:        return this->component_->Operation();
+        2:   24-block  0
+        -:   25:    }
+        -:   26:};
+        -:   27:
+        -:   28:
+        -:   29:#endif //DECORATOR_DECORATOR_H
