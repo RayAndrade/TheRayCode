@@ -82,31 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ray/Desktop/TheRayCode/CPP/Decorator/Component.cpp">
-			<Option target="Decorator"/>
-		</Unit>
 		<Unit filename="/home/ray/Desktop/TheRayCode/CPP/Decorator/Component.h">
-			<Option target="Decorator"/>
-		</Unit>
-		<Unit filename="/home/ray/Desktop/TheRayCode/CPP/Decorator/ConcreteComponent.cpp">
 			<Option target="Decorator"/>
 		</Unit>
 		<Unit filename="/home/ray/Desktop/TheRayCode/CPP/Decorator/ConcreteComponent.h">
 			<Option target="Decorator"/>
 		</Unit>
-		<Unit filename="/home/ray/Desktop/TheRayCode/CPP/Decorator/ConcreteDecoratorA.cpp">
-			<Option target="Decorator"/>
-		</Unit>
 		<Unit filename="/home/ray/Desktop/TheRayCode/CPP/Decorator/ConcreteDecoratorA.h">
 			<Option target="Decorator"/>
 		</Unit>
-		<Unit filename="/home/ray/Desktop/TheRayCode/CPP/Decorator/ConcreteDecoratorB.cpp">
-			<Option target="Decorator"/>
-		</Unit>
 		<Unit filename="/home/ray/Desktop/TheRayCode/CPP/Decorator/ConcreteDecoratorB.h">
-			<Option target="Decorator"/>
-		</Unit>
-		<Unit filename="/home/ray/Desktop/TheRayCode/CPP/Decorator/Decorator.cpp">
 			<Option target="Decorator"/>
 		</Unit>
 		<Unit filename="/home/ray/Desktop/TheRayCode/CPP/Decorator/Decorator.h">
