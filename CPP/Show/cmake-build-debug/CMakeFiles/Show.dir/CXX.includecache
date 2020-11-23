@@ -6,7 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/ray/Desktop/TheRayCode/CPP/Show/main.cpp
+/home/ray/Desktop/TheRayCode/CPP/Show/Component.h
 iostream
 -
+
+/home/ray/Desktop/TheRayCode/CPP/Show/ConcreteComponent.h
+Component.h
+/home/ray/Desktop/TheRayCode/CPP/Show/Component.h
+
+/home/ray/Desktop/TheRayCode/CPP/Show/ConcreteDecoratorA.h
+Decorator.h
+/home/ray/Desktop/TheRayCode/CPP/Show/Decorator.h
+
+/home/ray/Desktop/TheRayCode/CPP/Show/ConcreteDecoratorB.h
+Decorator.h
+/home/ray/Desktop/TheRayCode/CPP/Show/Decorator.h
+
+/home/ray/Desktop/TheRayCode/CPP/Show/Decorator.h
+Component.h
+/home/ray/Desktop/TheRayCode/CPP/Show/Component.h
+
+/home/ray/Desktop/TheRayCode/CPP/Show/main.cpp
+ConcreteComponent.h
+/home/ray/Desktop/TheRayCode/CPP/Show/ConcreteComponent.h
+ConcreteDecoratorA.h
+/home/ray/Desktop/TheRayCode/CPP/Show/ConcreteDecoratorA.h
+ConcreteDecoratorB.h
+/home/ray/Desktop/TheRayCode/CPP/Show/ConcreteDecoratorB.h
 
