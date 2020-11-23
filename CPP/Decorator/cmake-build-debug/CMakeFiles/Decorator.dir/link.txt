@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Decorator.dir/main.cpp.o CMakeFiles/Decorator.dir/Component.cpp.o CMakeFiles/Decorator.dir/ConcreteComponent.cpp.o CMakeFiles/Decorator.dir/Decorator.cpp.o CMakeFiles/Decorator.dir/ConcreteDecoratorA.cpp.o CMakeFiles/Decorator.dir/ConcreteDecoratorB.cpp.o  -o Decorator 
+/usr/bin/c++  -g   CMakeFiles/Decorator.dir/main.cpp.o  -o Decorator 
