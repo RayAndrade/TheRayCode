@@ -33,5 +33,7 @@ int main() {
     delete decorator1;
     delete decorator2;
 
+    std::cout << "\n\n";
+
     return 0;
 }

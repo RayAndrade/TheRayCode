@@ -3,4 +3,4 @@ project(Decorator)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Decorator main.cpp Component.cpp Component.h ConcreteComponent.cpp ConcreteComponent.h Decorator.cpp Decorator.h ConcreteDecoratorA.cpp ConcreteDecoratorA.h ConcreteDecoratorB.cpp ConcreteDecoratorB.h)
+add_executable(Decorator main.cpp Component.h ConcreteComponent.h Decorator.h ConcreteDecoratorA.h ConcreteDecoratorB.h)
