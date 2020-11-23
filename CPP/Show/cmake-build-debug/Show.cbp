@@ -82,6 +82,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ray/Desktop/TheRayCode/CPP/Show/Component.h">
+			<Option target="Show"/>
+		</Unit>
+		<Unit filename="/home/ray/Desktop/TheRayCode/CPP/Show/ConcreteComponent.h">
+			<Option target="Show"/>
+		</Unit>
+		<Unit filename="/home/ray/Desktop/TheRayCode/CPP/Show/ConcreteDecoratorA.h">
+			<Option target="Show"/>
+		</Unit>
+		<Unit filename="/home/ray/Desktop/TheRayCode/CPP/Show/ConcreteDecoratorB.h">
+			<Option target="Show"/>
+		</Unit>
+		<Unit filename="/home/ray/Desktop/TheRayCode/CPP/Show/Decorator.h">
+			<Option target="Show"/>
+		</Unit>
 		<Unit filename="/home/ray/Desktop/TheRayCode/CPP/Show/main.cpp">
 			<Option target="Show"/>
 		</Unit>
