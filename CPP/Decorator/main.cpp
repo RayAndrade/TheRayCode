@@ -10,6 +10,7 @@ void ClientCode(Component* component) {
 }
 
 int main() {
+
     /**
      * This way the client code can support both simple components...
      */
@@ -33,5 +34,6 @@ int main() {
     delete decorator1;
     delete decorator2;
 
+    std::cout << "The Ray Code is AWESOME!!!\n";
     return 0;
 }

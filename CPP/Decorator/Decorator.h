@@ -1,11 +1,9 @@
 //
-// Created by ray on 8/25/20.
+// Created by ray on 11/22/20.
 //
 
 #ifndef DECORATOR_DECORATOR_H
 #define DECORATOR_DECORATOR_H
-
-#include "Component.h"
 
 class Decorator : public Component {
     /**
@@ -24,6 +22,5 @@ public:
         return this->component_->Operation();
     }
 };
-
 
 #endif //DECORATOR_DECORATOR_H
