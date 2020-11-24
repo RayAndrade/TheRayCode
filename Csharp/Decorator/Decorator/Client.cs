@@ -2,7 +2,7 @@ using System;
 
 namespace Decorator
 {
-    public class Client
+    class Client
     {
         // The client code works with all objects using the Component interface.
         // This way it can stay independent of the concrete classes of
