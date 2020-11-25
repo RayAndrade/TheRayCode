@@ -3,6 +3,7 @@
 #include "ConcreteDecoratorA.h"
 #include "ConcreteDecoratorB.h"
 
+
 void ClientCode(Component* component) {
     // ...
     std::cout << "RESULT: " << component->Operation();
@@ -10,9 +11,7 @@ void ClientCode(Component* component) {
 }
 
 
-
 int main() {
-
     Component* simple = new ConcreteComponent;
     std::cout << "Client: I've got a simple component:\n";
     ClientCode(simple);
@@ -27,7 +26,6 @@ int main() {
     delete simple;
     delete decorator1;
     delete decorator2;
-
 
 
     std::cout << "\n\n";

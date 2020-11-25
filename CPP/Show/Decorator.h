@@ -1,5 +1,5 @@
 //
-// Created by ray on 11/23/20.
+// Created by ray on 11/24/20.
 //
 
 #ifndef SHOW_DECORATOR_H
@@ -24,7 +24,5 @@ public:
         return this->component_->Operation();
     }
 };
-
-
 
 #endif //SHOW_DECORATOR_H

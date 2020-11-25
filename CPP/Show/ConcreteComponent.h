@@ -1,5 +1,5 @@
 //
-// Created by ray on 11/23/20.
+// Created by ray on 11/24/20.
 //
 
 #ifndef SHOW_CONCRETECOMPONENT_H
@@ -13,5 +13,6 @@ public:
         return "ConcreteComponent";
     }
 };
+
 
 #endif //SHOW_CONCRETECOMPONENT_H
