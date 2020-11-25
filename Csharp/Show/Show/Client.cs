@@ -1,12 +1,13 @@
 namespace Show
 {
     using System;
-    class Client
+    
+    public class Client
     {
-        public void ClientCode(Abstraction abstraction)
+        public void ClientCode(Component component)
         {
-            Console.Write(abstraction.Operation());
+            Console.WriteLine("RESULT: " + component.Operation());
         }
-
+        
     }
 }

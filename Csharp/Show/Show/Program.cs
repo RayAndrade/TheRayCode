@@ -6,20 +6,23 @@ namespace Show
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
-            Console.WriteLine();
-            
             Client client = new Client();
-            Abstraction abstraction;
 
-            abstraction = new Abstraction(new ConcreteImplementationA());
-            client.ClientCode(abstraction);
+            var simple = new ConcreteComponent();
+            Console.WriteLine("Client: I get a simple component:");
+            client.ClientCode(simple);
+            Console.WriteLine();
 
-            abstraction = new Abstraction(new ConcreteImplementationB());
-            client.ClientCode(abstraction);
+            ConcreteDecoratorA decorator1 = new ConcreteDecoratorA(simple);
+            ConcreteDecoratorB decorator2 = new ConcreteDecoratorB(decorator1);
 
+            Console.WriteLine("Client: Now I've got a decorated component:");
+            client.ClientCode(decorator2);
+
+            
             Console.WriteLine();
             Console.WriteLine("The Ray Code show is AWESOME!!!");
         }
+        
     }
 }

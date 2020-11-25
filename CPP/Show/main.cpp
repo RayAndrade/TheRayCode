@@ -10,7 +10,6 @@ void ClientCode(Component* component) {
 }
 
 
-
 int main() {
 
     Component* simple = new ConcreteComponent;
@@ -27,8 +26,6 @@ int main() {
     delete simple;
     delete decorator1;
     delete decorator2;
-
-
 
     std::cout << "\n\n";
     std::cout << "The Ray Code is AWESOME!!!";

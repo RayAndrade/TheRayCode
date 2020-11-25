@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ray/RiderProjects/Show/Show/Show.csproj",
+      "projectUniqueName": "/home/ray/Desktop/TheRayCode/Csharp/Show/Show/Show.csproj",
       "projectName": "Show",
-      "projectPath": "/home/ray/RiderProjects/Show/Show/Show.csproj",
+      "projectPath": "/home/ray/Desktop/TheRayCode/Csharp/Show/Show/Show.csproj",
       "packagesPath": "/home/ray/.nuget/packages/",
-      "outputPath": "/home/ray/RiderProjects/Show/Show/obj/",
+      "outputPath": "/home/ray/Desktop/TheRayCode/Csharp/Show/Show/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

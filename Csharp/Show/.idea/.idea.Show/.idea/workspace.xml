@@ -4,70 +4,72 @@
     <projectFile>Show/Show.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f191a61a-1a9e-4b15-9d4c-7f415b95b658" name="Default Changelist" comment="" />
+    <list default="true" id="f191a61a-1a9e-4b15-9d4c-7f415b95b658" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Show/Component.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/ConcreteComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/ConcreteDecoratorA.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/ConcreteDecoratorB.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/Decorator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/Component.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/Component.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/ConcreteComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/ConcreteComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/ConcreteDecoratorA.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/ConcreteDecoratorA.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/ConcreteDecoratorB.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/ConcreteDecoratorB.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/Decorator.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/Decorator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Show/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Show/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Show/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/Abstraction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Show/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/ConcreteImplementationA.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/ConcreteImplementationB.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/ExtendedAbstraction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/IImplementation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Show/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/Show.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Show.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/Show.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Show.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///home/ray/Desktop/TheRayCode/Csharp/Show/Show/Client.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Show/Composite.cs" />
-        <option value="$PROJECT_DIR$/Show/Component.cs" />
-        <option value="$PROJECT_DIR$/Show/ConcreteComponent.cs" />
-        <option value="$PROJECT_DIR$/Show/Decorator.cs" />
-        <option value="$PROJECT_DIR$/Show/ConcreteDecoratorA.cs" />
-        <option value="$PROJECT_DIR$/Show/ConcreteDecoratorB.cs" />
-        <option value="$PROJECT_DIR$/Show/Subsystem1.cs" />
-        <option value="$PROJECT_DIR$/Show/Subsystem2.cs" />
-        <option value="$PROJECT_DIR$/Show/Facade.cs" />
-        <option value="$PROJECT_DIR$/Show/Flyweight.cs" />
-        <option value="$PROJECT_DIR$/Show/Car.cs" />
-        <option value="$PROJECT_DIR$/Show/IComponent.cs" />
-        <option value="$PROJECT_DIR$/Show/IVisitor.cs" />
-        <option value="$PROJECT_DIR$/Show/ComponentA.cs" />
-        <option value="$PROJECT_DIR$/Show/ComponentB.cs" />
-        <option value="$PROJECT_DIR$/Show/Visitor1.cs" />
-        <option value="$PROJECT_DIR$/Show/Visitor2.cs" />
-        <option value="$PROJECT_DIR$/Show/IHandler.cs" />
-        <option value="$PROJECT_DIR$/Show/AbstractHandler.cs" />
-        <option value="$PROJECT_DIR$/Show/MonkeyHandler.cs" />
-        <option value="$PROJECT_DIR$/Show/SquirrelHandler.cs" />
-        <option value="$PROJECT_DIR$/Show/DogHandler.cs" />
-        <option value="$PROJECT_DIR$/Show/ConcreteFactory1.cs" />
-        <option value="$PROJECT_DIR$/Show/ConcreteProductA1.cs" />
-        <option value="$PROJECT_DIR$/Show/ConcreteProductA2.cs" />
-        <option value="$PROJECT_DIR$/Show/ConcreteProductB1.cs" />
-        <option value="$PROJECT_DIR$/Show/ConcreteProductB2.cs" />
-        <option value="$PROJECT_DIR$/Show/ConcreteFactory2.cs" />
-        <option value="$PROJECT_DIR$/Show/IAbstractFactory.cs" />
-        <option value="$PROJECT_DIR$/Show/IAbstractProductA.cs" />
-        <option value="$PROJECT_DIR$/Show/IAbstractProductB.cs" />
-        <option value="$PROJECT_DIR$/Show/SolidProductA1.cs" />
-        <option value="$PROJECT_DIR$/Show/SolidProductA2.cs" />
-        <option value="$PROJECT_DIR$/Show/SolidProductB1.cs" />
-        <option value="$PROJECT_DIR$/Show/SolidProductB2.cs" />
-        <option value="$PROJECT_DIR$/Show/SolidFactory1.cs" />
-        <option value="$PROJECT_DIR$/Show/SolidFactory2.cs" />
-        <option value="$PROJECT_DIR$/Show/IProduct.cs" />
-        <option value="$PROJECT_DIR$/Show/Creator.cs" />
-        <option value="$PROJECT_DIR$/Show/ConcreteCreator1.cs" />
-        <option value="$PROJECT_DIR$/Show/ConcreteProduct1.cs" />
-        <option value="$PROJECT_DIR$/Show/ConcreteCreator2.cs" />
-        <option value="$PROJECT_DIR$/Show/ConcreteProduct2.cs" />
-        <option value="$PROJECT_DIR$/Show/Singleton.cs" />
-        <option value="$PROJECT_DIR$/Show/IImplementation.cs" />
-        <option value="$PROJECT_DIR$/Show/ExtendedAbstraction.cs" />
-        <option value="$PROJECT_DIR$/Show/Abstraction.cs" />
-        <option value="$PROJECT_DIR$/Show/ConcreteImplementationA.cs" />
-        <option value="$PROJECT_DIR$/Show/ConcreteImplementationB.cs" />
-        <option value="$PROJECT_DIR$/Show/Client.cs" />
-        <option value="$PROJECT_DIR$/Show/Program.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Show/Component.cs" />
+      <option value="$PROJECT_DIR$/Show/Decorator.cs" />
+      <option value="$PROJECT_DIR$/Show/ConcreteComponent.cs" />
+      <option value="$PROJECT_DIR$/Show/ConcreteDecoratorA.cs" />
+      <option value="$PROJECT_DIR$/Show/ConcreteDecoratorB.cs" />
+      <option value="$PROJECT_DIR$/Show/Client.cs" />
+      <option value="$PROJECT_DIR$/Show/Program.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1g7AFsxhQ725CtM55Slr0e38BZc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -157,6 +159,8 @@
       <workItem from="1604044900846" duration="323000" />
       <workItem from="1604167225003" duration="2769000" />
       <workItem from="1604946718332" duration="5196000" />
+      <workItem from="1606358072166" duration="964000" />
+      <workItem from="1606385547014" duration="2191000" />
     </task>
     <servers />
   </component>
@@ -165,68 +169,19 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2610" y="253" width="530" height="598" key="FileChooserDialogImpl" timestamp="1599524209754">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2610" y="253" width="530" height="598" key="FileChooserDialogImpl/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1599524209754" />
-    <state width="1860" height="820" key="GridCell.Tab.0.bottom" timestamp="1604954354777">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1860" height="820" key="GridCell.Tab.0.bottom/1920.0.1920.1080/58.27.1862.1053@1920.0.1920.1080" timestamp="1604954354777" />
-    <state width="1802" height="844" key="GridCell.Tab.0.bottom/1920.0.1920.1080/58.27.1862.1053@58.27.1862.1053" timestamp="1604951713111" />
-    <state width="1860" height="829" key="GridCell.Tab.0.bottom/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1601103608949" />
-    <state width="1793" height="597" key="GridCell.Tab.0.bottom/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1598645839938" />
-    <state width="1860" height="819" key="GridCell.Tab.0.bottom/1920.0.1920.1080/72.27.1848.1053@1920.0.1920.1080" timestamp="1602580813600" />
-    <state width="1860" height="820" key="GridCell.Tab.0.center" timestamp="1604954354777">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1860" height="820" key="GridCell.Tab.0.center/1920.0.1920.1080/58.27.1862.1053@1920.0.1920.1080" timestamp="1604954354777" />
-    <state width="1802" height="844" key="GridCell.Tab.0.center/1920.0.1920.1080/58.27.1862.1053@58.27.1862.1053" timestamp="1604951713111" />
-    <state width="1860" height="829" key="GridCell.Tab.0.center/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1601103608949" />
-    <state width="1793" height="597" key="GridCell.Tab.0.center/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1598645839937" />
-    <state width="1860" height="819" key="GridCell.Tab.0.center/1920.0.1920.1080/72.27.1848.1053@1920.0.1920.1080" timestamp="1602580813600" />
-    <state width="1860" height="820" key="GridCell.Tab.0.left" timestamp="1604954354777">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1860" height="820" key="GridCell.Tab.0.left/1920.0.1920.1080/58.27.1862.1053@1920.0.1920.1080" timestamp="1604954354777" />
-    <state width="1802" height="844" key="GridCell.Tab.0.left/1920.0.1920.1080/58.27.1862.1053@58.27.1862.1053" timestamp="1604951713111" />
-    <state width="1860" height="829" key="GridCell.Tab.0.left/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1601103608949" />
-    <state width="1793" height="597" key="GridCell.Tab.0.left/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1598645839937" />
-    <state width="1860" height="819" key="GridCell.Tab.0.left/1920.0.1920.1080/72.27.1848.1053@1920.0.1920.1080" timestamp="1602580813600" />
-    <state width="1860" height="820" key="GridCell.Tab.0.right" timestamp="1604954354777">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1860" height="820" key="GridCell.Tab.0.right/1920.0.1920.1080/58.27.1862.1053@1920.0.1920.1080" timestamp="1604954354777" />
-    <state width="1802" height="844" key="GridCell.Tab.0.right/1920.0.1920.1080/58.27.1862.1053@58.27.1862.1053" timestamp="1604951713111" />
-    <state width="1860" height="829" key="GridCell.Tab.0.right/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1601103608949" />
-    <state width="1793" height="597" key="GridCell.Tab.0.right/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1598645839938" />
-    <state width="1860" height="819" key="GridCell.Tab.0.right/1920.0.1920.1080/72.27.1848.1053@1920.0.1920.1080" timestamp="1602580813600" />
-    <state x="2553" y="373" key="LayersDialog" timestamp="1598033497476">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2553" y="373" key="LayersDialog/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1598033497476" />
-    <state x="2597" y="115" width="536" height="799" key="RiderGenerateDialog" timestamp="1601102853423">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2597" y="115" width="536" height="799" key="RiderGenerateDialog/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1601102853423" />
-    <state x="720" y="139" width="536" height="799" key="RiderGenerateDialog/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1598644401746" />
-    <state x="2237" y="100" width="1286" height="912" key="SettingsEditor" timestamp="1602577108197">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2237" y="100" key="SettingsEditor/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1598042243041" />
-    <state x="2237" y="100" width="1286" height="912" key="SettingsEditor/1920.0.1920.1080/72.27.1848.1053@1920.0.1920.1080" timestamp="1602577108197" />
-    <state x="2306" y="59" width="1137" height="987" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602535297450">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2306" y="59" width="1137" height="987" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1599521828598" />
-    <state x="2306" y="59" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/72.27.1848.1053@1920.0.1920.1080" timestamp="1602535297450" />
-    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1597460238612">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597460238612" />
   </component>
 </project>
