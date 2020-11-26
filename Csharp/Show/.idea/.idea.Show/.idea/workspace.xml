@@ -4,52 +4,14 @@
     <projectFile>Show/Show.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f191a61a-1a9e-4b15-9d4c-7f415b95b658" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Show/Component.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Show/ConcreteComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Show/ConcreteDecoratorA.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Show/ConcreteDecoratorB.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Show/Decorator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/Component.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/Component.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/ConcreteComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/ConcreteComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/ConcreteDecoratorA.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/ConcreteDecoratorA.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/ConcreteDecoratorB.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/ConcreteDecoratorB.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/Decorator.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/Decorator.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Show/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Show/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Show/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/Abstraction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Show/Client.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/ConcreteImplementationA.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/ConcreteImplementationB.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/ExtendedAbstraction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/IImplementation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Show/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/obj/Show.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Show.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/obj/Show.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Show.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/rider.project.restore.info" afterDir="false" />
-    </list>
+    <list default="true" id="f191a61a-1a9e-4b15-9d4c-7f415b95b658" name="Default Changelist" comment="doing cleanup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -160,8 +122,23 @@
       <workItem from="1604167225003" duration="2769000" />
       <workItem from="1604946718332" duration="5196000" />
       <workItem from="1606358072166" duration="964000" />
-      <workItem from="1606385547014" duration="2191000" />
+      <workItem from="1606385547014" duration="2779000" />
     </task>
+    <task id="LOCAL-00001" summary="doing cleanup">
+      <created>1606390458958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606390458959</updated>
+    </task>
+    <task id="LOCAL-00002" summary="doing cleanup">
+      <created>1606390607776</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606390607776</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,5 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="doing cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="doing cleanup" />
   </component>
 </project>
