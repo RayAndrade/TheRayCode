@@ -17,13 +17,13 @@ public abstract class Component
 
 add:
 
-```python
+```csharp
 public abstract string Operation();
 ```
 
 =================================
 
-```python
+```csharp
 Decorator
 ```
 
