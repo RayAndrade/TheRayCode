@@ -27,16 +27,17 @@ public abstract string Operation();
 Decorator
 ```
 
-```python
+```csharp
 abstract class Decorator: Component
 ```
 
 add:
 
-```python
+```csharp
 protected Component _component;
 ```
 
+```csharp
 public Decorator(Component component)
 {
     this._component = component;
@@ -60,6 +61,8 @@ public override string Operation()
     }
 }
 
+
+```
 
 
 =================================
