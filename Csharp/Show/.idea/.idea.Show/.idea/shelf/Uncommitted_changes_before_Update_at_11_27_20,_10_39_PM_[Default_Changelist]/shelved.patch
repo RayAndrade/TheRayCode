@@ -1,0 +1,238 @@
+Index: Show/Decorator.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>namespace Show\n{\n    abstract class Decorator: Component\n    {\n        protected Component _component;\n\n        public Decorator(Component component)\n        {\n            this._component = component;\n        }\n\n        public void SetComponent(Component component)\n        {\n            this._component = component;\n        }\n        \n        public override string Operation()\n        {\n            if (this._component != null)\n            {\n                return this._component.Operation();\n            }\n            else\n            {\n                return string.Empty;\n            }\n        }\n\n\n\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Show/Decorator.cs b/Show/Decorator.cs
+--- a/Show/Decorator.cs	(revision e083a519108edebb2d7c1ec954c17c5947519565)
++++ b/Show/Decorator.cs	(date 1606544144053)
+@@ -26,7 +26,6 @@
+             }
+         }
+ 
+-
+-
+-    }
++    }
++    
+ }
+\ No newline at end of file
+Index: Show/ConcreteDecoratorA.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>namespace Show\n{\n    class ConcreteDecoratorA: Decorator\n    {\n        public ConcreteDecoratorA(Component component) : base(component)\n        {\n        }\n        public override string Operation()\n        {\n            return $\"ConcreteDecoratorA({base.Operation()})\";\n        }\n\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Show/ConcreteDecoratorA.cs b/Show/ConcreteDecoratorA.cs
+--- a/Show/ConcreteDecoratorA.cs	(revision e083a519108edebb2d7c1ec954c17c5947519565)
++++ b/Show/ConcreteDecoratorA.cs	(date 1606544264647)
+@@ -1,6 +1,6 @@
+ namespace Show
+ {
+-    class ConcreteDecoratorA: Decorator
++    class ConcreteDecoratorA : Decorator
+     {
+         public ConcreteDecoratorA(Component component) : base(component)
+         {
+Index: Show/ConcreteDecoratorB.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>namespace Show\n{\n    class ConcreteDecoratorB : Decorator\n    {\n        public ConcreteDecoratorB(Component component) : base(component)\n        {\n        }\n        public override string Operation()\n        {\n            return $\"ConcreteDecoratorB({base.Operation()})\";\n        }\n\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Show/ConcreteDecoratorB.cs b/Show/ConcreteDecoratorB.cs
+--- a/Show/ConcreteDecoratorB.cs	(revision e083a519108edebb2d7c1ec954c17c5947519565)
++++ b/Show/ConcreteDecoratorB.cs	(date 1606544305495)
+@@ -1,6 +1,6 @@
+ namespace Show
+ {
+-    class ConcreteDecoratorB : Decorator
++    class ConcreteDecoratorB: Decorator
+     {
+         public ConcreteDecoratorB(Component component) : base(component)
+         {
+Index: Show/Client.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>namespace Show\n{\n    using System;\n    \n    public class Client\n    {\n        public void ClientCode(Component component)\n        {\n            Console.WriteLine(\"RESULT: \" + component.Operation());\n        }\n        \n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Show/Client.cs b/Show/Client.cs
+--- a/Show/Client.cs	(revision e083a519108edebb2d7c1ec954c17c5947519565)
++++ b/Show/Client.cs	(date 1606544349804)
+@@ -1,13 +1,13 @@
+-namespace Show
+-{
+-    using System;
+-    
+-    public class Client
++using System;
++
++namespace Show
++{
++    class Client
+     {
+         public void ClientCode(Component component)
+         {
+             Console.WriteLine("RESULT: " + component.Operation());
+         }
+-        
++
+     }
+ }
+\ No newline at end of file
+Index: Show/Program.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using System;\n\nnamespace Show\n{\n    class Program\n    {\n        static void Main(string[] args)\n        {\n            Client client = new Client();\n\n            var simple = new ConcreteComponent();\n            Console.WriteLine(\"Client: I get a simple component:\");\n            client.ClientCode(simple);\n            Console.WriteLine();\n\n            ConcreteDecoratorA decorator1 = new ConcreteDecoratorA(simple);\n            ConcreteDecoratorB decorator2 = new ConcreteDecoratorB(decorator1);\n\n            Console.WriteLine(\"Client: Now I've got a decorated component:\");\n            client.ClientCode(decorator2);\n\n            \n            Console.WriteLine();\n            Console.WriteLine(\"The Ray Code show is AWESOME!!!\");\n        }\n        \n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Show/Program.cs b/Show/Program.cs
+--- a/Show/Program.cs	(revision e083a519108edebb2d7c1ec954c17c5947519565)
++++ b/Show/Program.cs	(date 1606544396221)
+@@ -19,7 +19,6 @@
+             Console.WriteLine("Client: Now I've got a decorated component:");
+             client.ClientCode(decorator2);
+ 
+-            
+             Console.WriteLine();
+             Console.WriteLine("The Ray Code show is AWESOME!!!");
+         }
+Index: .idea/.idea.Show/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoGeneratedRunConfigurationManager\">\n    <projectFile>Show/Show.csproj</projectFile>\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"f191a61a-1a9e-4b15-9d4c-7f415b95b658\" name=\"Default Changelist\" comment=\"doing cleanup\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/../..\" />\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"mock:///home/ray/Desktop/TheRayCode/Csharp/Show/Show/Client.cs\" root0=\"SKIP_HIGHLIGHTING\" />\n  </component>\n  <component name=\"IdeDocumentHistory\">\n    <changedPaths>\n      <option value=\"$PROJECT_DIR$/Show/Component.cs\" />\n      <option value=\"$PROJECT_DIR$/Show/Decorator.cs\" />\n      <option value=\"$PROJECT_DIR$/Show/ConcreteComponent.cs\" />\n      <option value=\"$PROJECT_DIR$/Show/ConcreteDecoratorA.cs\" />\n      <option value=\"$PROJECT_DIR$/Show/ConcreteDecoratorB.cs\" />\n      <option value=\"$PROJECT_DIR$/Show/Client.cs\" />\n      <option value=\"$PROJECT_DIR$/Show/Program.cs\" />\n    </changedPaths>\n  </component>\n  <component name=\"ProjectId\" id=\"1g7AFsxhQ725CtM55Slr0e38BZc\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/../Visitor\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.lookFeel\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"Show\" type=\"DotNetProject\" factoryName=\".NET Project\">\n      <option name=\"EXE_PATH\" value=\"\" />\n      <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"1\" />\n      <option name=\"USE_EXTERNAL_CONSOLE\" value=\"0\" />\n      <option name=\"USE_MONO\" value=\"0\" />\n      <option name=\"RUNTIME_ARGUMENTS\" value=\"\" />\n      <option name=\"PROJECT_PATH\" value=\"$PROJECT_DIR$/Show/Show.csproj\" />\n      <option name=\"PROJECT_EXE_PATH_TRACKING\" value=\"1\" />\n      <option name=\"PROJECT_ARGUMENTS_TRACKING\" value=\"1\" />\n      <option name=\"PROJECT_WORKING_DIRECTORY_TRACKING\" value=\"1\" />\n      <option name=\"PROJECT_KIND\" value=\"DotNetCore\" />\n      <option name=\"PROJECT_TFM\" value=\"\" />\n      <method v=\"2\">\n        <option name=\"Build\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"f191a61a-1a9e-4b15-9d4c-7f415b95b658\" name=\"Default Changelist\" comment=\"\" />\n      <created>1597455181547</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1597455181547</updated>\n      <workItem from=\"1597455215065\" duration=\"3258000\" />\n      <workItem from=\"1597458945487\" duration=\"2155000\" />\n      <workItem from=\"1597517033059\" duration=\"1070000\" />\n      <workItem from=\"1597518280051\" duration=\"21000\" />\n      <workItem from=\"1597518350882\" duration=\"5195000\" />\n      <workItem from=\"1597608274350\" duration=\"3273000\" />\n      <workItem from=\"1597686079745\" duration=\"575000\" />\n      <workItem from=\"1597688140853\" duration=\"14000\" />\n      <workItem from=\"1597688238236\" duration=\"3716000\" />\n      <workItem from=\"1597703353355\" duration=\"479000\" />\n      <workItem from=\"1597780778900\" duration=\"1139000\" />\n      <workItem from=\"1597782486214\" duration=\"2729000\" />\n      <workItem from=\"1597806542077\" duration=\"1741000\" />\n      <workItem from=\"1597854625999\" duration=\"7577000\" />\n      <workItem from=\"1597968744671\" duration=\"407000\" />\n      <workItem from=\"1597969244553\" duration=\"1653000\" />\n      <workItem from=\"1598031909188\" duration=\"1587000\" />\n      <workItem from=\"1598033555128\" duration=\"514000\" />\n      <workItem from=\"1598034458422\" duration=\"3620000\" />\n      <workItem from=\"1598038122711\" duration=\"180000\" />\n      <workItem from=\"1598038341027\" duration=\"3038000\" />\n      <workItem from=\"1598042182064\" duration=\"4256000\" />\n      <workItem from=\"1598047978457\" duration=\"3528000\" />\n      <workItem from=\"1598052039687\" duration=\"915000\" />\n      <workItem from=\"1598639741297\" duration=\"657000\" />\n      <workItem from=\"1598643474109\" duration=\"7815000\" />\n      <workItem from=\"1599251066534\" duration=\"5652000\" />\n      <workItem from=\"1599454168183\" duration=\"4483000\" />\n      <workItem from=\"1599518731363\" duration=\"2468000\" />\n      <workItem from=\"1599521322357\" duration=\"1900000\" />\n      <workItem from=\"1599523461170\" duration=\"762000\" />\n      <workItem from=\"1599524355272\" duration=\"2235000\" />\n      <workItem from=\"1599528646894\" duration=\"2053000\" />\n      <workItem from=\"1599535168765\" duration=\"2545000\" />\n      <workItem from=\"1600201730198\" duration=\"2270000\" />\n      <workItem from=\"1600978239466\" duration=\"5225000\" />\n      <workItem from=\"1601067362269\" duration=\"6631000\" />\n      <workItem from=\"1601074487823\" duration=\"4634000\" />\n      <workItem from=\"1601097712078\" duration=\"3552000\" />\n      <workItem from=\"1601102033498\" duration=\"1532000\" />\n      <workItem from=\"1602529877847\" duration=\"14704000\" />\n      <workItem from=\"1604044900846\" duration=\"323000\" />\n      <workItem from=\"1604167225003\" duration=\"2769000\" />\n      <workItem from=\"1604946718332\" duration=\"5196000\" />\n      <workItem from=\"1606358072166\" duration=\"964000\" />\n      <workItem from=\"1606385547014\" duration=\"2779000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"doing cleanup\">\n      <created>1606390458958</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1606390458959</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"doing cleanup\">\n      <created>1606390607776</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1606390607776</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"UnityProjectConfiguration\" hasMinimizedUI=\"false\" />\n  <component name=\"UnityUnitTestConfiguration\" currentTestLauncher=\"NUnit\" />\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"CLEAR_INITIAL_COMMIT_MESSAGE\" value=\"true\" />\n    <MESSAGE value=\"doing cleanup\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"doing cleanup\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.Show/.idea/workspace.xml b/.idea/.idea.Show/.idea/workspace.xml
+--- a/.idea/.idea.Show/.idea/workspace.xml	(revision e083a519108edebb2d7c1ec954c17c5947519565)
++++ b/.idea/.idea.Show/.idea/workspace.xml	(date 1606545545288)
+@@ -4,7 +4,23 @@
+     <projectFile>Show/Show.csproj</projectFile>
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="f191a61a-1a9e-4b15-9d4c-7f415b95b658" name="Default Changelist" comment="doing cleanup" />
++    <list default="true" id="f191a61a-1a9e-4b15-9d4c-7f415b95b658" name="Default Changelist" comment="doing cleanup">
++      <change beforePath="$PROJECT_DIR$/../Decorator/.idea/.idea.Decorator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator/.idea/.idea.Decorator/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Decorator/Decorator/bin/Debug/netcoreapp3.1/Decorator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator/Decorator/bin/Debug/netcoreapp3.1/Decorator.dll" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Decorator/Decorator/bin/Debug/netcoreapp3.1/Decorator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator/Decorator/bin/Debug/netcoreapp3.1/Decorator.pdb" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Decorator/Decorator/obj/Debug/netcoreapp3.1/Decorator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator/Decorator/obj/Debug/netcoreapp3.1/Decorator.dll" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/../Decorator/Decorator/obj/Debug/netcoreapp3.1/Decorator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator/Decorator/obj/Debug/netcoreapp3.1/Decorator.pdb" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Show/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Show/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Show/Client.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Show/ConcreteDecoratorA.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Show/ConcreteDecoratorA.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Show/ConcreteDecoratorB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Show/ConcreteDecoratorB.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Show/Decorator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Show/Decorator.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Show/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Show/Program.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.dll" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.pdb" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.dll" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.pdb" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -14,9 +30,6 @@
+     <option name="PUSH_AUTO_UPDATE" value="true" />
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+   </component>
+-  <component name="HighlightingSettingsPerFile">
+-    <setting file="mock:///home/ray/Desktop/TheRayCode/Csharp/Show/Show/Client.cs" root0="SKIP_HIGHLIGHTING" />
+-  </component>
+   <component name="IdeDocumentHistory">
+     <changedPaths>
+       <option value="$PROJECT_DIR$/Show/Component.cs" />
+@@ -38,6 +51,7 @@
+   </component>
+   <component name="PropertiesComponent">
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
++    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Visitor" />
+     <property name="node.js.detected.package.eslint" value="true" />
+@@ -123,6 +137,7 @@
+       <workItem from="1604946718332" duration="5196000" />
+       <workItem from="1606358072166" duration="964000" />
+       <workItem from="1606385547014" duration="2779000" />
++      <workItem from="1606543109027" duration="1902000" />
+     </task>
+     <task id="LOCAL-00001" summary="doing cleanup">
+       <created>1606390458958</created>
+Index: ../Decorator/.idea/.idea.Decorator/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"388a93ad-821e-4f81-987e-a83d59ae6f91\" name=\"Default Changelist\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/../../CPP/Show/Component.h\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../../CPP/Show/ConcreteComponent.h\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../../CPP/Show/ConcreteDecoratorA.h\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../../CPP/Show/ConcreteDecoratorB.h\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../../CPP/Show/Decorator.h\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../../CPP/Show/CMakeLists.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../../CPP/Show/CMakeLists.txt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/CXX.includecache\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/CXX.includecache\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/depend.internal\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/depend.internal\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/depend.make\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/depend.make\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/main.cpp.o\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/main.cpp.o\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show.cbp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show.cbp\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../../CPP/Show/main.cpp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../../CPP/Show/main.cpp\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/.idea.Decorator/.idea/contentModel.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/.idea.Decorator/.idea/contentModel.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/.idea.Decorator/.idea/modules.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/.idea.Decorator/.idea/modules.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/.idea.Decorator/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/.idea.Decorator/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Decorator/bin/Debug/netcoreapp3.1/Decorator\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Decorator/bin/Debug/netcoreapp3.1/Decorator\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Decorator/bin/Debug/netcoreapp3.1/Decorator.dll\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Decorator/bin/Debug/netcoreapp3.1/Decorator.dll\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Decorator/bin/Debug/netcoreapp3.1/Decorator.pdb\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Decorator/bin/Debug/netcoreapp3.1/Decorator.pdb\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.assets.cache\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.assets.cache\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.csproj.FileListAbsolute.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.csproj.FileListAbsolute.txt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.csprojAssemblyReference.cache\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.csprojAssemblyReference.cache\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.dll\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.dll\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.pdb\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.pdb\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Decorator/obj/Decorator.csproj.nuget.dgspec.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Decorator/obj/Decorator.csproj.nuget.dgspec.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Decorator/obj/Decorator.csproj.nuget.g.props\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Decorator/obj/Decorator.csproj.nuget.g.props\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Decorator/obj/project.assets.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Decorator/obj/project.assets.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Decorator/obj/project.nuget.cache\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Decorator/obj/project.nuget.cache\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Decorator/obj/project.packagespec.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Decorator/obj/project.packagespec.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/Decorator/obj/rider.project.restore.info\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Decorator/obj/rider.project.restore.info\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/../..\" />\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"file://$PROJECT_DIR$/Decorator/ConcreteComponent.cs\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/Decorator/Component.cs\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/Decorator/ConcreteDecoratorA.cs\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/Decorator/ConcreteDecoratorB.cs\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/Decorator/Client.cs\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/Decorator/Decorator.cs\" root0=\"FORCE_HIGHLIGHTING\" />\n    <setting file=\"file://$PROJECT_DIR$/Decorator/Program.cs\" root0=\"FORCE_HIGHLIGHTING\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1eEbqcOI7qBFMA62dvaZyCQkY4c\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"Decorator\" type=\"DotNetProject\" factoryName=\".NET Project\">\n      <option name=\"EXE_PATH\" value=\"\" />\n      <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"1\" />\n      <option name=\"USE_EXTERNAL_CONSOLE\" value=\"0\" />\n      <option name=\"USE_MONO\" value=\"0\" />\n      <option name=\"RUNTIME_ARGUMENTS\" value=\"\" />\n      <option name=\"PROJECT_PATH\" value=\"$PROJECT_DIR$/Decorator/Decorator.csproj\" />\n      <option name=\"PROJECT_EXE_PATH_TRACKING\" value=\"1\" />\n      <option name=\"PROJECT_ARGUMENTS_TRACKING\" value=\"1\" />\n      <option name=\"PROJECT_WORKING_DIRECTORY_TRACKING\" value=\"1\" />\n      <option name=\"PROJECT_KIND\" value=\"DotNetCore\" />\n      <option name=\"PROJECT_TFM\" value=\"\" />\n      <method v=\"2\">\n        <option name=\"Build\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"388a93ad-821e-4f81-987e-a83d59ae6f91\" name=\"Default Changelist\" comment=\"\" />\n      <created>1593889890992</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1593889890992</updated>\n      <workItem from=\"1593889895015\" duration=\"90000\" />\n      <workItem from=\"1596084818299\" duration=\"449000\" />\n      <workItem from=\"1597997449140\" duration=\"35000\" />\n      <workItem from=\"1598042108682\" duration=\"68000\" />\n      <workItem from=\"1606172054158\" duration=\"49000\" />\n      <workItem from=\"1606172176811\" duration=\"14000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"UnityProjectConfiguration\" hasMinimizedUI=\"false\" />\n  <component name=\"UnityUnitTestConfiguration\" currentTestLauncher=\"NUnit\" />\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"CLEAR_INITIAL_COMMIT_MESSAGE\" value=\"true\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Decorator/.idea/.idea.Decorator/.idea/workspace.xml b/../Decorator/.idea/.idea.Decorator/.idea/workspace.xml
+--- a/../Decorator/.idea/.idea.Decorator/.idea/workspace.xml	(revision e083a519108edebb2d7c1ec954c17c5947519565)
++++ b/../Decorator/.idea/.idea.Decorator/.idea/workspace.xml	(date 1606543083668)
+@@ -2,38 +2,11 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="388a93ad-821e-4f81-987e-a83d59ae6f91" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/../../CPP/Show/Component.h" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../../CPP/Show/ConcreteComponent.h" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../../CPP/Show/ConcreteDecoratorA.h" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../../CPP/Show/ConcreteDecoratorB.h" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../../CPP/Show/Decorator.h" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/CMakeLists.txt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/CXX.includecache" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/depend.internal" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/depend.make" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/main.cpp.o" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show.cbp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/main.cpp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Decorator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Decorator/.idea/contentModel.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Decorator/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Decorator/.idea/modules.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/.idea.Decorator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Decorator/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Decorator/bin/Debug/netcoreapp3.1/Decorator" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/bin/Debug/netcoreapp3.1/Decorator" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Decorator/bin/Debug/netcoreapp3.1/Decorator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/bin/Debug/netcoreapp3.1/Decorator.dll" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Decorator/bin/Debug/netcoreapp3.1/Decorator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/bin/Debug/netcoreapp3.1/Decorator.pdb" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.assets.cache" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.csproj.FileListAbsolute.txt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.csprojAssemblyReference.cache" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.dll" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.pdb" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Decorator/obj/Decorator.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/Decorator.csproj.nuget.dgspec.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Decorator/obj/Decorator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/Decorator.csproj.nuget.g.props" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Decorator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/project.assets.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Decorator/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/project.nuget.cache" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Decorator/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/project.packagespec.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Decorator/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/rider.project.restore.info" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -62,6 +35,12 @@
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="node.js.detected.package.eslint" value="true" />
++    <property name="node.js.detected.package.tslint" value="true" />
++    <property name="node.js.path.for.package.eslint" value="project" />
++    <property name="node.js.path.for.package.tslint" value="project" />
++    <property name="node.js.selected.package.eslint" value="(autodetect)" />
++    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
+   <component name="RunManager">
+@@ -98,6 +77,8 @@
+       <workItem from="1598042108682" duration="68000" />
+       <workItem from="1606172054158" duration="49000" />
+       <workItem from="1606172176811" duration="14000" />
++      <workItem from="1606390973289" duration="641000" />
++      <workItem from="1606543063044" duration="21000" />
+     </task>
+     <servers />
+   </component>

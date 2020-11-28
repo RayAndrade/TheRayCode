@@ -4,15 +4,7 @@
     <projectFile>Show/Show.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f191a61a-1a9e-4b15-9d4c-7f415b95b658" name="Default Changelist" comment="getting ready for a trial run">
-      <change beforePath="$PROJECT_DIR$/Show/Client.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/Component.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/ConcreteComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/ConcreteDecoratorA.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/ConcreteDecoratorB.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/Decorator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Show/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="f191a61a-1a9e-4b15-9d4c-7f415b95b658" name="Default Changelist" comment="getting ready for a trial run again" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +12,12 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
@@ -35,6 +33,7 @@
   </component>
   <component name="ProjectId" id="1g7AFsxhQ725CtM55Slr0e38BZc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -129,7 +128,7 @@
       <workItem from="1604946718332" duration="5196000" />
       <workItem from="1606358072166" duration="964000" />
       <workItem from="1606385547014" duration="2779000" />
-      <workItem from="1606543109027" duration="3844000" />
+      <workItem from="1606543109027" duration="4458000" />
     </task>
     <task id="LOCAL-00001" summary="doing cleanup">
       <created>1606390458958</created>
@@ -159,7 +158,42 @@
       <option name="project" value="LOCAL" />
       <updated>1606547004132</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="getting ready for a trial run again">
+      <created>1606547534668</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606547534668</updated>
+    </task>
+    <task id="LOCAL-00006" summary="getting ready for a trial run again">
+      <created>1606547599021</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606547599021</updated>
+    </task>
+    <task id="LOCAL-00007" summary="getting ready for a trial run again">
+      <created>1606547653528</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606547653528</updated>
+    </task>
+    <task id="LOCAL-00008" summary="getting ready for a trial run again">
+      <created>1606547734474</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606547734474</updated>
+    </task>
+    <task id="LOCAL-00009" summary="getting ready for a trial run again">
+      <created>1606547818815</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606547818815</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +217,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="doing cleanup" />
     <MESSAGE value="getting ready for a trial run" />
-    <option name="LAST_COMMIT_MESSAGE" value="getting ready for a trial run" />
+    <MESSAGE value="getting ready for a trial run again" />
+    <option name="LAST_COMMIT_MESSAGE" value="getting ready for a trial run again" />
   </component>
 </project>
