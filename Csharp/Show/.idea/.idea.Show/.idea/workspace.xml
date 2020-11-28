@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f191a61a-1a9e-4b15-9d4c-7f415b95b658" name="Default Changelist" comment="getting ready for a trial run">
-      <change beforePath="$PROJECT_DIR$/Show/Client.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/Component.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/ConcreteComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/ConcreteDecoratorA.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/ConcreteDecoratorB.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/Decorator.cs" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/Client.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/Component.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/ConcreteComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/ConcreteDecoratorA.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/ConcreteDecoratorB.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/Decorator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Show/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Show/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Show/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +20,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
@@ -35,6 +43,7 @@
   </component>
   <component name="ProjectId" id="1g7AFsxhQ725CtM55Slr0e38BZc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -159,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606547004132</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit message">
+      <created>1606548281829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606548281829</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +199,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="doing cleanup" />
     <MESSAGE value="getting ready for a trial run" />
-    <option name="LAST_COMMIT_MESSAGE" value="getting ready for a trial run" />
+    <MESSAGE value="Commit message" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit message" />
   </component>
 </project>
