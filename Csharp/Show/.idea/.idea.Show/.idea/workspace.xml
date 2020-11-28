@@ -4,22 +4,19 @@
     <projectFile>Show/Show.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f191a61a-1a9e-4b15-9d4c-7f415b95b658" name="Default Changelist" comment="doing cleanup">
-      <change beforePath="$PROJECT_DIR$/../Decorator/.idea/.idea.Decorator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator/.idea/.idea.Decorator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Decorator/Decorator/bin/Debug/netcoreapp3.1/Decorator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator/Decorator/bin/Debug/netcoreapp3.1/Decorator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Decorator/Decorator/bin/Debug/netcoreapp3.1/Decorator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator/Decorator/bin/Debug/netcoreapp3.1/Decorator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Decorator/Decorator/obj/Debug/netcoreapp3.1/Decorator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator/Decorator/obj/Debug/netcoreapp3.1/Decorator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Decorator/Decorator/obj/Debug/netcoreapp3.1/Decorator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Decorator/Decorator/obj/Debug/netcoreapp3.1/Decorator.pdb" afterDir="false" />
+    <list default="true" id="f191a61a-1a9e-4b15-9d4c-7f415b95b658" name="Default Changelist" comment="getting ready for a trial run">
+      <change afterPath="$PROJECT_DIR$/Show/Client.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/Component.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/ConcreteComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/ConcreteDecoratorA.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/ConcreteDecoratorB.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/Decorator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Show/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Show/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/Client.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/Component.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/ConcreteComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/ConcreteDecoratorA.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/ConcreteDecoratorB.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/Decorator.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Show/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Show/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.pdb" afterDir="false" />
     </list>
@@ -139,7 +136,7 @@
       <workItem from="1604946718332" duration="5196000" />
       <workItem from="1606358072166" duration="964000" />
       <workItem from="1606385547014" duration="2779000" />
-      <workItem from="1606543109027" duration="2231000" />
+      <workItem from="1606543109027" duration="3348000" />
     </task>
     <task id="LOCAL-00001" summary="doing cleanup">
       <created>1606390458958</created>
@@ -155,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606390607776</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="getting ready for a trial run">
+      <created>1606546018512</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606546018512</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +182,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="doing cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="doing cleanup" />
+    <MESSAGE value="getting ready for a trial run" />
+    <option name="LAST_COMMIT_MESSAGE" value="getting ready for a trial run" />
   </component>
 </project>
