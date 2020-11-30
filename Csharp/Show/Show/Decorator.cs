@@ -13,7 +13,7 @@ namespace Show
         {
             this._component = component;
         }
-        
+
         public override string Operation()
         {
             if (this._component != null)
@@ -25,5 +25,7 @@ namespace Show
                 return string.Empty;
             }
         }
+
+
     }
 }

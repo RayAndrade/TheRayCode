@@ -19,7 +19,8 @@ namespace Show
             Console.WriteLine("Client: Now I've got a decorated component:");
             client.ClientCode(decorator2);
 
-            
+
+
             Console.WriteLine();
             Console.WriteLine("The Ray Code show is AWESOME!!!");
         }

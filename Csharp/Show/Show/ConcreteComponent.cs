@@ -5,6 +5,7 @@ namespace Show
         public override string Operation()
         {
             return "ConcreteComponent";
+
         }
     }
 }

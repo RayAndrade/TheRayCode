@@ -1,6 +1,6 @@
 namespace Show
 {
-    class ConcreteDecoratorA: Decorator
+     class ConcreteDecoratorA: Decorator
     {
         public ConcreteDecoratorA(Component component) : base(component)
         {
@@ -9,6 +9,7 @@ namespace Show
         {
             return $"ConcreteDecoratorA({base.Operation()})";
         }
+
 
     }
 }
