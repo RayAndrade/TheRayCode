@@ -1,7 +1,6 @@
 package TheRayCode.Show.some_complex_media_library;
 
 public class CodecFactory {
-
     public static Codec extract(VideoFile file) {
         String type = file.getCodecType();
         if (type.equals("mp4")) {
@@ -11,6 +10,5 @@ public class CodecFactory {
         else {
             System.out.println("CodecFactory: extracting ogg audio...");
             return new OggCompressionCodec();
-        }
-    }
+        } }
 }

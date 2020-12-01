@@ -1,7 +1,6 @@
 package TheRayCode.Show.some_complex_media_library;
 
 public class VideoFile {
-
     private String name;
     private String codecType;
 
