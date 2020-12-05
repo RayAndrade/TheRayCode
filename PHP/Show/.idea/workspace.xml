@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="136a1ffa-e960-4283-bc18-cab8a6c34ea3" name="Default Changelist" comment="" />
+    <list default="true" id="136a1ffa-e960-4283-bc18-cab8a6c34ea3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Java/Show/out/production/Show/TheRayCode/Show/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/out/production/Show/TheRayCode/Show/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Show/out/production/Show/TheRayCode/Show/facade/VideoConversionFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/out/production/Show/TheRayCode/Show/facade/VideoConversionFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Show/out/production/Show/TheRayCode/Show/some_complex_media_library/AudioMixer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/out/production/Show/TheRayCode/Show/some_complex_media_library/AudioMixer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/facade/VideoConversionFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/facade/VideoConversionFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/AudioMixer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/AudioMixer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/BitrateReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/BitrateReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/CodecFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/CodecFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/MPEG4CompressionCodec.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/MPEG4CompressionCodec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/OggCompressionCodec.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/OggCompressionCodec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/VideoFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/VideoFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adaptee.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adapter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Target.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,13 +30,20 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
   <component name="ProjectId" id="1fcyyrTeVBrlCQ9sA3mO6RPn22h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -111,55 +135,22 @@
       <workItem from="1604431868915" duration="346000" />
       <workItem from="1604442179982" duration="4366000" />
       <workItem from="1605128886100" duration="19000" />
+      <workItem from="1607124975653" duration="1000000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="2669" y="233" width="412" height="666" key="#com.intellij.ide.util.MemberChooser" timestamp="1602359768399">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2669" y="233" width="412" height="638" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1600025957971" />
-    <state x="790" y="254" width="412" height="623" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597710136284" />
-    <state x="2669" y="233" width="412" height="666" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/72.27.1848.1053@1920.0.1920.1080" timestamp="1602359768399" />
-    <state x="1966" y="357" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1597269794655">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="1966" y="357" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1597269794655" />
-    <state x="2510" y="284" width="730" height="536" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596863983128">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2510" y="284" width="730" height="536" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1596863983128" />
-    <state x="2663" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603215631235">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2663" y="311" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/58.27.1862.1053@1920.0.1920.1080" timestamp="1603215631235" />
-    <state x="2017" y="285" width="433" height="582" key="NewPhpClassDialog" timestamp="1604446677023">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2017" y="285" width="433" height="582" key="NewPhpClassDialog/1920.0.1920.1080/58.27.1862.1053@1920.0.1920.1080" timestamp="1604446677023" />
-    <state x="2017" y="285" width="445" height="561" key="NewPhpClassDialog/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1600025927966" />
-    <state x="161" y="305" width="445" height="547" key="NewPhpClassDialog/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597710877483" />
-    <state x="2017" y="285" width="433" height="638" key="NewPhpClassDialog/1920.0.1920.1080/72.27.1848.1053@1920.0.1920.1080" timestamp="1602359935873" />
-    <state x="2674" y="478" width="399" height="156" key="NewPhpFileDialog" timestamp="1602279793026">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2674" y="478" width="399" height="149" key="NewPhpFileDialog/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1600023096009" />
-    <state x="2674" y="478" width="399" height="156" key="NewPhpFileDialog/1920.0.1920.1080/72.27.1848.1053@1920.0.1920.1080" timestamp="1602279793026" />
-    <state x="2369" y="187" width="1022" height="737" key="SettingsEditor" timestamp="1604444353770">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2369" y="187" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/58.27.1862.1053@1920.0.1920.1080" timestamp="1604444353770" />
-    <state x="2369" y="187" key="SettingsEditor/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1596924800967" />
-    <state x="2316" y="127" width="1118" height="850" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599460725403">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2316" y="127" width="1118" height="850" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1599460725403" />
-    <state x="2543" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1602275726922">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2543" y="259" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/72.27.1848.1053@1920.0.1920.1080" timestamp="1602275726922" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -10,5 +10,6 @@ public class CodecFactory {
         else {
             System.out.println("CodecFactory: extracting ogg audio...");
             return new OggCompressionCodec();
-        } }
+        }
+    }
 }

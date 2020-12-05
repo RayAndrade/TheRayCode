@@ -10,4 +10,5 @@ public class BitrateReader {
         System.out.println("BitrateReader: writing file...");
         return buffer;
     }
+
 }

@@ -1,10 +1,10 @@
 package TheRayCode.Show.facade;
-
 import java.io.File;
+
 import TheRayCode.Show.some_complex_media_library.*;
 
-public class VideoConversionFacade {
 
+public class VideoConversionFacade {
     public File convertVideo(String fileName, String format) {
         System.out.println("VideoConversionFacade: conversion started.");
         VideoFile file = new VideoFile(fileName);
@@ -24,6 +24,5 @@ public class VideoConversionFacade {
         File result = (new AudioMixer()).fix(intermediateResult);
         System.out.println("VideoConversionFacade: conversion completed.");
         return result;
-
     }
 }
