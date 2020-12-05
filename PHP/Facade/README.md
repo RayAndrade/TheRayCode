@@ -7,7 +7,7 @@ In this show I plan to cover the Facade design pattern
 The Facade pattern provides a unified interface in a subsystem. The Facade defines a HIGHER level interface easier to use.
 
 let’s create 2 classes:
-** Subsystem1 ** and ** Subsystem2 **
+**Subsystem1** and **Subsystem2**
 
 ```php
 Subsystem1
@@ -60,6 +60,8 @@ $this->subsystem1 = $subsystem1 ?: new Subsystem1;
 $this->subsystem2 = $subsystem2 ?: new Subsystem2;
 }
 ```
+
+
 ```php
 public function operation(): string
 {
@@ -73,8 +75,6 @@ $result .= $this->subsystem2->operationZ();
 return $result;
 }
 ```
-
-========================================
 
 last we go to the index page 
 we add includes the file we just created
@@ -97,7 +97,7 @@ $subsystem2 = new Subsystem2;
 $facade = new Facade($subsystem1, $subsystem2);
 clientCode($facade);
 ```
-==================================
+
 
 Facade is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes.
 
