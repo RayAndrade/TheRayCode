@@ -10,7 +10,6 @@ class Subsystem2
     {
         return "Subsystem2: Ready!<br/>";
     }
-
     public function operationZ(): string
     {
         return "Subsystem2: Fire!<br/>";

@@ -1,6 +1,8 @@
 <?php
 
+
 namespace TheRayCode\Facade;
+
 
 class Subsystem1
 {
@@ -12,5 +14,4 @@ class Subsystem1
     {
         return "Subsystem1: Go!<br/>";
     }
-
 }

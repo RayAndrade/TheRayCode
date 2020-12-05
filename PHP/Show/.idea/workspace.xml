@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="136a1ffa-e960-4283-bc18-cab8a6c34ea3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Java/Show/out/production/Show/TheRayCode/Show/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/out/production/Show/TheRayCode/Show/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Show/out/production/Show/TheRayCode/Show/facade/VideoConversionFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/out/production/Show/TheRayCode/Show/facade/VideoConversionFacade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Show/out/production/Show/TheRayCode/Show/some_complex_media_library/AudioMixer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/out/production/Show/TheRayCode/Show/some_complex_media_library/AudioMixer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/facade/VideoConversionFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/facade/VideoConversionFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/AudioMixer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/AudioMixer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/BitrateReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/BitrateReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/CodecFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/CodecFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/MPEG4CompressionCodec.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/MPEG4CompressionCodec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/OggCompressionCodec.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/OggCompressionCodec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/VideoFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/some_complex_media_library/VideoFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adaptee.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adapter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Target.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subsystem1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subsystem2.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,6 +124,7 @@
       <workItem from="1604442179982" duration="4366000" />
       <workItem from="1605128886100" duration="19000" />
       <workItem from="1607124975653" duration="1000000" />
+      <workItem from="1607192467916" duration="460000" />
     </task>
     <servers />
   </component>
@@ -152,5 +141,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
