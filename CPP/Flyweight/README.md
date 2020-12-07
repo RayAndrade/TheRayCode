@@ -8,63 +8,63 @@ SharedState
 
 **Flyweight.h**
 
-``cpp
+```cpp
 #include "SharedState.h"
 #include "UniqueState.h"
-``
+```
 
-``cpp
+```cpp
 class Flyweight
 { };
-``
+```
 
-``cpp
+``javascript
 private:
-``
+```
 
-``cpp
+```cpp
     SharedState *shared_state_;
-``
+```
 
-``cpp
+``javascript
 public:
-``
+```
 
-``cpp
+``javascript
     Flyweight(const SharedState *shared_state) : shared_state_(new SharedState(*shared_state))
     {
     }
-``
+```
 
-``cpp
+```cpp
  Flyweight(const Flyweight &other) : shared_state_(new SharedState(*other.shared_state_))
  {  }
-``
+```
 
-``cpp
+```cpp
     ~Flyweight()
     {
         delete shared_state_;
     }
-``
+```
 
-``cpp
+```cpp
   SharedState *shared_state() const
     {
         return shared_state_;
     }
-``
+```
 
-``cpp
+```cpp
 void Operation(const UniqueState &unique_state) const
 {
    std::cout << "Flyweight: Displaying shared (" << *shared_state_ << ") and unique (" << unique_state << ") state.\n";
 }
-``
+```
 
 **FlyweightFactory.h**
 
-```cpp
+```javascript
 #include "Flyweight.h"
 #include <unordered_map>
 ```
