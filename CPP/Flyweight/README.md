@@ -2,7 +2,35 @@
 TheRayCode PHP 
 # TheRayCode
 
-SharedState
+**SharedState.h**
+
+#include <iostream>
+
+```cpp
+struct SharedState
+{ };
+
+```
+```cpp
+    std::string brand_;
+    std::string model_;
+    std::string color_;
+```
+```cpp
+    SharedState(const std::string &brand, const std::string &model, const std::string &color)
+            : brand_(brand), model_(model), color_(color)
+    {
+    }
+```
+```cpp
+    friend std::ostream &operator<<(std::ostream &os, const SharedState &ss)
+    {
+        return os << "[ " << ss.brand_ << " , " << ss.model_ << " , " << ss.color_ << " ]";
+    }
+```
+
+
+
 
 **UniqueState.h**
 ```cpp
@@ -27,7 +55,7 @@ struct UniqueState
     {
         return os << "[ " << us.owner_ << " , " << us.plates_ << " ]";
     }
-```cpp
+```
 
 
 **Flyweight.h**
