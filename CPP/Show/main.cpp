@@ -1,34 +1,43 @@
+#include "FlyweightFactory.h"
 
-#include "ConcreteComponent.h"
-#include "ConcreteDecoratorA.h"
-#include "ConcreteDecoratorB.h"
 
-void ClientCode(Component* component) {
-    // ...
-    std::cout << "RESULT: " << component->Operation();
-    // ...
+// ...
+void AddCarToPoliceDatabase(
+        FlyweightFactory &ff, const std::string &plates, const std::string &owner,
+        const std::string &brand, const std::string &model, const std::string &color)
+{
+    std::cout << "\nClient: Adding a car to database.\n";
+    const Flyweight &flyweight = ff.GetFlyweight({brand, model, color});
+    // The client code either stores or calculates extrinsic state and passes it
+    // to the flyweight's methods.
+    flyweight.Operation({plates, owner});
 }
 
+/**
+ * The client code usually creates a bunch of pre-populated flyweights in the
+ * initialization stage of the application.
+ */
 
-int main() {
+int main()
+{
+    FlyweightFactory *factory = new FlyweightFactory({{"Chevrolet", "Camaro2018", "pink"}, {"Mercedes Benz", "C300", "black"}, {"Mercedes Benz", "C500", "red"}, {"BMW", "M5", "red"}, {"BMW", "X6", "white"}});
+    factory->ListFlyweights();
 
-    Component* simple = new ConcreteComponent;
-    std::cout << "Client: I've got a simple component:\n";
-    ClientCode(simple);
-    std::cout << "\n\n";
+    AddCarToPoliceDatabase(*factory,
+                           "CL234IR",
+                           "James Doe",
+                           "BMW",
+                           "M5",
+                           "red");
 
-    Component* decorator1 = new ConcreteDecoratorA(simple);
-    Component* decorator2 = new ConcreteDecoratorB(decorator1);
-    std::cout << "Client: Now I've got a decorated component:\n";
-    ClientCode(decorator2);
-    std::cout << "\n";
+    AddCarToPoliceDatabase(*factory,
+                           "CL234IR",
+                           "James Doe",
+                           "BMW",
+                           "X1",
+                           "red");
+    factory->ListFlyweights();
+    delete factory;
 
-    delete simple;
-    delete decorator1;
-    delete decorator2;
-
-    std::cout << "\n\n";
-    std::cout << "The Ray Code is AWESOME!!!";
-    std::cout << "\n\n";
     return 0;
 }

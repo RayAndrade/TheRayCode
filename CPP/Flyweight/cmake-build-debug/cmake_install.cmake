@@ -1,4 +1,4 @@
-# Install script for directory: /home/ray/CLionProjects/Flyweight
+# Install script for directory: /home/ray/Desktop/TheRayCode/CPP/Flyweight
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ray/CLionProjects/Flyweight/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ray/Desktop/TheRayCode/CPP/Flyweight/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
