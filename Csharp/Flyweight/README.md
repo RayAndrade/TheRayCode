@@ -19,17 +19,17 @@ public class Car
 ```csharp
 private Car _sharedState;
 
- public Flyweight(Car car)
- {
-     this._sharedState = car;
- }
+public Flyweight(Car car)
+{
+    this._sharedState = car;
+}
 
- public void Operation(Car uniqueState)
- {
-      string s = JsonConvert.SerializeObject(this._sharedState);
-      string u = JsonConvert.SerializeObject(uniqueState);
-      Console.WriteLine($"Flyweight: Displaying shared {s} and unique {u} state.");
- }
+public void Operation(Car uniqueState)
+{
+     string s = JsonConvert.SerializeObject(this._sharedState);
+     string u = JsonConvert.SerializeObject(uniqueState);
+     Console.WriteLine($"Flyweight: Displaying shared {s} and unique {u} state.");
+}
 
 ```
 
