@@ -26,22 +26,26 @@ flyweight.Operation({plates, owner});
 
 // The client code either stores or calculates extrinsic state and passes it
 // to the flyweight's methods. 
-        
+
+```cpp
 int main()
 { }
-
+```
+```cpp
 FlyweightFactory *factory = new FlyweightFactory({{"Chevrolet", "Camaro2018", "pink"}, {"Mercedes Benz", "C300", "black"}, {"Mercedes Benz", "C500", "red"}, {"BMW", "M5", "red"}, {"BMW", "X6", "white"}});
 factory->ListFlyweights();
-
+```
+```cpp
 AddCarToPoliceDatabase(*factory,"CL234IR","James Doe","BMW","M5","red");
-
 AddCarToPoliceDatabase(*factory,"CL234IR","James Doe","BMW","X1","red");
-
+```
+```cpp
 factory->ListFlyweights();
 delete factory;
-
+```
+```cpp
 return 0;
-
+```
 
 
 [Github](https://www.TheRayCode.com)
