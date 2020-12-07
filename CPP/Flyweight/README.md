@@ -47,6 +47,7 @@ public:
         delete shared_state_;
     }
 ``
+
 ``cpp
   SharedState *shared_state() const
     {
