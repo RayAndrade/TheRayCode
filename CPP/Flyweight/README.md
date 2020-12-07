@@ -18,7 +18,7 @@ class Flyweight
 { };
 ```
 
-``javascript
+```cpp
 private:
 ```
 
@@ -26,11 +26,11 @@ private:
     SharedState *shared_state_;
 ```
 
-``javascript
+```cpp
 public:
 ```
 
-``javascript
+```cpp
     Flyweight(const SharedState *shared_state) : shared_state_(new SharedState(*shared_state))
     {
     }
