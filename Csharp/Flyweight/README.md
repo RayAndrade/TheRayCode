@@ -11,12 +11,27 @@ public class Car
    public string Number { get; set; }
    public string Company { get; set; }
    public string Model { get; set; }
-    public string Color { get; set; }
+   public string Color { get; set; }
  }
  
 ```
+**Flyweight.cs**
+```csharp
+private Car _sharedState;
 
+ public Flyweight(Car car)
+ {
+     this._sharedState = car;
+ }
 
+ public void Operation(Car uniqueState)
+ {
+      string s = JsonConvert.SerializeObject(this._sharedState);
+      string u = JsonConvert.SerializeObject(uniqueState);
+      Console.WriteLine($"Flyweight: Displaying shared {s} and unique {u} state.");
+ }
+
+```
 
 
 
