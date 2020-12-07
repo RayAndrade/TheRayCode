@@ -58,11 +58,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ray/RiderProjects/Flyweight/Flyweight/Flyweight.csproj",
+      "projectUniqueName": "/home/ray/Desktop/TheRayCode/Csharp/Flyweight/Flyweight/Flyweight.csproj",
       "projectName": "Flyweight",
-      "projectPath": "/home/ray/RiderProjects/Flyweight/Flyweight/Flyweight.csproj",
+      "projectPath": "/home/ray/Desktop/TheRayCode/Csharp/Flyweight/Flyweight/Flyweight.csproj",
       "packagesPath": "/home/ray/.nuget/packages/",
-      "outputPath": "/home/ray/RiderProjects/Flyweight/Flyweight/obj/",
+      "outputPath": "/home/ray/Desktop/TheRayCode/Csharp/Flyweight/Flyweight/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -110,7 +110,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
       }
     }
   }

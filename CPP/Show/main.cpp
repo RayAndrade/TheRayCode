@@ -1,7 +1,5 @@
 #include "FlyweightFactory.h"
 
-
-// ...
 void AddCarToPoliceDatabase(
         FlyweightFactory &ff, const std::string &plates, const std::string &owner,
         const std::string &brand, const std::string &model, const std::string &color)

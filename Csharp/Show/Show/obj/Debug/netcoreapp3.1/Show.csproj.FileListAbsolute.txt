@@ -24,3 +24,5 @@
 /home/ray/Desktop/TheRayCode/Csharp/Show/Show/obj/Debug/netcoreapp3.1/Show.dll
 /home/ray/Desktop/TheRayCode/Csharp/Show/Show/obj/Debug/netcoreapp3.1/Show.pdb
 /home/ray/Desktop/TheRayCode/Csharp/Show/Show/obj/Debug/netcoreapp3.1/Show.genruntimeconfig.cache
+/home/ray/Desktop/TheRayCode/Csharp/Show/Show/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/ray/Desktop/TheRayCode/Csharp/Show/Show/obj/Debug/netcoreapp3.1/Show.csproj.CopyComplete

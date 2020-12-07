@@ -5,17 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f191a61a-1a9e-4b15-9d4c-7f415b95b658" name="Default Changelist" comment="ready for the show">
-      <change afterPath="$PROJECT_DIR$/../../PHP/Facade/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/Car.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/Flyweight.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Show/FlyweightFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Flyweight/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Flyweight/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Flyweight/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Flyweight/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/Flyweight.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/Flyweight.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/FlyweightFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/FlyweightFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/SharedState.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/SharedState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/UniqueState.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/UniqueState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/.idea/.idea.Flyweight/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/.idea/.idea.Flyweight/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/.idea/.idea.Flyweight/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/.idea/.idea.Flyweight/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/.idea/.idea.Flyweight/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/.idea/.idea.Flyweight/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/Flyweight/bin/Debug/netcoreapp3.1/Flyweight" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/Flyweight/bin/Debug/netcoreapp3.1/Flyweight" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/Flyweight/bin/Debug/netcoreapp3.1/Flyweight.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/Flyweight/bin/Debug/netcoreapp3.1/Flyweight.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/Flyweight/bin/Debug/netcoreapp3.1/Flyweight.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/Flyweight/bin/Debug/netcoreapp3.1/Flyweight.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/Debug/netcoreapp3.1/Flyweight" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/Debug/netcoreapp3.1/Flyweight" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/Debug/netcoreapp3.1/Flyweight.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/Debug/netcoreapp3.1/Flyweight.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/Debug/netcoreapp3.1/Flyweight.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/Debug/netcoreapp3.1/Flyweight.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/Debug/netcoreapp3.1/Flyweight.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/Debug/netcoreapp3.1/Flyweight.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/Debug/netcoreapp3.1/Flyweight.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/Debug/netcoreapp3.1/Flyweight.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/Debug/netcoreapp3.1/Flyweight.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/Debug/netcoreapp3.1/Flyweight.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/Flyweight.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/Flyweight.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/Flyweight.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/Flyweight.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/Flyweight/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Show/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/shelf/Uncommitted_changes_before_Update_at_11_27_20,_10_39_PM_[Default_Changelist]/Decorator.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/shelf/Uncommitted_changes_before_Update_at_11_27_20,_10_39_PM_[Default_Changelist]/Decorator.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/shelf/Uncommitted_changes_before_Update_at_11_27_20,_10_39_PM_[Default_Changelist]/Decorator1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/shelf/Uncommitted_changes_before_Update_at_11_27_20,_10_39_PM_[Default_Changelist]/Decorator1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/shelf/Uncommitted_changes_before_Update_at_11_27_20,_10_39_PM_[Default_Changelist]/Show.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/shelf/Uncommitted_changes_before_Update_at_11_27_20,_10_39_PM_[Default_Changelist]/Show.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/shelf/Uncommitted_changes_before_Update_at_11_27_20,_10_39_PM_[Default_Changelist]/Show1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/shelf/Uncommitted_changes_before_Update_at_11_27_20,_10_39_PM_[Default_Changelist]/Show1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/shelf/Uncommitted_changes_before_Update_at_11_27_20,_10_39_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/shelf/Uncommitted_changes_before_Update_at_11_27_20__10_39_PM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Show/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Show/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/ConcreteComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Show/ConcreteComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/ConcreteDecoratorA.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Show/ConcreteDecoratorA.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/ConcreteDecoratorB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Show/ConcreteDecoratorB.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Show/Decorator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Show/Decorator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/Client.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/Component.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/ConcreteComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/ConcreteDecoratorA.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/ConcreteDecoratorB.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/Decorator.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Show/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Show/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/Show.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Show/Show.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Show/bin/Debug/netcoreapp3.1/Show.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Debug/netcoreapp3.1/Show.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/Show.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/Show.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Show/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Show/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +95,10 @@
       <option value="$PROJECT_DIR$/Show/ConcreteDecoratorA.cs" />
       <option value="$PROJECT_DIR$/Show/ConcreteDecoratorB.cs" />
       <option value="$PROJECT_DIR$/Show/Client.cs" />
+      <option value="$PROJECT_DIR$/Show/Class.cs" />
+      <option value="$PROJECT_DIR$/Show/Car.cs" />
+      <option value="$PROJECT_DIR$/Show/Flyweight.cs" />
+      <option value="$PROJECT_DIR$/Show/FlyweightFactory.cs" />
       <option value="$PROJECT_DIR$/Show/Program.cs" />
     </changedPaths>
   </component>
@@ -144,6 +202,7 @@
       <workItem from="1606543109027" duration="3844000" />
       <workItem from="1606559701464" duration="641000" />
       <workItem from="1606596038097" duration="4195000" />
+      <workItem from="1607320147350" duration="2350000" />
     </task>
     <task id="LOCAL-00001" summary="doing cleanup">
       <created>1606390458958</created>

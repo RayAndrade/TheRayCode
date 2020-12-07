@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Z4fByE/P8g8TjfNnIBNhwOUJqvKbusLpCLRIzkTuBLn0L0NoYA3sg9o3i5Fa2lPLqvSjF8uEnQjRQ+UBXq9Miw==",
+  "dgSpecHash": "F5z6Je9zGNthdVThA/qDII4r0krKBXFz7YbUza2OBFAXovob5buBv2Fv6ivkSupQN6ByqfX5BgfGRkHUYHHE+Q==",
   "success": true,
   "projectFilePath": "/home/ray/Desktop/TheRayCode/Csharp/Show/Show/Show.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/ray/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
