@@ -12,25 +12,31 @@ SharedState
 #include "SharedState.h"
 #include "UniqueState.h"
 ``
+
 ``cpp
 class Flyweight
 { };
 ``
+
 ``cpp
 private:
 ``
+
 ``cpp
     SharedState *shared_state_;
 ``
+
 ``cpp
 public:
 ``
+
 ``cpp
     Flyweight(const SharedState *shared_state) : shared_state_(new SharedState(*shared_state))
     {
     }
- ``
- ``cpp
+``
+
+``cpp
  Flyweight(const Flyweight &other) : shared_state_(new SharedState(*other.shared_state_))
  {  }
  ``
