@@ -2,6 +2,8 @@
 TheRayCode PHP 
 # TheRayCode
 
+
+
 **Car.cs**
 ```csharp
 
@@ -16,13 +18,28 @@ public class Car
  
 ```
 **Flyweight.cs**
+
+```csharp
+```
+create private varable **_sharedState**
+
 ```csharp
 private Car _sharedState;
+
+```
+initilize **Flyweight**
+
+```csharp
 
 public Flyweight(Car car)
 {
     this._sharedState = car;
 }
+
+```
+create **Operation** and pass into it **Car**
+
+```csharp
 
 public void Operation(Car uniqueState)
 {
@@ -33,6 +50,7 @@ public void Operation(Car uniqueState)
 
 ```
 
+next create 
 **FlyweightFactory.cs**
 ```csharp
 
