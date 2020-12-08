@@ -159,8 +159,6 @@ The client code usually creates a bunch of pre-populated flyweights in the initi
 ```
 
 ```csharp
-
-```csharp
 static void Main(string[] args)
 {
    var factory = new FlyweightFactory(
