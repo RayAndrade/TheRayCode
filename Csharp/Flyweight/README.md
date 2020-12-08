@@ -43,8 +43,15 @@ create **Operation** and pass into it **Car**
 
 public void Operation(Car uniqueState)
 {
+```
+we create varables s & u as JSon SerializeObjects
+``'cshape
      string s = JsonConvert.SerializeObject(this._sharedState);
      string u = JsonConvert.SerializeObject(uniqueState);
+```
+and then pass **s** & **u** into a message for display
+
+```csharp
      Console.WriteLine($"Flyweight: Displaying shared {s} and unique {u} state.");
 }
 
