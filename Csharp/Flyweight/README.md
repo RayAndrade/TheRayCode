@@ -198,7 +198,6 @@ let's now add two cars to our dabase that differ only by **model**
 ```
 
 
-
    }
 }
     
