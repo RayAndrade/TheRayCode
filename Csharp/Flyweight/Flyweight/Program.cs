@@ -4,6 +4,22 @@ namespace TheRayCode.Flyweight
 {
  class Program
     {
+        public static void addCarToPoliceDatabase(FlyweightFactory factory, Car car)
+        {
+            Console.WriteLine("\nClient: Adding a car to database.");
+
+            var flyweight = factory.GetFlyweight(new Car
+            {
+                Color = car.Color,
+                Model = car.Model,
+                Company = car.Company
+            });
+
+            // The client code either stores or calculates extrinsic state and
+            // passes it to the flyweight's methods.
+            flyweight.Operation(car);
+        }
+
         static void Main(string[] args)
         {
             // The client code usually creates a bunch of pre-populated
@@ -35,20 +51,6 @@ namespace TheRayCode.Flyweight
 
             factory.listFlyweights();
         }
-
-        public static void addCarToPoliceDatabase(FlyweightFactory factory, Car car)
-        {
-            Console.WriteLine("\nClient: Adding a car to database.");
-
-            var flyweight = factory.GetFlyweight(new Car {
-                Color = car.Color,
-                Model = car.Model,
-                Company = car.Company
-            });
-
-            // The client code either stores or calculates extrinsic state and
-            // passes it to the flyweight's methods.
-            flyweight.Operation(car);
-        }
+       
     }
 }
