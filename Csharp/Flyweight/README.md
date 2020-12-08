@@ -45,7 +45,8 @@ public void Operation(Car uniqueState)
 {
 ```
 we create varables s & u as JSon SerializeObjects
-``'cshape
+
+```cshape
      string s = JsonConvert.SerializeObject(this._sharedState);
      string u = JsonConvert.SerializeObject(uniqueState);
 ```
