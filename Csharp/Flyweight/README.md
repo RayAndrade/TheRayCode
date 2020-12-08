@@ -141,12 +141,28 @@ public void listFlyweights()
 
 ```
 **Program.cs**
+
+The client code usually creates a bunch of pre-populated flyweights in the initialization stage of the application.
+
 ```csharp
 
+      public static void addCarToPoliceDatabase(FlyweightFactory factory, Car car)
+      {
+      Console.WriteLine("\nClient: Adding a car to database.");
+
+      var flyweight = factory.GetFlyweight(new Car {
+          Color = car.Color,
+          Model = car.Model,
+          Company = car.Company
+      });
+      flyweight.Operation(car);
+```
+
+```csharp
+
+```csharp
 static void Main(string[] args)
 {
-   // The client code usually creates a bunch of pre-populated
-   // flyweights in the initialization stage of the application.
    var factory = new FlyweightFactory(
           new Car { Company = "Chevrolet", Model = "Camaro2018", Color = "pink" },
           new Car { Company = "Mercedes Benz", Model = "C300", Color = "black" },
@@ -157,7 +173,7 @@ static void Main(string[] args)
      factory.listFlyweights();
 
 ```
-let's add two cars to our dabase that differ only by **model**
+let's now add two cars to our dabase that differ only by **model**
 ```csharp
 
 
@@ -180,24 +196,7 @@ let's add two cars to our dabase that differ only by **model**
             factory.listFlyweights();
         }
 ```
-```csharp
 
-      public static void addCarToPoliceDatabase(FlyweightFactory factory, Car car)
-      {
-      Console.WriteLine("\nClient: Adding a car to database.");
-
-      var flyweight = factory.GetFlyweight(new Car {
-          Color = car.Color,
-          Model = car.Model,
-          Company = car.Company
-      });
-```
-The client code either stores or calculates extrinsic state and passes it to the flyweight's methods.
-
-```csharp
-      flyweight.Operation(car);
-```
-```csharp
 
 
    }
