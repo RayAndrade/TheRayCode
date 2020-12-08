@@ -156,6 +156,11 @@ static void Main(string[] args)
      );
      factory.listFlyweights();
 
+```
+let's add two cars to our dabase that differ only by **model**
+```csharp
+
+
      addCarToPoliceDatabase(factory, new Car {
             Number = "CL234IR",
             Owner = "James Doe",
@@ -174,6 +179,8 @@ static void Main(string[] args)
 
             factory.listFlyweights();
         }
+```
+```csharp
 
       public static void addCarToPoliceDatabase(FlyweightFactory factory, Car car)
       {
