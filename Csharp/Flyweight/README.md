@@ -56,6 +56,11 @@ next create
 
 private List<Tuple<Flyweight, string>> flyweights = new List<Tuple<Flyweight, string>>();
 
+```
+we create   **FlyweightFactory** and pass into it an array of **Car**
+
+```csharp
+
 public FlyweightFactory(params Car[] args)
 {
     foreach (var elem in args)
@@ -63,6 +68,12 @@ public FlyweightFactory(params Car[] args)
         flyweights.Add(new Tuple<Flyweight, string>(new Flyweight(elem), this.getKey(elem)));
     }
 }
+
+```
+Thie returns a Flyweight's string hash for a given state.
+we create **getKey** and pass into it a car key
+
+```csharp
 
 // Returns a Flyweight's string hash for a given state.
 public string getKey(Car key)
@@ -155,17 +166,22 @@ static void Main(string[] args)
           Model = car.Model,
           Company = car.Company
       });
+```
+The client code either stores or calculates extrinsic state and passes it to the flyweight's methods.
 
-      // The client code either stores or calculates extrinsic state and
-      // passes it to the flyweight's methods.
+```csharp
       flyweight.Operation(car);
+```
+```csharp
+
+
    }
 }
     
 
 ```
-
-
+```csharp
+```
 
 
 ## heading 2
