@@ -169,7 +169,7 @@ static void Main(string[] args)
           new Car { Company = "BMW", Model = "X6", Color = "white" }
      );
      factory.listFlyweights();
-
+}
 ```
 let's now add two cars to our dabase that differ only by **model**
 ```csharp
@@ -196,7 +196,7 @@ let's now add two cars to our dabase that differ only by **model**
 ```
 
 
-   }
+   
 }
     
 
