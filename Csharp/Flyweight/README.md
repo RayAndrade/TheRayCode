@@ -86,12 +86,17 @@ we create **getKey** and pass into it a car key
 // Returns a Flyweight's string hash for a given state.
 public string getKey(Car key)
 {
+```
+setup elements as a list array and then add some elements to it
+```csharp
    List<string> elements = new List<string>();
 
    elements.Add(key.Model);
    elements.Add(key.Color);
    elements.Add(key.Company);
-
+```
+test to see if the element is null and then add it and the sort
+```csharp
    if (key.Owner != null && key.Number != null)
    {
       elements.Add(key.Number);
@@ -101,9 +106,11 @@ public string getKey(Car key)
    elements.Sort();
    return string.Join("_", elements);
 }
+```
+Returns an existing Flyweight with a given state or creates a new one.
 
-// Returns an existing Flyweight with a given state or creates a new
-// one.
+```csharp
+ 
 public Flyweight GetFlyweight(Car sharedState)
 {
     string key = this.getKey(sharedState);
@@ -118,7 +125,10 @@ public Flyweight GetFlyweight(Car sharedState)
     }
     return this.flyweights.Where(t => t.Item2 == key).FirstOrDefault().Item1;
 }
+```
+listFlyweights
 
+```csharp
 public void listFlyweights()
 {
     var count = flyweights.Count;
