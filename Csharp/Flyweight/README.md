@@ -156,6 +156,7 @@ The client code usually creates a bunch of pre-populated flyweights in the initi
           Company = car.Company
       });
       flyweight.Operation(car);
+      }
 ```
 
 ```csharp
@@ -173,7 +174,6 @@ static void Main(string[] args)
 ```
 let's now add two cars to our dabase that differ only by **model**
 ```csharp
-
 
      addCarToPoliceDatabase(factory, new Car {
             Number = "CL234IR",
