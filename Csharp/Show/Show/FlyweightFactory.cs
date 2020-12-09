@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Newtonsoft.Json;
 
 namespace Show.Flyweight
 {
@@ -52,7 +51,6 @@ namespace Show.Flyweight
             {
                 Console.WriteLine("FlyweightFactory: Reusing existing flyweight.");
             }
-
             return this.flyweights.Where(t => t.Item2 == key).FirstOrDefault().Item1;
         }
 

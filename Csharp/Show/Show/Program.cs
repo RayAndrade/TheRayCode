@@ -8,7 +8,8 @@ namespace Show.Flyweight
         {
             Console.WriteLine("\nClient: Adding a car to database.");
 
-            var flyweight = factory.GetFlyweight(new Car {
+            var flyweight = factory.GetFlyweight(new Car
+            {
                 Color = car.Color,
                 Model = car.Model,
                 Company = car.Company
@@ -18,8 +19,11 @@ namespace Show.Flyweight
             // passes it to the flyweight's methods.
             flyweight.Operation(car);
         }
+
         static void Main(string[] args)
         {
+            // The client code usually creates a bunch of pre-populated
+            // flyweights in the initialization stage of the application.
             var factory = new FlyweightFactory(
                 new Car { Company = "Chevrolet", Model = "Camaro2018", Color = "pink" },
                 new Car { Company = "Mercedes Benz", Model = "C300", Color = "black" },
@@ -46,11 +50,7 @@ namespace Show.Flyweight
             });
 
             factory.listFlyweights();
-
-            Console.WriteLine();
-            Console.WriteLine("The Ray Code show is AWESOME!!!");
         }
-        
-        
+       
     }
-}
+  }
