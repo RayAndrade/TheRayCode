@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ray/CLionProjects/Proxy/Proxy.cpp" "/home/ray/CLionProjects/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/Proxy.cpp.o"
-  "/home/ray/CLionProjects/Proxy/RealSubject.cpp" "/home/ray/CLionProjects/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/RealSubject.cpp.o"
-  "/home/ray/CLionProjects/Proxy/Subject.cpp" "/home/ray/CLionProjects/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/Subject.cpp.o"
-  "/home/ray/CLionProjects/Proxy/main.cpp" "/home/ray/CLionProjects/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/main.cpp.o"
+  "/home/ray/Desktop/TheRayCode/CPP/Proxy/Proxy.cpp" "/home/ray/Desktop/TheRayCode/CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/Proxy.cpp.o"
+  "/home/ray/Desktop/TheRayCode/CPP/Proxy/RealSubject.cpp" "/home/ray/Desktop/TheRayCode/CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/RealSubject.cpp.o"
+  "/home/ray/Desktop/TheRayCode/CPP/Proxy/Subject.cpp" "/home/ray/Desktop/TheRayCode/CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/Subject.cpp.o"
+  "/home/ray/Desktop/TheRayCode/CPP/Proxy/main.cpp" "/home/ray/Desktop/TheRayCode/CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

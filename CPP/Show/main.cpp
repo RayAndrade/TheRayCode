@@ -11,19 +11,11 @@ void AddCarToPoliceDatabase(
     flyweight.Operation({plates, owner});
 }
 
-/**
- * The client code usually creates a bunch of pre-populated flyweights in the
- * initialization stage of the application.
- */
 
 int main()
 {
-    FlyweightFactory *factory = new FlyweightFactory({
-           {"Chevrolet", "Camaro2018", "pink"},
-           {"Mercedes Benz", "C300", "black"},
-           {"Mercedes Benz", "C500", "red"},
-           {"BMW", "M5", "red"},
-           {"BMW", "X6", "white"}});
+
+    FlyweightFactory *factory = new FlyweightFactory({{"Chevrolet", "Camaro2018", "pink"}, {"Mercedes Benz", "C300", "black"}, {"Mercedes Benz", "C500", "red"}, {"BMW", "M5", "red"}, {"BMW", "X6", "white"}});
     factory->ListFlyweights();
 
     AddCarToPoliceDatabase(*factory,
@@ -43,4 +35,8 @@ int main()
     delete factory;
 
     return 0;
+
+
+    //std::cout << "hello" << std::endl;
+    //return 0;
 }

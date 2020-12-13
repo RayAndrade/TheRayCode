@@ -3,4 +3,4 @@ project(Show)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Show main.cpp SharedState.h UniqueState.h Flyweight.h FlyweightFactory.h)
+add_executable(Show main.cpp UniqueState.h SharedState.h Flyweight.h FlyweightFactory.h)

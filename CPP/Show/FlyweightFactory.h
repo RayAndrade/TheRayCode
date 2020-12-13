@@ -1,5 +1,5 @@
 //
-// Created by ray on 12/6/20.
+// Created by ray on 12/8/20.
 //
 
 #ifndef SHOW_FLYWEIGHTFACTORY_H
@@ -11,14 +11,18 @@
 class FlyweightFactory
 {
     /**
-    * @var Flyweight[]
-    */
+     * @var Flyweight[]
+     */
 private:
     std::unordered_map<std::string, Flyweight> flyweights_;
+    /**
+     * Returns a Flyweight's string hash for a given state.
+     */
     std::string GetKey(const SharedState &ss) const
     {
         return ss.brand_ + "_" + ss.model_ + "_" + ss.color_;
     }
+
 public:
     FlyweightFactory(std::initializer_list<SharedState> share_states)
     {
@@ -28,6 +32,9 @@ public:
         }
     }
 
+    /**
+     * Returns an existing Flyweight with a given state or creates a new one.
+     */
     Flyweight GetFlyweight(const SharedState &shared_state)
     {
         std::string key = this->GetKey(shared_state);

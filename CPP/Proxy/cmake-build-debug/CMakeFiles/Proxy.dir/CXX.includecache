@@ -6,23 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/ray/CLionProjects/Proxy/Proxy.cpp
+/home/ray/Desktop/TheRayCode/CPP/Proxy/Proxy.cpp
 Proxy.h
-/home/ray/CLionProjects/Proxy/Proxy.h
+/home/ray/Desktop/TheRayCode/CPP/Proxy/Proxy.h
 
-/home/ray/CLionProjects/Proxy/Proxy.h
+/home/ray/Desktop/TheRayCode/CPP/Proxy/Proxy.h
 RealSubject.h
-/home/ray/CLionProjects/Proxy/RealSubject.h
+/home/ray/Desktop/TheRayCode/CPP/Proxy/RealSubject.h
 
-/home/ray/CLionProjects/Proxy/RealSubject.h
+/home/ray/Desktop/TheRayCode/CPP/Proxy/RealSubject.cpp
+RealSubject.h
+/home/ray/Desktop/TheRayCode/CPP/Proxy/RealSubject.h
+
+/home/ray/Desktop/TheRayCode/CPP/Proxy/RealSubject.h
 iostream
 -
 Subject.h
-/home/ray/CLionProjects/Proxy/Subject.h
+/home/ray/Desktop/TheRayCode/CPP/Proxy/Subject.h
 
-/home/ray/CLionProjects/Proxy/Subject.h
+/home/ray/Desktop/TheRayCode/CPP/Proxy/Subject.cpp
+Subject.h
+/home/ray/Desktop/TheRayCode/CPP/Proxy/Subject.h
 
-/home/ray/CLionProjects/Proxy/main.cpp
+/home/ray/Desktop/TheRayCode/CPP/Proxy/Subject.h
+
+/home/ray/Desktop/TheRayCode/CPP/Proxy/main.cpp
 Proxy.h
-/home/ray/CLionProjects/Proxy/Proxy.h
+/home/ray/Desktop/TheRayCode/CPP/Proxy/Proxy.h
 

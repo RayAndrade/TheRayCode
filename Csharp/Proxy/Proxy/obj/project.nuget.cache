@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eYgrGhkrzczU5ES1vGWXD4EYnMUWR8Dyrl3t1bmx6qypUN0b/iym9eGnG8657GyqQRaqSDKqjxdtyP/zdqwlog==",
+  "dgSpecHash": "YA45kpsQG2YCnNbCYxxEzKuCk4MKWAJpECYARwbBDz1tMuENKJVrXxdy+BirHK+izV8Wkxl+TMl6QexNOFqfWg==",
   "success": true,
-  "projectFilePath": "/home/ray/RiderProjects/Proxy/Proxy/Proxy.csproj",
+  "projectFilePath": "/home/ray/Desktop/TheRayCode/Csharp/Proxy/Proxy/Proxy.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

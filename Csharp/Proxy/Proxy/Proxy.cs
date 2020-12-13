@@ -2,7 +2,7 @@ using System;
 
 namespace TheRayCode.Proxy
 {
-    class Proxy : ISubject
+    class Proxy : Subject
     {
         private RealSubject _realSubject;
         
