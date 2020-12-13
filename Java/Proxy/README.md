@@ -124,6 +124,24 @@ connectToServer("http://www.youtube.com/" + videoId);
 return getSomeVideo(videoId);
 
 ```
+next we go to the **proxy** package and add the class **YouTubeCacheProxy** 
+let's add the import the following packageses :
+
+
+```java
+
+import TheRayCode.proxy.some_cool_media_library.ThirdPartyYouTubeClass;
+import TheRayCode.proxy.some_cool_media_library.ThirdPartyYouTubeLib;
+import TheRayCode.proxy.some_cool_media_library.Video;
+
+```
+the class imlements **ThirdPartyYouTubeLib**
+we also need to
+override **HashMap** and  **Video**
+
+
+```java
+```
 
 finshed run!
 and ...
