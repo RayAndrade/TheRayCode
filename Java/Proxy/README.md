@@ -18,4 +18,19 @@ public class Video {
 }
 ```
 
+Let's create an **interface** called **ThirdPartyYouTubeLib**
+
+```java
+
+import java.util.HashMap;
+
+public interface ThirdPartyYouTubeLib {
+    HashMap<String, Video> popularVideos();
+
+    Video getVideo(String videoId);
+}
+
+```
+
+
 [Github](https://www.TheRayCode.com)
