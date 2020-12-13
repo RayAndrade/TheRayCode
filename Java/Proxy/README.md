@@ -54,14 +54,10 @@ next you need to overide **HashMap** and **Video**
     public Video getVideo(String videoId) {
         
     }
-
-
-connectToServer("http://www.youtube.com/" + videoId);
-return getSomeVideo(videoId);
 ```
+next
 
-
-
+```java
     // -----------------------------------------------------------------------
     // Fake methods to simulate network activity. They as slow as a real life.
 
@@ -119,12 +115,21 @@ replace the nulls with:
 ```java
 connectToServer("http://www.youtube.com");
 return getRandomVideos();
+
+```
+and...
+```java
+
+connectToServer("http://www.youtube.com/" + videoId);
+return getSomeVideo(videoId);
+
 ```
 
+finshed run!
 and ...
 
 ```java
-end in code
+and ...
 ```
 
 
