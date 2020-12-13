@@ -37,18 +37,30 @@ Let's **create** a class that implements **ThirdPartyYouTubeLib**
 ```java
 import java.util.HashMap;
 
-public class ThirdPartyYouTubeClass  implements ThirdPartyYouTubeLib {
+public class ThirdPartyYouTubeClass  implements ThirdPartyYouTubeLib { 
+
+}
+```
+next you need to overide **HashMap** and **Video**
+
+```java
+
     @Override
     public HashMap<String, Video> popularVideos() {
-        connectToServer("http://www.youtube.com");
-        return getRandomVideos();
+        
     }
 
     @Override
     public Video getVideo(String videoId) {
-        connectToServer("http://www.youtube.com/" + videoId);
-        return getSomeVideo(videoId);
+        
     }
+
+
+connectToServer("http://www.youtube.com/" + videoId);
+return getSomeVideo(videoId);
+```
+
+
 
     // -----------------------------------------------------------------------
     // Fake methods to simulate network activity. They as slow as a real life.
@@ -99,6 +111,18 @@ public class ThirdPartyYouTubeClass  implements ThirdPartyYouTubeLib {
         return video;
     }
 }
+
+```
+replace the nulls with:
+
+```java
+connectToServer("http://www.youtube.com");
+return getRandomVideos();
+```
+and ...
+
+```java
+
 
 ```
 
