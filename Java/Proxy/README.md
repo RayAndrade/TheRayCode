@@ -111,7 +111,6 @@ return getSomeVideo(videoId);
         return video;
     }
 }
-
 ```
 replace the nulls with:
 
@@ -119,11 +118,11 @@ replace the nulls with:
 connectToServer("http://www.youtube.com");
 return getRandomVideos();
 ```
+
 and ...
 
 ```java
-
-
+end in code
 ```
 
 
