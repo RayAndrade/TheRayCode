@@ -14,7 +14,7 @@ add:
 ```c#
 using System;
 ```
-and
+and replace **throw**
 ```c#
 Console.WriteLine("RealSubject: Handling Request.");
 ```
