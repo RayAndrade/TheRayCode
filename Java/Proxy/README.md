@@ -138,12 +138,81 @@ import TheRayCode.proxy.some_cool_media_library.Video;
 the class imlements **ThirdPartyYouTubeLib**
 we also need to
 override **HashMap** and  **Video**
-
+add:
+```java
+import java.util.HashMap;
+```
+add
+```java
+private ThirdPartyYouTubeLib youtubeService;
+private HashMap<String, Video> cachePopular = new HashMap<String, Video>();
+private HashMap<String, Video> cacheAll = new HashMap<String, Video>();
+```
+finshed run! to **HashMap** add:
+```java
+if (cachePopular.isEmpty()) {
+    cachePopular = youtubeService.popularVideos();
+} else {
+    System.out.println("Retrieved list from cache.");
+}
+return cachePopular;
+```
+and to **Video** add:
+```java
+Video video = cacheAll.get(videoId);
+if (video == null) {
+    video = youtubeService.getVideo(videoId);
+    cacheAll.put(videoId, video);
+} else {
+    System.out.println("Retrieved video '" + videoId + "' from cache.");
+}
+return video;
+```
+add to the bottom:
+```java
+public void reset() {
+ cachePopular.clear();
+ cacheAll.clear();
+}
+```
+next we go to **downloader** and add class **YouTubeDownloader** add
 
 ```java
+import TheRayCode.proxy.some_cool_media_library.ThirdPartyYouTubeLib;
+import TheRayCode.proxy.some_cool_media_library.Video;
+
+import java.util.HashMap;
+```
+also add:
+```java
+private ThirdPartyYouTubeLib api;
+
+public YouTubeDownloader(ThirdPartyYouTubeLib api) {
+    this.api = api;
+}
+
+public void renderVideoPage(String videoId) {
+    Video video = api.getVideo(videoId);
+    System.out.println("\n-------------------------------");
+    System.out.println("Video page (imagine fancy HTML)");
+    System.out.println("ID: " + video.id);
+    System.out.println("Title: " + video.title);
+    System.out.println("Video: " + video.data);
+    System.out.println("-------------------------------\n");
+}
+
+public void renderPopularVideos() {
+    HashMap<String, Video> list = api.popularVideos();
+    System.out.println("\n-------------------------------");
+    System.out.println("Most popular videos on YouTube (imagine fancy HTML)");
+    for (Video video : list.values()) {
+        System.out.println("ID: " + video.id + " / Title: " + video.title);
+    }
+    System.out.println("-------------------------------\n");
+}
 ```
 
-finshed run!
+
 and ...
 
 ```java
