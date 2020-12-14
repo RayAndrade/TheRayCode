@@ -17,7 +17,51 @@ using System;
 and replace **throw**
 ```c#
 Console.WriteLine("RealSubject: Handling Request.");
+
 ```
+create class **Proxy** extend it with **: Subject**
+remove **public** implment missing member
+add:
+```c#
+private RealSubject _realSubject;
+        
+public Proxy(RealSubject realSubject)
+{
+    this._realSubject = realSubject;
+}
+
+```
+add:
+```c#
+ public bool CheckAccess()
+ {
+     // Some real checks should go here.
+     Console.WriteLine("Proxy: Checking access prior to firing a real request.");
+     return true;
+}
+        
+public void LogAccess()
+{
+  Console.WriteLine("Proxy: Logging the time of request.");
+}
+
+```
+
+replace **throw** in **Request** with
+```c#
+if (this.CheckAccess())
+            {
+    this._realSubject.Request();
+    this.LogAccess();
+}
+
+```
+also add:
+
+```c#
+using System;
+```
+
 creat class Client keep public
 add:
 ```c#
@@ -36,6 +80,8 @@ public void ClientCode(Subject subject)
 }
 
 ```
+create class **Proxy** and extend it with **: **
+
 to to **Program** to the main function add:
 
 ```c#
