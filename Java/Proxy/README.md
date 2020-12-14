@@ -158,6 +158,7 @@ if (cachePopular.isEmpty()) {
 return cachePopular;
 ```
 and to **Video** add:
+
 ```java
 Video video = cacheAll.get(videoId);
 if (video == null) {
@@ -212,11 +213,8 @@ public void renderPopularVideos() {
 }
 ```
 
-
-and ...
-
 ```java
-and ...
+code
 ```
 
 
