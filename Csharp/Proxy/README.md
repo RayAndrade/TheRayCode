@@ -1,8 +1,57 @@
 # TheRayCode
-TheRayCode PHP 
-# TheRayCode
-## heading 2
-### heading 3
-#### heading 4
+TheRayCode C#  Proxy design pattern
+create the **interface Subject**
+add
 
-[Github](https://www.TheRayCode.com)
+```c#
+void Request();
+```
+create class **RealSubject**
+remove **public**
+extend with **: Subject**
+to **Request**
+add:
+```c#
+using System;
+```
+and
+```c#
+Console.WriteLine("RealSubject: Handling Request.");
+```
+creat class Client keep public
+add:
+```c#
+// The client code is supposed to work with all objects (both subjects
+// and proxies) via the Subject interface in order to support both real
+// subjects and proxies. In real life, however, clients mostly work with
+// their real subjects directly. In this case, to implement the pattern
+// more easily, you can extend your proxy from the real subject's class.
+public void ClientCode(Subject subject)
+{
+    // ...
+    
+    subject.Request();
+    
+    // ...
+}
+
+```
+to to **Program** to the main function add:
+
+```c#
+Client client = new Client();
+            
+Console.WriteLine("Client: Executing the client code with a real subject:");
+RealSubject realSubject = new RealSubject();
+client.ClientCode(realSubject);
+
+Console.WriteLine();
+
+Console.WriteLine("Client: Executing the same client code with a proxy:");
+Proxy proxy = new Proxy(realSubject);
+client.ClientCode(proxy);
+
+```
+
+
+[Github](https://www.GitHub.com/RayAndrade/TheRayCode.com)
