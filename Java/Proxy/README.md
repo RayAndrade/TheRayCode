@@ -227,7 +227,7 @@ public class Demo {
         YouTubeDownloader smartDownloader = new YouTubeDownloader(new YouTubeCacheProxy());
 
         long naive = test(naiveDownloader);
-        long smart = test(smartDownloader);
+        long smart = 0;//test(smartDownloader);
         System.out.print("Time saved by caching proxy: " + (naive - smart) + "ms");
 
     }
