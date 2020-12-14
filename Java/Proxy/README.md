@@ -32,7 +32,7 @@ public interface ThirdPartyYouTubeLib {
 
 ```
 
-Let's **create** a class that implements **ThirdPartyYouTubeLib**
+Let's create **ThirdPartyYouTubeClass** a class that implements **ThirdPartyYouTubeLib**
 
 ```java
 import java.util.HashMap;
