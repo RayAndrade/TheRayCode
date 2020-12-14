@@ -80,7 +80,7 @@ public void ClientCode(Subject subject)
 }
 
 ```
-create class **Proxy** and extend it with **: **
+create class **Proxy** and extend it with **: Subject**
 
 to to **Program** to the main function add:
 
