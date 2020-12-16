@@ -12,9 +12,9 @@ implement missing method repace TODO with
 ```php
 echo "RealSubject: Handling request.<br/>";
 ```
-create **Proxy** implements **Subject** add code to **request**:
+create **Proxy** and have it **implements** **Subject** and add code to **request** function:
 
-The most common applications of the Proxy pattern are lazy loading, caching, controlling the access, logging, etc. A Proxy can perform one of these things and then, depending on the result, pass the execution to the same method in a linked RealSubject object.
+The most common applications of the Proxy pattern are lazy loading, caching, controlling the access, logging, etc. A Proxy can perform one of these things and then, depending on the result, pass it to the execution to the same method in a linked **RealSubject** object.
 
 ```php
 if ($this->checkAccess()) {
@@ -24,8 +24,8 @@ if ($this->checkAccess()) {
 
 
 ```
-The Proxy maintains a reference to an object of the RealSubject class. It can be either lazy-loaded or passed to the Proxy by the client.
-add code
+The Proxy maintains a reference to the object of the **RealSubject** class. It can be either lazy-loaded or passed to the **Proxy** by the client. 
+We then add code
 
 ```php
 private $realSubject;
@@ -35,7 +35,7 @@ public function __construct(RealSubject $realSubject)
     $this->realSubject = $realSubject;
 }
 ```
-at the bottom add:
+at the bottom we add:
 ```php
 private function checkAccess(): bool
 {
@@ -49,13 +49,13 @@ private function logAccess(): void
     echo "Proxy: Logging the time of request.<br/>";
 }
 ```
-last go to **index** add includes
+last step is to go to **index** and add the following includes
 ```php
 include_once ('Subject.php');
 include_once ('RealSubject.php');
 include_once ('Proxy.php');
 ```
-add function
+we also add the function
 ```php
 function clientCode(Subject $subject)
 {
@@ -65,7 +65,7 @@ function clientCode(Subject $subject)
 }
 ```
 
-and
+and to run our demo we add:
 ```php
 echo "Client: Executing the client code with a real subject:<br/>";
 $realSubject = new RealSubject;
