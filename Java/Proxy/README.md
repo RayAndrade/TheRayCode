@@ -1,7 +1,7 @@
 # TheRayCode
 TheRayCode Java Proxy
 
-in package **some_cool_media_library** create class **Video** 
+create package **some_cool_media_library** add class **Video** 
 
 ```java
 
