@@ -176,7 +176,7 @@ public void reset() {
  cacheAll.clear();
 }
 ```
-next we go to **downloader** and add class **YouTubeDownloader** add
+next add package **downloader** and add then class **YouTubeDownloader** add the following code
 
 ```java
 import TheRayCode.proxy.some_cool_media_library.ThirdPartyYouTubeLib;
