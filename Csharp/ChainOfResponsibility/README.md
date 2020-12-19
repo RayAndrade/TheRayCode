@@ -92,9 +92,9 @@ foreach (var food in new List<string> { "Nut", "Banana", "Cup of coffee" })
       else
       {
            Console.WriteLine($"   {food} was left untouched.");
-       }
       }
-    }
+  }
+  
 ```
 
 [Github](https://www.TheRayCode.com)
