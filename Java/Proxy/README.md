@@ -226,10 +226,7 @@ public class Demo {
         YouTubeDownloader naiveDownloader = new YouTubeDownloader(new ThirdPartyYouTubeClass());
         YouTubeDownloader smartDownloader = new YouTubeDownloader(new YouTubeCacheProxy());
 
-        long naive = test(naiveDownloader);
-        long smart = 0;//test(smartDownloader);
-        System.out.print("Time saved by caching proxy: " + (naive - smart) + "ms");
-
+        
     }
 
     private static long test(YouTubeDownloader downloader) {
@@ -250,8 +247,14 @@ public class Demo {
 
         //System.out.println("The Ray Code is AWESOME!!!");
     }
-}
 ```
+add:
+```java    
+long naive = test(naiveDownloader);
+long smart = 0;//test(smartDownloader);
+System.out.print("Time saved by caching proxy: " + (naive - smart) + "ms");
 
+```
+run
 
 [Github](https://www.github.com/RayAndrade/TheRayCode)
