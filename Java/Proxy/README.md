@@ -245,8 +245,8 @@ public class Demo {
         System.out.print("Time elapsed: " + estimatedTime + "ms\n");
         return estimatedTime;
 
-        //System.out.println("The Ray Code is AWESOME!!!");
-    }
+        
+        }
 ```
 add:
 ```java    
