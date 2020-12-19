@@ -59,19 +59,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ray/CLionProjects/ChainOfResponsibility
+CMAKE_SOURCE_DIR = /home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/ray/CLionProjects/ChainOfResponsibility/cmake-build-deb
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug/CMakeFiles /home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility/cmake-build-debug/CMakeFiles /home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,141 +143,6 @@ ChainOfResponsibility/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/build
 .PHONY : ChainOfResponsibility/fast
 
-AbstractHandler.o: AbstractHandler.cpp.o
-
-.PHONY : AbstractHandler.o
-
-# target to build an object file
-AbstractHandler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/AbstractHandler.cpp.o
-.PHONY : AbstractHandler.cpp.o
-
-AbstractHandler.i: AbstractHandler.cpp.i
-
-.PHONY : AbstractHandler.i
-
-# target to preprocess a source file
-AbstractHandler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/AbstractHandler.cpp.i
-.PHONY : AbstractHandler.cpp.i
-
-AbstractHandler.s: AbstractHandler.cpp.s
-
-.PHONY : AbstractHandler.s
-
-# target to generate assembly for a file
-AbstractHandler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/AbstractHandler.cpp.s
-.PHONY : AbstractHandler.cpp.s
-
-DogHandler.o: DogHandler.cpp.o
-
-.PHONY : DogHandler.o
-
-# target to build an object file
-DogHandler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/DogHandler.cpp.o
-.PHONY : DogHandler.cpp.o
-
-DogHandler.i: DogHandler.cpp.i
-
-.PHONY : DogHandler.i
-
-# target to preprocess a source file
-DogHandler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/DogHandler.cpp.i
-.PHONY : DogHandler.cpp.i
-
-DogHandler.s: DogHandler.cpp.s
-
-.PHONY : DogHandler.s
-
-# target to generate assembly for a file
-DogHandler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/DogHandler.cpp.s
-.PHONY : DogHandler.cpp.s
-
-Handler.o: Handler.cpp.o
-
-.PHONY : Handler.o
-
-# target to build an object file
-Handler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/Handler.cpp.o
-.PHONY : Handler.cpp.o
-
-Handler.i: Handler.cpp.i
-
-.PHONY : Handler.i
-
-# target to preprocess a source file
-Handler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/Handler.cpp.i
-.PHONY : Handler.cpp.i
-
-Handler.s: Handler.cpp.s
-
-.PHONY : Handler.s
-
-# target to generate assembly for a file
-Handler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/Handler.cpp.s
-.PHONY : Handler.cpp.s
-
-MonkeyHandler.o: MonkeyHandler.cpp.o
-
-.PHONY : MonkeyHandler.o
-
-# target to build an object file
-MonkeyHandler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/MonkeyHandler.cpp.o
-.PHONY : MonkeyHandler.cpp.o
-
-MonkeyHandler.i: MonkeyHandler.cpp.i
-
-.PHONY : MonkeyHandler.i
-
-# target to preprocess a source file
-MonkeyHandler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/MonkeyHandler.cpp.i
-.PHONY : MonkeyHandler.cpp.i
-
-MonkeyHandler.s: MonkeyHandler.cpp.s
-
-.PHONY : MonkeyHandler.s
-
-# target to generate assembly for a file
-MonkeyHandler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/MonkeyHandler.cpp.s
-.PHONY : MonkeyHandler.cpp.s
-
-SquirrelHandler.o: SquirrelHandler.cpp.o
-
-.PHONY : SquirrelHandler.o
-
-# target to build an object file
-SquirrelHandler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/SquirrelHandler.cpp.o
-.PHONY : SquirrelHandler.cpp.o
-
-SquirrelHandler.i: SquirrelHandler.cpp.i
-
-.PHONY : SquirrelHandler.i
-
-# target to preprocess a source file
-SquirrelHandler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/SquirrelHandler.cpp.i
-.PHONY : SquirrelHandler.cpp.i
-
-SquirrelHandler.s: SquirrelHandler.cpp.s
-
-.PHONY : SquirrelHandler.s
-
-# target to generate assembly for a file
-SquirrelHandler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/SquirrelHandler.cpp.s
-.PHONY : SquirrelHandler.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -314,21 +179,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ChainOfResponsibility"
-	@echo "... AbstractHandler.o"
-	@echo "... AbstractHandler.i"
-	@echo "... AbstractHandler.s"
-	@echo "... DogHandler.o"
-	@echo "... DogHandler.i"
-	@echo "... DogHandler.s"
-	@echo "... Handler.o"
-	@echo "... Handler.i"
-	@echo "... Handler.s"
-	@echo "... MonkeyHandler.o"
-	@echo "... MonkeyHandler.i"
-	@echo "... MonkeyHandler.s"
-	@echo "... SquirrelHandler.o"
-	@echo "... SquirrelHandler.i"
-	@echo "... SquirrelHandler.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

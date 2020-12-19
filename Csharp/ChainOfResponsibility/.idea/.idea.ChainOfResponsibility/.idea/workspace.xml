@@ -1,35 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e7572f0-5a64-4853-a82b-d7eae51fb663" name="Default Changelist" comment="" />
+    <list default="true" id="3e7572f0-5a64-4853-a82b-d7eae51fb663" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/ChainOfResponsibility.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/ChainOfResponsibility.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/ChainOfResponsibility.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/ChainOfResponsibility.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Proxy/src/TheRayCode/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Proxy/src/TheRayCode/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PHP/Proxy/RealSubject.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../PHP/Proxy/RealSubject.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/IHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/AbstractHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/IHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/MonkeyHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/SquirrelHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/Client.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/ChainOfResponsibility/IHandler.cs" />
-        <option value="$PROJECT_DIR$/ChainOfResponsibility/AbstractHandler.cs" />
-        <option value="$PROJECT_DIR$/ChainOfResponsibility/MonkeyHandler.cs" />
-        <option value="$PROJECT_DIR$/ChainOfResponsibility/SquirrelHandler.cs" />
-        <option value="$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" />
-        <option value="$PROJECT_DIR$/ChainOfResponsibility/Client.cs" />
-        <option value="$PROJECT_DIR$/ChainOfResponsibility/Program.cs" />
-      </list>
-    </option>
+    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1eEdnn0HwZ9PGLwQfzKdtlqz7C1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,6 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="ChainOfResponsibility" type="DotNetProject" factoryName=".NET Project">
@@ -76,6 +86,7 @@
       <workItem from="1597705255311" duration="19000" />
       <workItem from="1599250886162" duration="155000" />
       <workItem from="1600201615031" duration="97000" />
+      <workItem from="1608414860881" duration="65000" />
     </task>
     <servers />
   </component>
@@ -86,24 +97,6 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1793" height="816" key="GridCell.Tab.0.bottom" timestamp="1600201713491">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1793" height="816" key="GridCell.Tab.0.bottom/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1600201713491" />
-    <state width="1793" height="816" key="GridCell.Tab.0.center" timestamp="1600201713491">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1793" height="816" key="GridCell.Tab.0.center/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1600201713491" />
-    <state width="1793" height="816" key="GridCell.Tab.0.left" timestamp="1600201713491">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1793" height="816" key="GridCell.Tab.0.left/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1600201713491" />
-    <state width="1793" height="816" key="GridCell.Tab.0.right" timestamp="1600201713491">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1793" height="816" key="GridCell.Tab.0.right/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1600201713491" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

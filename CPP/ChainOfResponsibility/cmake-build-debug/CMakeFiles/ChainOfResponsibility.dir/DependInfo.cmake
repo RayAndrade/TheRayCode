@@ -4,12 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ray/CLionProjects/ChainOfResponsibility/AbstractHandler.cpp" "/home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug/CMakeFiles/ChainOfResponsibility.dir/AbstractHandler.cpp.o"
-  "/home/ray/CLionProjects/ChainOfResponsibility/DogHandler.cpp" "/home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug/CMakeFiles/ChainOfResponsibility.dir/DogHandler.cpp.o"
-  "/home/ray/CLionProjects/ChainOfResponsibility/Handler.cpp" "/home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug/CMakeFiles/ChainOfResponsibility.dir/Handler.cpp.o"
-  "/home/ray/CLionProjects/ChainOfResponsibility/MonkeyHandler.cpp" "/home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug/CMakeFiles/ChainOfResponsibility.dir/MonkeyHandler.cpp.o"
-  "/home/ray/CLionProjects/ChainOfResponsibility/SquirrelHandler.cpp" "/home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug/CMakeFiles/ChainOfResponsibility.dir/SquirrelHandler.cpp.o"
-  "/home/ray/CLionProjects/ChainOfResponsibility/main.cpp" "/home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug/CMakeFiles/ChainOfResponsibility.dir/main.cpp.o"
+  "/home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility/main.cpp" "/home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility/cmake-build-debug/CMakeFiles/ChainOfResponsibility.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

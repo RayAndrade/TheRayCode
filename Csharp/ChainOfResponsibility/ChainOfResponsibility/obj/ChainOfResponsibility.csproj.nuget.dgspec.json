@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/ChainOfResponsibility.csproj": {}
+    "/home/ray/Desktop/TheRayCode/Csharp/ChainOfResponsibility/ChainOfResponsibility/ChainOfResponsibility.csproj": {}
   },
   "projects": {
-    "/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/ChainOfResponsibility.csproj": {
+    "/home/ray/Desktop/TheRayCode/Csharp/ChainOfResponsibility/ChainOfResponsibility/ChainOfResponsibility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/ChainOfResponsibility.csproj",
+        "projectUniqueName": "/home/ray/Desktop/TheRayCode/Csharp/ChainOfResponsibility/ChainOfResponsibility/ChainOfResponsibility.csproj",
         "projectName": "ChainOfResponsibility",
-        "projectPath": "/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/ChainOfResponsibility.csproj",
+        "projectPath": "/home/ray/Desktop/TheRayCode/Csharp/ChainOfResponsibility/ChainOfResponsibility/ChainOfResponsibility.csproj",
         "packagesPath": "/home/ray/.nuget/packages/",
-        "outputPath": "/home/ray/RiderProjects/ChainOfResponsibility/ChainOfResponsibility/obj/",
+        "outputPath": "/home/ray/Desktop/TheRayCode/Csharp/ChainOfResponsibility/ChainOfResponsibility/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"

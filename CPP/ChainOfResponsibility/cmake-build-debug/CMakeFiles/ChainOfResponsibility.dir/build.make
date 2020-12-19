@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ray/CLionProjects/ChainOfResponsibility
+CMAKE_SOURCE_DIR = /home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ChainOfResponsibility.dir/depend.make
@@ -79,103 +79,28 @@ include CMakeFiles/ChainOfResponsibility.dir/flags.make
 
 CMakeFiles/ChainOfResponsibility.dir/main.cpp.o: CMakeFiles/ChainOfResponsibility.dir/flags.make
 CMakeFiles/ChainOfResponsibility.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ChainOfResponsibility.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ChainOfResponsibility.dir/main.cpp.o -c /home/ray/CLionProjects/ChainOfResponsibility/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ChainOfResponsibility.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ChainOfResponsibility.dir/main.cpp.o -c /home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility/main.cpp
 
 CMakeFiles/ChainOfResponsibility.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChainOfResponsibility.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/CLionProjects/ChainOfResponsibility/main.cpp > CMakeFiles/ChainOfResponsibility.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility/main.cpp > CMakeFiles/ChainOfResponsibility.dir/main.cpp.i
 
 CMakeFiles/ChainOfResponsibility.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChainOfResponsibility.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/CLionProjects/ChainOfResponsibility/main.cpp -o CMakeFiles/ChainOfResponsibility.dir/main.cpp.s
-
-CMakeFiles/ChainOfResponsibility.dir/Handler.cpp.o: CMakeFiles/ChainOfResponsibility.dir/flags.make
-CMakeFiles/ChainOfResponsibility.dir/Handler.cpp.o: ../Handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ChainOfResponsibility.dir/Handler.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ChainOfResponsibility.dir/Handler.cpp.o -c /home/ray/CLionProjects/ChainOfResponsibility/Handler.cpp
-
-CMakeFiles/ChainOfResponsibility.dir/Handler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChainOfResponsibility.dir/Handler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/CLionProjects/ChainOfResponsibility/Handler.cpp > CMakeFiles/ChainOfResponsibility.dir/Handler.cpp.i
-
-CMakeFiles/ChainOfResponsibility.dir/Handler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChainOfResponsibility.dir/Handler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/CLionProjects/ChainOfResponsibility/Handler.cpp -o CMakeFiles/ChainOfResponsibility.dir/Handler.cpp.s
-
-CMakeFiles/ChainOfResponsibility.dir/AbstractHandler.cpp.o: CMakeFiles/ChainOfResponsibility.dir/flags.make
-CMakeFiles/ChainOfResponsibility.dir/AbstractHandler.cpp.o: ../AbstractHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ChainOfResponsibility.dir/AbstractHandler.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ChainOfResponsibility.dir/AbstractHandler.cpp.o -c /home/ray/CLionProjects/ChainOfResponsibility/AbstractHandler.cpp
-
-CMakeFiles/ChainOfResponsibility.dir/AbstractHandler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChainOfResponsibility.dir/AbstractHandler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/CLionProjects/ChainOfResponsibility/AbstractHandler.cpp > CMakeFiles/ChainOfResponsibility.dir/AbstractHandler.cpp.i
-
-CMakeFiles/ChainOfResponsibility.dir/AbstractHandler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChainOfResponsibility.dir/AbstractHandler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/CLionProjects/ChainOfResponsibility/AbstractHandler.cpp -o CMakeFiles/ChainOfResponsibility.dir/AbstractHandler.cpp.s
-
-CMakeFiles/ChainOfResponsibility.dir/MonkeyHandler.cpp.o: CMakeFiles/ChainOfResponsibility.dir/flags.make
-CMakeFiles/ChainOfResponsibility.dir/MonkeyHandler.cpp.o: ../MonkeyHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ChainOfResponsibility.dir/MonkeyHandler.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ChainOfResponsibility.dir/MonkeyHandler.cpp.o -c /home/ray/CLionProjects/ChainOfResponsibility/MonkeyHandler.cpp
-
-CMakeFiles/ChainOfResponsibility.dir/MonkeyHandler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChainOfResponsibility.dir/MonkeyHandler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/CLionProjects/ChainOfResponsibility/MonkeyHandler.cpp > CMakeFiles/ChainOfResponsibility.dir/MonkeyHandler.cpp.i
-
-CMakeFiles/ChainOfResponsibility.dir/MonkeyHandler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChainOfResponsibility.dir/MonkeyHandler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/CLionProjects/ChainOfResponsibility/MonkeyHandler.cpp -o CMakeFiles/ChainOfResponsibility.dir/MonkeyHandler.cpp.s
-
-CMakeFiles/ChainOfResponsibility.dir/SquirrelHandler.cpp.o: CMakeFiles/ChainOfResponsibility.dir/flags.make
-CMakeFiles/ChainOfResponsibility.dir/SquirrelHandler.cpp.o: ../SquirrelHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ChainOfResponsibility.dir/SquirrelHandler.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ChainOfResponsibility.dir/SquirrelHandler.cpp.o -c /home/ray/CLionProjects/ChainOfResponsibility/SquirrelHandler.cpp
-
-CMakeFiles/ChainOfResponsibility.dir/SquirrelHandler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChainOfResponsibility.dir/SquirrelHandler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/CLionProjects/ChainOfResponsibility/SquirrelHandler.cpp > CMakeFiles/ChainOfResponsibility.dir/SquirrelHandler.cpp.i
-
-CMakeFiles/ChainOfResponsibility.dir/SquirrelHandler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChainOfResponsibility.dir/SquirrelHandler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/CLionProjects/ChainOfResponsibility/SquirrelHandler.cpp -o CMakeFiles/ChainOfResponsibility.dir/SquirrelHandler.cpp.s
-
-CMakeFiles/ChainOfResponsibility.dir/DogHandler.cpp.o: CMakeFiles/ChainOfResponsibility.dir/flags.make
-CMakeFiles/ChainOfResponsibility.dir/DogHandler.cpp.o: ../DogHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ChainOfResponsibility.dir/DogHandler.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ChainOfResponsibility.dir/DogHandler.cpp.o -c /home/ray/CLionProjects/ChainOfResponsibility/DogHandler.cpp
-
-CMakeFiles/ChainOfResponsibility.dir/DogHandler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChainOfResponsibility.dir/DogHandler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ray/CLionProjects/ChainOfResponsibility/DogHandler.cpp > CMakeFiles/ChainOfResponsibility.dir/DogHandler.cpp.i
-
-CMakeFiles/ChainOfResponsibility.dir/DogHandler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChainOfResponsibility.dir/DogHandler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/CLionProjects/ChainOfResponsibility/DogHandler.cpp -o CMakeFiles/ChainOfResponsibility.dir/DogHandler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility/main.cpp -o CMakeFiles/ChainOfResponsibility.dir/main.cpp.s
 
 # Object files for target ChainOfResponsibility
 ChainOfResponsibility_OBJECTS = \
-"CMakeFiles/ChainOfResponsibility.dir/main.cpp.o" \
-"CMakeFiles/ChainOfResponsibility.dir/Handler.cpp.o" \
-"CMakeFiles/ChainOfResponsibility.dir/AbstractHandler.cpp.o" \
-"CMakeFiles/ChainOfResponsibility.dir/MonkeyHandler.cpp.o" \
-"CMakeFiles/ChainOfResponsibility.dir/SquirrelHandler.cpp.o" \
-"CMakeFiles/ChainOfResponsibility.dir/DogHandler.cpp.o"
+"CMakeFiles/ChainOfResponsibility.dir/main.cpp.o"
 
 # External object files for target ChainOfResponsibility
 ChainOfResponsibility_EXTERNAL_OBJECTS =
 
 ChainOfResponsibility: CMakeFiles/ChainOfResponsibility.dir/main.cpp.o
-ChainOfResponsibility: CMakeFiles/ChainOfResponsibility.dir/Handler.cpp.o
-ChainOfResponsibility: CMakeFiles/ChainOfResponsibility.dir/AbstractHandler.cpp.o
-ChainOfResponsibility: CMakeFiles/ChainOfResponsibility.dir/MonkeyHandler.cpp.o
-ChainOfResponsibility: CMakeFiles/ChainOfResponsibility.dir/SquirrelHandler.cpp.o
-ChainOfResponsibility: CMakeFiles/ChainOfResponsibility.dir/DogHandler.cpp.o
 ChainOfResponsibility: CMakeFiles/ChainOfResponsibility.dir/build.make
 ChainOfResponsibility: CMakeFiles/ChainOfResponsibility.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ChainOfResponsibility"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ChainOfResponsibility"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ChainOfResponsibility.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -188,6 +113,6 @@ CMakeFiles/ChainOfResponsibility.dir/clean:
 .PHONY : CMakeFiles/ChainOfResponsibility.dir/clean
 
 CMakeFiles/ChainOfResponsibility.dir/depend:
-	cd /home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ray/CLionProjects/ChainOfResponsibility /home/ray/CLionProjects/ChainOfResponsibility /home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug /home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug /home/ray/CLionProjects/ChainOfResponsibility/cmake-build-debug/CMakeFiles/ChainOfResponsibility.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility /home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility /home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility/cmake-build-debug /home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility/cmake-build-debug /home/ray/Desktop/TheRayCode/CPP/ChainOfResponsibility/cmake-build-debug/CMakeFiles/ChainOfResponsibility.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ChainOfResponsibility.dir/depend
 
