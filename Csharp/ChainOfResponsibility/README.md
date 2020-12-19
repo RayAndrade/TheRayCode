@@ -95,6 +95,6 @@ foreach (var food in new List<string> { "Nut", "Banana", "Cup of coffee" })
        }
       }
     }
-``
+```
 
 [Github](https://www.TheRayCode.com)
