@@ -25,8 +25,41 @@ to the class **Demo**
 ```java
 public static void main(String[] args) { }
 ```
+add:
+```java
+throws IOException
+```
+add local method:
+```java
+private static void init() { }
+```
+let now add some code to this method
+```java
+server = new Server();
+server.register("admin@example.com", "admin_pass");
+server.register("user@example.com", "user_pass");
+```
+and..
+```java
+Middleware middleware = new ThrottlingMiddleware(2);
+middleware.linkWith(new UserExistsMiddleware(server)).linkWith(new RoleCheckMiddleware());
+server.setMiddleware(middleware);
+```
+let's add some more code to the **main** method
+
+```java
+init();
+
+boolean success;
+do {
+    System.out.print("Enter email: ");
+    String email = reader.readLine();
+    System.out.print("Input password: ");
+    String password = reader.readLine();
+    success = server.logIn(email, password);
+} while (!success);
+        
+```
 
 
-
-
-[Github](https://www.TheRayCode.com)
+[TheRayCode](https://www.TheRayCode.com)
