@@ -1,9 +1,38 @@
 # TheRayCode
 TheRayCode java 
 create package **middleware**
+
 create public **abstract class Middleware**
+
 create public class **ThrottlingMiddleware**
-create public class **UserExistsMiddleware**
+
+create class **UserExistsMiddleware** have it **extends Middleware**
+override **check** (String email, String password) with:
+```java
+if (!server.hasEmail(email)) {
+    System.out.println("This email is not registered!");
+    return false;
+}
+if (!server.isValidPassword(email, password)) {
+    System.out.println("Wrong password!");
+    return false;
+}
+return checkNext(email, password);
+```
+add:
+```java
+private Server server;
+```
+and
+```java
+
+public UserExistsMiddleware(Server server) {
+        this.server = server;
+ }
+    
+```
+
+
 
 create class **RoleCheckMiddleware** have it **extends Middleware**
 override **check** (String email, String password) with:
