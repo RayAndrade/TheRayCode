@@ -4,8 +4,16 @@ create package **middleware**
 create public **abstract class Middleware**
 create public class **ThrottlingMiddleware**
 create public class **UserExistsMiddleware**
-create public class **RoleCheckMiddleware**
+
+create class **RoleCheckMiddleware** have it **extends Middleware**
+override **check** (String email, String password) with:
 ```java
+if (email.equals("admin@example.com")) {
+  System.out.println("Hello, admin!");
+  return true;
+}
+System.out.println("Hello, user!");
+return checkNext(email, password);
 ```
 create paclage **server** add class **Server**
 go to **Demo** add imports:
