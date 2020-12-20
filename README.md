@@ -11,7 +11,7 @@ private int requestPerMinute;
 private int request;
 private long currentTime;
 ```
-and add:
+and add the method:
 ```java
 public ThrottlingMiddleware(int requestPerMinute) {
     this.requestPerMinute = requestPerMinute;
