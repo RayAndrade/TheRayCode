@@ -50,10 +50,7 @@ if (!server.isValidPassword(email, password)) {
 }
 return checkNext(email, password);
 ```
-add:
-```java
-private Server server;
-```
+
 and
 ```java
 
