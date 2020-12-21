@@ -38,15 +38,18 @@ public ThrottlingMiddleware(int requestPerMinute) {
     this.currentTime = System.currentTimeMillis();
  }
 ```
-and then to the overide we add:
+and then to the overided method **check** we add:
 ```java
-if (!server.hasEmail(email)) {
-    System.out.println("This email is not registered!");
-    return false;
+if (System.currentTimeMillis() > currentTime + 60_000) {
+    request = 0;
+    currentTime = System.currentTimeMillis();
 }
-if (!server.isValidPassword(email, password)) {
-    System.out.println("Wrong password!");
-    return false;
+
+request++;
+
+if (request > requestPerMinute) {
+    System.out.println("Request limit exceeded!");
+    Thread.currentThread().stop();
 }
 return checkNext(email, password);
 ```
