@@ -24,7 +24,7 @@ protected boolean checkNext(String email, String password) {
 ```
 
 create class **ThrottlingMiddleware** have it **extends Middleware**
-override **check** (String email, String password) with
+override **check (String email, String password)** replace return false with:
 add:
 ```java
 private int requestPerMinute;
