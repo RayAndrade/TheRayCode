@@ -53,6 +53,48 @@ if (request > requestPerMinute) {
 }
 return checkNext(email, password);
 ```
+create paclkage called server and add class **Server** to it do the following imports:
+```java
+import java.util.HashMap;
+import java.util.Map;
+import TheRayCode.ChainOfResponsibility.middleware.Middleware;
+```
+add code:
+```java
+private Map<String, String> users = new HashMap<>();
+
+private Middleware middleware;
+private Middleware next;
+
+public Middleware linkWith(Middleware next) {
+    this.next = next;
+    return next;
+}
+
+public void setMiddleware(Middleware middleware) {
+    this.middleware = middleware;
+}
+
+public boolean logIn(String email, String password) {
+    if (middleware.check(email, password)) {
+        System.out.println("Authorization have been successful!");
+        return true;
+    }
+    return false;
+}
+
+public void register(String email, String password) {
+    users.put(email, password);
+}
+
+public boolean hasEmail(String email) {
+    return users.containsKey(email);
+}
+
+public boolean isValidPassword(String email, String password) {
+    return users.get(email).equals(password);
+}
+```
 
 create class **UserExistsMiddleware** have it **extends Middleware**
 override **check** (String email, String password) with:
