@@ -38,7 +38,7 @@ public ThrottlingMiddleware(int requestPerMinute) {
     this.currentTime = System.currentTimeMillis();
  }
 ```
-and then to the overided method **check** we add:
+and then to the overided method **check** we repace the **return false** with:
 ```java
 if (System.currentTimeMillis() > currentTime + 60_000) {
     request = 0;
