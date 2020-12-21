@@ -54,16 +54,6 @@ if (request > requestPerMinute) {
 return checkNext(email, password);
 ```
 
-and
-```java
-
-public UserExistsMiddleware(Server server) {
-        this.server = server;
- }
-    
-```
-
-
 create class **UserExistsMiddleware** have it **extends Middleware**
 override **check** (String email, String password) with:
 ```java
