@@ -2,7 +2,7 @@
 TheRayCode java 
 create package **middleware**
 
-create class **abstract class Middleware** have it
+create class **public abstract class Middleware** have it
 add:
 ```java
 private Middleware next;
