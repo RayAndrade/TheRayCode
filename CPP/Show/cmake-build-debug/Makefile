@@ -68,10 +68,10 @@ RM = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5981.166/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ray/Projects/TheRayCode/CPP/Show
+CMAKE_SOURCE_DIR = /home/ray/TheRayCode/TheRayCode/CPP/Show
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ray/Projects/TheRayCode/CPP/Show/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ray/TheRayCode/TheRayCode/CPP/Show/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/Projects/TheRayCode/CPP/Show/cmake-build-debug/CMakeFiles /home/ray/Projects/TheRayCode/CPP/Show/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/TheRayCode/TheRayCode/CPP/Show/cmake-build-debug/CMakeFiles /home/ray/TheRayCode/TheRayCode/CPP/Show/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/Projects/TheRayCode/CPP/Show/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/TheRayCode/TheRayCode/CPP/Show/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Show
+# Target rules for targets named ChainOfResponsibility
 
 # Build rule for target.
-Show: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Show
-.PHONY : Show
+ChainOfResponsibility: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ChainOfResponsibility
+.PHONY : ChainOfResponsibility
 
 # fast build rule for target.
-Show/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Show.dir/build.make CMakeFiles/Show.dir/build
-.PHONY : Show/fast
+ChainOfResponsibility/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/build
+.PHONY : ChainOfResponsibility/fast
 
 main.o: main.cpp.o
 
@@ -149,7 +149,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Show.dir/build.make CMakeFiles/Show.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -158,7 +158,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Show.dir/build.make CMakeFiles/Show.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -167,7 +167,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Show.dir/build.make CMakeFiles/Show.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -178,7 +178,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Show"
+	@echo "... ChainOfResponsibility"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

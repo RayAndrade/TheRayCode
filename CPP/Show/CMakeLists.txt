@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.17)
-project(Show)
+cmake_minimum_required(VERSION 3.16)
+project(ChainOfResponsibility)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Show main.cpp UniqueState.h SharedState.h Flyweight.h FlyweightFactory.h)
+add_executable(ChainOfResponsibility main.cpp Handler.h AbstractHandler.h MonkeyHandler.h SquirrelHandler.h DogHandler.h)

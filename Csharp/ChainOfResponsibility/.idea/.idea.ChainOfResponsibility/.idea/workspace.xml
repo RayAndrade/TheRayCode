@@ -2,23 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e7572f0-5a64-4853-a82b-d7eae51fb663" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/ChainOfResponsibility.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/ChainOfResponsibility.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/ChainOfResponsibility.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/ChainOfResponsibility.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Proxy/src/TheRayCode/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Proxy/src/TheRayCode/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PHP/Proxy/RealSubject.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../PHP/Proxy/RealSubject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/.idea/.idea.Show/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/.idea/.idea.Show/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/.idea/.idea.Show/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/.idea/.idea.Show/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/.idea/.idea.Show/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/.idea/.idea.Show/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/.idea/.idea.Show/.idea/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/.idea/.idea.Show/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/.idea/.idea.Show/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/.idea/.idea.Show/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Show/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/Car.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/Flyweight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/FlyweightFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/Show.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/bin/Debug/netcoreapp3.1/Show" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/bin/Debug/netcoreapp3.1/Show.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/bin/Debug/netcoreapp3.1/Show.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/bin/Debug/netcoreapp3.1/Show.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/bin/Debug/netcoreapp3.1/Show.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/bin/Debug/netcoreapp3.1/Show.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/Debug/netcoreapp3.1/Show" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/Debug/netcoreapp3.1/Show.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/Debug/netcoreapp3.1/Show.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/Debug/netcoreapp3.1/Show.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/Debug/netcoreapp3.1/Show.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/Debug/netcoreapp3.1/Show.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/Debug/netcoreapp3.1/Show.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/Debug/netcoreapp3.1/Show.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/Debug/netcoreapp3.1/Show.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/Debug/netcoreapp3.1/Show.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/Debug/netcoreapp3.1/Show.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/Show.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/Show.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/Show.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Show/Show/obj/rider.project.restore.info" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +55,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/AbstractHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/IHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/Client.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/MonkeyHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/SquirrelHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/Client.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/AbstractHandler.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/ChainOfResponsibility/MonkeyHandler.cs" />
+      <option value="$PROJECT_DIR$/ChainOfResponsibility/SquirrelHandler.cs" />
+      <option value="$PROJECT_DIR$/ChainOfResponsibility/AbstractHandler.cs" />
+      <option value="$PROJECT_DIR$/ChainOfResponsibility/Client.cs" />
+      <option value="$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" />
+      <option value="$PROJECT_DIR$/ChainOfResponsibility/IHandler.cs" />
+      <option value="$PROJECT_DIR$/ChainOfResponsibility/Program.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1eEdnn0HwZ9PGLwQfzKdtlqz7C1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -87,6 +124,7 @@
       <workItem from="1599250886162" duration="155000" />
       <workItem from="1600201615031" duration="97000" />
       <workItem from="1608414860881" duration="65000" />
+      <workItem from="1609541869542" duration="504000" />
     </task>
     <servers />
   </component>
@@ -106,10 +144,10 @@
           <line>5</line>
           <properties documentPath="$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" initialLine="5">
             <startOffsets>
-              <option value="152" />
+              <option value="141" />
             </startOffsets>
             <endOffsets>
-              <option value="153" />
+              <option value="142" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
@@ -119,10 +157,10 @@
           <line>10</line>
           <properties documentPath="$PROJECT_DIR$/ChainOfResponsibility/Client.cs" initialLine="10">
             <startOffsets>
-              <option value="348" />
+              <option value="337" />
             </startOffsets>
             <endOffsets>
-              <option value="349" />
+              <option value="338" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
@@ -132,10 +170,10 @@
           <line>5</line>
           <properties documentPath="$PROJECT_DIR$/ChainOfResponsibility/MonkeyHandler.cs" initialLine="5">
             <startOffsets>
-              <option value="155" />
+              <option value="144" />
             </startOffsets>
             <endOffsets>
-              <option value="156" />
+              <option value="145" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
@@ -145,10 +183,10 @@
           <line>5</line>
           <properties documentPath="$PROJECT_DIR$/ChainOfResponsibility/SquirrelHandler.cs" initialLine="5">
             <startOffsets>
-              <option value="157" />
+              <option value="146" />
             </startOffsets>
             <endOffsets>
-              <option value="158" />
+              <option value="147" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />

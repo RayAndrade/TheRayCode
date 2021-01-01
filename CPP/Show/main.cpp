@@ -1,42 +1,49 @@
-#include "FlyweightFactory.h"
+#include <iostream>
+#include <vector>
 
-void AddCarToPoliceDatabase(
-        FlyweightFactory &ff, const std::string &plates, const std::string &owner,
-        const std::string &brand, const std::string &model, const std::string &color)
-{
-    std::cout << "\nClient: Adding a car to database.\n";
-    const Flyweight &flyweight = ff.GetFlyweight({brand, model, color});
-    // The client code either stores or calculates extrinsic state and passes it
-    // to the flyweight's methods.
-    flyweight.Operation({plates, owner});
+#include "Handler.h"
+#include "MonkeyHandler.h"
+#include "SquirrelHandler.h"
+#include "DogHandler.h"
+
+
+void ClientCode(Handler &handler) {
+    std::vector<std::string> food = {"Nut", "Banana", "Cup of coffee", "Bone"};
+    for (const std::string &f : food) {
+        std::cout << "Client: Who wants a " << f << "?\n";
+        const std::string result = handler.Handle(f);
+        if (!result.empty()) {
+            std::cout << "  " << result;
+        } else {
+            std::cout << "  " << f << " was left untouched.\n";
+        }
+    }
 }
 
 
-int main()
-{
 
-    FlyweightFactory *factory = new FlyweightFactory({{"Chevrolet", "Camaro2018", "pink"}, {"Mercedes Benz", "C300", "black"}, {"Mercedes Benz", "C500", "red"}, {"BMW", "M5", "red"}, {"BMW", "X6", "white"}});
-    factory->ListFlyweights();
 
-    AddCarToPoliceDatabase(*factory,
-                           "CL234IR",
-                           "James Doe",
-                           "BMW",
-                           "M5",
-                           "red");
+int main() {
 
-    AddCarToPoliceDatabase(*factory,
-                           "CL234IR",
-                           "James Doe",
-                           "BMW",
-                           "X1",
-                           "red");
-    factory->ListFlyweights();
-    delete factory;
+    MonkeyHandler *monkey = new MonkeyHandler;
+    SquirrelHandler *squirrel = new SquirrelHandler;
+    DogHandler *dog = new DogHandler;
+    monkey->SetNext(squirrel)->SetNext(dog);
 
+    /**
+     * The client should be able to send a request to any handler, not just the
+     * first one in the chain.
+     */
+    std::cout << "Chain: Monkey > Squirrel > Dog\n\n";
+    ClientCode(*monkey);
+    std::cout << "\n";
+    std::cout << "Subchain: Squirrel > Dog\n\n";
+    ClientCode(*squirrel);
+
+    delete monkey;
+    delete squirrel;
+    delete dog;
+
+    std::cout << "The Ray Code is AWESOME!!!\n";
     return 0;
-
-
-    //std::cout << "hello" << std::endl;
-    //return 0;
 }
