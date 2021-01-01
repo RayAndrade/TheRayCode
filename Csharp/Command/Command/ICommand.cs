@@ -1,4 +1,4 @@
-namespace TheRayCode.Command
+namespace Command
 {
     public interface ICommand
     {

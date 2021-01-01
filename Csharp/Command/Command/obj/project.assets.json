@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ray/RiderProjects/Command/Command/Command.csproj",
+      "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/Command/Command/Command.csproj",
       "projectName": "Command",
-      "projectPath": "/home/ray/RiderProjects/Command/Command/Command.csproj",
+      "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Command/Command/Command.csproj",
       "packagesPath": "/home/ray/.nuget/packages/",
-      "outputPath": "/home/ray/RiderProjects/Command/Command/obj/",
+      "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Command/Command/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
       }
     }
   }

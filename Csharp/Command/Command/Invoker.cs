@@ -1,6 +1,6 @@
 using System;
 
-namespace TheRayCode.Command
+namespace Command
 {
     class Invoker
     {
