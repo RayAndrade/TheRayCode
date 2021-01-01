@@ -7,27 +7,29 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Command/SimpleCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Command/ComplexCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Command/Invoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Command/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Command/Receiver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Command/ICommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Command/ComplexCommand.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Command/ICommand.cs" />
-        <option value="$PROJECT_DIR$/Command/Receiver.cs" />
-        <option value="$PROJECT_DIR$/Command/Program.cs" />
-        <option value="$PROJECT_DIR$/Command/Invoker.cs" />
-        <option value="$PROJECT_DIR$/Command/SimpleCommand.cs" />
-        <option value="$PROJECT_DIR$/Command/ComplexCommand.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Command/Program.cs" />
+      <option value="$PROJECT_DIR$/Command/Receiver.cs" />
+      <option value="$PROJECT_DIR$/Command/SimpleCommand.cs" />
+      <option value="$PROJECT_DIR$/Command/ComplexCommand.cs" />
+      <option value="$PROJECT_DIR$/Command/ICommand.cs" />
+      <option value="$PROJECT_DIR$/Command/Invoker.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1eEe6k8KX9La9odm20PWi4LZtWk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,6 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Command" type="DotNetProject" factoryName=".NET Project">
@@ -73,6 +76,7 @@
       <workItem from="1597688169345" duration="45000" />
       <workItem from="1597705284194" duration="347000" />
       <workItem from="1597969175536" duration="50000" />
+      <workItem from="1609541100223" duration="665000" />
     </task>
     <servers />
   </component>
@@ -81,29 +85,18 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1860" height="517" key="GridCell.Tab.0.bottom" timestamp="1597969224847">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1860" height="517" key="GridCell.Tab.0.bottom/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1597969224847" />
-    <state width="1793" height="534" key="GridCell.Tab.0.bottom/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597705630701" />
-    <state width="1860" height="517" key="GridCell.Tab.0.center" timestamp="1597969224847">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1860" height="517" key="GridCell.Tab.0.center/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1597969224847" />
-    <state width="1793" height="534" key="GridCell.Tab.0.center/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597705630701" />
-    <state width="1860" height="517" key="GridCell.Tab.0.left" timestamp="1597969224846">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1860" height="517" key="GridCell.Tab.0.left/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1597969224846" />
-    <state width="1793" height="534" key="GridCell.Tab.0.left/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597705630701" />
-    <state width="1860" height="517" key="GridCell.Tab.0.right" timestamp="1597969224847">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1860" height="517" key="GridCell.Tab.0.right/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1597969224847" />
-    <state width="1793" height="534" key="GridCell.Tab.0.right/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597705630701" />
   </component>
 </project>

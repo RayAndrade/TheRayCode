@@ -1,4 +1,4 @@
-namespace TheRayCode.ChainOfResponsibility
+namespace ChainOfResponsibility
 {
     abstract class AbstractHandler : IHandler
     {

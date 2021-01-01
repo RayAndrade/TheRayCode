@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace TheRayCode.ChainOfResponsibility
+namespace ChainOfResponsibility
 {
     class Client
     {

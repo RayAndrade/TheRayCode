@@ -1,4 +1,4 @@
-namespace TheRayCode.ChainOfResponsibility
+namespace ChainOfResponsibility
 {
     class DogHandler : AbstractHandler
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pZctplHWPHoQw/lnc0sXj2s72rN8coBl2I7/NyNKp6AgGCD+nV8m51rtmK8d8IB2rZtZ7nyTuwDfCXvZ9PHeTw==",
+  "dgSpecHash": "tbjg0AGTbxv4/tI5PKQLgpbfEw37evT10jDSlpn2X20AL8HxcOq4IrdvhV4xJt4pzlSH5si4LfL+IID6gT6SEw==",
   "success": true,
-  "projectFilePath": "/home/ray/Desktop/TheRayCode/Csharp/ChainOfResponsibility/ChainOfResponsibility/ChainOfResponsibility.csproj",
+  "projectFilePath": "/home/ray/TheRayCode/TheRayCode/Csharp/ChainOfResponsibility/ChainOfResponsibility/ChainOfResponsibility.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
