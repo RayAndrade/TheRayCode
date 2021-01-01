@@ -6,7 +6,7 @@
 class DogHandler : public AbstractHandler{
 public:
     std::string Handle(std::string request)  {
-        if (request == "Banana") {
+        if (request == "Bone") {
             return "Dog: I'll eat the " + request + ".\n";
         } else {
             return AbstractHandler::Handle(request);
