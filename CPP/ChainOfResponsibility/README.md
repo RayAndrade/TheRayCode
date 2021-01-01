@@ -96,7 +96,7 @@ void ClientCode(Handler &handler) {
 }
 
 ```
-and lastly we goto **main** aand we add:
+and lastly we goto **main** and we add:
 ```cpp
 MonkeyHandler *monkey = new MonkeyHandler;
 SquirrelHandler *squirrel = new SquirrelHandler;
