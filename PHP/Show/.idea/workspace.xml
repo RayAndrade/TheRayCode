@@ -1,74 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="136a1ffa-e960-4283-bc18-cab8a6c34ea3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../CPP/Flyweight/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Flyweight/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/Proxy.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/Proxy.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/RealSubject.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/RealSubject.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/Subject.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/Subject.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/Proxy" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/Proxy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/Proxy.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/Proxy.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/Flyweight.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/Flyweight.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/FlyweightFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/FlyweightFactory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/SharedState.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/SharedState.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/UniqueState.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/UniqueState.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/.idea/.idea.Proxy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/.idea/.idea.Proxy/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/.idea/.idea.Proxy/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/.idea/.idea.Proxy/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/.idea/.idea.Proxy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/.idea/.idea.Proxy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/Client.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/ISubject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/Subject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/Proxy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/Proxy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/RealSubject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/RealSubject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Proxy.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Proxy.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Proxy.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/Proxy.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Proxy/Proxy/obj/rider.project.restore.info" afterDir="false" />
+    <list default="true" id="53911a79-3081-4aa1-8580-b1e0c8270881" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Java/Show/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Show/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Show/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Show/src/TheRayCode/Show/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Show.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subsystem1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Subsystem2.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,128 +24,32 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
-  <component name="ProjectId" id="1fcyyrTeVBrlCQ9sA3mO6RPn22h" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="1mUajVQNQGvsaNIdAA81lLSnRxH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="136a1ffa-e960-4283-bc18-cab8a6c34ea3" name="Default Changelist" comment="" />
-      <created>1596531932380</created>
+      <changelist id="53911a79-3081-4aa1-8580-b1e0c8270881" name="Default Changelist" comment="" />
+      <created>1609550759059</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596531932380</updated>
-      <workItem from="1596531933439" duration="3888000" />
-      <workItem from="1596567001970" duration="900000" />
-      <workItem from="1596568365919" duration="5486000" />
-      <workItem from="1596594141282" duration="984000" />
-      <workItem from="1596860810013" duration="5536000" />
-      <workItem from="1596922216013" duration="7011000" />
-      <workItem from="1597196025755" duration="599000" />
-      <workItem from="1597248232021" duration="14000" />
-      <workItem from="1597249096739" duration="1588000" />
-      <workItem from="1597264991059" duration="3183000" />
-      <workItem from="1597268553486" duration="1771000" />
-      <workItem from="1597270439507" duration="1121000" />
-      <workItem from="1597272856528" duration="261000" />
-      <workItem from="1597396060786" duration="21000" />
-      <workItem from="1597524040509" duration="807000" />
-      <workItem from="1597525098444" duration="772000" />
-      <workItem from="1597526128394" duration="2136000" />
-      <workItem from="1597528282425" duration="747000" />
-      <workItem from="1597529139717" duration="679000" />
-      <workItem from="1597529854478" duration="853000" />
-      <workItem from="1597569378300" duration="6000" />
-      <workItem from="1597708299945" duration="6674000" />
-      <workItem from="1597733113236" duration="11000" />
-      <workItem from="1597785341492" duration="1414000" />
-      <workItem from="1597786989800" duration="34000" />
-      <workItem from="1597787044230" duration="135000" />
-      <workItem from="1597787285063" duration="738000" />
-      <workItem from="1597808372749" duration="685000" />
-      <workItem from="1597862502004" duration="4744000" />
-      <workItem from="1597867880780" duration="1217000" />
-      <workItem from="1597908552542" duration="6000" />
-      <workItem from="1598119040883" duration="3001000" />
-      <workItem from="1598126684808" duration="3159000" />
-      <workItem from="1598131111291" duration="149000" />
-      <workItem from="1598131914172" duration="3882000" />
-      <workItem from="1598137988906" duration="2945000" />
-      <workItem from="1598290423024" duration="749000" />
-      <workItem from="1598293295596" duration="3571000" />
-      <workItem from="1598299255329" duration="4122000" />
-      <workItem from="1598305175732" duration="5900000" />
-      <workItem from="1599008588380" duration="4797000" />
-      <workItem from="1599122920830" duration="27000" />
-      <workItem from="1599458803704" duration="2801000" />
-      <workItem from="1599461683966" duration="485000" />
-      <workItem from="1599501332634" duration="9021000" />
-      <workItem from="1599684117528" duration="184000" />
-      <workItem from="1599684411849" duration="641000" />
-      <workItem from="1599961492016" duration="28000" />
-      <workItem from="1599966099567" duration="599000" />
-      <workItem from="1600021294667" duration="4292000" />
-      <workItem from="1602233935820" duration="37000" />
-      <workItem from="1602274530209" duration="5325000" />
-      <workItem from="1602317144300" duration="4313000" />
-      <workItem from="1602357088154" duration="1743000" />
-      <workItem from="1602990601598" duration="46000" />
-      <workItem from="1603089374526" duration="2155000" />
-      <workItem from="1603150726051" duration="5918000" />
-      <workItem from="1603215433619" duration="212000" />
-      <workItem from="1603215964914" duration="85000" />
-      <workItem from="1603216524408" duration="5000" />
-      <workItem from="1603216535007" duration="1345000" />
-      <workItem from="1604215926892" duration="34000" />
-      <workItem from="1604431868915" duration="346000" />
-      <workItem from="1604442179982" duration="4366000" />
-      <workItem from="1605128886100" duration="19000" />
-      <workItem from="1607124975653" duration="1000000" />
-      <workItem from="1607192467916" duration="460000" />
-      <workItem from="1607193573908" duration="3806000" />
-      <workItem from="1607886924485" duration="151000" />
-      <workItem from="1607887858654" duration="19000" />
+      <updated>1609550759059</updated>
+      <workItem from="1609550760769" duration="113000" />
+      <workItem from="1609550951771" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
