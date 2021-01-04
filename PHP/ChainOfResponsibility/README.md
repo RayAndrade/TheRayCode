@@ -3,6 +3,6 @@ TheRayCode PHP
 # TheRayCode
 
 
-[TheRayCode.com](https://www.TheRayCode.com)
 
-[RayAndrade.org](https://www.TheRayCode.org)
+[RayAndrade.com](https://www.RayAndrade.com)
+[RayAndrade.org](https://www.RayAndrade.org)
