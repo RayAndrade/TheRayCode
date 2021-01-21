@@ -6,7 +6,6 @@ namespace TheRayCode\ChainOfResponsibility;
 
 class DogHandler extends AbstractHandler
 {
-
     public function handle(string $request): ?string
     {
         if ($request === "MeatBall") {
@@ -15,4 +14,5 @@ class DogHandler extends AbstractHandler
             return parent::handle($request);
         }
     }
+
 }

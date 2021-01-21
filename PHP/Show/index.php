@@ -1,10 +1,13 @@
 <?php
 namespace TheRayCode\ChainOfResponsibility;
+
+
+
 include_once ('Handler.php');
 include_once ('AbstractHandler.php');
 
 include_once ('MonkeyHandler.php');
-include_once ('SquirrelHandler.php');
+include_once ('RabbitHandler.php');
 include_once ('DogHandler.php');
 
 
@@ -24,17 +27,23 @@ function clientCode(Handler $handler)
 
 
 $monkey = new MonkeyHandler;
-$squirrel = new SquirrelHandler;
+$rabbit = new RabbitHandler;
 $dog = new DogHandler;
 
-$monkey->setNext($squirrel)->setNext($dog);
+$monkey->setNext($rabbit)->setNext($dog);
 
-echo "Chain: Monkey > Squirrel > Dog<br/><br/>";
+echo "Chain: Monkey > Rabbit > Dog<br/><br/>";
 clientCode($monkey);
 echo "\n";
 
 echo "Subchain: Squirrel > Dog<br/><br/>";
-clientCode($squirrel);
+clientCode($rabbit);
+
+echo "Chain: Monkey > Squirrel > Dog";
+clientCode($monkey);
+echo "\n";
+
+echo "Subchain: Squirrel > Dog";
 
 
 echo "The Ray Code is AWESOME!!!<br/><br/>";
