@@ -1,6 +1,6 @@
 # TheRayCode
 TheRayCode java 
-create package **middleware**
+create the packages **middleware** and **server** 
 
 create class **public abstract class Middleware** have it
 add:
