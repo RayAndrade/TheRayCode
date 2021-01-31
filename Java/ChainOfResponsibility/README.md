@@ -1,9 +1,9 @@
-# TheRayCode
-TheRayCode java 
-create the packages **middleware** and **server** 
+  # TheRayCode
+TheRayCode
+We first create the packages **middleware** and **server**
 
-create class **public abstract class Middleware** have it
-add:
+We  create a abstract class called: **public abstract class Middleware** add it to the package.
+
 ```java
 private Middleware next;
 
@@ -22,8 +22,7 @@ protected boolean checkNext(String email, String password) {
 }
 
 ```
-
-create class **ThrottlingMiddleware** have it **extends Middleware**
+and now we create class and name it **ThrottlingMiddleware** have it **extends Middleware**
 override **check (String email, String password)** replace return false with:
 add:
 ```java
@@ -31,14 +30,14 @@ private int requestPerMinute;
 private int request;
 private long currentTime;
 ```
-and add the method:
+and now we add the method:
 ```java
 public ThrottlingMiddleware(int requestPerMinute) {
     this.requestPerMinute = requestPerMinute;
     this.currentTime = System.currentTimeMillis();
  }
 ```
-and then to the overided method **check** we repace the **return false** with:
+The next method I want to add is to the override method **check** we repace the **return false** with:
 ```java
 if (System.currentTimeMillis() > currentTime + 60_000) {
     request = 0;
@@ -119,7 +118,7 @@ and
 public UserExistsMiddleware(Server server) {
         this.server = server;
  }
-    
+
 ```
 
 
@@ -148,7 +147,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 ```
-to the class **Demo** 
+to the class **Demo**
 ```java
 public static void main(String[] args) { }
 ```
@@ -185,7 +184,7 @@ do {
     String password = reader.readLine();
     success = server.logIn(email, password);
 } while (!success);
-        
+
 ```
 
 
