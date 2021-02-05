@@ -1,8 +1,7 @@
 # TheRayCode
 
 We first create the packages **middleware** and **server**. These packages will be areas where we will add our code files.
-
-We  create a abstract class called: **public abstract class Middleware** add it to the package.
+The first class file I want to create will be an abstract class called: **public abstract class Middleware** .
 
 ```java
 private Middleware next;
