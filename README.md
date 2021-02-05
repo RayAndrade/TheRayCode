@@ -21,6 +21,24 @@ public ThrottlingMiddleware(int requestPerMinute) {
     this.currentTime = System.currentTimeMillis();
  }
 ```
+```php
+public ThrottlingMiddleware(int requestPerMinute) {
+    this.requestPerMinute = requestPerMinute;
+    this.currentTime = System.currentTimeMillis();
+ }
+```
+```cpp
+public ThrottlingMiddleware(int requestPerMinute) {
+    this.requestPerMinute = requestPerMinute;
+    this.currentTime = System.currentTimeMillis();
+ }
+```
+```cs
+public ThrottlingMiddleware(int requestPerMinute) {
+    this.requestPerMinute = requestPerMinute;
+    this.currentTime = System.currentTimeMillis();
+ }
+```
 and then to the overide we add:
 ```java
 if (!server.hasEmail(email)) {
