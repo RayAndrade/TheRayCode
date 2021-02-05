@@ -1,6 +1,6 @@
 # TheRayCode
 
-We first create the packages **middleware** and **server**
+We first create the packages **middleware** and **server**. These packages will be areas where we will add our code files.
 
 We  create a abstract class called: **public abstract class Middleware** add it to the package.
 
