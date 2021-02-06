@@ -13,7 +13,14 @@ To the setNext method we add the following code:
 $this->nextHandler = $handler;
 return $handler;
 ```
-
+To the method handle which take a string parameter called $request and returns a string we add the following code:
+```php
+if ($this->nextHandler) {
+    return $this->nextHandler->handle($request);
+}
+return null;
+```
+This passes the **$request** to the next **Handler** in the chain.
 
 [RayAndrade.com](https://www.RayAndrade.com)
 
