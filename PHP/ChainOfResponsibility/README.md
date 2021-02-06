@@ -41,16 +41,69 @@ To the **MonkeyHandler** we add the following code:
 ```php
 if ($request === "Banana") {
     return "Monkey: I'll eat the " . $request . ".<br/>";
- } else {
+    } else {
     return parent::handle($request);
  }
 ```
-As expected monkies like bannas and will pass the food next to the next anamal if it is something else.
-The last animal I want to add will be a squirre. We call the class the **SquirrelHandler**. 
-Like the last class we need to extend this class with the **AbstractHandler**
+As expected monkies like bannas. In our program, if the monkey recives anything else he will pass the food item next to the next anamal in the chain. 
+The last animal we will add to our chain will be the squirre. We call this class the **SquirrelHandler**. 
+Like the last two, we need to extend this class with the **AbstractHandler**.
+We will use the autogenerator to add the **handel** method. To this method we add following code:
+```php
+if ($request === "Nut") {
+    return "Squirrel: I'll eat the " . $request . ".<br/>";
+    } else {
+    return parent::handle($request);
+}
+```
+Now let's create the main part to our demo. We go to the **index.php** file and add the following includes:
 
+```php
+include_once ('Handler.php');
+include_once ('AbstractHandler.php');
+```
+we also need to add our menagerie of animals as includes"
+```php
+include_once('MouseHandler.php');
+include_once ('SquirrelHandler.php');
+include_once ('DogHandler.php');
+```
+next we add some client code:
+```php
+function clientCode(Handler $handler)
+{
+    foreach (["Nut", "Cheese", "Cup of coffee"] as $food) {
+        echo "Client: Who wants the " . $food . "?<br/>";
+        $result = $handler->handle($food);
+        if ($result) {
+            echo "  " . $result;
+        } else {
+            echo "  " . $food . " was left untouched.<br/>";
+        }
+    }
+}
+```
+after that we define some animales
+```php
+$mouse = new MouseHandler;
+$squirrel = new SquirrelHandler;
+$dog = new DogHandler;
+```
+now let's create a chain:
+```php
+$mouse->setNext($squirrel)->setNext($dog);
 
-
+echo "<b>Chain: Mouse > Squirrel > Dog</b><br/>";
+clientCode($mouse);
+echo "<br/>";
+```
+Let's do this with a subcain:
+```php
+echo "<b>Subchain: Squirrel > Dog</b><br/>";
+clientCode($squirrel);
+echo "<br/>";
+```
+Let's run our example.
 
 
 [RayAndrade.com](https://www.RayAndrade.com)
