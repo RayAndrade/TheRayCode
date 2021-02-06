@@ -1,7 +1,9 @@
 # TheRayCode
 
 We first create the packages **middleware** and **server**. These packages will be areas where we will add our code files.
-The first class file I want to create will be an abstract class called: **public abstract class Middleware** .
+The first class file I want to create will be an abstract class  file called: **public abstract class Middleware** inside the package **middleware**.
+Now we add the following code to the file:
+
 
 ```java
 private Middleware next;
@@ -21,6 +23,9 @@ protected boolean checkNext(String email, String password) {
 }
 
 ```
+The **linkwith** method takes the parameter to the class. **checkNext** takes in the parameters
+
+
 and now we create class and name it **ThrottlingMiddleware** have it **extends Middleware**
 override **check (String email, String password)** replace return false with:
 add:
