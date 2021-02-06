@@ -2,7 +2,7 @@
 TheRayCode PHP 
 # TheRayCode
 
-Let's start by creatinig the #interface Handler# 
+Let's start by creatinig the **interface Handle** 
 
 
 [RayAndrade.com](https://www.RayAndrade.com)
