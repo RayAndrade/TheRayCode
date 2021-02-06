@@ -9,7 +9,7 @@ public function handle(string $request): ?string;
 ``` 
 Now let's add a class file and call **AbstractHandler** let it implement the **Handler** interface. Let's autogenerate **setNext** and **Handle**. 
 To the setNext method we add the following code:
-```
+```php
 $this->nextHandler = $handler;
 return $handler;
 ```
