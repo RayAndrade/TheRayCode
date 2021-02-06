@@ -7,7 +7,7 @@ Let's start by creatinig the interface **Handler** and we add two method stubs t
 public function setNext(Handler $handler): Handler;
 public function handle(string $request): ?string;
 ``` 
-
+Now let's add a class file called
 
 [RayAndrade.com](https://www.RayAndrade.com)
 
