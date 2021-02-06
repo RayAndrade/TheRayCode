@@ -28,7 +28,7 @@ Because this is extended with the **AbstractHandler** we need to add the functio
 To this method we add the following code:
 ```php
 if ($request === "MeatBall") {
-   return "Dog: I'll eat the " . $request . ".\n";
+   return "Dog: I'll eat the " . $request . ".<br/>";
    } else {
    return parent::handle($request);
 }
@@ -42,9 +42,12 @@ To the **MonkeyHandler** we add the following code:
 if ($request === "Banana") {
     return "Monkey: I'll eat the " . $request . ".<br/>";
  } else {
-   return parent::handle($request);
+    return parent::handle($request);
  }
 ```
+As expected monkies like bannas and will pass the food next to the next anamal if it is something else.
+The last animal I want to add will be a squirre. We call the class the **SquirrelHandler**. 
+Like the last class we need to extend this class with the **AbstractHandler**
 
 
 
