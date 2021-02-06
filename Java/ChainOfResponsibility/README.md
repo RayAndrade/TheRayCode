@@ -1,7 +1,10 @@
 # TheRayCode
+In this example I want to create a system that authorizes a user as administrator or basic user.
 
-We first create the packages **middleware** and **server**. These packages will be areas where we will add our code files.
-The first class file I want to create will be an abstract class  file called: **public abstract class Middleware** inside the package **middleware**.
+We first thing we need to create are some packages to hold our code.
+Let me create two packages I call **middleware** and **server**. 
+These packages will be areas where we will add our code files.
+The first class file I want to create will be an abstract class  file called: **Middleware** inside of the class file **Middleware** we add the following java code:
 Now we add the following code to the file:
 
 
