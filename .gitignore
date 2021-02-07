@@ -4,3 +4,5 @@
 */modules.xml
 */cmake-build-debug/*
 *.autosave
+*/cmake-build-debug/*
+*/out/*
