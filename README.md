@@ -1,11 +1,10 @@
-# TheRayCode
-```java
-Hello world 2
-```
-TheRayCode Java PHP C# CPP UML my work
-Here you will find all the code I use at the <http://rayandrade.com> homepage.
-You can also mail me: <TheRayCode@RayAndrade.com>
+# TheRayCode Java
 
+Here you will find all the code I use at the <http://rayandrade.com> homepage.
+You can also email me: <TheRayCode@RayAndrade.com>
+
+In this artical I plan to review the design pattern Chain of Reponsibity as discribed by the Gang Of Four.
+For this example I will use the programing language java.
 create class **ThrottlingMiddleware** have it **extends Middleware**
 override **check** (String email, String password) with
 add:
