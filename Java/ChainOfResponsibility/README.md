@@ -25,11 +25,14 @@ protected boolean checkNext(String email, String password) {
 }
 
 ```
-The **linkwith** method takes the parameter to the class. **checkNext** takes in the parameters.
+
+The **linkwith** method takes the parameter **checkNext** and the parameter value gets returned as **next**.
+In the  checkNext method it chect to see if the parameter are of a certian type. There are only 2 users, an admin and a user.
+So for those at home, don't expect to put this demo into production.
 
 Now create a class named **ThrottlingMiddleware** and have it **extend**s **Middleware**.
-override **check (String email, String password)** replace return false with:
-add:
+Override **check (String email, String password)** replace return false with:
+
 ```java
 private int requestPerMinute;
 private int request;
@@ -42,7 +45,7 @@ public ThrottlingMiddleware(int requestPerMinute) {
     this.currentTime = System.currentTimeMillis();
  }
 ```
-The next method I want to add is to the override method **check** we repace the **return false** with:
+The next add is to the override method **check** we repace the **return false** with:
 ```java
 if (System.currentTimeMillis() > currentTime + 60_000) {
     request = 0;
