@@ -5,7 +5,7 @@ The packages I create are called **middleware** and **server**.
  These packages will be areas where we will add our java code files.
  Now let's create some *class* files.
 The first class file I want to create will be an abstract class  file we call: **Middleware**. 
-Inside of the class we add the following java code:
+Inside of the class we add the following code java class:
 
 ```java
 private Middleware next;
@@ -25,10 +25,8 @@ protected boolean checkNext(String email, String password) {
 }
 
 ```
-The **linkwith** method takes the parameter to the class. **checkNext** takes in the parameters
-
-
-and now we create class and name it **ThrottlingMiddleware** have it **extends Middleware**
+The **linkwith** method takes the parameter to the class. **checkNext** takes in the parameters.
+Now create a class named **ThrottlingMiddleware** and have it **extend**s **Middleware**.
 override **check (String email, String password)** replace return false with:
 add:
 ```java
