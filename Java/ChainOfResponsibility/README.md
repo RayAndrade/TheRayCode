@@ -28,10 +28,10 @@ protected boolean checkNext(String email, String password) {
 ```
 
 The **linkwith** method takes the parameter **checkNext** and the parameter value gets returned as **next**.
-In the  checkNext method it chect to see if the parameter are of a certian type. There are only 2 users, an admin and a user.
+In the  **checkNext** method I check to see if the parameters are of a certian type. There are only 2 users, **admin** and **user**.
 So for those at home, don't expect to put this demo into production.
 
-Now create a class named **ThrottlingMiddleware** and have it **extend**s **Middleware**.
+Now let's create a class named **ThrottlingMiddleware** and have it **extend**s **Middleware**.
 Override **check (String email, String password)** replace return false with:
 
 ```java
