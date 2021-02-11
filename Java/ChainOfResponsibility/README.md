@@ -32,14 +32,15 @@ In the  **checkNext** method I check to see if the parameters are of a certian t
 So for those at home, don't expect to put this demo into production.
 
 Now let's create a class named **ThrottlingMiddleware** and have it **extend**s **Middleware**.
-Override **check (String email, String password)** replace return false with:
+Override **check (String email, String password)** replace return false with.
+First we need some local varables:
 
 ```java
 private int requestPerMinute;
 private int request;
 private long currentTime;
 ```
-and now we add the method:
+and now we code our method:
 ```java
 public ThrottlingMiddleware(int requestPerMinute) {
     this.requestPerMinute = requestPerMinute;
