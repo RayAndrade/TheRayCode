@@ -1,7 +1,8 @@
 # TheRayCode
 TheRayCode C++ 
-files:
-create **Handler**.h
+
+Let's create a class header file called **Handler**.h. 
+In this file we place the following code:
 
 ```cpp
 #include <iostream>
