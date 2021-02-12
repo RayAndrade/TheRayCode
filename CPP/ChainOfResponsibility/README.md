@@ -43,7 +43,9 @@ public:
 };
 
 ```
-create **DogHandler**.h
+The first animal we will add to our program will be a **DogHandler**.h. 
+To that file we need to include will be the **AbstractHandler**.h and by doing that we
+extend the class the class of the same name.
 
 ```cpp
 #include "AbstractHandler.h"
