@@ -15,7 +15,7 @@ public:
 ```
 The next class I want to create will be called **AbstractHandler**.h
 
-We will extend it with **Handler**. We will also add teo methods. One we call **SetNext** and the other will be the **Handle** 
+We will extend it with **Handler**. We will also add two methods. One we call **SetNext** and the other will be called **Handle** 
 see the follpwing code:
 
 ```cpp
