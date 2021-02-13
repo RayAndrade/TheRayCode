@@ -1,7 +1,7 @@
 # TheRayCode
 TheRayCode C++ 
 
-Let's create a class header file called **Handler**.h. 
+Let's create a header file called **Handler**.h. 
 In this file we place the following code:
 
 ```cpp
@@ -13,14 +13,17 @@ public:
     virtual std::string Handle(std::string request) = 0;
 };
 ```
-We will use **Handler** as an interface for our **AbstractHandler**.
+We will use **Handler** as an interface for the next file we create **AbstractHandler**.
 
-So, the next class we to create is called **AbstractHandler**.h.
+Let's extend the **AbstractHandler** with **Handler**. 
+We will also add two methods to our class. 
+One we call **SetNext** and the other will be called **Handle** 
 
-We will extend **AbstractHandler** with **Handler**. We will also add two methods. One we call **SetNext** and the other will be called **Handle** 
-Let's look at the following code. First we add the private variable **next_handler_** which is of type  **Handler**. We can autogenerate **SetNext**. 
+Let's take a look at the following code. 
+First we add the private variable **next_handler_** which is of type  **Handler**. 
+We can *autogenerate* the **SetNext** function. 
 If you are using Clone, place the cursor next to **Handler** right-click and select Generate (or you can use alt+insert) impelment functions a select **SetNext**
-To the auto generated code we add and have the following:
+The auto generated code *should be* as the following:
 
 ```cpp
 #include "Handler.h"
