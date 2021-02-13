@@ -88,7 +88,7 @@ public:
 It has the same structure as **DogHandler** but it seen to accept the food item the monkey likes a Banana and will eat that.
 Other food items will be passed down the **chain**.
 
-The last animal to add to our menagerie of anamials will be **squirrel** and as you know squirrels <3 nuts. 
+The last animal to add to our menagerie of anamials will be a **squirrel** and as you know squirrels <3 nuts. 
 This is our code: 
  
 create file **SquirrelHandler**.h
@@ -106,16 +106,23 @@ public:
     }
 };
 ```
-navagate to **main.cpp** and add the code:
-```cpp
-#include <vector>
 
+Now let's navagate to **main.cpp** and add the code.
+The list of include files we have are:
+
+
+```cpp
 #include "Handler.h"
 #include "MonkeyHandler.h"
 #include "SquirrelHandler.h"
 #include "DogHandler.h"
 ```
-we add some cliesnt code:
+for our demo we also need to include
+```cpp
+#include <vector>
+```
+let's add some client code:
+
 ```cpp
 void ClientCode(Handler &handler) {
     std::vector<std::string> food = {"Nut", "Banana", "Cup of coffee", "Bone"};
@@ -131,7 +138,7 @@ void ClientCode(Handler &handler) {
 }
 
 ```
-and lastly we goto **main** and we add:
+and lastly we goto **main** and play around with a demonstration:
 ```cpp
 MonkeyHandler *monkey = new MonkeyHandler;
 SquirrelHandler *squirrel = new SquirrelHandler;
@@ -147,11 +154,13 @@ ClientCode(*monkey);
 std::cout << "\n";
 std::cout << "Subchain: Squirrel > Dog\n\n";
 ClientCode(*squirrel);
-
+```
+lastly we do some clean up
+```cpp
 delete monkey;
 delete squirrel;
 delete dog;
 ```
-
+now let's run
 
 [Github](https://www.TheRayCode.com)
