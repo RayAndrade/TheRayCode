@@ -15,10 +15,12 @@ public:
 ```
 We will use **Handler** as an interface for our **AbstractHandler**.
 
-So, the next class we to create is called **AbstractHandler**.h
+So, the next class we to create is called **AbstractHandler**.h.
 
-We will extend it with **Handler**. We will also add two methods. One we call **SetNext** and the other will be called **Handle** 
-Let's look at the following code:
+We will extend **AbstractHandler** with **Handler**. We will also add two methods. One we call **SetNext** and the other will be called **Handle** 
+Let's look at the following code. First we add the private variable **next_handler_** which is of type  **Handler**. We can autogenerate **SetNext**. 
+If you are using Clone, place the cursor next to **Handler** right-click and select Generate (or you can use alt+insert) impelment functions a select **SetNext**
+To the auto generated code we add and have the following:
 
 ```cpp
 #include "Handler.h"
@@ -45,7 +47,8 @@ public:
 };
 
 ```
-The first animal we will add to our program will be a **DogHandler**.h. 
+Next we create the players of our program. 
+The first animal we will add to our program will be called **DogHandler**.h. 
 To that file we need to include will be the **AbstractHandler**.h and by doing that we
 extend the class the class of the same name.
 
@@ -63,7 +66,9 @@ public:
     }
 };
 ```
-create file **MonkeyHandler**.h
+as you can see the **DogHandler** handels the object if it is a **Bone** and passes all other items down the chain.
+
+Let's add a **MonkeyHandler**.h to our program
 ```cpp
 #include "AbstractHandler.h"
 
@@ -80,6 +85,12 @@ public:
 };
 
 ```
+It has the same structure as **DogHandler** but it seen to accept the food item the monkey likes a Banana and will eat that.
+Other food items will be passed down the **chain**.
+
+The last animal to add to our menagerie of anamials will be **squirrel** and as you know squirrels <3 nuts. 
+This is our code: 
+ 
 create file **SquirrelHandler**.h
 ```cpp
 #include "AbstractHandler.h"
