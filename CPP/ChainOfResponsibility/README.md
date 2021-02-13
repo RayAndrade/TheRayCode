@@ -51,7 +51,7 @@ public:
 
 ```
 Next we create the players of our program. 
-The first animal we will add to our program will be called **DogHandler**.h. 
+The first animal (*player*) we will add to our program will be called **DogHandler**.h. 
 To that file we need to include will be the **AbstractHandler**.h and by doing that we
 extend the class the class of the same name.
 
@@ -69,9 +69,11 @@ public:
     }
 };
 ```
-as you can see the **DogHandler** handels the object if it is a **Bone** and passes all other items down the chain.
+as you can see the **DogHandler** handels the object if it is a **Bone** and passes it down the chain of amiamales.
 
-Let's add a **MonkeyHandler**.h to our program
+Let's add another animale to our *zoo*, the **MonkeyHandler**.h.
+Here is the code:
+
 ```cpp
 #include "AbstractHandler.h"
 
@@ -88,10 +90,10 @@ public:
 };
 
 ```
-It has the same structure as **DogHandler** but it seen to accept the food item the monkey likes a Banana and will eat that.
-Other food items will be passed down the **chain**.
+It has the same structure as **DogHandler** but it to accepts the a **Banana** as food.
+If the food item is anything else, it will be passed down the **chain**.
 
-The last animal to add to our menagerie of anamials will be a **squirrel** and as you know squirrels <3 nuts. 
+The last animal we add to our menagerie of anamials will be a **squirrel**, and as you know squirrels 💜 <3 nuts. 
 This is our code: 
  
 create file **SquirrelHandler**.h
