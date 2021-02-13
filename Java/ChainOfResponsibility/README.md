@@ -47,7 +47,7 @@ public ThrottlingMiddleware(int requestPerMinute) {
     this.currentTime = System.currentTimeMillis();
  }
 ```
-The next add is to the override method **check** we repace the **return false** with:
+The next thing to add is to the override method **check** we repace the **return false** with:
 ```java
 if (System.currentTimeMillis() > currentTime + 60_000) {
     request = 0;
@@ -181,7 +181,7 @@ Middleware middleware = new ThrottlingMiddleware(2);
 middleware.linkWith(new UserExistsMiddleware(server)).linkWith(new RoleCheckMiddleware());
 server.setMiddleware(middleware);
 ```
-let's add some more code to the **main** method
+Let's close out this totrial by adding some code using to the **init** we just created, in the **main** method we add.
 
 ```java
 init();

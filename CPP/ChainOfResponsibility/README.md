@@ -13,7 +13,9 @@ public:
     virtual std::string Handle(std::string request) = 0;
 };
 ```
-The next class I want to create will be called **AbstractHandler**.h
+We will use **Handler** as an interface for our **AbstractHandler**.
+
+So, the next class we to create is called **AbstractHandler**.h
 
 We will extend it with **Handler**. We will also add two methods. One we call **SetNext** and the other will be called **Handle** 
 Let's look at the following code:
