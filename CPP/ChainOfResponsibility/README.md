@@ -19,8 +19,8 @@ Let's extend the **AbstractHandler** with **Handler**.
 We will also add two methods to our class. 
 One we call **SetNext** and the other will be called **Handle** 
 
-Let's take a look at the following code. 
-First we add the private variable **next_handler_** which is of type  **Handler**. 
+Now let's take a look at the following code. 
+First we add a private variable called **next_handler_** which is of type  **Handler**. 
 We can *autogenerate* the **SetNext** function. 
 If you are using Clone, place the cursor next to **Handler** right-click and select Generate (or you can use alt+insert) impelment functions a select **SetNext**
 The auto generated code *should be* as the following:
