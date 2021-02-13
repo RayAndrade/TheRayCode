@@ -29,7 +29,9 @@ The auto generated code *should be* as the following:
 #include "Handler.h"
 
 class AbstractHandler : public Handler {
-
+    /**
+     * @var Handler
+     */
 private:
     Handler *next_handler_;
 
@@ -38,6 +40,9 @@ public:
     }
     Handler *SetNext(Handler *handler) override {
         this->next_handler_ = handler;
+        // Returning a handler from here will let us link handlers in a convenient
+        // way like this:
+        // $monkey->setNext($squirrel)->setNext($dog);
         return handler;
     }
     std::string Handle(std::string request) override {
@@ -58,10 +63,10 @@ extend the class the class of the same name.
 ```cpp
 #include "AbstractHandler.h"
 
-class DogHandler : public AbstractHandler{
+class DogHandler : public AbstractHandler {
 public:
-    std::string Handle(std::string request)  {
-        if (request == "Bone") {
+    std::string Handle(std::string request) override {
+        if (request == "MeatBall") {
             return "Dog: I'll eat the " + request + ".\n";
         } else {
             return AbstractHandler::Handle(request);
@@ -77,10 +82,9 @@ Here is the code:
 ```cpp
 #include "AbstractHandler.h"
 
-class MonkeyHandler : public AbstractHandler  {
-
+class MonkeyHandler : public AbstractHandler {
 public:
-    std::string Handle(std::string request)  {
+    std::string Handle(std::string request) override {
         if (request == "Banana") {
             return "Monkey: I'll eat the " + request + ".\n";
         } else {
@@ -94,15 +98,15 @@ It has the same structure as **DogHandler** but it to accepts the a **Banana** a
 If the food item is anything else, it will be passed down the **chain**.
 
 The last animal we add to our menagerie of anamials will be a **squirrel**, and as you know squirrels 💜 <3 nuts. 
-This is our code: 
+Thus our code for the **Squirrel** is: 
  
 create file **SquirrelHandler**.h
 ```cpp
 #include "AbstractHandler.h"
 
-class SquirrelHandler: public AbstractHandler {
+class SquirrelHandler : public AbstractHandler {
 public:
-    std::string Handle(std::string request)  {
+    std::string Handle(std::string request) override {
         if (request == "Nut") {
             return "Squirrel: I'll eat the " + request + ".\n";
         } else {
@@ -111,8 +115,7 @@ public:
     }
 };
 ```
-
-Now let's navagate to **main.cpp** and add the code.
+Now let's rap things up in the **main.cpp** file.
 The list of include files we have are:
 
 
@@ -122,7 +125,7 @@ The list of include files we have are:
 #include "SquirrelHandler.h"
 #include "DogHandler.h"
 ```
-for our demo we also need to include
+for our demo will also need to include
 ```cpp
 #include <vector>
 ```
@@ -130,7 +133,7 @@ let's add some client code:
 
 ```cpp
 void ClientCode(Handler &handler) {
-    std::vector<std::string> food = {"Nut", "Banana", "Cup of coffee", "Bone"};
+    std::vector<std::string> food = {"Nut", "Banana", "Cup of coffee"};
     for (const std::string &f : food) {
         std::cout << "Client: Who wants a " << f << "?\n";
         const std::string result = handler.Handle(f);
@@ -143,13 +146,15 @@ void ClientCode(Handler &handler) {
 }
 
 ```
-and lastly we goto **main** and play around with a demonstration:
+and lastly we goto **main** and play around with a demonstration. We add the code:
 ```cpp
 MonkeyHandler *monkey = new MonkeyHandler;
 SquirrelHandler *squirrel = new SquirrelHandler;
 DogHandler *dog = new DogHandler;
 monkey->SetNext(squirrel)->SetNext(dog);
-
+```
+we do the same with another chain
+```cpp
 /**
  * The client should be able to send a request to any handler, not just the
  * first one in the chain.
@@ -160,12 +165,33 @@ std::cout << "\n";
 std::cout << "Subchain: Squirrel > Dog\n\n";
 ClientCode(*squirrel);
 ```
-lastly we do some clean up
+And lastly we do some clean up
 ```cpp
 delete monkey;
 delete squirrel;
 delete dog;
 ```
-now let's run
+now let's run.
+The result of our run is:
+
+```cpp
+Chain: Monkey > Squirrel > Dog
+
+Client: Who wants a Nut?
+  Squirrel: I'll eat the Nut.
+Client: Who wants a Banana?
+  Monkey: I'll eat the Banana.
+Client: Who wants a Cup of coffee?
+  Cup of coffee was left untouched.
+
+Subchain: Squirrel > Dog
+
+Client: Who wants a Nut?
+  Squirrel: I'll eat the Nut.
+Client: Who wants a Banana?
+  Banana was left untouched.
+Client: Who wants a Cup of coffee?
+  Cup of coffee was left untouched.
+```
 
 [Github](https://www.TheRayCode.com)
