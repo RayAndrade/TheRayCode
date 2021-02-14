@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e7572f0-5a64-4853-a82b-d7eae51fb663" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/AbstractHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/AbstractHandler.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/DogHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/DogHandler.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/MonkeyHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/MonkeyHandler.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/SquirrelHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/SquirrelHandler.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/ChainOfResponsibility.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/ChainOfResponsibility.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/ChainOfResponsibility" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/ChainOfResponsibility" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Show/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/AbstractHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/AbstractHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/Client.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/BearHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/IHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/Handler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/SquirrelHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/MouseHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +93,7 @@
       <workItem from="1600201615031" duration="97000" />
       <workItem from="1608414860881" duration="65000" />
       <workItem from="1609541869542" duration="504000" />
-      <workItem from="1613254606932" duration="1858000" />
+      <workItem from="1613254606932" duration="2149000" />
     </task>
     <servers />
   </component>
