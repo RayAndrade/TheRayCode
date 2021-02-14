@@ -1,5 +1,8 @@
 # TheRayCode
 TheRayCode C# 
+
+In this tutorial I plan to go over the Chain of Responsibity design pattern using C#.
+The story I will build will contain a Noa Ark of animales which will contain a 
 create **interface IHandler**
 ```cs
 IHandler SetNext(IHandler handler);
