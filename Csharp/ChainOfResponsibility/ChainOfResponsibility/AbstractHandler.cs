@@ -1,10 +1,10 @@
 namespace ChainOfResponsibility
 {
-    abstract class AbstractHandler : IHandler
+    abstract class AbstractHandler : Handler
     {
-        private IHandler _nextHandler;
+        private Handler _nextHandler;
 
-        public IHandler SetNext(IHandler handler)
+        public Handler SetNext(Handler handler)
         {
             this._nextHandler = handler;
             

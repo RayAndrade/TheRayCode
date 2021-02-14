@@ -9,7 +9,7 @@ namespace ChainOfResponsibility
         // most cases, it is not even aware that the handler is part of a chain.
         public static void ClientCode(AbstractHandler handler)
         {
-            foreach (var food in new List<string> { "Nut", "Banana", "Cup of coffee" })
+            foreach (var food in new List<string> { "Honey", "Cheese", "Cup of coffee" })
             {
                 Console.WriteLine($"Client: Who wants a {food}?");
 

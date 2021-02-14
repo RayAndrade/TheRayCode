@@ -9,19 +9,19 @@ namespace ChainOfResponsibility
         {
             // The other part of the client code constructs the actual chain.
             var monkey = new MonkeyHandler();
-            var squirrel = new SquirrelHandler();
-            var dog = new DogHandler();
+            var mouse = new MouseHandler();
+            var bear = new BearHandler();
 
-            monkey.SetNext(squirrel).SetNext(dog);
+            monkey.SetNext(mouse).SetNext(bear);
 
             // The client should be able to send a request to any handler, not
             // just the first one in the chain.
-            Console.WriteLine("Chain: Monkey > Squirrel > Dog\n");
+            Console.WriteLine("Chain: Monkey > Mouse > Bear\n");
             Client.ClientCode(monkey);
             Console.WriteLine();
 
-            Console.WriteLine("Subchain: Squirrel > Dog\n");
-            Client.ClientCode(squirrel);
+            Console.WriteLine("Subchain: Mouse > Bear\n");
+            Client.ClientCode(mouse);
         }
     }
 }

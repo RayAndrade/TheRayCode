@@ -1,12 +1,12 @@
 namespace ChainOfResponsibility
 {
-    class DogHandler : AbstractHandler
+    class MouseHandler : AbstractHandler
     {
         public override object Handle(object request)
         {
-            if (request.ToString() == "MeatBall")
+            if (request.ToString() == "Cheese")
             {
-                return $"Dog: I'll eat the {request.ToString()}.\n";
+                return $"Mouse: I love {request.ToString()}.\n";
             }
             else
             {

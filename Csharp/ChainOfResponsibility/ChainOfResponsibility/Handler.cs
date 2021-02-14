@@ -1,8 +1,8 @@
 namespace ChainOfResponsibility
 {
-    public interface IHandler
+    public interface Handler
     {
-        IHandler SetNext(IHandler handler);
+        Handler SetNext(Handler handler);
         
         object Handle(object request);
     }
