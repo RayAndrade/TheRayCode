@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e7572f0-5a64-4853-a82b-d7eae51fb663" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3e7572f0-5a64-4853-a82b-d7eae51fb663" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +91,7 @@
       <workItem from="1608414860881" duration="65000" />
       <workItem from="1609541869542" duration="504000" />
       <workItem from="1613254606932" duration="2149000" />
+      <workItem from="1613422365263" duration="334000" />
     </task>
     <servers />
   </component>
@@ -112,6 +110,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -122,14 +121,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ChainOfResponsibility/BearHandler.cs</url>
           <line>5</line>
-          <properties documentPath="$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" initialLine="5">
-            <startOffsets>
-              <option value="142" />
-            </startOffsets>
-            <endOffsets>
-              <option value="143" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" initialLine="5" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
@@ -161,14 +153,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ChainOfResponsibility/MouseHandler.cs</url>
           <line>5</line>
-          <properties documentPath="$PROJECT_DIR$/ChainOfResponsibility/SquirrelHandler.cs" initialLine="5">
-            <startOffsets>
-              <option value="143" />
-            </startOffsets>
-            <endOffsets>
-              <option value="144" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/ChainOfResponsibility/SquirrelHandler.cs" initialLine="5" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
