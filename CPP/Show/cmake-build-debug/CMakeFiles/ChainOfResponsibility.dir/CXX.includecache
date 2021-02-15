@@ -6,37 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ray/TheRayCode/TheRayCode/CPP/Show/AbstractHandler.h
-Handler.h
-/home/ray/TheRayCode/TheRayCode/CPP/Show/Handler.h
-
-/home/ray/TheRayCode/TheRayCode/CPP/Show/DogHandler.h
-AbstractHandler.h
-/home/ray/TheRayCode/TheRayCode/CPP/Show/AbstractHandler.h
-
-/home/ray/TheRayCode/TheRayCode/CPP/Show/Handler.h
-iostream
--
-
-/home/ray/TheRayCode/TheRayCode/CPP/Show/MonkeyHandler.h
-AbstractHandler.h
-/home/ray/TheRayCode/TheRayCode/CPP/Show/AbstractHandler.h
-
-/home/ray/TheRayCode/TheRayCode/CPP/Show/SquirrelHandler.h
-AbstractHandler.h
-/home/ray/TheRayCode/TheRayCode/CPP/Show/AbstractHandler.h
-
 /home/ray/TheRayCode/TheRayCode/CPP/Show/main.cpp
 iostream
 -
-vector
--
-Handler.h
-/home/ray/TheRayCode/TheRayCode/CPP/Show/Handler.h
-MonkeyHandler.h
-/home/ray/TheRayCode/TheRayCode/CPP/Show/MonkeyHandler.h
-SquirrelHandler.h
-/home/ray/TheRayCode/TheRayCode/CPP/Show/SquirrelHandler.h
-DogHandler.h
-/home/ray/TheRayCode/TheRayCode/CPP/Show/DogHandler.h
 

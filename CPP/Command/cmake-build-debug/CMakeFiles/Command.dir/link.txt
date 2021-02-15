@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Command.dir/main.cpp.o  -o Command 
+/usr/bin/c++ -g CMakeFiles/Command.dir/main.cpp.o -o Command 
