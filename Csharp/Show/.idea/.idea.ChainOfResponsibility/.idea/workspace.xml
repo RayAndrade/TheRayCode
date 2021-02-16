@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e7572f0-5a64-4853-a82b-d7eae51fb663" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ChainOfResponsibility/ComplexCmd.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChainOfResponsibility/ICommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChainOfResponsibility/Invoker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChainOfResponsibility/Receiver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChainOfResponsibility/SimpleCmd.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,24 +19,37 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/IHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/SquirrelHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/AbstractHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/MonkeyHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/Program.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/ChainOfResponsibility/Program.cs" />
+      <option value="$PROJECT_DIR$/ChainOfResponsibility/ICommand.cs" />
+      <option value="$PROJECT_DIR$/ChainOfResponsibility/Receiver.cs" />
+      <option value="$PROJECT_DIR$/ChainOfResponsibility/Invoker.cs" />
+      <option value="$PROJECT_DIR$/ChainOfResponsibility/SimpleCmd.cs" />
+      <option value="$PROJECT_DIR$/ChainOfResponsibility/ComplexCmd.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1eEdnn0HwZ9PGLwQfzKdtlqz7C1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -74,6 +93,7 @@
       <workItem from="1609542395353" duration="45000" />
       <workItem from="1610460457304" duration="224000" />
       <workItem from="1613289775652" duration="914000" />
+      <workItem from="1613432404883" duration="3047000" />
     </task>
     <servers />
   </component>
@@ -82,65 +102,18 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs</url>
-          <line>5</line>
-          <properties documentPath="$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" initialLine="5">
-            <startOffsets>
-              <option value="152" />
-            </startOffsets>
-            <endOffsets>
-              <option value="153" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ChainOfResponsibility/Client.cs</url>
-          <line>10</line>
-          <properties documentPath="$PROJECT_DIR$/ChainOfResponsibility/Client.cs" initialLine="10">
-            <startOffsets>
-              <option value="348" />
-            </startOffsets>
-            <endOffsets>
-              <option value="349" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ChainOfResponsibility/MonkeyHandler.cs</url>
-          <line>5</line>
-          <properties documentPath="$PROJECT_DIR$/ChainOfResponsibility/MonkeyHandler.cs" initialLine="5">
-            <startOffsets>
-              <option value="155" />
-            </startOffsets>
-            <endOffsets>
-              <option value="156" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ChainOfResponsibility/SquirrelHandler.cs</url>
-          <line>5</line>
-          <properties documentPath="$PROJECT_DIR$/ChainOfResponsibility/SquirrelHandler.cs" initialLine="5">
-            <startOffsets>
-              <option value="157" />
-            </startOffsets>
-            <endOffsets>
-              <option value="158" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
