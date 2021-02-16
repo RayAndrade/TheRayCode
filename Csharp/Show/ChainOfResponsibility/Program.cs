@@ -1,7 +1,8 @@
 ﻿using System;
+
 //using System.Collections.Generic;
 
-namespace ChainOfResponsibility
+namespace Command
 {
    class Program
     {

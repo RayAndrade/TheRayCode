@@ -1,4 +1,4 @@
-namespace ChainOfResponsibility
+namespace Command
 {
     public interface ICommand
     {

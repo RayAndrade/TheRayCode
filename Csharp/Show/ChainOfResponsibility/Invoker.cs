@@ -1,6 +1,6 @@
 using System;
 
-namespace ChainOfResponsibility
+namespace Command
 {
     internal class Invoker
     {
