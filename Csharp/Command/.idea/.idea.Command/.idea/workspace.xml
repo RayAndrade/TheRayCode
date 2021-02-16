@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d9d16c5-1c1d-44d4-a567-48df4dfd30e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Show/Show/.idea/.idea.Show/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Show/Show/.idea/.idea.Show/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Show/Show/.idea/.idea.Show/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Show/Show/.idea/.idea.Show/.idea/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Show/Show/.idea/.idea.Show/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Command/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Command/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +89,8 @@
       <workItem from="1613448018873" duration="28000" />
       <workItem from="1613448330471" duration="11000" />
       <workItem from="1613449050891" duration="37000" />
+      <workItem from="1613449122689" duration="605000" />
+      <workItem from="1613450064966" duration="119000" />
     </task>
     <task id="LOCAL-00001" summary="Using GUI Ray">
       <created>1613424823703</created>
