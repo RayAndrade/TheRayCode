@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d9d16c5-1c1d-44d4-a567-48df4dfd30e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Command/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Command/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Command/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Command/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Command/cmake-build-debug/CMakeFiles/Command.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Command/cmake-build-debug/CMakeFiles/Command.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Command/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Command/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Command/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Command/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Command/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Command/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Command/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Command/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Command/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Command/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/ChainOfResponsibility.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/ChainOfResponsibility.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +104,7 @@
       <workItem from="1613449050891" duration="37000" />
       <workItem from="1613449122689" duration="605000" />
       <workItem from="1613450064966" duration="119000" />
+      <workItem from="1613461646280" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="Using GUI Ray">
       <created>1613424823703</created>
