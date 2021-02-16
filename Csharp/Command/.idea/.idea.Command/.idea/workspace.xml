@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d9d16c5-1c1d-44d4-a567-48df4dfd30e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Command/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Command/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Command/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Command/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Command/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Command/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Command/bin/Debug/netcoreapp3.1/Command.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Command/bin/Debug/netcoreapp3.1/Command.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Command/bin/Debug/netcoreapp3.1/Command.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Command/bin/Debug/netcoreapp3.1/Command.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Command/obj/Debug/netcoreapp3.1/Command.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Command/obj/Debug/netcoreapp3.1/Command.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Command/obj/Debug/netcoreapp3.1/Command.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Command/obj/Debug/netcoreapp3.1/Command.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Command/obj/Debug/netcoreapp3.1/Command.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Command/obj/Debug/netcoreapp3.1/Command.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +84,8 @@
       <workItem from="1613424468584" duration="706000" />
       <workItem from="1613425327958" duration="1430000" />
       <workItem from="1613445848321" duration="39000" />
-      <workItem from="1613446018970" duration="875000" />
+      <workItem from="1613446018970" duration="1063000" />
+      <workItem from="1613447348136" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="Using GUI Ray">
       <created>1613424823703</created>
