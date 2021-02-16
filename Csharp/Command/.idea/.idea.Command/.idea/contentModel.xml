@@ -6,12 +6,7 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="Command" t="IncludeRecursive">
         <e p="Command.csproj" t="IncludeRecursive" />
-        <e p="ComplexCommand.cs" t="Include" />
-        <e p="ICommand.cs" t="Include" />
-        <e p="Invoker.cs" t="Include" />
         <e p="Program.cs" t="Include" />
-        <e p="Receiver.cs" t="Include" />
-        <e p="SimpleCommand.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
