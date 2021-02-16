@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e7572f0-5a64-4853-a82b-d7eae51fb663" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/ComplexCmd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/ComplexCmd.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/ICommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/ICommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/Invoker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/Invoker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/Receiver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/Receiver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/SimpleCmd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/SimpleCmd.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="3e7572f0-5a64-4853-a82b-d7eae51fb663" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +88,7 @@
       <workItem from="1613432404883" duration="3373000" />
       <workItem from="1613442471327" duration="41000" />
       <workItem from="1613442546408" duration="586000" />
-      <workItem from="1613443145528" duration="858000" />
+      <workItem from="1613443145528" duration="862000" />
     </task>
     <servers />
   </component>
