@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d9d16c5-1c1d-44d4-a567-48df4dfd30e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Show/.idea/.idea.ChainOfResponsibility/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Show/.idea/.idea.ChainOfResponsibility/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Command/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Command/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Command/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Command/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Command/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/bin/Debug/netcoreapp3.1/Command.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Command/bin/Debug/netcoreapp3.1/Command.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/bin/Debug/netcoreapp3.1/Command.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Command/bin/Debug/netcoreapp3.1/Command.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/obj/Debug/netcoreapp3.1/Command.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Command/obj/Debug/netcoreapp3.1/Command.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/obj/Debug/netcoreapp3.1/Command.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Command/obj/Debug/netcoreapp3.1/Command.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/obj/Debug/netcoreapp3.1/Command.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Command/obj/Debug/netcoreapp3.1/Command.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,21 +20,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Command/SimpleCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Command/ComplexCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Command/Invoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Command/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Command/Receiver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Command/ICommand.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Command/Program.cs" />
       <option value="$PROJECT_DIR$/Command/Receiver.cs" />
       <option value="$PROJECT_DIR$/Command/SimpleCommand.cs" />
       <option value="$PROJECT_DIR$/Command/ComplexCommand.cs" />
       <option value="$PROJECT_DIR$/Command/ICommand.cs" />
       <option value="$PROJECT_DIR$/Command/Invoker.cs" />
+      <option value="$PROJECT_DIR$/Command/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1eEe6k8KX9La9odm20PWi4LZtWk" />
@@ -37,6 +39,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -88,6 +91,7 @@
       <workItem from="1613424468584" duration="706000" />
       <workItem from="1613425327958" duration="1430000" />
       <workItem from="1613445848321" duration="39000" />
+      <workItem from="1613446018970" duration="875000" />
     </task>
     <task id="LOCAL-00001" summary="Using GUI Ray">
       <created>1613424823703</created>
