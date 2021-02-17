@@ -63,16 +63,16 @@ RM = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.4961.39/bin/cm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/ray/TheRayCode/TheRayCode/CPP /Show"
+CMAKE_SOURCE_DIR = /home/ray/TheRayCode/TheRayCode/CPP/Command
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/ray/TheRayCode/TheRayCode/CPP /Show/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/ray/TheRayCode/TheRayCode/CPP/Command/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Show.dir/all
+all: CMakeFiles/Command.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Show.dir/clean
+clean: CMakeFiles/Command.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Show.dir
+# Target rules for target CMakeFiles/Command.dir
 
 # All Build rule for target.
-CMakeFiles/Show.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Show.dir/build.make CMakeFiles/Show.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Show.dir/build.make CMakeFiles/Show.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ray/TheRayCode/TheRayCode/CPP /Show/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target Show"
-.PHONY : CMakeFiles/Show.dir/all
+CMakeFiles/Command.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Command.dir/build.make CMakeFiles/Command.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Command.dir/build.make CMakeFiles/Command.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ray/TheRayCode/TheRayCode/CPP/Command/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Command"
+.PHONY : CMakeFiles/Command.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Show.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ray/TheRayCode/TheRayCode/CPP /Show/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Show.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ray/TheRayCode/TheRayCode/CPP /Show/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/Show.dir/rule
+CMakeFiles/Command.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/TheRayCode/TheRayCode/CPP/Command/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Command.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/TheRayCode/TheRayCode/CPP/Command/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Command.dir/rule
 
 # Convenience name for target.
-Show: CMakeFiles/Show.dir/rule
+Command: CMakeFiles/Command.dir/rule
 
-.PHONY : Show
+.PHONY : Command
 
 # clean rule for target.
-CMakeFiles/Show.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Show.dir/build.make CMakeFiles/Show.dir/clean
-.PHONY : CMakeFiles/Show.dir/clean
+CMakeFiles/Command.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Command.dir/build.make CMakeFiles/Command.dir/clean
+.PHONY : CMakeFiles/Command.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

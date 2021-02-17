@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/ray/TheRayCode/TheRayCode/CPP /Show"
+=======
+/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.4961.39/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ray/TheRayCode/TheRayCode/CPP/Show
+>>>>>>> parent of 7b2d63c... CPP Command 02-15-21
 -- The C compiler identification is GNU 9.3.0
 -- The CXX compiler identification is GNU 9.3.0
 -- Detecting C compiler ABI info
