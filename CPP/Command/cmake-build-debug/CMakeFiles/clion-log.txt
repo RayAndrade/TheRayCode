@@ -1,4 +1,0 @@
-/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ray/TheRayCode/TheRayCode/CPP/Command
--- Configuring done
--- Generating done
--- Build files have been written to: /home/ray/TheRayCode/TheRayCode/CPP/Command/cmake-build-debug

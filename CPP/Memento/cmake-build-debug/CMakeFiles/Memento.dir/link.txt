@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Memento.dir/main.cpp.o CMakeFiles/Memento.dir/Memento.cpp.o CMakeFiles/Memento.dir/ConcreteMemento.cpp.o CMakeFiles/Memento.dir/Originator.cpp.o CMakeFiles/Memento.dir/Caretaker.cpp.o  -o Memento 

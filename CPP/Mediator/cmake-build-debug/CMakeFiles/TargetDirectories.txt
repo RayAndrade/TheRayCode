@@ -1,3 +1,0 @@
-/home/ray/CLionProjects/Mediator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ray/CLionProjects/Mediator/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ray/CLionProjects/Mediator/cmake-build-debug/CMakeFiles/Mediator.dir

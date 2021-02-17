@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Mediator.dir/main.cpp.o CMakeFiles/Mediator.dir/BaseComponent.cpp.o CMakeFiles/Mediator.dir/Mediator.cpp.o CMakeFiles/Mediator.dir/Component1.cpp.o CMakeFiles/Mediator.dir/Component2.cpp.o CMakeFiles/Mediator.dir/ConcreteMediator.cpp.o  -o Mediator 
