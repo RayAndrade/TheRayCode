@@ -53,10 +53,17 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
+<<<<<<< HEAD
 CMAKE_COMMAND = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.4961.39/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
 RM = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.4961.39/bin/cmake/linux/bin/cmake -E rm -f
+=======
+CMAKE_COMMAND = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/bin/cmake
+
+# The command to remove a file.
+RM = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/bin/cmake -E rm -f
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
 
 # Escaping for special characters.
 EQUALS = =

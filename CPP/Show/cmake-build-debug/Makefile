@@ -58,19 +58,33 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
+<<<<<<< HEAD
 CMAKE_COMMAND = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.4961.39/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
 RM = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.4961.39/bin/cmake/linux/bin/cmake -E rm -f
+=======
+CMAKE_COMMAND = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/bin/cmake
+
+# The command to remove a file.
+RM = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/bin/cmake -E rm -f
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = "/home/ray/TheRayCode/TheRayCode/CPP /Show"
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = "/home/ray/TheRayCode/TheRayCode/CPP /Show/cmake-build-debug"
+=======
+CMAKE_SOURCE_DIR = /home/ray/TheRayCode/TheRayCode/CPP/Show
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/ray/TheRayCode/TheRayCode/CPP/Show/cmake-build-debug
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +92,11 @@ CMAKE_BINARY_DIR = "/home/ray/TheRayCode/TheRayCode/CPP /Show/cmake-build-debug"
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+<<<<<<< HEAD
 	/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.4961.39/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+=======
+	/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -89,7 +107,11 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+<<<<<<< HEAD
 	/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.4961.39/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+=======
+	/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -99,9 +121,15 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ray/TheRayCode/TheRayCode/CPP /Show/cmake-build-debug/CMakeFiles" "/home/ray/TheRayCode/TheRayCode/CPP /Show/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ray/TheRayCode/TheRayCode/CPP /Show/cmake-build-debug/CMakeFiles" 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/TheRayCode/TheRayCode/CPP/Show/cmake-build-debug/CMakeFiles /home/ray/TheRayCode/TheRayCode/CPP/Show/cmake-build-debug//CMakeFiles/progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/TheRayCode/TheRayCode/CPP/Show/cmake-build-debug/CMakeFiles 0
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
 .PHONY : all
 
 # The main clean target
@@ -130,6 +158,7 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named Show
 
 # Build rule for target.
@@ -141,6 +170,19 @@ Show: cmake_check_build_system
 Show/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Show.dir/build.make CMakeFiles/Show.dir/build
 .PHONY : Show/fast
+=======
+# Target rules for targets named ChainOfResponsibility
+
+# Build rule for target.
+ChainOfResponsibility: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ChainOfResponsibility
+.PHONY : ChainOfResponsibility
+
+# fast build rule for target.
+ChainOfResponsibility/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/build
+.PHONY : ChainOfResponsibility/fast
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
 
 main.o: main.cpp.o
 
@@ -148,7 +190,11 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
+<<<<<<< HEAD
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Show.dir/build.make CMakeFiles/Show.dir/main.cpp.o
+=======
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/main.cpp.o
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -157,7 +203,11 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
+<<<<<<< HEAD
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Show.dir/build.make CMakeFiles/Show.dir/main.cpp.i
+=======
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/main.cpp.i
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -166,7 +216,11 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
+<<<<<<< HEAD
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Show.dir/build.make CMakeFiles/Show.dir/main.cpp.s
+=======
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ChainOfResponsibility.dir/build.make CMakeFiles/ChainOfResponsibility.dir/main.cpp.s
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
 .PHONY : main.cpp.s
 
 # Help Target
@@ -177,7 +231,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+<<<<<<< HEAD
 	@echo "... Show"
+=======
+	@echo "... ChainOfResponsibility"
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

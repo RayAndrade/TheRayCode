@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/ray/TheRayCode/TheRayCode/CPP /Show
+=======
+# Install script for directory: /home/ray/TheRayCode/TheRayCode/CPP/Show
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +54,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/home/ray/TheRayCode/TheRayCode/CPP /Show/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/home/ray/TheRayCode/TheRayCode/CPP/Show/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

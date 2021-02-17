@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
 <<<<<<< HEAD
+<<<<<<< HEAD
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCCompiler.cmake.in"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCCompilerABI.c"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCInformation.cmake"
@@ -25,10 +26,17 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeDetermineSystem.cmake"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindBinUtils.cmake"
+=======
+  "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCInformation.cmake"
+  "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCXXInformation.cmake"
+  "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake"
+  "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeFindCodeBlocks.cmake"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeGenericSystem.cmake"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake"
+<<<<<<< HEAD
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeParseImplicitIncludeInfo.cmake"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeParseImplicitLinkInfo.cmake"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeSystem.cmake.in"
@@ -88,12 +96,21 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/Internal/FeatureTesting.cmake"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/Platform/Linux-Determine-CXX.cmake"
+=======
+  "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake"
+  "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+  "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/Compiler/GNU-C.cmake"
+  "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/Compiler/GNU-CXX.cmake"
+  "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/Compiler/GNU.cmake"
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/Platform/Linux-GNU-C.cmake"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/Platform/Linux-GNU-CXX.cmake"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/Platform/Linux-GNU.cmake"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/Platform/Linux.cmake"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/Platform/UnixPaths.cmake"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.5787.12/bin/cmake/linux/share/cmake-3.19/Modules/ProcessorCount.cmake"
+<<<<<<< HEAD
 =======
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.4961.39/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCInformation.cmake"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.4961.39/bin/cmake/linux/share/cmake-3.19/Modules/CMakeCXXInformation.cmake"
@@ -116,6 +133,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.4961.39/bin/cmake/linux/share/cmake-3.19/Modules/Platform/UnixPaths.cmake"
   "/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.4961.39/bin/cmake/linux/share/cmake-3.19/Modules/ProcessorCount.cmake"
 >>>>>>> parent of 7b2d63c... CPP Command 02-15-21
+=======
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
   "../CMakeLists.txt"
   "CMakeFiles/3.19.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.19.2/CMakeCXXCompiler.cmake"
@@ -130,15 +149,22 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+<<<<<<< HEAD
   "CMakeFiles/3.19.2/CMakeSystem.cmake"
   "CMakeFiles/3.19.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.19.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.19.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.19.2/CMakeCXXCompiler.cmake"
+=======
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+<<<<<<< HEAD
   "CMakeFiles/Show.dir/DependInfo.cmake"
+=======
+  "CMakeFiles/ChainOfResponsibility.dir/DependInfo.cmake"
+>>>>>>> parent of ec0a104... CPP Command 02-16-21
   )
