@@ -6,7 +6,31 @@
 
 #IncludeRegexTransform: 
 
+/home/ray/TheRayCode/TheRayCode/CPP/Command/Command.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Command/ComplexCommand.h
+Command.h
+/home/ray/TheRayCode/TheRayCode/CPP/Command/Command.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Command/Invoker.h
+Command.h
+/home/ray/TheRayCode/TheRayCode/CPP/Command/Command.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Command/Receiver.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Command/SimpleCommand.h
+Command.h
+/home/ray/TheRayCode/TheRayCode/CPP/Command/Command.h
+
 /home/ray/TheRayCode/TheRayCode/CPP/Command/main.cpp
 iostream
 -
+Invoker.h
+/home/ray/TheRayCode/TheRayCode/CPP/Command/Invoker.h
+Receiver.h
+/home/ray/TheRayCode/TheRayCode/CPP/Command/Receiver.h
+SimpleCommand.h
+/home/ray/TheRayCode/TheRayCode/CPP/Command/SimpleCommand.h
+ComplexCommand.h
+/home/ray/TheRayCode/TheRayCode/CPP/Command/ComplexCommand.h
 

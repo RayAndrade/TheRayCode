@@ -82,6 +82,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Command/Command.h">
+			<Option target="Command"/>
+		</Unit>
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Command/ComplexCommand.h">
+			<Option target="Command"/>
+		</Unit>
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Command/Invoker.h">
+			<Option target="Command"/>
+		</Unit>
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Command/Receiver.h">
+			<Option target="Command"/>
+		</Unit>
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Command/SimpleCommand.h">
+			<Option target="Command"/>
+		</Unit>
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Command/main.cpp">
 			<Option target="Command"/>
 		</Unit>
