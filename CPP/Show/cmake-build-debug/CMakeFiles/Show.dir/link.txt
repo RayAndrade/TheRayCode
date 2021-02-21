@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-/usr/bin/c++ -g CMakeFiles/Show.dir/main.cpp.o -o Show 
-=======
-/usr/bin/c++  -g   CMakeFiles/Show.dir/main.cpp.o  -o Show 
->>>>>>> parent of ec0a104... CPP Command 02-16-21
