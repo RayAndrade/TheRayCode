@@ -1,8 +1,7 @@
-/vcs.xml
-/.idea/
+*/vcs.xml
+*/.idea/*
 */misc.xml
 */modules.xml
 */cmake-build-debug/*
 *.autosave
-*/cmake-build-debug/*
 */out/*
