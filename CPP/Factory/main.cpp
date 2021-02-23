@@ -15,7 +15,7 @@
 
 void ClientCode(const Creator& creator) {
     // ...
-    std::cout << "Client: I'm not aware of the creator's class, but it still works." << creator.SomeOperation() << std::endl;
+    std::cout << "Client: I'm client code: " << creator.SomeOperation() << std::endl;
     // .
 }
 
@@ -27,11 +27,11 @@ void ClientCode(const Creator& creator) {
 
 int main() {
 
-    std::cout << "App: Launched with the ConcreteCreator1."<< std::endl;
+    std::cout << "App: Launched with ConcreteCreator1."<< std::endl;
     Creator* creator = new ConcreteCreator1();
     ClientCode(*creator);
     std::cout << std::endl;
-    std::cout << "App: Launched with the ConcreteCreator2."<< std::endl;
+    std::cout << "App: Launched with ConcreteCreator2."<< std::endl;
     Creator* creator2 = new ConcreteCreator2();
     ClientCode(*creator2);
 
