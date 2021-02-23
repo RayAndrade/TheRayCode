@@ -25,7 +25,8 @@ public:
 
     std::string SomeOperation() const {
         Product* product = this->FactoryMethod();
-        std::string result = "Creator: The same creator's code has just worked with " + product->Operation();
+        std::string result = "\n\nCreator: The same creator's code has just worked with "
+                + product->Operation();
         delete product;
         return result;
     }

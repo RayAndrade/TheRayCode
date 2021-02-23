@@ -10,7 +10,7 @@
 class ConcreteProduct1 : public Product {
 public:
     std::string Operation() const override {
-        return "{Result of the ConcreteProduct1}";
+        return "\n{Result of the ConcreteProduct1}\n";
     }
 };
 
