@@ -10,15 +10,15 @@ This is the order we create them:
 
 **Product**.h
 
-**ConcreteProduct1**.h
+**ConcreteProductA**.h
 
-**ConcreteProduct2**.h
+**ConcreteProductB**.h
 
 **Creator**.h
 
-**ConcreteCreator1**.h
+**ConcreteCreatorA**.h
 
-**ConcreteCreator2**.h
+**ConcreteCreatorB**.h
 
 
 
