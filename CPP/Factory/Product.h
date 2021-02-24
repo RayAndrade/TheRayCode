@@ -1,5 +1,6 @@
 #ifndef FACTORY_PRODUCT_H
 #define FACTORY_PRODUCT_H
+
 /**
  * The Product interface declares the operations that all concrete products must
  * implement.

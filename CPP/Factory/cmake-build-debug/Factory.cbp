@@ -82,16 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteCreator1.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteCreatorA.h">
 			<Option target="Factory"/>
 		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteCreator2.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteCreatorB.h">
 			<Option target="Factory"/>
 		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProduct1.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProductA.h">
 			<Option target="Factory"/>
 		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProduct2.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProductB.h">
 			<Option target="Factory"/>
 		</Unit>
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Factory/Creator.h">

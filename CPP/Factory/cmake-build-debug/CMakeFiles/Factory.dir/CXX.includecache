@@ -6,23 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteCreator1.h
-Creator.h
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/Creator.h
-ConcreteProduct1.h
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProduct1.h
-
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteCreator2.h
-Creator.h
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/Creator.h
-ConcreteProduct2.h
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProduct2.h
-
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProduct1.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteCreatorA.h
 Product.h
 /home/ray/TheRayCode/TheRayCode/CPP/Factory/Product.h
 
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProduct2.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteCreatorB.h
+Product.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/Product.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProductA.h
+Product.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/Product.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProductB.h
 Product.h
 /home/ray/TheRayCode/TheRayCode/CPP/Factory/Product.h
 
@@ -39,14 +35,14 @@ iostream
 -
 Product.h
 /home/ray/TheRayCode/TheRayCode/CPP/Factory/Product.h
-ConcreteProduct1.h
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProduct1.h
-ConcreteProduct2.h
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProduct2.h
+ConcreteProductA.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProductA.h
+ConcreteProductB.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProductB.h
 Creator.h
 /home/ray/TheRayCode/TheRayCode/CPP/Factory/Creator.h
-ConcreteCreator1.h
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteCreator1.h
-ConcreteCreator2.h
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteCreator2.h
+ConcreteCreatorA.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteCreatorA.h
+ConcreteCreatorB.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteCreatorB.h
 

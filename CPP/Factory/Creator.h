@@ -1,7 +1,6 @@
 #ifndef FACTORY_CREATOR_H
 #define FACTORY_CREATOR_H
 
-
 #include "Product.h"
 
 class Creator {
@@ -26,7 +25,7 @@ public:
     std::string SomeOperation() const {
         Product* product = this->FactoryMethod();
         std::string result = "\n\nCreator: The same creator's code has just worked with "
-                + product->Operation();
+                             + product->Operation();
         delete product;
         return result;
     }

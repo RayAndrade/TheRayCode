@@ -3,4 +3,4 @@ project(Factory)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Factory main.cpp Product.h ConcreteProduct1.h ConcreteProduct2.h Creator.h ConcreteCreator1.h ConcreteCreator2.h)
+add_executable(Factory main.cpp Product.h ConcreteProductA.h ConcreteProductB.h Creator.h ConcreteCreatorA.h ConcreteCreatorB.h)
