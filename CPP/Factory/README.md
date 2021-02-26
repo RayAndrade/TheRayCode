@@ -37,4 +37,5 @@ public:
     }
 };
 ```
-The next interface we create 
+The next interface we create is **Creator**. Note that the Creator may also provide some default implementation of the factory method.
+
