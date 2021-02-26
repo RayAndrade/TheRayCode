@@ -8,4 +8,5 @@ namespace TheRayCode.Factory.DesignPatterns
         
         void BuildPartC();
     }
+
 }

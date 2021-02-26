@@ -1,6 +1,6 @@
 namespace TheRayCode.Factory.DesignPatterns
 {
-    class Creator2
+    class Creator2 : Creator
     {
         public override IProduct FactoryMethod()
         {

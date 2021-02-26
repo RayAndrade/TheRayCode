@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AVn2bpVskphtXONzgiSV2cCN4Ve0WxOQ3J8v1aFzboZxNK/C0RULhC3Co8140tYh+4RhlHyf5eTD4mXxoS3+Tg==",
+  "dgSpecHash": "UzqN4CVU1enVQgu0hRQm9vVKShgv65nSeiJp2g+A+Bqr05yeod5OV5nAtO0hYnLca+4UPSLKQha3nGjRIhvyDA==",
   "success": true,
-  "projectFilePath": "/home/ray/RiderProjects/AbstractFactory/AbstractFactory/AbstractFactory.csproj",
+  "projectFilePath": "/home/ray/TheRayCode/TheRayCode/Csharp/AbstractFactory/AbstractFactory/AbstractFactory.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

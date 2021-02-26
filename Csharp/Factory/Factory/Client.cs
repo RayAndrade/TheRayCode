@@ -6,12 +6,12 @@ namespace TheRayCode.Factory.DesignPatterns
     {
         public void Main()
         {
-            Console.WriteLine("App: Launched with the ConcreteCreator1.");
+            Console.WriteLine("App: Launched with the Creator1.");
             ClientCode(new Creator1());
             
             Console.WriteLine("");
 
-            Console.WriteLine("App: Launched with the ConcreteCreator2.");
+            Console.WriteLine("App: Launched with the Creator2.");
             ClientCode(new Creator2());
         }
         public void ClientCode(Creator creator)
