@@ -4,80 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ed17ee2-2228-42f6-abfe-080c86fe2610" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AbstractFactory/.idea/.idea.AbstractFactory/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory/.idea/.idea.AbstractFactory/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AbstractFactory/.idea/.idea.AbstractFactory/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/bin/Debug/netcoreapp3.1/AbstractFactory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/bin/Debug/netcoreapp3.1/AbstractFactory.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/bin/Debug/netcoreapp3.1/AbstractFactory.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/bin/Debug/netcoreapp3.1/AbstractFactory.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/AbstractFactory.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/AbstractFactory.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/AbstractFactory.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/AbstractFactory.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory/AbstractFactory/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Factory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Factory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Client.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Creator1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Creator1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Creator2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Creator2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Director.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Director.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/IBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/IBuilder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Product1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Product1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Product2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Product2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/bin/Debug/netcoreapp3.1/Factory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/bin/Debug/netcoreapp3.1/Factory.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/bin/Debug/netcoreapp3.1/Factory.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/bin/Debug/netcoreapp3.1/Factory.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/.idea/.idea.Show/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/.idea/.idea.Show/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/.idea/.idea.Show/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/.idea/.idea.Show/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/.idea/.idea.Show/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/.idea/.idea.Show/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/.idea/.idea.Show/.idea/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/.idea/.idea.Show/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/.idea/.idea.Show/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/ComplexCmd.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/ICommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/Invoker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/Receiver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/Show.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/SimpleCmd.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/bin/Debug/netcoreapp3.1/Show" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/bin/Debug/netcoreapp3.1/Show.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/bin/Debug/netcoreapp3.1/Show.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/bin/Debug/netcoreapp3.1/Show.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/bin/Debug/netcoreapp3.1/Show.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/bin/Debug/netcoreapp3.1/Show.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/Debug/netcoreapp3.1/Show" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/Debug/netcoreapp3.1/Show.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/Debug/netcoreapp3.1/Show.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/Debug/netcoreapp3.1/Show.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/Debug/netcoreapp3.1/Show.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/Debug/netcoreapp3.1/Show.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/Debug/netcoreapp3.1/Show.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/Debug/netcoreapp3.1/Show.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/Debug/netcoreapp3.1/Show.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/Debug/netcoreapp3.1/Show.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/Show.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/Show.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/Show.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Show/Show/Show/obj/rider.project.restore.info" beforeDir="false" />
-    </list>
+    <list default="true" id="0ed17ee2-2228-42f6-abfe-080c86fe2610" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,6 +30,8 @@
       <option value="$PROJECT_DIR$/Factory/Client.cs" />
       <option value="$PROJECT_DIR$/Factory/Creator1.cs" />
       <option value="$PROJECT_DIR$/Factory/Creator2.cs" />
+      <option value="$PROJECT_DIR$/Factory/Product2.cs" />
+      <option value="$PROJECT_DIR$/Factory/Product1.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1eEWyBrpGXTTZA8KPGEJ0gaWj2F" />
@@ -161,7 +90,7 @@
       <workItem from="1595084055075" duration="2882000" />
       <workItem from="1596082280951" duration="833000" />
       <workItem from="1602529515062" duration="352000" />
-      <workItem from="1614309429943" duration="303000" />
+      <workItem from="1614309429943" duration="1000000" />
     </task>
     <servers />
   </component>
