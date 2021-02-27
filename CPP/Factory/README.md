@@ -56,7 +56,7 @@ public:
     }
 };
 ```
-We include both **Creator**.h and **ProductA**.h. We also extend the class with **Creator**.
+We include both **Creator**.h and **ProductB**.h. We also extend the class with **Creator**.
 We do the same for another class we create.
 We create the class **CreatorB** and extend it also with **Creator**.h.
 In the **FactoryMethod** we return a new **ProductB**
