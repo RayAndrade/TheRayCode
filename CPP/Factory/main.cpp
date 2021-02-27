@@ -1,11 +1,11 @@
 #include <iostream>
 
 #include "Product.h"
-#include "ConcreteProductA.h"
-#include "ConcreteProductB.h"
+#include "ProductA.h"
+#include "ProductB.h"
 #include "Creator.h"
-#include "ConcreteCreatorA.h"
-#include "ConcreteCreatorB.h"
+#include "CreatorA.h"
+#include "CreatorB.h"
 
 /**
  * The client code works with an instance of a concrete creator, albeit through
@@ -30,12 +30,12 @@ void ClientCode(const Creator& creator) {
 int main() {
 
     std::cout << "App: Launched with the ConcreteCreatorA." << std::endl;
-    Creator* creatorA = new ConcreteCreatorA();
+    Creator* creatorA = new CreatorA();
     ClientCode(*creatorA);
 
     std::cout << std::endl;
     std::cout << "App: Launched with the ConcreteCreatorB." << std::endl;
-    Creator* creatorB = new ConcreteCreatorB();
+    Creator* creatorB = new CreatorB();
     ClientCode(*creatorB);
 
     delete creatorA;

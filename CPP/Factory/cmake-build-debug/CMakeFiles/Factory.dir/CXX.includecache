@@ -6,47 +6,47 @@
 
 #IncludeRegexTransform: 
 
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteCreatorA.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/Creator.h
+Product.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/Product.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/CreatorA.h
 Creator.h
 /home/ray/TheRayCode/TheRayCode/CPP/Factory/Creator.h
-ConcreteProductA.h
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProductA.h
+ProductA.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/ProductA.h
 
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteCreatorB.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/CreatorB.h
 Creator.h
 /home/ray/TheRayCode/TheRayCode/CPP/Factory/Creator.h
-ConcreteProductB.h
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProductB.h
-
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProductA.h
-Product.h
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/Product.h
-
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProductB.h
-Product.h
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/Product.h
-
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/Creator.h
-Product.h
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/Product.h
+ProductB.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/ProductB.h
 
 /home/ray/TheRayCode/TheRayCode/CPP/Factory/Product.h
 iostream
 -
+
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/ProductA.h
+Product.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/Product.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/ProductB.h
+Product.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/Product.h
 
 /home/ray/TheRayCode/TheRayCode/CPP/Factory/main.cpp
 iostream
 -
 Product.h
 /home/ray/TheRayCode/TheRayCode/CPP/Factory/Product.h
-ConcreteProductA.h
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProductA.h
-ConcreteProductB.h
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteProductB.h
+ProductA.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/ProductA.h
+ProductB.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/ProductB.h
 Creator.h
 /home/ray/TheRayCode/TheRayCode/CPP/Factory/Creator.h
-ConcreteCreatorA.h
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteCreatorA.h
-ConcreteCreatorB.h
-/home/ray/TheRayCode/TheRayCode/CPP/Factory/ConcreteCreatorB.h
+CreatorA.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/CreatorA.h
+CreatorB.h
+/home/ray/TheRayCode/TheRayCode/CPP/Factory/CreatorB.h
 

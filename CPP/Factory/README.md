@@ -120,7 +120,14 @@ int main() {
 ```
 The result shoud be:
 ```result
-x
+Client: I'm not aware of the creator's class, but it still works.
+Creator: The same creator's code has just worked with {Result of the ProductA}
+
+App: Launched with the ConcreteCreatorB.
+Client: I'm not aware of the creator's class, but it still works.
+Creator: The same creator's code has just worked with {Result of the ProductB}
+The Ray Code is AWESOME!!!
+
 ```
 
 
