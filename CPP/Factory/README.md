@@ -43,3 +43,18 @@ The Creator class declares the factory method that is supposed to return an
  * object of a Product class. The Creator's subclasses usually provide the
  * implementation of this method
 
+The code for is:
+```c++
+#include "Creator.h"
+#include "ProductA.h"
+
+class CreatorA : public Creator {
+
+public:
+    Product* FactoryMethod() const override {
+        return new **ProductA**();
+    }
+};
+```
+
+
