@@ -1,6 +1,6 @@
 # The Ray Code
 
-In this posting I want go over the **Factory** design pattern using *c++*.
+In this artical I will take a look at the **Factory** design pattern using *c++*.
 We start by creating an interface we call **Product**.
 ```c++
 #include <iostream>
