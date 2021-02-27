@@ -52,9 +52,31 @@ class CreatorA : public Creator {
 
 public:
     Product* FactoryMethod() const override {
-        return new **ProductA**();
+        return new ProductA();
     }
 };
 ```
+We include both **Creator**.h and **ProductA**.h. We also extend the class with **Creator**.
+We do the same for another class we create.
+We create the class **CreatorB** and extend it also with **Creator**.h.
+In the **FactoryMethod** we return a new **ProductB**
+```c++
+#include "Creator.h"
+#include "ProductB.h"
+
+class CreatorB : public Creator {
+
+public:
+    Product* FactoryMethod() const override {
+        return new **ProductB**();
+    }
+};
+```
+
+
+
+
+
+
 
 
