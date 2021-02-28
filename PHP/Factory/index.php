@@ -1,10 +1,10 @@
 <?php
 include_once ('Creator.php');
-include_once ('ConcreteCreator1.php');
-include_once ('ConcreteCreator2.php');
+include_once('Creator1.php');
+include_once('Creator2.php');
 include_once ('Product.php');
-include_once ('ConcreteProduct1.php');
-include_once ('ConcreteProduct2.php');
+include_once('Product1.php');
+include_once('Product2.php');
 
 function clientCode(Creator $creator)
 {
@@ -18,9 +18,9 @@ function clientCode(Creator $creator)
  * The Application picks a creator's type depending on the configuration or
  * environment.
  */
-echo "App: Launched with the ConcreteCreator1.<br/>";
-clientCode(new ConcreteCreator1);
+echo "App: Launched with the Creator1.<br/>";
+clientCode(new Creator1);
 echo "<br/><br/>";
 
-echo "App: Launched with the ConcreteCreator2.<br/>";
-clientCode(new ConcreteCreator2);
+echo "App: Launched with the Creator2.<br/>";
+clientCode(new Creator2);

@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfdbc25c-6411-4ad4-bded-f8c5041db0f2" name="Default Changelist" comment="" />
+    <list default="true" id="cfdbc25c-6411-4ad4-bded-f8c5041db0f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConcreteCreator1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creator1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConcreteCreator2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Creator2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConcreteProduct1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Product1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConcreteProduct2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Product2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,16 +20,24 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
   <component name="ProjectId" id="1fNQJfRLC16jafLwBXb0MagDIXS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -34,20 +49,22 @@
       <updated>1596055999924</updated>
       <workItem from="1596056000991" duration="1371000" />
       <workItem from="1596059286160" duration="1043000" />
+      <workItem from="1614483781526" duration="427000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="726" y="297" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1596057060292">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="726" y="297" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1596057060292" />
-    <state x="789" y="464" width="399" height="149" key="NewPhpFileDialog" timestamp="1596060217644">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="789" y="464" width="399" height="149" key="NewPhpFileDialog/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1596060217644" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

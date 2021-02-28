@@ -1,6 +1,6 @@
 <?php
 
-class ConcreteCreator1 extends Creator
+class Creator1 extends Creator
 {
     /**
      * Note that the signature of the method still uses the abstract product
@@ -10,6 +10,6 @@ class ConcreteCreator1 extends Creator
      */
     public function factoryMethod(): Product
     {
-        return new ConcreteProduct1;
+        return new Product1;
     }
 }
