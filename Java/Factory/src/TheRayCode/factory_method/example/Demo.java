@@ -20,8 +20,10 @@ public class Demo {
      * The concrete factory is usually chosen depending on configuration or
      * environment options.
      */
+
     static void configure() {
-        if (System.getProperty("os.name").equals("Windows 10")) {
+        //if (System.getProperty("os.name").equals("Windows 10"))
+        if (true){
             dialog = new WindowsDialog();
         } else {
             dialog = new HtmlDialog();
