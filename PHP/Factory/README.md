@@ -5,4 +5,8 @@ TheRayCode PHP
 ### heading 3
 #### heading 4
 
-[Github](https://www.TheRayCode.com)
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
