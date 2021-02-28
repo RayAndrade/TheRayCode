@@ -21,12 +21,18 @@ public class Demo {
      * environment options.
      */
 
+
     static void configure() {
-        //if (System.getProperty("os.name").equals("Windows 10"))
-        if (true){
-            dialog = new WindowsDialog();
-        } else {
-            dialog = new HtmlDialog();
+
+        switch(2) {
+            case 1:
+                dialog = new WindowsDialog();
+                break;
+            case 2:
+                dialog = new HtmlDialog();
+                break;
+            default:
+                // exit code block
         }
     }
 
