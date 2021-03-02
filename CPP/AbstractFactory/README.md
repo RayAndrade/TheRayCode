@@ -7,7 +7,23 @@ Let's start by creating a couple of products we call **ProductA** and **ProductB
 
 For **ProductA** we have the following code:
 
+```c++
+class ProductA {
+public:
+    virtual ~ProductA(){};
+    virtual std::string UsefulFunctionA() const = 0;
+};
+```
+Each distinct product of a product family should have a base interface. All 
+*variants* of the product must implement this interface.
+
+Sol let's 
+
 Likewise we create a **ProductB** to add to our project.
+It will have the following code:
+```c++
+
+```
 
 
 **Factory**
