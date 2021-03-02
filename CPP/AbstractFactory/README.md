@@ -1,4 +1,4 @@
-#The Ray Code#
+# The Ray Code #
 In this article we will review the **Abstract Factory** pattern.
 This pattern allows us to create a family of classes in which
 the subclasses of this *family* can cooperate together.
