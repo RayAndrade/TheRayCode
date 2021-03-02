@@ -3,4 +3,4 @@ project(AbstractFactory)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(AbstractFactory main.cpp)
+add_executable(AbstractFactory main.cpp ProductA.h ProductB.h Factory.h ProductB1.h ProductB2.h)

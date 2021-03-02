@@ -82,6 +82,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Factory.h">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductA.h">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductB.h">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductB1.h">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductB2.h">
+			<Option target="AbstractFactory"/>
+		</Unit>
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/main.cpp">
 			<Option target="AbstractFactory"/>
 		</Unit>
