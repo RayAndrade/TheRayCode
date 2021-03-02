@@ -2,9 +2,11 @@
 In this article we will review the **Abstract Factory** pattern.
 This pattern allows us to create a family of classes in which
 the subclasses of this *family* can cooperate together.
-In the example I will create have two classes
-we call ** and * but first we creat an interface called ** to
-hold these two classes.
+
+Let's start by creating a couple of products we call **ProductA** and **ProductB**.
+For **ProductA** we have the following code:
+
+Likewise we create a **ProductB** to add to our project.
 
 
 **Factory**
