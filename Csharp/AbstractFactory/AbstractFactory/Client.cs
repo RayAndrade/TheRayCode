@@ -8,11 +8,11 @@ namespace AbstractFactory
         {
             // The client code can work with any concrete factory class.
             Console.WriteLine("Client: Testing client code with the first factory type...");
-            ClientMethod(new SolidFactory1());
+            ClientMethod(new Factory1());
             Console.WriteLine();
 
             Console.WriteLine("Client: Testing the same client code with the second factory type...");
-            ClientMethod(new SolidFactory2());
+            ClientMethod(new Factory2());
         }
 
         public void ClientMethod(IAbstractFactory factory)

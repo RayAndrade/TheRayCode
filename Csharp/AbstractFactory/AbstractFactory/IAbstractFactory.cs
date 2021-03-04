@@ -2,8 +2,8 @@ namespace AbstractFactory
 {
     public interface IAbstractFactory
     {
-        IAbstractProductA CreateProductA();
-        IAbstractProductB CreateProductB();
+        IProductA CreateProductA();
+        IProductB CreateProductB();
  
     }
 }

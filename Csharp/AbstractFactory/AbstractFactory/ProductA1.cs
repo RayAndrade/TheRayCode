@@ -1,10 +1,11 @@
 namespace AbstractFactory
 {
-    class SolidProductA2: IAbstractProductA
+    class ProductA1: IProductA
+
     {
         public string UsefulFunctionA()
         {
-            return "The result of the product A2.";
+            return "The result of the product A1.";
         }
     }
 }
