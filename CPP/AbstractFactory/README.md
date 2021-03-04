@@ -3,9 +3,9 @@ In this article we will review the **Abstract Factory** pattern.
 This pattern allows us to create a family of classes in which
 the subclasses of this *family* can cooperate together.
 
-Let's start by creating a couple of products we call **ProductA** and **ProductB**.
+Let's start by creating a couple of products we call **ProductA**					 and **ProductB**.
 
-For **ProductA** we have the following code:
+We start with **ProductA** and it's subclasses. For **ProductA** we have the following code:
 
 ```c++
 class ProductA {
@@ -14,6 +14,48 @@ public:
     virtual std::string UsefulFunctionA() const = 0;
 };
 ```
+Next we want to create a couple subclasses we call **ProductA1** and **ProductA2**.
+The first thing we need to do is include **ProductA.h** and the extend **ProductA1** with **ProductA**
+```c++
+#include "ProductA.h"
+
+class ProductA1 : public ProductA {
+public:
+    std::string UsefulFunctionA() const override {
+        return "The result of the product A1.";
+    }
+};
+
+```
+We now want to create two classes I call **ProductA2** and **ProductA2**. Both classes
+will be extend with **ProductA** and thus we will need to include **ProductA** on both.
+The code for **ProductA1** will be:
+
+```c++
+#include "ProductA.h"
+
+class ProductA1 : public ProductA {
+public:
+    std::string UsefulFunctionA() const override {
+        return "The result of the product A1.";
+    }
+};
+
+```
+and for **ProductA2** we have:
+```c++
+#include "ProductA.h"
+
+class ProductA2 : public ProductA {
+    std::string UsefulFunctionA() const override {
+        return "The result of the product A2.";
+    }
+};
+
+```
+
+
+
 Each distinct product of a product family should have a base interface. All 
 *variants* of the product must implement this interface.
 
