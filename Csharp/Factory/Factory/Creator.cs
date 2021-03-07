@@ -2,7 +2,7 @@ namespace TheRayCode.Factory.DesignPatterns
 {
     abstract class Creator
     {
-        public abstract IProduct FactoryMethod();
+        public abstract Product FactoryMethod();
         public string SomeOperation()
         {
             var product = FactoryMethod();

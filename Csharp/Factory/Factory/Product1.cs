@@ -1,6 +1,6 @@
 namespace TheRayCode.Factory.DesignPatterns
 {
-    class Product1 : IProduct
+    class Product1 : Product
     {
         public string Operation()
         {

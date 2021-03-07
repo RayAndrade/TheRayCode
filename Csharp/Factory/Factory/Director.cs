@@ -2,9 +2,9 @@ namespace TheRayCode.Factory.DesignPatterns
 {
     public class Director
     {
-        private IBuilder _builder;
+        private Builder _builder;
         
-        public IBuilder Builder
+        public Builder Builder
         {
             set { _builder = value; } 
         }
