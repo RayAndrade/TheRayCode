@@ -1,0 +1,13 @@
+/home/ray/RiderProjects/Visitor/Visitor/bin/Debug/netcoreapp3.1/Visitor
+/home/ray/RiderProjects/Visitor/Visitor/bin/Debug/netcoreapp3.1/Visitor.deps.json
+/home/ray/RiderProjects/Visitor/Visitor/bin/Debug/netcoreapp3.1/Visitor.runtimeconfig.json
+/home/ray/RiderProjects/Visitor/Visitor/bin/Debug/netcoreapp3.1/Visitor.runtimeconfig.dev.json
+/home/ray/RiderProjects/Visitor/Visitor/bin/Debug/netcoreapp3.1/Visitor.dll
+/home/ray/RiderProjects/Visitor/Visitor/bin/Debug/netcoreapp3.1/Visitor.pdb
+/home/ray/RiderProjects/Visitor/Visitor/obj/Debug/netcoreapp3.1/Visitor.csprojAssemblyReference.cache
+/home/ray/RiderProjects/Visitor/Visitor/obj/Debug/netcoreapp3.1/Visitor.AssemblyInfoInputs.cache
+/home/ray/RiderProjects/Visitor/Visitor/obj/Debug/netcoreapp3.1/Visitor.AssemblyInfo.cs
+/home/ray/RiderProjects/Visitor/Visitor/obj/Debug/netcoreapp3.1/Visitor.csproj.CoreCompileInputs.cache
+/home/ray/RiderProjects/Visitor/Visitor/obj/Debug/netcoreapp3.1/Visitor.dll
+/home/ray/RiderProjects/Visitor/Visitor/obj/Debug/netcoreapp3.1/Visitor.pdb
+/home/ray/RiderProjects/Visitor/Visitor/obj/Debug/netcoreapp3.1/Visitor.genruntimeconfig.cache

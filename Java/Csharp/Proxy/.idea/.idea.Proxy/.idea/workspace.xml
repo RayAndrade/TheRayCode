@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="988e7a39-623a-479f-a50c-1e032bc46824" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../CPP/Flyweight/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Flyweight/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/Proxy.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/Proxy.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/RealSubject.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/RealSubject.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/Subject.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/Subject.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/Proxy" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/Proxy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/Proxy.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/Proxy.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Proxy/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/Flyweight.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/Flyweight.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/FlyweightFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/FlyweightFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/SharedState.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/SharedState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/UniqueState.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/UniqueState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/CMakeFiles/Show.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Show" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Show/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Show/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proxy/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proxy/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proxy/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proxy/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/ISubject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/Subject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/Proxy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/Proxy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/RealSubject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/RealSubject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/bin/Debug/netcoreapp3.1/Proxy" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/bin/Debug/netcoreapp3.1/Proxy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/bin/Debug/netcoreapp3.1/Proxy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/bin/Debug/netcoreapp3.1/Proxy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/bin/Debug/netcoreapp3.1/Proxy.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/bin/Debug/netcoreapp3.1/Proxy.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/obj/Proxy.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/Proxy.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/obj/Proxy.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/Proxy.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Proxy/RealSubject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proxy/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proxy/Subject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proxy/Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Proxy/Proxy.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Proxy/Subject.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1eEdXBB0ze9Tn05bfpXgjimdfGi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Proxy" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Proxy/Proxy.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="988e7a39-623a-479f-a50c-1e032bc46824" name="Default Changelist" comment="" />
+      <created>1593890722931</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593890722931</updated>
+      <workItem from="1593890727276" duration="92000" />
+      <workItem from="1596086011029" duration="306000" />
+      <workItem from="1596086735982" duration="26000" />
+      <workItem from="1597997591760" duration="1213000" />
+      <workItem from="1607886501485" duration="97000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
