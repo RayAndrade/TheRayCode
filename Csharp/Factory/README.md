@@ -2,8 +2,14 @@
 ## Factory Design Pattern using c#
 
 
-We start by creating a **Product** for our program we call **Product**.cs which is a c# class. 
-Product
+For our example of the Factory pattern we create a class called **Product**.cs which will be a c# class. 
+The code for **Product** looks like:
+```c#
+public interface Product
+{
+   string Operation();
+}
+```
 
 Product1
 
