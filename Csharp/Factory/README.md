@@ -2,8 +2,8 @@
 ## Factory Design Pattern using c#
 
 
-For our example of the Factory pattern we create an interface called **Product**.cs which will be a c# class. 
-Thus intephase requires one method. The code for **Product** looks like:
+For our example of the **Factory** pattern we create an interface we call **Product**.cs which will be a c# interface. 
+Thus interface requires one method. The code for **Product** looks like:
 ```c#
 public interface Product
 {
