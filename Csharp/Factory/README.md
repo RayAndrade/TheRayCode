@@ -1,6 +1,6 @@
 # TheRayCode
 ## Factory Design Pattern using c#
-![](TheRayCode/UMLs/Factory107.png)
+![text](TheRayCode/UMLs/Factory107.png)
 
 For our example of the **Factory** pattern we create an interface we call **Product**.cs which will be a c# interface. 
 Thus interface requires one method. The code for **Product** looks like:
