@@ -2,18 +2,52 @@
 ## Factory Design Pattern using c#
 
 
-For our example of the Factory pattern we create a class called **Product**.cs which will be a c# class. 
-The code for **Product** looks like:
+For our example of the Factory pattern we create an interface called **Product**.cs which will be a c# class. 
+Thus intephase requires one method. The code for **Product** looks like:
 ```c#
 public interface Product
 {
    string Operation();
 }
 ```
-
-Product1
-
-Product2
+We will create a couple of concrete products to our project. 
+We will call these *concrete products* **Product1** and **Product2**.
+The code for **Product1** will be:
+```c#
+class Product1 : Product
+{
+   public string Operation()
+   {
+      return "{From of Product1}";
+   }
+}
+```
+And for *concrete product* **Product2** the code is:
+```c#
+class Product2 : Product
+{
+   public string Operation()
+   {
+     return "{From of Product2}";
+   }
+}
+```
+Now let's focus on the **Creator** of this pattern.
+**Creator** is an *abstract* class that look's like:
+```c#
+abstract class Creator
+{
+   public abstract Product FactoryMethod();
+   public string SomeOperation()
+   {
+      var product = FactoryMethod();
+      var result = "Creator: This creator's code has just worked with "
+                  + product.Operation();
+      return result;
+   }
+}
+```
+**Creator**  extends a could
 
 In this posting I will show an example of how to use the **Factory** design pattern using **c#**. 
 Let's begin by creating a class called **Creator**.cs.
