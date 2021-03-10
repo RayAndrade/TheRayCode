@@ -1,7 +1,6 @@
 # TheRayCode
 ## Factory Design Pattern using c#
-For our example of the **Factory** pattern we will create an interface that we call **Product**.cs. 
-
+For our example of the **Factory** pattern we will create an interface we call **Product**.cs. 
 This interface will require one method. The code for **Product** looks like:
 ```c#
 public interface Product
