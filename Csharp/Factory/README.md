@@ -8,8 +8,8 @@ public interface Product
    string Operation();
 }
 ```
-Next we will a couple of concrete products to add to our project. 
-We will call these *concrete products* **Product1** and **Product2**.
+Next we will create a couple of *concrete products* and we will add them to our project. 
+We name these products **Product1** and **Product2**.
 The code for **Product1** will be:
 ```c#
 class Product1 : Product
