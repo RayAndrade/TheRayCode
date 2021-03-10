@@ -1,6 +1,7 @@
 # TheRayCode
 ## Factory Design Pattern using c#
-![text](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/Factory107.png)
+![The Factory Design Pattern](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/images/Factory110.png)
+
 
 For our example of the **Factory** pattern we create an interface we call **Product**.cs which will be a c# interface. 
 Thus interface requires one method. The code for **Product** looks like:
