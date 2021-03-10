@@ -1,17 +1,15 @@
 # TheRayCode
 ## Factory Design Pattern using c#
-![The Factory Design Pattern](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/images/Factory110.png)
+For our example of the **Factory** pattern we will create an interface that we call **Product**.cs. 
 
-
-For our example of the **Factory** pattern we create an interface we call **Product**.cs which will be a c# interface. 
-Thus interface requires one method. The code for **Product** looks like:
+This interface will require one method. The code for **Product** looks like:
 ```c#
 public interface Product
 {
    string Operation();
 }
 ```
-We will create a couple of concrete products to our project. 
+Next we will a couple of concrete products to add to our project. 
 We will call these *concrete products* **Product1** and **Product2**.
 The code for **Product1** will be:
 ```c#
@@ -33,8 +31,8 @@ class Product2 : Product
    }
 }
 ```
-Now let's focus on the **Creator** of this pattern.
-**Creator** is an *abstract* class that look's like:
+Now let's focus on the abstract class we call **Creator**.
+which look's like:
 ```c#
 abstract class Creator
 {
@@ -48,28 +46,16 @@ abstract class Creator
    }
 }
 ```
+Note that the Creator may also provide some default implementation of the factory method.
+Also note that, despite its name, the Creator's primary responsibility is not creating products. 
+Usually, it contains some core business logic that relies on Product objects, returned by the factory method. 
+Subclasses can indirectly change that business logic by overriding the factory method and returning a different type of product from it.
+
+
+
+
 **Creator**  extends a could
 
-In this posting I will show an example of how to use the **Factory** design pattern using **c#**. 
-Let's begin by creating a class called **Creator**.cs.
- Note that the Creator may also provide some default implementation of a factory method.
-The **Creator**.cs will be an **abstract**  and have the following code:
-```
-abstract class Creator
-{
-    public abstract Product FactoryMethod();
-    
-    public string SomeOperation()
-    {
-        var product = FactoryMethod();
-        var result = "Creator: This creator's code has just worked with "
-                    + product.Operation();
-
-       return result;
-   }
-}
-
-```
 
 Despite its name, the Creator's primary responsibility is not creating products. 
 Usually, it contains some core business logic that relies on Product objects, returned by a factory method. 
@@ -95,6 +81,10 @@ Creator2
 Client
 
 Program
+
+![The Factory Design Pattern](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/images/Factory110.png)
+
+ 
  
 # TheRayCode
 ## heading 2
