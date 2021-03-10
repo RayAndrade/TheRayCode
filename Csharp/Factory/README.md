@@ -9,7 +9,7 @@ public interface Product
 }
 ```
 Next we will create a couple of *concrete products* and we will add them to our project. 
-We name these products **Product1** and **Product2**.
+The name of these products will be **Product1** and **Product2**.
 The code for **Product1** will be:
 ```c#
 class Product1 : Product
@@ -20,7 +20,7 @@ class Product1 : Product
    }
 }
 ```
-And for *concrete product* **Product2** the code is:
+And for *concrete product* **Product2** we have:
 ```c#
 class Product2 : Product
 {
