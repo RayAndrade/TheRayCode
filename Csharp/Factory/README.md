@@ -1,7 +1,7 @@
 # TheRayCode
 ## Factory Design Pattern using c#
 For our example of the **Factory** pattern we will create an interface we call **Product**.cs. 
-This interface will require one method. The code for **Product** looks like:
+This interface will require one method. The code for **Product** looks like the following:
 ```c#
 public interface Product
 {
@@ -50,20 +50,52 @@ Also note that, despite its name, the Creator's primary responsibility is not cr
 Usually, it contains some core business logic that relies on Product objects, returned by the factory method. 
 Subclasses can indirectly change that business logic by overriding the factory method and returning a different type of product from it.
 
-
-
-
-**Creator**  extends a could
-
-
 Despite its name, the Creator's primary responsibility is not creating products. 
 Usually, it contains some core business logic that relies on Product objects, returned by a factory method. 
 Subclasses can indirectly change that business logic by overriding the factory and returning a different type.
-
-We first create an abstract Product called **FactoryMethod**.
+We add an abstract Product we call **FactoryMethod**.
 We then add **SomeOperation** to the progect class. 
 
-Next we want to create a couple of Concreate createors we call **** and *****
+Now let's add a couple of classes we call **Creator1** and **Creator2**. 
+Both of them are extednded by the abstract class **Creator**.
+Because they are implment by the  **Creator** class they need to have the  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Next we want to create a couple of Concreate createors we call **Creator1** and **Creator2***
 
 One abstract method called FactoryMethod which is of type Product 
 
