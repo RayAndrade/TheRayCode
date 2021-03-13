@@ -8,7 +8,7 @@ public interface Product
    string Operation();
 }
 ```
-Next we will create a couple of *concrete products* and we will add them to our project. 
+Next we will create a couple of *concrete products* to add them to our project. 
 The name of these products will be **Product1** and **Product2**.
 The code for **Product1** will be:
 ```c#
@@ -20,7 +20,7 @@ class Product1 : Product
    }
 }
 ```
-And for *concrete product* **Product2** we have:
+And for the *concrete product* **Product2** we have:
 ```c#
 class Product2 : Product
 {
@@ -31,7 +31,7 @@ class Product2 : Product
 }
 ```
 Now let's focus on the abstract class we call **Creator**.
-which look's like:
+It look's like:
 ```c#
 abstract class Creator
 {
@@ -45,20 +45,19 @@ abstract class Creator
    }
 }
 ```
-Note that the **Creator** may also provides some default implementation of the factory method.
+Notice that the **Creator** also provides some default implementation of the factory method.
 Also note that, despite its name, the Creator's primary responsibility is not creating products. 
 Usually, it contains some core business logic that relies on Product objects, returned by the factory method. 
 Subclasses can indirectly change that business logic by overriding the factory method and returning a different type of product from it.
 
-Despite its name, the Creator's primary responsibility is not creating products. 
-Usually, it contains some core business logic that relies on Product objects, returned by a factory method. 
-Subclasses can indirectly change that business logic by overriding the factory and returning a different type.
+Subclasses can indirectly change the business logic by overriding the factory and returning a different type.
 We add an abstract Product we call **FactoryMethod**.
 We then add **SomeOperation** to the progect class. 
 
-We now create a couple of classes that will use this *abstract class*.
-Let's create the classes **Creator1** and **Creator2**.
-We start with **Creator1** this class returns a *new* **Product1**.
+We now create a couple of *abstract class*.
+Let's create these classes **Creator1** and **Creator2**.
+We start with **Creator1**. This class returns a *new* **Product1**.
+Let's look at the code:
 ```c#
 class Creator1 : Creator
 {
@@ -80,8 +79,8 @@ class Creator2 : Creator
 }
 ```
 
-Let's  a **Director** class that will run the **Builder** class object.
-The code for this class will be,
+Let's create a **Director** class that will run the **Builder** class object.
+The code for this class will be:
 ```c#
  public class Director
  {
@@ -108,7 +107,7 @@ The code for this class will be,
  }
 ```
 
-Now let's put this all together in **Client**.cs
+Now let's put this all together in the **Client**.cs class.
 
 ```c#
 class Client
@@ -132,7 +131,8 @@ class Client
 }
 ```
 
-and now let's run our work in **Program**.cs.
+and now let's run our work in the **Program**.cs class. 
+We create the following code:
 
 ```c#
 class Program
@@ -143,7 +143,7 @@ class Program
     }
 }
 ```
-When we run our program we have
+We are ready to run our program and thus we have:
 
 ```
 App: Launched with the Creator1.
@@ -158,11 +158,5 @@ Creator: This creator's code has just worked with {From of Product2}
 Be good and happy programming
 ![The Factory Design Pattern](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/images/Factory110.png)
 
- 
- 
-# TheRayCode
-## heading 2
-### heading 3
-#### heading 4
 
 [Github](https://www.TheRayCode.com)
