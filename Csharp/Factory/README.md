@@ -45,7 +45,7 @@ abstract class Creator
    }
 }
 ```
-Note that the Creator may also provide some default implementation of the factory method.
+Note that the **Creator** may also provides some default implementation of the factory method.
 Also note that, despite its name, the Creator's primary responsibility is not creating products. 
 Usually, it contains some core business logic that relies on Product objects, returned by the factory method. 
 Subclasses can indirectly change that business logic by overriding the factory method and returning a different type of product from it.
@@ -56,63 +56,106 @@ Subclasses can indirectly change that business logic by overriding the factory a
 We add an abstract Product we call **FactoryMethod**.
 We then add **SomeOperation** to the progect class. 
 
-Now let's add a couple of classes we call **Creator1** and **Creator2**. 
-Both of them are extednded by the abstract class **Creator**.
-Because they are implmenting by the  **Creator** class they need to have the  
+We now create a couple of classes that will use this *abstract class*.
+Let's create the classes **Creator1** and **Creator2**.
+We start with **Creator1** this class returns a *new* **Product1**.
+```c#
+class Creator1 : Creator
+{
+   public override Product FactoryMethod()
+   {
+      return new Product1();
+   }
+}
+```
+likewise, the code for **Creator2** will be like: 
 
+```c#
+class Creator2 : Creator
+{
+   public override Product FactoryMethod()
+   {
+      return new Product2();
+   }
+}
+```
 
+Let's  a **Director** class that will run the **Builder** class object.
+The code for this class will be,
+```c#
+ public class Director
+ {
+    private Builder _builder;
+    
+    public Builder Builder
+    {
+       set { _builder = value; } 
+    }
+       
+    // The Director can construct several product variations using the same
+    // building steps.
+    public void buildMinimalViableProduct()
+    {
+       this._builder.BuildPartA();
+    }
+        
+    public void buildFullFeaturedProduct()
+    {
+      this._builder.BuildPartA();
+      this._builder.BuildPartB();
+      this._builder.BuildPartC();
+    }
+ }
+```
 
+Now let's put this all together in **Client**.cs
 
+```c#
+class Client
+{
+    public void Main()
+    {
+        Console.WriteLine("App: Launched with the Creator1.");
+        ClientCode(new Creator1());
+           
+        Console.WriteLine("");
+        Console.WriteLine("App: Launched with the Creator2.");
+        ClientCode(new Creator2());
+    }
+    public void ClientCode(Creator creator)
+    {
+        // ...
+        Console.WriteLine("Client: I'm not aware of the creator's class," +
+                          "but it still works.\n" + creator.SomeOperation());
+        // ...
+    }
+}
+```
 
+and now let's run our work in **Program**.cs.
 
+```c#
+class Program
+{
+    static void Main(string[] args)
+    {
+        new Client().Main();
+    }
+}
+```
+When we run our program we have
 
+```
+App: Launched with the Creator1.
+Client: I'm not aware of the creator's class,but it still works.
+Creator: This creator's code has just worked with {From of Product1}
 
+App: Launched with the Creator2.
+Client: I'm not aware of the creator's class,but it still works.
+Creator: This creator's code has just worked with {From of Product2}
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Next we want to create a couple of Concreate createors we call **Creator1** and **Creator2***
-
-One abstract method called FactoryMethod which is of type Product 
-
-in our example 
-
-Creator
-
-Creator1
-
-Creator2
-
-
-
-Client
-
-Program
-
+Be good and happy programming
 ![The Factory Design Pattern](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/images/Factory110.png)
 
  

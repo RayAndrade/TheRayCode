@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ed17ee2-2228-42f6-abfe-080c86fe2610" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Factory/bin/Debug/netcoreapp3.1/Factory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/bin/Debug/netcoreapp3.1/Factory.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/bin/Debug/netcoreapp3.1/Factory.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/bin/Debug/netcoreapp3.1/Factory.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +104,7 @@
       <workItem from="1615145309345" duration="1527000" />
       <workItem from="1615151828236" duration="2230000" />
       <workItem from="1615586599360" duration="603000" />
+      <workItem from="1615670570272" duration="53000" />
     </task>
     <servers />
   </component>
