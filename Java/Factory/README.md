@@ -99,11 +99,71 @@ public abstract class Dialog {
 }
 
 ```
-Next
+We now define how our styles run.
+For the HTML side I write the following:
+```java
+public class HtmlDialog extends Dialog {
 
-# TheRayCode
-## heading 2
-### heading 3
-#### heading 4
+   @Override
+   public Button createButton() {
+      return new HtmlButton();
+   }
+}
+```
+And for our *window* side we write:
+```java
+public class WindowsDialog extends Dialog {
 
-[Github](https://www.TheRayCode.com)
+   @Override
+   public Button createButton() {
+      return new WindowsButton();
+   }
+}
+
+```
+Now let's put this all together in our **Demo**.java program.
+This is the code:
+```java
+
+public class Demo {
+    private static Dialog dialog;
+
+    public static void main(String[] args) {
+        configure();
+        runBusinessLogic();
+    }
+
+    /**
+     * The concrete factory is usually chosen depending on configuration or
+     * environment options.
+     */
+
+
+    static void configure() {
+    // use 1 or 2 to run
+
+        switch(2) {
+            case 1:
+                dialog = new WindowsDialog();
+                break;
+            case 2:
+                dialog = new HtmlDialog();
+                break;
+            default:
+                // exit code block
+        }
+    }
+
+    /**
+     * All of the client code should work with factories and products through
+     * abstract interfaces. This way it does not care which factory it works
+     * with and what kind of product it returns.
+     */
+    static void runBusinessLogic() {
+        dialog.renderWindow();
+    }
+}
+```
+
+
+[The Ray Code](https://www.TheRayCode.com)
