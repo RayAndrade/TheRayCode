@@ -10,8 +10,6 @@ import TheRayCode.factory_method.example.buttons.Button;
 public abstract class Dialog {
 
     public void renderWindow() {
-        // ... other code ...
-
         Button okButton = createButton();
         okButton.render();
     }
