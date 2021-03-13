@@ -1,11 +1,11 @@
 # TheRayCode
 ## Factory Design Pattern using Java
 
-We start this demonstation with the goal to make two differnt systems to render a *button*.
-One system will render a simple html text and the other system we create will be for a *java*.**awt** and *javax*.**swing** systems.
+We start this demonstation with the goal to make two differnt systems render a *button*.
+One system will render simple html text and the other system we create will be for a *java*.**awt** and *javax*.**swing** systems. (We call this system a '*windows*' system).
 
-Let's create our Java namespaces for this project.
-We create a java package called *buttons* and another one called *factory*
+We start off by creating the Java namespaces we need for this project.
+We create a package called *buttons* and another one called *factory*
 In the buttons package we create an interface we call **Button**.
 Here is the code for the interface: 
 
@@ -15,7 +15,7 @@ public interface Button {
     void onClick();
 }
 ```
-As you can see, the requirements to use this interface is to have the two methods **render** and **onClick**
+As you can see, the requirements to use this interface is to include the two methods **render** and **onClick**
 
 The first button we create will be for Html buttons. 
 The name of this class will be **HtmlButton**.
@@ -35,7 +35,7 @@ public class HtmlButton implements Button {
     }
 }
 ```
-So now let's create the same method using the awt and swing libraries. The code for this version is:
+So now let's create the same method using the awt/swing libraries. The code for this version will be:
 
 ```java
 import javax.swing.*;
@@ -79,11 +79,8 @@ public class WindowsButton implements Button {
     }
 }
 ```
-
-
-
-Let's now turn to the factory side of our project.
-The factory package should have some core business that should group together.
+Now let's turn to the factory side of our project.
+In the factory package we should have some core business that should group together.
 We create an *abstract class* we call *Dialog* this will be our code:
 ```java
 
@@ -102,6 +99,7 @@ public abstract class Dialog {
 }
 
 ```
+Next
 
 # TheRayCode
 ## heading 2
