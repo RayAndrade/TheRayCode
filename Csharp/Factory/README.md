@@ -58,7 +58,7 @@ We then add **SomeOperation** to the progect class.
 
 Now let's add a couple of classes we call **Creator1** and **Creator2**. 
 Both of them are extednded by the abstract class **Creator**.
-Because they are implment by the  **Creator** class they need to have the  
+Because they are implmenting by the  **Creator** class they need to have the  
 
 
 
