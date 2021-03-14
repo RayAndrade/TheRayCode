@@ -14,7 +14,8 @@ public:
 This interface accepts two methods. A destructor for **Product** and a method we generically call **Operation**.
 **Operation** returns a string.
 
-We now will a two concrete product clases called **ProductA** and **ProductB**. Concrete Products provide various implementations of the Product interface.
+Now we will create two concrete product clases one called **ProductA** and the other **ProductB**. 
+Concrete Products provide various implementations of the Product interface.
 The code for **ProductA**  is:
 ```c++
 #include "Product.h"
@@ -120,13 +121,13 @@ int main() {
 ```
 The result shoud be:
 ```result
+App: Launched with the CreatorA.
 Client: I'm not aware of the creator's class, but it still works.
 Creator: The same creator's code has just worked with {Result of the ProductA}
 
-App: Launched with the ConcreteCreatorB.
+App: Launched with the CreatorB.
 Client: I'm not aware of the creator's class, but it still works.
 Creator: The same creator's code has just worked with {Result of the ProductB}
-The Ray Code is AWESOME!!!
 
 ```
 

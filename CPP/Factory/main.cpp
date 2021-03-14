@@ -29,12 +29,12 @@ void ClientCode(const Creator& creator) {
 
 int main() {
 
-    std::cout << "App: Launched with the ConcreteCreatorA." << std::endl;
+    std::cout << "App: Launched with the CreatorA." << std::endl;
     Creator* creatorA = new CreatorA();
     ClientCode(*creatorA);
 
     std::cout << std::endl;
-    std::cout << "App: Launched with the ConcreteCreatorB." << std::endl;
+    std::cout << "App: Launched with the CreatorB." << std::endl;
     Creator* creatorB = new CreatorB();
     ClientCode(*creatorB);
 
