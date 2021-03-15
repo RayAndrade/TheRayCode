@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ray/RiderProjects/Singleton/Singleton/Singleton.csproj": {}
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Singleton/Singleton/Singleton.csproj": {}
   },
   "projects": {
-    "/home/ray/RiderProjects/Singleton/Singleton/Singleton.csproj": {
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Singleton/Singleton/Singleton.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ray/RiderProjects/Singleton/Singleton/Singleton.csproj",
+        "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/Singleton/Singleton/Singleton.csproj",
         "projectName": "Singleton",
-        "projectPath": "/home/ray/RiderProjects/Singleton/Singleton/Singleton.csproj",
+        "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Singleton/Singleton/Singleton.csproj",
         "packagesPath": "/home/ray/.nuget/packages/",
-        "outputPath": "/home/ray/RiderProjects/Singleton/Singleton/obj/",
+        "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Singleton/Singleton/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"

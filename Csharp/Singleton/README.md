@@ -1,8 +1,7 @@
 # TheRayCode
-TheRayCode PHP 
-# TheRayCode
-## heading 2
-### heading 3
-#### heading 4
+## Singleton C#
+
+With the Singelton design pattern we want to ensure that a class has only one instance, while providing a global access point to this instance.
+
 
 [Github](https://www.TheRayCode.com)

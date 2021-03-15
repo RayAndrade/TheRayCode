@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qSuJfPcKdxhChYmRmQdDFYdNVt8xmDh8iph5odIfGKyCSNuGqM2rydqIFx5k/kvRo2TrE9AqWXm2K7zIPpMx8A==",
+  "dgSpecHash": "Xemwumi5aSk8iIMUNlVr56W/2W9DSQE18A8QMMuIxSEaKiEMCMOxQAxppGmwHA68ABg3LXYZ2oXUahML2mVqng==",
   "success": true,
-  "projectFilePath": "/home/ray/RiderProjects/Singleton/Singleton/Singleton.csproj",
+  "projectFilePath": "/home/ray/TheRayCode/TheRayCode/Csharp/Singleton/Singleton/Singleton.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
