@@ -81,7 +81,14 @@ Our result when we browse to the **index**.php is:
 Singleton works, both variables contain the same instance.
 ```
 
+
 [The Ray Code](https://www.RayAndrade.com)
 
 [Ray Andrade](https://www.RayAndrade.org)
+
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
 

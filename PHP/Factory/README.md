@@ -1,5 +1,5 @@
 # TheRayCode
-TheRayCode PHP 
+## Factory PHP
 
 For our PHP exaple of the **Factory** method I will start by creating an interface for our products.
 I call this interface Product
