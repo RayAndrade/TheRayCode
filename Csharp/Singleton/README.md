@@ -73,5 +73,5 @@ Singleton works, both variables contain the same instance.
 
 
 [The Ray Code](https://www.TheRayCode.com)
-[Ray Andrade](https://www.RayAndrade.0rg)
+[Ray Andrade](https://www.RayAndrade.org)
 
