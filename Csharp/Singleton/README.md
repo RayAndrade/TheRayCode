@@ -19,5 +19,7 @@ private Singleton() { }
 private static Singleton _instance;
 
 ```
-    
-[Github](https://www.TheRayCode.com)
+[The Ray Code](https://www.TheRayCode.com)
+
+[Ray Andrade](https://www.RayAndrade.0rg)
+
