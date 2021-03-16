@@ -80,7 +80,7 @@ Our result when we browse to the **index**.php is:
 Singleton works, both variables contain the same instance.
 ```
 
-[The Ray Code](https://www.TheRayCode.com)
+[The Ray Code](https://www.RayAndrade.com)
 
 [Ray Andrade](https://www.RayAndrade.org)
 
