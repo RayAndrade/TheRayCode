@@ -135,7 +135,6 @@ Creator: The same creator's code has just worked with {Result of the ProductB}
 
 [Wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern/)
 
-![GitHub Logo](/UMLs/images/Factory.png)
 ![Factory](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/images/Factory.png)
 
 ----------------------------------------------------------------------------------------------------
