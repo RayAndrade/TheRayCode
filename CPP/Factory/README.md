@@ -153,5 +153,3 @@ Find Ray on:
 
 
 
-
-
