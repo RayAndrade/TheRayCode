@@ -165,5 +165,22 @@ public class Demo {
 }
 ```
 
+Be good and happy programming
+
+
+[Wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern/)
+
+![Factory](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/images/Factory.png)
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
 
 [The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)
+
+
