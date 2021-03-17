@@ -1,4 +1,5 @@
-# The Ray Code
+# TheRayCode
+## Factory PHP
 
 In this artical I will take a look at the **Factory** design pattern using *c++*.
 We start by creating an interface we call **Product**.
@@ -130,6 +131,22 @@ Client: I'm not aware of the creator's class, but it still works.
 Creator: The same creator's code has just worked with {Result of the ProductB}
 
 ```
+
+
+[Wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern/)
+
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
+
+[The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)
+
 
 
 
