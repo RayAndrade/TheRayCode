@@ -156,7 +156,21 @@ Creator: This creator's code has just worked with {From of Product2}
 ```
 
 Be good and happy programming
-![The Factory Design Pattern](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/images/Factory110.png)
 
 
-[Github](https://www.TheRayCode.com)
+[Wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern/)
+
+![Factory](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/images/Factory.png)
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
+
+[The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)
+
+
