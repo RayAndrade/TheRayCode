@@ -130,6 +130,8 @@ Creator: The same creator's code has just worked with {Result of the Product2}
 
 [Wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern/)
 
+![GitHub Logo](/UMLs/images/Factory.png)
+Format: ![Factory](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/images/Factory.png)
 ----------------------------------------------------------------------------------------------------
 
 Find Ray on:
