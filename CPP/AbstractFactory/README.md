@@ -16,8 +16,10 @@ public:
     virtual std::string UsefulFunctionA() const = 0;
 };
 ```
-Next we want to create a couple subclasses we call **ProductA1** and **ProductA2**.
-The first thing we need to do is include **ProductA.h** and the extend **ProductA1** with **ProductA**
+
+Next we want to create a couple subclasses that we call **ProductA1** and **ProductA2**.
+The first thing we need to do is include **ProductA.h** and the extend **ProductA1** with **ProductA**.
+Let's look at the code in **ProductA1**.h.
 ```c++
 #include "ProductA.h"
 
@@ -29,7 +31,7 @@ public:
 };
 
 ```
-We now want to create two classes I call **ProductA2** and **ProductA2**. Both classes
+We now want to create two classes I will call **ProductA2** and **ProductA2**. Both classes
 will be extend with **ProductA** and thus we will need to include **ProductA** on both.
 The code for **ProductA1** will be:
 
@@ -55,6 +57,9 @@ class ProductA2 : public ProductA {
 };
 
 ```
+
+![Factory](/UMLs/images/AbstractFactory088.png)
+
 We now move to the **B** side.
 
 So let's create **ProductB**. To **ProductB** we have the following code:
