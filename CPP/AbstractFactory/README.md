@@ -1,4 +1,6 @@
-# The Ray Code #
+# TheRayCode
+## Abstract Factory c++
+
 In this article we will review the **Abstract Factory** pattern.
 This pattern allows you to create a family of classes in which
 the subclasses of this *family* can cooperate together.
@@ -195,6 +197,20 @@ The result of the B2 collaborating with ( The result of the product A2. )
 
 ```
 
-[link to RayAndrade.com](http://RayAndrade.com)
+[Factory](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/UMLs/images/Factory.png)
 
-[link to RayAndrade.org](http://RayAndrade.org)
+[Wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern/)
+
+
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
+
+[The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)
+
