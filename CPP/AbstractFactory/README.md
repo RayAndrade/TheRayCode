@@ -202,7 +202,6 @@ The result of the B2 collaborating with ( The result of the product A2. )
 
 ```
 
-[Factory](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/UMLs/images/AbstractFactory088.png)
 
 [Wikipedia](https://en.wikipedia.org/wiki/Abstract_factory_pattern)
 
