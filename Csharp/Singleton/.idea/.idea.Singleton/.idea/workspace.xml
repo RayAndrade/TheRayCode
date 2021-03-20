@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57464b22-a5b1-4ee5-8b8b-75b09100dfbd" name="Default Changelist" comment="" />
+    <list default="true" id="57464b22-a5b1-4ee5-8b8b-75b09100dfbd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Singleton/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Singleton/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Singleton/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Singleton/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Singleton/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +68,8 @@
       <workItem from="1604023566994" duration="2048000" />
       <workItem from="1604149276614" duration="1440000" />
       <workItem from="1615836452147" duration="2157000" />
+      <workItem from="1616274678652" duration="6000" />
+      <workItem from="1616274784871" duration="41000" />
     </task>
     <servers />
   </component>
