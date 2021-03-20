@@ -1,5 +1,5 @@
 # TheRayCode
-## Abstract Factory c++
+## Abstract Factory Php
 
 In this article we will review the **Abstract Factory** pattern using Php.
 This pattern allows you to create a family of classes in which
@@ -24,7 +24,7 @@ interface AbstractFactory
 }
 ```
 So you see we need a coulpe of classes to add to this interface.
-We will create a couple of interface for our project.
+We will create a couple of interfaces for our project.
 The interfaces se want to add will be **AbstractProductA** and **AbstractProductB**.
 We start with the interface **AbstractProductA**.
 Its code will be:
@@ -48,8 +48,8 @@ interface AbstractProductB
 The Abstract Factory makes sure that all products it creates are of the same variant and thus, compatible.
 
 Let's create our products.
-Concrete Products are created by corresponding Concrete Factories.
-I will call them **ProductA1**, **ProductA2**, **ProductB1** and **ProductB2**.
+Our Concrete Products are created by corresponding Concrete Factories.
+We will call them **ProductA1**, **ProductA2**, **ProductB1** and **ProductB2**.
 We start with **ProductA1**.
 ```php
 class ProductA1 implements AbstractProductA
@@ -61,7 +61,7 @@ class ProductA1 implements AbstractProductA
 }
 
 ```
-For **ProductA2** we have:
+Next for **ProductA2** we have:
 ```php
 class ProductA2 implements AbstractProductA
 {
@@ -74,9 +74,9 @@ class ProductA2 implements AbstractProductA
 Both **ProductA1** and **ProductA2** implement **AbstractProductA**.
 We now go to the **AbstractProductB** side of our demonstration.
 The name of the classes will be **ProductB1** and **ProductB2**.
-Both implement **AbstractProductB**.
-The variant, Product B1, is only able to work correctly with the variant, Product A1. Nevertheless, it accepts any instance of AbstractProductA an argument.
-The code for **Product B1** is:
+Both will implement **AbstractProductB**.
+The variant, **ProductB1**, is only able to work correctly with the variant, **ProductA1**. Nevertheless, it accepts any instance of AbstractProductA an argument.
+The code for **ProductB1** is:
 ```php
 class ProductB1 implements AbstractProductB
 {
@@ -92,7 +92,7 @@ class ProductB1 implements AbstractProductB
     }
 }
 ```
-The variant, Product B2, is only able to work correctly with the variant, Product A2. Nevertheless, it accepts any instance of AbstractProductA as an argument.
+The variant, **ProductB2**, is only able to work correctly with the variant, **ProductA2**. Nevertheless, it accepts any instance of **AbstractProductA** as an argument.
 The code for **ProductB2** it will be:
 ```php
 class ProductB2 implements AbstractProductB
@@ -143,8 +143,8 @@ class Factory2 implements AbstractFactory
     }
 }
 ```
-The last place we need to go is to the **index**.php file
-The code we add is:
+The last place we need to go is to the **index**.php file.
+The code for that file is:
 ```php
 function clientCode(AbstractFactory $factory)
 {
@@ -166,7 +166,7 @@ echo "<br/>";
 echo "Client: Testing the same client code with the second factory type:<br/>";
 clientCode(new Factory2);
 ```
-When we run the code we get:
+When we run the code we should get:
 
 ```
 Client: Testing client code with the first factory type:
