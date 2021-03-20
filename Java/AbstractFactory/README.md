@@ -53,5 +53,139 @@ public class MacOSCheckbox implements Checkbox {
     }
 }
 ```
-We create another class for Windows
+We create another class for Windows side  **WindowsCheckbox**. The code for that is:
+```java
+public class WindowsCheckbox implements Checkbox {
+    @Override
+    public void paint() {
+        System.out.println("You have created WindowsCheckbox.");
+    }
+}
+```
+Now let's create a *factory* to harness both these button and checkbox classes.
+So we create a interface called **GUIFactory**.
+The code for that will be:
+```java
+public interface GUIFactory {
+    Button createButton();
+    Checkbox createCheckbox();
+}
+```
+For the **MacOSFactory** we have:
+```java
+public class MacOSFactory implements GUIFactory {
+    @Override
+    public Button createButton() {
+        return new MacOSButton();
+    }
+
+    @Override
+    public Checkbox createCheckbox() {
+        return new MacOSCheckbox();
+    }
+}
+```
+For the **WindowsFactory** we have.
+```java
+public class WindowsFactory implements GUIFactory {
+    @Override
+    public Button createButton() {
+        return new WindowsButton();
+    }
+
+    @Override
+    public Checkbox createCheckbox() {
+        return new WindowsCheckbox();
+    }
+}
+```
+Create an app package and place in it a class called **Application**. 
+The code for this class is:
+```java
+public class Application {
+    private Button button;
+    private Checkbox checkbox;
+
+    public Application(GUIFactory factory) {
+        button = factory.createButton();
+        checkbox = factory.createCheckbox();
+    }
+
+    public void paint() {
+        button.paint();
+        checkbox.paint();
+    }
+}
+```
+The last class will be called **Demo**.
+The code for this class will be:
+
+public class Demo {
+
+    /**
+     * Application picks the factory type and creates it in run time (usually at
+     * initialization stage), depending on the configuration or environment
+     * variables.
+     */
+    private static Application configureApplication() {
+        Application app;
+        GUIFactory factory;
+        String osName = System.getProperty("os.name").toLowerCase();
+        if (osName.contains("mac")) {
+            factory = new MacOSFactory();
+            app = new Application(factory);
+        } else {
+            factory = new WindowsFactory();
+            app = new Application(factory);
+        }
+        return app;
+    }
+
+    public static void main(String[] args) {
+        Application app = configureApplication();
+        app.paint();
+    }
+}
+
+
+your result should be
+
+```
+You have created WindowsButton.
+You have created WindowsCheckbox.
+```
+
+
+
+[Wikipedia](https://en.wikipedia.org/wiki/Abstract_factory_pattern)
+
+
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
+
+[The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
