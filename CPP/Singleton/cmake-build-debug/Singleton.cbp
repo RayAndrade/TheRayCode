@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Singleton/GameSetting.h">
+			<Option target="Singleton"/>
+		</Unit>
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Singleton/Singleton.h">
 			<Option target="Singleton"/>
 		</Unit>
