@@ -1,4 +1,7 @@
-class ConcreteProductB2 implements AbstractProductB
+<?php
+include_once ('AbstractProductB.php');
+
+class ProductB2 implements AbstractProductB
 {
     public function usefulFunctionB(): string
     {
@@ -15,6 +18,7 @@ class ConcreteProductB2 implements AbstractProductB
     public function anotherUsefulFunctionB(AbstractProductA $collaborator): string
     {
         $result = $collaborator->usefulFunctionA();
+
         return "The result of the B2 collaborating with the ({$result})";
     }
 }
