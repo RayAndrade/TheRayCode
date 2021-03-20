@@ -15,6 +15,8 @@ pthread.h
 -
 chrono
 -
+thread
+-
 Singleton.h
 /home/ray/TheRayCode/TheRayCode/CPP/Singleton/Singleton.h
 

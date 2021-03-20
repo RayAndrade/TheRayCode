@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfdbc25c-6411-4ad4-bded-f8c5041db0f2" name="Default Changelist" comment="" />
+    <list default="true" id="cfdbc25c-6411-4ad4-bded-f8c5041db0f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../CPP/AbstractFactory/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/AbstractFactory/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/AbstractFactory/cmake-build-debug/CMakeFiles/AbstractFactory.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/AbstractFactory/cmake-build-debug/CMakeFiles/AbstractFactory.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/AbstractFactory/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/AbstractFactory/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/AbstractFactory/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/AbstractFactory/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/AbstractFactory/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/AbstractFactory/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/AbstractFactory/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/AbstractFactory/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/AbstractFactory/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/AbstractFactory/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/CMakeFiles/Singleton.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/CMakeFiles/Singleton.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/CMakeFiles/Singleton.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/CMakeFiles/Singleton.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Singleton/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Singleton/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Csharp/AbstractFactory/.idea/.idea.AbstractFactory/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/AbstractFactory/.idea/.idea.AbstractFactory/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Csharp/AbstractFactory/AbstractFactory/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/AbstractFactory/AbstractFactory/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +71,7 @@
       <workItem from="1615865620197" duration="37000" />
       <workItem from="1615932016328" duration="2031000" />
       <workItem from="1616009078498" duration="632000" />
+      <workItem from="1616261844038" duration="107000" />
     </task>
     <servers />
   </component>
