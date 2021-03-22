@@ -175,6 +175,8 @@ The result of the B2 collaborating with the (The result of the product A2.)
 ```
 
 
+![Factory](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/images/AbstractFactory_2.png)
+
 [Wikipedia](https://en.wikipedia.org/wiki/Abstract_factory_pattern)
 
 
