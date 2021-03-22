@@ -6,7 +6,7 @@ include_once ('AbstractFactory.php');
  * that signatures of the Concrete Factory's methods return an abstract product,
  * while inside the method a concrete product is instantiated.
  */
-class ConcreteFactory1 implements AbstractFactory
+class ConcreteFactory implements AbstractFactory
 {
     public function createProductA(): IProductA
     {

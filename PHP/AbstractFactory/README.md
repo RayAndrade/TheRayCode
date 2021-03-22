@@ -70,7 +70,7 @@ Both **ProductA1** and **ProductA2** implement **IProductA**.
 We now go to the **IProductB** side of our demonstration.
 The name of the classes will be **ProductB1** and **ProductB2**.
 Both will implement **IProductB**.
-The variant, **ProductB1**, is only able to work correctly with the variant, **ProductA1**. Nevertheless, it accepts any instance of IProductA an argument.
+The variant, **ProductB1**, is only able to work correctly with the variant, **ProductA1**. Nevertheless, it accepts any instance of **IProductA** an argument.
 The code for **ProductB1** is:
 ```php
 class ProductB1 implements IProductB
