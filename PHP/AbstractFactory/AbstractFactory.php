@@ -10,7 +10,7 @@
 
 interface AbstractFactory
 {
-    public function createProductA(): AbstractProductA;
+    public function createProductA(): IProductA;
 
-    public function createProductB(): AbstractProductB;
+    public function createProductB(): IProductB;
 }

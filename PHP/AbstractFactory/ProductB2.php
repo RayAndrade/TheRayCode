@@ -1,7 +1,7 @@
 <?php
-include_once ('AbstractProductB.php');
+include_once('IProductB.php');
 
-class ProductB2 implements AbstractProductB
+class ProductB2 implements IProductB
 {
     public function usefulFunctionB(): string
     {
@@ -12,10 +12,10 @@ class ProductB2 implements AbstractProductB
      * The variant, Product B2, is only able to work correctly with the variant,
      * Product A2. Nevertheless, it accepts any instance of AbstractProductA as
      * an argument.
-     * @param AbstractProductA $collaborator
+     * @param IProductA $collaborator
      * @return string
      */
-    public function anotherUsefulFunctionB(AbstractProductA $collaborator): string
+    public function anotherUsefulFunctionB(IProductA $collaborator): string
     {
         $result = $collaborator->usefulFunctionA();
 

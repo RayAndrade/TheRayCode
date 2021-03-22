@@ -4,7 +4,7 @@
  * with each other, but proper interaction is possible only between products of
  * the same concrete variant.
  */
-interface AbstractProductB
+interface IProductB
 {
     /**
      * Product B is able to do its own thing...
@@ -16,8 +16,8 @@ interface AbstractProductB
      *
      * The Abstract Factory makes sure that all products it creates are of the
      * same variant and thus, compatible.
-     * @param AbstractProductA $collaborator
+     * @param IProductA $collaborator
      * @return string
      */
-    public function anotherUsefulFunctionB(AbstractProductA $collaborator): string;
+    public function anotherUsefulFunctionB(IProductA $collaborator): string;
 }

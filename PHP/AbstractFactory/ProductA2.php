@@ -1,6 +1,6 @@
 <?php
-include_once ('AbstractProductA.php');
-class ProductA2 implements AbstractProductA
+include_once('IProductA.php');
+class ProductA2 implements IProductA
 {
     public function usefulFunctionA(): string
     {
