@@ -4,7 +4,7 @@
 With the Singelton design pattern we want to ensure that a class has only one instance, while providing a global access point to this instance.
 
 The Singleton's instance is stored in a static field. 
-This field is an array, because we'll allow our Singleton to have subclasses. 
+For this demonstration we make the field is an array, because we'll allow our Singleton to have subclasses. 
 Each item in this array will be an instance of a specific **Singleton**'s subclass. 
 You'll see how this works in a moment.
 ```php
@@ -25,11 +25,11 @@ public function __wakeup()
    throw new \Exception("Cannot unserialize a singleton.");
 }
 ```
-This is the static method that controls the access to the singleton instance. 
+This is the static method that controls the access to the singleton's instance. 
 On the first run, it creates a singleton object and places it into the static field. 
-On subsequent runs, it returns the client existing object stored in the static field.
+On <i>subsequent runs</i> it returns the clients existing object stored in that static field.
 
-This implementation lets you subclass the Singleton class while keeping just **one** instance of each subclass around.
+This implementation lets you subclass the Singleton class while keeping only **one** instance of each subclass around.
 
 ```php
 public static function getInstance(): Singleton
@@ -41,7 +41,7 @@ public static function getInstance(): Singleton
     return self::$instances[$cls];
 }
 ```
-Finally, any singleton should define some business logic, which can be executed on its instance.
+Finally, any singleton should define some business logic which can be executed on its instantiation.
 
 ```php
 public function someBusinessLogic()
@@ -49,9 +49,9 @@ public function someBusinessLogic()
     // ...
 }
 ```
-Let's put this together in the **index**.php.
-We want to create two different singleton objects.
-And then we will compair them.
+Now let's put this altogether in the **index**.php.
+We want to attempt to create two different singleton objects.
+After we create them, then we will compair them.
 
 The Singleton class defines the *GetInstance* method that serves as an alternative to constructor and lets clients access the same instance of this class over and over.
 
