@@ -1,5 +1,5 @@
-#ifndef BUILDER_PRODUCT_H
-#define BUILDER_PRODUCT_H
+#ifndef PRODUCT_H
+#define PRODUCT_H
 
 #include <iostream>
 #include <vector>
@@ -21,4 +21,4 @@ public:
 };
 
 
-#endif //BUILDER_PRODUCT_H
+#endif //PRODUCT_H

@@ -1,7 +1,3 @@
-//
-// Created by ray on 8/13/20.
-//
-
 #ifndef BUILDER_DIRECTOR_H
 #define BUILDER_DIRECTOR_H
 #include "Builder.h"

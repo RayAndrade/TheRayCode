@@ -4,7 +4,6 @@
 
 #ifndef BUILDER_SOLIDBUILDER_H
 #define BUILDER_SOLIDBUILDER_H
-
 #include "Builder.h"
 #include "Product.h"
 
