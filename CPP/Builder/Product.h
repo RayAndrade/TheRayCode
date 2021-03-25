@@ -1,16 +1,10 @@
-//
-// Created by ray on 8/13/20.
-//
-
 #ifndef BUILDER_PRODUCT_H
 #define BUILDER_PRODUCT_H
+
 #include <iostream>
 #include <vector>
 
-
-
 class Product {
-
 public:
     std::vector<std::string> parts_;
     void ListParts()const{
@@ -24,7 +18,6 @@ public:
         }
         std::cout << "\n\n";
     }
-
 };
 
 
