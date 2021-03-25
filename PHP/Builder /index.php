@@ -2,7 +2,7 @@
 namespace TheRayCode\Builder;
 
 include_once ('Builder.php');
-include_once('ConcreteBuilder.php');;
+include_once('RealBuilder.php');;
 include_once('Product.php');
 include_once ('Director.php');
 
@@ -10,7 +10,7 @@ echo "The Ray Code is AWESOME!!!<br/><br/>";
 
 function clientCode(Director $director)
 {
-    $builder = new ConcreteBuilder;
+    $builder = new RealBuilder;
     $director->setBuilder($builder);
 
     echo "Standard basic product:<br/>";

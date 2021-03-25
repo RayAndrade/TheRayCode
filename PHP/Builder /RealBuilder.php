@@ -4,7 +4,7 @@
 namespace TheRayCode\Builder;
 
 
-class ConcreteBuilder implements Builder
+class RealBuilder implements Builder
 {
     private $product;
 
