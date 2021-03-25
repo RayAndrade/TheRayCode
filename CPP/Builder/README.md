@@ -151,8 +151,10 @@ Custom product:
 Product parts: PartA, PartC
 
 ```
-
+The Ray code is AWESOME!!!
 ----------------------------------------------------------------------------------------------------
+
+[wikipedia](https://en.wikipedia.org/wiki/Builder_pattern)
 
 Find Ray on:
 

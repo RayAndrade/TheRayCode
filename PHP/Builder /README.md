@@ -1,14 +1,17 @@
 # TheRayCode
-TheRayCode PHP 
-# TheRayCode
-## heading 2
-### heading 3
-#### heading 4
+## Builder Php
 
-[The Ray Code](https://www.rayandade.com)
+The Builder pattern can be recognized in a class, which has a single creation method and several methods to configure the resulting object. 
 
-[Youtube](https://youtu.be/tRDWcQPr8UA)
+----------------------------------------------------------------------------------------------------
 
-[vimeo](https://vimeo.com/476725108)
+Find Ray on:
 
-The Ray Code is AWSOME
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
+
+[The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)
+
