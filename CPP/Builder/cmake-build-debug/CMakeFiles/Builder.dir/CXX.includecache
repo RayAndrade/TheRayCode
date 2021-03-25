@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ray/TheRayCode/TheRayCode/CPP/Builder/Builder.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Builder/Director.h
+Builder.h
+/home/ray/TheRayCode/TheRayCode/CPP/Builder/Builder.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Builder/Product.h
+iostream
+-
+vector
+-
+
+/home/ray/TheRayCode/TheRayCode/CPP/Builder/SolidBuilder.h
+Builder.h
+/home/ray/TheRayCode/TheRayCode/CPP/Builder/Builder.h
+Product.h
+/home/ray/TheRayCode/TheRayCode/CPP/Builder/Product.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Builder/main.cpp
+iostream
+-
+Director.h
+/home/ray/TheRayCode/TheRayCode/CPP/Builder/Director.h
+SolidBuilder.h
+/home/ray/TheRayCode/TheRayCode/CPP/Builder/SolidBuilder.h
+
