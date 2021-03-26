@@ -61,7 +61,7 @@ Therefore, such methods cannot be declared in the base Builder interface (at lea
 Note that PHP is a *dynamically typed language* and this method **can** be in the base interface.
 However, we won't declare it there for the sake of clarity.
 
-![Factory](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/images/Builder098-php.png)
+![Factory](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/UMLs/images/Builder098-php.png)
 
 
 Usually, after returning the end result to the client, a builder instance is expected to be ready to start producing another product. 
