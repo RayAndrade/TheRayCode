@@ -3,10 +3,11 @@
 
 The Builder pattern can be recognized in a class, which has a single creation method and several methods to configure the resulting object. 
 
-This example illustrates the structure of the Builder design pattern. It focuses on answering these questions:
+This example illustrates the structure of the Builder design pattern. 
+It focuses on answering these questions:
 * What classes does it consist of?
 * What roles do these classes play?
-* In what way the elements of the pattern are related?
+* In what way do the elements of the pattern related?
 
 
 It makes sense to use the Builder pattern only when your products are quite complex and require extensive configuration.
@@ -14,7 +15,7 @@ Unlike in other creational patterns, different concrete builders can produce unr
 In other words, results of various builders may not always follow the same interface.
 
 Let's create a class called **Product**.
-The code for **Product**.h is:
+The code for **Product**.h will be:
 ```c++
 class Product {
 public:
@@ -32,8 +33,8 @@ public:
     }
 };
 ```
-The Builder interface specifies methods for creating the different parts of the Product objects.
-The code for **Builder**.h is:
+The Builder interface specifies methods for creating the different parts of the **Product** objects.
+The code for the **Builder**.h is:
 ```c++
 class Builder {
 public:
@@ -44,7 +45,7 @@ public:
 
 };
 ```
-The Concrete (Solid) Builder classes follow the Builder interface and provide specific implementations of the building steps. 
+The Concrete (Solid) Builder classes follows the Builder interface and provide specific implementations of the building steps. 
 Your program may have several variations of *Builders* , implemented differently.
 ```c++
 class SolidBuilder: public Builder {
@@ -77,8 +78,8 @@ public:
 
 };
 ```
-Now let's create a **Director**.
-The code for our **Director** will be:
+Now let's create a class called **Director**.
+The code for our **Director**.h will be:
 ```c++
 #include "Builder.h"
 
