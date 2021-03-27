@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DMRfrffeR103lmc/vRM/OYK2gSRqGiqunXnDckopFrO1+xC6rTeuc12n0EioFGvVOOdcpGujCmCW20PMzqVcGw==",
+  "dgSpecHash": "EWYpZU0/RT7hefjAwqR+Pd1MhjA9pKAb0YRjxJS4yOITrj4RreJSjzhII9xAOz3Myd2nYN5oXcYurog2QlTzDQ==",
   "success": true,
-  "projectFilePath": "/home/ray/RiderProjects/Builder/Builder/Builder.csproj",
+  "projectFilePath": "/home/ray/TheRayCode/TheRayCode/Csharp/Builder/Builder/Builder.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

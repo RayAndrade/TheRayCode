@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ray/RiderProjects/Builder/Builder/Builder.csproj": {}
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Builder/Builder/Builder.csproj": {}
   },
   "projects": {
-    "/home/ray/RiderProjects/Builder/Builder/Builder.csproj": {
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Builder/Builder/Builder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ray/RiderProjects/Builder/Builder/Builder.csproj",
+        "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/Builder/Builder/Builder.csproj",
         "projectName": "Builder",
-        "projectPath": "/home/ray/RiderProjects/Builder/Builder/Builder.csproj",
+        "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Builder/Builder/Builder.csproj",
         "packagesPath": "/home/ray/.nuget/packages/",
-        "outputPath": "/home/ray/RiderProjects/Builder/Builder/obj/",
+        "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Builder/Builder/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     }
