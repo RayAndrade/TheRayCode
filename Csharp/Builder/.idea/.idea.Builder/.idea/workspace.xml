@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ee8598c-ef02-4d34-a81f-c8c9aad7a07d" name="Default Changelist" comment="" />
+    <list default="true" id="0ee8598c-ef02-4d34-a81f-c8c9aad7a07d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Builder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Builder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/bin/Debug/netcoreapp3.1/Builder" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/bin/Debug/netcoreapp3.1/Builder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/bin/Debug/netcoreapp3.1/Builder.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/bin/Debug/netcoreapp3.1/Builder.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/bin/Debug/netcoreapp3.1/Builder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/bin/Debug/netcoreapp3.1/Builder.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Builder/Product.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Builder/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Builder/ConcreteBuilder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Builder/IBuilder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Builder/Director.cs" root0="FORCE_HIGHLIGHTING" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Builder/IBuilder.cs" />
-        <option value="$PROJECT_DIR$/Builder/ConcreteBuilder.cs" />
-        <option value="$PROJECT_DIR$/Builder/Director.cs" />
-        <option value="$PROJECT_DIR$/Builder/Product.cs" />
-        <option value="$PROJECT_DIR$/Builder/Program.cs" />
-      </list>
-    </option>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Builder/Director.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Builder/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Builder/IBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Builder/ConcreteBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Builder/Product.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1eEZ8RDA7zLOhABiShRiqU16yES" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,6 +44,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Builder" type="DotNetProject" factoryName=".NET Project">
@@ -81,6 +85,7 @@
       <workItem from="1597031771220" duration="131000" />
       <workItem from="1597034689092" duration="18000" />
       <workItem from="1597273822117" duration="51000" />
+      <workItem from="1616821111737" duration="2414000" />
     </task>
     <servers />
   </component>
@@ -91,35 +96,5 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1793" height="462" key="GridCell.Tab.0.bottom" timestamp="1597273873120">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.bottom/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1595795863031" />
-    <state width="1793" height="462" key="GridCell.Tab.0.bottom/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597273873120" />
-    <state width="1793" height="462" key="GridCell.Tab.0.center" timestamp="1597273873119">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.center/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1595795863031" />
-    <state width="1793" height="462" key="GridCell.Tab.0.center/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597273873119" />
-    <state width="1793" height="462" key="GridCell.Tab.0.left" timestamp="1597273873119">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.left/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1595795863031" />
-    <state width="1793" height="462" key="GridCell.Tab.0.left/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597273873119" />
-    <state width="1793" height="462" key="GridCell.Tab.0.right" timestamp="1597273873119">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1874" height="277" key="GridCell.Tab.0.right/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1595795863031" />
-    <state width="1793" height="462" key="GridCell.Tab.0.right/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597273873119" />
-    <state x="2675" y="234" width="399" height="636" key="RiderGenerateDialog" timestamp="1595791158997">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2675" y="234" width="399" height="636" key="RiderGenerateDialog/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1595791158997" />
-    <state x="2369" y="187" key="SettingsEditor" timestamp="1595802842546">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2369" y="187" key="SettingsEditor/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1595802842546" />
   </component>
 </project>
