@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ray/CLionProjects/Adapter/Adaptee.cpp
+Adaptee.h
+/home/ray/CLionProjects/Adapter/Adaptee.h
+
+/home/ray/CLionProjects/Adapter/Adaptee.h
+Target.h
+/home/ray/CLionProjects/Adapter/Target.h
+
+/home/ray/CLionProjects/Adapter/Adapter.cpp
+Adapter.h
+/home/ray/CLionProjects/Adapter/Adapter.h
+
+/home/ray/CLionProjects/Adapter/Adapter.h
+algorithm
+-
+Adaptee.h
+/home/ray/CLionProjects/Adapter/Adaptee.h
+
+/home/ray/CLionProjects/Adapter/Target.cpp
+Target.h
+/home/ray/CLionProjects/Adapter/Target.h
+
+/home/ray/CLionProjects/Adapter/Target.h
+iostream
+-
+
+/home/ray/CLionProjects/Adapter/main.cpp
+Adapter.h
+/home/ray/CLionProjects/Adapter/Adapter.h
+

@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ee8598c-ef02-4d34-a81f-c8c9aad7a07d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Builder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Builder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder/bin/Debug/netcoreapp3.1/Builder" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/bin/Debug/netcoreapp3.1/Builder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder/bin/Debug/netcoreapp3.1/Builder.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/bin/Debug/netcoreapp3.1/Builder.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder/bin/Debug/netcoreapp3.1/Builder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/bin/Debug/netcoreapp3.1/Builder.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="0ee8598c-ef02-4d34-a81f-c8c9aad7a07d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +75,7 @@
       <workItem from="1597031771220" duration="131000" />
       <workItem from="1597034689092" duration="18000" />
       <workItem from="1597273822117" duration="51000" />
-      <workItem from="1616821111737" duration="2414000" />
+      <workItem from="1616821111737" duration="3233000" />
     </task>
     <servers />
   </component>

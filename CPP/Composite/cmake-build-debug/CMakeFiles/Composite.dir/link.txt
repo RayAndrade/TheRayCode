@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Composite.dir/main.cpp.o CMakeFiles/Composite.dir/Component.cpp.o CMakeFiles/Composite.dir/Leaf.cpp.o CMakeFiles/Composite.dir/Composite.cpp.o  -o Composite 
