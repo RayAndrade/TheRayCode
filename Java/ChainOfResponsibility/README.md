@@ -1,5 +1,5 @@
 # TheRayCode
-## Chain-of-responsibility pattern c++
+## Chain-of-responsibility pattern java
 
 In this example I want to create a system that authorizes either a user or an administrator or basic user. 
 First we should create some packages that holds our code.
