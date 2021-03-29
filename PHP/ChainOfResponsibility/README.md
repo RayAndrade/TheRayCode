@@ -1,5 +1,5 @@
 # TheRayCode
-## Chain-of-responsibility pattern c++
+## Chain-of-responsibility pattern php
 
 Let's start by creatinig the interface **Handler** and we add two method stubs to it. **Handler** and **handle** which takes a string as a parameter called **$request**.
 ```php
