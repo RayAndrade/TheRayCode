@@ -1,5 +1,5 @@
 # TheRayCode
-## Composite pattern c#
+## Composite pattern java
 
 
 [Wikipedia](https://en.wikipedia.org/wiki/Composite_pattern)

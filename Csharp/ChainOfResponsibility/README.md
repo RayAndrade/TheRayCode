@@ -1,5 +1,6 @@
 # TheRayCode
-TheRayCode C# 
+## Chain-of-responsibility pattern c++
+
 
 In this tutorial I plan to go over the Chain of Responsibity design pattern using C#.
 The story I will build will contain a Noa Ark of animales which will contain a 
@@ -99,5 +100,16 @@ foreach (var food in new List<string> { "Nut", "Banana", "Cup of coffee" })
   }
   
 ```
+[Wikipedia](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
 
-[Github](https://www.TheRayCode.com)
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
+
+[The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)

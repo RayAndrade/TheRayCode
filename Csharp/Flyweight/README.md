@@ -1,7 +1,5 @@
 # TheRayCode
-TheRayCode PHP 
-# TheRayCode
-
+## Flyweight pattern C#
 
 
 **Car.cs**
@@ -199,14 +197,18 @@ let's now add two cars to our dabase that differ only by **model**
    
 }
     
-
-```
-```csharp
 ```
 
+[Wikipedia](https://en.wikipedia.org/wiki/Flyweight_pattern)
 
-## heading 2
-### heading 3
-#### heading 4
+----------------------------------------------------------------------------------------------------
 
-[Github](https://www.TheRayCode.com)
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
+
+[The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)

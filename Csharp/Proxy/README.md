@@ -1,4 +1,6 @@
 # TheRayCode
+## Proxy pattern c#
+
 TheRayCode C#  Proxy design pattern
 create the **interface Subject**
 add
@@ -99,5 +101,18 @@ client.ClientCode(proxy);
 
 ```
 
+[Wikipedia](https://en.wikipedia.org/wiki/Proxy_pattern)
 
-[Github](https://www.GitHub.com/RayAndrade/TheRayCode.com)
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
+
+[The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)
+
+

@@ -1,10 +1,5 @@
 # TheRayCode
-TheRayCode C# 
-# TheRayCode
-## heading 2
-### heading 3
-#### heading 4
-
+## Decorator pattern c++
 
 BUILD ORDER:
 
@@ -141,5 +136,16 @@ Console.WriteLine("Client: Now I've got a decorated component:");
 client.ClientCode(decorator2);
 
 
+[Wikipedia](https://en.wikipedia.org/wiki/Decorator_pattern)
 
-[Github](https://www.TheRayCode.com)
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
+
+[The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)

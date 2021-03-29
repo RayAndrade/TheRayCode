@@ -1,5 +1,5 @@
 # TheRayCode
-TheRayCode Java Proxy
+## Proxy pattern java
 
 create package **some_cool_media_library** add class **Video** 
 
@@ -257,4 +257,20 @@ System.out.print("Time saved by caching proxy: " + (naive - smart) + "ms");
 ```
 run
 
-[Github](https://www.github.com/RayAndrade/TheRayCode)
+
+
+[Wikipedia](https://en.wikipedia.org/wiki/Proxy_pattern)
+
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
+
+[The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)
+
+

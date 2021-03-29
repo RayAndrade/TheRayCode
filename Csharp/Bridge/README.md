@@ -1,5 +1,5 @@
 # TheRayCode
-## Builder cpp
+## Builder c#
 
 Unlike other creational patterns, Builder doesn’t require products to have a common interface. 
 That makes it possible to produce different products using the same construction process.
@@ -21,10 +21,4 @@ Find Ray on:
 [The Ray Code](https://www.RayAndrade.com)
 
 [Ray Andrade](https://www.RayAndrade.org)
-
-
-
-
-
-
 

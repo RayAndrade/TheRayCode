@@ -1,6 +1,5 @@
 # TheRayCode
-TheRayCode PHP 
-# TheRayCode
+## Chain-of-responsibility pattern c++
 
 Let's start by creatinig the interface **Handler** and we add two method stubs to it. **Handler** and **handle** which takes a string as a parameter called **$request**.
 ```php
@@ -106,6 +105,16 @@ echo "<br/>";
 Let's run our example.
 
 
-[RayAndrade.com](https://www.RayAndrade.com)
+[[Wikipedia](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
 
-[RayAndrade.org](https://www.RayAndrade.org)
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
+
+[The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)

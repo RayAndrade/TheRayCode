@@ -1,5 +1,6 @@
 # TheRayCode
-# TheRayCode PHP 
+## Facade pattern php
+
 PHP
 Welcome to The Ray Code show.
 In this show I plan to cover the Facade design pattern
@@ -110,4 +111,17 @@ you purchase the whole series of 22 design patterns in C# C++ PHP Java or any co
 
 
 
-[Github](https://www.TheRayCode.com)
+[Wikipedia](https://en.wikipedia.org/wiki/Facade_pattern)
+
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
+
+[The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)
+

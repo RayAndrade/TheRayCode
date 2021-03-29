@@ -1,4 +1,6 @@
 # TheRayCode
+## Chain-of-responsibility pattern c++
+
 In this example I want to create a system that authorizes either a user or an administrator or basic user. 
 First we should create some packages that holds our code.
 The packages that I want to create are called **middleware** and **server**.
@@ -196,6 +198,16 @@ do {
 } while (!success);
 
 ```
+[Wikipedia](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
 
+----------------------------------------------------------------------------------------------------
 
-[TheRayCode](https://www.TheRayCode.com)
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
+
+[The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)

@@ -1,5 +1,5 @@
 # TheRayCode
-## Singleton C#
+## Singleton pattern c#
 
 With the Singelton design pattern we want to ensure that a class has only one instance, while providing a global access point to this instance.
 To achieve this let's take a look at some c# code. The Singleton class defines the *GetInstance* method that serves as an
@@ -72,6 +72,17 @@ Singleton works, both variables contain the same instance.
 
 
 
-[The Ray Code](https://www.TheRayCode.com)
-[Ray Andrade](https://www.RayAndrade.org)
 
+[Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
+
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
+
+[The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)
