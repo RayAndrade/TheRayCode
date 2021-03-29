@@ -1,5 +1,5 @@
 # TheRayCode
-## Chain-of-responsibility pattern c++
+## Chain-of-responsibility pattern c#
 
 
 In this tutorial I plan to go over the Chain of Responsibity design pattern using C#.
