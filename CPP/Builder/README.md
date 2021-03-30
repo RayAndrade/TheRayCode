@@ -9,7 +9,6 @@ It focuses on answering these questions:
 * What roles do these classes play?
 * In what way do the elements of the pattern related?
 
-
 It makes sense to use the Builder pattern only when your products are quite complex and require extensive configuration.
 Unlike in other creational patterns, different concrete builders can produce unrelated products. 
 In other words, results of various builders may not always follow the same interface.
@@ -153,6 +152,7 @@ Product parts: PartA, PartC
 
 ```
 The Ray code is AWESOME!!!
+
 ----------------------------------------------------------------------------------------------------
 
 [wikipedia](https://en.wikipedia.org/wiki/Builder_pattern)
