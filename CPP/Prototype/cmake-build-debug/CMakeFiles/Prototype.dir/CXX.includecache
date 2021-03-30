@@ -6,9 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/ray/CLionProjects/Prototype/main.cpp
-iostream
--
+/home/ray/TheRayCode/TheRayCode/CPP/Prototype/ConcretePrototype1.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Prototype/ConcretePrototype2.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Prototype/Factory.h
 unordered_map
 -
+
+/home/ray/TheRayCode/TheRayCode/CPP/Prototype/Prototype.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Prototype/Type.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Prototype/main.cpp
+iostream
+-
+Type.h
+/home/ray/TheRayCode/TheRayCode/CPP/Prototype/Type.h
+Prototype.h
+/home/ray/TheRayCode/TheRayCode/CPP/Prototype/Prototype.h
+ConcretePrototype1.h
+/home/ray/TheRayCode/TheRayCode/CPP/Prototype/ConcretePrototype1.h
+ConcretePrototype2.h
+/home/ray/TheRayCode/TheRayCode/CPP/Prototype/ConcretePrototype2.h
+Factory.h
+/home/ray/TheRayCode/TheRayCode/CPP/Prototype/Factory.h
 
