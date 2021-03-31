@@ -1,5 +1,8 @@
 # TheRayCode
 ## Prototype pattern java
+
+Let’s take a look at how the Prototype can be implemented without the *standard Cloneable* interface.
+
 The first thind we do is create a package tp place our class files.
 The name we will us is **shapes**.
 
