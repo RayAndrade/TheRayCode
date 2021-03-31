@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jh5XX1ihoKhfHo9G404FpdbXOnRHIPPn7nsIwWNGy/FCuxc0Bj2TbhdaUymLYa2gg2UwxlOYM4ICDwDTlh/reA==",
+  "dgSpecHash": "sZtINIW/ClolhB85FBgE/Bjcgg/d0fslnfQTb0BNf7u3dRUUWeg5lLet0gs5+HAVTYbdNI1eTmwSXNGmhM0ybw==",
   "success": true,
-  "projectFilePath": "/home/ray/RiderProjects/Prototype/Prototype/Prototype.csproj",
+  "projectFilePath": "/home/ray/TheRayCode/TheRayCode/Csharp/Prototype/Prototype/Prototype.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

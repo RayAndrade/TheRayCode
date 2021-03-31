@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ray/RiderProjects/Prototype/Prototype/Prototype.csproj",
+      "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/Prototype/Prototype/Prototype.csproj",
       "projectName": "Prototype",
-      "projectPath": "/home/ray/RiderProjects/Prototype/Prototype/Prototype.csproj",
+      "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Prototype/Prototype/Prototype.csproj",
       "packagesPath": "/home/ray/.nuget/packages/",
-      "outputPath": "/home/ray/RiderProjects/Prototype/Prototype/obj/",
+      "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Prototype/Prototype/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
       }
     }
   }

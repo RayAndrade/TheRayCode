@@ -1,27 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d074ea6-9978-4869-90c6-ca29804a57cf" name="Default Changelist" comment="" />
+    <list default="true" id="5d074ea6-9978-4869-90c6-ca29804a57cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Prototype/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Prototype/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prototype/IdInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype/IdInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prototype/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prototype/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prototype/bin/Debug/netcoreapp3.1/Prototype" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype/bin/Debug/netcoreapp3.1/Prototype" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prototype/bin/Debug/netcoreapp3.1/Prototype.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype/bin/Debug/netcoreapp3.1/Prototype.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prototype/bin/Debug/netcoreapp3.1/Prototype.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype/bin/Debug/netcoreapp3.1/Prototype.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prototype/obj/Debug/netcoreapp3.1/Prototype" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype/obj/Debug/netcoreapp3.1/Prototype" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prototype/obj/Debug/netcoreapp3.1/Prototype.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype/obj/Debug/netcoreapp3.1/Prototype.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prototype/obj/Debug/netcoreapp3.1/Prototype.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype/obj/Debug/netcoreapp3.1/Prototype.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prototype/obj/Debug/netcoreapp3.1/Prototype.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype/obj/Debug/netcoreapp3.1/Prototype.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prototype/obj/Debug/netcoreapp3.1/Prototype.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype/obj/Debug/netcoreapp3.1/Prototype.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prototype/obj/Debug/netcoreapp3.1/Prototype.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype/obj/Debug/netcoreapp3.1/Prototype.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prototype/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Prototype/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Prototype/Person.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Prototype/IdInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Prototype/Person.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Prototype/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Prototype/Person.cs" />
-        <option value="$PROJECT_DIR$/Prototype/IdInfo.cs" />
-        <option value="$PROJECT_DIR$/Prototype/Program.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Prototype/Person.cs" />
+      <option value="$PROJECT_DIR$/Prototype/Program.cs" />
+      <option value="$PROJECT_DIR$/Prototype/IdInfo.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1eEZNnZcRGPGGrFtBGXcVmunNDH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,6 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Prototype" type="DotNetProject" factoryName=".NET Project">
@@ -61,6 +82,7 @@
       <updated>1593888675191</updated>
       <workItem from="1593888679118" duration="87000" />
       <workItem from="1596083197153" duration="180000" />
+      <workItem from="1617167409007" duration="321000" />
     </task>
     <servers />
   </component>

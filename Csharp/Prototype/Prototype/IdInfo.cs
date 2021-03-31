@@ -1,4 +1,4 @@
-namespace TheRayCode.DesignPatterns.Prototype.Conceptual
+namespace TheRayCode.DesignPatterns.Prototype
 {
     public class IdInfo
     {

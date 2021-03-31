@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TheRayCode.DesignPatterns.Prototype.Conceptual
+namespace TheRayCode.DesignPatterns.Prototype
 {
     
     class Program
