@@ -39,7 +39,7 @@ class ComponentWithBackReference
 }
 
 ```
-<img src="../UMLs/images/Prototype119-java.png"/>
+<img src="..TheRayCode/UMLs/images/Prototype119-java.png"/>
 At the top of the index.php file we add a couple of includes to inclued the files we *just* created.
 ```php
 include_once ('Prototype.php');
