@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/ray/TheRayCode/TheRayCode/CPP/Singleton/GameSetting.h
-
 /home/ray/TheRayCode/TheRayCode/CPP/Singleton/main.cpp
 iostream
 -
-GameSetting.h
-/home/ray/TheRayCode/TheRayCode/CPP/Singleton/GameSetting.h
+string
+-
 
