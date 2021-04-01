@@ -82,14 +82,16 @@ function clientCode()
 ```
 
 add:
-
+```php
+clientCode();
+```
 to run this piece of code. Our result is:
 ```result
 Primitive field values have been carried over to a clone. Yay!
 Simple component has been cloned. Yay!
 Component with back reference has been cloned. Yay! Component with back reference is linked to the clone. Yay!
 ```
-     
+Tell a friend "The Ray Code is AWESOME!!!"
 
 
 [Wikipedia](https://en.wikipedia.org/wiki/Prototype_pattern)
