@@ -40,7 +40,9 @@ class ComponentWithBackReference
 
 ```
 <img src="https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/images/Prototype119-java.png?raw=true"/>
+
 At the top of the index.php file we add a couple of includes to inclued the files we *just* created.
+
 ```php
 include_once ('Prototype.php');
 include_once ('ComponentWithBackReference.php');
