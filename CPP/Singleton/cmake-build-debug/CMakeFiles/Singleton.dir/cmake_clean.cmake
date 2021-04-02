@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Singleton.dir/Singleton.cpp.o"
   "CMakeFiles/Singleton.dir/main.cpp.o"
   "Singleton"
   "Singleton.pdb"

@@ -142,6 +142,33 @@ Singleton/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Singleton.dir/build.make CMakeFiles/Singleton.dir/build
 .PHONY : Singleton/fast
 
+Singleton.o: Singleton.cpp.o
+
+.PHONY : Singleton.o
+
+# target to build an object file
+Singleton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Singleton.dir/build.make CMakeFiles/Singleton.dir/Singleton.cpp.o
+.PHONY : Singleton.cpp.o
+
+Singleton.i: Singleton.cpp.i
+
+.PHONY : Singleton.i
+
+# target to preprocess a source file
+Singleton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Singleton.dir/build.make CMakeFiles/Singleton.dir/Singleton.cpp.i
+.PHONY : Singleton.cpp.i
+
+Singleton.s: Singleton.cpp.s
+
+.PHONY : Singleton.s
+
+# target to generate assembly for a file
+Singleton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Singleton.dir/build.make CMakeFiles/Singleton.dir/Singleton.cpp.s
+.PHONY : Singleton.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -178,6 +205,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Singleton"
+	@echo "... Singleton.o"
+	@echo "... Singleton.i"
+	@echo "... Singleton.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

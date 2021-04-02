@@ -1,49 +1,17 @@
 #include <iostream>
-#include <string>
+#include "Singleton.h"
 
-using namespace std;
+using std::cout;
+using std::endl;
 
-class GameSetting{
-    static GameSetting* _instance;
-    int _brightness;
-    int _width;
-    int _height;
-    GameSetting() : _width(786), _height(1300), _brightness(75){}
-    // all constructors should be private or public(iff you want to allow inheritance)
+int main(int argc, char* argv[] ) {
 
-public:
-    static GameSetting* getInstace() {
-        if(_instance == NULL)
-            _instance = new GameSetting();
-        return _instance;
-    }
-    void setWidth(int width) {_width = width;}
-    void setHeight(int height) {_height = height;}
-    void setBrighness(int brightness) {_brightness = brightness;}
+    cout << "The Ray Code is AWESOME!!" << endl;
 
-    int getWidth() {return _width;}
-    int getHeight() {return _height;}
-    int getBrightness() {return _brightness;}
-    void displaySetting() {
-        cout << "brightness: " << _brightness << endl;
-        cout << "height: " << _height << endl;
-        cout << "width: " << _width << endl << endl;
-    }
-};
+    cout << "Boss is " << Singleton::getInstance()->getBoss() << endl;
 
-GameSetting * GameSetting::_instance = NULL;
+    Singleton::getInstance()->setBoss("Bill Gates");
+    cout << "Boss is " << Singleton::getInstance()->getBoss() << endl;
 
-void someFunction () {
-    GameSetting *setting = GameSetting::getInstace();
-    setting->displaySetting();
-}
-
-int main() {
-
-    GameSetting *setting = GameSetting::getInstace();
-    setting->displaySetting();
-    setting->setBrighness(100);
-
-    someFunction();
     return 0;
 }

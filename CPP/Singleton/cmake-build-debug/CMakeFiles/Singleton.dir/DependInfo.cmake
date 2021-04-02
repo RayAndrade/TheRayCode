@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/ray/TheRayCode/TheRayCode/CPP/Singleton/Singleton.cpp" "/home/ray/TheRayCode/TheRayCode/CPP/Singleton/cmake-build-debug/CMakeFiles/Singleton.dir/Singleton.cpp.o"
   "/home/ray/TheRayCode/TheRayCode/CPP/Singleton/main.cpp" "/home/ray/TheRayCode/TheRayCode/CPP/Singleton/cmake-build-debug/CMakeFiles/Singleton.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
