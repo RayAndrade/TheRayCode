@@ -51,6 +51,8 @@ public:
 };
 ```
 
+[Singleton](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/UMLs/images/singleton-cpp.jpeg)
+
 Now let's put this all together in main method in the **main.cpp** file
 
 ```c++
