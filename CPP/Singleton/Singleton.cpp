@@ -27,12 +27,12 @@ Singleton* Singleton::getInstance()
     return s;
 }
 
-void Singleton::setBoss(const std::string& st)
+void Singleton::setSingleton(const std::string& st)
 {
     onlyOne = st;
 }
 
-std::string Singleton::getBoss()
+std::string Singleton::getSingelton()
 {
     return onlyOne;
 }

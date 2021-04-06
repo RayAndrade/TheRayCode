@@ -19,9 +19,9 @@ public:
 
     static Singleton* getInstance();
 
-    void setBoss(const std::string&);
+    void setSingleton(const std::string &st);
 
-    std::string getBoss();
+    std::string getSingelton();
 
 
 };

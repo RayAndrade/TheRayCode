@@ -1,7 +1,16 @@
 # TheRayCode
 ## Singleton pattern c++
 
-WE start with createing a 'Singleton' class, a *.cpp* file.
+Why would we want to use a **Singleton**?
+In some programs you would want a *single instance* of a class, for example a db connection.
+If you have multiple connections you may have fall into update race proplems or lockups from multiple connections trying to gain access the same db.
+
+An implementation of the singleton pattern must:
+* ensure that only one instance of the singleton class ever exists; and
+* provide global access to that instance.
+
+Typically, this is done by declaring all constructors of the class to be private; and providing a static method that returns a reference to the instance.
+We start with createing a 'Singleton' class, a *.cpp* file.
 
 ```c++
 #include <string>
@@ -12,14 +21,21 @@ class Singleton
     std::string onlyOne;
     Singleton();
 public:
+```
+You need to disable the copy constructor.
+```cpp
     Singleton(const Singleton&) = delete;
     Singleton& operator=(const Singleton&) = delete;
     ~Singleton();
+```
+we create a method to access the **only** exsistance of the **Singleton**.
+```cpp
     static Singleton* getInstance();
-    void setBoss(const std::string&);
-    std::string getBoss();
+    void setSingleton(const std::string&);
+    std::string getSingelton();
 };
 ```
+You need to disable the copy constructor.
 
 Now let's create a *.h* Singleton file.
 ```c+
@@ -49,12 +65,12 @@ Singleton* Singleton::getInstance()
    return s;
 }
 
-void Singleton::setBoss(const std::string& st)
+void Singleton::setSingleton(const std::string& st)
 {
    onlyOne = st;
 }
 
-std::string Singleton::getBoss()
+std::string Singleton::getSingleton()
 {
    return onlyOne;
 }
@@ -71,11 +87,11 @@ using std::endl;
 
 int main(int argc, char* argv[] ) {
 
-    cout << "The value is the " << Singleton::getInstance()->getBoss() << endl;
+    cout << "The value is the " << Singleton::getInstance()->getSingelton() << endl;
 
-    Singleton::getInstance()->setBoss("Changed Value");
+    Singleton::getInstance()->setSingleton("Changed Value");
     
-    cout << "The value is the " << Singleton::getInstance()->getBoss() << endl;
+    cout << "The value is the " << Singleton::getInstance()->getSingelton() << endl;
 
     return 0;
 }
