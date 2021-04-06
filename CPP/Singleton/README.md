@@ -7,7 +7,7 @@
 class Singleton
 {
     static Singleton* s;
-    std::string boss;
+    std::string onlyOne;
     Singleton();
 public:
     Singleton(const Singleton&) = delete;
@@ -24,7 +24,7 @@ public:
 
 Singleton* Singleton::s = nullptr;
 
-Singleton::Singleton(): boss("Elon Musk")
+Singleton::Singleton(): onlyOne("Elon Musk")
 {
 }
 
@@ -48,12 +48,12 @@ Singleton* Singleton::getInstance()
 
 void Singleton::setBoss(const std::string& st)
 {
-   boss = st;
+   onlyOne = st;
 }
 
 std::string Singleton::getBoss()
 {
-   return boss;
+   return onlyOne;
 }
 ```
 

@@ -7,7 +7,7 @@ class Singleton
 {
     static Singleton* s;
 
-    std::string boss;
+    std::string onlyOne;
 
     Singleton();
 public:
