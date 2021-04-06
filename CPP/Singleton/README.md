@@ -21,59 +21,34 @@ class Singleton
     std::string onlyOne;
     Singleton();
 public:
-```
-You need to disable the copy constructor.
-```cpp
+
     Singleton(const Singleton&) = delete;
     Singleton& operator=(const Singleton&) = delete;
     ~Singleton();
-```
-we create a method to access the **only** exsistance of the **Singleton**.
-```cpp
     static Singleton* getInstance();
-    void setSingleton(const std::string&);
+    void setSingleton(const std::string &st);
     std::string getSingelton();
 };
+
 ```
 You need to disable the copy constructor.
 
-Now let's create a *.h* Singleton file.
+Now let's create the *.h* Singleton header file.
 ```c+
-#include "Singleton.h"
-
-Singleton* Singleton::s = nullptr;
-
-Singleton::Singleton(): onlyOne("Original Value")
+#include <string>
+class Singleton
 {
-}
-
-Singleton::~Singleton()
-{
-    if(s)
-    {
-        delete s;
-        s = nullptr;
-    }
-}
-
-Singleton* Singleton::getInstance()
-   // static Singleton s;
-   if(!s)
-   {
-      s = new Singleton;
-   }
-   return s;
-}
-
-void Singleton::setSingleton(const std::string& st)
-{
-   onlyOne = st;
-}
-
-std::string Singleton::getSingleton()
-{
-   return onlyOne;
-}
+    static Singleton* s;
+    std::string onlyOne;
+    Singleton();
+public:
+    Singleton(const Singleton&) = delete;
+    Singleton& operator=(const Singleton&) = delete;
+    ~Singleton();
+    static Singleton* getInstance();
+    void setSingleton(const std::string &st);
+    std::string getSingelton();
+};
 ```
 
 Now let's put this all together in main method in the **main.cpp** file
@@ -87,10 +62,11 @@ using std::endl;
 
 int main(int argc, char* argv[] ) {
 
+    cout << "The Ray Code is AWESOME!!" << endl;
+
     cout << "The value is the " << Singleton::getInstance()->getSingelton() << endl;
 
     Singleton::getInstance()->setSingleton("Changed Value");
-    
     cout << "The value is the " << Singleton::getInstance()->getSingelton() << endl;
 
     return 0;
