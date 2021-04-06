@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/ray/TheRayCode/TheRayCode/CPP/Singleton/Singleton.cpp
+Singleton.h
+/home/ray/TheRayCode/TheRayCode/CPP/Singleton/Singleton.h
+
 /home/ray/TheRayCode/TheRayCode/CPP/Singleton/Singleton.h
 string
 -

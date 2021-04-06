@@ -1,6 +1,8 @@
 # TheRayCode
 ## Singleton pattern c++
 
+WE start with createing a 'Singleton' class, a *.cpp* file.
+
 ```c++
 #include <string>
 
@@ -19,12 +21,13 @@ public:
 };
 ```
 
+Now let's create a *.h* Singleton file.
 ```c+
 #include "Singleton.h"
 
 Singleton* Singleton::s = nullptr;
 
-Singleton::Singleton(): onlyOne("Elon Musk")
+Singleton::Singleton(): onlyOne("Original Value")
 {
 }
 
@@ -57,6 +60,8 @@ std::string Singleton::getBoss()
 }
 ```
 
+Now let's put this all together in main method in the **main.cpp** file
+
 ```c++
 #include <iostream>
 #include "Singleton.h"
@@ -66,21 +71,21 @@ using std::endl;
 
 int main(int argc, char* argv[] ) {
 
-    cout << "The Ray Code is AWESOME!!" << endl;
+    cout << "The value is the " << Singleton::getInstance()->getBoss() << endl;
 
-    cout << "Boss is " << Singleton::getInstance()->getBoss() << endl;
-
-    Singleton::getInstance()->setBoss("Bill Gates");
-    cout << "Boss is " << Singleton::getInstance()->getBoss() << endl;
+    Singleton::getInstance()->setBoss("Changed Value");
+    
+    cout << "The value is the " << Singleton::getInstance()->getBoss() << endl;
 
     return 0;
 }
 ```
 
+Let's compile and run:
+
 ```run
-The Ray Code is AWESOME!!
-Boss is Elon Musk
-Boss is Bill Gates
+The value is the Original Value
+The value is the Changed Value
 ```
 
 [Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
