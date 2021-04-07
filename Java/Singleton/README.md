@@ -48,7 +48,7 @@ Let's see how this works by creating a **main** method we put in our **Demo** cl
 ```
  When we compile and run we should get.
 ```run
- If you see the same value, then singleton was reused (yay!)
+If you see the same value, then singleton was reused (yay!)
 If you see different values, then 2 singletons were created (booo!!)
 
 RESULT:
@@ -56,7 +56,7 @@ RESULT:
 FOO
 FOO
 ```
-We se that there was only one class..
+We see that there was only one class..
 
 A lot of developers consider the Singleton pattern an antipattern. That’s why its usage is on the decline in Java code.
 
