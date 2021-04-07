@@ -7,7 +7,7 @@ The Singleton is a creational design pattern, which ensures that only one object
 The key idea in this pattern is to make the class itself responsible for controlling its instantiation (that it is instantiated only once).
 
  Singleton can be recognized by a static creation method, which returns the same cached object.
- ```java
+```java
  public final class Singleton {
     private static Singleton instance;
     public String value;
@@ -29,15 +29,36 @@ The key idea in this pattern is to make the class itself responsible for control
         return instance;
     }
 }
- ```
- 
- ```java
- ```
- 
- ```run
- ```
+```
 
+Let's see how this works by creating a **main** method we put in our **Demo** class.
+ 
+```java
+ public class Demo {
+    public static void main(String[] args) {
+        System.out.println("If you see the same value, then singleton was reused (yay!)" + "\n" +
+                "If you see different values, then 2 singletons were created (booo!!)" + "\n\n" +
+                "RESULT:" + "\n");
+        Singleton singleton = Singleton.getInstance("FOO");
+        Singleton anotherSingleton = Singleton.getInstance("BAR");
+        System.out.println(singleton.value);
+        System.out.println(anotherSingleton.value);
+    }
+}
+```
+ When we compile and run we should get.
+```run
+ If you see the same value, then singleton was reused (yay!)
+If you see different values, then 2 singletons were created (booo!!)
 
+RESULT:
+
+FOO
+FOO
+```
+We se that there was only one class..
+
+A lot of developers consider the Singleton pattern an antipattern. That’s why its usage is on the decline in Java code.
 
 [Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
 
