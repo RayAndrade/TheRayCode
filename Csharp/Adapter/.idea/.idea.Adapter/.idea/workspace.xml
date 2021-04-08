@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01af885e-4948-4d59-b167-a225614c7a4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Adapter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Adapter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adapter/obj/Debug/netcoreapp3.1/Adapter.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/obj/Debug/netcoreapp3.1/Adapter.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adapter/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="01af885e-4948-4d59-b167-a225614c7a4a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +70,7 @@
       <workItem from="1598031811120" duration="89000" />
       <workItem from="1598899858506" duration="1876000" />
       <workItem from="1617839185218" duration="85000" />
-      <workItem from="1617854102287" duration="1289000" />
+      <workItem from="1617854102287" duration="2076000" />
     </task>
     <servers />
   </component>
