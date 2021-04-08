@@ -2,79 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01af885e-4948-4d59-b167-a225614c7a4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../CPP/Adapter/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Adapter/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/Adapter" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/Adapter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/Adapter.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/Adapter.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.16.5/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.16.5/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/Adaptee.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/Adaptee.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/Adapter.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/Adapter.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/Target.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/Target.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/main.cpp.dir/Adaptee.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/main.cpp.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/main.cpp.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/main.cpp.dir/Target.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/main.cpp.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/main.cpp.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/main.cpp.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/main.cpp.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/main.cpp.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/main.cpp.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/CMakeFiles/main.cpp.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Singleton/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Adapter/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Adapter/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Adapter/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Adapter/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Adapter/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adapter/bin/Debug/netcoreapp3.1/Adapter" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/bin/Debug/netcoreapp3.1/Adapter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adapter/bin/Debug/netcoreapp3.1/Adapter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/bin/Debug/netcoreapp3.1/Adapter.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adapter/bin/Debug/netcoreapp3.1/Adapter.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/bin/Debug/netcoreapp3.1/Adapter.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adapter/obj/Adapter.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/obj/Adapter.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adapter/obj/Adapter.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/obj/Adapter.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adapter/obj/Debug/netcoreapp3.1/Adapter" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/obj/Debug/netcoreapp3.1/Adapter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adapter/obj/Debug/netcoreapp3.1/Adapter.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/obj/Debug/netcoreapp3.1/Adapter.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adapter/obj/Debug/netcoreapp3.1/Adapter.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/obj/Debug/netcoreapp3.1/Adapter.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Adapter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Adapter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Adapter/obj/Debug/netcoreapp3.1/Adapter.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/obj/Debug/netcoreapp3.1/Adapter.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adapter/obj/Debug/netcoreapp3.1/Adapter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/obj/Debug/netcoreapp3.1/Adapter.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adapter/obj/Debug/netcoreapp3.1/Adapter.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/obj/Debug/netcoreapp3.1/Adapter.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adapter/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adapter/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adapter/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Adapter/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Adapter/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +75,7 @@
       <workItem from="1598031811120" duration="89000" />
       <workItem from="1598899858506" duration="1876000" />
       <workItem from="1617839185218" duration="85000" />
+      <workItem from="1617854102287" duration="1289000" />
     </task>
     <servers />
   </component>
@@ -162,6 +94,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
