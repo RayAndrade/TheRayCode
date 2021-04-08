@@ -113,7 +113,6 @@ ExtendedAbstraction: Extended operation with:
 ConcreteImplementationA: The result in platform B.
 ```
 
-
 The Ray code is AWESOME!!!
 ----------------------------------------------------------------------------------------------------
 
