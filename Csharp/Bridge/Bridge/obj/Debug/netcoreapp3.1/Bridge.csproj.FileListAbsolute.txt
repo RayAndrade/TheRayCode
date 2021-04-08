@@ -11,3 +11,16 @@
 /home/ray/RiderProjects/Bridge/Bridge/obj/Debug/netcoreapp3.1/Bridge.dll
 /home/ray/RiderProjects/Bridge/Bridge/obj/Debug/netcoreapp3.1/Bridge.pdb
 /home/ray/RiderProjects/Bridge/Bridge/obj/Debug/netcoreapp3.1/Bridge.genruntimeconfig.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Bridge/Bridge/bin/Debug/netcoreapp3.1/Bridge
+/home/ray/TheRayCode/TheRayCode/Csharp/Bridge/Bridge/bin/Debug/netcoreapp3.1/Bridge.deps.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Bridge/Bridge/bin/Debug/netcoreapp3.1/Bridge.runtimeconfig.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Bridge/Bridge/bin/Debug/netcoreapp3.1/Bridge.runtimeconfig.dev.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Bridge/Bridge/bin/Debug/netcoreapp3.1/Bridge.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Bridge/Bridge/bin/Debug/netcoreapp3.1/Bridge.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Bridge/Bridge/obj/Debug/netcoreapp3.1/Bridge.csprojAssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Bridge/Bridge/obj/Debug/netcoreapp3.1/Bridge.AssemblyInfoInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Bridge/Bridge/obj/Debug/netcoreapp3.1/Bridge.AssemblyInfo.cs
+/home/ray/TheRayCode/TheRayCode/Csharp/Bridge/Bridge/obj/Debug/netcoreapp3.1/Bridge.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Bridge/Bridge/obj/Debug/netcoreapp3.1/Bridge.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Bridge/Bridge/obj/Debug/netcoreapp3.1/Bridge.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Bridge/Bridge/obj/Debug/netcoreapp3.1/Bridge.genruntimeconfig.cache

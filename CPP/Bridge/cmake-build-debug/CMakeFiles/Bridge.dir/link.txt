@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Bridge.dir/main.cpp.o  -o Bridge 
+/usr/bin/c++ -g CMakeFiles/Bridge.dir/main.cpp.o -o Bridge 

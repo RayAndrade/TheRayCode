@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ray/RiderProjects/Bridge/Bridge/Bridge.csproj",
+      "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/Bridge/Bridge/Bridge.csproj",
       "projectName": "Bridge",
-      "projectPath": "/home/ray/RiderProjects/Bridge/Bridge/Bridge.csproj",
+      "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Bridge/Bridge/Bridge.csproj",
       "packagesPath": "/home/ray/.nuget/packages/",
-      "outputPath": "/home/ray/RiderProjects/Bridge/Bridge/obj/",
+      "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Bridge/Bridge/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

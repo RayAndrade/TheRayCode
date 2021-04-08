@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HmrWneicvcrqcPCQGOab9dqLB1rzbZhHQuZDxRA8LLv9Gx0VSJIYQyZXRhxJwlj4xZUfuux7fBTnLIx+msg3DA==",
+  "dgSpecHash": "CxGUpMvxwZ8ANcxiLkg9BKFHN6oG2TiPhm9K9xXcclD0KcLSfMX6rpCmVtAx5m610PQtWk+aewl/OCntmFZAbw==",
   "success": true,
-  "projectFilePath": "/home/ray/RiderProjects/Bridge/Bridge/Bridge.csproj",
+  "projectFilePath": "/home/ray/TheRayCode/TheRayCode/Csharp/Bridge/Bridge/Bridge.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
