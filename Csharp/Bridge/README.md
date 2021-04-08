@@ -112,8 +112,8 @@ ConcreteImplementationA: The result in platform A.
 ExtendedAbstraction: Extended operation with:
 ConcreteImplementationA: The result in platform B.
 ```
-
 The Ray code is AWESOME!!!
+
 ----------------------------------------------------------------------------------------------------
 
 [wikipedia](https://en.wikipedia.org/wiki/Builder_pattern)
