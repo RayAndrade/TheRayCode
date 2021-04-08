@@ -48,6 +48,8 @@ class Adapter : ITarget
    }
 }
 ```
+![Factory](/UMLs/images/Adaptee-2.jpg)
+
 We put this all together in the Main method in the Program class file.
 ```c#
 static void Main(string[] args)
