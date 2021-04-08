@@ -41,7 +41,7 @@ class Adapter extends Target
     }
 }
 ```
-[Adapter](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/UMLs/images/Adaptee-1.jpg)
+[Adapter](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/UMLs/images/Adaptee141.png)
 Now let's put this all together in the **index**.php file
 We start with the *includes*
 ```php
