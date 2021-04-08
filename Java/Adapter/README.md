@@ -43,6 +43,7 @@ public class RoundHole {
     }
 }
 ```
+![Factory](/UMLs/images/Adaptee-3.jpg)
 
 SquarePegs are not compatible with RoundHoles (they were implemented by previous development team). 
 But we have to integrate them into our program.
