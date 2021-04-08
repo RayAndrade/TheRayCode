@@ -3,4 +3,4 @@ project(Adapter)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Adapter main.cpp Adaptee.cpp Adaptee.h Target.cpp Target.h Adapter.cpp Adapter.h)
+add_executable(Adapter main.cpp Adaptee.h Target.h Adapter.h)

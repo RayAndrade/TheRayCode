@@ -11,3 +11,16 @@
 /home/ray/RiderProjects/Adapter/Adapter/obj/Debug/netcoreapp3.1/Adapter.dll
 /home/ray/RiderProjects/Adapter/Adapter/obj/Debug/netcoreapp3.1/Adapter.pdb
 /home/ray/RiderProjects/Adapter/Adapter/obj/Debug/netcoreapp3.1/Adapter.genruntimeconfig.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/bin/Debug/netcoreapp3.1/Adapter
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/bin/Debug/netcoreapp3.1/Adapter.deps.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/bin/Debug/netcoreapp3.1/Adapter.runtimeconfig.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/bin/Debug/netcoreapp3.1/Adapter.runtimeconfig.dev.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/bin/Debug/netcoreapp3.1/Adapter.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/bin/Debug/netcoreapp3.1/Adapter.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/obj/Debug/netcoreapp3.1/Adapter.csprojAssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/obj/Debug/netcoreapp3.1/Adapter.AssemblyInfoInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/obj/Debug/netcoreapp3.1/Adapter.AssemblyInfo.cs
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/obj/Debug/netcoreapp3.1/Adapter.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/obj/Debug/netcoreapp3.1/Adapter.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/obj/Debug/netcoreapp3.1/Adapter.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/obj/Debug/netcoreapp3.1/Adapter.genruntimeconfig.cache

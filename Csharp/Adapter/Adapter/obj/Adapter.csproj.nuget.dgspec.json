@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ray/RiderProjects/Adapter/Adapter/Adapter.csproj": {}
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/Adapter.csproj": {}
   },
   "projects": {
-    "/home/ray/RiderProjects/Adapter/Adapter/Adapter.csproj": {
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/Adapter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ray/RiderProjects/Adapter/Adapter/Adapter.csproj",
+        "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/Adapter.csproj",
         "projectName": "Adapter",
-        "projectPath": "/home/ray/RiderProjects/Adapter/Adapter/Adapter.csproj",
+        "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/Adapter.csproj",
         "packagesPath": "/home/ray/.nuget/packages/",
-        "outputPath": "/home/ray/RiderProjects/Adapter/Adapter/obj/",
+        "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     }

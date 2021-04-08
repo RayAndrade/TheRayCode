@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AU2JvJ8noxzHmTR8i12bjIQ50rdDdfEgCUMzPMDuRqO8bLP0vb/h0bQegGf4tasn19eBhOnGqhKMXV5kmV491A==",
+  "dgSpecHash": "1cxeKS5GxAQX4FzLe1jG7+iiKQ51T/IJ5tf1dqh7GwlAIun+oHYcyYsj9bCtQKX+YLaBe2vRg0GwUXd8fLk8WQ==",
   "success": true,
-  "projectFilePath": "/home/ray/RiderProjects/Adapter/Adapter/Adapter.csproj",
+  "projectFilePath": "/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Adapter/Adapter.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

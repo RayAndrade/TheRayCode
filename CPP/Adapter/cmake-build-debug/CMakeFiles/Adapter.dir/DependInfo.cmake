@@ -4,10 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ray/CLionProjects/Adapter/Adaptee.cpp" "/home/ray/CLionProjects/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/Adaptee.cpp.o"
-  "/home/ray/CLionProjects/Adapter/Adapter.cpp" "/home/ray/CLionProjects/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/Adapter.cpp.o"
-  "/home/ray/CLionProjects/Adapter/Target.cpp" "/home/ray/CLionProjects/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/Target.cpp.o"
-  "/home/ray/CLionProjects/Adapter/main.cpp" "/home/ray/CLionProjects/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/main.cpp.o"
+  "/home/ray/TheRayCode/TheRayCode/CPP/Adapter/main.cpp" "/home/ray/TheRayCode/TheRayCode/CPP/Adapter/cmake-build-debug/CMakeFiles/Adapter.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
