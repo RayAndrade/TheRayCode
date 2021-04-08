@@ -46,6 +46,7 @@ public:
     }
 };
 ```
+![Factory](/UMLs/images/Adaptee-1.jpg)
 First we need to add some includes
 ```cpp
 #include <iostream>
