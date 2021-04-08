@@ -21,10 +21,10 @@ iostream
 -
 
 /home/ray/TheRayCode/TheRayCode/CPP/Adapter/main.cpp
+iostream
+-
 algorithm
 -
 Adapter.h
 /home/ray/TheRayCode/TheRayCode/CPP/Adapter/Adapter.h
-iostream
--
 

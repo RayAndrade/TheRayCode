@@ -1,6 +1,6 @@
+#include <iostream>
 #include <algorithm>
 #include "Adapter.h"
-#include <iostream>
 
 void ClientCode(const Target *target) {
     std::cout << target->Request();
