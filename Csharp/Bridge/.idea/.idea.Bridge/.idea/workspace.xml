@@ -2,53 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64385737-a842-4961-a8c5-ea27d7b779bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../CPP/Bridge/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Bridge/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Adapter/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/Bridge" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/Bridge" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/Bridge.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/Bridge.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Bridge.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Bridge.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Bridge.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Bridge.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Bridge.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Bridge.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Bridge.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Bridge.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Bridge.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Bridge.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Bridge.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Bridge.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Bridge.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Bridge.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Bridge.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Bridge.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Adapter/.idea/.idea.Adapter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Adapter/.idea/.idea.Adapter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Adapter/Adapter/obj/Debug/netcoreapp3.1/Adapter.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Adapter/Adapter/obj/Debug/netcoreapp3.1/Adapter.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bridge/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bridge/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bridge/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bridge/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bridge/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/bin/Debug/netcoreapp3.1/Bridge.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/bin/Debug/netcoreapp3.1/Bridge.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/bin/Debug/netcoreapp3.1/Bridge.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/bin/Debug/netcoreapp3.1/Bridge.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/obj/Bridge.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/obj/Bridge.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/obj/Debug/netcoreapp3.1/Bridge.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/obj/Debug/netcoreapp3.1/Bridge.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/obj/Debug/netcoreapp3.1/Bridge.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/obj/Debug/netcoreapp3.1/Bridge.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/obj/Debug/netcoreapp3.1/Bridge.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/obj/Debug/netcoreapp3.1/Bridge.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/obj/Debug/netcoreapp3.1/Bridge.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/obj/Debug/netcoreapp3.1/Bridge.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/obj/Debug/netcoreapp3.1/Bridge.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/obj/Debug/netcoreapp3.1/Bridge.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bridge/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +17,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Bridge/ConcreteImplementationB.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Bridge/Client.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Bridge/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/ConcreteImplementationA.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Bridge/Abstraction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Bridge/ExtendedAbstraction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/ConcreteImplementationB.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Bridge/IImplementation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Bridge/ConcreteImplementationA.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bridge/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1eEbOOjGzlNukbpK8nllcgLiVtx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -115,6 +73,7 @@
       <workItem from="1598034076759" duration="376000" />
       <workItem from="1604946255002" duration="435000" />
       <workItem from="1617905724270" duration="59000" />
+      <workItem from="1617914059494" duration="413000" />
     </task>
     <servers />
   </component>
@@ -133,6 +92,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
