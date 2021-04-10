@@ -2,6 +2,7 @@
 ## Adapter Factory php
 
 We start with *class* **Adaptee**.
+The **Adaptee** has a message that we can't *currently* read.
 ```php
 class Adaptee
 {
@@ -11,9 +12,8 @@ class Adaptee
    }
 }
 ```
-
-We create a class called **Target**
-
+Next we move to our **Target** class, which we need to create.
+We create the **Target** class with the following code:
 ```php
 class Target
 {
@@ -23,8 +23,9 @@ class Target
    }
 }
 ```
-
-We create a class called **Adapter** which will be extended by **Target**.
+Next we move to the **Adapter**.
+The **Adapter** will do the translation for use using the *strrev* utility.
+We create the **Adapter** class which will be extended by **Target**.
 ```php
 class Adapter extends Target
 {
@@ -44,8 +45,8 @@ class Adapter extends Target
 
 ![Adapter](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/UMLs/images/Adapter141.png)
 
-Now let's put this all together in the **index**.php file
-We start with the *includes*
+Now let's put this all together in the **index**.php file.
+We start by listiing our *includes* files we just created.
 ```php
 include_once ('Target.php');
 include_once ('Adaptee.php');
@@ -53,7 +54,6 @@ include_once ('Adapter.php');
 ```
 The client code supports all classes that follow the Target interface.
 ```php
-
 function clientCode(Target $target)
 {
 echo $target->request();
