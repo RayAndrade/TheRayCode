@@ -58,7 +58,7 @@ class ProductA2 : public ProductA {
 
 ```
 
-![Factory](/UMLs/images/AbstractFactory088.png)
+![Factory](/UMLs/images/AbstractFactory/AbstractFactory088.png)
 
 We now move to the **B** side.
 
