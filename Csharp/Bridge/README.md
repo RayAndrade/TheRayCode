@@ -24,6 +24,7 @@ class Abstraction
 }
 ```
 ![Bride Pattern](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/UMLs/images/Bridge/Bridge-2.png)
+<br/>
 Now let's create an *interface* we will call **IImplementation**.
 ```c#
 public interface IImplementation

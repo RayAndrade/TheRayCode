@@ -34,7 +34,7 @@ public:
 ```
 ![Bride Pattern](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/UMLs/images/Bridge/Bridge-1.png)
 
-
+<br/>
 Let's create a **ConcreteImplementationA** which will be extended be the class we just created, **Implementation**.
 ```c++
 #include "Implementation.h"

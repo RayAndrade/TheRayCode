@@ -79,6 +79,7 @@ public class GPSNavigator {
 }
 ```
 ![Bride Pattern](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/UMLs/images/Bridge/Bridge-3.png)
+<br/>
 we also need a **Transmission** and for our project we make it an *enum*.
 Let's also add that to comonents
 ```java
