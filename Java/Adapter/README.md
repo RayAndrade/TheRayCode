@@ -1,8 +1,8 @@
 # TheRayCode
 ## Adapter Factory java
 
-Our goal is to put a roung peg in a 5 inch radious round hole, 2 Square holes with widths 2 inches and 20 inches.
-To our oriject we add three packages **adapters**, **round** and **square**.
+Our goal is to put a roung peg in a 5 cm radius round hole, two Square holes with widths 2 cm and 20 cm.
+To our orject we add three packages: **adapters**, **round** and **square**.
 
 We start with our **RoundPeg** and we place it in the **round** package.
 **RoundPegs** are compatible with **RoundHoles**.
@@ -45,9 +45,9 @@ public class RoundHole {
 ```
 ![Factory](/UMLs/images/Adaptee-3.jpg)
 
-SquarePegs are not compatible with RoundHoles (they were implemented by previous development team). 
+The **SquarePegs** are not compatible with **RoundHoles**. 
 But we have to integrate them into our program.
-To the **square** package we add:
+To the **square** package we add the following:
 ```c#
 public class SquarePeg {
     private double width;
@@ -67,7 +67,7 @@ public class SquarePeg {
     }
 }
 ```
-Now let create a **SquarePegAdapter** *class* and put it in the **adapters** package.
+Now let's create a **SquarePegAdapter** *class* and put it in the **adapters** package.
 ```c#
 import TheRayCode.adapter.example.round.RoundPeg;
 import TheRayCode.adapter.example.square.SquarePeg;
@@ -88,7 +88,7 @@ public class SquarePegAdapter extends RoundPeg {
     }
 }
 ```
-We put this all together the **main** method in a **Demo** *class*.
+We now put this all together in the **main** method in our **Demo** *class*.
 
 ```C#
 import TheRayCode.adapter.example.adapters.SquarePegAdapter;
