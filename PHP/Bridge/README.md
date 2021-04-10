@@ -2,6 +2,8 @@
 ## Bridge pattern php
 
 
+![Bride Pattern](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/UMLs/images/Bridge/Bridge-4.png)
+
 [Wikipedia](https://en.wikipedia.org/wiki/Bridge_pattern)
 
 ----------------------------------------------------------------------------------------------------
