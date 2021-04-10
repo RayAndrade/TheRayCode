@@ -127,7 +127,7 @@ ExtendedAbstraction: Extended operation with:
 ConcreteImplementationB: Here's the result on the platform B.
 ```
 
-[Wikipedia](https://en.wikipedia.org/wiki/Bridge_pattern)
+[Wikipedia](https://en.wikipedia.org/wiki/Bridge/Bridge_pattern)
 
 ----------------------------------------------------------------------------------------------------
 
