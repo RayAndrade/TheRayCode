@@ -76,7 +76,9 @@ include_once ('ConcreteImplementationA.php');
 include_once ('ConcreteImplementationB.php');
 ```
 <br/>
-![Bride Pattern](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/UMLs/images/Bridge/Bridge-4.png)
+
+
+!RayAndrade/TheRayCode/main/UMLs/images/Bridge/Bridge-4.png)
 
 Except for the initialization phase, where an Abstraction object gets linked with a specific Implementation object, the client code should only depend on the Abstraction class. 
 This way the client code can support any abstraction implementation combination.
