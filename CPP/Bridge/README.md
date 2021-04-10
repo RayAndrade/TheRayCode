@@ -13,31 +13,6 @@ public:
 };
 ```
 
-Let's do a **ConcreteImplementationA** which will be extended be the class we just created, **Implementation**.
-```c++
-#include "Implementation.h"
-
-class ConcreteImplementationA : public Implementation {
-public:
-    std::string OperationImplementation() const override {
-        return "ConcreteImplementationA: Here's the result on the platform A.\n";
-    }
-};
-```
-
-Let's create a **ConcreteImplementationB** which will be extended with the **Implementation** class also.
-The **B** side looks like:
-```c++
-#include "Implementation.h"
-
-class ConcreteImplementationB : public Implementation {
-public:
-    std::string OperationImplementation() const override {
-        return "ConcreteImplementationB: Here's the result on the platform B.\n";
-    }
-};
-```
-
 Now let's create an **Abstraction**.
 ```c++
 #include <string>
@@ -54,6 +29,32 @@ public:
     virtual std::string Operation() const {
         return "Abstraction: Base operation with:\n" +
                this->implementation_->OperationImplementation();
+    }
+};
+```
+
+Let's create a **ConcreteImplementationA** which will be extended be the class we just created, **Implementation**.
+```c++
+#include "Implementation.h"
+
+class ConcreteImplementationA : public Implementation {
+public:
+    std::string OperationImplementation() const override {
+        return "ConcreteImplementationA: Here's the result on the platform A.\n";
+    }
+};
+```
+
+Let's do the same with a **B** side.
+Let's create a **ConcreteImplementationB** which will be extended with **Implementation** class also.
+The **B** side looks like:
+```c++
+#include "Implementation.h"
+
+class ConcreteImplementationB : public Implementation {
+public:
+    std::string OperationImplementation() const override {
+        return "ConcreteImplementationB: Here's the result on the platform B.\n";
     }
 };
 ```
