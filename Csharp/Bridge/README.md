@@ -1,31 +1,27 @@
 # TheRayCode
-## Builder c#
+## Bridge c#
 
-Unlike other creational patterns, Builder doesn’t require products to have a common interface. 
-That makes it possible to produce different products using the same construction process.
-The Builder pattern can be recognized in a class, which has a single creation method and several methods to configure the resulting object. 
-
-We start with the **Abstraction** *class*.
+The Abstraction defines the interface for the "control" part of the two class hierarchies. It maintains a reference to an object of the Implementation hierarchy and delegates all of the real work to this object.
 ```c#
 class Abstraction
 {
-   protected IImplementation _implementation;
+  protected IImplementation _implementation;
         
-   public Abstraction(IImplementation implementation)
-   {
-      this._implementation = implementation;
-   }
+  public Abstraction(IImplementation implementation)
+  {
+       this._implementation = implementation;
+  }
         
-   public virtual string Operation()
-   {
+  public virtual string Operation()
+  {
       return "Abstract: Base operation with:\n" + 
-      _implementation.OperationImplementation();
-   }
+             _implementation.OperationImplementation();
+  }
 }
 ```
-![Bride Pattern](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/UMLs/images/Bridge/Bridge-2.png)
-<br/>
-Now let's create an *interface* we will call **IImplementation**.
+The Implementation defines the interface for all implementation classes.
+It doesn't have to match the Abstraction's interface. In fact, the two interfaces can be entirely different. 
+Typically the Implementation interface provides only primitive operations, while the Abstraction defines higher-level operations based on those primitives.
 ```c#
 public interface IImplementation
 {
@@ -33,34 +29,7 @@ public interface IImplementation
 }
 ```
 
-Now let's create a couple of classes that will implement the **IImplementation** *interface*.
-We will create two (you can create more if you want).
-The first one we call **ConcreteImplementationA**
-```c#
-class ConcreteImplementationA : IImplementation
-{
-    public string OperationImplementation()
-    {
-        return "ConcreteImplementationA: The result in platform A.\n";
-    }
-}
-```
-
-And the other one we call **ConcreteImplementationB** (how original).
-Its code looks like
-```c#
-class ConcreteImplementationB : IImplementation
-{
-   public string OperationImplementation()
-   {
-       return "ConcreteImplementationA: The result in platform B.\n";
-   }
-}
-```
-
-Let's create an **ExtendedAbstraction** class:
-It too will be extened with the **Abstraction** *class*.
-Its code looks like:
+You can extend the Abstraction without changing the Implementation classes.
 ```c#
 class ExtendedAbstraction : Abstraction
 {
@@ -71,41 +40,67 @@ class ExtendedAbstraction : Abstraction
    public override string Operation()
    {
        return "ExtendedAbstraction: Extended operation with:\n" +
-             base._implementation.OperationImplementation();
+              base._implementation.OperationImplementation();
    }
 }
 ```
 
-Now let's create a **Client** class.
-Except for the initialization phase, where an Abstraction object gets linked with a specific Implementation object, the client code should only depend on the **Abstraction** class. 
-This way the **Client** code can support any abstraction-implementation combination.
+Each Concrete Implementation corresponds to a specific platform and implements the Implementation interface using that platform's API.
+
+```c#
+class ConcreteImplementationA : IImplementation
+{
+   public string OperationImplementation()
+   {
+       return "ConcreteImplementationA: The result in platform A.\n";
+   }
+}
+```
+
+```c#
+class ConcreteImplementationB : IImplementation
+{
+   public string OperationImplementation()
+   {
+       return "ConcreteImplementationA: The result in platform B.\n";
+   }
+}
+```
+
+Except for the initialization phase, where an Abstraction object gets linked with a specific Implementation object, the client code should only depend on the Abstraction class. 
+This way the client code can support any abstraction-implementation combination.
+
 ```c#
 class Client
 {
    public void ClientCode(Abstraction abstraction)
    {
-      Console.Write(abstraction.Operation());
+       Console.Write(abstraction.Operation());
    }
 }
 ```
 
-Now let's go to the **Program**.cs file to put this all together in the **Main** *method*.
+The client code should be able to work with any pre-configured abstraction-implementation combination.
+
 ```c#
-static void Main(string[] args)
+class Program
 {
-   Client client = new Client();
-   Abstraction abstraction;
-   abstraction = new Abstraction(new ConcreteImplementationA());
-   client.ClientCode(abstraction);
+   static void Main(string[] args)
+   {
+       Client client = new Client();
+
+       Abstraction abstraction;
+       abstraction = new Abstraction(new ConcreteImplementationA());
+       client.ClientCode(abstraction);
             
-   Console.WriteLine();
+       Console.WriteLine();
             
-   abstraction = new ExtendedAbstraction(new ConcreteImplementationB());
-   client.ClientCode(abstraction);
+       abstraction = new ExtendedAbstraction(new ConcreteImplementationB());
+       client.ClientCode(abstraction);
+   }
 }
 ```
 
-When we compile and run we get:
 ```run
 Abstract: Base operation with:
 ConcreteImplementationA: The result in platform A.
@@ -113,19 +108,3 @@ ConcreteImplementationA: The result in platform A.
 ExtendedAbstraction: Extended operation with:
 ConcreteImplementationA: The result in platform B.
 ```
-The Ray code is AWESOME!!!
-
-----------------------------------------------------------------------------------------------------
-
-[wikipedia](https://en.wikipedia.org/wiki/Builder_pattern)
-
-Find Ray on:
-
-[facebook](https://www.facebook.com/TheRayCode/)
-
-[youtube](https://www.youtube.com/user/AndradeRay/)
-
-[The Ray Code](https://www.RayAndrade.com)
-
-[Ray Andrade](https://www.RayAndrade.org)
-

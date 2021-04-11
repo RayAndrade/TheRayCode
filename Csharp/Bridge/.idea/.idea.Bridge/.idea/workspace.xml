@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64385737-a842-4961-a8c5-ea27d7b779bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bridge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bridge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,11 @@
     <setting file="file://$PROJECT_DIR$/Bridge/ConcreteImplementationB.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Bridge/IImplementation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Bridge/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Bridge/Abstraction.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1eEbOOjGzlNukbpK8nllcgLiVtx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -76,6 +81,7 @@
       <workItem from="1617905724270" duration="59000" />
       <workItem from="1617914059494" duration="3487000" />
       <workItem from="1618085037777" duration="84000" />
+      <workItem from="1618116280056" duration="1307000" />
     </task>
     <servers />
   </component>
