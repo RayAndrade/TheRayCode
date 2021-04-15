@@ -1,8 +1,8 @@
 # TheRayCode
 ## Bridge pattern java
 
-Let's create the package **builder**.
-In the **builder** package we add the **Builder** *interface*.
+Let's create a package we will call **builder**.
+Inside this pacage we add the we add the *interface* **Builder**.
 The **Builder** *interface* defines all possible ways to configure a product.
 ```java
 public interface Builder {
