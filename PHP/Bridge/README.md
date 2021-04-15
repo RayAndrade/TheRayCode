@@ -66,7 +66,7 @@ class ExtendedAbstraction extends Abstraction
 ```
 
 Now let'w put thie all together in thw **index**.php file.
-<br/>
+
 We start with the includes:
 ```php
 include_once ('Abstraction.php');
@@ -105,6 +105,7 @@ $implementation = new ConcreteImplementationB;
 $abstraction = new ExtendedAbstraction($implementation);
 clientCode($abstraction);
 ```
+
 When we view our code through a browser we should get:
 ```run
 Abstraction: Base operation with:
