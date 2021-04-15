@@ -286,7 +286,7 @@ Remote: mute
 
 ```
 
-The Ray Code is AWEWOME!!!
+The Ray Code is AWESOME!!!
 
 [Wikipedia](https://en.wikipedia.org/wiki/Bridge_pattern)
 
