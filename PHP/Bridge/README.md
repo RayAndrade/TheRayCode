@@ -65,7 +65,7 @@ class ExtendedAbstraction extends Abstraction
 }
 ```
 
-Now let'w put thie all together in thw **index**.php file.
+Now let's put this all together in the **index**.php file.
 
 We start with the includes:
 ```php
