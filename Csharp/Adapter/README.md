@@ -48,7 +48,7 @@ class Adapter : ITarget
    }
 }
 ```
-![Factory](/UMLs/images/Adaptee-2.jpg)
+![Factory](/UMLs/images/Adapter/Adaptee-2.jpg)
 
 We put this all together in the Main method in the Program class file.
 ```c#
