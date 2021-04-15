@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64385737-a842-4961-a8c5-ea27d7b779bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bridge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bridge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Bridge/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bridge/obj/Debug/netcoreapp3.1/Bridge.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/obj/Debug/netcoreapp3.1/Bridge.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bridge/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Bridge/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +84,7 @@
       <workItem from="1617914059494" duration="3487000" />
       <workItem from="1618085037777" duration="84000" />
       <workItem from="1618116280056" duration="1763000" />
+      <workItem from="1618461395432" duration="32000" />
     </task>
     <servers />
   </component>
