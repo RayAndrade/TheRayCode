@@ -52,7 +52,8 @@ class ConcreteImplementationB implements Implementation
     }
 }
 ```
-![Factory](/UMLs/images/Bridge/Bridge-3.png)
+![Factory](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/UMLs/images/Bridge/Bridge-4.png)
+
 
 Let's Extended the Abstraction with the *class* **ExtendedAbstraction**.
 ```php
