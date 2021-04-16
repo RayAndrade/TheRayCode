@@ -4,10 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ray/CLionProjects/Composite/Component.cpp" "/home/ray/CLionProjects/Composite/cmake-build-debug/CMakeFiles/Composite.dir/Component.cpp.o"
-  "/home/ray/CLionProjects/Composite/Composite.cpp" "/home/ray/CLionProjects/Composite/cmake-build-debug/CMakeFiles/Composite.dir/Composite.cpp.o"
-  "/home/ray/CLionProjects/Composite/Leaf.cpp" "/home/ray/CLionProjects/Composite/cmake-build-debug/CMakeFiles/Composite.dir/Leaf.cpp.o"
-  "/home/ray/CLionProjects/Composite/main.cpp" "/home/ray/CLionProjects/Composite/cmake-build-debug/CMakeFiles/Composite.dir/main.cpp.o"
+  "/home/ray/TheRayCode/TheRayCode/CPP/Composite/main.cpp" "/home/ray/TheRayCode/TheRayCode/CPP/Composite/cmake-build-debug/CMakeFiles/Composite.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

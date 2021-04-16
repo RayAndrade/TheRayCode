@@ -23,8 +23,7 @@ public:
     }
     /**
      * Have in mind that this method removes the pointer to the list but doesn't
-     * frees the
-     *     memory, you should do it manually or better use smart pointers.
+     * frees the memory, you should do it manually or better use smart pointers.
      */
     void Remove(Component *component) override {
         children_.remove(component);

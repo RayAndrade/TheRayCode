@@ -1,8 +1,6 @@
 
 #include "Leaf.h"
 #include "Composite.h"
-
-
 /**
  * The client code works with all of the components via the base interface.
  */

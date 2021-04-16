@@ -6,35 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/ray/CLionProjects/Composite/Component.cpp
-Component.h
-/home/ray/CLionProjects/Composite/Component.h
-
-/home/ray/CLionProjects/Composite/Component.h
+/home/ray/TheRayCode/TheRayCode/CPP/Composite/Component.h
 iostream
 -
 
-/home/ray/CLionProjects/Composite/Composite.cpp
-Composite.h
-/home/ray/CLionProjects/Composite/Composite.h
-
-/home/ray/CLionProjects/Composite/Composite.h
+/home/ray/TheRayCode/TheRayCode/CPP/Composite/Composite.h
 list
 -
 Component.h
-/home/ray/CLionProjects/Composite/Component.h
+/home/ray/TheRayCode/TheRayCode/CPP/Composite/Component.h
 
-/home/ray/CLionProjects/Composite/Leaf.cpp
-Leaf.h
-/home/ray/CLionProjects/Composite/Leaf.h
-
-/home/ray/CLionProjects/Composite/Leaf.h
+/home/ray/TheRayCode/TheRayCode/CPP/Composite/Leaf.h
 Component.h
-/home/ray/CLionProjects/Composite/Component.h
+/home/ray/TheRayCode/TheRayCode/CPP/Composite/Component.h
 
-/home/ray/CLionProjects/Composite/main.cpp
+/home/ray/TheRayCode/TheRayCode/CPP/Composite/main.cpp
 Leaf.h
-/home/ray/CLionProjects/Composite/Leaf.h
+/home/ray/TheRayCode/TheRayCode/CPP/Composite/Leaf.h
 Composite.h
-/home/ray/CLionProjects/Composite/Composite.h
+/home/ray/TheRayCode/TheRayCode/CPP/Composite/Composite.h
 
