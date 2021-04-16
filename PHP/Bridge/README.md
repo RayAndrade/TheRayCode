@@ -52,7 +52,7 @@ class ConcreteImplementationB implements Implementation
     }
 }
 ```
-![Factory](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/UMLs/images/Bridge/Bridge-4.png)
+![Factory](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/UMLs/images/Bridge/Bridge-1.png)
 
 
 Let's Extended the Abstraction with the *class* **ExtendedAbstraction**.
