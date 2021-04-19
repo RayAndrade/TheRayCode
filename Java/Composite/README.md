@@ -1,6 +1,7 @@
 # TheRayCode
 ## Composite pattern java
 
+
 In this tutoraial posting we will use the xxx library.
 
 Composite is a structural design pattern that allows composing objects into a tree-like structure and work with the it as if it was a singular object.
@@ -123,6 +124,8 @@ abstract class BaseShape implements Shape {
     }
 }
 ```
+![Composite](/UMLs/images/Composite/Composite2.png)
+
 Let's create a Dot class.
 We will also put it in the *shapes* **package**.
 ```java
