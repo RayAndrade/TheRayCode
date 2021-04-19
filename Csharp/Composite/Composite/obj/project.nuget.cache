@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1j3/AfK3KnGim44MxgY4Dy7gpXLutj6pDWuoAZtI4CabJ9oSG8G9j4Jj+6SD3Px51AHGBm9o9ywNZuQoIiEiEA==",
+  "dgSpecHash": "OJB2F/wH0ca74h4SMiXfg6JXWiiAxbPY7oZc+6MAKu/b44201aYY6lHmNUjAPw195PZjQfOu4eXWYCercXVrbg==",
   "success": true,
-  "projectFilePath": "/home/ray/RiderProjects/Composite/Composite/Composite.csproj",
+  "projectFilePath": "/home/ray/TheRayCode/TheRayCode/Csharp/Composite/Composite/Composite.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
