@@ -124,8 +124,6 @@ abstract class BaseShape implements Shape {
     }
 }
 ```
-![Composite](/UMLs/images/Composite/Composite2.png)
-
 Let's create a Dot class.
 We will also put it in the *shapes* **package**.
 ```java
@@ -468,6 +466,14 @@ public class Demo {
     }
 }
 ```
+
+
+Let's compile and run.
+We should get:
+
+![Composite](/UMLs/images/Composite/Composite2.png)
+
+The Ray Code is AWESOME!!!
 
 [Wikipedia](https://en.wikipedia.org/wiki/Composite_pattern)
 
