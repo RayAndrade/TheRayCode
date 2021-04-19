@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8a940f6-cff2-468d-86ae-d196ee18ad88" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Composite/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Composite/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Composite/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Composite/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Composite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Composite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Composite/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Composite/obj/Debug/netcoreapp3.1/Composite.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Composite/obj/Debug/netcoreapp3.1/Composite.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Composite/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Composite/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="d8a940f6-cff2-468d-86ae-d196ee18ad88" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +66,7 @@
       <workItem from="1597997398414" duration="28000" />
       <workItem from="1598038091670" duration="26000" />
       <workItem from="1598038311445" duration="25000" />
-      <workItem from="1618856328780" duration="1769000" />
+      <workItem from="1618856328780" duration="2661000" />
     </task>
     <servers />
   </component>

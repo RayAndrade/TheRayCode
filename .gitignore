@@ -7,4 +7,5 @@
 */out/*
 */clion-log.txt
 */LastTest.log
-
+.idea/
+*/workspace.xml
