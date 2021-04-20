@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ray/Desktop/TheRayCode/Csharp/Decorator/Decorator/Decorator.csproj",
+      "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/Decorator/Decorator/Decorator.csproj",
       "projectName": "Decorator",
-      "projectPath": "/home/ray/Desktop/TheRayCode/Csharp/Decorator/Decorator/Decorator.csproj",
+      "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Decorator/Decorator/Decorator.csproj",
       "packagesPath": "/home/ray/.nuget/packages/",
-      "outputPath": "/home/ray/Desktop/TheRayCode/Csharp/Decorator/Decorator/obj/",
+      "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Decorator/Decorator/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

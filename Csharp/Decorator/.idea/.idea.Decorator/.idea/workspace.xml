@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="388a93ad-821e-4f81-987e-a83d59ae6f91" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Decorator/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Decorator/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Decorator/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Decorator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Decorator/.idea/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Decorator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Decorator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Decorator/bin/Debug/netcoreapp3.1/Decorator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/bin/Debug/netcoreapp3.1/Decorator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Decorator/bin/Debug/netcoreapp3.1/Decorator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/bin/Debug/netcoreapp3.1/Decorator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Decorator/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/Debug/netcoreapp3.1/Decorator.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator/obj/Decorator.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/Decorator.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Decorator/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +27,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Decorator/ConcreteComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Decorator/Component.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Decorator/ConcreteDecoratorA.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Decorator/ConcreteDecoratorB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Decorator/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Decorator/Client.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Decorator/Decorator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Decorator/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Decorator/ConcreteComponent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1eEbqcOI7qBFMA62dvaZyCQkY4c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -79,6 +89,7 @@
       <workItem from="1606172176811" duration="14000" />
       <workItem from="1606390973289" duration="641000" />
       <workItem from="1606543063044" duration="21000" />
+      <workItem from="1618894182268" duration="1389000" />
     </task>
     <servers />
   </component>

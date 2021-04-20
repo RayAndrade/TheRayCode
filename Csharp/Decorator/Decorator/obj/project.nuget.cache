@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VRfDv5q8wN9OUY9FqsVSQxS6XEEp45SNowO8MVTIMaPKbJIKkAAXGYPGhns3ZrkR2VbSGr4/4el0zOJIkSs05Q==",
+  "dgSpecHash": "COfFQBmR5v/491CV+YPoapR/sb5FfZKHmK23nO1mRguAY6WDjLddd6qViz2Iltamqp2VyWZsF5cF1AWLV1bgVA==",
   "success": true,
-  "projectFilePath": "/home/ray/Desktop/TheRayCode/Csharp/Decorator/Decorator/Decorator.csproj",
+  "projectFilePath": "/home/ray/TheRayCode/TheRayCode/Csharp/Decorator/Decorator/Decorator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
