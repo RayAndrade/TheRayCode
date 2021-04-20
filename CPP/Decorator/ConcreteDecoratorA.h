@@ -1,7 +1,3 @@
-//
-// Created by ray on 8/25/20.
-//
-
 #ifndef DECORATOR_CONCRETEDECORATORA_H
 #define DECORATOR_CONCRETEDECORATORA_H
 #include "Decorator.h"

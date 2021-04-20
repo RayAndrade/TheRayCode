@@ -4,12 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ray/CLionProjects/Decorator/Component.cpp" "/home/ray/CLionProjects/Decorator/cmake-build-debug/CMakeFiles/Decorator.dir/Component.cpp.o"
-  "/home/ray/CLionProjects/Decorator/ConcreteComponent.cpp" "/home/ray/CLionProjects/Decorator/cmake-build-debug/CMakeFiles/Decorator.dir/ConcreteComponent.cpp.o"
-  "/home/ray/CLionProjects/Decorator/ConcreteDecoratorA.cpp" "/home/ray/CLionProjects/Decorator/cmake-build-debug/CMakeFiles/Decorator.dir/ConcreteDecoratorA.cpp.o"
-  "/home/ray/CLionProjects/Decorator/ConcreteDecoratorB.cpp" "/home/ray/CLionProjects/Decorator/cmake-build-debug/CMakeFiles/Decorator.dir/ConcreteDecoratorB.cpp.o"
-  "/home/ray/CLionProjects/Decorator/Decorator.cpp" "/home/ray/CLionProjects/Decorator/cmake-build-debug/CMakeFiles/Decorator.dir/Decorator.cpp.o"
-  "/home/ray/CLionProjects/Decorator/main.cpp" "/home/ray/CLionProjects/Decorator/cmake-build-debug/CMakeFiles/Decorator.dir/main.cpp.o"
+  "/home/ray/TheRayCode/TheRayCode/CPP/Decorator/main.cpp" "/home/ray/TheRayCode/TheRayCode/CPP/Decorator/cmake-build-debug/CMakeFiles/Decorator.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

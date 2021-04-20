@@ -1,7 +1,3 @@
-//
-// Created by ray on 8/25/20.
-//
-
 #ifndef DECORATOR_DECORATOR_H
 #define DECORATOR_DECORATOR_H
 
