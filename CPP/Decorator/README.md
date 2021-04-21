@@ -60,6 +60,12 @@ public:
     }
 };
 ```
+![Factory](/UMLs/images/Decorator/Decorator-1.jpg)
+
+Decorator
+Decorator
+
+
 ```cpp
 #include "Decorator.h"
 
