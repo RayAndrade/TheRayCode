@@ -88,23 +88,6 @@ public:
     }
 };
 ```
-
-
-
-
-```cpp
-#include "Decorator.h"
-
-class ConcreteDecoratorB : public Decorator {
-public:
-    ConcreteDecoratorB(Component* component) : Decorator(component) {
-    }
-
-    std::string Operation() const override {
-        return "ConcreteDecoratorB(" + Decorator::Operation() + ")";
-    }
-};
-```
 This way the client code can support both simple components as well as decorated ones.
 
 The client code works with all objects using the Component interface. 
