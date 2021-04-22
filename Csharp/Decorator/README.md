@@ -12,11 +12,8 @@ This example illustrates the structure of the Decorator design pattern. It focus
 <li>What roles do these classes play?</li>
 <li>In what way the elements of the pattern are related?</li>
 </ol>
-BUILD ORDER:
 
-Component
-should be public abstract all others will be abstract only
-
+The **Component** should be public abstract all others will be abstract only.
 The base Component interface defines operations that can be altered by decorators.
 
 ```c#
@@ -26,7 +23,7 @@ public abstract class Component
 }
 ```
 
-Concrete Components provide default implementations of the operations.
+**Concrete Components** provide default implementations of the operations.
 There might be several variations of these classes.
 The Decorator delegates all work to the wrapped component.
 ```c#
@@ -39,6 +36,9 @@ class ConcreteComponent : Component
 }
 ```
 
+The base Decorator class follows the same interface as the other components. 
+The primary purpose of this class is to define the wrapping interface for all concrete decorators. 
+The default implementation of the wrapping code might include a field for storing a wrapped component and the means to initialize it.
 ```c#
 abstract class Decorator : Component
 {
@@ -70,6 +70,7 @@ abstract class Decorator : Component
 
 Decorators may call parent implementation of the operation, instead of calling the wrapped object directly. 
 This approach simplifies extension of decorator classes.
+Concrete Decorators call the wrapped object and alter its result in some way.
 ```c#
 class ConcreteDecoratorA : Decorator
 {
@@ -83,7 +84,7 @@ class ConcreteDecoratorA : Decorator
     }
 }
 ```
-
+ Decorators can execute their behavior either before or after the call to a wrapped object.
 ```c#
 class ConcreteDecoratorB : Decorator
 {
@@ -96,7 +97,20 @@ class ConcreteDecoratorB : Decorator
     }
 }
 ```
+ The client code works with all objects using the Component interface.
+ This way it can stay independent of the concrete classes of components it works with.
+ 
+```c#
+ public class Client
+{
+    public void ClientCode(Component component)
+    {
+        Console.WriteLine("RESULT: " + component.Operation());
+    }
+}
 
+```
+ 
 Note how decorators can wrap not only simple components but the other decorators as well.
 
 ```c#
