@@ -1,12 +1,17 @@
 # TheRayCode
 ## Decorator pattern c++
 
+Decorator is a structural pattern that allows adding new behaviors to objects dynamically by placing them inside special wrapper objects.
+
 This example illustrates the structure of the Decorator design pattern. It focuses on answering these questions:
 <ol>
 <li>What classes does it consist of?</li>
 <li>What roles do these classes play?</li>
 <li>In what way the elements of the pattern are related?</li>
 </ol>
+
+The base Component interface defines operations that can be altered by decorators.
+
 
 ```cpp
 #include <iostream>
@@ -17,6 +22,9 @@ public:
     virtual std::string Operation() const = 0;
 };
 ```
+Concrete Components provide default implementations of the operations. 
+There might be several variations of these classes.
+
 ```cpp
 #include "Component.h"
 
@@ -27,6 +35,11 @@ public:
     }
 };
 ```
+
+The base Decorator class follows the same interface as the other components.
+The primary purpose of this class is to define the wrapping interface for all concrete decorators. 
+The default implementation of the wrapping code might include a field for storing a wrapped component and the means to initialize it.
+The Decorator delegates all work to the wrapped component.
 ```cpp
 #include "Component.h"
 
@@ -37,17 +50,17 @@ protected:
 public:
     Decorator(Component* component) : component_(component) {
     }
-    /**
-     * The Decorator delegates all work to the wrapped component.
-     */
+
     std::string Operation() const override {
         return this->component_->Operation();
     }
 };
 ```
 ![Decorator](/UMLs/images/Decorator/Decorator-1.jpg)
+
 Decorators may call parent implementation of the operation, instead of calling the wrapped object directly. 
 This approach simplifies extension of decorator classes.
+Let's create a decorator called **ConcreteDecoratorA**
 ```cpp
 #include "Decorator.h"
 
@@ -60,10 +73,23 @@ public:
     }
 };
 ```
+Let's create another decorator called **ConcreteDecoratorB**.
+Decorators can execute their behavior either before or after the call to a wrapped object.
+```cpp
+#include "Decorator.h"
+
+class ConcreteDecoratorB : public Decorator {
+public:
+    ConcreteDecoratorB(Component* component) : Decorator(component) {
+    }
+
+    std::string Operation() const override {
+        return "ConcreteDecoratorB(" + Decorator::Operation() + ")";
+    }
+};
+```
 
 
-Decorator
-Decorator
 
 
 ```cpp
@@ -80,6 +106,9 @@ public:
 };
 ```
 This way the client code can support both simple components as well as decorated ones.
+
+The client code works with all objects using the Component interface. 
+This way it can stay independent of the concrete classes of components it works with.
 
 Note how decorators can wrap not only simple components but the other decorators as well.
 ```cpp
@@ -113,7 +142,7 @@ int main() {
     return 0;
 }
 ```
-
+Now let's compile and run, we should get:
 ```run
 Client: I've got a simple component:
 RESULT: ConcreteComponent
