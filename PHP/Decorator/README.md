@@ -104,7 +104,16 @@ $decorator2 = new ConcreteDecoratorB($decorator1);
 echo "Client: Now I've got a decorated component:<br/>";
 clientCode($decorator2);
 ```
+When we view the the index.php through a browser you should get:
 
+```php
+Client: I've got a simple component:
+RESULT: ConcreteComponent
+
+Client: Now I've got a decorated component:
+RESULT: ConcreteDecoratorB(ConcreteDecoratorA(ConcreteComponent))
+```
+The Ray Code is AWESOME!!! 
 
 
 [Wikipedia](https://en.wikipedia.org/wiki/Decorator_pattern)
