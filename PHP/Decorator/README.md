@@ -11,7 +11,6 @@ This example illustrates the structure of the Decorator design pattern and focus
 <li>What roles do these classes play?</li>
 <li>In what way the elements of the pattern are related?</li>
 </ol>
- 
 
 Let's start by createing the **Component**.php file  *interface*.
 ```php
