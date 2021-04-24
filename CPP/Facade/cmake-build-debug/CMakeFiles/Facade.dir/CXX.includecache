@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/ray/CLionProjects/Facade/Facade.h
+/home/ray/TheRayCode/TheRayCode/CPP/Facade/Facade.h
 System1.h
-/home/ray/CLionProjects/Facade/System1.h
+/home/ray/TheRayCode/TheRayCode/CPP/Facade/System1.h
 System2.h
-/home/ray/CLionProjects/Facade/System2.h
+/home/ray/TheRayCode/TheRayCode/CPP/Facade/System2.h
 
-/home/ray/CLionProjects/Facade/System1.h
+/home/ray/TheRayCode/TheRayCode/CPP/Facade/System1.h
 iostream
 -
 
-/home/ray/CLionProjects/Facade/System2.h
+/home/ray/TheRayCode/TheRayCode/CPP/Facade/System2.h
 iostream
 -
 
-/home/ray/CLionProjects/Facade/main.cpp
+/home/ray/TheRayCode/TheRayCode/CPP/Facade/main.cpp
 Facade.h
-/home/ray/CLionProjects/Facade/Facade.h
+/home/ray/TheRayCode/TheRayCode/CPP/Facade/Facade.h
 
