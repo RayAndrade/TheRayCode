@@ -1,7 +1,14 @@
 # TheRayCode
 ## Facade pattern c++
 
+Facade is a structural design pattern that provides a simplified (but limited) interface to a complex system of classes, library or framework.
 
+This example illustrates the structure of the Facade design pattern. It focuses on answering these questions:
+<ol>
+<li>What classes does it consist of?</li>
+<li>What roles do these classes play?</li>
+<li>In what way the elements of the pattern are related?</li>
+</ol>
 
 Let's now go to the main.cpp
 
