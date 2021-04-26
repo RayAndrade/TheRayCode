@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="745f90d0-1a48-4e47-9de0-9243c41ac51e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Facade/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Facade/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/Facade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/Facade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/Subsystem1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/SubsystemA.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/Subsystem2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/SubsystemB.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/bin/Debug/netcoreapp3.1/Facade.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/bin/Debug/netcoreapp3.1/Facade.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/bin/Debug/netcoreapp3.1/Facade.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/bin/Debug/netcoreapp3.1/Facade.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +79,7 @@
       <workItem from="1619377834320" duration="1950000" />
       <workItem from="1619402376990" duration="31000" />
       <workItem from="1619402527242" duration="28000" />
-      <workItem from="1619467077535" duration="1210000" />
+      <workItem from="1619467077535" duration="2498000" />
     </task>
     <servers />
   </component>
