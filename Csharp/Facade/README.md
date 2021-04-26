@@ -30,7 +30,7 @@ public class SubsystemB
     }
 }
 ```
-![Factory](/UMLs/images/Facade/Facade-2.png)
+![Factory](/UMLs/images/Facade/Facade-3.png)
 The Facade class provides a simple interface to the complex logic of one or several subsystems. 
 The Facade delegates the client requests to the appropriate objects within the subsystem. 
 The Facade is also responsible for managing their lifecycle. 
