@@ -49,16 +49,17 @@ now create **class Facade**
 add code:
 
 ```php
-protected $subsystem1;
-protected $subsystem2;
+protected $subsystemA;
+protected $subsystemB;
 ```
+
 ```php
 public function __construct(
-Subsystem1 $subsystem1 = null,
-Subsystem2 $subsystem2 = null
+SubsystemA $subsystem1 = null,
+SubsystemB $subsystem2 = null
  ) {
-$this->subsystem1 = $subsystem1 ?: new Subsystem1;
-$this->subsystem2 = $subsystem2 ?: new Subsystem2;
+$this->subsystem1 = $subsystem1 ?: new SubsystemA;
+$this->subsystem2 = $subsystem2 ?: new SubsystemB;
 }
 ```
 
@@ -82,19 +83,20 @@ we add includes the file we just created
 
 ```php
 include_once ('Facade.php');
-include_once ('Subsystem1.php');
-include_once ('Subsystem2.php');
+include_once ('SubsystemA.php');
+include_once ('SubsystemB.php');
 ```
 
 and add code:
+
 ```php
 function clientCode(Facade $facade)
 {
   echo $facade->operation();
 }
 
-$subsystem1 = new Subsystem1;
-$subsystem2 = new Subsystem2;
+$subsystem1 = new SubsystemA;
+$subsystem2 = new SubsystemB;
 $facade = new Facade($subsystem1, $subsystem2);
 clientCode($facade);
 ```

@@ -1,7 +1,7 @@
 <?php
 include_once ('Facade.php');
-include_once ('Subsystem1.php');
-include_once ('Subsystem2.php');
+include_once('SubsystemA.php');
+include_once('SubsystemB.php');
 
 function clientCode(Facade $facade)
 {
@@ -17,7 +17,7 @@ function clientCode(Facade $facade)
  * this case, it might be worthwhile to initialize the Facade with these objects
  * instead of letting the Facade create new instances.
  */
-$subsystem1 = new Subsystem1;
-$subsystem2 = new Subsystem2;
-$facade = new Facade($subsystem1, $subsystem2);
+$subsystemA = new SubsystemA;
+$subsystemB = new SubsystemB;
+$facade = new Facade($subsystemA, $subsystemB);
 clientCode($facade);

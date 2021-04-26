@@ -1,15 +1,15 @@
 <?php
-class Subsystem2
+class SubsystemB
 {
     public function operation1(): string
     {
-        return "Subsystem2: Get ready!<br/>";
+        return "SubsystemB: Get ready!<br/>";
     }
 
     // ...
 
     public function operationZ(): string
     {
-        return "Subsystem2: Fire!<br/>";
+        return "SubsystemB: Fire!<br/>";
     }
 }
