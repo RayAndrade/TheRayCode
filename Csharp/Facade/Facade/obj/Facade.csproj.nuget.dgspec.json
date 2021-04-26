@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ray/RiderProjects/Facade/Facade/Facade.csproj": {}
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/Facade.csproj": {}
   },
   "projects": {
-    "/home/ray/RiderProjects/Facade/Facade/Facade.csproj": {
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/Facade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ray/RiderProjects/Facade/Facade/Facade.csproj",
+        "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/Facade.csproj",
         "projectName": "Facade",
-        "projectPath": "/home/ray/RiderProjects/Facade/Facade/Facade.csproj",
+        "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/Facade.csproj",
         "packagesPath": "/home/ray/.nuget/packages/",
-        "outputPath": "/home/ray/RiderProjects/Facade/Facade/obj/",
+        "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     }

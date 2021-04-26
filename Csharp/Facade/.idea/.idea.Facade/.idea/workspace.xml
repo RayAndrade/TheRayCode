@@ -1,31 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="745f90d0-1a48-4e47-9de0-9243c41ac51e" name="Default Changelist" comment="" />
+    <list default="true" id="745f90d0-1a48-4e47-9de0-9243c41ac51e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../CPP/Facade/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Facade/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Facade/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Facade/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Facade/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Facade/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Facade/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Facade/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Facade/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/bin/Debug/netcoreapp3.1/Facade" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/bin/Debug/netcoreapp3.1/Facade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/bin/Debug/netcoreapp3.1/Facade.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/bin/Debug/netcoreapp3.1/Facade.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/bin/Debug/netcoreapp3.1/Facade.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/bin/Debug/netcoreapp3.1/Facade.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/obj/Facade.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Facade.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/obj/Facade.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Facade.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Facade/Facade.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Facade/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Facade/Subsystem1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Facade/Subsystem2.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Facade/Client.cs" root0="FORCE_HIGHLIGHTING" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Facade/Facade.cs" />
-        <option value="$PROJECT_DIR$/Facade/Subsystem1.cs" />
-        <option value="$PROJECT_DIR$/Facade/Subsystem2.cs" />
-        <option value="$PROJECT_DIR$/Facade/Client.cs" />
-        <option value="$PROJECT_DIR$/Facade/Program.cs" />
-      </list>
-    </option>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Facade/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Facade/Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Facade/Subsystem2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Facade/Facade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Facade/Subsystem1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1eEc3cY5WC4Z48J5sNMlO25PeG0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,7 +50,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Facade" type="DotNetProject" factoryName=".NET Project">
@@ -68,6 +89,9 @@
       <workItem from="1596085333997" duration="239000" />
       <workItem from="1597997500759" duration="31000" />
       <workItem from="1598046641201" duration="642000" />
+      <workItem from="1619377834320" duration="1950000" />
+      <workItem from="1619402376990" duration="31000" />
+      <workItem from="1619402527242" duration="28000" />
     </task>
     <servers />
   </component>
@@ -78,27 +102,5 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1793" height="270" key="GridCell.Tab.0.bottom" timestamp="1598047968500">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1793" height="270" key="GridCell.Tab.0.bottom/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1598047968500" />
-    <state width="1793" height="270" key="GridCell.Tab.0.center" timestamp="1598047968500">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1793" height="270" key="GridCell.Tab.0.center/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1598047968500" />
-    <state width="1793" height="270" key="GridCell.Tab.0.left" timestamp="1598047968500">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1793" height="270" key="GridCell.Tab.0.left/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1598047968500" />
-    <state width="1793" height="270" key="GridCell.Tab.0.right" timestamp="1598047968500">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1793" height="270" key="GridCell.Tab.0.right/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1598047968500" />
-    <state x="350" y="86" key="SettingsEditor" timestamp="1598047942385">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="350" y="86" key="SettingsEditor/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1598047942385" />
   </component>
 </project>

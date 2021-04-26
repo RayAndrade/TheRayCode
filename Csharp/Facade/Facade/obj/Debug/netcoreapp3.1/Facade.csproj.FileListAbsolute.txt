@@ -11,3 +11,16 @@
 /home/ray/RiderProjects/Facade/Facade/obj/Debug/netcoreapp3.1/Facade.dll
 /home/ray/RiderProjects/Facade/Facade/obj/Debug/netcoreapp3.1/Facade.pdb
 /home/ray/RiderProjects/Facade/Facade/obj/Debug/netcoreapp3.1/Facade.genruntimeconfig.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/bin/Debug/netcoreapp3.1/Facade
+/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/bin/Debug/netcoreapp3.1/Facade.deps.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/bin/Debug/netcoreapp3.1/Facade.runtimeconfig.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/bin/Debug/netcoreapp3.1/Facade.runtimeconfig.dev.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/bin/Debug/netcoreapp3.1/Facade.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/bin/Debug/netcoreapp3.1/Facade.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/obj/Debug/netcoreapp3.1/Facade.csprojAssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/obj/Debug/netcoreapp3.1/Facade.AssemblyInfoInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/obj/Debug/netcoreapp3.1/Facade.AssemblyInfo.cs
+/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/obj/Debug/netcoreapp3.1/Facade.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/obj/Debug/netcoreapp3.1/Facade.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/obj/Debug/netcoreapp3.1/Facade.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Facade/Facade/obj/Debug/netcoreapp3.1/Facade.genruntimeconfig.cache
