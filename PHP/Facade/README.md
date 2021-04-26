@@ -42,6 +42,8 @@ public function operationZ(): string
   return "SubsystemB: Fire!<br/>";
 }
 ```
+![Factory](/UMLs/images/Facade/Facade-5.png)
+
 
 now create **class Facade**
 
@@ -77,6 +79,7 @@ $result .= $this->subsystem2->operationZ();
 return $result;
 }
 ```
+
 
 last we go to the index page 
 we add includes the file we just created
