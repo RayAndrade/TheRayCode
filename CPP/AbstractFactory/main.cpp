@@ -1,10 +1,10 @@
 #include <iostream>
 
-#include "ProductA1.h"
-#include "ProductA2.h"
+#include "Product1a.h"
+#include "Product2a.h"
 
-#include "ProductB1.h"
-#include "ProductB2.h"
+#include "Product1b.h"
+#include "Product2b.h"
 
 #include "Factory1.h"
 #include "Factory2.h"
@@ -16,9 +16,9 @@
  */
 
 void ClientCode(const AbstractFactory &factory) {
-    const ProductA *product_a = factory.CreateProductA();
-    const ProductB *product_b = factory.CreateProductB();
-    std::cout << product_b->UsefulFunctionB() << "\n";
+    const Product1 *product_a = factory.CreateProductA();
+    const Product2 *product_b = factory.CreateProductB();
+    std::cout << product_b->UsefulFunction2() << "\n";
     std::cout << product_b->AnotherUsefulFunctionB(*product_a) << "\n";
     delete product_a;
     delete product_b;

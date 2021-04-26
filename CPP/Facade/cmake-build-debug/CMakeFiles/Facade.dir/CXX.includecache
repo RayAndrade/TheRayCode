@@ -7,16 +7,16 @@
 #IncludeRegexTransform: 
 
 /home/ray/TheRayCode/TheRayCode/CPP/Facade/Facade.h
-System1.h
-/home/ray/TheRayCode/TheRayCode/CPP/Facade/System1.h
-System2.h
-/home/ray/TheRayCode/TheRayCode/CPP/Facade/System2.h
+SystemA.h
+/home/ray/TheRayCode/TheRayCode/CPP/Facade/SystemA.h
+SystemB.h
+/home/ray/TheRayCode/TheRayCode/CPP/Facade/SystemB.h
 
-/home/ray/TheRayCode/TheRayCode/CPP/Facade/System1.h
+/home/ray/TheRayCode/TheRayCode/CPP/Facade/SystemA.h
 iostream
 -
 
-/home/ray/TheRayCode/TheRayCode/CPP/Facade/System2.h
+/home/ray/TheRayCode/TheRayCode/CPP/Facade/SystemB.h
 iostream
 -
 

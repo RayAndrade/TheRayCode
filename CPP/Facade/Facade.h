@@ -1,14 +1,14 @@
 #ifndef FACADE_FACADE_H
 #define FACADE_FACADE_H
 
-#include "System1.h"
-#include "System2.h"
+#include "SystemA.h"
+#include "SystemB.h"
 
 
 class Facade {
 protected:
-    System1 *system1_;
-    System2 *system2_;
+    SystemA *system1_;
+    SystemB *system2_;
     /**
      * Depending on your application's needs, you can provide the Facade with
      * existing subsystem objects or force the Facade to create them on its own.
@@ -18,10 +18,10 @@ public:
      * In this case we will delegate the memory ownership to Facade Class
      */
     Facade(
-            System1 *system1 = nullptr,
-            System2 *system2 = nullptr) {
-        this->system1_ = system1 ?: new System1;
-        this->system2_ = system2 ?: new System2;
+            SystemA *system1 = nullptr,
+            SystemB *system2 = nullptr) {
+        this->system1_ = system1 ?: new SystemA;
+        this->system2_ = system2 ?: new SystemB;
     }
     ~Facade() {
         delete system1_;
@@ -34,8 +34,8 @@ public:
      */
     std::string Operation() {
         std::string result = "Facade initializes systems:\n";
-        result += this->system1_->Operation1();
-        result += this->system2_->Operation1();
+        result += this->system1_->OperationA();
+        result += this->system2_->OperationA();
         result += "Facade orders systems to perform the action:\n";
         result += this->system1_->OperationN();
         result += this->system2_->OperationZ();

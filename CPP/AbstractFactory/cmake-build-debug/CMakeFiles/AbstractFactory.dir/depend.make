@@ -4,11 +4,11 @@
 CMakeFiles/AbstractFactory.dir/main.cpp.o: ../AbstractFactory.h
 CMakeFiles/AbstractFactory.dir/main.cpp.o: ../Factory1.h
 CMakeFiles/AbstractFactory.dir/main.cpp.o: ../Factory2.h
-CMakeFiles/AbstractFactory.dir/main.cpp.o: ../ProductA.h
-CMakeFiles/AbstractFactory.dir/main.cpp.o: ../ProductA1.h
-CMakeFiles/AbstractFactory.dir/main.cpp.o: ../ProductA2.h
-CMakeFiles/AbstractFactory.dir/main.cpp.o: ../ProductB.h
-CMakeFiles/AbstractFactory.dir/main.cpp.o: ../ProductB1.h
-CMakeFiles/AbstractFactory.dir/main.cpp.o: ../ProductB2.h
+CMakeFiles/AbstractFactory.dir/main.cpp.o: ../Product1.h
+CMakeFiles/AbstractFactory.dir/main.cpp.o: ../Product1a.h
+CMakeFiles/AbstractFactory.dir/main.cpp.o: ../Product1b.h
+CMakeFiles/AbstractFactory.dir/main.cpp.o: ../Product2.h
+CMakeFiles/AbstractFactory.dir/main.cpp.o: ../Product2a.h
+CMakeFiles/AbstractFactory.dir/main.cpp.o: ../Product2b.h
 CMakeFiles/AbstractFactory.dir/main.cpp.o: ../main.cpp
 

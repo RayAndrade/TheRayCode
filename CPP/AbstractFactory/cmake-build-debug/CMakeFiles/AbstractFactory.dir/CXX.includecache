@@ -16,37 +16,37 @@ AbstractFactory.h
 AbstractFactory.h
 /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/AbstractFactory.h
 
-/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductA.h
+/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product1.h
 
-/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductA1.h
-ProductA.h
-/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductA.h
+/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product1a.h
+Product1.h
+/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product1.h
 
-/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductA2.h
-ProductA.h
-/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductA.h
+/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product1b.h
+Product2.h
+/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product2.h
 
-/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductB.h
+/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product2.h
 
-/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductB1.h
-ProductB.h
-/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductB.h
+/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product2a.h
+Product1.h
+/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product1.h
 
-/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductB2.h
-ProductB.h
-/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductB.h
+/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product2b.h
+Product2.h
+/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product2.h
 
 /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/main.cpp
 iostream
 -
-ProductA1.h
-/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductA1.h
-ProductA2.h
-/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductA2.h
-ProductB1.h
-/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductB1.h
-ProductB2.h
-/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductB2.h
+Product1a.h
+/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product1a.h
+Product2a.h
+/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product2a.h
+Product1b.h
+/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product1b.h
+Product2b.h
+/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product2b.h
 Factory1.h
 /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Factory1.h
 Factory2.h

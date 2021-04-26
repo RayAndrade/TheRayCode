@@ -11,8 +11,8 @@
  */
 class AbstractFactory {
 public:
-    virtual ProductA *CreateProductA() const = 0;
-    virtual ProductB *CreateProductB() const = 0;
+    virtual Product1 *CreateProductA() const = 0;
+    virtual Product2 *CreateProductB() const = 0;
 };
 
 

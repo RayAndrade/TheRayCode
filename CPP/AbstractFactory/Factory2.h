@@ -8,11 +8,11 @@
  */
 class Factory2 : public AbstractFactory {
 public:
-    ProductA *CreateProductA() const override {
-        return new ProductA2();
+    Product1 *CreateProductA() const override {
+        return new Product2a();
     }
-    ProductB *CreateProductB() const override {
-        return new ProductB2();
+    Product2 *CreateProductB() const override {
+        return new Product2b();
     }
 };
 

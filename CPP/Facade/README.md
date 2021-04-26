@@ -15,14 +15,14 @@ In any case, to the Subsystem, the Facade is yet another client, and it's not a 
 ```c++
 #include <iostream>
 
-class System1 {
+class SystemA {
 public:
-    std::string Operation1() const {
-        return "System1: Ready!\n";
+    std::string OperationA() const {
+        return "SystemA: Ready!\n";
     }
     // ...
     std::string OperationN() const {
-        return "System1: Go!\n";
+        return "SystemA: Go!\n";
     }
 };
 ```
@@ -30,14 +30,14 @@ Some facades can work with multiple subsystems at the same time.
 ```c++
 #include <iostream>
 
-class System2 {
+class SystemB {
 public:
-    std::string Operation1() const {
-        return "System2: Get ready!\n";
+    std::string OperationA() const {
+        return "SystemB: Get ready!\n";
     }
     // ...
     std::string OperationZ() const {
-        return "System2: Fire!\n";
+        return "SystemB: Fire!\n";
     }
 };
 ```
@@ -54,14 +54,14 @@ However, clients get only to a fraction of a subsystem's capabilities.
 ```c++
 class Facade {
 protected:
-    System1 *system1_;
-    System2 *system2_;
+    SystemA *system1_;
+    SystemB *system2_;
 public:
     Facade(
-            System1 *system1 = nullptr,
-            System2 *system2 = nullptr) {
-        this->system1_ = system1 ?: new System1;
-        this->system2_ = system2 ?: new System2;
+            SystemA *system1 = nullptr,
+            SystemB *system2 = nullptr) {
+        this->system1_ = system1 ?: new SystemA;
+        this->system2_ = system2 ?: new SystemB;
     }
     ~Facade() {
         delete system1_;
@@ -69,8 +69,8 @@ public:
     }
     std::string Operation() {
         std::string result = "Facade initializes systems:\n";
-        result += this->system1_->Operation1();
-        result += this->system2_->Operation1();
+        result += this->system1_->OperationA();
+        result += this->system2_->OperationA();
         result += "Facade orders systems to perform the action:\n";
         result += this->system1_->OperationN();
         result += this->system2_->OperationZ();
@@ -99,8 +99,8 @@ In this case, it might be worthwhile to initialize the Facade with these objects
 
 ```cpp
 int main() {
-    System1 *system1 = new System1;
-    System2 *system2 = new System2;
+    SystemA *system1 = new SystemA;
+    SystemB *system2 = new SystemB;
     Facade *facade = new Facade(system1, system2);
     ClientCode(facade);
 
@@ -112,11 +112,11 @@ int main() {
 When we compile and run we get:
 ```run
 Facade initializes systems:
-System1: Ready!
-System2: Get ready!
+SystemA: Ready!
+SystemB: Get ready!
 Facade orders systems to perform the action:
-System1: Go!
-System2: Fire!
+SystemA: Go!
+SystemB: Fire!
 ```
 
 The Ray Code is AWESOME!!!

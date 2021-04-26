@@ -20,9 +20,9 @@ void ClientCode(Facade *facade) {
  */
 
 int main() {
-    System1 *system1 = new System1;
-    System2 *system2 = new System2;
-    Facade *facade = new Facade(system1, system2);
+    SystemA *systemA = new SystemA;
+    SystemB *systemB = new SystemB;
+    Facade *facade = new Facade(systemA, systemB);
     ClientCode(facade);
 
     delete facade;

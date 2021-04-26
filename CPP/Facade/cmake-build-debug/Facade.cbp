@@ -85,10 +85,10 @@
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Facade/Facade.h">
 			<Option target="Facade"/>
 		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Facade/System1.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Facade/SystemA.h">
 			<Option target="Facade"/>
 		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Facade/System2.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Facade/SystemB.h">
 			<Option target="Facade"/>
 		</Unit>
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Facade/main.cpp">

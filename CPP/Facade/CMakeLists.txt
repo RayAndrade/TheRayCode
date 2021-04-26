@@ -3,4 +3,4 @@ project(Facade)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Facade main.cpp System1.h System2.h Facade.h)
+add_executable(Facade main.cpp SystemA.h SystemB.h Facade.h)
