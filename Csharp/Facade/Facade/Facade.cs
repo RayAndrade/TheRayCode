@@ -2,14 +2,14 @@ namespace TheRayCode.Facade
 {
     public class Facade
     {
-        protected Subsystem1 _subsystem1;
+        protected SubsystemA SubsystemA;
         
-        protected Subsystem2 _subsystem2;
+        protected SubsystemB SubsystemB;
 
-        public Facade(Subsystem1 subsystem1, Subsystem2 subsystem2)
+        public Facade(SubsystemA subsystemA, SubsystemB subsystemB)
         {
-            this._subsystem1 = subsystem1;
-            this._subsystem2 = subsystem2;
+            this.SubsystemA = subsystemA;
+            this.SubsystemB = subsystemB;
         }
         
         // The Facade's methods are convenient shortcuts to the sophisticated
@@ -18,11 +18,11 @@ namespace TheRayCode.Facade
         public string Operation()
         {
             string result = "Facade initializes subsystems:\n";
-            result += this._subsystem1.operation1();
-            result += this._subsystem2.operation1();
+            result += this.SubsystemA.operation1();
+            result += this.SubsystemB.operation2();
             result += "Facade orders subsystems to perform the action:\n";
-            result += this._subsystem1.operationN();
-            result += this._subsystem2.operationZ();
+            result += this.SubsystemA.operationN();
+            result += this.SubsystemB.operationZ();
             return result;
         }
     }

@@ -2,28 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="745f90d0-1a48-4e47-9de0-9243c41ac51e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../CPP/Facade/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Facade/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Facade/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Facade/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Facade/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Facade/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Facade/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Facade/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Facade/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/bin/Debug/netcoreapp3.1/Facade" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/bin/Debug/netcoreapp3.1/Facade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/Facade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/Facade.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/Subsystem1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/SubsystemA.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/Subsystem2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/SubsystemB.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Facade/bin/Debug/netcoreapp3.1/Facade.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/bin/Debug/netcoreapp3.1/Facade.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Facade/bin/Debug/netcoreapp3.1/Facade.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/bin/Debug/netcoreapp3.1/Facade.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Debug/netcoreapp3.1/Facade.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/obj/Facade.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Facade.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/obj/Facade.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/Facade.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Facade/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Facade/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +24,16 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Facade/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Facade/Client.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Facade/Subsystem2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Facade/SubsystemB.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Facade/Facade.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Facade/Subsystem1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Facade/SubsystemA.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Facade/Program.cs" />
+      <option value="$PROJECT_DIR$/Facade/SubsystemA.cs" />
+      <option value="$PROJECT_DIR$/Facade/SubsystemB.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1eEc3cY5WC4Z48J5sNMlO25PeG0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -92,6 +87,7 @@
       <workItem from="1619377834320" duration="1950000" />
       <workItem from="1619402376990" duration="31000" />
       <workItem from="1619402527242" duration="28000" />
+      <workItem from="1619467077535" duration="1210000" />
     </task>
     <servers />
   </component>
@@ -100,6 +96,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

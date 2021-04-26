@@ -1,15 +1,15 @@
 namespace TheRayCode.Facade
 {
-    public class Subsystem1
+    public class SubsystemA
     {
         public string operation1()
         {
-            return "Subsystem1: Ready!\n";
+            return "SubsystemA: Ready!\n";
         }
 
         public string operationN()
         {
-            return "Subsystem1: Go!\n";
+            return "SubsystemA: Go!\n";
         }
     }
 
