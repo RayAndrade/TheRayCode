@@ -8,38 +8,38 @@ In this show I plan to cover the Facade design pattern
 The Facade pattern provides a unified interface in a subsystem. The Facade defines a HIGHER level interface easier to use.
 
 let’s create 2 classes:
-**Subsystem1** and **Subsystem2**
+**SubsystemA** and **SubsystemB**
 
 ```php
-Subsystem1
+SubsystemA
 ```
 
 ```php
 public function operation1(): string
 {
-  return "Subsystem1: Ready!<br/>";
+  return "SubsystemA: Ready!<br/>";
 }
 ```
 ```php
 public function operationN(): string
 {
-  return "Subsystem1: Go!<br/>";
+  return "SubsystemA: Go!<br/>";
 }
 ```
 ```php
-Subsystem2
+SubsystemB
 ```
 
 ```php
 public function operation1(): string
 {
-  return "Subsystem2: Ready!<br/>";
+  return "SubsystemB: Ready!<br/>";
 }
 ```
 ```php
 public function operationZ(): string
 {
-  return "Subsystem2: Fire!<br/>";
+  return "SubsystemB: Fire!<br/>";
 }
 ```
 
@@ -95,9 +95,9 @@ function clientCode(Facade $facade)
   echo $facade->operation();
 }
 
-$subsystem1 = new SubsystemA;
-$subsystem2 = new SubsystemB;
-$facade = new Facade($subsystem1, $subsystem2);
+$subsystemA = new SubsystemA;
+$subsystemB = new SubsystemB;
+$facade = new Facade($subsystemA, $subsystemB);
 clientCode($facade);
 ```
 
@@ -106,12 +106,7 @@ Facade is a structural design pattern that provides a simplified interface to a 
 
 I hope you’ve enjoyed this episode Facade design pattern
 
-this and other design patterns you can find in this channel
-
-you purchase the whole series of 22 design patterns in C# C++ PHP Java or any combinations of languages along with UMLs (Unified Modeling Language) diagrams
- be good subscribe and like The Ray Code,.
-
-
+The Ray Code is AWESOME!!!
 
 [Wikipedia](https://en.wikipedia.org/wiki/Facade_pattern)
 
