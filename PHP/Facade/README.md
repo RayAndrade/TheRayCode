@@ -123,9 +123,6 @@ $facade = new Facade($subsystemA, $subsystemB);
 clientCode($facade);
 ```
 
-
-
-
 The Ray Code is AWESOME!!!
 
 [Wikipedia](https://en.wikipedia.org/wiki/Facade_pattern)
