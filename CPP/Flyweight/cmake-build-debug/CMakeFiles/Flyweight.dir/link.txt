@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Flyweight.dir/main.cpp.o CMakeFiles/Flyweight.dir/SharedState.cpp.o CMakeFiles/Flyweight.dir/UniqueState.cpp.o CMakeFiles/Flyweight.dir/Flyweight.cpp.o CMakeFiles/Flyweight.dir/FlyweightFactory.cpp.o  -o Flyweight 
+/usr/bin/c++ -g CMakeFiles/Flyweight.dir/main.cpp.o -o Flyweight 

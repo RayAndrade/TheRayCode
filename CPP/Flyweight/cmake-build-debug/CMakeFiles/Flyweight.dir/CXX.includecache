@@ -6,31 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/ray/CLionProjects/Flyweight/Flyweight.h
-SharedState.h
-/home/ray/CLionProjects/Flyweight/SharedState.h
-UniqueState.h
-/home/ray/CLionProjects/Flyweight/UniqueState.h
-
-/home/ray/CLionProjects/Flyweight/FlyweightFactory.cpp
-FlyweightFactory.h
-/home/ray/CLionProjects/Flyweight/FlyweightFactory.h
-
-/home/ray/CLionProjects/Flyweight/FlyweightFactory.h
-Flyweight.h
-/home/ray/CLionProjects/Flyweight/Flyweight.h
-unordered_map
--
-
-/home/ray/CLionProjects/Flyweight/SharedState.h
-iostream
--
-
-/home/ray/CLionProjects/Flyweight/UniqueState.h
-iostream
--
-
-/home/ray/CLionProjects/Flyweight/main.cpp
-FlyweightFactory.h
-/home/ray/CLionProjects/Flyweight/FlyweightFactory.h
-

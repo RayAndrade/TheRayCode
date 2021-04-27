@@ -1,4 +1,4 @@
-/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.5784.34/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ray/CLionProjects/Flyweight
+/home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ray/TheRayCode/TheRayCode/CPP/Flyweight
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/ray/CLionProjects/Flyweight/cmake-build-debug
+-- Build files have been written to: /home/ray/TheRayCode/TheRayCode/CPP/Flyweight/cmake-build-debug
