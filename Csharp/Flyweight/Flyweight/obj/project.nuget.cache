@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CatAjMVGhAl4jYiZJlsqQIQt15gxP/ezuWUkEceAs7uYgGKwwh+CTFY2k/HRfWxpt2Cf7Zo4+AwFpBf1p5z1wQ==",
+  "dgSpecHash": "m2/Byjlz8rAjoNU4GtbY9/axVcfH7teQhF49qXgHhJ+oAdkMIK/+Ah+hEK6jliLx8kLNePgAcOKQfN614WsJeg==",
   "success": true,
-  "projectFilePath": "/home/ray/Desktop/TheRayCode/Csharp/Flyweight/Flyweight/Flyweight.csproj",
+  "projectFilePath": "/home/ray/TheRayCode/TheRayCode/Csharp/Flyweight/Flyweight/Flyweight.csproj",
   "expectedPackageFiles": [
     "/home/ray/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
   ],

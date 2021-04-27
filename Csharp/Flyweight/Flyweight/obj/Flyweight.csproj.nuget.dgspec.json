@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ray/Desktop/TheRayCode/Csharp/Flyweight/Flyweight/Flyweight.csproj": {}
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Flyweight/Flyweight/Flyweight.csproj": {}
   },
   "projects": {
-    "/home/ray/Desktop/TheRayCode/Csharp/Flyweight/Flyweight/Flyweight.csproj": {
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Flyweight/Flyweight/Flyweight.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ray/Desktop/TheRayCode/Csharp/Flyweight/Flyweight/Flyweight.csproj",
+        "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/Flyweight/Flyweight/Flyweight.csproj",
         "projectName": "Flyweight",
-        "projectPath": "/home/ray/Desktop/TheRayCode/Csharp/Flyweight/Flyweight/Flyweight.csproj",
+        "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Flyweight/Flyweight/Flyweight.csproj",
         "packagesPath": "/home/ray/.nuget/packages/",
-        "outputPath": "/home/ray/Desktop/TheRayCode/Csharp/Flyweight/Flyweight/obj/",
+        "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Flyweight/Flyweight/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
