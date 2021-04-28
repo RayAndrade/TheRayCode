@@ -172,7 +172,7 @@ BMW_M5_red
 BMW_white_X6
 BMW_red_X1
 ```
-
+The Ray Code is AWESOME!!!
 
 [Wikipedia](https://en.wikipedia.org/wiki/Flyweight_pattern)
 
