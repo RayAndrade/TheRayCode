@@ -66,8 +66,6 @@ public class Tree {
     }
 }
 ```
-![Flyweight](/UMLs/images/Flyweight/Flyweight-11.png)
-
 Now let's create a package called **forest** and inside that package we place a class also called **Forest**.
 The **Forest** class is extended with the **JFrame** utility. 
 
@@ -133,7 +131,7 @@ public class Demo {
 Let's compile and run this.
 We should get a neat graphic.
 
-
+![Flyweight](/UMLs/images/Flyweight/Flyweight-11.png)
 
 
 [Wikipedia](https://en.wikipedia.org/wiki/Flyweight_pattern)
