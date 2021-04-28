@@ -66,6 +66,7 @@ public class Tree {
     }
 }
 ```
+![Flyweight](/UMLs/images/Flyweight/Flyweight-11.png)
 
 Now let's create a package called **forest** and inside that package we place a class also called **Forest**.
 The **Forest** class is extended with the **JFrame** utility. 
