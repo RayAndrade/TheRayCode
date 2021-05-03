@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ray/CLionProjects/Proxy/main.cpp" "/home/ray/CLionProjects/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/main.cpp.o"
+  "/home/ray/TheRayCode/TheRayCode/CPP/Proxy/main.cpp" "/home/ray/TheRayCode/TheRayCode/CPP/Proxy/cmake-build-debug/CMakeFiles/Proxy.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
