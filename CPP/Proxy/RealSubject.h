@@ -10,7 +10,7 @@
 class RealSubject : public Subject {
 public:
     void Request() const override {
-        std::cout << "RealSubject: Handling request.\n";
+        std::cout << "The RealSubject is Handling the request.\n";
     }
 };
 

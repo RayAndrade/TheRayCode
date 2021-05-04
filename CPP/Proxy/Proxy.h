@@ -15,11 +15,11 @@ private:
 
     bool CheckAccess() const {
         // Some real checks should go here.
-        std::cout << "Proxy: Checking access prior to firing a real request.\n";
+        std::cout << "Checking access prior to firing a real request.\n";
         return true;
     }
     void LogAccess() const {
-        std::cout << "Proxy: Logging the time of request.\n";
+        std::cout << "Logging the time of request.\n";
     }
 
     /**
