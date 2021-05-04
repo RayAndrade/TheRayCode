@@ -80,7 +80,7 @@ void ClientCode(const Subject &subject) {
 }
 ```
 
-And when we create the **main** methodwe declare a new **RealSubject** and do some work.
+And when we create the **main** method we declare a new **RealSubject** and do some work.
 ```c++
 int main() {
     std::cout << "Executing the client code with a real subject:\n";
