@@ -29,6 +29,9 @@ class RealSubject : public Subject {
   }
 };
 ```
+![Proxy](/UMLs/images/Proxy/Proxy-1.png)
+
+
 
 A **Proxy** can solve these issues without any changes in the **RealSubject's** code because the **Proxy** has an interface identical to the **RealSubject**.
 The Proxy maintains a reference to an object of the RealSubject class. 
