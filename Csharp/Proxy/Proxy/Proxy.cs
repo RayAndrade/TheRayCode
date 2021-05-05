@@ -28,7 +28,7 @@ namespace TheRayCode.Proxy
         public bool CheckAccess()
         {
             // Some real checks should go here.
-            Console.WriteLine("Proxy: Checking access prior to firing a real request.");
+            Console.WriteLine("Checking access prior to firing a real request.");
 
             return true;
         }

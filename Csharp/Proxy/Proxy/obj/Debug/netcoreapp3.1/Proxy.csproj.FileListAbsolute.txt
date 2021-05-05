@@ -24,3 +24,16 @@
 /home/ray/Desktop/TheRayCode/Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.dll
 /home/ray/Desktop/TheRayCode/Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.pdb
 /home/ray/Desktop/TheRayCode/Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.genruntimeconfig.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy
+/home/ray/TheRayCode/TheRayCode/Csharp/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy.deps.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy.runtimeconfig.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy.runtimeconfig.dev.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Proxy/Proxy/bin/Debug/netcoreapp3.1/Proxy.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.csprojAssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.AssemblyInfoInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.AssemblyInfo.cs
+/home/ray/TheRayCode/TheRayCode/Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Proxy/Proxy/obj/Debug/netcoreapp3.1/Proxy.genruntimeconfig.cache

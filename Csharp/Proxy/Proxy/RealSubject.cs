@@ -6,7 +6,7 @@ namespace TheRayCode.Proxy
     {
         public void Request()
         {
-            Console.WriteLine("RealSubject: Handling Request.");
+            Console.WriteLine("Handling Request.");
         }
     }
 

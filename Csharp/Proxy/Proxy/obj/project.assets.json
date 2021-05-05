@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ray/Desktop/TheRayCode/Csharp/Proxy/Proxy/Proxy.csproj",
+      "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/Proxy/Proxy/Proxy.csproj",
       "projectName": "Proxy",
-      "projectPath": "/home/ray/Desktop/TheRayCode/Csharp/Proxy/Proxy/Proxy.csproj",
+      "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Proxy/Proxy/Proxy.csproj",
       "packagesPath": "/home/ray/.nuget/packages/",
-      "outputPath": "/home/ray/Desktop/TheRayCode/Csharp/Proxy/Proxy/obj/",
+      "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Proxy/Proxy/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
