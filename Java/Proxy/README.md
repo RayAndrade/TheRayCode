@@ -19,6 +19,74 @@
 <li>When we want to add a layer of security to the original underlying object to provide controlled access based on access rights of the client. This is called Protection Proxy</li>
 </ul>
 
+To the **proxy** package let's add the *interface* **VeryExpensiveProcess**.
+```java
+public interface VeryExpensiveProcess {
+    public abstract void process();
+}
+```
+We add the package *impl* we add the *class* **VeryExpensiveProcessProxy**.
+This class is responsible to utilize the Proxy design pattern and initialize our object on demand.
+Now we will utilize the Proxy pattern and initialize our Expansive object on demand.
+
+```java
+import TheRayCode.proxy.*;
+
+public class VeryExpensiveProcessProxy implements VeryExpensiveProcess {
+
+    private static VeryExpensiveProcess veryExpensiveObject;
+
+    @Override
+    public void process() {
+        if (veryExpensiveObject == null) {
+            veryExpensiveObject = new VeryExpensiveProcessImpl();
+        }
+        veryExpensiveObject.process();
+    }
+}
+```
+
+Also to the package **impl** we add another class that *implements* **VeryExpensiveProcess**.
+
+```java
+import TheRayCode.proxy.*;
+
+public class VeryExpensiveProcessImpl implements VeryExpensiveProcess {
+    public VeryExpensiveProcessImpl() {
+        heavyInitialConfigurationSetup();
+    }
+    @Override
+    public void process() {
+        System.out.println("Processing is done");
+    }
+    private void heavyInitialConfigurationSetup() {
+        System.out.println("Setting up initial configuration");
+    }
+}
+```
+Last we add a **main** method to are **Demo** class.
+
+```java
+import TheRayCode.impl.*;
+import TheRayCode.proxy.*;
+
+public class Demo {
+    public static void main(String[] args) {
+
+        VeryExpensiveProcess veryExpensiveProcess = new VeryExpensiveProcessProxy();
+        veryExpensiveProcess.process();
+        veryExpensiveProcess.process();
+    }
+}
+```
+When we compile and run we should get:
+```run
+Setting up initial configuration
+Processing is done
+Processing is done
+```
+The Ray code is AWESOME!!!
+
 [Wikipedia](https://en.wikipedia.org/wiki/Proxy_pattern)
 
 ----------------------------------------------------------------------------------------------------
