@@ -64,6 +64,9 @@ public class VeryExpensiveProcessImpl implements VeryExpensiveProcess {
     }
 }
 ```
+![Proxy](/UMLs/images/Proxy/Proxy-2.gif)
+
+
 Last we add a **main** method to are **Demo** class.
 
 ```java
@@ -79,6 +82,8 @@ public class Demo {
     }
 }
 ```
+
+
 When we compile and run we should get:
 ```run
 Setting up initial configuration
