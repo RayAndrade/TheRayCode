@@ -1,9 +1,12 @@
 # TheRayCode
 ## Proxy pattern c#
 
-TheRayCode C#  Proxy design pattern
-create the **interface Subject**
-add
+Proxy is a structural design pattern that lets you provide a substitute/placeholder for another object. 
+The proxy controls access to the original object, allowing you to perform work before or after the request to the original object.
+
+First create the **interface Subject**.
+The **Subject** interface declares common operations for both the **RealSubject** and the Proxy. 
+As long as the client works with RealSubject using this interface, you'll be able to pass it to a proxy instead of the real subject.
 
 ```c#
 public interface Subject
@@ -11,10 +14,8 @@ public interface Subject
    void Request();
 }
 ```
-Create class **RealSubject**
-remove **public**
-extend with **: Subject**
-to **Request**
+Create class **RealSubject** and remove the **public** that was added with the code generation.
+Extend with **: Subject** to **Request**
 the code is:
 ```c#
 
@@ -27,8 +28,6 @@ class RealSubject : Subject
 }
 ```
 
-The most common applications of the Proxy pattern are lazy loading, caching, controlling the access, logging, etc. 
-A Proxy can perform one of these things and then, depending on the result, pass the execution to the same method in a linked RealSubject object.
 
 Create a class called **Proxy** and extend it with **: Subject**
 remove the **public** ans implment missing members.

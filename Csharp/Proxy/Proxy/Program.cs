@@ -7,7 +7,7 @@ namespace TheRayCode.Proxy
         static void Main(string[] args)
         {
             Client client = new Client();
-            
+
             Console.WriteLine("Executing the client code with a real subject:");
             RealSubject realSubject = new RealSubject();
             client.ClientCode(realSubject);

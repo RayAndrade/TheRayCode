@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="988e7a39-623a-479f-a50c-1e032bc46824" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proxy/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proxy/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proxy/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proxy/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proxy/.idea/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Proxy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Proxy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Proxy/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Proxy/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/Proxy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/Proxy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/RealSubject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/RealSubject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/bin/Debug/netcoreapp3.1/Proxy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/bin/Debug/netcoreapp3.1/Proxy.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/bin/Debug/netcoreapp3.1/Proxy.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/bin/Debug/netcoreapp3.1/Proxy.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/Debug/netcoreapp3.1/Proxy.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +26,9 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Proxy/Subject.cs" />
-      <option value="$PROJECT_DIR$/Proxy/Program.cs" />
       <option value="$PROJECT_DIR$/Proxy/Proxy.cs" />
       <option value="$PROJECT_DIR$/Proxy/RealSubject.cs" />
+      <option value="$PROJECT_DIR$/Proxy/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1eEdXBB0ze9Tn05bfpXgjimdfGi" />
@@ -97,6 +84,9 @@
       <workItem from="1597997591760" duration="1213000" />
       <workItem from="1607886501485" duration="97000" />
       <workItem from="1620192704698" duration="1730000" />
+      <workItem from="1620243238277" duration="648000" />
+      <workItem from="1620326927668" duration="619000" />
+      <workItem from="1620415922482" duration="599000" />
     </task>
     <servers />
   </component>
