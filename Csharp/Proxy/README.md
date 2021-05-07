@@ -27,7 +27,7 @@ class RealSubject : Subject
     }
 }
 ```
-
+![Proxy](/UMLs/images/Proxy/Proxy-3.png)
 
 Create a class called **Proxy** and extend it with **: Subject**
 remove the **public** ans implment missing members.
