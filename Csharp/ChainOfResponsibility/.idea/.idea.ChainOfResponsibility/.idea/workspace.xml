@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e7572f0-5a64-4853-a82b-d7eae51fb663" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/BearHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/MonkeyHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/CatHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/MouseHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/MouseHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,22 +26,23 @@
     <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/Handler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/Client.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/MonkeyHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/BearHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/MouseHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/CatHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/AbstractHandler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/ChainOfResponsibility/MonkeyHandler.cs" />
       <option value="$PROJECT_DIR$/ChainOfResponsibility/SquirrelHandler.cs" />
       <option value="$PROJECT_DIR$/ChainOfResponsibility/AbstractHandler.cs" />
-      <option value="$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" />
       <option value="$PROJECT_DIR$/ChainOfResponsibility/IHandler.cs" />
       <option value="$PROJECT_DIR$/ChainOfResponsibility/BearHandler.cs" />
-      <option value="$PROJECT_DIR$/ChainOfResponsibility/MouseHandler.cs" />
       <option value="$PROJECT_DIR$/ChainOfResponsibility/Handler.cs" />
+      <option value="$PROJECT_DIR$/ChainOfResponsibility/MonkeyHandler.cs" />
       <option value="$PROJECT_DIR$/ChainOfResponsibility/Program.cs" />
+      <option value="$PROJECT_DIR$/ChainOfResponsibility/CatHandler.cs" />
+      <option value="$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" />
+      <option value="$PROJECT_DIR$/ChainOfResponsibility/MouseHandler.cs" />
       <option value="$PROJECT_DIR$/ChainOfResponsibility/Client.cs" />
     </changedPaths>
   </component>
@@ -102,6 +106,7 @@
       <workItem from="1613254606932" duration="2149000" />
       <workItem from="1613422365263" duration="334000" />
       <workItem from="1620501801779" duration="93000" />
+      <workItem from="1620591590547" duration="1106000" />
     </task>
     <servers />
   </component>
@@ -129,7 +134,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ChainOfResponsibility/BearHandler.cs</url>
+          <url>file://$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs</url>
           <line>5</line>
           <properties documentPath="$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" initialLine="5" />
           <option name="timeStamp" value="2" />
@@ -148,20 +153,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ChainOfResponsibility/MonkeyHandler.cs</url>
-          <line>5</line>
-          <properties documentPath="$PROJECT_DIR$/ChainOfResponsibility/MonkeyHandler.cs" initialLine="5">
-            <startOffsets>
-              <option value="144" />
-            </startOffsets>
-            <endOffsets>
-              <option value="145" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ChainOfResponsibility/MouseHandler.cs</url>
+          <url>file://$PROJECT_DIR$/ChainOfResponsibility/CatHandler.cs</url>
           <line>5</line>
           <properties documentPath="$PROJECT_DIR$/ChainOfResponsibility/SquirrelHandler.cs" initialLine="5" />
           <option name="timeStamp" value="5" />

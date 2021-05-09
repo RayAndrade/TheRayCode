@@ -1,12 +1,12 @@
 namespace ChainOfResponsibility
 {
-    class BearHandler : AbstractHandler
+    class CatHandler : AbstractHandler
     {
         public override object Handle(object request)
         {
-            if (request.ToString() == "Honey")
+            if (request.ToString() == "Catnip")
             {
-                return $"Bear: Oh my!! I'll eat the {request.ToString()}.\n";
+                return $"Cat: I love {request.ToString()}.\n";
             }
             else
             {

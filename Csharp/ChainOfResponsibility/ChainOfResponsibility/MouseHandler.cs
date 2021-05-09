@@ -4,9 +4,9 @@ namespace ChainOfResponsibility
     {
         public override object Handle(object request)
         {
-            if (request.ToString() == "Cheese")
+            if ((request as string) == "Cheese")
             {
-                return $"Mouse: I love {request.ToString()}.\n";
+                return $"Mouse: I'll eat the {request.ToString()}.\n";
             }
             else
             {
