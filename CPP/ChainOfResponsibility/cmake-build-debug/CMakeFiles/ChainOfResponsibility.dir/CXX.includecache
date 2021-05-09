@@ -6,37 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/ray/CLionProjects/ChainOfResponsibility/AbstractHandler.h
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/AbstractHandler.h
 Handler.h
-/home/ray/CLionProjects/ChainOfResponsibility/Handler.h
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/Handler.h
 
-/home/ray/CLionProjects/ChainOfResponsibility/DogHandler.h
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/DogHandler.h
 AbstractHandler.h
-/home/ray/CLionProjects/ChainOfResponsibility/AbstractHandler.h
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/AbstractHandler.h
 
-/home/ray/CLionProjects/ChainOfResponsibility/Handler.h
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/Handler.h
 iostream
 -
 
-/home/ray/CLionProjects/ChainOfResponsibility/MonkeyHandler.h
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/MonkeyHandler.h
 AbstractHandler.h
-/home/ray/CLionProjects/ChainOfResponsibility/AbstractHandler.h
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/AbstractHandler.h
 
-/home/ray/CLionProjects/ChainOfResponsibility/RabbitHandler.h
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/RabbitHandler.h
 AbstractHandler.h
-/home/ray/CLionProjects/ChainOfResponsibility/AbstractHandler.h
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/AbstractHandler.h
 
-/home/ray/CLionProjects/ChainOfResponsibility/main.cpp
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/main.cpp
 iostream
 -
 vector
 -
 Handler.h
-/home/ray/CLionProjects/ChainOfResponsibility/Handler.h
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/Handler.h
 MonkeyHandler.h
-/home/ray/CLionProjects/ChainOfResponsibility/MonkeyHandler.h
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/MonkeyHandler.h
 RabbitHandler.h
-/home/ray/CLionProjects/ChainOfResponsibility/RabbitHandler.h
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/RabbitHandler.h
 DogHandler.h
-/home/ray/CLionProjects/ChainOfResponsibility/DogHandler.h
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/DogHandler.h
 

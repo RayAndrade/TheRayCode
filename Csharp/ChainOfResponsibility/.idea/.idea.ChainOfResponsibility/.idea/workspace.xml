@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e7572f0-5a64-4853-a82b-d7eae51fb663" name="Default Changelist" comment="" />
+    <list default="true" id="3e7572f0-5a64-4853-a82b-d7eae51fb663" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,13 +20,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/AbstractHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/Handler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/BearHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/Client.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/Client.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/MonkeyHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/BearHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/MouseHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ChainOfResponsibility/AbstractHandler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -92,6 +101,7 @@
       <workItem from="1609541869542" duration="504000" />
       <workItem from="1613254606932" duration="2149000" />
       <workItem from="1613422365263" duration="334000" />
+      <workItem from="1620501801779" duration="93000" />
     </task>
     <servers />
   </component>
