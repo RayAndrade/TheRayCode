@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e7572f0-5a64-4853-a82b-d7eae51fb663" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="3e7572f0-5a64-4853-a82b-d7eae51fb663" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +94,7 @@
       <workItem from="1613254606932" duration="2149000" />
       <workItem from="1613422365263" duration="334000" />
       <workItem from="1620501801779" duration="93000" />
-      <workItem from="1620591590547" duration="3679000" />
+      <workItem from="1620591590547" duration="4357000" />
     </task>
     <servers />
   </component>
@@ -124,12 +121,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs</url>
-          <line>5</line>
-          <properties documentPath="$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" initialLine="5" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ChainOfResponsibility/Client.cs</url>
           <line>10</line>

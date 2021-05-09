@@ -198,6 +198,24 @@ do {
 } while (!success);
 
 ```
+Let's run this an see what happens:
+```run
+Enter email: admin@example.com
+Input password: admin_pass
+Hello, admin!
+Authorization have been successful!
+```
+and let's run again:
+```run
+Enter email: user@example.com
+Input password: user_pass
+Hello, user!
+Authorization have been successful!
+
+```
+The Ray Code is AWESOME!!!
+
+
 [Wikipedia](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
 
 ----------------------------------------------------------------------------------------------------
