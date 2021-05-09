@@ -3,15 +3,15 @@ namespace TheRayCode\ChainOfResponsibility;
 include_once ('Handler.php');
 include_once ('AbstractHandler.php');
 
-include_once ('MonkeyHandler.php');
-include_once ('SquirrelHandler.php');
+include_once('CatHandler.php');
+include_once('MouseHandler.php');
 include_once ('DogHandler.php');
 
 
 
 function clientCode(Handler $handler)
 {
-    foreach (["Nut", "Banana", "Cup of coffee"] as $food) {
+    foreach (["Catnip", "Bone", "Cup of coffee"] as $food) {
         echo "Client: Who wants a " . $food . "?\n";
         $result = $handler->handle($food);
         if ($result) {
@@ -23,18 +23,18 @@ function clientCode(Handler $handler)
 }
 
 
-$monkey = new MonkeyHandler;
-$squirrel = new SquirrelHandler;
+$cat = new CatHandler;
+$mouse = new MouseHandler;
 $dog = new DogHandler;
 
-$monkey->setNext($squirrel)->setNext($dog);
+$cat->setNext($mouse)->setNext($dog);
 
-echo "Chain: Monkey > Squirrel > Dog<br/><br/>";
-clientCode($monkey);
+echo "Chain: Mouse > Cat > Dog<br/><br/>";
+clientCode($cat);
 echo "\n";
 
-echo "Subchain: Squirrel > Dog<br/><br/>";
-clientCode($squirrel);
+echo "Subchain: Mouse > Dog<br/><br/>";
+clientCode($mouse);
 
 
 echo "The Ray Code is AWESOME!!!<br/><br/>";

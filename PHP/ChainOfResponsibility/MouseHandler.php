@@ -4,12 +4,12 @@
 namespace TheRayCode\ChainOfResponsibility;
 
 
-class MonkeyHandler extends AbstractHandler
+class MouseHandler extends AbstractHandler
 {
     public function handle(string $request): ?string
     {
-        if ($request === "Banana") {
-            return "Monkey: I'll eat the " . $request . ".<br/>";
+        if ($request === "Cheese") {
+            return "Mouse: I'll eat the " . $request . ".<br/>";
         } else {
             return parent::handle($request);
         }
