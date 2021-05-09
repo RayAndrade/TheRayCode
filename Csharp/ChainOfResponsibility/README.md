@@ -38,6 +38,8 @@ abstract class AbstractHandler : Handler
     }
 }
 ```
+![ChainOfResponsibility](/UMLs/images/ChainOfResponsibility/ChainOfResponsibility-2.jpg)
+
 All Concrete Handlers either handle a request or pass it to the next handler in the chain.
 First we create a MouseHandler.cs
 ```c#
