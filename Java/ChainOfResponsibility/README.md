@@ -2,6 +2,8 @@
 ## Chain-of-responsibility pattern java
 
 In this example I want to create a system that authorizes either a user or an administrator or basic user. 
+
+![ChainOfResponsibility](/UMLs/images/ChainOfResponsibility/ChainOfResponsibility-3.jpg)
 First we should create some packages that holds our code.
 The packages that I want to create are called **middleware** and **server**.
 These packages will be areas where we will add our java code files to.
