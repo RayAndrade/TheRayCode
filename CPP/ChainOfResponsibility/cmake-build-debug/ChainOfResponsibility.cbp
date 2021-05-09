@@ -85,16 +85,16 @@
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/AbstractHandler.h">
 			<Option target="ChainOfResponsibility"/>
 		</Unit>
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/CatHandler.h">
+			<Option target="ChainOfResponsibility"/>
+		</Unit>
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/DogHandler.h">
 			<Option target="ChainOfResponsibility"/>
 		</Unit>
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/Handler.h">
 			<Option target="ChainOfResponsibility"/>
 		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/MonkeyHandler.h">
-			<Option target="ChainOfResponsibility"/>
-		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/RabbitHandler.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/MouseHandler.h">
 			<Option target="ChainOfResponsibility"/>
 		</Unit>
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/main.cpp">

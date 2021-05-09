@@ -3,4 +3,4 @@ project(ChainOfResponsibility)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ChainOfResponsibility main.cpp Handler.h AbstractHandler.h MonkeyHandler.h RabbitHandler.h DogHandler.h)
+add_executable(ChainOfResponsibility main.cpp Handler.h AbstractHandler.h MouseHandler.h CatHandler.h DogHandler.h)

@@ -10,6 +10,10 @@
 Handler.h
 /home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/Handler.h
 
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/CatHandler.h
+AbstractHandler.h
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/AbstractHandler.h
+
 /home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/DogHandler.h
 AbstractHandler.h
 /home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/AbstractHandler.h
@@ -18,11 +22,7 @@ AbstractHandler.h
 iostream
 -
 
-/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/MonkeyHandler.h
-AbstractHandler.h
-/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/AbstractHandler.h
-
-/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/RabbitHandler.h
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/MouseHandler.h
 AbstractHandler.h
 /home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/AbstractHandler.h
 
@@ -33,10 +33,10 @@ vector
 -
 Handler.h
 /home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/Handler.h
-MonkeyHandler.h
-/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/MonkeyHandler.h
-RabbitHandler.h
-/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/RabbitHandler.h
+MouseHandler.h
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/MouseHandler.h
+CatHandler.h
+/home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/CatHandler.h
 DogHandler.h
 /home/ray/TheRayCode/TheRayCode/CPP/ChainOfResponsibility/DogHandler.h
 
