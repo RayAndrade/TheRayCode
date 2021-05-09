@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3e7572f0-5a64-4853-a82b-d7eae51fb663" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ChainOfResponsibility/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/BearHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/DogHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/Client.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/MonkeyHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/CatHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/MouseHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/MouseHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/bin/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibility/obj/Debug/netcoreapp3.1/ChainOfResponsibility.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +97,7 @@
       <workItem from="1613254606932" duration="2149000" />
       <workItem from="1613422365263" duration="334000" />
       <workItem from="1620501801779" duration="93000" />
-      <workItem from="1620591590547" duration="1106000" />
+      <workItem from="1620591590547" duration="3679000" />
     </task>
     <servers />
   </component>
@@ -151,12 +142,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ChainOfResponsibility/CatHandler.cs</url>
-          <line>5</line>
-          <properties documentPath="$PROJECT_DIR$/ChainOfResponsibility/SquirrelHandler.cs" initialLine="5" />
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
