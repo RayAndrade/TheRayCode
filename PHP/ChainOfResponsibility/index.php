@@ -12,7 +12,7 @@ include_once ('DogHandler.php');
 function clientCode(Handler $handler)
 {
     foreach (["Catnip", "Bone", "Cup of coffee"] as $food) {
-        echo "Client: Who wants a " . $food . "?\n";
+        echo "Client: Who wants a " . $food . "?<br/>";
         $result = $handler->handle($food);
         if ($result) {
             echo "  " . $result;
@@ -29,13 +29,11 @@ $dog = new DogHandler;
 
 $cat->setNext($mouse)->setNext($dog);
 
-echo "Chain: Mouse > Cat > Dog<br/><br/>";
+echo "Chain: Mouse > Cat > Dog<br/>";
 clientCode($cat);
-echo "\n";
+echo "<br/>";
 
-echo "Subchain: Mouse > Dog<br/><br/>";
+echo "Subchain: Mouse > Dog<br/>";
 clientCode($mouse);
 
-
-echo "The Ray Code is AWESOME!!!<br/><br/>";
 
