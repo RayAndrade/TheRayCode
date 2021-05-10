@@ -8,10 +8,10 @@
  */
 class Receiver {
 public:
-    void DoSomething(const std::string &a) {
+    void DoWork(const std::string &a) {
         std::cout << "Receiver: Working on (" << a << ".)\n";
     }
-    void DoSomethingElse(const std::string &b) {
+    void DoSomeMoreWork(const std::string &b) {
         std::cout << "Receiver: Also working on (" << b << ".)\n";
     }
 };

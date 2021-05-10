@@ -30,8 +30,8 @@ public:
      */
     void Execute() const override {
         std::cout << "ComplexCommand: Complex stuff should be done by a receiver object.\n";
-        this->receiver_->DoSomething(this->a_);
-        this->receiver_->DoSomethingElse(this->b_);
+        this->receiver_->DoWork(this->a_);
+        this->receiver_->DoSomeMoreWork(this->b_);
     }
 };
 
