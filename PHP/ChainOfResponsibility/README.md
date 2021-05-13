@@ -77,7 +77,7 @@ class MouseHandler extends AbstractHandler
     }
 }
 ```
-
+![ChainOfResponsibility](/UMLs/images/ChainOfResponsibility/ChainOfResponsibility-4.png)
 Let's put this altogether in the index.php
 
 index.php
@@ -106,7 +106,7 @@ function clientCode(Handler $handler)
     }
 }
 ```
-
+Now for the pla/demo we put it altogether in the following statments.
 
 ```php
 $cat = new CatHandler;
@@ -122,3 +122,49 @@ echo "<br/>";
 echo "Subchain: Mouse > Dog<br/>";
 clientCode($mouse);
 ```
+
+Let's now look at this through a browser.
+You should have:
+
+```run
+Chain: Mouse > Cat > Dog
+Client: Who wants a Catnip?
+Cat: I'll eat the Catnip.
+Client: Who wants a Bone?
+Dog: I'll eat the Bone.
+Client: Who wants a Cup of coffee?
+Cup of coffee was left untouched.
+
+Subchain: Mouse > Dog
+Client: Who wants a Catnip?
+Catnip was left untouched.
+Client: Who wants a Bone?
+Dog: I'll eat the Bone.
+Client: Who wants a Cup of coffee?
+Cup of coffee was left untouched.
+```
+
+
+The Ray Code is AWESOME!!
+
+[Wikipedia](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
+
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
+
+[The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)
+
+
+
+
+
+
+
+
