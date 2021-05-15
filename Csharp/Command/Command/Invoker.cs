@@ -21,7 +21,7 @@ namespace Command
         
         public void DoSomethingImportant()
         {
-            Console.WriteLine("Invoker: Does anybody want something done before I begin?");
+            Console.WriteLine("Invoker: Make a request");
             _onStart?.Execute();
 
             Console.WriteLine("Invoker: ...doing something really important...");

@@ -9,9 +9,9 @@ namespace Command
         {
             // The client code can parameterize an invoker with any commands.
             Invoker invoker = new Invoker();
-            invoker.SetOnStart(new SimpleCmd("Say Hi!"));
+            invoker.SetOnStart(new SimpleCmd("Command Start"));
             Receiver receiver = new Receiver();
-            invoker.SetOnFinish(new ComplexCmd(receiver, "Send email", "Save report"));
+            invoker.SetOnFinish(new ComplexCmd(receiver, "Do Stuff", "Do Complex Command"));
 
             invoker.DoSomethingImportant();
             

@@ -22,7 +22,7 @@ namespace Command
 
         public void Execute()
         {
-            Console.WriteLine("ComplexCommand: Complex stuff should be done by a receiver object.");
+            Console.WriteLine("ComplexCommand Executed");
             this._receiver.DoSomething(this._a);
             this._receiver.DoSomethingElse(this._b);
         }

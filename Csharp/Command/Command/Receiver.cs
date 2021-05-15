@@ -6,12 +6,12 @@ namespace Command
     {
         public void DoSomething(string a)
         {
-            Console.WriteLine($"Receiver: Working on ({a}.)");
+            Console.WriteLine($"Receiver: Relieved first item ({a}.)");
         }
 
         public void DoSomethingElse(string b)
         {
-            Console.WriteLine($"Receiver: Also working on ({b}.)");
+            Console.WriteLine($"Receiver: Received Second Item ({b}.)");
         }
     }
 }
