@@ -54,6 +54,10 @@ public class ComplexCmd: ICommand
     }
 }
 ```
+![Command](/UMLs/images/Command/Command-2.png)
+
+
+
 The Invoker is associated with one or several commands. 
 It sends a request to the command.
 Initialize commands.
