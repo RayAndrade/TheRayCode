@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/ray/CLionProjects/Iterator/main.cpp
-iostream
--
+/home/ray/TheRayCode/TheRayCode/CPP/Iterator/Container.h
+Iterator.h
+/home/ray/TheRayCode/TheRayCode/CPP/Iterator/Iterator.h
 vector
 -
+
+/home/ray/TheRayCode/TheRayCode/CPP/Iterator/Data.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Iterator/Iterator.h
+vector
+-
+iostream
+-
+
+/home/ray/TheRayCode/TheRayCode/CPP/Iterator/main.cpp
+Container.h
+/home/ray/TheRayCode/TheRayCode/CPP/Iterator/Container.h
+Data.h
+/home/ray/TheRayCode/TheRayCode/CPP/Iterator/Data.h
 

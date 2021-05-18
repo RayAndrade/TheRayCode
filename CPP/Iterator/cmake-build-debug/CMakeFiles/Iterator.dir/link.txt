@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Iterator.dir/main.cpp.o  -o Iterator 
+/usr/bin/c++ -g CMakeFiles/Iterator.dir/main.cpp.o -o Iterator 
