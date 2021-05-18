@@ -3,6 +3,8 @@
 
 The command pattern is a behavioural design pattern in which an object is used to represent and encapsulate all the information needed to call a method at a later time.
 This information includes the method name, the object that owns the method and values for the method parameters.
+Let's create an interface that will handle all of our receivers **ElectronicDevices**.
+We will add all the command ti proform.
 
 ```java
 public interface ElectronicDevice {
@@ -13,6 +15,11 @@ public interface ElectronicDevice {
 }
 ```
 
+Let's make a reciever for **Television**.
+It will be extened by **ElectronicDevice**.
+Since it is extened by **ElectronicDevice** we need to add the required methods.
+We add a varable that hold the value of our *volume*.
+Let's also place some functionality in each of those methods.
 ```java
 public class Television implements ElectronicDevice {
     private int volume = 0;
@@ -38,7 +45,7 @@ public class Television implements ElectronicDevice {
     }
 }
 ```
-
+We need to create an *interface* for our all commands to use called **Command**.
 ```java
 public interface Command {
     public void execute();
@@ -46,6 +53,8 @@ public interface Command {
     public void undo();
 }
 ```
+Next we will create the command to execute.
+Let's make a *class* that will turn on the TV called **TurnTVOn**.
 
 ```java
 public class TurnTVOn implements Command {
@@ -66,7 +75,7 @@ public class TurnTVOn implements Command {
     }
 }
 ```
-
+We will also create a class to turn the TV off called **TurnTVOff** and of course it turns the TV off.
 ```java
 public class TurnTVOff implements Command {
     ElectronicDevice theDevice;
@@ -88,6 +97,7 @@ public class TurnTVOff implements Command {
 
 }
 ```
+Let's create a couple of specific commands that we can run through our interface.
 
 ```java
 public class TurnTVUp implements Command {
@@ -130,7 +140,7 @@ public class DeviceButton{
     }
 }
 ```
-
+The purpose of **TVRemote** will be to return the type eletronic divice you are using.
 ```java
 public class TVRemote {
     public static ElectronicDevice getDevice(){
@@ -168,6 +178,7 @@ Now when execute() is called off() of Television executes
         onPressed.press();
 ```
 
+Let work with **TurnTVUp**.
 ```java
         TurnTVUp volUpCommand = new TurnTVUp(newDevice);
         onPressed = new DeviceButton(volUpCommand);
@@ -176,7 +187,7 @@ Now when execute() is called off() of Television executes
         onPressed.press();
         Television theTV = new Television();
 ```
-
+Let's also work with the radio
 ```java
         Radio theRadio = new Radio();
 
@@ -230,6 +241,7 @@ public class TurnItAllOff implements Command {
     }
 }
 ```
+Let's compile our program and run, we hould get:
 
 ```run
 TV is on
