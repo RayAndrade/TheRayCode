@@ -241,7 +241,7 @@ public class TurnItAllOff implements Command {
     }
 }
 ```
-Let's compile our program and run, we hould get:
+Let's compile our program and run, we should get:
 
 ```run
 TV is on
