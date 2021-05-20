@@ -22,7 +22,6 @@ abstract class IteratorAggregate : IEnumerable
     public abstract IEnumerator GetEnumerator();
 }
 ```
-
 Concrete Iterators implement various traversal algorithms. 
 These classes store the current traversal position at all times.
 
@@ -71,6 +70,8 @@ class AlphabeticalOrderIterator : Iterator
    }
 }
 ```
+
+![Iterator](/UMLs/images/Iterator/Iterator-2.jpg)
 
 Concrete Collections provide one or several methods for retrieving fresh iterator instances, compatible with the collection class.
 
