@@ -1,16 +1,16 @@
 package TheRayCode.iterator.example.social_networks;
 
-import TheRayCode.iterator.example.iterators.TwiterIterator;
+import TheRayCode.iterator.example.iterators.LinkedInIterator;
 import TheRayCode.iterator.example.iterators.ProfileIterator;
 import TheRayCode.iterator.example.profile.Profile;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Twitter implements SocialNetwork {
+public class LinkedIn implements SocialNetwork {
     private List<Profile> contacts;
 
-    public Twitter(List<Profile> cache) {
+    public LinkedIn(List<Profile> cache) {
         if (cache != null) {
             this.contacts = cache;
         } else {
@@ -18,23 +18,23 @@ public class Twitter implements SocialNetwork {
         }
     }
 
-    public Profile requestContactInfoFromTwitter(String profileEmail) {
+    public Profile requestContactInfoFromLinkedIn(String profileEmail) {
         // Here would be a POST request to one of the Twitter API endpoints.
         // Instead, we emulates long network connection, which you would expect
         // in the real life...
         simulateNetworkLatency();
-        System.out.println("Twitter: Loading profile '" + profileEmail + "' over the network...");
+        System.out.println("LinkedIn: Loading profile '" + profileEmail + "' over the network...");
 
         // ...and return test data.
         return findContact(profileEmail);
     }
 
-    public List<String> requestRelatedContactsFromTwitter(String profileEmail, String contactType) {
+    public List<String> requestRelatedContactsFromLinkedIn(String profileEmail, String contactType) {
         // Here would be a POST request to one of the Titter API endpoints.
         // Instead, we emulates long network connection, which you would expect
         // in the real life.
         simulateNetworkLatency();
-        System.out.println("Twitter: Loading '" + contactType + "' list of '" + profileEmail + "' over the network...");
+        System.out.println("LinkedIn: Loading '" + contactType + "' list of '" + profileEmail + "' over the network...");
 
         // ...and return test data.
         Profile profile = findContact(profileEmail);
@@ -63,11 +63,11 @@ public class Twitter implements SocialNetwork {
 
     @Override
     public ProfileIterator createFriendsIterator(String profileEmail) {
-        return new TwiterIterator(this, "friends", profileEmail);
+        return new LinkedInIterator(this, "friends", profileEmail);
     }
 
     @Override
     public ProfileIterator createCoworkersIterator(String profileEmail) {
-        return new TwiterIterator(this, "coworkers", profileEmail);
+        return new LinkedInIterator(this, "coworkers", profileEmail);
     }
 }

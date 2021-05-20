@@ -3,7 +3,7 @@ package TheRayCode.iterator.example;
 
 import TheRayCode.iterator.example.profile.Profile;
 import TheRayCode.iterator.example.social_networks.Facebook;
-import TheRayCode.iterator.example.social_networks.Twitter;
+import TheRayCode.iterator.example.social_networks.LinkedIn;
 import TheRayCode.iterator.example.social_networks.SocialNetwork;
 import TheRayCode.iterator.example.spammer.SocialSpammer;
 
@@ -21,12 +21,12 @@ public class Demo {
     public static void main(String[] args) {
         System.out.println("Please specify social network to target spam tool (default:Facebook):");
         System.out.println("1. Facebook");
-        System.out.println("2. Twitter");
+        System.out.println("2. LinkedIn");
         String choice = scanner.nextLine();
 
         SocialNetwork network;
         if (choice.equals("2")) {
-            network = new Twitter(createTestProfiles());
+            network = new LinkedIn(createTestProfiles());
         }
         else {
             network = new Facebook(createTestProfiles());
@@ -36,12 +36,12 @@ public class Demo {
         spammer.sendSpamToFriends("TheRayCode@RayAndrade.com",
                 "Hey! This is Ray's friend Junk. Can you do me a favor and like this post TheRayCode.org?");
         spammer.sendSpamToCoworkers("TheRayCode@RayAndrade.com",
-                "Hey! This is Ray's boss Support. Ray told me you would be interested in TheRayCode.org.");
+                "Hey! This is Ray's boss Support, Ray told me you would be interested in TheRayCode.org.");
     }
 
     public static List<Profile> createTestProfiles() {
         List<Profile> data = new ArrayList<Profile>();
-        data.add(new Profile("TheRayCode@RayAndrade.com", "Ray1 Smith", "friends:mad_max@ya.com", "friends:catwoman@yahoo.com", "coworkers:sam@amazon.com"));
+        data.add(new Profile("TheRayCode@RayAndrade.com", "Ray Smith", "friends:mad_max@ya.com", "friends:catwoman@yahoo.com", "coworkers:sam@amazon.com"));
         data.add(new Profile("mad_max@ya.com", "Maximilian", "friends:TheRayCode@RayAndrade.com", "coworkers:sam@amazon.com"));
         data.add(new Profile("bill@microsoft.eu", "Billie", "coworkers:avanger@ukr.net"));
         data.add(new Profile("avanger@ukr.net", "John Day", "coworkers:bill@microsoft.eu"));
