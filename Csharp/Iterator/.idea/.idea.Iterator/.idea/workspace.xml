@@ -1,31 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee123b65-7446-4aef-98f3-0590892ad223" name="Default Changelist" comment="" />
+    <list default="true" id="ee123b65-7446-4aef-98f3-0590892ad223" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Iterator/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Iterator/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Iterator/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Iterator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Iterator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Iterator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Iterator/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterator/bin/Debug/netcoreapp3.1/Iterator" beforeDir="false" afterPath="$PROJECT_DIR$/Iterator/bin/Debug/netcoreapp3.1/Iterator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterator/bin/Debug/netcoreapp3.1/Iterator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Iterator/bin/Debug/netcoreapp3.1/Iterator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterator/bin/Debug/netcoreapp3.1/Iterator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Iterator/bin/Debug/netcoreapp3.1/Iterator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterator/obj/Debug/netcoreapp3.1/Iterator" beforeDir="false" afterPath="$PROJECT_DIR$/Iterator/obj/Debug/netcoreapp3.1/Iterator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterator/obj/Debug/netcoreapp3.1/Iterator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Iterator/obj/Debug/netcoreapp3.1/Iterator.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterator/obj/Debug/netcoreapp3.1/Iterator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Iterator/obj/Debug/netcoreapp3.1/Iterator.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterator/obj/Debug/netcoreapp3.1/Iterator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Iterator/obj/Debug/netcoreapp3.1/Iterator.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterator/obj/Debug/netcoreapp3.1/Iterator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Iterator/obj/Debug/netcoreapp3.1/Iterator.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterator/obj/Debug/netcoreapp3.1/Iterator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Iterator/obj/Debug/netcoreapp3.1/Iterator.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterator/obj/Iterator.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Iterator/obj/Iterator.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterator/obj/Iterator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Iterator/obj/Iterator.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Iterator/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterator/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Iterator/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterator/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Iterator/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iterator/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Iterator/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Iterator/out/production/Iterator/TheRayCode/iterator/example/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Iterator/out/production/Iterator/TheRayCode/iterator/example/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Iterator/src/TheRayCode/iterator/example/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Iterator/src/TheRayCode/iterator/example/Demo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Iterator/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Iterator/Iterator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Iterator/IteratorAggregate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Iterator/AlphabeticalOrderIterator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/45212CA3-153F-478C-B9B1-60517BBB01B3/73/1df22369/IEnumerator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Iterator/WordsCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Iterator/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Iterator/AlphabeticalOrderIterator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Iterator/IteratorAggregate.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Iterator/WordsCollection.cs" />
-        <option value="$PROJECT_DIR$/Iterator/AlphabeticalOrderIterator.cs" />
-        <option value="$PROJECT_DIR$/Iterator/IteratorAggregate.cs" />
-        <option value="$PROJECT_DIR$/Iterator/Iterator.cs" />
-        <option value="$PROJECT_DIR$/Iterator/Program.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Iterator/Program.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1eEfglWYbRX2JDYAjNG0qybSE5O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,6 +57,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Iterator" type="DotNetProject" factoryName=".NET Project">
@@ -69,6 +97,8 @@
       <workItem from="1597731609394" duration="163000" />
       <workItem from="1597780721170" duration="44000" />
       <workItem from="1597968635547" duration="82000" />
+      <workItem from="1621419101034" duration="91000" />
+      <workItem from="1621530296741" duration="3008000" />
     </task>
     <servers />
   </component>
@@ -79,23 +109,5 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1793" height="611" key="GridCell.Tab.0.bottom" timestamp="1597968731749">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1793" height="611" key="GridCell.Tab.0.bottom/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597968731749" />
-    <state width="1793" height="611" key="GridCell.Tab.0.center" timestamp="1597968731749">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1793" height="611" key="GridCell.Tab.0.center/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597968731749" />
-    <state width="1793" height="611" key="GridCell.Tab.0.left" timestamp="1597968731749">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1793" height="611" key="GridCell.Tab.0.left/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597968731749" />
-    <state width="1793" height="611" key="GridCell.Tab.0.right" timestamp="1597968731749">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state width="1793" height="611" key="GridCell.Tab.0.right/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597968731749" />
   </component>
 </project>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ray/RiderProjects/Iterator/Iterator/Iterator.csproj": {}
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Iterator/Iterator/Iterator.csproj": {}
   },
   "projects": {
-    "/home/ray/RiderProjects/Iterator/Iterator/Iterator.csproj": {
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Iterator/Iterator/Iterator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ray/RiderProjects/Iterator/Iterator/Iterator.csproj",
+        "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/Iterator/Iterator/Iterator.csproj",
         "projectName": "Iterator",
-        "projectPath": "/home/ray/RiderProjects/Iterator/Iterator/Iterator.csproj",
+        "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Iterator/Iterator/Iterator.csproj",
         "packagesPath": "/home/ray/.nuget/packages/",
-        "outputPath": "/home/ray/RiderProjects/Iterator/Iterator/obj/",
+        "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Iterator/Iterator/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     }

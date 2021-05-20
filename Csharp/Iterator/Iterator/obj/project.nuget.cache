@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NkIo847x0YjPqeGNUDhHfpr2FW4AoKkCGe+g0U7DorA8Uscofuvd1QU50zfILEAYmaKUwQZj/q6E1huwnLwLNw==",
+  "dgSpecHash": "+ief3e18dR+vxu1Bp7Z38Rczj6Kcx76aANPBOri7hT0OeyZHb+rBQIg6jV14gQ4fC2Q3dsFfyyVHVqxk5CZVmw==",
   "success": true,
-  "projectFilePath": "/home/ray/RiderProjects/Iterator/Iterator/Iterator.csproj",
+  "projectFilePath": "/home/ray/TheRayCode/TheRayCode/Csharp/Iterator/Iterator/Iterator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
