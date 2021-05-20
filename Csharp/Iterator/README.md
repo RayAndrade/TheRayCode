@@ -122,7 +122,7 @@ static void Main(string[] args)
 }
 ```
 
-Let's compile this and run. We shoul get:
+Let's compile this and run. We should get:
 ```run
 Forward traversal:
 A
