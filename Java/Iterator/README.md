@@ -49,6 +49,8 @@ public class Profile {
 }
 ```
 
+![Iterator](/UMLs/images/Iterator/Iterator-3.png)
+
 We add another package we call **iterators**.
 To this package we add the interface called **ProfileIterator**.
 ```java
