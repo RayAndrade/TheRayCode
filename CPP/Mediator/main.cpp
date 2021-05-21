@@ -21,6 +21,6 @@ void ClientCode() {
 int main() {
 
     ClientCode();
-    std::cout << "The Ray Code is AWESOME!!!" << std::endl;
+    //std::cout << "The Ray Code is AWESOME!!!" << std::endl;
     return 0;
 }
