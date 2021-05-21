@@ -43,6 +43,7 @@ These classes store the current traversal position at all times.
     }
 }
 ```
+![Iterator](/UMLs/images/Iterator/Iterator-4.png)
 
 Concrete Collections provide one or several methods for retrieving fresh iterator instances, compatible with the collection class.
 
