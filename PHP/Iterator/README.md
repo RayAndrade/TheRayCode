@@ -9,7 +9,7 @@ These classes store the current traversal position at all times.
  An iterator may have a lot of other fields for storing iteration state, especially when it is supposed to work with a particular kind of collection.
  
  
- ```php
+```php
  class AlphabeticalOrderIterator implements \Iterator
 {
     private $collection;
@@ -42,8 +42,68 @@ These classes store the current traversal position at all times.
         return isset($this->collection->getItems()[$this->position]);
     }
 }
- ```
- 
+```
+
+Concrete Collections provide one or several methods for retrieving fresh iterator instances, compatible with the collection class.
+
+```php
+<?php
+class WordsCollection implements \IteratorAggregate
+{
+    private $items = [];
+    public function getItems()
+    {
+        return $this->items;
+    }
+    public function addItem($item)
+    {
+        $this->items[] = $item;
+    }
+    public function getIterator(): Iterator
+    {
+        return new AlphabeticalOrderIterator($this);
+    }
+    public function getReverseIterator(): Iterator
+    {
+        return new AlphabeticalOrderIterator($this, true);
+    }
+}
+```
+
+The client code may or may not know about the Concrete Iterator or Collection classes, depending on the level of indirection you want to keep in your program.
+```php
+include_once ('AlphabeticalOrderIterator.php');
+include_once ('WordsCollection.php');
+
+$collection = new WordsCollection;
+$collection->addItem("A");
+$collection->addItem("B");
+$collection->addItem("C");
+
+echo "Straight traversal:<br/>";
+foreach ($collection->getIterator() as $item) {
+    echo $item . "<br/>";
+}
+
+echo "<br/>";
+echo "Reverse traversal:<br/>";
+foreach ($collection->getReverseIterator() as $item) {
+    echo $item . "<br/>";
+```
+When we veiw this through a browser we get:
+```run
+Straight traversal:
+A
+B
+C
+
+Reverse traversal:
+C
+B
+A
+```
+The Ray Code is AWESOME!!!
+
 [Wikipedia](https://en.wikipedia.org/wiki/Iterator_pattern)
 
 ----------------------------------------------------------------------------------------------------
