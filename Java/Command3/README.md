@@ -1,10 +1,10 @@
 # TheRayCode
 ## Command pattern java
 
-The command pattern is a behavioural design pattern in which an object is used to represent and encapsulate all the information needed to call a method at a later time.
+The **Command** pattern is a behavioural design pattern in which an object is used to represent and encapsulate all the information needed to call a method at a later time.
 This information includes the method name, the object that owns the method and values for the method parameters.
 Let's create an interface that will handle all of our receivers **ElectronicDevices**.
-We will add all the command ti proform.
+We will add all the command to proform.
 
 ```java
 public interface ElectronicDevice {
