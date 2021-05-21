@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Show.dir/main.cpp.o CMakeFiles/Show.dir/BaseComponent.cpp.o CMakeFiles/Show.dir/Mediator.cpp.o CMakeFiles/Show.dir/Component1.cpp.o CMakeFiles/Show.dir/Component2.cpp.o CMakeFiles/Show.dir/ConcreteMediator.cpp.o  -o Show 

@@ -2,7 +2,7 @@
 #include "ConcreteMediator.h"
 
 void ClientCode() {
-    Component1 *c1 = new Component1;
+    FirstComponent *c1 = new FirstComponent;
     Component2 *c2 = new Component2;
     ConcreteMediator *mediator = new ConcreteMediator(c1, c2);
     std::cout << "Client triggers operation A.\n";

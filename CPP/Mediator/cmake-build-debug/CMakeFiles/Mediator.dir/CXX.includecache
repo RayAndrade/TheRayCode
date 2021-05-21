@@ -6,49 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/ray/CLionProjects/Mediator/BaseComponent.cpp
-BaseComponent.h
-/home/ray/CLionProjects/Mediator/BaseComponent.h
-
-/home/ray/CLionProjects/Mediator/BaseComponent.h
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/BaseComponent.h
 Mediator.h
-/home/ray/CLionProjects/Mediator/Mediator.h
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/Mediator.h
 
-/home/ray/CLionProjects/Mediator/Component1.cpp
-Component1.h
-/home/ray/CLionProjects/Mediator/Component1.h
-
-/home/ray/CLionProjects/Mediator/Component1.h
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/Component1.h
 iostream
 -
 BaseComponent.h
-/home/ray/CLionProjects/Mediator/BaseComponent.h
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/BaseComponent.h
 
-/home/ray/CLionProjects/Mediator/Component2.cpp
-Component2.h
-/home/ray/CLionProjects/Mediator/Component2.h
-
-/home/ray/CLionProjects/Mediator/Component2.h
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/Component2.h
 iostream
 -
 BaseComponent.h
-/home/ray/CLionProjects/Mediator/BaseComponent.h
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/BaseComponent.h
 
-/home/ray/CLionProjects/Mediator/ConcreteMediator.cpp
-ConcreteMediator.h
-/home/ray/CLionProjects/Mediator/ConcreteMediator.h
-
-/home/ray/CLionProjects/Mediator/ConcreteMediator.h
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/ConcreteMediator.h
 Component1.h
-/home/ray/CLionProjects/Mediator/Component1.h
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/Component1.h
 Component2.h
-/home/ray/CLionProjects/Mediator/Component2.h
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/Component2.h
 
-/home/ray/CLionProjects/Mediator/Mediator.h
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/Mediator.h
 string
 -
 
-/home/ray/CLionProjects/Mediator/main.cpp
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/main.cpp
 ConcreteMediator.h
-/home/ray/CLionProjects/Mediator/ConcreteMediator.h
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/ConcreteMediator.h
 

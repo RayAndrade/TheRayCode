@@ -4,12 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ray/CLionProjects/Mediator/BaseComponent.cpp" "/home/ray/CLionProjects/Mediator/cmake-build-debug/CMakeFiles/Mediator.dir/BaseComponent.cpp.o"
-  "/home/ray/CLionProjects/Mediator/Component1.cpp" "/home/ray/CLionProjects/Mediator/cmake-build-debug/CMakeFiles/Mediator.dir/Component1.cpp.o"
-  "/home/ray/CLionProjects/Mediator/Component2.cpp" "/home/ray/CLionProjects/Mediator/cmake-build-debug/CMakeFiles/Mediator.dir/Component2.cpp.o"
-  "/home/ray/CLionProjects/Mediator/ConcreteMediator.cpp" "/home/ray/CLionProjects/Mediator/cmake-build-debug/CMakeFiles/Mediator.dir/ConcreteMediator.cpp.o"
-  "/home/ray/CLionProjects/Mediator/Mediator.cpp" "/home/ray/CLionProjects/Mediator/cmake-build-debug/CMakeFiles/Mediator.dir/Mediator.cpp.o"
-  "/home/ray/CLionProjects/Mediator/main.cpp" "/home/ray/CLionProjects/Mediator/cmake-build-debug/CMakeFiles/Mediator.dir/main.cpp.o"
+  "/home/ray/TheRayCode/TheRayCode/CPP/Mediator/main.cpp" "/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/CMakeFiles/Mediator.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -10,7 +10,7 @@
  * Concrete Components implement various functionality. They don't depend on
  * other components. They also don't depend on any concrete mediator classes.
  */
-class Component1 : public BaseComponent {
+class FirstComponent : public BaseComponent {
 public:
     void DoA() {
         std::cout << "Component 1 does A.\n";

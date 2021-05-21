@@ -8,116 +8,99 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ray/CLionProjects/Mediator/cmake-build-debug"/>
+				<Option working_dir="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ray/CLionProjects/Mediator/cmake-build-debug"/>
+				<Option working_dir="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ray/CLionProjects/Mediator/cmake-build-debug"/>
+				<Option working_dir="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Mediator">
-				<Option output="/home/ray/CLionProjects/Mediator/cmake-build-debug/Mediator" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ray/CLionProjects/Mediator/cmake-build-debug"/>
+				<Option output="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Mediator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 Mediator"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 Mediator"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Mediator/fast">
-				<Option output="/home/ray/CLionProjects/Mediator/cmake-build-debug/Mediator" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ray/CLionProjects/Mediator/cmake-build-debug"/>
+				<Option output="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Mediator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 Mediator/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ray/CLionProjects/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 Mediator/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ray/TheRayCode/TheRayCode/CPP/Mediator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ray/CLionProjects/Mediator/BaseComponent.cpp">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/BaseComponent.h">
 			<Option target="Mediator"/>
 		</Unit>
-		<Unit filename="/home/ray/CLionProjects/Mediator/BaseComponent.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/Component1.h">
 			<Option target="Mediator"/>
 		</Unit>
-		<Unit filename="/home/ray/CLionProjects/Mediator/Component1.cpp">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/Component2.h">
 			<Option target="Mediator"/>
 		</Unit>
-		<Unit filename="/home/ray/CLionProjects/Mediator/Component1.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/ConcreteMediator.h">
 			<Option target="Mediator"/>
 		</Unit>
-		<Unit filename="/home/ray/CLionProjects/Mediator/Component2.cpp">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/Mediator.h">
 			<Option target="Mediator"/>
 		</Unit>
-		<Unit filename="/home/ray/CLionProjects/Mediator/Component2.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/main.cpp">
 			<Option target="Mediator"/>
 		</Unit>
-		<Unit filename="/home/ray/CLionProjects/Mediator/ConcreteMediator.cpp">
-			<Option target="Mediator"/>
-		</Unit>
-		<Unit filename="/home/ray/CLionProjects/Mediator/ConcreteMediator.h">
-			<Option target="Mediator"/>
-		</Unit>
-		<Unit filename="/home/ray/CLionProjects/Mediator/Mediator.cpp">
-			<Option target="Mediator"/>
-		</Unit>
-		<Unit filename="/home/ray/CLionProjects/Mediator/Mediator.h">
-			<Option target="Mediator"/>
-		</Unit>
-		<Unit filename="/home/ray/CLionProjects/Mediator/main.cpp">
-			<Option target="Mediator"/>
-		</Unit>
-		<Unit filename="/home/ray/CLionProjects/Mediator/CMakeLists.txt">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
