@@ -1,9 +1,4 @@
 <?php
-
-
-
-
-
 class AlphabeticalOrderIterator implements \Iterator
 {
     /**
