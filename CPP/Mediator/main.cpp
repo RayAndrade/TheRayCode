@@ -3,10 +3,10 @@
 
 void ClientCode() {
     FirstComponent *c1 = new FirstComponent;
-    Component2 *c2 = new Component2;
+    SecondComponent *c2 = new SecondComponent;
     ConcreteMediator *mediator = new ConcreteMediator(c1, c2);
     std::cout << "Client triggers operation A.\n";
-    c1->DoA();
+    c1->DoAction();
     std::cout << "\n";
     std::cout << "Client triggers operation D.\n";
     c2->DoD();

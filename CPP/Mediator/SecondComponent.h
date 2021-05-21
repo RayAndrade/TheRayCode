@@ -8,14 +8,14 @@
 #include "BaseComponent.h"
 
 
-class Component2 : public BaseComponent  {
+class SecondComponent : public BaseComponent  {
 public:
     void DoC() {
-        std::cout << "Component 2 does C.\n";
+        std::cout << "The Second Component does C.\n";
         this->mediator_->Notify(this, "C");
     }
     void DoD() {
-        std::cout << "Component 2 does D.\n";
+        std::cout << "The Second Component does Deed.\n";
         this->mediator_->Notify(this, "D");
     }
 };

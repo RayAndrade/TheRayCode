@@ -85,16 +85,16 @@
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/BaseComponent.h">
 			<Option target="Mediator"/>
 		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/Component1.h">
-			<Option target="Mediator"/>
-		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/Component2.h">
-			<Option target="Mediator"/>
-		</Unit>
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/ConcreteMediator.h">
 			<Option target="Mediator"/>
 		</Unit>
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/FirstComponent.h">
+			<Option target="Mediator"/>
+		</Unit>
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/Mediator.h">
+			<Option target="Mediator"/>
+		</Unit>
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/SecondComponent.h">
 			<Option target="Mediator"/>
 		</Unit>
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Mediator/main.cpp">

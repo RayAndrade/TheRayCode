@@ -10,27 +10,27 @@
 Mediator.h
 /home/ray/TheRayCode/TheRayCode/CPP/Mediator/Mediator.h
 
-/home/ray/TheRayCode/TheRayCode/CPP/Mediator/Component1.h
-iostream
--
-BaseComponent.h
-/home/ray/TheRayCode/TheRayCode/CPP/Mediator/BaseComponent.h
-
-/home/ray/TheRayCode/TheRayCode/CPP/Mediator/Component2.h
-iostream
--
-BaseComponent.h
-/home/ray/TheRayCode/TheRayCode/CPP/Mediator/BaseComponent.h
-
 /home/ray/TheRayCode/TheRayCode/CPP/Mediator/ConcreteMediator.h
-Component1.h
-/home/ray/TheRayCode/TheRayCode/CPP/Mediator/Component1.h
-Component2.h
-/home/ray/TheRayCode/TheRayCode/CPP/Mediator/Component2.h
+FirstComponent.h
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/FirstComponent.h
+SecondComponent.h
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/SecondComponent.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/FirstComponent.h
+iostream
+-
+BaseComponent.h
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/BaseComponent.h
 
 /home/ray/TheRayCode/TheRayCode/CPP/Mediator/Mediator.h
 string
 -
+
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/SecondComponent.h
+iostream
+-
+BaseComponent.h
+/home/ray/TheRayCode/TheRayCode/CPP/Mediator/BaseComponent.h
 
 /home/ray/TheRayCode/TheRayCode/CPP/Mediator/main.cpp
 ConcreteMediator.h

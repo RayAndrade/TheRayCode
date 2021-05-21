@@ -6,16 +6,16 @@
 #define SHOW_CONCRETEMEDIATOR_H
 
 #include "FirstComponent.h"
-#include "Component2.h"
+#include "SecondComponent.h"
 
 class ConcreteMediator : public Mediator   {
 
 private:
     FirstComponent *component1_;
-    Component2 *component2_;
+    SecondComponent *component2_;
 
 public:
-    ConcreteMediator(FirstComponent *c1, Component2 *c2) : component1_(c1), component2_(c2) {
+    ConcreteMediator(FirstComponent *c1, SecondComponent *c2) : component1_(c1), component2_(c2) {
         this->component1_->set_mediator(this);
         this->component2_->set_mediator(this);
     }
@@ -25,7 +25,7 @@ public:
             this->component2_->DoC();
         }
         if (event == "D") {
-            std::cout << "Mediator reacts on D and triggers following operations:\n";
+            std::cout << "Mediator reacts on the Deed and triggers following operations:\n";
             this->component1_->DoB();
             this->component2_->DoC();
         }

@@ -12,12 +12,12 @@
  */
 class FirstComponent : public BaseComponent {
 public:
-    void DoA() {
-        std::cout << "Component 1 does A.\n";
-        this->mediator_->Notify(this, "A");
+    void DoAction() {
+        std::cout << "The First Component does Action.\n";
+        this->mediator_->Notify(this, "Action");
     }
     void DoB() {
-        std::cout << "Component 1 does B.\n";
+        std::cout << "The First Component does B.\n";
         this->mediator_->Notify(this, "B");
     }
 };
