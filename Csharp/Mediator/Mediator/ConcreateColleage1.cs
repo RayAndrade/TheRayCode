@@ -2,18 +2,18 @@ using System;
 
 namespace TheRayCode.Mediator
 {
-    class Component1 : BaseComponent
+    class ConcreateColleage1 : BaseComponent
     {
         public void DoA()
         {
-            Console.WriteLine("Component 1 does A.");
+            Console.WriteLine("Colleage 1 does A.");
 
             this._mediator.Notify(this, "A");
         }
 
         public void DoB()
         {
-            Console.WriteLine("Component 1 does B.");
+            Console.WriteLine("Colleage 1 does B.");
 
             this._mediator.Notify(this, "B");
         }

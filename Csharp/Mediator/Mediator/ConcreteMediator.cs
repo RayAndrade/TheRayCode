@@ -4,16 +4,16 @@ namespace TheRayCode.Mediator
 {
     class ConcreteMediator : IMediator
     {
-        private Component1 _component1;
+        private ConcreateColleage1 _concreateColleage1;
 
-        private Component2 _component2;
+        private ConcreateColleage2 _concreateColleage2;
 
-        public ConcreteMediator(Component1 component1, Component2 component2)
+        public ConcreteMediator(ConcreateColleage1 concreateColleage1, ConcreateColleage2 concreateColleage2)
         {
-            this._component1 = component1;
-            this._component1.SetMediator(this);
-            this._component2 = component2;
-            this._component2.SetMediator(this);
+            this._concreateColleage1 = concreateColleage1;
+            this._concreateColleage1.SetMediator(this);
+            this._concreateColleage2 = concreateColleage2;
+            this._concreateColleage2.SetMediator(this);
         } 
 
         public void Notify(object sender, string ev)
@@ -21,13 +21,13 @@ namespace TheRayCode.Mediator
             if (ev == "A")
             {
                 Console.WriteLine("Mediator reacts on A and triggers folowing operations:");
-                this._component2.DoC();
+                this._concreateColleage2.DoC();
             }
             if (ev == "D")
             {
                 Console.WriteLine("Mediator reacts on D and triggers following operations:");
-                this._component1.DoB();
-                this._component2.DoC();
+                this._concreateColleage1.DoB();
+                this._concreateColleage2.DoC();
             }
         }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J/s2Tx0GHWMRUoyD5UeA9Uu/nG/bLISOdf0+cwowxm6NaZSOqa+9Fs7QXHrd8wgW++XkIKhG31p932uhmZkbmQ==",
+  "dgSpecHash": "+5/5XBD7GujoqvnNFCdtKvExIZtNbwzTWdUSoR4XbJSTwwJVUzAYtgP67gK0Q4EayIJQGL6Fk+8H7WTvznc1hg==",
   "success": true,
-  "projectFilePath": "/home/ray/RiderProjects/Mediator/Mediator/Mediator.csproj",
+  "projectFilePath": "/home/ray/TheRayCode/TheRayCode/Csharp/Mediator/Mediator/Mediator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
