@@ -51,7 +51,7 @@ public:
     }
 };
 ```
-![Mediator](/UMLs/images/Mediator/Mediator-1.gif)
+![Mediator](/UMLs/images/Mediator/Mediator-1.jpg)
 
 Let create the **SecondComponent**.
 It's code will be:

@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a484ef2-dc31-4dd8-8619-66ea51321d82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mediator/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mediator/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mediator/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mediator/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mediator/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator/Component1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/ConcreateColleage1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator/Component2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/ConcreateColleage2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator/ConcreteMediator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/ConcreteMediator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator/obj/Debug/netcoreapp3.1/Mediator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/obj/Debug/netcoreapp3.1/Mediator.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mediator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mediator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mediator/obj/Debug/netcoreapp3.1/Mediator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/obj/Debug/netcoreapp3.1/Mediator.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator/obj/Mediator.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/obj/Mediator.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator/obj/Mediator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/obj/Mediator.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mediator/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +24,9 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
+      <option value="$PROJECT_DIR$/Mediator/Program.cs" />
       <option value="$PROJECT_DIR$/Mediator/ConcreateColleage1.cs" />
+      <option value="$PROJECT_DIR$/Mediator/ConcreateColleage2.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1eEgNb0bi3ENsh1oov6nu5Okskb" />
@@ -50,6 +39,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -85,7 +78,7 @@
       <workItem from="1596218731242" duration="35000" />
       <workItem from="1597804858472" duration="608000" />
       <workItem from="1597854571604" duration="47000" />
-      <workItem from="1621637554802" duration="363000" />
+      <workItem from="1621637554802" duration="1069000" />
     </task>
     <servers />
   </component>
@@ -107,27 +100,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1793" height="642" key="GridCell.Tab.0.bottom" timestamp="1597854617819">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1793" height="642" key="GridCell.Tab.0.bottom/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1597854617819" />
-    <state width="1793" height="642" key="GridCell.Tab.0.bottom/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597854607819" />
-    <state width="1793" height="642" key="GridCell.Tab.0.center" timestamp="1597854617819">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1793" height="642" key="GridCell.Tab.0.center/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1597854617819" />
-    <state width="1793" height="642" key="GridCell.Tab.0.center/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597854607819" />
-    <state width="1793" height="642" key="GridCell.Tab.0.left" timestamp="1597854617818">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1793" height="642" key="GridCell.Tab.0.left/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1597854617818" />
-    <state width="1793" height="642" key="GridCell.Tab.0.left/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597854607818" />
-    <state width="1793" height="642" key="GridCell.Tab.0.right" timestamp="1597854617819">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1793" height="642" key="GridCell.Tab.0.right/1920.0.1920.1080/67.27.1853.1053@1920.0.1920.1080" timestamp="1597854617819" />
-    <state width="1793" height="642" key="GridCell.Tab.0.right/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1597854607819" />
   </component>
 </project>
