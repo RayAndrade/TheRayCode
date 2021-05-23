@@ -2,7 +2,7 @@ using System;
 
 namespace TheRayCode.Mediator
 {
-    class ConcreteMediator : IMediator
+    class ConcreteMediator : Mediator
     {
         private ConcreateColleage1 _concreateColleage1;
 

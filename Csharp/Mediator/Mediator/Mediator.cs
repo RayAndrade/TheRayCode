@@ -1,6 +1,6 @@
 namespace TheRayCode.Mediator
 {
-    public interface IMediator
+    public interface Mediator
     {
         void Notify(object sender, string ev);
     }

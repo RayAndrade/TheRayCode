@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a484ef2-dc31-4dd8-8619-66ea51321d82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mediator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mediator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator/obj/Debug/netcoreapp3.1/Mediator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/obj/Debug/netcoreapp3.1/Mediator.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mediator/BaseComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/BaseComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mediator/ConcreteMediator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/ConcreteMediator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mediator/IMediator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/IMediator.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,9 @@
       <option value="$PROJECT_DIR$/Mediator/Program.cs" />
       <option value="$PROJECT_DIR$/Mediator/ConcreateColleage1.cs" />
       <option value="$PROJECT_DIR$/Mediator/ConcreateColleage2.cs" />
+      <option value="$PROJECT_DIR$/Mediator/IMediator.cs" />
+      <option value="$PROJECT_DIR$/Mediator/ConcreteMediator.cs" />
+      <option value="$PROJECT_DIR$/Mediator/BaseComponent.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1eEgNb0bi3ENsh1oov6nu5Okskb" />
@@ -79,6 +82,7 @@
       <workItem from="1597804858472" duration="608000" />
       <workItem from="1597854571604" duration="47000" />
       <workItem from="1621637554802" duration="1069000" />
+      <workItem from="1621733493850" duration="298000" />
     </task>
     <servers />
   </component>
@@ -97,6 +101,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
