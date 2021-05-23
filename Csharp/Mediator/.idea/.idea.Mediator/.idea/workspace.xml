@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a484ef2-dc31-4dd8-8619-66ea51321d82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mediator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mediator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator/bin/Debug/netcoreapp3.1/Mediator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/bin/Debug/netcoreapp3.1/Mediator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator/bin/Debug/netcoreapp3.1/Mediator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/bin/Debug/netcoreapp3.1/Mediator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator/obj/Debug/netcoreapp3.1/Mediator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/obj/Debug/netcoreapp3.1/Mediator.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator/obj/Debug/netcoreapp3.1/Mediator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/obj/Debug/netcoreapp3.1/Mediator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator/obj/Debug/netcoreapp3.1/Mediator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator/obj/Debug/netcoreapp3.1/Mediator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="4a484ef2-dc31-4dd8-8619-66ea51321d82" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +78,7 @@
       <workItem from="1597804858472" duration="608000" />
       <workItem from="1597854571604" duration="47000" />
       <workItem from="1621637554802" duration="1069000" />
-      <workItem from="1621733493850" duration="3615000" />
+      <workItem from="1621733493850" duration="4351000" />
     </task>
     <servers />
   </component>
