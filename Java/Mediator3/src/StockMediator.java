@@ -33,6 +33,7 @@ public class StockMediator implements Mediator{
             stockSaleOffers.add(newOffering);
         }
     }
+    @Override
     public void buyOffer(String stock, int shares, int collCode) {
         boolean stockBought = false;
         for(StockOffer offer: stockSaleOffers){
