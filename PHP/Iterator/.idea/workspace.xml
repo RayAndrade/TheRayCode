@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a89bbd59-4137-452d-9ec5-e481b41981d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Csharp/Mediator/.idea/.idea.Mediator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Csharp/Mediator/.idea/.idea.Mediator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Mediator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Mediator/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mediator2/Mediator2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mediator2/src/FacebookClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mediator2/src/FacebookGroupMediator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mediator2/src/FacebookGroupMediatorImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mediator2/src/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mediator2/src/UserImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mediator3/Mediator3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mediator3/src/Colleague.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mediator3/src/GormanSlacks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mediator3/src/JTPoorman.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mediator3/src/Mediator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mediator3/src/StockMediator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mediator3/src/StockOffer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Mediator3/src/TestStockMediator.java" beforeDir="false" />
-    </list>
+    <list default="true" id="a89bbd59-4137-452d-9ec5-e481b41981d0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +49,7 @@
       <workItem from="1597787026720" duration="14000" />
       <workItem from="1621614087692" duration="2599000" />
       <workItem from="1621868642398" duration="358000" />
+      <workItem from="1621981831303" duration="610000" />
     </task>
     <servers />
   </component>
