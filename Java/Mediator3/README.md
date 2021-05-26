@@ -1,6 +1,7 @@
 ## TheRayCode
 # Mediator pattern java
 
+We start by createing an *interface* in which we call the **Mediator**.
 ```java
 public interface Mediator {
     public void saleOffer(String stock, int shares, int collCode);
@@ -8,7 +9,7 @@ public interface Mediator {
     public void addColleague(Colleague colleague);
 }
 ```
-
+We also want to create an *abstract* class called the **Colleague**.
 ```java
 public abstract class Colleague {
     private Mediator mediator;
@@ -26,43 +27,7 @@ public abstract class Colleague {
     public void setCollCode(int collCode){ colleagueCode = collCode; }
 }
 ```
-
-```java
-public class StockOffer {
-    private int stockShares = 0;
-    private String stockSymbol = "";
-    private int colleagueCode = 0;
-    public StockOffer(int numOfShares, String stock, int collCode){
-
-        stockShares = numOfShares;
-        stockSymbol = stock;
-        colleagueCode = collCode;
-
-    }
-
-    public int getstockShares() { return stockShares; }
-    public String getStockSymbol() { return stockSymbol; }
-    public int getCollCode() { return colleagueCode; }
-}
-```
-
-```java
-public class GormanSlacks extends Colleague{
-    public GormanSlacks(Mediator newMediator) {
-        super(newMediator);
-        System.out.println("Gorman Slacks signed up with the stockexchange\n");
-    }
-}
-```
-
-```java
-public class JTPoorman extends Colleague{
-    public JTPoorman(Mediator newMediator) {
-        super(newMediator);
-        System.out.println("JT Poorman signed up with the stockexchange\n");
-    }
-}
-```
+Let's now create a class that will be the **StockMediator**.
 
 ```java
 import java.util.ArrayList;
@@ -131,7 +96,49 @@ public class StockMediator implements Mediator{
     }
 }
 ```
+![Mediator](/UMLs/images/Mediator/Mediator-3.png)
 
+
+Now let's create a class we call **StockOffer**.
+```java
+public class StockOffer {
+    private int stockShares = 0;
+    private String stockSymbol = "";
+    private int colleagueCode = 0;
+    public StockOffer(int numOfShares, String stock, int collCode){
+
+        stockShares = numOfShares;
+        stockSymbol = stock;
+        colleagueCode = collCode;
+
+    }
+
+    public int getstockShares() { return stockShares; }
+    public String getStockSymbol() { return stockSymbol; }
+    public int getCollCode() { return colleagueCode; }
+}
+```
+
+Now let's create another stock offering classes we call **GormanSlacks**.
+```java
+public class GormanSlacks extends Colleague{
+    public GormanSlacks(Mediator newMediator) {
+        super(newMediator);
+        System.out.println("Gorman Slacks signed up with the stockexchange\n");
+    }
+}
+```
+
+Let's create another stock offering classes we call **JTPoorman**.
+```java
+public class JTPoorman extends Colleague{
+    public JTPoorman(Mediator newMediator) {
+        super(newMediator);
+        System.out.println("JT Poorman signed up with the stockexchange\n");
+    }
+}
+```
+Let's put tis all togeher in a **main** method.
 ```java
 public class TestStockMediator {
     public static void main(String[] args){
@@ -147,9 +154,24 @@ public class TestStockMediator {
     }
 }
 ```
+When we compile an run we should have,
 
+```run
+Gorman Slacks signed up with the stockexchange
 
+JT Poorman signed up with the stockexchange
 
+100 shares of MSFT added to inventory
+50 shares of GOOG added to inventory
+100 shares of MSFT bought by colleague code 1
+10 shares of NRG added to inventory
+10 shares of NRG bought by colleague code 2
+
+Stocks for Sale
+50 of GOOG
+
+Stock Buy Offers
+```
 
 The Ray Code is AWESOME!!!
 
