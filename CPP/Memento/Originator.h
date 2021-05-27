@@ -4,7 +4,7 @@
 #include <iostream>
 
 #include "Memento.h"
-#include "ConcreteMemento.h"
+#include "SolverMemento.h"
 
 class Originator {
 
@@ -44,7 +44,7 @@ public:
      * Saves the current state inside a memento.
      */
     Memento *Save() {
-        return new ConcreteMemento(this->state_);
+        return new SolverMemento(this->state_);
     }
     /**
      * Restores the Originator's state from a memento object.

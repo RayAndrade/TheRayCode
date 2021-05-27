@@ -2,20 +2,20 @@
 // Created by ray on 8/19/20.
 //
 
-#ifndef MEMENTO_CONCRETEMEMENTO_H
-#define MEMENTO_CONCRETEMEMENTO_H
+#ifndef MEMENTO_SOLVERMEMENTO_H
+#define MEMENTO_SOLVERMEMENTO_H
 #include <ctime>
 #include "Memento.h"
 
 
-class ConcreteMemento : public Memento {
+class SolverMemento : public Memento {
 
 private:
     std::string state_;
     std::string date_;
 
 public:
-    ConcreteMemento(std::string state) : state_(state) {
+    SolverMemento(std::string state) : state_(state) {
         this->state_ = state;
         std::time_t now = std::time(0);
         this->date_ = std::ctime(&now);
@@ -39,4 +39,4 @@ public:
 };
 
 
-#endif //MEMENTO_CONCRETEMEMENTO_H
+#endif //MEMENTO_SOLVERMEMENTO_H

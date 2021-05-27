@@ -4,11 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ray/CLionProjects/Memento/Caretaker.cpp" "/home/ray/CLionProjects/Memento/cmake-build-debug/CMakeFiles/Memento.dir/Caretaker.cpp.o"
-  "/home/ray/CLionProjects/Memento/ConcreteMemento.cpp" "/home/ray/CLionProjects/Memento/cmake-build-debug/CMakeFiles/Memento.dir/ConcreteMemento.cpp.o"
-  "/home/ray/CLionProjects/Memento/Memento.cpp" "/home/ray/CLionProjects/Memento/cmake-build-debug/CMakeFiles/Memento.dir/Memento.cpp.o"
-  "/home/ray/CLionProjects/Memento/Originator.cpp" "/home/ray/CLionProjects/Memento/cmake-build-debug/CMakeFiles/Memento.dir/Originator.cpp.o"
-  "/home/ray/CLionProjects/Memento/main.cpp" "/home/ray/CLionProjects/Memento/cmake-build-debug/CMakeFiles/Memento.dir/main.cpp.o"
+  "/home/ray/TheRayCode/TheRayCode/CPP/Memento/main.cpp" "/home/ray/TheRayCode/TheRayCode/CPP/Memento/cmake-build-debug/CMakeFiles/Memento.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
