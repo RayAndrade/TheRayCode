@@ -1,8 +1,11 @@
 # TheRayCode
 ## Memento pattern c++
 
-We start with createing a class we call the **Memento**
+Memento is a behavioral design pattern that allows making snapshots of an object’s state and restoring it in future.
+The Memento’s principle can be achieved using the serialization, which is quite common in C++.
 
+We start with createing a class we call the **Memento**
+The **Memento** interface provides a way to retrieve the memento's metadata, such as creation date or name. However, it doesn't expose the Originator's state.
 ```c++
 #include <iostream>
 
@@ -15,8 +18,7 @@ public:
 };
 ```
 
-The Originator uses this method when restoring its state.
-The rest of the methods are used by the Caretaker to display metadata.
+The **SolverMemento**  contains the infrastructure for storing the Originator's * state.
 
 ```c++
 #include <ctime>
@@ -91,6 +93,12 @@ public:
 };
 ```
 https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/images/Memento/Memento-1.gif
+
+
+
+The Caretaker doesn't depend on the Concrete Memento class. Therefore, it doesn't have access to the originator's state, stored inside the memento. 
+It works with all mementos via the base Memento interface.
+
 ```c++
 #include <iostream>
 //#include <string>
@@ -132,6 +140,7 @@ public:
     }
 };
 ```
+Let's put tis together in the **ClientCode**, afunction we place in the **main.cpp**.
 
 ```c++
 void ClientCode() {
@@ -154,7 +163,7 @@ void ClientCode() {
     delete caretaker;
 }
 ```
-
+.. And we execute the function in the **main** method
 ```c++
 int main() {
     std::srand(static_cast<unsigned int>(std::time(NULL)));
@@ -163,7 +172,7 @@ int main() {
 }
 ```
 
-
+When we compile and run we should get:
 ```run
 Originator: My initial state is: Super-duper-super-puper-super.
 

@@ -8,6 +8,7 @@
 #include "Memento.h"
 
 
+
 class SolverMemento : public Memento {
 
 private:
