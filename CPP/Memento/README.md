@@ -90,7 +90,7 @@ public:
     }
 };
 ```
-
+https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/images/Memento/Memento-1.gif
 ```c++
 #include <iostream>
 //#include <string>
