@@ -85,13 +85,13 @@
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Memento/Caretaker.h">
 			<Option target="Memento"/>
 		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Memento/ConcreteMemento.h">
-			<Option target="Memento"/>
-		</Unit>
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Memento/Memento.h">
 			<Option target="Memento"/>
 		</Unit>
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Memento/Originator.h">
+			<Option target="Memento"/>
+		</Unit>
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Memento/SolverMemento.h">
 			<Option target="Memento"/>
 		</Unit>
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Memento/main.cpp">

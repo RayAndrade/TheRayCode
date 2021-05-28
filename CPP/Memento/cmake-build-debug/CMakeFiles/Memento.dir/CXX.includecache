@@ -18,12 +18,6 @@ Memento.h
 Originator.h
 /home/ray/TheRayCode/TheRayCode/CPP/Memento/Originator.h
 
-/home/ray/TheRayCode/TheRayCode/CPP/Memento/ConcreteMemento.h
-ctime
--
-Memento.h
-/home/ray/TheRayCode/TheRayCode/CPP/Memento/Memento.h
-
 /home/ray/TheRayCode/TheRayCode/CPP/Memento/Memento.h
 iostream
 -
@@ -33,8 +27,14 @@ iostream
 -
 Memento.h
 /home/ray/TheRayCode/TheRayCode/CPP/Memento/Memento.h
-ConcreteMemento.h
-/home/ray/TheRayCode/TheRayCode/CPP/Memento/ConcreteMemento.h
+SolverMemento.h
+/home/ray/TheRayCode/TheRayCode/CPP/Memento/SolverMemento.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/Memento/SolverMemento.h
+ctime
+-
+Memento.h
+/home/ray/TheRayCode/TheRayCode/CPP/Memento/Memento.h
 
 /home/ray/TheRayCode/TheRayCode/CPP/Memento/main.cpp
 iostream
