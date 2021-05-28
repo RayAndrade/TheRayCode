@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ray/RiderProjects/Memento/Memento/Memento.csproj": {}
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Memento/Memento/Memento.csproj": {}
   },
   "projects": {
-    "/home/ray/RiderProjects/Memento/Memento/Memento.csproj": {
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Memento/Memento/Memento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ray/RiderProjects/Memento/Memento/Memento.csproj",
+        "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/Memento/Memento/Memento.csproj",
         "projectName": "Memento",
-        "projectPath": "/home/ray/RiderProjects/Memento/Memento/Memento.csproj",
+        "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Memento/Memento/Memento.csproj",
         "packagesPath": "/home/ray/.nuget/packages/",
-        "outputPath": "/home/ray/RiderProjects/Memento/Memento/obj/",
+        "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Memento/Memento/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     }

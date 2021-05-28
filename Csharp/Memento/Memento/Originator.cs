@@ -1,7 +1,7 @@
 using System;
 using System.Threading;
 
-namespace TheRay.Memento
+namespace TheRayCode.Memento
 {
     class Originator
     {

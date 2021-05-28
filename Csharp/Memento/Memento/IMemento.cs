@@ -1,6 +1,6 @@
 using System;
 
-namespace TheRay.Memento
+namespace TheRayCode.Memento
 {
     public interface IMemento
     {

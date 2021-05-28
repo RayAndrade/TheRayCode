@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TheRay.Memento
+namespace TheRayCode.Memento
 {
     class Caretaker
     {
