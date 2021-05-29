@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25bd9fc1-47a7-45fd-92fe-5925ff35b061" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Memento/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Memento/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Memento/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Memento/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Memento/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Memento/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Memento/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memento/Caretaker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Memento/Caretaker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memento/IMemento.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Memento/IMemento.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memento/Memento.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Memento/Memento.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memento/Originator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Memento/Originator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memento/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Memento/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memento/bin/Debug/netcoreapp3.1/Memento" beforeDir="false" afterPath="$PROJECT_DIR$/Memento/bin/Debug/netcoreapp3.1/Memento" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memento/bin/Debug/netcoreapp3.1/Memento.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Memento/bin/Debug/netcoreapp3.1/Memento.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memento/bin/Debug/netcoreapp3.1/Memento.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Memento/bin/Debug/netcoreapp3.1/Memento.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memento/obj/Debug/netcoreapp3.1/Memento" beforeDir="false" afterPath="$PROJECT_DIR$/Memento/obj/Debug/netcoreapp3.1/Memento" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memento/obj/Debug/netcoreapp3.1/Memento.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Memento/obj/Debug/netcoreapp3.1/Memento.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memento/obj/Debug/netcoreapp3.1/Memento.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Memento/obj/Debug/netcoreapp3.1/Memento.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memento/obj/Debug/netcoreapp3.1/Memento.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Memento/obj/Debug/netcoreapp3.1/Memento.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memento/obj/Debug/netcoreapp3.1/Memento.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Memento/obj/Debug/netcoreapp3.1/Memento.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memento/obj/Debug/netcoreapp3.1/Memento.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Memento/obj/Debug/netcoreapp3.1/Memento.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Memento/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Memento/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +80,7 @@
       <workItem from="1597908496764" duration="29000" />
       <workItem from="1597909560522" duration="18000" />
       <workItem from="1622231634981" duration="759000" />
+      <workItem from="1622313793193" duration="2682000" />
     </task>
     <servers />
   </component>
