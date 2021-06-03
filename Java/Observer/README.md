@@ -1,6 +1,16 @@
 # TheRayCode
 ## Observer pattern java
 
+We create a package called **listeners** and in that package we create an **interface** called **interface**.
+```java
+import java.io.File;
+
+public interface EventListener {
+    void update(String eventType, File file);
+}
+
+```
+
 
 [Wikipedia](https://en.wikipedia.org/wiki/Observer_pattern)
 
