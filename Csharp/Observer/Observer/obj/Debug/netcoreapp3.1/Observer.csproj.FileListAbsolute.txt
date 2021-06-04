@@ -11,3 +11,16 @@
 /home/ray/RiderProjects/Observer/Observer/obj/Debug/netcoreapp3.1/Observer.dll
 /home/ray/RiderProjects/Observer/Observer/obj/Debug/netcoreapp3.1/Observer.pdb
 /home/ray/RiderProjects/Observer/Observer/obj/Debug/netcoreapp3.1/Observer.genruntimeconfig.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Observer/Observer/bin/Debug/netcoreapp3.1/Observer
+/home/ray/TheRayCode/TheRayCode/Csharp/Observer/Observer/bin/Debug/netcoreapp3.1/Observer.deps.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Observer/Observer/bin/Debug/netcoreapp3.1/Observer.runtimeconfig.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Observer/Observer/bin/Debug/netcoreapp3.1/Observer.runtimeconfig.dev.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Observer/Observer/bin/Debug/netcoreapp3.1/Observer.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Observer/Observer/bin/Debug/netcoreapp3.1/Observer.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Observer/Observer/obj/Debug/netcoreapp3.1/Observer.csprojAssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Observer/Observer/obj/Debug/netcoreapp3.1/Observer.AssemblyInfoInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Observer/Observer/obj/Debug/netcoreapp3.1/Observer.AssemblyInfo.cs
+/home/ray/TheRayCode/TheRayCode/Csharp/Observer/Observer/obj/Debug/netcoreapp3.1/Observer.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Observer/Observer/obj/Debug/netcoreapp3.1/Observer.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Observer/Observer/obj/Debug/netcoreapp3.1/Observer.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Observer/Observer/obj/Debug/netcoreapp3.1/Observer.genruntimeconfig.cache

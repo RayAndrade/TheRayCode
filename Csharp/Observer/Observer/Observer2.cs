@@ -2,13 +2,13 @@ using System;
 
 namespace TheRayCode.Observer
 {
-    class ObserverB : IObserver
+    class Observer2 : IObserver
     {
         public void Update(ISubject subject)
         {
             if ((subject as Subject).State == 0 || (subject as Subject).State >= 2)
             {
-                Console.WriteLine("ObserverB: Reacted to the event.");
+                Console.WriteLine("Observer2: Reacted to the event.");
             }
         }
     }

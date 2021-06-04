@@ -12,16 +12,16 @@ namespace TheRayCode.Observer
         {
             // The client code.
             var subject = new Subject();
-            var observerA = new ObserverA();
-            subject.Attach(observerA);
+            var observer1 = new Observer1();
+            subject.Attach(observer1);
 
-            var observerB = new ObserverB();
-            subject.Attach(observerB);
+            var observer2 = new Observer2();
+            subject.Attach(observer2);
 
             subject.SomeBusinessLogic();
             subject.SomeBusinessLogic();
 
-            subject.Detach(observerB);
+            subject.Detach(observer2);
 
             subject.SomeBusinessLogic();
         }
