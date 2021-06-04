@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2010b17a-19b9-4444-85d7-15c0759e9935" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Observer/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Observer/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Observer/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Observer/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Observer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Observer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Observer/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/ObserverA.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/Observer1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/ObserverB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/Observer2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/bin/Debug/netcoreapp3.1/Observer" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/bin/Debug/netcoreapp3.1/Observer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/bin/Debug/netcoreapp3.1/Observer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/bin/Debug/netcoreapp3.1/Observer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/bin/Debug/netcoreapp3.1/Observer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/bin/Debug/netcoreapp3.1/Observer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/obj/Debug/netcoreapp3.1/Observer" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/obj/Debug/netcoreapp3.1/Observer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/obj/Debug/netcoreapp3.1/Observer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/obj/Debug/netcoreapp3.1/Observer.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/obj/Debug/netcoreapp3.1/Observer.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/obj/Debug/netcoreapp3.1/Observer.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/obj/Debug/netcoreapp3.1/Observer.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/obj/Debug/netcoreapp3.1/Observer.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/obj/Debug/netcoreapp3.1/Observer.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/obj/Debug/netcoreapp3.1/Observer.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/obj/Debug/netcoreapp3.1/Observer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/obj/Debug/netcoreapp3.1/Observer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/obj/Debug/netcoreapp3.1/Observer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/obj/Debug/netcoreapp3.1/Observer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/obj/Observer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/obj/Observer.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/obj/Observer.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/obj/Observer.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Observer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Observer/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +26,7 @@
       <option value="$PROJECT_DIR$/Observer/Program.cs" />
       <option value="$PROJECT_DIR$/Observer/Observer1.cs" />
       <option value="$PROJECT_DIR$/Observer/Observer2.cs" />
+      <option value="$PROJECT_DIR$/Observer/ISubject.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1eEh6zwjKrtp7rmOXMWLdyikvdV" />
@@ -97,6 +76,7 @@
       <workItem from="1593892493324" duration="121000" />
       <workItem from="1596215879699" duration="641000" />
       <workItem from="1622748515626" duration="1660000" />
+      <workItem from="1622779207945" duration="1629000" />
     </task>
     <servers />
   </component>
@@ -115,6 +95,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
