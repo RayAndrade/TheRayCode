@@ -2,23 +2,23 @@
 #define STATE_STATE_H
 /**
  * The base State class declares methods that all Concrete State should
- * implement and also provides a backreference to the Context object, associated
+ * implement and also provides a backreference to the locContext object, associated
  * with the State. This backreference can be used by States to transition the
- * Context to another State.
+ * locContext to another State.
  */
-class Context;
+class locContext;
 class State {
     /**
-     * @var Context
+     * @var locContext
      */
 protected:
-    Context *context_;
+    locContext *context_;
 
 public:
     virtual ~State() {
     }
 
-    void set_context(Context *context) {
+    void set_context(locContext *context) {
         this->context_ = context;
     }
 

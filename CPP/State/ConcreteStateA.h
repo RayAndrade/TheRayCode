@@ -3,7 +3,7 @@
 #include "State.h"
 /**
  * Concrete States implement various behaviors, associated with a state of the
- * Context.
+ * locContext.
  */
 class ConcreteStateA : public State {
 public:

@@ -16,7 +16,7 @@ void ConcreteStateA::Handle1() {
  * The client code.
  */
 void ClientCode() {
-    Context *context = new Context(new ConcreteStateA);
+    locContext *context = new locContext(new ConcreteStateA);
     context->Request1();
     context->Request2();
     delete context;
