@@ -6,9 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/ray/CLionProjects/State/main.cpp
+/home/ray/TheRayCode/TheRayCode/CPP/State/ConcreteStateA.h
+State.h
+/home/ray/TheRayCode/TheRayCode/CPP/State/State.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/State/ConcreteStateB.h
+State.h
+/home/ray/TheRayCode/TheRayCode/CPP/State/State.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/State/Context.h
+State.h
+/home/ray/TheRayCode/TheRayCode/CPP/State/State.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/State/State.h
+
+/home/ray/TheRayCode/TheRayCode/CPP/State/main.cpp
 iostream
 -
-typeinfo
--
+Context.h
+/home/ray/TheRayCode/TheRayCode/CPP/State/Context.h
+ConcreteStateA.h
+/home/ray/TheRayCode/TheRayCode/CPP/State/ConcreteStateA.h
+ConcreteStateB.h
+/home/ray/TheRayCode/TheRayCode/CPP/State/ConcreteStateB.h
 
