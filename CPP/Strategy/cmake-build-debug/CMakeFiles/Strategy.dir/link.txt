@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Strategy.dir/main.cpp.o CMakeFiles/Strategy.dir/Strategy.cpp.o CMakeFiles/Strategy.dir/Context.cpp.o CMakeFiles/Strategy.dir/ConcreteStrategyA.cpp.o CMakeFiles/Strategy.dir/ConcreteStrategyB.cpp.o  -o Strategy 
+/usr/bin/c++ -g CMakeFiles/Strategy.dir/main.cpp.o -o Strategy 

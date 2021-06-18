@@ -1,8 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Strategy.dir/ConcreteStrategyA.cpp.o"
-  "CMakeFiles/Strategy.dir/ConcreteStrategyB.cpp.o"
-  "CMakeFiles/Strategy.dir/Context.cpp.o"
-  "CMakeFiles/Strategy.dir/Strategy.cpp.o"
   "CMakeFiles/Strategy.dir/main.cpp.o"
   "Strategy"
   "Strategy.pdb"

@@ -4,11 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ray/CLionProjects/Strategy/ConcreteStrategyA.cpp" "/home/ray/CLionProjects/Strategy/cmake-build-debug/CMakeFiles/Strategy.dir/ConcreteStrategyA.cpp.o"
-  "/home/ray/CLionProjects/Strategy/ConcreteStrategyB.cpp" "/home/ray/CLionProjects/Strategy/cmake-build-debug/CMakeFiles/Strategy.dir/ConcreteStrategyB.cpp.o"
-  "/home/ray/CLionProjects/Strategy/Context.cpp" "/home/ray/CLionProjects/Strategy/cmake-build-debug/CMakeFiles/Strategy.dir/Context.cpp.o"
-  "/home/ray/CLionProjects/Strategy/Strategy.cpp" "/home/ray/CLionProjects/Strategy/cmake-build-debug/CMakeFiles/Strategy.dir/Strategy.cpp.o"
-  "/home/ray/CLionProjects/Strategy/main.cpp" "/home/ray/CLionProjects/Strategy/cmake-build-debug/CMakeFiles/Strategy.dir/main.cpp.o"
+  "/home/ray/TheRayCode/TheRayCode/CPP/Strategy/main.cpp" "/home/ray/TheRayCode/TheRayCode/CPP/Strategy/cmake-build-debug/CMakeFiles/Strategy.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
