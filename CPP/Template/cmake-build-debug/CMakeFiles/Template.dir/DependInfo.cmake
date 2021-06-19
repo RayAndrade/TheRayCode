@@ -4,10 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ray/CLionProjects/Template/AbstractClass.cpp" "/home/ray/CLionProjects/Template/cmake-build-debug/CMakeFiles/Template.dir/AbstractClass.cpp.o"
-  "/home/ray/CLionProjects/Template/ConcreteClass1.cpp" "/home/ray/CLionProjects/Template/cmake-build-debug/CMakeFiles/Template.dir/ConcreteClass1.cpp.o"
-  "/home/ray/CLionProjects/Template/ConcreteClass2.cpp" "/home/ray/CLionProjects/Template/cmake-build-debug/CMakeFiles/Template.dir/ConcreteClass2.cpp.o"
-  "/home/ray/CLionProjects/Template/main.cpp" "/home/ray/CLionProjects/Template/cmake-build-debug/CMakeFiles/Template.dir/main.cpp.o"
+  "/home/ray/TheRayCode/TheRayCode/CPP/Template/main.cpp" "/home/ray/TheRayCode/TheRayCode/CPP/Template/cmake-build-debug/CMakeFiles/Template.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

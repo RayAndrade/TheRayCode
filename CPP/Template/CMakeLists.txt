@@ -3,4 +3,4 @@ project(Template)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Template main.cpp AbstractClass.cpp AbstractClass.h ConcreteClass1.cpp ConcreteClass1.h ConcreteClass2.cpp ConcreteClass2.h)
+add_executable(Template main.cpp  AbstractClass.h  ConcreteClass1.h  ConcreteClass2.h)
