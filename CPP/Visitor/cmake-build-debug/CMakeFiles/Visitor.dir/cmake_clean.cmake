@@ -1,10 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Visitor.dir/Component.cpp.o"
-  "CMakeFiles/Visitor.dir/ComponentA.cpp.o"
-  "CMakeFiles/Visitor.dir/ComponentB.cpp.o"
-  "CMakeFiles/Visitor.dir/Visitor.cpp.o"
-  "CMakeFiles/Visitor.dir/Visitor1.cpp.o"
-  "CMakeFiles/Visitor.dir/Visitor2.cpp.o"
   "CMakeFiles/Visitor.dir/main.cpp.o"
   "Visitor"
   "Visitor.pdb"
