@@ -1,5 +1,5 @@
 //
-// Created by ray on 6/29/21.
+// Created by ray on 6/30/21.
 //
 
 #ifndef BUILDER_PRODUCT_H
@@ -7,7 +7,6 @@
 #include <vector>
 
 class Product {
-
 public:
     std::vector<std::string> parts_;
     void ListParts()const{
@@ -21,6 +20,6 @@ public:
         }
         std::cout << "\n\n";
     }
-
 };
+
 #endif //BUILDER_PRODUCT_H

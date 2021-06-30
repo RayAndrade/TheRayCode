@@ -1,10 +1,9 @@
 //
-// Created by ray on 6/29/21.
+// Created by ray on 6/30/21.
 //
 
 #ifndef BUILDER_SOLIDBUILDER_H
 #define BUILDER_SOLIDBUILDER_H
-
 #include "Builder.h"
 #include "Product.h"
 
@@ -36,4 +35,5 @@ public:
         return result;
     }
 };
+
 #endif //BUILDER_SOLIDBUILDER_H

@@ -1,10 +1,11 @@
 //
-// Created by ray on 6/29/21.
+// Created by ray on 6/30/21.
 //
-#include "Builder.h"
 
 #ifndef BUILDER_DIRECTOR_H
 #define BUILDER_DIRECTOR_H
+#include "Builder.h"
+
 class Director {
 private:
     Builder* builder;

@@ -1,5 +1,5 @@
 //
-// Created by ray on 6/29/21.
+// Created by ray on 6/30/21.
 //
 
 #ifndef BUILDER_BUILDER_H
@@ -10,5 +10,6 @@ public:
     virtual void ProducePartA() const =0;
     virtual void ProducePartB() const =0;
     virtual void ProducePartC() const =0;
+
 };
 #endif //BUILDER_BUILDER_H
