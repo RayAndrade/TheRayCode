@@ -1,7 +1,5 @@
 #ifndef BUILDER_BUILDER_H
 #define BUILDER_BUILDER_H
-
-
 class Builder {
 public:
     virtual ~Builder(){}
@@ -10,6 +8,4 @@ public:
     virtual void ProducePartC() const =0;
 
 };
-
-
 #endif //BUILDER_BUILDER_H

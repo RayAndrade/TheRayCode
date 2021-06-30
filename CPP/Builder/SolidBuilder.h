@@ -1,12 +1,8 @@
-//
-// Created by ray on 8/13/20.
-//
 
 #ifndef BUILDER_SOLIDBUILDER_H
 #define BUILDER_SOLIDBUILDER_H
 #include "Builder.h"
 #include "Product.h"
-
 
 class SolidBuilder: public Builder {
 private:
@@ -35,8 +31,5 @@ public:
         this->Reset();
         return result;
     }
-
 };
-
-
 #endif //BUILDER_SOLIDBUILDER_H

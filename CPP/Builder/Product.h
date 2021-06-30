@@ -1,10 +1,8 @@
-#ifndef PRODUCT_H
-#define PRODUCT_H
-
-#include <iostream>
+#ifndef BUILDER_PRODUCT_H
+#define BUILDER_PRODUCT_H
 #include <vector>
-
 class Product {
+
 public:
     std::vector<std::string> parts_;
     void ListParts()const{
@@ -21,4 +19,4 @@ public:
 };
 
 
-#endif //PRODUCT_H
+#endif //BUILDER_PRODUCT_H

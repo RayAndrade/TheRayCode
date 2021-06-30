@@ -2,7 +2,6 @@
 #define BUILDER_DIRECTOR_H
 #include "Builder.h"
 
-
 class Director {
 private:
     Builder* builder;
@@ -18,9 +17,5 @@ public:
         this->builder->ProducePartB();
         this->builder->ProducePartC();
     }
-
-
 };
-
-
 #endif //BUILDER_DIRECTOR_H

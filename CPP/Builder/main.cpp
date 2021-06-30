@@ -14,13 +14,6 @@ void ClientCode(Director& director)
     p->ListParts();
     delete p;
 
-    std::cout << "Standard full featured product:\n";
-    director.BuildFullFeaturedProduct();
-
-    p= builder->GetProduct();
-    p->ListParts();
-    delete p;
-
     std::cout << "Custom product:\n";
     builder->ProducePartA();
     builder->ProducePartC();
@@ -32,13 +25,9 @@ void ClientCode(Director& director)
 
 
 int main(){
-
     Director* director= new Director();
     ClientCode(*director);
     delete director;
-
-
-    //std::cout << "The Ray Code is AWESOME!!!\n\n";
     return 0;
 }
 

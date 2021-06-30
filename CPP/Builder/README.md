@@ -16,6 +16,8 @@ In other words, results of various builders may not always follow the same inter
 Let's create a class called **Product**.
 The code for **Product**.h will be:
 ```c++
+#include <vector>
+
 class Product {
 public:
     std::vector<std::string> parts_;
