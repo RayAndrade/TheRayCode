@@ -1,10 +1,14 @@
+//
+// Created by ray on 6/29/21.
+//
 
 #ifndef BUILDER_SOLIDBUILDER_H
 #define BUILDER_SOLIDBUILDER_H
+
 #include "Builder.h"
 #include "Product.h"
 
-class SolidBuilder: public Builder {
+class SolidBuilder: public Builder{
 private:
     Product* product;
 public:

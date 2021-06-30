@@ -1,6 +1,11 @@
+//
+// Created by ray on 6/29/21.
+//
+
 #ifndef BUILDER_PRODUCT_H
 #define BUILDER_PRODUCT_H
 #include <vector>
+
 class Product {
 
 public:
@@ -16,7 +21,6 @@ public:
         }
         std::cout << "\n\n";
     }
+
 };
-
-
 #endif //BUILDER_PRODUCT_H

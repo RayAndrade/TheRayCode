@@ -49,6 +49,9 @@ public:
 The Concrete (Solid) Builder classes follows the Builder interface and provide specific implementations of the building steps. 
 Your program may have several variations of *Builders* , implemented differently.
 ```c++
+#include "Builder.h"
+#include "Product.h"
+
 class SolidBuilder: public Builder {
 private:
     Product* product;

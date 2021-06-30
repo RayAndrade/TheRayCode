@@ -23,7 +23,6 @@ void ClientCode(Director& director)
 
 }
 
-
 int main(){
     Director* director= new Director();
     ClientCode(*director);
