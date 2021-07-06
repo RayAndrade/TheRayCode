@@ -21,5 +21,4 @@ public:
         std::cout << "\n\n";
     }
 };
-
 #endif //BUILDER_PRODUCT_H

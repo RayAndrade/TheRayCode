@@ -35,5 +35,4 @@ public:
         return result;
     }
 };
-
 #endif //BUILDER_SOLIDBUILDER_H
