@@ -1,25 +1,25 @@
-#ifndef ABSTRACTFACTORY_PRODUCT2_H
-#define ABSTRACTFACTORY_PRODUCT2_H
+#ifndef ABSTRACTFACTORY_ABSTRACTPRODUCTB_H
+#define ABSTRACTFACTORY_ABSTRACTPRODUCTB_H
 
 /**
  * Here's the the base interface of another product. All products can interact
  * with each other, but proper interaction is possible only between products of
  * the same concrete variant.
  */
-class Product2 {
+class AbstractProductB {
     /**
      * Product B is able to do its own thing...
      */
 public:
-    virtual ~Product2(){};
+    virtual ~AbstractProductB(){};
     virtual std::string UsefulFunction2() const = 0;
     /**
-     * ...but it also can collaborate with the Product1.
+     * ...but it also can collaborate with the AbstractProductA.
      *
      * The Abstract Factory makes sure that all products it creates are of the
      * same variant and thus, compatible.
      */
-    virtual std::string AnotherUsefulFunctionB(const Product1 &collaborator) const = 0;
+    virtual std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const = 0;
 };
 
-#endif //ABSTRACTFACTORY_PRODUCT2_H
+#endif //ABSTRACTFACTORY_ABSTRACTPRODUCTB_H

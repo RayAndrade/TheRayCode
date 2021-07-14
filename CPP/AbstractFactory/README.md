@@ -5,25 +5,25 @@ In this article we will review the **Abstract Factory** pattern.
 This pattern allows you to create a family of classes in which
 the subclasses of this *family* can cooperate together.
 
-Let's start by creating a couple of products we call **Product1** and **Product2**.
+Let's start by creating a couple of products we call **AbstractProductA** and **AbstractProductB**.
 
-We start with **Product1** and it's subclasses. For **Product1** we have the following code:
+We start with **AbstractProductA** and it's subclasses. For **AbstractProductA** we have the following code:
 
 ```c++
-class Product1 {
+class AbstractProductA {
 public:
-    virtual Product1(){};
+    virtual AbstractProductA(){};
     virtual std::string UsefulFunctionA() const = 0;
 };
 ```
 
-Next we want to create a couple subclasses that we call **Product1a** and **Product2a**.
-The first thing we need to do is include **Product1.h** and the extend **Product1a** with **Product1**.
-Let's look at the code in **Product1a**.h.
+Next we want to create a couple subclasses that we call **ProductA1** and **ProductA2**.
+The first thing we need to do is include **AbstractProductA.h** and the extend **ProductA1** with **AbstractProductA**.
+Let's look at the code in **ProductA1**.h.
 ```c++
-#include "Product1.h"
+#include "AbstractProductA.h"
 
-class Product1a : public Product1 {
+class ProductA1 : public AbstractProductA {
 public:
     std::string UsefulFunctionA() const override {
         return "The result of the product A1.";
@@ -31,14 +31,14 @@ public:
 };
 
 ```
-We now want to create two classes I will call **Product2a** and **Product2a**. Both classes
-will be extend with **Product1** and thus we will need to include **Product1** on both.
-The code for **Product1a** will be:
+We now want to create two classes I will call **ProductA2** and **ProductA2**. Both classes
+will be extend with **AbstractProductA** and thus we will need to include **AbstractProductA** on both.
+The code for **ProductA1** will be:
 
 ```c++
-#include "Product1.h"
+#include "AbstractProductA.h"
 
-class Product1a : public Product1 {
+class ProductA1 : public AbstractProductA {
 public:
     std::string UsefulFunctionA() const override {
         return "The result of the product A1.";
@@ -46,11 +46,11 @@ public:
 };
 
 ```
-and for **Product2a** we have:
+and for **ProductA2** we have:
 ```c++
-#include "Product1.h"
+#include "AbstractProductA.h"
 
-class Product2a : public Product1 {
+class ProductA2 : public AbstractProductA {
     std::string UsefulFunctionA() const override {
         return "The result of the product A2.";
     }
@@ -62,89 +62,89 @@ class Product2a : public Product1 {
 
 We now move to the **B** side.
 
-So let's create **Product2**. To **Product2** we have the following code:
+So let's create **AbstractProductB**. To **AbstractProductB** we have the following code:
 
 ```c++
-class Product2 {
+class AbstractProductB {
 
 public:
-    virtual Product2(){};
+    virtual AbstractProductB(){};
     virtual std::string UsefulFunction2() const = 0;
 
-    virtual std::string AnotherUsefulFunctionB(const Product1 &collaborator) const = 0;
+    virtual std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const = 0;
 };
 
 ```
 Let's now create two classes that will be extended by this class.
-We first have **Product1b** and then we have **Product2b**. Both will be extended with **Product2**
-We start with **Product1b**:
+We first have **ProductB1** and then we have **ProductB2**. Both will be extended with **AbstractProductB**
+We start with **ProductB1**:
 
 ```c++
-#include "Product2.h"
+#include "AbstractProductB.h"
 
-class Product1b : public Product2 {
+class ProductB1 : public AbstractProductB {
 public:
     std::string UsefulFunction2() const override {
         return "The result of the product B1.";
     }
-    std::string AnotherUsefulFunctionB(const Product1 &collaborator) const override {
+    std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const override {
         const std::string result = collaborator.UsefulFunctionA();
         return "The result of the B1 collaborating with ( " + result + " )";
     }
 };
 ```
-and then we move to **Product2b**. Its code will be:
+and then we move to **ProductB2**. Its code will be:
 ```c++
-#include "Product2.h"
+#include "AbstractProductB.h"
 
-class Product2b : public Product2 {
+class ProductB2 : public AbstractProductB {
 public:
     std::string UsefulFunction2() const override {
         return "The result of the product B2.";
     }
 
-    std::string AnotherUsefulFunctionB(const Product1 &collaborator) const override {
+    std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const override {
         const std::string result = collaborator.UsefulFunctionA();
         return "The result of the B2 collaborating with ( " + result + " )";
     }
 };
 ```
-now let's create the **AbstractFactory** which will house our two classes **Product1** and **Product2**
+now let's create the **AbstractFactory** which will house our two classes **AbstractProductA** and **AbstractProductB**
 It will have the following code:
 ```c++
 class AbstractFactory {
 public:
-    virtual Product1 *CreateProductA() const = 0;
-    virtual Product2 *CreateProductB() const = 0;
+    virtual AbstractProductA *CreateProductA() const = 0;
+    virtual AbstractProductB *CreateProductB() const = 0;
 };
 ```
-Now let's create out Factories. We start with **Factory1**. 
+Now let's create out Factories. We start with **ConcreteFactory1**. 
 We notice it is extended by the **AbstractFactory**. 
 We have the following code:
 ```c++
 #include "AbstractFactory.h"
 
-class Factory1 : public AbstractFactory {
+class ConcreteFactory1 : public AbstractFactory {
 public:
-    Product1 *CreateProductA() const override {
-        return new Product1a();
+    AbstractProductA *CreateProductA() const override {
+        return new ProductA1();
     }
-    Product2 *CreateProductB() const override {
-        return new Product1b();
+    AbstractProductB *CreateProductB() const override {
+        return new ProductB1();
     }
 };
 ```
-We now proceed to **Factory2**. It too is extend by **AbstractFactory** thus we have the following code:
+We now proceed to **ConcreteFactory2**. It too is extend by **AbstractFactory** thus we have the following code:
 ```c++
 #include "AbstractFactory.h"
 
-class Factory2 : public AbstractFactory {
+class ConcreteFactory2 : public AbstractFactory {
 public:
-    Product1 *CreateProductA() const override {
-        return new Product2a();
+    AbstractProductA *CreateProductA() const override {
+        return new ProductA2();
     }
-    Product2 *CreateProductB() const override {
-        return new Product2b();
+    AbstractProductB *CreateProductB() const override {
+        return new ProductB2();
     }
 };
 ```
@@ -153,20 +153,20 @@ First we add the includes that we need.
 ```c++
 #include <iostream>
 
-#include "Product1a.h"
-#include "Product2a.h"
+#include "ProductA1.h"
+#include "ProductA2.h"
 
-#include "Product1b.h"
-#include "Product2b.h"
+#include "ProductB1.h"
+#include "ProductB2.h"
 
-#include "Factory1.h"
-#include "Factory2.h"
+#include "ConcreteFactory1.h"
+#include "ConcreteFactory2.h"
 ```
  we next add some client code:
 ```c++
-void ClientCode(const AbstractFactory &factory) {
-    const Product1 *product_a = factory.CreateProductA();
-    const Product2 *product_b = factory.CreateProductB();
+void Client(const AbstractFactory &factory) {
+    const AbstractProductA *product_a = factory.CreateProductA();
+    const AbstractProductB *product_b = factory.CreateProductB();
     std::cout << product_b->UsefulFunction2() << "\n";
     std::cout << product_b->AnotherUsefulFunctionB(*product_a) << "\n";
     delete product_a;
@@ -177,13 +177,13 @@ our last step is to go to the main fundtion. This is the code that we need:
 ```c++
 int main() {
     std::cout << "Client: Testing client code with the first factory type:\n";
-    Factory1 *f1 = new Factory1();
-    ClientCode(*f1);
+    ConcreteFactory1 *f1 = new ConcreteFactory1();
+    Client(*f1);
     delete f1;
     std::cout << std::endl;
     std::cout << "Client: Testing the same client code with the second factory type:\n";
-    Factory2 *f2 = new Factory2();
-    ClientCode(*f2);
+    ConcreteFactory2 *f2 = new ConcreteFactory2();
+    Client(*f2);
     delete f2;
     return 0;
 }

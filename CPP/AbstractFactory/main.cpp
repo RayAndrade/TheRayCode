@@ -1,13 +1,13 @@
 #include <iostream>
 
-#include "Product1a.h"
-#include "Product2a.h"
+#include "ProductA1.h"
+#include "ProductA2.h"
 
-#include "Product1b.h"
-#include "Product2b.h"
+#include "ProductB1.h"
+#include "ProductB2.h"
 
-#include "Factory1.h"
-#include "Factory2.h"
+#include "ConcreteFactory1.h"
+#include "ConcreteFactory2.h"
 
 /**
  * The client code works with factories and products only through abstract
@@ -15,9 +15,9 @@
  * product subclass to the client code without breaking it.
  */
 
-void ClientCode(const AbstractFactory &factory) {
-    const Product1 *product_a = factory.CreateProductA();
-    const Product2 *product_b = factory.CreateProductB();
+void Client(const AbstractFactory &factory) {
+    const AbstractProductA *product_a = factory.CreateProductA();
+    const AbstractProductB *product_b = factory.CreateProductB();
     std::cout << product_b->UsefulFunction2() << "\n";
     std::cout << product_b->AnotherUsefulFunctionB(*product_a) << "\n";
     delete product_a;
@@ -26,13 +26,13 @@ void ClientCode(const AbstractFactory &factory) {
 
 int main() {
     std::cout << "Client: Testing client code with the first factory type:\n";
-    Factory1 *f1 = new Factory1();
-    ClientCode(*f1);
+    ConcreteFactory1 *f1 = new ConcreteFactory1();
+    Client(*f1);
     delete f1;
     std::cout << std::endl;
     std::cout << "Client: Testing the same client code with the second factory type:\n";
-    Factory2 *f2 = new Factory2();
-    ClientCode(*f2);
+    ConcreteFactory2 *f2 = new ConcreteFactory2();
+    Client(*f2);
     delete f2;
     return 0;
 }

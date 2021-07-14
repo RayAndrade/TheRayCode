@@ -1,16 +1,16 @@
-#ifndef ABSTRACTFACTORY_PRODUCT1_H
-#define ABSTRACTFACTORY_PRODUCT1_H
+#ifndef ABSTRACTFACTORY_ABSTRACTPRODUCTA_H
+#define ABSTRACTFACTORY_ABSTRACTPRODUCTA_H
 
 
 /**
  * Each distinct product of a product family should have a base interface. All
  * variants of the product must implement this interface.
  */
-class Product1 {
+class AbstractProductA {
 public:
-    virtual ~Product1(){};
+    virtual ~AbstractProductA(){};
     virtual std::string UsefulFunctionA() const = 0;
 };
 
 
-#endif //ABSTRACTFACTORY_PRODUCT1_H
+#endif //ABSTRACTFACTORY_ABSTRACTPRODUCTA_H

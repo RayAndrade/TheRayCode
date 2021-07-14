@@ -85,28 +85,28 @@
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/AbstractFactory.h">
 			<Option target="AbstractFactory"/>
 		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Factory1.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/AbstractProductA.h">
 			<Option target="AbstractFactory"/>
 		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Factory2.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/AbstractProductB.h">
 			<Option target="AbstractFactory"/>
 		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product1.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ConcreteFactory1.h">
 			<Option target="AbstractFactory"/>
 		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product1a.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ConcreteFactory2.h">
 			<Option target="AbstractFactory"/>
 		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product1b.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductA1.h">
 			<Option target="AbstractFactory"/>
 		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product2.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductA2.h">
 			<Option target="AbstractFactory"/>
 		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product2a.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductB1.h">
 			<Option target="AbstractFactory"/>
 		</Unit>
-		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product2b.h">
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductB2.h">
 			<Option target="AbstractFactory"/>
 		</Unit>
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/main.cpp">

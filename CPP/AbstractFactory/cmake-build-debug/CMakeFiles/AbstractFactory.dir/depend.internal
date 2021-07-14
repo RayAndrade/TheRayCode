@@ -3,12 +3,12 @@
 
 CMakeFiles/AbstractFactory.dir/main.cpp.o
  /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/AbstractFactory.h
- /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Factory1.h
- /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Factory2.h
- /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product1.h
- /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product1a.h
- /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product1b.h
- /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product2.h
- /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product2a.h
- /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/Product2b.h
+ /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/AbstractProductA.h
+ /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/AbstractProductB.h
+ /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ConcreteFactory1.h
+ /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ConcreteFactory2.h
+ /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductA1.h
+ /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductA2.h
+ /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductB1.h
+ /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductB2.h
  /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/main.cpp
