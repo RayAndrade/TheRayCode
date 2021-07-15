@@ -20,38 +20,6 @@ public:
 };
 ```
 
-According to our interface we need add two classes, or two classes are required.
-Let's start by creating a couple of *Abstract* products we call **AbstractProductA** and **AbstractProductB**.
-Each distinct product of a product family should have a base interface. 
-All variants of this product must implement this interface.
-
-So we add the **AbstractProductA**. 
-Each distinct product of a product family should have a base interface. 
-All variants of the product must implement this interface.
-
-```c++
-class AbstractProductA {
-public:
-    virtual AbstractProductA(){};
-    virtual std::string UsefulFunctionA() const = 0;
-};
-```
-
-Here's the the base interface of another product. 
-All products can interact with each other, but proper interaction is possible only between products of* the same concrete variant.
-And to add **AbstractProductB** the code will be.
-
-```c++
-class AbstractProductB {
-public:
-    virtual ~AbstractProductB(){};
-    virtual std::string UsefulFunction2() const = 0;
-    virtual std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const = 0;
-};
-```
-Product B is able to do its own thing.
-...but it also can collaborate with the AbstractProductA.
-The Abstract Factory makes sure that all products it creates are of the same variant and thus, compatible.
 
 Let's create a couple of Concrete Factories.
 Concrete Factories produce a family of products that belong to a single variant. 
@@ -89,6 +57,40 @@ public:
     }
 };
 ```
+
+According to our interface we need add two classes, or two classes are required.
+Let's start by creating a couple of *Abstract* products we call **AbstractProductA** and **AbstractProductB**.
+Each distinct product of a product family should have a base interface. 
+All variants of this product must implement this interface.
+
+So we add the **AbstractProductA**. 
+Each distinct product of a product family should have a base interface. 
+All variants of the product must implement this interface.
+
+```c++
+class AbstractProductA {
+public:
+    virtual AbstractProductA(){};
+    virtual std::string UsefulFunctionA() const = 0;
+};
+```
+
+Here's the the base interface of another product. 
+All products can interact with each other, but proper interaction is possible only between products of* the same concrete variant.
+And to add **AbstractProductB** the code will be.
+
+```c++
+class AbstractProductB {
+public:
+    virtual ~AbstractProductB(){};
+    virtual std::string UsefulFunction2() const = 0;
+    virtual std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const = 0;
+};
+```
+Product B is able to do its own thing.
+...but it also can collaborate with the AbstractProductA.
+The Abstract Factory makes sure that all products it creates are of the same variant and thus, compatible.
+
 Since we have alredry added our Abstract Product files we will need to add our Concrete products.
 we start with **ProductA1**
 ```c++
@@ -163,7 +165,7 @@ First we add the includes that we need.
 #include "ConcreteFactory1.h"
 #include "ConcreteFactory2.h"
 ```
- we next add some client code:
+we next add some client code:
 ```c++
 void Client(const AbstractFactory &factory) {
     const AbstractProductA *product_a = factory.CreateProductA();
@@ -174,34 +176,7 @@ void Client(const AbstractFactory &factory) {
     delete product_b;
 }
 ```
-
-Our last step is to go to the **main.cpp** file and play around with this code. 
-The code will have # parts:
-The includes
-```c++
-#include <iostream>
-
-#include "ProductA1.h"
-#include "ProductA2.h"
-
-#include "ProductB1.h"
-#include "ProductB2.h"
-
-#include "ConcreteFactory1.h"
-#include "ConcreteFactory2.h"
-```
-The client code
-```c++
-void Client(const AbstractFactory &factory) {
-    const AbstractProductA *product_a = factory.CreateProductA();
-    const AbstractProductB *product_b = factory.CreateProductB();
-    std::cout << product_b->UsefulFunction2() << "\n";
-    std::cout << product_b->AnotherUsefulFunctionB(*product_a) << "\n";
-    delete product_a;
-    delete product_b;
-}
-```
-And the main fumction
+And the main function
 ```c++
 int main() {
     std::cout << "Client: Testing client code with the first factory type:\n";
