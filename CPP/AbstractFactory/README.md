@@ -70,7 +70,7 @@ All variants of the product must implement this interface.
 ```c++
 class AbstractProductA {
 public:
-    virtual AbstractProductA(){};
+    AbstractProductA(){};
     virtual std::string UsefulFunctionA() const = 0;
 };
 ```
@@ -82,7 +82,7 @@ And to add **AbstractProductB** the code will be.
 ```c++
 class AbstractProductB {
 public:
-    virtual ~AbstractProductB(){};
+    ~AbstractProductB(){};
     virtual std::string UsefulFunction2() const = 0;
     virtual std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const = 0;
 };
