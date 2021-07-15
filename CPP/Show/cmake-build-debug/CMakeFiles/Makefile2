@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = /home/ray/TheRayCode/TheRayCode/CPP/Show/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/AbstractFactory.dir/all
+all: CMakeFiles/Show.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/AbstractFactory.dir/clean
+clean: CMakeFiles/Show.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/AbstractFactory.dir
+# Target rules for target CMakeFiles/Show.dir
 
 # All Build rule for target.
-CMakeFiles/AbstractFactory.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ray/TheRayCode/TheRayCode/CPP/Show/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target AbstractFactory"
-.PHONY : CMakeFiles/AbstractFactory.dir/all
+CMakeFiles/Show.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Show.dir/build.make CMakeFiles/Show.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Show.dir/build.make CMakeFiles/Show.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ray/TheRayCode/TheRayCode/CPP/Show/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Show"
+.PHONY : CMakeFiles/Show.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/AbstractFactory.dir/rule: cmake_check_build_system
+CMakeFiles/Show.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/TheRayCode/TheRayCode/CPP/Show/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/AbstractFactory.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Show.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ray/TheRayCode/TheRayCode/CPP/Show/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/AbstractFactory.dir/rule
+.PHONY : CMakeFiles/Show.dir/rule
 
 # Convenience name for target.
-AbstractFactory: CMakeFiles/AbstractFactory.dir/rule
+Show: CMakeFiles/Show.dir/rule
 
-.PHONY : AbstractFactory
+.PHONY : Show
 
 # clean rule for target.
-CMakeFiles/AbstractFactory.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AbstractFactory.dir/build.make CMakeFiles/AbstractFactory.dir/clean
-.PHONY : CMakeFiles/AbstractFactory.dir/clean
+CMakeFiles/Show.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Show.dir/build.make CMakeFiles/Show.dir/clean
+.PHONY : CMakeFiles/Show.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

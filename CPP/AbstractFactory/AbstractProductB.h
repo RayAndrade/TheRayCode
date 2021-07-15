@@ -11,7 +11,7 @@ class AbstractProductB {
      * Product B is able to do its own thing...
      */
 public:
-    virtual ~AbstractProductB(){};
+    ~AbstractProductB(){};
     virtual std::string UsefulFunction2() const = 0;
     /**
      * ...but it also can collaborate with the AbstractProductA.
