@@ -5,9 +5,29 @@ In this article we will review the **Abstract Factory** pattern.
 This pattern allows you to create a family of classes in which
 the subclasses of this *family* can cooperate together.
 
-Let's start by creating a couple of products we call **AbstractProductA** and **AbstractProductB**.
+Let's create an interface.
+The Abstract Factory interface declares a set of methods that return different abstract products. 
+These products are called a family and are related by a high-level theme or concept. 
+Products of one family are usually able to collaborate among themselves. 
+A family of products may have several variants, but the products of one variant are incompatible with products of another.
 
-We start with **AbstractProductA** and it's subclasses. For **AbstractProductA** we have the following code:
+
+```c++
+class AbstractFactory {
+public:
+    virtual AbstractProductA *CreateProductA() const = 0;
+    virtual AbstractProductB *CreateProductB() const = 0;
+};
+```
+
+According to our interface we need add two classes, or two classes are required.
+Let's start by creating a couple of *Abstract* products we call **AbstractProductA** and **AbstractProductB**.
+Each distinct product of a product family should have a base interface. 
+All variants of this product must implement this interface.
+
+So we add the **AbstractProductA**. 
+Each distinct product of a product family should have a base interface. 
+All variants of the product must implement this interface.
 
 ```c++
 class AbstractProductA {
@@ -17,110 +37,28 @@ public:
 };
 ```
 
-Next we want to create a couple subclasses that we call **ProductA1** and **ProductA2**.
-The first thing we need to do is include **AbstractProductA.h** and the extend **ProductA1** with **AbstractProductA**.
-Let's look at the code in **ProductA1**.h.
-```c++
-#include "AbstractProductA.h"
-
-class ProductA1 : public AbstractProductA {
-public:
-    std::string UsefulFunctionA() const override {
-        return "The result of the product A1.";
-    }
-};
-
-```
-We now want to create two classes I will call **ProductA2** and **ProductA2**. Both classes
-will be extend with **AbstractProductA** and thus we will need to include **AbstractProductA** on both.
-The code for **ProductA1** will be:
-
-```c++
-#include "AbstractProductA.h"
-
-class ProductA1 : public AbstractProductA {
-public:
-    std::string UsefulFunctionA() const override {
-        return "The result of the product A1.";
-    }
-};
-
-```
-and for **ProductA2** we have:
-```c++
-#include "AbstractProductA.h"
-
-class ProductA2 : public AbstractProductA {
-    std::string UsefulFunctionA() const override {
-        return "The result of the product A2.";
-    }
-};
-
-```
-
-![Factory](/UMLs/images/AbstractFactory/AbstractFactory088.png)
-
-We now move to the **B** side.
-
-So let's create **AbstractProductB**. To **AbstractProductB** we have the following code:
+Here's the the base interface of another product. 
+All products can interact with each other, but proper interaction is possible only between products of* the same concrete variant.
+And to add **AbstractProductB** the code will be.
 
 ```c++
 class AbstractProductB {
-
 public:
-    virtual AbstractProductB(){};
+    virtual ~AbstractProductB(){};
     virtual std::string UsefulFunction2() const = 0;
-
     virtual std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const = 0;
 };
-
 ```
-Let's now create two classes that will be extended by this class.
-We first have **ProductB1** and then we have **ProductB2**. Both will be extended with **AbstractProductB**
-We start with **ProductB1**:
+Product B is able to do its own thing.
+...but it also can collaborate with the AbstractProductA.
+The Abstract Factory makes sure that all products it creates are of the same variant and thus, compatible.
 
-```c++
-#include "AbstractProductB.h"
+Let's create a couple of Concrete Factories.
+Concrete Factories produce a family of products that belong to a single variant. 
+The factory guarantees that resulting products are compatible. 
+Note that signatures of the Concrete Factory's methods return an abstract product, while inside the method a concrete product is instantiated.
 
-class ProductB1 : public AbstractProductB {
-public:
-    std::string UsefulFunction2() const override {
-        return "The result of the product B1.";
-    }
-    std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const override {
-        const std::string result = collaborator.UsefulFunctionA();
-        return "The result of the B1 collaborating with ( " + result + " )";
-    }
-};
-```
-and then we move to **ProductB2**. Its code will be:
-```c++
-#include "AbstractProductB.h"
 
-class ProductB2 : public AbstractProductB {
-public:
-    std::string UsefulFunction2() const override {
-        return "The result of the product B2.";
-    }
-
-    std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const override {
-        const std::string result = collaborator.UsefulFunctionA();
-        return "The result of the B2 collaborating with ( " + result + " )";
-    }
-};
-```
-now let's create the **AbstractFactory** which will house our two classes **AbstractProductA** and **AbstractProductB**
-It will have the following code:
-```c++
-class AbstractFactory {
-public:
-    virtual AbstractProductA *CreateProductA() const = 0;
-    virtual AbstractProductB *CreateProductB() const = 0;
-};
-```
-Now let's create out Factories. We start with **ConcreteFactory1**. 
-We notice it is extended by the **AbstractFactory**. 
-We have the following code:
 ```c++
 #include "AbstractFactory.h"
 
@@ -134,7 +72,10 @@ public:
     }
 };
 ```
-We now proceed to **ConcreteFactory2**. It too is extend by **AbstractFactory** thus we have the following code:
+
+Each Concrete Factory has a corresponding product variant.
+So we add **ConcreteFactory2**
+
 ```c++
 #include "AbstractFactory.h"
 
@@ -148,6 +89,66 @@ public:
     }
 };
 ```
+Since we have alredry added our Abstract Product files we will need to add our Concrete products.
+we start with **ProductA1**
+```c++
+#include "AbstractProductA.h"
+class ProductA1 : public AbstractProductA {
+public:
+    std::string UsefulFunctionA() const override {
+        return "The result of Product A1.";
+    }
+};
+```
+
+next we add **ProductA2** to the same family.
+```c++
+#include "AbstractProductA.h"
+
+class ProductA2 : public AbstractProductA {
+    std::string UsefulFunctionA() const override {
+        return "The result of Product A2.";
+    }
+};
+```
+For our next family, the B family of products we have 
+The variant, **ProductB1**, is only able to work correctly with the variant, **ProductA1**. 
+Nevertheless, it accepts any instance of AbstractProductA as an argument.
+```c++
+#include "AbstractProductB.h"
+
+class ProductB1 : public AbstractProductB {
+public:
+    std::string UsefulFunction2() const override {
+        return "The result of Product B1.";
+    }
+    std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const override {
+        const std::string result = collaborator.UsefulFunctionA();
+        return "The result of B1 collaborating with ( " + result + " )";
+    }
+};
+```
+
+The variant, **ProductB2**, is only able to work correctly with the variant, **ProductA2**. 
+Nevertheless, it accepts any instance of AbstractProductA as an argument.
+
+```c++
+#include "AbstractProductB.h"
+
+class ProductB2 : public AbstractProductB {
+public:
+    std::string UsefulFunction2() const override {
+        return "The result of Product B2.";
+    }
+    std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const override {
+        const std::string result = collaborator.UsefulFunctionA();
+        return "The result of B2 collaborating with ( " + result + " )";
+    }
+};
+```
+xxx
+![Factory](/UMLs/images/AbstractFactory/AbstractFactory088.png)
+
 Our last step is to go to the **main.cpp**.
 First we add the includes that we need.
 ```c++
@@ -173,7 +174,34 @@ void Client(const AbstractFactory &factory) {
     delete product_b;
 }
 ```
-our last step is to go to the main fundtion. This is the code that we need:
+
+Our last step is to go to the **main.cpp** file and play around with this code. 
+The code will have # parts:
+The includes
+```c++
+#include <iostream>
+
+#include "ProductA1.h"
+#include "ProductA2.h"
+
+#include "ProductB1.h"
+#include "ProductB2.h"
+
+#include "ConcreteFactory1.h"
+#include "ConcreteFactory2.h"
+```
+The client code
+```c++
+void Client(const AbstractFactory &factory) {
+    const AbstractProductA *product_a = factory.CreateProductA();
+    const AbstractProductB *product_b = factory.CreateProductB();
+    std::cout << product_b->UsefulFunction2() << "\n";
+    std::cout << product_b->AnotherUsefulFunctionB(*product_a) << "\n";
+    delete product_a;
+    delete product_b;
+}
+```
+And the main fumction
 ```c++
 int main() {
     std::cout << "Client: Testing client code with the first factory type:\n";
@@ -189,16 +217,14 @@ int main() {
 }
 ```
 We should be ready to compile this project and when we run it ou result should be:
-```c++
-
+```run
 Client: Testing client code with the first factory type:
-The result of the product B1.
-The result of the B1 collaborating with ( The result of the product A1. )
+The result of Product B1.
+The result of B1 collaborating with ( The result of Product A1. )
 
 Client: Testing the same client code with the second factory type:
-The result of the product B2.
-The result of the B2 collaborating with ( The result of the product A2. )
-
+The result of Product B2.
+The result of B2 collaborating with ( The result of Product A2. )
 
 ```
 
