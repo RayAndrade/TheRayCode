@@ -1,45 +1,38 @@
 #include <iostream>
-#include <vector>
 
-#include "Handler.h"
-#include "MonkeyHandler.h"
-#include "SquirrelHandler.h"
-#include "DogHandler.h"
+#include "ProductA1.h"
+#include "ProductA2.h"
 
+#include "ProductB1.h"
+#include "ProductB2.h"
 
-void ClientCode(Handler &handler) {
-    std::vector<std::string> food = {"Nut", "Banana", "Bone" ,"Cup of coffee"};
-    for (const std::string &f : food) {
-        std::cout << "Client: Who wants a " << f << "?\n";
-        const std::string result = handler.Handle(f);
-        if (!result.empty()) {
-            std::cout << "  " << result;
-        } else {
-            std::cout << "  " << f << " was left untouched.\n";
-        }
-    }
+#include "ConcreteFactory1.h"
+#include "ConcreteFactory2.h"
+
+/**
+ * The client code works with factories and products only through abstract
+ * types: AbstractFactory and AbstractProduct. This lets you pass any factory or
+ * product subclass to the client code without breaking it.
+ */
+
+void Client(const AbstractFactory &factory) {
+    const AbstractProductA *product_a = factory.CreateProductA();
+    const AbstractProductB *product_b = factory.CreateProductB();
+    std::cout << product_b->UsefulFunction2() << "\n";
+    std::cout << product_b->AnotherUsefulFunctionB(*product_a) << "\n";
+    delete product_a;
+    delete product_b;
 }
+
 int main() {
-
-    MonkeyHandler *monkey = new MonkeyHandler;
-    SquirrelHandler *squirrel = new SquirrelHandler;
-    DogHandler *dog = new DogHandler;
-    monkey->SetNext(squirrel)->SetNext(dog);
-
-    /**
-     * The client should be able to send a request to any handler, not just the
-     * first one in the chain.
-     */
-    std::cout << "Chain: Monkey > Squirrel > Dog\n\n";
-    ClientCode(*monkey);
-    std::cout << "\n";
-    std::cout << "Subchain: Squirrel > Dog\n\n";
-    ClientCode(*squirrel);
-
-    delete monkey;
-    delete squirrel;
-    delete dog;
-
-    std::cout << "The Ray Code is AWESOME!!!\n";
+    std::cout << "Client: Testing client code with the first factory type:\n";
+    ConcreteFactory1 *f1 = new ConcreteFactory1();
+    Client(*f1);
+    delete f1;
+    std::cout << std::endl;
+    std::cout << "Client: Testing the same client code with the second factory type:\n";
+    ConcreteFactory2 *f2 = new ConcreteFactory2();
+    Client(*f2);
+    delete f2;
     return 0;
 }
