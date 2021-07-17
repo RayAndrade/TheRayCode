@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include "ProductA1.h"
 #include "ProductA2.h"
 
@@ -17,15 +18,18 @@ void Client(const AbstractFactory &factory) {
     delete product_b;
 }
 
+
 int main() {
     std::cout << "Client: Testing client code with the first factory type:\n";
     ConcreteFactory1 *f1 = new ConcreteFactory1();
     Client(*f1);
     delete f1;
     std::cout << std::endl;
+
     std::cout << "Client: Testing the same client code with the second factory type:\n";
     ConcreteFactory2 *f2 = new ConcreteFactory2();
     Client(*f2);
     delete f2;
+    //std::cout << "The Ray Code is AWESOME!!!\n";
     return 0;
 }

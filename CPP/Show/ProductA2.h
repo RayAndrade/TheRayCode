@@ -1,9 +1,10 @@
 //
-// Created by ray on 7/15/21.
+// Created by ray on 7/16/21.
 //
 
 #ifndef ABSTRACTFACTORY_PRODUCTA2_H
 #define ABSTRACTFACTORY_PRODUCTA2_H
+
 #include "AbstractProductA.h"
 
 class ProductA2 : public AbstractProductA {
