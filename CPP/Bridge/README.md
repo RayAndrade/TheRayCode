@@ -32,25 +32,9 @@ public:
     }
 };
 ```
-
-
-
-
-
-
-
-
-
-
-
-
 <br/>
 Let's create a **ConcreteImplementationA** which will be extended be the class we just created, **Implementation**.
 <br/>
-
-
-
-
 
 ```c++
 #include "Implementation.h"
@@ -62,6 +46,7 @@ public:
     }
 };
 ```
+
 <br/>
 Let's do the same with a **B** side.
 Let's create a **ConcreteImplementationB** which will be extended with **Implementation** class also.
@@ -78,7 +63,7 @@ public:
 };
 ```
 
-Now let create an **ExtendedAbstraction**.
+Now let's create an **ExtendedAbstraction**.
 The code for the **ExtendedAbstraction** will be:
 ```c++
 #include "Abstraction.h"
