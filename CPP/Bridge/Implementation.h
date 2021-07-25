@@ -1,5 +1,5 @@
 //
-// Created by ray on 8/25/20.
+// Created by ray on 7/24/21.
 //
 
 #ifndef BRIDGE_IMPLEMENTATION_H
@@ -12,6 +12,4 @@ public:
     virtual ~Implementation() {}
     virtual std::string OperationImplementation() const = 0;
 };
-
-
 #endif //BRIDGE_IMPLEMENTATION_H

@@ -1,5 +1,5 @@
 //
-// Created by ray on 8/25/20.
+// Created by ray on 7/24/21.
 //
 
 #ifndef BRIDGE_CONCRETEIMPLEMENTATIONA_H
@@ -13,6 +13,5 @@ public:
         return "ConcreteImplementationA: Here's the result on the platform A.\n";
     }
 };
-
 
 #endif //BRIDGE_CONCRETEIMPLEMENTATIONA_H
