@@ -32,9 +32,26 @@ public:
     }
 };
 ```
+
+
+
+
+
+
+
+
+
+
+
+
 <br/>
 Let's create a **ConcreteImplementationA** which will be extended be the class we just created, **Implementation**.
 <br/>
+
+
+
+
+
 ```c++
 #include "Implementation.h"
 
