@@ -32,6 +32,7 @@ public:
     }
 };
 ```
+
 ![Bride Pattern](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/UMLs/images/Bridge/Bridge-1.png)
 
 <br/>
