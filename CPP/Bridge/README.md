@@ -12,7 +12,6 @@ public:
     virtual std::string OperationImplementation() const = 0;
 };
 ```
-
 Now let's create an **Abstraction**.
 ```c++
 #include <string>
