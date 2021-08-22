@@ -6,35 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ray/TheRayCode/TheRayCode/CPP/Bridge/Abstraction.h
-string
--
-Implementation.h
-/home/ray/TheRayCode/TheRayCode/CPP/Bridge/Implementation.h
-
-/home/ray/TheRayCode/TheRayCode/CPP/Bridge/ConcreteImplementationA.h
-Implementation.h
-/home/ray/TheRayCode/TheRayCode/CPP/Bridge/Implementation.h
-
-/home/ray/TheRayCode/TheRayCode/CPP/Bridge/ConcreteImplementationB.h
-Implementation.h
-/home/ray/TheRayCode/TheRayCode/CPP/Bridge/Implementation.h
-
-/home/ray/TheRayCode/TheRayCode/CPP/Bridge/ExtendedAbstraction.h
-Abstraction.h
-/home/ray/TheRayCode/TheRayCode/CPP/Bridge/Abstraction.h
-
-/home/ray/TheRayCode/TheRayCode/CPP/Bridge/Implementation.h
+/home/ray/TheRayCode/TheRayCode/CPP/Bridge/main.cpp
 iostream
 -
-
-/home/ray/TheRayCode/TheRayCode/CPP/Bridge/main.cpp
-string
--
-ConcreteImplementationA.h
-/home/ray/TheRayCode/TheRayCode/CPP/Bridge/ConcreteImplementationA.h
-ConcreteImplementationB.h
-/home/ray/TheRayCode/TheRayCode/CPP/Bridge/ConcreteImplementationB.h
-ExtendedAbstraction.h
-/home/ray/TheRayCode/TheRayCode/CPP/Bridge/ExtendedAbstraction.h
 
