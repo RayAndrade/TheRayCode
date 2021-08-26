@@ -36,7 +36,7 @@ class SoilidProductA2: ProductA
 {
    public string UsefulFunctionA()
    {
-      return "The result of the product A2.";
+      return "The Ray Code is AWESOME!!!";
     }
 }
 ```
@@ -110,12 +110,12 @@ class ConcreteFactory1: AbstractFactory
 {
    public ProductA CreateProductA()
    {
-      return new SoilidProductA1();
+      return new SolidProductA1();
    }
 
    public ProductB CreateProductB()
    {
-       return new SoilidProductB1();
+       return new SolidProductB1();
    }
 }
 ```
@@ -125,19 +125,21 @@ class ConcreteFactory2: AbstractFactory
 {
    public ProductA CreateProductA()
    {
-      return new SoilidProductA2();
+      return new SolidProductA2();
    }
 
    public ProductB CreateProductB()
    {
-      return new SoilidProductB2();
+      return new SolidProductB2();
    }
 }
 ```
 Now let's create a class called **Client**
 
+using System;
+
 ```c#
-public void Main()
+	public void Main()
         {
             // The client code can work with any concrete factory class.
             Console.WriteLine("Client: Testing client code with the first factory type...");
