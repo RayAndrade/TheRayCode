@@ -4,5 +4,6 @@ namespace AbstractFactory
     {
         string UsefulFunctionB();
         string AnotherUsefulFunctionB(ProductA collaborator);
+
     }
 }

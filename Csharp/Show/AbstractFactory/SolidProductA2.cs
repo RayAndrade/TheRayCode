@@ -1,6 +1,6 @@
 namespace AbstractFactory
 {
-    public class SolidProductA2: ProductA
+    class SolidProductA2: ProductA
     {
         public string UsefulFunctionA()
         {

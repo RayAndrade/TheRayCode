@@ -6,8 +6,7 @@ namespace AbstractFactory
     {
         
         public static void Main(string[] args)
-        {
-            //Console.WriteLine("The Ray Code is AWESOME!!");
+        {   //Console.WriteLine("The Ray Code is AWESOME!!");
             new Client().Main();
         }
     }

@@ -1,16 +1,16 @@
 namespace AbstractFactory
 {
-    public class SolidProductB1: ProductB
+    class SolidProductB1: ProductB
     {
         public string UsefulFunctionB()
         {
-            return "The result of the product B2.";
+            return "The result of the product B1.";
         }
 
         public string AnotherUsefulFunctionB(ProductA collaborator)
         {
             var result = collaborator.UsefulFunctionA();
-            return $"The result of the B2 collaborating with the ({result})";
+            return $"The result of the B1 collaborating with the ({result})";
         }
     }
 }
