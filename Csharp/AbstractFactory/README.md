@@ -18,10 +18,10 @@ public interface ProductA
 We see that it requiers a UsefulFunctionA method to use it.
 Let's contine with the ProductA side.
 We add two real clases to use the interface.
-The code for the *class* **SoildProductA1** is:
+The code for the *class* **SolidProductA1** is:
 
 ```c#
-class SoildProductA1: ProductA
+class SolidProductA1: ProductA
 {
    public string UsefulFunctionA()
    {
@@ -29,14 +29,14 @@ class SoildProductA1: ProductA
    }
 }
 ```
-and we will add another class we call **SoildProductA2** and its code will be:
+and we will add another class we call **SolidProductA2** and its code will be:
 
 ```c#
-class SoildProductA2: ProductA
+class SoilidProductA2: ProductA
 {
    public string UsefulFunctionA()
    {
-      return "The result of the product A2.";
+      return "The Ray Code is AWESOME!!!";
     }
 }
 ```
@@ -55,11 +55,11 @@ public interface ProductB
 As you can see there are 2 methods are required to use this interface.
 
 Let's create our first **B** class.
-We create **SoildProductB1**. 
-The code for **SoildProductB1** is:
+We create **SoilidProductB1**. 
+The code for **SoilidProductB1** is:
 
 ```c#
-class SoildProductB1: ProductB
+class SolidProductB1: ProductB
 {
     public string UsefulFunctionB()
     {
@@ -73,10 +73,10 @@ class SoildProductB1: ProductB
 }
 ```
 As you can see it fills the requirements of the interface **ProductB**.
-We create another class with the same requirements we call it **SoildProductB2**
-Thee code for class **SoildProductB2** will be:
+We create another class with the same requirements we call it **SolidProductB2**
+Thee code for class **SolidProductB2** will be:
 ```c#
-class SoildProductB2: ProductB
+class SolidProductB2: ProductB
 {
    public string UsefulFunctionB()
    {
@@ -102,50 +102,52 @@ public interface AbstractFactory
 }
 ```
 ProductA and ProductB are interfaces requiring a "UsefulFunction"
-We now create a couple Factories we call **Factory1** and **Factory2**.
-We start with **Factory1**.
-The code for **Factory1** is:
+We now create a couple Factories we call **ConcreteFactory1** and **Factory2**.
+We start with **ConcreteFactory1**.
+The code for **ConcreteFactory1** is:
 ```c#
-class Factory1: AbstractFactory
+class ConcreteFactory1: AbstractFactory
 {
    public ProductA CreateProductA()
    {
-      return new SoildProductA1();
+      return new SolidProductA1();
    }
 
    public ProductB CreateProductB()
    {
-       return new SoildProductB1();
+       return new SolidProductB1();
    }
 }
 ```
-Likewise for **Factory2** we have:
+Likewise for **ConcreteFactory2** we have:
 ```c#
-class Factory2: AbstractFactory
+class ConcreteFactory2: AbstractFactory
 {
    public ProductA CreateProductA()
    {
-      return new SoildProductA2();
+      return new SolidProductA2();
    }
 
    public ProductB CreateProductB()
    {
-      return new SoildProductB2();
+      return new SolidProductB2();
    }
 }
 ```
 Now let's create a class called **Client**
 
+using System;
+
 ```c#
-public void Main()
+	public void Main()
         {
             // The client code can work with any concrete factory class.
             Console.WriteLine("Client: Testing client code with the first factory type...");
-            ClientMethod(new Factory1());
+            ClientMethod(new ConcreteFactory1());
             Console.WriteLine();
 
             Console.WriteLine("Client: Testing the same client code with the second factory type...");
-            ClientMethod(new Factory2());
+            ClientMethod(new ConcreteFactory2());
         }
 
         public void ClientMethod(AbstractFactory factory)
@@ -175,12 +177,12 @@ When we compile and run we should get:
 
 ```
 Client: Testing client code with the first factory type...
-The result of the product B1.
-The result of the B1 collaborating with the (The result of the product A1.)
+The result of the product B2.
+The result of the B2 collaborating with the (The result of the product A1.)
 
 Client: Testing the same client code with the second factory type...
 The result of the product B2.
-The result of the B2 collaborating with the (The result of the product A2.)
+The result of the B2 collaborating with the (The Ray Code is AWESOME!!!)
 
 ```
 

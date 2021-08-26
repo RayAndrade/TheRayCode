@@ -18,10 +18,10 @@ public interface ProductA
 We see that it requiers a UsefulFunctionA method to use it.
 Let's contine with the ProductA side.
 We add two real clases to use the interface.
-The code for the *class* **SoilidProductA1** is:
+The code for the *class* **SolidProductA1** is:
 
 ```c#
-class SoilidProductA1: ProductA
+class SolidProductA1: ProductA
 {
    public string UsefulFunctionA()
    {
@@ -29,7 +29,7 @@ class SoilidProductA1: ProductA
    }
 }
 ```
-and we will add another class we call **SoilidProductA2** and its code will be:
+and we will add another class we call **SolidProductA2** and its code will be:
 
 ```c#
 class SoilidProductA2: ProductA
@@ -59,7 +59,7 @@ We create **SoilidProductB1**.
 The code for **SoilidProductB1** is:
 
 ```c#
-class SoilidProductB1: ProductB
+class SolidProductB1: ProductB
 {
     public string UsefulFunctionB()
     {
@@ -73,10 +73,10 @@ class SoilidProductB1: ProductB
 }
 ```
 As you can see it fills the requirements of the interface **ProductB**.
-We create another class with the same requirements we call it **SoilidProductB2**
-Thee code for class **SoilidProductB2** will be:
+We create another class with the same requirements we call it **SolidProductB2**
+Thee code for class **SolidProductB2** will be:
 ```c#
-class SoilidProductB2: ProductB
+class SolidProductB2: ProductB
 {
    public string UsefulFunctionB()
    {
@@ -177,12 +177,12 @@ When we compile and run we should get:
 
 ```
 Client: Testing client code with the first factory type...
-The result of the product B1.
-The result of the B1 collaborating with the (The result of the product A1.)
+The result of the product B2.
+The result of the B2 collaborating with the (The result of the product A1.)
 
 Client: Testing the same client code with the second factory type...
 The result of the product B2.
-The result of the B2 collaborating with the (The result of the product A2.)
+The result of the B2 collaborating with the (The Ray Code is AWESOME!!!)
 
 ```
 
