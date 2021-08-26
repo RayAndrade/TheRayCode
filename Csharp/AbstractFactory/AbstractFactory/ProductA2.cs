@@ -1,10 +1,10 @@
 namespace AbstractFactory
 {
-    public class ProductA2: IProductA
+    public class ProductA2: ProductA
     {
         public string UsefulFunctionA()
         {
-            return "The result of the product A2.";
+            return "The Ray Code is AWESOME!!!";
         }
     }
 }

@@ -5,12 +5,12 @@ In this article we will review the **Abstract Factory** pattern.
 This pattern allows you to create a family of classes in which
 the subclasses of this *family* can cooperate together.
 
-Let's start by creating a couple of interfaces we call **IProductA** and **IProductB**.
+Let's start by creating a couple of interfaces we call **ProductA** and **ProductB**.
 
-We start with **IProductA**:
+We start with a interface **ProductA**:
 
 ```c#
-public interface IProductA
+public interface ProductA
 {
   string UsefulFunctionA();
 }
@@ -21,7 +21,7 @@ We add two real clases to use the interface.
 The code for the *class* **ProductA1** is:
 
 ```c#
-class ProductA1: IProductA
+class ProductA1: ProductA
 {
    public string UsefulFunctionA()
    {
@@ -32,7 +32,7 @@ class ProductA1: IProductA
 and we will add another class we call **ProductA2** and its code will be:
 
 ```c#
-class ProductA2: IProductA
+class ProductA2: ProductA
 {
    public string UsefulFunctionA()
    {
@@ -41,14 +41,14 @@ class ProductA2: IProductA
 }
 ```
 Now we do the same for another class we would like to add. 
-We create a side for the other interphace we mention **IProductB**.
+We create a side for the other interphace we mention **ProductB**.
 We will add two clases also. Let's look at the code for the interface:
 
 ```c#
-public interface IProductB
+public interface ProductB
     {
         string UsefulFunctionB();
-        string AnotherUsefulFunctionB(IProductA collaborator);
+        string AnotherUsefulFunctionB(ProductA collaborator);
 
     }
 ```
@@ -59,30 +59,30 @@ We create **ProductB1**.
 The code for **ProductB1** is:
 
 ```c#
-class ProductB1: IProductB
+class ProductB1: ProductB
 {
     public string UsefulFunctionB()
     {
        return "The result of the product B1.";
     }
-    public string AnotherUsefulFunctionB(IProductA collaborator)
+    public string AnotherUsefulFunctionB(ProductA collaborator)
     {
        var result = collaborator.UsefulFunctionA();
        return $"The result of the B1 collaborating with the ({result})";
     }
 }
 ```
-As you can see it fills the requirements of the interface **IProductB**.
+As you can see it fills the requirements of the interface **ProductB**.
 We create another class with the same requirements we call it **ProductB2**
 Thee code for class **ProductB2** will be:
 ```c#
-class ProductB2: IProductB
+class ProductB2: ProductB
 {
    public string UsefulFunctionB()
    {
       return "The result of the product B2.";
    }
-   public string AnotherUsefulFunctionB(IProductA collaborator)
+   public string AnotherUsefulFunctionB(ProductA collaborator)
    {
       var result = collaborator.UsefulFunctionA();
       return $"The result of the B2 collaborating with the ({result})";
@@ -90,29 +90,30 @@ class ProductB2: IProductB
 }
 
 ```
+Now that we have completed ProductB and ProductB, let's harness those classes in an interface.
 Now let's create the factory.
-We start with IAbstractFactory interface.
+We start with AbstractFactory interface.
 
 ```c#
-public interface IAbstractFactory
+public interface AbstractFactory
 {
-   IProductA CreateProductA();
-   IProductB CreateProductB();
+   ProductA CreateProductA();
+   ProductB CreateProductB();
 }
 ```
-IProductA and IProductB are interfaces requiring a "UsefulFunction"
+ProductA and ProductB are interfaces requiring a "UsefulFunction"
 We now create a couple Factories we call **Factory1** and **Factory2**.
 We start with **Factory1**.
 The code for **Factory1** is:
 ```c#
-class Factory1: IAbstractFactory
+class Factory1: AbstractFactory
 {
-   public IProductA CreateProductA()
+   public ProductA CreateProductA()
    {
       return new ProductA1();
    }
 
-   public IProductB CreateProductB()
+   public ProductB CreateProductB()
    {
        return new ProductB1();
    }
@@ -120,14 +121,14 @@ class Factory1: IAbstractFactory
 ```
 Likewise for **Factory2** we have:
 ```c#
-class Factory2: IAbstractFactory
+class Factory2: AbstractFactory
 {
-   public IProductA CreateProductA()
+   public ProductA CreateProductA()
    {
       return new ProductA2();
    }
 
-   public IProductB CreateProductB()
+   public ProductB CreateProductB()
    {
       return new ProductB2();
    }
@@ -147,7 +148,7 @@ public void Main()
             ClientMethod(new Factory2());
         }
 
-        public void ClientMethod(IAbstractFactory factory)
+        public void ClientMethod(AbstractFactory factory)
         {
             var productA = factory.CreateProductA();
             var productB = factory.CreateProductB();

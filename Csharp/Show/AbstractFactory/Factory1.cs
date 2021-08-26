@@ -1,12 +1,12 @@
 namespace AbstractFactory
 {
-    public class Factory1: IAbstractFactory
+    public class Factory1: AbstractFactory
     {
-        public IProductA CreateProductA()
+        public ProductA CreateProductA()
         {
             return new ProductA1();
         }
-        public IProductB CreateProductB()
+        public ProductB CreateProductB()
         {
             return new ProductB1();
         }

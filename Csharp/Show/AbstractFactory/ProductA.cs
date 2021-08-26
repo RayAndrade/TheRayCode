@@ -1,6 +1,6 @@
 namespace AbstractFactory
 {
-    public interface IProductA
+    public interface ProductA
     {
         string UsefulFunctionA();
     }
