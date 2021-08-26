@@ -18,10 +18,10 @@ public interface ProductA
 We see that it requiers a UsefulFunctionA method to use it.
 Let's contine with the ProductA side.
 We add two real clases to use the interface.
-The code for the *class* **ProductA1** is:
+The code for the *class* **SoilidProductA1** is:
 
 ```c#
-class ProductA1: ProductA
+class SoilidProductA1: ProductA
 {
    public string UsefulFunctionA()
    {
@@ -29,10 +29,10 @@ class ProductA1: ProductA
    }
 }
 ```
-and we will add another class we call **ProductA2** and its code will be:
+and we will add another class we call **SoilidProductA2** and its code will be:
 
 ```c#
-class ProductA2: ProductA
+class SoilidProductA2: ProductA
 {
    public string UsefulFunctionA()
    {
@@ -55,11 +55,11 @@ public interface ProductB
 As you can see there are 2 methods are required to use this interface.
 
 Let's create our first **B** class.
-We create **ProductB1**. 
-The code for **ProductB1** is:
+We create **SoilidProductB1**. 
+The code for **SoilidProductB1** is:
 
 ```c#
-class ProductB1: ProductB
+class SoilidProductB1: ProductB
 {
     public string UsefulFunctionB()
     {
@@ -73,10 +73,10 @@ class ProductB1: ProductB
 }
 ```
 As you can see it fills the requirements of the interface **ProductB**.
-We create another class with the same requirements we call it **ProductB2**
-Thee code for class **ProductB2** will be:
+We create another class with the same requirements we call it **SoilidProductB2**
+Thee code for class **SoilidProductB2** will be:
 ```c#
-class ProductB2: ProductB
+class SoilidProductB2: ProductB
 {
    public string UsefulFunctionB()
    {
@@ -102,35 +102,35 @@ public interface AbstractFactory
 }
 ```
 ProductA and ProductB are interfaces requiring a "UsefulFunction"
-We now create a couple Factories we call **Factory1** and **Factory2**.
-We start with **Factory1**.
-The code for **Factory1** is:
+We now create a couple Factories we call **ConcreteFactory1** and **Factory2**.
+We start with **ConcreteFactory1**.
+The code for **ConcreteFactory1** is:
 ```c#
-class Factory1: AbstractFactory
+class ConcreteFactory1: AbstractFactory
 {
    public ProductA CreateProductA()
    {
-      return new ProductA1();
+      return new SoilidProductA1();
    }
 
    public ProductB CreateProductB()
    {
-       return new ProductB1();
+       return new SoilidProductB1();
    }
 }
 ```
-Likewise for **Factory2** we have:
+Likewise for **ConcreteFactory2** we have:
 ```c#
-class Factory2: AbstractFactory
+class ConcreteFactory2: AbstractFactory
 {
    public ProductA CreateProductA()
    {
-      return new ProductA2();
+      return new SoilidProductA2();
    }
 
    public ProductB CreateProductB()
    {
-      return new ProductB2();
+      return new SoilidProductB2();
    }
 }
 ```
@@ -141,11 +141,11 @@ public void Main()
         {
             // The client code can work with any concrete factory class.
             Console.WriteLine("Client: Testing client code with the first factory type...");
-            ClientMethod(new Factory1());
+            ClientMethod(new ConcreteFactory1());
             Console.WriteLine();
 
             Console.WriteLine("Client: Testing the same client code with the second factory type...");
-            ClientMethod(new Factory2());
+            ClientMethod(new ConcreteFactory2());
         }
 
         public void ClientMethod(AbstractFactory factory)
