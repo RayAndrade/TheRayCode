@@ -18,10 +18,10 @@ public interface ProductA
 We see that it requiers a UsefulFunctionA method to use it.
 Let's contine with the ProductA side.
 We add two real clases to use the interface.
-The code for the *class* **ProductA1** is:
+The code for the *class* **SoildProductA1** is:
 
 ```c#
-class ProductA1: ProductA
+class SoildProductA1: ProductA
 {
    public string UsefulFunctionA()
    {
@@ -29,10 +29,10 @@ class ProductA1: ProductA
    }
 }
 ```
-and we will add another class we call **ProductA2** and its code will be:
+and we will add another class we call **SoildProductA2** and its code will be:
 
 ```c#
-class ProductA2: ProductA
+class SoildProductA2: ProductA
 {
    public string UsefulFunctionA()
    {
@@ -55,11 +55,11 @@ public interface ProductB
 As you can see there are 2 methods are required to use this interface.
 
 Let's create our first **B** class.
-We create **ProductB1**. 
-The code for **ProductB1** is:
+We create **SoildProductB1**. 
+The code for **SoildProductB1** is:
 
 ```c#
-class ProductB1: ProductB
+class SoildProductB1: ProductB
 {
     public string UsefulFunctionB()
     {
@@ -73,10 +73,10 @@ class ProductB1: ProductB
 }
 ```
 As you can see it fills the requirements of the interface **ProductB**.
-We create another class with the same requirements we call it **ProductB2**
-Thee code for class **ProductB2** will be:
+We create another class with the same requirements we call it **SoildProductB2**
+Thee code for class **SoildProductB2** will be:
 ```c#
-class ProductB2: ProductB
+class SoildProductB2: ProductB
 {
    public string UsefulFunctionB()
    {
@@ -110,12 +110,12 @@ class Factory1: AbstractFactory
 {
    public ProductA CreateProductA()
    {
-      return new ProductA1();
+      return new SoildProductA1();
    }
 
    public ProductB CreateProductB()
    {
-       return new ProductB1();
+       return new SoildProductB1();
    }
 }
 ```
@@ -125,12 +125,12 @@ class Factory2: AbstractFactory
 {
    public ProductA CreateProductA()
    {
-      return new ProductA2();
+      return new SoildProductA2();
    }
 
    public ProductB CreateProductB()
    {
-      return new ProductB2();
+      return new SoildProductB2();
    }
 }
 ```

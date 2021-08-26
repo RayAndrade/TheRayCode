@@ -1,15 +1,14 @@
 namespace AbstractFactory
 {
-    public class Factory2: AbstractFactory
+    public class ConcreteFactory1: AbstractFactory
     {
         public ProductA CreateProductA()
         {
-            return new ProductA2();
+            return new ProductA1();
         }
-
         public ProductB CreateProductB()
         {
-            return new ProductB2();
+            return new ProductB1();
         }
     }
 }

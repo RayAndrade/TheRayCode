@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ray/TheRayCode/TheRayCode/Csharp/AbstractFactory/AbstractFactory/AbstractFactory.csproj": {}
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/AbstractFactory.csproj": {}
   },
   "projects": {
-    "/home/ray/TheRayCode/TheRayCode/Csharp/AbstractFactory/AbstractFactory/AbstractFactory.csproj": {
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/AbstractFactory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/AbstractFactory/AbstractFactory/AbstractFactory.csproj",
+        "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/AbstractFactory.csproj",
         "projectName": "AbstractFactory",
-        "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/AbstractFactory/AbstractFactory/AbstractFactory.csproj",
+        "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/AbstractFactory.csproj",
         "packagesPath": "/home/ray/.nuget/packages/",
-        "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/AbstractFactory/AbstractFactory/obj/",
+        "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
