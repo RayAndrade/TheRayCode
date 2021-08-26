@@ -24,3 +24,16 @@
 /home/ray/TheRayCode/TheRayCode/Csharp/AbstractFactory/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.dll
 /home/ray/TheRayCode/TheRayCode/Csharp/AbstractFactory/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.pdb
 /home/ray/TheRayCode/TheRayCode/Csharp/AbstractFactory/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.genruntimeconfig.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/bin/Debug/netcoreapp3.1/AbstractFactory
+/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/bin/Debug/netcoreapp3.1/AbstractFactory.deps.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/bin/Debug/netcoreapp3.1/AbstractFactory.runtimeconfig.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/bin/Debug/netcoreapp3.1/AbstractFactory.runtimeconfig.dev.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/bin/Debug/netcoreapp3.1/AbstractFactory.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/bin/Debug/netcoreapp3.1/AbstractFactory.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.csprojAssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.AssemblyInfoInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.AssemblyInfo.cs
+/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Show/AbstractFactory/obj/Debug/netcoreapp3.1/AbstractFactory.genruntimeconfig.cache

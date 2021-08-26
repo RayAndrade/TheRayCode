@@ -1,6 +1,6 @@
 namespace AbstractFactory
 {
-    class Factory2: IAbstractFactory
+    public class Factory2: IAbstractFactory
     {
         public IProductA CreateProductA()
         {

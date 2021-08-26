@@ -4,6 +4,5 @@ namespace AbstractFactory
     {
         IProductA CreateProductA();
         IProductB CreateProductB();
- 
     }
 }
