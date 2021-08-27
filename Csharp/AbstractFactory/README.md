@@ -55,8 +55,8 @@ public interface ProductB
 As you can see there are 2 methods are required to use this interface.
 
 Let's create our first **B** class.
-We create **SoilidProductB1**. 
-The code for **SoilidProductB1** is:
+We create **SolidProductB1**. 
+The code for **SolidProductB1** is:
 
 ```c#
 class SolidProductB1: ProductB
