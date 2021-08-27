@@ -1,6 +1,7 @@
 namespace AbstractFactory
 {
     using System;
+
     public class Client
     {
         public void Main()
@@ -22,5 +23,6 @@ namespace AbstractFactory
             Console.WriteLine(productB.UsefulFunctionB());
             Console.WriteLine(productB.AnotherUsefulFunctionB(productA));
         }
+
     }
 }
