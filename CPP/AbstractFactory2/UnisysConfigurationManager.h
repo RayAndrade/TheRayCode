@@ -2,18 +2,18 @@
 // Created by ray on 8/31/21.
 //
 
-#ifndef ABSTRACTFACTORY2_UNISYSCONGIGURATIONMANAGER_H
-#define ABSTRACTFACTORY2_UNISYSCONGIGURATIONMANAGER_H
+#ifndef ABSTRACTFACTORY2_UNISYSCONFIGURATIONMANAGER_H
+#define ABSTRACTFACTORY2_UNISYSCONFIGURATIONMANAGER_H
 
-#include "ConfiguationManager.h"
+#include "ConfigurationManager.h"
 
 class UnisysConfigurationManager : ConfigurationManager
 {
 public:
     virtual void UseConfiguationManager()
     {
-        std::cout << "Inside UnisysConfigurationManager::UseConfigurationManager()\n"
+        std::cout << "Inside UnisysConfigurationManager::UseConfigurationManager()\n";
     }
 };
 
-#endif //ABSTRACTFACTORY2_UNISYSCONGIGURATIONMANAGER_H
+#endif //ABSTRACTFACTORY2_UNISYSCONFIGURATIONMANAGER_H

@@ -7,8 +7,8 @@ namespace AbstractFactory2
     {
         static void Main(string[] args)
         {
-            Client entrepuner = new Client(new ElegantClothesFactory());
-            Console.WriteLine($"Entrepuner:{entrepuner.DecribeYourCloths()}");
+            Client entrepreuner = new Client(new ElegantClothesFactory());
+            Console.WriteLine($"Entrepreuner:{entrepreuner.DecribeYourCloths()}");
             
             Client student = new Client(new CasualClothesFactory() );
             Console.WriteLine($"Student:{student.DecribeYourCloths()}");

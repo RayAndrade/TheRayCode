@@ -5,4 +5,15 @@
 #ifndef ABSTRACTFACTORY2_IBMCONFIGURATIONMANAGER_H
 #define ABSTRACTFACTORY2_IBMCONFIGURATIONMANAGER_H
 
+#include "ConfigurationManager.h"
+
+class IBMConfigurationManager: ConfigurationManager
+{
+public:
+    virtual void UseConfiguationManager()
+    {
+        std::cout << "Inside IBMConfigurationManager::UseConfigurationManager()\n"
+    }
+};
+
 #endif //ABSTRACTFACTORY2_IBMCONFIGURATIONMANAGER_H
