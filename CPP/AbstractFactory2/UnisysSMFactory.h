@@ -4,7 +4,6 @@
 #ifndef ABSTRACTFACTORY2_UNISYSSMFACTORY_H
 #define ABSTRACTFACTORY2_UNISYSSMFACTORY_H
 
-//#include "SystemManagementFactory.h"
 #include "UnisysOperationManager.h"
 #include "UnisysConfigurationManager.h"
 
@@ -12,9 +11,9 @@
 class UnisysSMFactory: public SystemManagementFactory
 {
 public:
-    virtual OperationManager CreateConfigurationManager()
+    virtual ConfigurationManager* CreateConfigurationManager()
     {
-        return UnisysOperationManager();
+        return new UnisysConfigurationManager();
     }
     virtual  OperationManager* CreateOperationManager()
     {

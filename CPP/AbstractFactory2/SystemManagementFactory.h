@@ -10,7 +10,7 @@
 class SystemManagementFactory
 {
 public:
-    virtual UnisysOperationManager CreateConfigurationManager() = 0;
+    virtual ConfigurationManager* CreateConfigurationManager() = 0;
     virtual OperationManager* CreateOperationManager() = 0;
 };
 

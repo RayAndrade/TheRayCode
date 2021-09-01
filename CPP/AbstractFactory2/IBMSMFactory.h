@@ -5,11 +5,9 @@
 #ifndef ABSTRACTFACTORY2_IBMSMFACTORY_H
 #define ABSTRACTFACTORY2_IBMSMFACTORY_H
 
-#include "SystemManagementFactory.h"
-#include "IBMConfigurationManager.h"
 
 #include "IBMOperationManager.h"
-
+#include "IBMConfigurationManager.h"
 
 class IBMSMFactory : public SystemManagementFactory
 {

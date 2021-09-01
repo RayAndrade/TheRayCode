@@ -2,8 +2,8 @@
 
 #include "CarFactory.cpp"
 
-//#define SIMPLE_CAR 1
-#define LUXURY_CAR 1
+#define SIMPLE_CAR 1
+//#define LUXURY_CAR 1
 
 int main() {
 
