@@ -1,6 +1,7 @@
 <?php
 include "factories.php";
 //setting the factory
+echo "yes";
 $factory = new WoodToysFactory();
 echo "<br>".$factory->getEducationGame();
 echo "<br>".$factory->getPuzzleGame();
