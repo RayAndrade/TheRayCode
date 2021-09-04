@@ -1,6 +1,4 @@
-package com.techprimers.designpatterns.abstractfactory;
-
-import com.techprimers.designpatterns.factory.PhoneType;
+package org.theraycode.AbstractFactory;
 
 public interface OSFactory {
 

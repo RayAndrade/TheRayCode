@@ -1,4 +1,4 @@
-package com.techprimers.designpatterns.abstractfactory;
+package org.theraycode.AbstractFactory;
 
 public interface Phone {
     void display();

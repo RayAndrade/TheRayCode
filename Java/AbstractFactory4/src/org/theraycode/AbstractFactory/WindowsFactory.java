@@ -1,4 +1,4 @@
-package com.techprimers.designpatterns.abstractfactory;
+package org.theraycode.AbstractFactory;
 
 public class WindowsFactory implements OSFactory {
     public Phone create(ManufacturerType manufacturerType) {

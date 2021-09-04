@@ -1,4 +1,4 @@
-package com.techprimers.designpatterns.abstractfactory;
+package org.theraycode.AbstractFactory;
 
 public class MicrosoftPhone implements Phone {
     public void display() {
