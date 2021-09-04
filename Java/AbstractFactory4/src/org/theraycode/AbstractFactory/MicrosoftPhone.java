@@ -1,7 +1,6 @@
-package org.theraycode.AbstractFactory;
+package com.techprimers.designpatterns.abstractfactory;
 
-public class MicrosoftPhone implements Phone{
-    @Override
+public class MicrosoftPhone implements Phone {
     public void display() {
         System.out.println("Nokia 3");
     }

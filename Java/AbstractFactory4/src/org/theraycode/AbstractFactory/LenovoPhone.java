@@ -1,9 +1,7 @@
-package org.theraycode.AbstractFactory;
+package com.techprimers.designpatterns.abstractfactory;
 
-public class LenovoPhone implements Phone{
-    @Override
+public class LenovoPhone implements Phone {
     public void display() {
         System.out.println("Lenovo K5 Note");
-
     }
 }

@@ -12,6 +12,7 @@ abstract class AbstractToysFactory
     public abstract function getPuzzleGame();
 
 }
+
 class WoodToysFactory extends AbstractToysFactory
 {
     public function getDollGame()
@@ -37,4 +38,5 @@ class SteelToysFactory  extends AbstractToysFactory
         return new SteelPuzzleGame();
     }
 }
+
 ?>

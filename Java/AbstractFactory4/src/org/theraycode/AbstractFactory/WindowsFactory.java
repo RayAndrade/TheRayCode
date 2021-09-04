@@ -1,16 +1,15 @@
-package org.theraycode.AbstractFactory;
+package com.techprimers.designpatterns.abstractfactory;
 
 public class WindowsFactory implements OSFactory {
+    public Phone create(ManufacturerType manufacturerType) {
 
-    @Override
-    public Phone create(ManufactureType manufactureType) {
-        switch (manufactureType)
-        {
+        switch (manufacturerType) {
             case LENOVO:
-                new LenovoPhone();
+                return new LenovoPhone();
             case MICROSOFT:
-                new MicrosoftPhone();
+                return new MicrosoftPhone();
+            default:
+                return null;
         }
-        return null;
     }
 }

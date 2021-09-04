@@ -1,7 +1,6 @@
-package org.theraycode.AbstractFactory;
+package com.techprimers.designpatterns.abstractfactory;
 
-public class OnePlus5T implements Phone{
-    @Override
+public class OnePlus5T implements Phone {
     public void display() {
         System.out.println("OnePlus 5T");
     }

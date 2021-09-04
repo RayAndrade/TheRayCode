@@ -1,6 +1,4 @@
-package org.theraycode.AbstractFactory;
-
-import org.theraycode.AbstractFactory.PhoneType;
+package com.techprimers.designpatterns.abstractfactory;
 
 public abstract class AbstractPhoneFactory {
 
@@ -8,11 +6,13 @@ public abstract class AbstractPhoneFactory {
     //AndroidFactory
     //OSFactory
 
-    public static OSFactory getFactory(OSType osType){
-        switch (osType){
-            case ManufactureType.ANDROID:
+
+    public static OSFactory getFactory(OSType osType) {
+
+        switch (osType) {
+            case ANDROID:
                 return new AndroidFactory();
-            case ManufactureType.WINDOWS:
+            case WINDOWS:
                 return new WindowsFactory();
             default:
                 return null;

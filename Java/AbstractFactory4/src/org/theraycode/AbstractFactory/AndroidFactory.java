@@ -1,18 +1,16 @@
-package org.theraycode.AbstractFactory;
-import org.theraycode.AbstractFactory.PhoneType;
+package com.techprimers.designpatterns.abstractfactory;
 
-public class AndroidFactory implements OSFactory{
+public class AndroidFactory implements OSFactory {
 
-    @Override
-    public Phone create(ManufactureType manufactureType)
-    {
-        switch (manufactureType) {
+    public Phone create(ManufacturerType manufacturerType) {
+        switch (manufacturerType) {
             case GOOGLE:
                 return new GooglePhone();
             case ONEPLUS:
                 return new OnePlus5T();
-            default:
-                return null;
+
+                default:
+                    return null;
         }
     }
 }

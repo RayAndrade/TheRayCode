@@ -1,7 +1,7 @@
-package org.theraycode.AbstractFactory;
+package com.techprimers.designpatterns.abstractfactory;
 
+public enum  OSType {
 
-public class OSType {
-    public static final OSType ManufactureTypeWINDOWS = null;
-    public static final OSType ManufactureTypeANDROID = null;
+    WINDOWS,
+    ANDROID
 }

@@ -1,5 +1,8 @@
-package org.theraycode.AbstractFactory;
+package com.techprimers.designpatterns.abstractfactory;
+
+import com.techprimers.designpatterns.factory.PhoneType;
 
 public interface OSFactory {
-    Phone create(ManufactureType manufactureType);
+
+    Phone create(ManufacturerType manufacturerType);
 }
