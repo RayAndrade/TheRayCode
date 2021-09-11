@@ -11,7 +11,7 @@ class IBMOperationManager : public OperationManager
 public:
     virtual void UseOperationManager()
     {
-        std::cout << "Inside IBMOperationManager::UseOperationManager()\n"
+        std::cout << "Inside IBMOperationManager::UseOperationManager()\n";
     }
 };
 #endif //ABSTRACTFACTORY2_IBMOPERATIONMANAGER_H

@@ -12,7 +12,7 @@ class IBMConfigurationManager: ConfigurationManager
 public:
     virtual void UseConfiguationManager()
     {
-        std::cout << "Inside IBMConfigurationManager::UseConfigurationManager()\n"
+        std::cout << "Inside IBMConfigurationManager::UseConfigurationManager()\n";
     }
 };
 
