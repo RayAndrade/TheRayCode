@@ -5,6 +5,31 @@ In this article we will review the **Abstract Factory** pattern.
 This pattern allows you to create a family of classes in which
 the subclasses of this *family* can cooperate together.
 
+So we add the **AbstractProductA**. 
+Each distinct product of a product family should have a base interface. 
+All variants of the product must implement this interface.
+
+```c++
+class AbstractProductA {
+public:
+    AbstractProductA(){};
+    virtual std::string UsefulFunctionA() const = 0;
+};
+```
+
+Here's the the base interface of another product. 
+All products can interact with each other, but proper interaction is possible only between products of* the same concrete variant.
+And to add **AbstractProductB** the code will be.
+
+```c++
+class AbstractProductB {
+public:
+    ~AbstractProductB(){};
+    virtual std::string UsefulFunction2() const = 0;
+    virtual std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const = 0;
+};
+```
+
 Let's create an interface.
 The Abstract Factory interface declares a set of methods that return different abstract products. 
 These products are called a family and are related by a high-level theme or concept. 
@@ -19,6 +44,9 @@ public:
     virtual AbstractProductB *CreateProductB() const = 0;
 };
 ```
+
+
+
 
 
 Let's create a couple of Concrete Factories.
@@ -63,30 +91,7 @@ Let's start by creating a couple of *Abstract* products we call **AbstractProduc
 Each distinct product of a product family should have a base interface. 
 All variants of this product must implement this interface.
 
-So we add the **AbstractProductA**. 
-Each distinct product of a product family should have a base interface. 
-All variants of the product must implement this interface.
 
-```c++
-class AbstractProductA {
-public:
-    AbstractProductA(){};
-    virtual std::string UsefulFunctionA() const = 0;
-};
-```
-
-Here's the the base interface of another product. 
-All products can interact with each other, but proper interaction is possible only between products of* the same concrete variant.
-And to add **AbstractProductB** the code will be.
-
-```c++
-class AbstractProductB {
-public:
-    ~AbstractProductB(){};
-    virtual std::string UsefulFunction2() const = 0;
-    virtual std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const = 0;
-};
-```
 Product B is able to do its own thing.
 ...but it also can collaborate with the AbstractProductA.
 The Abstract Factory makes sure that all products it creates are of the same variant and thus, compatible.
