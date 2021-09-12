@@ -1,5 +1,7 @@
 #include <iostream>
 
+#include <iostream>
+
 #include "ProductA1.h"
 #include "ProductA2.h"
 
@@ -8,12 +10,6 @@
 
 #include "ConcreteFactory1.h"
 #include "ConcreteFactory2.h"
-
-/**
- * The client code works with factories and products only through abstract
- * types: AbstractFactory and AbstractProduct. This lets you pass any factory or
- * product subclass to the client code without breaking it.
- */
 
 void Client(const AbstractFactory &factory) {
     const AbstractProductA *product_a = factory.CreateProductA();

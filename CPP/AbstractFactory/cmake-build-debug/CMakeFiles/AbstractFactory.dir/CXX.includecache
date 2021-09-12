@@ -39,6 +39,8 @@ AbstractProductB.h
 /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/main.cpp
 iostream
 -
+iostream
+-
 ProductA1.h
 /home/ray/TheRayCode/TheRayCode/CPP/AbstractFactory/ProductA1.h
 ProductA2.h

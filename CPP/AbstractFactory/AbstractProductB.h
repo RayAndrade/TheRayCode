@@ -1,24 +1,13 @@
+//
+// Created by ray on 9/11/21.
+//
+
 #ifndef ABSTRACTFACTORY_ABSTRACTPRODUCTB_H
 #define ABSTRACTFACTORY_ABSTRACTPRODUCTB_H
-
-/**
- * Here's the the base interface of another product. All products can interact
- * with each other, but proper interaction is possible only between products of
- * the same concrete variant.
- */
 class AbstractProductB {
-    /**
-     * Product B is able to do its own thing...
-     */
 public:
     ~AbstractProductB(){};
     virtual std::string UsefulFunction2() const = 0;
-    /**
-     * ...but it also can collaborate with the AbstractProductA.
-     *
-     * The Abstract Factory makes sure that all products it creates are of the
-     * same variant and thus, compatible.
-     */
     virtual std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const = 0;
 };
 
