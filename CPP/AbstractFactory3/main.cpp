@@ -2,18 +2,18 @@
 
 #include <iostream>
 
-#include "ProductA1.h"
-#include "ProductA2.h"
+#include "IBMConfiguration.h"
+#include "UnisysConfiguration.h"
 
-#include "ProductB1.h"
-#include "ProductB2.h"
+#include "IBMOperation.h"
+#include "UnisysOperation.h"
 
 #include "ConcreteFactory1.h"
 #include "ConcreteFactory2.h"
 
-void Client(const AbstractFactory &factory) {
-    const AbstractProductA *product_a = factory.CreateProductA();
-    const AbstractProductB *product_b = factory.CreateProductB();
+void Client(const SystemManagementFactory &factory) {
+    const ConfigurationManager *product_a = factory.CreateProductA();
+    const OperationManager *product_b = factory.CreateProductB();
     std::cout << product_b->UsefulFunction2() << "\n";
     std::cout << product_b->AnotherUsefulFunctionB(*product_a) << "\n";
     delete product_a;

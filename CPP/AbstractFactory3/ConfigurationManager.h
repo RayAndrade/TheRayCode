@@ -4,9 +4,9 @@
 
 #ifndef ABSTRACTFACTORY_ABSTRACTPRODUCTA_H
 #define ABSTRACTFACTORY_ABSTRACTPRODUCTA_H
-class AbstractProductA {
+class ConfigurationManager {
 public:
-    AbstractProductA(){};
+    ConfigurationManager(){};
     virtual std::string UsefulFunctionA() const = 0;
 };
 #endif //ABSTRACTFACTORY_ABSTRACTPRODUCTA_H

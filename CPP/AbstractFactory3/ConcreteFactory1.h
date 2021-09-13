@@ -5,14 +5,14 @@
 #ifndef ABSTRACTFACTORY_CONCRETEFACTORY1_H
 #define ABSTRACTFACTORY_CONCRETEFACTORY1_H
 
-#include "AbstractFactory.h"
-class ConcreteFactory1 : public AbstractFactory {
+#include "SystemManagementFactory.h"
+class ConcreteFactory1 : public SystemManagementFactory {
 public:
-    AbstractProductA *CreateProductA() const override {
-        return new ProductA1();
+    ConfigurationManager *CreateProductA() const override {
+        return new IBMConfiguration();
     }
-    AbstractProductB *CreateProductB() const override {
-        return new ProductB1();
+    OperationManager *CreateProductB() const override {
+        return new IBMOperation();
     }
 };
 #endif //ABSTRACTFACTORY_CONCRETEFACTORY1_H

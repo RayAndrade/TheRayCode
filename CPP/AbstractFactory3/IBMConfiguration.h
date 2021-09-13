@@ -4,11 +4,11 @@
 
 #ifndef ABSTRACTFACTORY_PRODUCTA1_H
 #define ABSTRACTFACTORY_PRODUCTA1_H
-#include "AbstractProductA.h"
-class ProductA1 : public AbstractProductA {
+#include "ConfigurationManager.h"
+class IBMConfiguration : public ConfigurationManager {
 public:
     std::string UsefulFunctionA() const override {
-        return "The result of Product A1.";
+        return "The result of IBMConfiguration.";
     }
 };
 #endif //ABSTRACTFACTORY_PRODUCTA1_H
