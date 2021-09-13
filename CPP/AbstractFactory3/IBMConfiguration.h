@@ -8,7 +8,7 @@
 class IBMConfiguration : public ConfigurationManager {
 public:
     std::string UsefulFunctionA() const override {
-        return "The result of IBMConfiguration.";
+        return "IBMConfiguration.";
     }
 };
 #endif //ABSTRACTFACTORY_PRODUCTA1_H

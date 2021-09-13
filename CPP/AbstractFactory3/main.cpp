@@ -21,12 +21,12 @@ void Client(const SystemManagementFactory &factory) {
 }
 
 int main() {
-    std::cout << "Client: Testing client code with the first factory type:\n";
+    std::cout << "Client: Testing client code with IBMConfiguration:\n";
     ConcreteFactory1 *f1 = new ConcreteFactory1();
     Client(*f1);
     delete f1;
     std::cout << std::endl;
-    std::cout << "Client: Testing the same client code with the second factory type:\n";
+    std::cout << "Client: Testing the same client code with UnisysConfiguration:\n";
     ConcreteFactory2 *f2 = new ConcreteFactory2();
     Client(*f2);
     delete f2;

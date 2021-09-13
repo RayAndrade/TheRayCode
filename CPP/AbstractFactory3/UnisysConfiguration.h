@@ -8,7 +8,7 @@
 
 class UnisysConfiguration : public ConfigurationManager {
     std::string UsefulFunctionA() const override {
-        return "The result of UnisysConfiguration.";
+        return "UnisysConfiguration.";
     }
 };
 #endif //ABSTRACTFACTORY_PRODUCTA2_H
