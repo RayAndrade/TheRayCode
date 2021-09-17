@@ -1,6 +1,6 @@
 <?php
 
-class AbstractProduct1
+abstract class AbstractProduct1
 {
-
+    public abstract function Display();
 }
