@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-2/212.5080.54/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-2/212.5457.51/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-2/212.5080.54/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/ray/.local/share/JetBrains/Toolbox/apps/CLion/ch-2/212.5457.51/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
