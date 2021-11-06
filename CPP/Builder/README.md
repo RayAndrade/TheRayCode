@@ -40,9 +40,9 @@ The code for the **Builder**.h is:
 class Builder {
 public:
     virtual ~Builder(){}
-    virtual void ProducePartA() const =0;
-    virtual void ProducePartB() const =0;
-    virtual void ProducePartC() const =0;
+    virtual void PartA() const =0;
+    virtual void PartB() const =0;
+    virtual void PartC() const =0;
 
 };
 ```
@@ -65,13 +65,13 @@ public:
     void Reset(){
         this->product= new Product();
     }
-    void ProducePartA()const override{
+    void PartA()const override{
         this->product->parts_.push_back("PartA");
     }
-    void ProducePartB()const override{
+    void PartB()const override{
         this->product->parts_.push_back("PartB");
     }
-    void ProducePartC()const override{
+    void PartC()const override{
         this->product->parts_.push_back("PartC");
     }
     Product* GetProduct() {
@@ -95,12 +95,12 @@ public:
         this->builder=builder;
     }
     void BuildMinimalViableProduct(){
-        this->builder->ProducePartA();
+        this->builder->PartA();
     }
     void BuildFullFeaturedProduct(){
-        this->builder->ProducePartA();
-        this->builder->ProducePartB();
-        this->builder->ProducePartC();
+        this->builder->PartA();
+        this->builder->PartB();
+        this->builder->PartC();
     }
 };
 ```
@@ -116,7 +116,7 @@ Let's add some files to include:
 
 Then we add some client code:
 ```c++
-void ClientCode(Director& director)
+void Client(Director& director)
 {
     SolidBuilder* builder = new SolidBuilder();
     director.set_builder(builder);
@@ -128,8 +128,8 @@ void ClientCode(Director& director)
     delete p;
 
     std::cout << "Custom product:\n";
-    builder->ProducePartA();
-    builder->ProducePartC();
+    builder->PartA();
+    builder->PartC();
     p=builder->GetProduct();
     p->ListParts();
     delete p;
@@ -141,7 +141,7 @@ And now let's test this all out in main
 ```c++
 int main(){
     Director* director= new Director();
-    ClientCode(*director);
+    Client(*director);
     delete director;
     std::cout << "The Ray Code is AWESOME!!!" << std::endl;
     return 0;

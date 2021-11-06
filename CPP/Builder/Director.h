@@ -14,12 +14,12 @@ public:
         this->builder=builder;
     }
     void BuildMinimalViableProduct(){
-        this->builder->ProducePartA();
+        this->builder->PartA();
     }
     void BuildFullFeaturedProduct(){
-        this->builder->ProducePartA();
-        this->builder->ProducePartB();
-        this->builder->ProducePartC();
+        this->builder->PartA();
+        this->builder->PartB();
+        this->builder->PartC();
     }
 };
 #endif //BUILDER_DIRECTOR_H

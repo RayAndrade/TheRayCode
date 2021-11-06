@@ -2,7 +2,7 @@
 #include "Director.h"
 #include "SolidBuilder.h"
 
-void ClientCode(Director& director)
+void Client(Director& director)
 {
     SolidBuilder* builder = new SolidBuilder();
     director.set_builder(builder);
@@ -14,8 +14,8 @@ void ClientCode(Director& director)
     delete p;
 
     std::cout << "Custom product:\n";
-    builder->ProducePartA();
-    builder->ProducePartC();
+    builder->PartA();
+    builder->PartC();
     p=builder->GetProduct();
     p->ListParts();
     delete p;
@@ -24,7 +24,7 @@ void ClientCode(Director& director)
 
 int main(){
     Director* director= new Director();
-    ClientCode(*director);
+    Client(*director);
     delete director;
     //std::cout << "The Ray Code is AWESOME!!!" << std::endl;
     return 0;

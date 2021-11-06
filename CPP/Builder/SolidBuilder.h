@@ -20,13 +20,13 @@ public:
     void Reset(){
         this->product= new Product();
     }
-    void ProducePartA()const override{
+    void PartA()const override{
         this->product->parts_.push_back("PartA");
     }
-    void ProducePartB()const override{
+    void PartB()const override{
         this->product->parts_.push_back("PartB");
     }
-    void ProducePartC()const override{
+    void PartC()const override{
         this->product->parts_.push_back("PartC");
     }
     Product* GetProduct() {

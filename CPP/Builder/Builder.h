@@ -7,9 +7,9 @@
 class Builder {
 public:
     virtual ~Builder(){}
-    virtual void ProducePartA() const =0;
-    virtual void ProducePartB() const =0;
-    virtual void ProducePartC() const =0;
+    virtual void PartA() const =0;
+    virtual void PartB() const =0;
+    virtual void PartC() const =0;
 
 };
 #endif //BUILDER_BUILDER_H
