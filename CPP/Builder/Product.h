@@ -1,12 +1,21 @@
 //
-// Created by ray on 6/30/21.
+// Created by ray on 11/6/21.
 //
 
 #ifndef BUILDER_PRODUCT_H
 #define BUILDER_PRODUCT_H
-#include <vector>
 
-class Product {
+#include <vector>
+/**
+ * It makes sense to use the Builder pattern only when your products are quite
+ * complex and require extensive configuration.
+ *
+ * Unlike in other creational patterns, different concrete builders can produce
+ * unrelated products. In other words, results of various builders may not
+ * always follow the same interface.
+ */
+
+class Product{
 public:
     std::vector<std::string> parts_;
     void ListParts()const{
@@ -21,4 +30,6 @@ public:
         std::cout << "\n\n";
     }
 };
+
+
 #endif //BUILDER_PRODUCT_H

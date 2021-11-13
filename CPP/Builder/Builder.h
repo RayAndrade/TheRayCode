@@ -1,15 +1,18 @@
 //
-// Created by ray on 6/30/21.
+// Created by ray on 11/6/21.
 //
 
 #ifndef BUILDER_BUILDER_H
 #define BUILDER_BUILDER_H
-class Builder {
+/**
+ * The Builder interface specifies methods for creating the different parts of
+ * the Product objects.
+ */
+class Builder{
 public:
     virtual ~Builder(){}
-    virtual void PartA() const =0;
-    virtual void PartB() const =0;
-    virtual void PartC() const =0;
-
+    virtual void ProducePartA() const =0;
+    virtual void ProducePartB() const =0;
+    virtual void ProducePartC() const =0;
 };
 #endif //BUILDER_BUILDER_H

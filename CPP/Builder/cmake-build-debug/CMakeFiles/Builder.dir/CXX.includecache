@@ -8,6 +8,12 @@
 
 /home/ray/TheRayCode/TheRayCode/CPP/Builder/Builder.h
 
+/home/ray/TheRayCode/TheRayCode/CPP/Builder/ConcreteBuilder.h
+Director.h
+/home/ray/TheRayCode/TheRayCode/CPP/Builder/Director.h
+Product.h
+/home/ray/TheRayCode/TheRayCode/CPP/Builder/Product.h
+
 /home/ray/TheRayCode/TheRayCode/CPP/Builder/Director.h
 Builder.h
 /home/ray/TheRayCode/TheRayCode/CPP/Builder/Builder.h
@@ -16,17 +22,13 @@ Builder.h
 vector
 -
 
-/home/ray/TheRayCode/TheRayCode/CPP/Builder/SolidBuilder.h
-Builder.h
-/home/ray/TheRayCode/TheRayCode/CPP/Builder/Builder.h
-Product.h
-/home/ray/TheRayCode/TheRayCode/CPP/Builder/Product.h
-
 /home/ray/TheRayCode/TheRayCode/CPP/Builder/main.cpp
 iostream
 -
 Director.h
 /home/ray/TheRayCode/TheRayCode/CPP/Builder/Director.h
-SolidBuilder.h
-/home/ray/TheRayCode/TheRayCode/CPP/Builder/SolidBuilder.h
+ConcreteBuilder.h
+/home/ray/TheRayCode/TheRayCode/CPP/Builder/ConcreteBuilder.h
+Product.h
+/home/ray/TheRayCode/TheRayCode/CPP/Builder/Product.h
 

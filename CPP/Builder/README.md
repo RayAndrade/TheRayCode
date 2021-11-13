@@ -1,7 +1,8 @@
 # TheRayCode
 ## Builder cpp
 
-The Builder pattern can be recognized in a class, which has a single creation method and several methods to configure the resulting object. 
+The Builder pattern can be recognized in a class, which has a 
+single creation method and several methods to configure the resulting object. 
 
 This example illustrates the structure of the Builder design pattern. 
 It focuses on answering these questions:
@@ -9,7 +10,8 @@ It focuses on answering these questions:
 * What roles do these classes play?
 * In what way do the elements of the pattern related?
 
-It makes sense to use the Builder pattern only when your products are quite complex and require extensive configuration.
+It makes sense to use the Builder pattern only when your products are quite complex and require extensive 
+configuration.
 Unlike in other creational patterns, different concrete builders can produce unrelated products. 
 In other words, results of various builders may not always follow the same interface.
 
@@ -46,20 +48,31 @@ public:
 
 };
 ```
+Concrete Builders are supposed to provide their own methods for retrieving results. 
+That's because various types of builders may create entirely different products that don't follow the same interface.
+Therefore, such methods cannot be declared in the base Builder interface (at least 
+in a statically typed programming language). Note that PHP is a dynamically typed language and this method CAN 
+be in the base interface. However, we won't declare it there for the sake of clarity.
+
+Usually, after returning the end result to the client, a builder instance  is expected to be ready to start 
+producing another product. That's why  it's a usual practice to call the reset method at the end of the 
+`getProduct` method body. However, this behavior is not mandatory, and you can make your builders wait for 
+an explicit reset call from the client code before disposing of the previous result.
+
 The Concrete (Solid) Builder classes follows the Builder interface and provide specific implementations of the building steps. 
 Your program may have several variations of *Builders* , implemented differently.
 ```c++
 #include "Builder.h"
 #include "Product.h"
 
-class SolidBuilder: public Builder {
+class ConcreteBuilder: public Builder {
 private:
     Product* product;
 public:
-    SolidBuilder(){
+    ConcreteBuilder(){
         this->Reset();
     }
-    ~SolidBuilder(){
+    ConcreteBuilderder(){
         delete product;
     }
     void Reset(){
@@ -111,14 +124,14 @@ Let's add some files to include:
 #include <iostream>
 
 #include "Director.h"
-#include "SolidBuilder.h"
+#include "ConcreteBuilder.h"
 ```
 
 Then we add some client code:
 ```c++
 void Client(Director& director)
 {
-    SolidBuilder* builder = new SolidBuilder();
+    ConcreteBuilder* builder = new ConcreteBuilder();
     director.set_builder(builder);
     std::cout << "Standard basic product:\n";
     director.BuildMinimalViableProduct();

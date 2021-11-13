@@ -3,7 +3,7 @@
 
 CMakeFiles/Builder.dir/main.cpp.o: \
  ../Builder.h \
+ ../ConcreteBuilder.h \
  ../Director.h \
  ../Product.h \
- ../SolidBuilder.h \
  ../main.cpp
