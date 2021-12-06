@@ -1,7 +1,8 @@
-we start by creating the Builder interface.
+we start by creating the **Builder** interface.
+Focus on list of files - - New >> Header File
 we create the class
 ```c+
-class Product{ };
+class Builder{ };
 ```
 add a deconstucter
 
@@ -16,16 +17,22 @@ virtual void ProducePartA() const=0;
 virtual void ProducePartB() const=0;
 virtual void ProducePartC() const=0;
 ```
-create the Product class file
+
+**end**
+
+
+create the **Product** class file
 
 inculde the vector class
 ```c+
 #include <vector>
+#include <string>
+#include <iostream>
 ```
 create the Product class code
 
 ```c+
-class Product{ }
+class Product{ };
 ```
 
 seperate the {}
@@ -48,8 +55,10 @@ std::cout << "Product parts: ";
     }
     std::cout << "\n\n";
 ```
+**end**
 
-next we create the Director .h file we include the Builder .h file
+
+next we create the **Director** .h file we include the Builder .h file
 
 ```c++
 #include "Builder.h"
@@ -87,17 +96,53 @@ void BuildFullFeaturedProduct(){
     this->builder->ProducePartC();
 }
 ```
+**end**
 
-create the ConcreteBuilder .h file  and include Builder .h file
+create the **ConcreteBuilder** .h file  and include Builder .h file
 
 ```c++
-#include "Builder.h"
+#include "Director.h"
+#include "Product.h"
+
 ```
+Because we ave Director we don't need to a Builder.h"
+
 The Director is only responsible for executing the building steps in a
  * particular sequence. It is helpful when producing products according to a
  * specific order or configuration. Strictly speaking, the Director class is
  * optional, since the client can control builders directly.
 Next we extend the Director class with the Builder class
+
+
+```c++
+class ConcreteBuilder : public Builder{ };
+```
+
+
+next 
+```c++
+private:
+
+    Product* product;
+```
+
+next
+
+```c++    
+public:
+    ConcreteBuilder(){
+        this->Reset();
+    }
+
+    ~ConcreteBuilder(){
+        delete product;
+    }
+
+    void Reset(){
+        this->product= new Product();
+    }
+```
+
 
 ```c++
 class Director{ };
@@ -120,6 +165,8 @@ public:
     void set_builder(Builder* builder){
         this->builder=builder;
     }
+    
+    
 ```
 
 The Director can construct several product variations using the same  building steps.
@@ -128,6 +175,8 @@ The Director can construct several product variations using the same  building s
 void BuildMinimalViableProduct(){
     this->builder->ProducePartA();
 }
+```
+```c++
 
 void BuildFullFeaturedProduct(){
     this->builder->ProducePartA();
