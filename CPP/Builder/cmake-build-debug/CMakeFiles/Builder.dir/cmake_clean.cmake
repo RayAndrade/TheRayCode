@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "Builder"
   "Builder.pdb"
   "CMakeFiles/Builder.dir/main.cpp.o"
+  "CMakeFiles/Builder.dir/main.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ee8598c-ef02-4d34-a81f-c8c9aad7a07d" name="Default Changelist" comment="" />
+    <list default="true" id="0ee8598c-ef02-4d34-a81f-c8c9aad7a07d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../CPP/Show/Product.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/3.19.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/Builder.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/Builder.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/Builder.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/Builder.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/Builder.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/Builder.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/Builder.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/Builder.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/Builder.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/Builder.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/Builder.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../CPP/Builder/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AbstractFactory2/AbstractFactory2/obj/AbstractFactory2.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory2/AbstractFactory2/obj/AbstractFactory2.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AbstractFactory2/AbstractFactory2/obj/AbstractFactory2.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory2/AbstractFactory2/obj/AbstractFactory2.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AbstractFactory2/AbstractFactory2/obj/AbstractFactory2.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory2/AbstractFactory2/obj/AbstractFactory2.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AbstractFactory2/AbstractFactory2/obj/Debug/netcoreapp3.1/AbstractFactory2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory2/AbstractFactory2/obj/Debug/netcoreapp3.1/AbstractFactory2.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AbstractFactory2/AbstractFactory2/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory2/AbstractFactory2/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AbstractFactory2/AbstractFactory2/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory2/AbstractFactory2/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AbstractFactory2/AbstractFactory2/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory2/AbstractFactory2/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AbstractFactory2/AbstractFactory2/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../AbstractFactory2/AbstractFactory2/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Builder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Builder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/obj/Builder.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/obj/Builder.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/obj/Builder.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/obj/Builder.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/obj/Debug/netcoreapp3.1/Builder.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,11 +46,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Builder/ConcreteBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Builder/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Builder/Director.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Builder/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Builder/IBuilder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Builder/ConcreteBuilder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Builder/Product.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1eEZ8RDA7zLOhABiShRiqU16yES" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -76,12 +114,15 @@
       <workItem from="1597034689092" duration="18000" />
       <workItem from="1597273822117" duration="51000" />
       <workItem from="1616821111737" duration="3233000" />
+      <workItem from="1638832274770" duration="527000" />
+      <workItem from="1638832828592" duration="134000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
