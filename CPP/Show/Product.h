@@ -4,7 +4,6 @@
 
 #ifndef SHOW_PRODUCT_H
 #define SHOW_PRODUCT_H
-
 #include <vector>
 #include <string>
 #include <iostream>
@@ -24,6 +23,4 @@ public:
         std::cout << "\n\n";
     }
 };
-
-
 #endif //SHOW_PRODUCT_H

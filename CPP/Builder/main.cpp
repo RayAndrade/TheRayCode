@@ -1,17 +1,6 @@
-#include <iostream>
-
-#include "Director.h"
-#include "ConcreteBuilder.h"
 #include "Product.h"
-/**
- * The client code creates a builder object, passes it to the director and then
- * initiates the construction process. The end result is retrieved from the
- * builder object.
- */
-/**
- * I used raw pointers for simplicity however you may prefer to use smart
- * pointers here
- */
+#include "ConcreteBuilder.h"
+
 void ClientCode(Director& director)
 {
     ConcreteBuilder* builder = new ConcreteBuilder();
@@ -41,14 +30,9 @@ void ClientCode(Director& director)
     delete builder;
 }
 
-int main(){
+int main() {
     Director* director= new Director();
     ClientCode(*director);
     delete director;
-
-    // std::cout << "The Ray Code is AWESOME!!!" << std::endl;
     return 0;
 }
-
-
-

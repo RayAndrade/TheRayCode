@@ -1,5 +1,6 @@
 #include "Product.h"
 #include "ConcreteBuilder.h"
+
 void ClientCode(Director& director)
 {
     ConcreteBuilder* builder = new ConcreteBuilder();
@@ -18,7 +19,6 @@ void ClientCode(Director& director)
     p->ListParts();
     delete p;
 
-    // Remember, the Builder pattern can be used without a Director class.
     std::cout << "Custom product:\n";
     builder->ProducePartA();
     builder->ProducePartC();
@@ -28,11 +28,9 @@ void ClientCode(Director& director)
 
     delete builder;
 }
-
-int main(){
+int main() {
     Director* director= new Director();
     ClientCode(*director);
     delete director;
     return 0;
 }
-

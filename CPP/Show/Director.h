@@ -22,5 +22,4 @@ public:
         this->builder->ProducePartC();
     }
 };
-
 #endif //SHOW_DIRECTOR_H

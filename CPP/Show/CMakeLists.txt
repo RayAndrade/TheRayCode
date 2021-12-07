@@ -3,4 +3,4 @@ project(Show)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Show main.cpp Product.h Builder.h Director.h ConcreteBuilder.h)
+add_executable(Show main.cpp Builder.h Product.h Director.h ConcreteBuilder.h)

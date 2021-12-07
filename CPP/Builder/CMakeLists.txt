@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.21)
 project(Builder)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Builder main.cpp Product.h Builder.h ConcreteBuilder.h Director.h)
+add_executable(Builder main.cpp Builder.h Product.h Director.h ConcreteBuilder.h)
