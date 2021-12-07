@@ -1,18 +1,11 @@
 //
-// Created by ray on 12/6/21.
+// Created by ray on 12/7/21.
 //
 
 #ifndef SHOW_DIRECTOR_H
 #define SHOW_DIRECTOR_H
-
 #include "Builder.h"
 
-/**
- * The Director is only responsible for executing the building steps in a
- * particular sequence. It is helpful when producing products according to a
- * specific order or configuration. Strictly speaking, the Director class is
- * optional, since the client can control builders directly.
- */
 class Director{
     /**
      * @var Builder
@@ -37,13 +30,13 @@ public:
      */
 
     void BuildMinimalViableProduct(){
-        this->builder->PartA();
+        this->builder->ProducePartA();
     }
 
     void BuildFullFeaturedProduct(){
-        this->builder->PartA();
-        this->builder->PartB();
-        this->builder->PartC();
+        this->builder->ProducePartA();
+        this->builder->ProducePartB();
+        this->builder->ProducePartC();
     }
 };
 #endif //SHOW_DIRECTOR_H

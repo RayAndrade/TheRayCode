@@ -1,13 +1,12 @@
 //
-// Created by ray on 12/6/21.
+// Created by ray on 12/7/21.
 //
 
 #ifndef SHOW_CONCRETEBUILDER_H
 #define SHOW_CONCRETEBUILDER_H
-#include "Builder.h"
+#include "Director.h"
 #include "Product.h"
 class ConcreteBuilder : public Builder{
-
 private:
 
     Product* product;
@@ -33,15 +32,15 @@ public:
      * All production steps work with the same product instance.
      */
 
-    void PartA()const {
+    void ProducePartA()const override{
         this->product->parts_.push_back("PartA1");
     }
 
-    void PartB()const {
+    void ProducePartB()const override{
         this->product->parts_.push_back("PartB1");
     }
 
-    void PartC()const {
+    void ProducePartC()const override{
         this->product->parts_.push_back("PartC1");
     }
 
@@ -75,4 +74,5 @@ public:
         return result;
     }
 };
+
 #endif //SHOW_CONCRETEBUILDER_H

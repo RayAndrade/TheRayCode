@@ -1,15 +1,15 @@
 //
-// Created by ray on 12/6/21.
+// Created by ray on 12/7/21.
 //
 
 #ifndef SHOW_BUILDER_H
 #define SHOW_BUILDER_H
-class Builder {
+
+class Builder{
 public:
     virtual ~Builder(){}
-    virtual void PartA() const =0;
-    virtual void PartB() const =0;
-    virtual void PartC() const =0;
-
+    virtual void ProducePartA() const =0;
+    virtual void ProducePartB() const =0;
+    virtual void ProducePartC() const =0;
 };
 #endif //SHOW_BUILDER_H

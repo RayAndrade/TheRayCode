@@ -23,6 +23,9 @@ public:
 
  #include <vector>
 
+#include <string>
+#include <iostream>
+
 class Product{
 public:
     std::vector<std::string> parts_;
@@ -81,6 +84,7 @@ public:
 };
 
 #include "Director.h"
+#include "Product.h"
 /**
  * The Concrete Builder classes follow the Builder interface and provide
  * specific implementations of the building steps. Your program may have several
