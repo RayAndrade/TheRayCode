@@ -1,6 +1,5 @@
 #include "Product.h"
 #include "ConcreteBuilder.h"
-
 void ClientCode(Director& director)
 {
     ConcreteBuilder* builder = new ConcreteBuilder();

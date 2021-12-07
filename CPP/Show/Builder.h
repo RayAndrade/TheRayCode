@@ -4,7 +4,6 @@
 
 #ifndef SHOW_BUILDER_H
 #define SHOW_BUILDER_H
-
 class Builder{
 public:
     virtual ~Builder(){}
