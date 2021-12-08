@@ -2,6 +2,12 @@
 ## Factory c++
 
 In this artical I will take a look at the **Factory** design pattern using *c++*.
+
+I'll be doing this demo in c++
+```make
+set(CMAKE_CXX_STANDARD 23)
+```
+
 We start by creating an interface we call **Product**.
 ```c++
 #include <iostream>
