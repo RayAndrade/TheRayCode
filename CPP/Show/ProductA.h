@@ -2,8 +2,8 @@
 // Created by ray on 12/7/21.
 //
 
-#ifndef FACTORY_PRODUCTA_H
-#define FACTORY_PRODUCTA_H
+#ifndef SHOW_PRODUCTA_H
+#define SHOW_PRODUCTA_H
 #include "Product.h"
 
 class ProductA : public Product {
@@ -12,4 +12,4 @@ public:
         return "{Result of ProductA}";
     }
 };
-#endif //FACTORY_PRODUCTA_H
+#endif //SHOW_PRODUCTA_H
