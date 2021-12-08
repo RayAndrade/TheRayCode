@@ -6,7 +6,7 @@
 #define SHOW_PRODUCTB_H
 #include "Product.h"
 
-class CProductB : public Product {
+class ProductB : public Product {
 public:
     std::string Operation() const override {
         return "{Result of ProductB}";

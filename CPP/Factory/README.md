@@ -38,7 +38,7 @@ For **ProductB** the code is:
 ```c++
 #include "Product.h"
 
-class CProductB : public Product {
+class ProductB : public Product {
 public:
     std::string Operation() const override {
         return "{Result of ProductB}";
@@ -56,7 +56,7 @@ Note that the Creator may also provide some default implementation of the factor
 ```c++
 #include "Product.h"
 
-class Creator { }:
+class Creator { };
 ```
 Also note that, despite its name, the Creator's primary responsibility is not creating products. Usually, it contains some core business logic that
 relies on Product objects, returned by the factory method. 
