@@ -8,7 +8,7 @@ I'll be doing this demo in c++
 set(CMAKE_CXX_STANDARD 23)
 ```
 
-We start by creating an interface we call **Product**.
+We start by creating an *interface* we call **Product**.
 ```c++
 #include <iostream>
 
@@ -47,11 +47,10 @@ public:
 ```
 The next interface we create is **Creator**. Note that the Creator may also provide some default implementation of the factory method.
 
-The Creator class declares the factory method that is supposed to return an
- * object of a Product class. The Creator's subclasses usually provide the
- * implementation of this method
+The Creator class declares the factory method that is supposed to return an object of a Product class. 
+The Creator's subclasses usually provide the implementation of this method.
 
-Note that the Creator may also provide some default implementation of the factory method.
+Note that the **Creator** may also provide some default implementation of the factory method.
 
 ```c++
 #include "Product.h"
@@ -65,11 +64,10 @@ Subclasses can indirectly change that business logic by overriding the factory m
 
 ```c++
 public:
-    virtual ~Creator(){};
-    virtual Product* FactoryMethod() const = 0;
-
+    virtual ~Creator() {};
+    virtual Product *FactoryMethod() const = 0;
     std::string SomeOperation() const {
-        Product* product = this->FactoryMethod();
+        Product *product = this->FactoryMethod();
         std::string result = "Creator: The same creator's code has just worked with " + product->Operation();
         delete product;
         return result;
@@ -90,8 +88,8 @@ public:
     }
 };
 ```
-We include both **Creator**.h and **ProductB**.h. 
-We also extend the class with **Creator**.
+We include both *Creator.h* and **ProductB**.h. 
+We also extend the class with *Creator*.
 
 We do the same for another class we create **CreatorB**.h and extend it also with **Creator** class.
 In the **FactoryMethod** we return a new **ProductB**
@@ -118,9 +116,8 @@ First we add the includes that we will be using:
 #include "CreatorA.h"
 #include "CreatorB.h"
 ```
- The client code works with an instance of a concrete creator, albeit through
- * its base interface. As long as the client keeps working with the creator via
- * the base interface, you can pass it any creator's subclass.
+ The client code works with an instance of a concrete creator, albeit through  its base interface. 
+ As long as the client keeps working with the creator via the base interface, you can pass it any creator's subclass.
 
 ```c++
 void ClientCode(const Creator& creator) {
@@ -147,7 +144,6 @@ int main() {
     delete creatorA;
     delete creatorB;
 
-    std::cout << "The Ray Code is AWESOME!!!" << std::endl;
     return 0;
 }
 
