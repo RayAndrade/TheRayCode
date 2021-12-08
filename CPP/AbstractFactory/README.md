@@ -36,8 +36,8 @@ public:
 };
 ```
 
-Let's create an interface for these products.
-The Abstract Factory interface declares a set of methods that return different abstract products. 
+Let's create an interface for these products we will call **AbstractFactory**.
+The **AbstractFactory** *interface* declares a set of methods that return different abstract products. 
 These products are called a family and are related by a high-level theme or concept. 
 Products of one family are usually able to collaborate among themselves. 
 A family of products may have several variants, but the products of one variant are incompatible with products of another.
@@ -60,7 +60,7 @@ Product B is able to do its own thing.
 The Abstract Factory makes sure that all products it creates are of the same variant and thus, compatible.
 
 
-Since we have alredry added our Abstract Product files we will need to add our Concrete products.
+Since we have alredry added our Abstract Product files we will need to add a couple Concrete products.
 we start with **ProductA1**
 
 
@@ -104,7 +104,7 @@ public:
 ```
 
 The variant, **ProductB2**, is only able to work correctly with the variant, **ProductA2**. 
-Nevertheless, it accepts any instance of AbstractProductA as an argument.
+Nevertheless, it accepts any instance of *AbstractProductA* as an argument.
 
 ```c++
 #include "AbstractProductB.h"
