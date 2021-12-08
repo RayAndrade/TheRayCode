@@ -1,6 +1,10 @@
 # TheRayCode
 ## Abstract Factory c++
 
+I'll be doing this demo in c++
+```make
+set(CMAKE_CXX_STANDARD 23)
+```
 In this article we will review the **Abstract Factory** pattern.
 This pattern allows you to create a family of classes in which
 the subclasses of this *family* can cooperate together.
@@ -49,8 +53,6 @@ public:
     virtual AbstractProductB *CreateProductB() const = 0;
 };
 ```
-
-
 
 
 Product B is able to do its own thing.
