@@ -85,6 +85,12 @@
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Factory/Creator.h">
 			<Option target="Factory"/>
 		</Unit>
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Factory/CreatorA.h">
+			<Option target="Factory"/>
+		</Unit>
+		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Factory/CreatorB.h">
+			<Option target="Factory"/>
+		</Unit>
 		<Unit filename="/home/ray/TheRayCode/TheRayCode/CPP/Factory/Product.h">
 			<Option target="Factory"/>
 		</Unit>
