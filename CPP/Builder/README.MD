@@ -1,6 +1,11 @@
 We start by creating a project I call Show for my demo show.
 I'm choosing C++23
 
+```c++
+set(CMAKE_CXX_STANDARD 23)
+```
+
+
 The **Builder** interface specifies methods for creating the different parts of the Product objects.
 
 ```c++
@@ -14,21 +19,24 @@ public:
 ```
 Create **Product**.
 
-/**
- * It makes sense to use the Builder pattern only when your products are quite
- * complex and require extensive configuration.
- *
- * Unlike in other creational patterns, different concrete builders can produce
- * unrelated products. In other words, results of various builders may not
- * always follow the same interface.
+It makes sense to use the Builder pattern only when your products are quite complex and require extensive configuration.
+
+Unlike in other creational patterns, different concrete builders can produce unrelated products. 
+In other words, results of various builders may not always follow the same interface.
  */
 
 ```c++
 #include <vector>
 #include <string>
 #include <iostream>
+```
+Next we create the **Product** *class*
+```c++
+class Product{ };
+```
 
-class Product{
+For our *public* logic we add:
+```c++
 public:
     std::vector<std::string> parts_;
     void ListParts()const{
@@ -42,7 +50,6 @@ public:
         }
         std::cout << "\n\n";
     }
-};
 ```
 
 The **Director** is only responsible for executing the building steps in a
@@ -81,12 +88,9 @@ The Director can construct several product variations using the same  building s
 ```
 Next we add the **ConcreteBuilder**.
 
+The Concrete Builder classes follow the Builder interface and provide specific implementations of the building steps. 
+Your program may have several variations of Builders, implemented differently.
 
-/**
- * The Concrete Builder classes follow the Builder interface and provide
- * specific implementations of the building steps. Your program may have several
- * variations of Builders, implemented differently.
- */
 ```c++ 
 #include "Director.h"
 #include "Product.h"
@@ -194,5 +198,22 @@ int main(){
     return 0;
 }
 ```
+
+When we compile and run we get:
+
+
+```run
+Standard basic product:
+Product parts: PartA1
+
+Standard full featured product:
+Product parts: PartA1, PartB1, PartC1
+
+Custom product:
+Product parts: PartA1, PartC1
+
+```
+
+
 
 
