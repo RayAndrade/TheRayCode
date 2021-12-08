@@ -9,6 +9,13 @@ In this article we will review the **Abstract Factory** pattern.
 This pattern allows you to create a family of classes in which
 the subclasses of this *family* can cooperate together.
 
+
+
+According to our interface we need add two classes, or two classes are required.
+Let's start by creating a couple of *Abstract* products we call **AbstractProductA** and **AbstractProductB**.
+Each distinct product of a product family should have a base interface. 
+All variants of this product must implement this interface.
+
 So we add the **AbstractProductA**. 
 Each distinct product of a product family should have a base interface. 
 All variants of the product must implement this interface.
@@ -59,8 +66,11 @@ Product B is able to do its own thing.
 ...but it also can collaborate with the AbstractProductA.
 The Abstract Factory makes sure that all products it creates are of the same variant and thus, compatible.
 
+
 Since we have alredry added our Abstract Product files we will need to add our Concrete products.
 we start with **ProductA1**
+
+
 ```c++
 #include "AbstractProductA.h"
 class ProductA1 : public AbstractProductA {
@@ -160,13 +170,6 @@ public:
     }
 };
 ```
-
-According to our interface we need add two classes, or two classes are required.
-Let's start by creating a couple of *Abstract* products we call **AbstractProductA** and **AbstractProductB**.
-Each distinct product of a product family should have a base interface. 
-All variants of this product must implement this interface.
-
-
 
 
 xxx
