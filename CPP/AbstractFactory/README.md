@@ -9,16 +9,12 @@ In this article we will review the **Abstract Factory** pattern.
 This pattern allows you to create a family of classes in which
 the subclasses of this *family* can cooperate together.
 
+First we want to create a couple of products we call **AbstractProductA** and **AbstractProductB**.
 
-
-According to our interface we need add two classes, or two classes are required.
-Let's start by creating a couple of *Abstract* products we call **AbstractProductA** and **AbstractProductB**.
-Each distinct product of a product family should have a base interface. 
+Each distinct product of this **product family** should have a base interface. 
 All variants of this product must implement this interface.
 
-So we add the **AbstractProductA**. 
-Each distinct product of a product family should have a base interface. 
-All variants of the product must implement this interface.
+The first product we create we call **AbstractProductA**
 
 ```c++
 #include <string>
@@ -29,10 +25,7 @@ public:
 };
 ```
 
-Here's the the base interface of another product. 
-All products can interact with each other, but proper interaction is possible only between products of* the same concrete variant.
-And to add **AbstractProductB** the code will be.
-
+We also want to add another product we call **AbstractProductB**.
 ```c++
 #include "AbstractProductA.h"
 class AbstractProductB {
@@ -43,7 +36,7 @@ public:
 };
 ```
 
-Let's create an interface.
+Let's create an interface for these products.
 The Abstract Factory interface declares a set of methods that return different abstract products. 
 These products are called a family and are related by a high-level theme or concept. 
 Products of one family are usually able to collaborate among themselves. 
