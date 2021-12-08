@@ -1,5 +1,5 @@
 # TheRayCode
-## Factory PHP
+## Factory c++
 
 In this artical I will take a look at the **Factory** design pattern using *c++*.
 We start by creating an interface we call **Product**.
