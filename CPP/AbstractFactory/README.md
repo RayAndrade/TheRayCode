@@ -171,8 +171,6 @@ public:
 };
 ```
 
-
-xxx
 ![Factory](/UMLs/images/AbstractFactory/AbstractFactory088.png)
 
 Our last step is to go to the **main.cpp**.
