@@ -1,28 +1,30 @@
 #include <iostream>
-#include "Product.h"
-#include "ProductA.h"
-#include "ProductB.h"
-#include "Creator.h"
-#include "CreatorA.h"
-#include "CreatorB.h"
+#include "ProductA1.h"
+#include "ProductA2.h"
 
-void ClientCode(const Creator& creator) {
-    // ...
-    std::cout << "Client: I'm not aware of the creator's class, but it still works.\n"
-              << creator.SomeOperation() << std::endl;
-    // .
+#include "ProductB1.h"
+#include "ProductB2.h"
+
+#include "ConcreteFactory1.h"
+#include "ConcreteFactory2.h"
+void Client(const AbstractFactory &factory) {
+    const AbstractProductA *product_a = factory.CreateProductA();
+    const AbstractProductB *product_b = factory.CreateProductB();
+    std::cout << product_b->UsefulFunction2() << "\n";
+    std::cout << product_b->AnotherUsefulFunctionB(*product_a) << "\n";
+    delete product_a;
+    delete product_b;
 }
+
 int main() {
-    std::cout << "App: Launched with the CreatorA." << std::endl;
-    Creator* creatorA = new CreatorA();
-    ClientCode(*creatorA);
-
+    std::cout << "Client: Testing client code with the first factory type:\n";
+    ConcreteFactory1 *f1 = new ConcreteFactory1();
+    Client(*f1);
+    delete f1;
     std::cout << std::endl;
-    std::cout << "App: Launched with the CreatorB." << std::endl;
-    Creator* creatorB = new CreatorB();
-    ClientCode(*creatorB);
-
-    delete creatorA;
-    delete creatorB;
+    std::cout << "Client: Testing the same client code with the second factory type:\n";
+    ConcreteFactory2 *f2 = new ConcreteFactory2();
+    Client(*f2);
+    delete f2;
     return 0;
 }
