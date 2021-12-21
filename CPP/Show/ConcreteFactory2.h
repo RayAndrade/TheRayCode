@@ -1,9 +1,10 @@
 //
-// Created by ray on 12/11/21.
+// Created by ray on 12/20/21.
 //
 
 #ifndef SHOW_CONCRETEFACTORY2_H
 #define SHOW_CONCRETEFACTORY2_H
+
 #include "AbstractFactory.h"
 #include "ProductA2.h"
 #include "ProductB2.h"
@@ -17,4 +18,5 @@ public:
         return new ProductB2();
     }
 };
+
 #endif //SHOW_CONCRETEFACTORY2_H

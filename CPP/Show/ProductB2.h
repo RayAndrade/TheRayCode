@@ -1,9 +1,10 @@
 //
-// Created by ray on 12/11/21.
+// Created by ray on 12/20/21.
 //
 
 #ifndef SHOW_PRODUCTB2_H
 #define SHOW_PRODUCTB2_H
+
 #include "AbstractProductB.h"
 
 class ProductB2 : public AbstractProductB {
@@ -16,4 +17,5 @@ public:
         return "The result of B2 collaborating with ( " + result + " )";
     }
 };
+
 #endif //SHOW_PRODUCTB2_H

@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include "ProductA1.h"
 #include "ProductA2.h"
 
@@ -7,6 +8,7 @@
 
 #include "ConcreteFactory1.h"
 #include "ConcreteFactory2.h"
+
 void Client(const AbstractFactory &factory) {
     const AbstractProductA *product_a = factory.CreateProductA();
     const AbstractProductB *product_b = factory.CreateProductB();
@@ -25,6 +27,5 @@ int main() {
     std::cout << "Client: Testing the same client code with the second factory type:\n";
     ConcreteFactory2 *f2 = new ConcreteFactory2();
     Client(*f2);
-    delete f2;
     return 0;
 }
