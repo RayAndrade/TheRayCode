@@ -1,7 +1,7 @@
 # TheRayCode
 ## Abstract Factory Java
 
-In this article we will review the **Abstract Factory** pattern.
+In this article we will review the *Abstract Factory* pattern.
 This pattern allows you to create a family of classes in which the subclasses of this *family* can cooperate together.
 
 The first thing I want to create is a package for our **buttons**. 

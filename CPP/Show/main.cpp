@@ -23,9 +23,11 @@ int main() {
     ConcreteFactory1 *f1 = new ConcreteFactory1();
     Client(*f1);
     delete f1;
+    
     std::cout << std::endl;
     std::cout << "Client: Testing the same client code with the second factory type:\n";
     ConcreteFactory2 *f2 = new ConcreteFactory2();
     Client(*f2);
+    delete f2;
     return 0;
 }

@@ -1,11 +1,12 @@
 //
-// Created by ray on 12/20/21.
+// Created by The Ray Code on 12/22/21.
 //
 
 #ifndef SHOW_ABSTRACTPRODUCTB_H
 #define SHOW_ABSTRACTPRODUCTB_H
 
 #include "AbstractProductA.h"
+
 class AbstractProductB {
 public:
     ~AbstractProductB(){};
