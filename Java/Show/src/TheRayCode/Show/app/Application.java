@@ -5,7 +5,6 @@ import TheRayCode.Show.checkboxes.Checkbox;
 import TheRayCode.Show.factory.GUIFactory;
 
 public class Application {
-
     private Button button;
     private Checkbox checkbox;
 

@@ -16,7 +16,7 @@ System.out.println("The Ray Code is AWESOME!!!");
 
 The first thing I want to create is a package for our button objects called **buttons**. 
 
-New *Java class* > *Interface* > name *Button*
+New *Java class* > *Interface* > name **Button**
 
 add code:
 
@@ -24,7 +24,7 @@ add code:
 void paint();
 ```
 
-New *Java class* > *Class* > name *MacOSButton*
+New *Java class* > *Class* > name **MacOSButton**
 
 extend the class:
 
@@ -47,7 +47,7 @@ System.out.println("You have created MacOSButton.");
 ```
 
 
-New *Java class* > *Class* > name *WindowsButton*
+New *Java class* > *Class* > name **WindowsButton**
 
 extend the class:
 
@@ -71,9 +71,46 @@ System.out.println("You have created WindowsButton.");
 __________________________________________________________
 
 
+CHECKBOXES
+
+Next we create a package for our application objects called **checkboxes** for our checkboxes.
+
+New *Java class* > *Interface* > named **Checkbox**
+
+add the code:
+```java
+void paint();
+```
+
+New *Java class* > *Class* > named **MacOSCheckbox**
+
+
+```java
+implements Checkbox
+```
+Override paint repace stub with:
+```java
+System.out.println("You have created MacOSCheckbox.");
+```
+
+New *Java class* > *Class* > named **WindowsCheckbox**
+
+
+```java
+implements Checkbox
+```
+Override paint repace stub with:
+```java
+System.out.println("You have created WindowsCheckbox.");
+```
+
+__________________________________________________________
+
+
+
 Next we create a package for our application objects called **factory** for our factories.
 
-New *Java class* > *Interface* > named *GUIFactory*
+New *Java class* > *Interface* > named **GUIFactory**
 
 add code:
 
@@ -88,7 +125,16 @@ and inside this class we add:
 Button createButton();
 Checkbox createCheckbox();
 ```
-New *Java class* > *Class* > name *MacOSFactory*
+New *Java class* > *Class* > name **MacOSFactory**
+
+Add some *imports* that we need:
+```java
+import TheRayCode.Show.buttons.Button;
+import TheRayCode.Show.buttons.MacOSButton;
+
+import TheRayCode.Show.checkboxes.Checkbox;
+import TheRayCode.Show.checkboxes.MacOSCheckbox;
+```
 
 extend the class:
 
@@ -109,12 +155,7 @@ public Checkbox createCheckbox() {
     return null;
 }
 ```
-imports needed:
 
-```java
-import TheRayCode.Show.buttons.MacOSButton;
-import TheRayCode.Show.checkboxes.MacOSCheckbox;
-```
 
 replace the *return null*s with:
 
@@ -129,14 +170,20 @@ return new MacOSCheckbox();
 Do the same for *Windows*
 
 
-New *Java class* > *Class* > name *WindowsFactory*
+New *Java class* > *Class* > name **WindowsFactory**
 
 extend the class:
 
 ```Java
 implements GUIFactory
 ```
-
+add the imports we need:
+```java
+import TheRayCode.Show.buttons.Button;
+import TheRayCode.Show.buttons.WindowsButton;
+import TheRayCode.Show.checkboxes.Checkbox;
+import TheRayCode.Show.checkboxes.WindowsCheckbox;
+```
 add implmented methods
 
 ```java
@@ -154,6 +201,12 @@ public Checkbox createCheckbox() {
 replace the *return null*s with:
 
 ```java
+System.out.println("You have created WindowsButton.");
+```
+
+and
+
+```java
 System.out.println("You have created WindowsCheckbox.");
 ```
 __________________________________________________________
@@ -165,7 +218,7 @@ create new pacage:
 TheRayCode.Show.app
 ```
 
-to *app* I add the *class* **Application**
+to **app** I add the *class* **Application**
 
 add the *imports*
 ```java

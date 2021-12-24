@@ -5,7 +5,7 @@ import TheRayCode.Show.buttons.WindowsButton;
 import TheRayCode.Show.checkboxes.Checkbox;
 import TheRayCode.Show.checkboxes.WindowsCheckbox;
 
-public class WindowsFactory implements GUIFactory {
+public class WindowsFactory implements GUIFactory{
     @Override
     public Button createButton() {
         return new WindowsButton();

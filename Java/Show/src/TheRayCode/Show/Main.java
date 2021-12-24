@@ -5,6 +5,7 @@ import TheRayCode.Show.factory.GUIFactory;
 import TheRayCode.Show.factory.MacOSFactory;
 import TheRayCode.Show.factory.WindowsFactory;
 
+
 public class Main {
 
     private static Application configureApplication() {
@@ -24,6 +25,5 @@ public class Main {
     public static void main(String[] args) {
         Application app = configureApplication();
         app.paint();
-
     }
 }
