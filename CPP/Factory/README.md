@@ -3,12 +3,12 @@
 
 In this artical I will take a look at the **Factory** design pattern using *c++*.
 
-I'll be doing this demo in c++
+I will be doing this demo in c++
 ```make
 set(CMAKE_CXX_STANDARD 23)
 ```
 
-We start by creating an *interface* we call **Product**.
+We start by creating an *interface* I call **Product**.
 ```c++
 #include <iostream>
 
@@ -18,12 +18,12 @@ public:
     virtual std::string Operation() const = 0;
 };
 ```
-This interface accepts two methods. A destructor for **Product** and a method we generically call **Operation**.
-**Operation** returns a string.
+This interface will accept two methods. A destructor for **Product** and a method we call **Operation**.
+**Operation** returns a string value.
 
-Now we will create two concrete product clases one called **ProductA** and the other **ProductB**. 
-Concrete Products provide various implementations of the Product interface.
-The code for **ProductA**  is:
+Now we will create two concrete product clases. One will be called **ProductA** and the other **ProductB**. 
+Concrete Products provide various implementations of the **Product** interface.
+For **ProductA**  I proved the following:
 ```c++
 #include "Product.h"
 
@@ -34,7 +34,7 @@ public:
     }
 };
 ```
-For **ProductB** the code is:
+And, for **ProductB** the code is:
 ```c++
 #include "Product.h"
 
@@ -45,21 +45,24 @@ public:
     }
 };
 ```
-The next interface we create is **Creator**. Note that the Creator may also provide some default implementation of the factory method.
+Next we create an interface we call **Creator**. 
+
 
 The Creator class declares the factory method that is supposed to return an object of a Product class. 
 The Creator's subclasses usually provide the implementation of this method.
 
-Note that the **Creator** may also provide some default implementation of the factory method.
+Note that the **Creator** may also provide some default implementation of the *factory method*.
 
 ```c++
 #include "Product.h"
 
 class Creator { };
 ```
-Also note that, despite its name, the Creator's primary responsibility is not creating products. Usually, it contains some core business logic that
-relies on Product objects, returned by the factory method. 
-Subclasses can indirectly change that business logic by overriding the factory method and returning a different type of product from it.
+Also note that, despite its name, the Creator's primary responsibility is **not** creating products. 
+Usually, it contains some core business logic that relies on Product objects, 
+returned by the factory method. 
+Subclasses can indirectly change that business logic by overriding the factory method 
+and returning a different type of product from it.
 
 
 ```c++
