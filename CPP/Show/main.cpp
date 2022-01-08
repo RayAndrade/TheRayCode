@@ -1,33 +1,39 @@
 #include <iostream>
 
-#include "ProductA1.h"
-#include "ProductA2.h"
+#include "Product.h"
+#include "ConcreteBuilder.h"
 
-#include "ProductB1.h"
-#include "ProductB2.h"
+void ClientCode(Director& director)
+{
+    ConcreteBuilder* builder = new ConcreteBuilder();
+    director.set_builder(builder);
+    std::cout << "Standard basic product:\n";
+    director.BuildMinimalViableProduct();
 
-#include "ConcreteFactory1.h"
-#include "ConcreteFactory2.h"
+    Product* p= builder->GetProduct();
+    p->ListParts();
+    delete p;
 
-void Client(const AbstractFactory &factory) {
-    const AbstractProductA *product_a = factory.CreateProductA();
-    const AbstractProductB *product_b = factory.CreateProductB();
-    std::cout << product_b->UsefulFunction2() << "\n";
-    std::cout << product_b->AnotherUsefulFunctionB(*product_a) << "\n";
-    delete product_a;
-    delete product_b;
+    std::cout << "Standard full featured product:\n";
+    director.BuildFullFeaturedProduct();
+
+    p= builder->GetProduct();
+    p->ListParts();
+    delete p;
+
+    std::cout << "Custom product:\n";
+    builder->ProducePartA();
+    builder->ProducePartC();
+    p=builder->GetProduct();
+    p->ListParts();
+    delete p;
+
+    delete builder;
 }
 
 int main() {
-    std::cout << "Client: Testing client code with the first factory type:\n";
-    ConcreteFactory1 *f1 = new ConcreteFactory1();
-    Client(*f1);
-    delete f1;
-    
-    std::cout << std::endl;
-    std::cout << "Client: Testing the same client code with the second factory type:\n";
-    ConcreteFactory2 *f2 = new ConcreteFactory2();
-    Client(*f2);
-    delete f2;
+    Director* director= new Director();
+    ClientCode(*director);
+    delete director;
     return 0;
 }
