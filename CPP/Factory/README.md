@@ -21,8 +21,8 @@ public:
 This interface will accept two methods. A destructor for **Product** and a method we call **Operation**.
 **Operation** returns a string value.
 
-Now we will create two concrete product clases. One will be called **ProductA** and the other **ProductB**. 
-Concrete Products provide various implementations of the **Product** interface.
+We will create two concrete product clases. One will be called **ProductA** and the other **ProductB**. 
+*Concrete Products* provide various implementations of the **Product** interface.
 For **ProductA**  I proved the following:
 ```c++
 #include "Product.h"
