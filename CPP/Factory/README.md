@@ -3,7 +3,6 @@
 
 In this artical I will take a look at the **Factory** design pattern using *c++*.
 
-For this demonstration I will be using c++
 Here is my make file:
 ```make
 set(CMAKE_CXX_STANDARD 23)
@@ -22,9 +21,10 @@ public:
 This interface will accept two methods. A destructor for **Product** and a method we call **Operation**.
 **Operation** returns a string value.
 
-We will create two concrete product clases. One will be called **ProductA** and the other **ProductB**. 
-*Concrete Products* provide various implementations of the **Product** interface.
-For **ProductA**  I proved the following:
+We will create two concrete product classes one will be called **ProductA** and the other **ProductB**. 
+*Concrete Products* provide various implementations of the **Product**'s interface.
+
+For **ProductA**  I proved the following code:
 ```c++
 #include "Product.h"
 
@@ -35,7 +35,7 @@ public:
     }
 };
 ```
-And, for **ProductB** the code is:
+Similarly, for **ProductB** the code is:
 ```c++
 #include "Product.h"
 
@@ -46,21 +46,20 @@ public:
     }
 };
 ```
-Next we create an interface we call **Creator**. 
-
+Now we create an *interface* I call **Creator**. 
 
 The Creator class declares the factory method that is supposed to return an object of a Product class. 
 The Creator's subclasses usually provide the implementation of this method.
 
-Note that the **Creator** may also provide some default implementation of the *factory method*.
+The **Creator** may also provide some default implementations of the *factory method*.
 
 ```c++
 #include "Product.h"
 
 class Creator { };
 ```
-Also note that, despite its name, the Creator's primary responsibility is **not** creating products. 
-Usually, it contains some core business logic that relies on Product objects, 
+Despite its name, the **Creator**'s primary responsibility is **not** creating products. 
+Usually, it contains some core business logic that relies on **Product** *objects*, 
 returned by the factory method. 
 Subclasses can indirectly change that business logic by overriding the factory method 
 and returning a different type of product from it.
@@ -111,7 +110,7 @@ public:
 ```
 
 Lastly we go to **main.cpp**.
-First we add the includes that we will be using:
+First we add the *includes* that we will be using:
 ```c++
 #include "Product.h"
 #include "ProductA.h"
@@ -120,9 +119,7 @@ First we add the includes that we will be using:
 #include "CreatorA.h"
 #include "CreatorB.h"
 ```
- The client code works with an instance of a concrete creator, albeit through  its base interface. 
- As long as the client keeps working with the creator via the base interface, you can pass it any creator's subclass.
-
+ The client code works with an instance of a concrete creator.
 ```c++
 void ClientCode(const Creator& creator) {
     // ...
@@ -131,7 +128,7 @@ void ClientCode(const Creator& creator) {
     // .
 }
 ```
-Our last bit of code we add will be our **main** method:
+Our last bit of code that we will add to our **main** method is:
 
 ```c++
 int main() {
