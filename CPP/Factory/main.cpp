@@ -1,4 +1,3 @@
-//#include <iostream>
 #include "Product.h"
 #include "ProductA.h"
 #include "ProductB.h"
@@ -14,7 +13,6 @@ void ClientCode(const Creator& creator) {
 }
 
 int main() {
-
     std::cout << "App: Launched with the CreatorA." << std::endl;
     Creator* creatorA = new CreatorA();
     ClientCode(*creatorA);

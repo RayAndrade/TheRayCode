@@ -2,8 +2,8 @@
 // Created by ray on 1/9/22.
 //
 
-#ifndef FACTORY_PRODUCT_H
-#define FACTORY_PRODUCT_H
+#ifndef SHOW_PRODUCT_H
+#define SHOW_PRODUCT_H
 
 #include <iostream>
 
@@ -12,5 +12,4 @@ public:
     virtual ~Product() {}
     virtual std::string Operation() const = 0;
 };
-
-#endif //FACTORY_PRODUCT_H
+#endif //SHOW_PRODUCT_H

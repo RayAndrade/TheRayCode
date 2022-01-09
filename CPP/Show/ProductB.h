@@ -2,8 +2,8 @@
 // Created by ray on 1/9/22.
 //
 
-#ifndef FACTORY_PRODUCTB_H
-#define FACTORY_PRODUCTB_H
+#ifndef SHOW_PRODUCTB_H
+#define SHOW_PRODUCTB_H
 
 #include "Product.h"
 
@@ -14,4 +14,4 @@ public:
     }
 };
 
-#endif //FACTORY_PRODUCTB_H
+#endif //SHOW_PRODUCTB_H
