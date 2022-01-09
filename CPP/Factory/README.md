@@ -3,7 +3,8 @@
 
 In this artical I will take a look at the **Factory** design pattern using *c++*.
 
-I will be doing this demo in c++
+For this demonstration I will be using c++
+Here is my make file:
 ```make
 set(CMAKE_CXX_STANDARD 23)
 ```
