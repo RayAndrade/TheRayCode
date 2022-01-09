@@ -4,7 +4,11 @@
 In this artical I will take a look at the **Factory** design pattern using *c++*.
 
 Here is my make file:
+
 ```make
+cmake_minimum_required(VERSION 3.21)
+project(Show)
+
 set(CMAKE_CXX_STANDARD 23)
 ```
 
@@ -48,7 +52,7 @@ public:
 ```
 Now we create an *interface* I call **Creator**. 
 
-The Creator class declares the factory method that is supposed to return an object of a Product class. 
+The Creator class declares the factory method that is supposed to return an object of a *Product class*. 
 The Creator's subclasses usually provide the implementation of this method.
 
 The **Creator** may also provide some default implementations of the *factory method*.
