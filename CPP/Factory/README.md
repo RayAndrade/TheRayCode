@@ -58,9 +58,10 @@ The **Creator** may also provide some default implementations of the *factory me
 
 class Creator { };
 ```
-Despite its name, the **Creator**'s primary responsibility is **not** creating products. 
-Usually, it contains some core business logic that relies on **Product** *objects*, 
-returned by the factory method. 
+Even though its name is **Creator**'s, that not it's primary responsibility. 
+The Creator is contains some core business logic that relies on **Product** *objects*, 
+by returning its *factored method*. 
+
 Subclasses can indirectly change that business logic by overriding the factory method 
 and returning a different type of product from it.
 
@@ -78,7 +79,7 @@ public:
 ```
 
 
-The code for **CreatorA.h** is:
+The code for **CreatorA.h** will be:
 ```c++
 #include "Creator.h"
 #include "ProductA.h"
@@ -96,6 +97,9 @@ We also extend the class with *Creator*.
 
 We do the same for another class we create **CreatorB**.h and extend it also with **Creator** class.
 In the **FactoryMethod** we return a new **ProductB**
+
+Let's create another class we call **CreatorB**. We extend it with **Creator**.
+
 ```c++
 #include "Creator.h"
 #include "ProductB.h"
@@ -109,8 +113,7 @@ public:
 };
 ```
 
-Lastly we go to **main.cpp**.
-First we add the *includes* that we will be using:
+Lastly we go to **main.cpp**. At the top we add the *includes* that we will be using:
 ```c++
 #include "Product.h"
 #include "ProductA.h"
@@ -120,6 +123,8 @@ First we add the *includes* that we will be using:
 #include "CreatorB.h"
 ```
  The client code works with an instance of a concrete creator.
+So I will pass in a creator object.
+
 ```c++
 void ClientCode(const Creator& creator) {
     // ...
