@@ -2,9 +2,22 @@
 ## Proxy pattern c++
 
 The **Proxy** pattern is a structural design pattern that provides an object that acts as a *substitute* for a real service object used by the client. 
-The **Proxy** receives client requests, does some work and then passes the request to a service object.
+The *Proxy* receives client requests, does some work and then passes the request to a service object.
 
-The **Subject** is an interface that declares the common operations for both **RealSubject** and the **Proxy**. 
+In the **CMakeLists.txt** we start with :
+```c++
+
+cmake_minimum_required(VERSION 3.21)
+project(Show)
+
+set(CMAKE_CXX_STANDARD 23)
+
+set(Headers)
+
+add_executable(Show ${PROJECT_SOURCE_DIR}/ main.cpp)
+```
+
+The **Subject** is an *interface* that declares the common operations for both **RealSubject** and the **Proxy**. 
 As long as the client works with the **RealSubject** using this interface, you'll be able to pass it a proxy instead of a *real subject*.
 
 The code for the **Subject** interface will be: 

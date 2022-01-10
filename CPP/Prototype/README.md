@@ -20,28 +20,33 @@ enum Type {
 The example class that has cloning ability. 
 We'll see how the values of field with different types will be cloned.
 ```c++
-class Prototype {
- protected:
-  string prototype_name_;
-  float prototype_field_;
+#include <string>
+#include <iostream>
 
- public:
-  Prototype() {}
-  Prototype(string prototype_name)
-      : prototype_name_(prototype_name) {
-  }
-  virtual ~Prototype() {}
-  virtual Prototype *Clone() const = 0;
-  virtual void Method(float prototype_field) {
-    this->prototype_field_ = prototype_field;
-    std::cout << "Call Method from " << prototype_name_ << " with field : " << prototype_field << std::endl;
-  }
+class Prototype {
+protected:
+    std::string prototype_name_;
+    float prototype_field_;
+
+public:
+    Prototype() {}
+    Prototype(std::string prototype_name)
+            : prototype_name_(prototype_name) {
+    }
+    virtual ~Prototype() {}
+    virtual Prototype *Clone() const = 0;
+    virtual void Method(float prototype_field) {
+        this->prototype_field_ = prototype_field;
+        std::cout << "Call Method from " << prototype_name_ << " with field : " << prototype_field << std::endl;
+    }
 };
 ```
 ConcretePrototype1 is a Sub-Class of Prototype and implement the Clone Method.
 In this example all data members of Prototype Class are in the Stack. 
 If you have pointers in your properties for ex: String* name_ ,you will need to implement the Copy-Constructor to make sure you have a *deep copy* from the **clone method**
 ```c++
+#include "Prototype.h"
+
 class ConcretePrototype1 : public Prototype {
 private:
     float concrete_prototype_field1_;
@@ -59,6 +64,10 @@ public:
 Notice that Clone method return a Pointer to a new **ConcretePrototype1** replica. so, the client (who call the clone method) has the responsability to free that memory. 
 If you have smart pointer knowledge you may prefer to use unique_pointer here.
 ```c++
+
+#include "Prototype.h"
+
+
 class ConcretePrototype2 : public Prototype {
 private:
     float concrete_prototype_field2_;
@@ -79,6 +88,12 @@ In Factory you have two concrete prototypes, one for each concrete prototype cla
  Again, if you have smart pointers knowelege will be better to use it here.
 
 ```c++
+
+#include <unordered_map>
+#include "Type.h"
+#include "ConcretePrototype1.h"
+#include "ConcretePrototype2.h"
+
 class Factory {
 private:
     std::unordered_map<Type, Prototype *, std::hash<int>> prototypes_;
