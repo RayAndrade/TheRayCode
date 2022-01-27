@@ -11,6 +11,8 @@ Insice of this this package **shapes** we add an *interface* we call **Shape**.
 Here is the code
 
 ```java
+import java.util.Objects;
+
 public abstract class Shape {
     public int x;
     public int y;
@@ -79,6 +81,22 @@ public class Rectangle extends Shape {
     @Override
     public Shape clone() {
         return null;
+    }
+}
+
+```
+We create an instance of Rectangle and then clone it
+
+```java
+public int width;
+public int height;
+public Rectangle() {
+}
+public Rectangle(Rectangle target) {
+    super(target);
+    if (target != null) {
+        this.width = target.width;
+        this.height = target.height;
     }
 }
 
