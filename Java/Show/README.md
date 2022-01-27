@@ -3,18 +3,18 @@
 
 Let’s take a look at how the Prototype can be implemented without the *standard Cloneable* interface.
 
-The first thind we do is create a package tp place our class files.
-The name we will us is **shapes**.
+The first thing we do is create a package to place our class files.
+The name of this *package* will be **shapes**.
 
-Now let's add an *interface* we call **Shape**.
+Insice of this this package **shapes** we add an *interface* we call **Shape**.
 **Shape** will be an *abstract class*.
-The code for this *abstract class* will be
+Here is the code
+
 ```java
 public abstract class Shape {
     public int x;
     public int y;
     public String color;
-
 
     public Shape() {
     }
@@ -29,24 +29,86 @@ public abstract class Shape {
     }
 
     public abstract Shape clone();
-
-    @Override
-    public boolean equals(Object object2) {
-        if (!(object2 instanceof Shape)) return false;
-        Shape shape2 = (Shape) object2;
-        return shape2.x == x && shape2.y == y && Objects.equals(shape2.color, color);
+   
+    public boolean equals(Object object) {
+        if (!(object instanceof Shape)) return false;
+        Shape shape = (Shape) object;
+        return shape.x == x && shape.y == y && Objects.equals(shape.color, color);
     }
 
 }
 ```
-Let's now create a couple of shapes. 
-We will create a **Circle** class oblect. 
-And, also we will create a **Rectangle**.
-Both the **Circle** and **Rectangle** are *extended* with **Shape**
+Now let's create a couple of shapes. 
+First we will create a **Circle** class oblect. 
+Cirle will be exteded by the **Shape** *abstract class*.
+We add the unimplemented method
 
-For the **Circle** *class* we have the folloing code:
+
 ```java
 public class Circle extends Shape{
+
+    @Override
+    public Shape clone() {
+        return null;
+    }
+}
+```
+We add:
+```java
+public int radius;
+public Circle() {
+}
+public Circle(Circle target) {
+    super(target);
+    if (target != null) {
+        this.radius = target.radius;
+    }
+}
+
+```
+And we replace the *return null* with:
+```java
+return new Circle(this);
+```
+
+Let's create a Rectangle object
+
+
+
+
+
+
+
+
+
+
+
+
+the red error line tells us we ne
+
+
+
+
+
+
+
+When we extend the class with the **Shape**, we need to add the unimplemented method **clone()**
+```java
+public class Circle extends Shape{
+}
+```
+We will add some code to the clone() method:
+```java
+return new Circle(this);
+```
+we add a **radius** varable;
+```java
+public int radius;
+```
+now let's add code to initialize the circle
+
+```java
+
     public int radius;
     public Circle() {
     }
@@ -56,19 +118,11 @@ public class Circle extends Shape{
             this.radius = target.radius;
         }
     }
-    @Override
-    public Shape clone() {
-        return new Circle(this);
-    }
-    @Override
-    public boolean equals(Object object2) {
-        if (!(object2 instanceof Circle) || !super.equals(object2)) return false;
-        Circle shape2 = (Circle) object2;
-        return shape2.radius == radius;
-    }
 }
 
 ```
+
+
 And for the **Rectangle** the code is:
 ```java
 public class Rectangle extends Shape {
