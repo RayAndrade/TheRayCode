@@ -73,81 +73,29 @@ return new Circle(this);
 
 Let's create a Rectangle object
 
-
-
-
-
-
-
-
-
-
-
-
-the red error line tells us we ne
-
-
-
-
-
-
-
-When we extend the class with the **Shape**, we need to add the unimplemented method **clone()**
-```java
-public class Circle extends Shape{
-}
-```
-We will add some code to the clone() method:
-```java
-return new Circle(this);
-```
-we add a **radius** varable;
-```java
-public int radius;
-```
-now let's add code to initialize the circle
-
-```java
-
-    public int radius;
-    public Circle() {
-    }
-    public Circle(Circle target) {
-        super(target);
-        if (target != null) {
-            this.radius = target.radius;
-        }
-    }
-}
-
-```
-
-
-And for the **Rectangle** the code is:
+And for the **Rectangle**. Again we extend it with **Shape** and this forces us to add the unimplementd method **clone()**:
 ```java
 public class Rectangle extends Shape {
-    public int width;
-    public int height;
-    public Rectangle() {
-    }
-    public Rectangle(Rectangle target) {
-        super(target);
-        if (target != null) {
-            this.width = target.width;
-            this.height = target.height;
-        }
-    }
     @Override
     public Shape clone() {
-        return new Rectangle(this);
-    }
-    @Override
-    public boolean equals(Object object2) {
-        if (!(object2 instanceof Rectangle) || !super.equals(object2)) return false;
-        Rectangle shape2 = (Rectangle) object2;
-        return shape2.width == width && shape2.height == height;
+        return null;
     }
 }
+
+```
+
+We replace the *return null* with:
+```java
+return new Rectangle(this);
+```
+We want to add a method that will compair the two rectangles
+```java
+public boolean equals(Object object) {
+    if (!(object instanceof Rectangle) || !super.equals(object)) return false;
+    Rectangle shape = (Rectangle) object;
+    return shape.width == width && shape.height == height;
+}
+
 ```
 
 Lastly we put this all into *static void main* method we place in the **Demo** class file.
@@ -155,25 +103,44 @@ It's code looks like:
 ```java
 public class Demo {
     public static void main(String[] args) {
-        System.out.println("hello");
-        List<Shape> shapes = new ArrayList<>();
-        List<Shape> shapesCopy = new ArrayList<>();
-        Circle circle = new Circle();
-        circle.x = 10;
-        circle.y = 20;
-        circle.radius = 15;
-        circle.color = "red";
-        shapes.add(circle);
-        Circle anotherCircle = (Circle) circle.clone();
-        shapes.add(anotherCircle);
-        Rectangle rectangle = new Rectangle();
-        rectangle.width = 10;
-        rectangle.height = 20;
-        rectangle.color = "blue";
-        shapes.add(rectangle);
+       
+```
+We declair an array of shapes
+
+```
+List<Shape> shapes = new ArrayList<>();
+List<Shape> shapesCopy = new ArrayList<>();
+```
+We initailize a circle and add it to the array
+
+```
+Circle circle = new Circle();
+circle.x = 10;
+circle.y = 20;
+circle.radius = 15;
+circle.color = "red";
+shapes.add(circle);
+```
+We create a 2nd circle with the clone() method and add it to the array
+```
+Circle anotherCircle = (Circle) circle.clone();
+shapes.add(anotherCircle);
+```
+We do the same with a **Rectangle** object.
+```        
+Rectangle rectangle = new Rectangle();
+rectangle.width = 10;
+rectangle.height = 20;
+rectangle.color = "blue";
+shapes.add(rectangle);
+```
+we are now ready to clone and compare
+```
         cloneAndCompare(shapes, shapesCopy);
     }
-
+```
+So let's create the **cloneAndCompare** method to test our objects
+```
     private static void cloneAndCompare(List<Shape> shapes, List<Shape> shapesCopy) {
         for (Shape shape : shapes) {
             shapesCopy.add(shape.clone());
