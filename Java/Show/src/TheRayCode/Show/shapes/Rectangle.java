@@ -1,6 +1,7 @@
 package TheRayCode.Show.shapes;
 
-public class Rectangle extends Shape{
+public class Rectangle  extends Shape {
+
     public int width;
     public int height;
     public Rectangle() {
