@@ -1,5 +1,4 @@
 package TheRayCode.Show.shapes;
-
 import java.util.Objects;
 
 public abstract class Shape {
@@ -9,8 +8,6 @@ public abstract class Shape {
 
     public Shape() {
     }
-
-
     public Shape(Shape target) {
         if (target != null) {
             this.x = target.x;
@@ -18,7 +15,6 @@ public abstract class Shape {
             this.color = target.color;
         }
     }
-
     public abstract Shape clone();
 
     public boolean equals(Object object) {
@@ -26,5 +22,4 @@ public abstract class Shape {
         Shape shape = (Shape) object;
         return shape.x == x && shape.y == y && Objects.equals(shape.color, color);
     }
-
 }

@@ -117,6 +117,17 @@ public boolean equals(Object object) {
 ```
 
 Lastly we put this all into *static void main* method we place in the **Demo** class file.
+At the top we have some imports
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+import TheRayCode.Show.shapes.Circle;
+import TheRayCode.Show.shapes.Rectangle;
+import TheRayCode.Show.shapes.Shape;
+
+```
 It's code looks like:
 ```java
 public class Demo {

@@ -1,7 +1,6 @@
 package TheRayCode.Show.shapes;
 
-public class Rectangle extends Shape {
-
+public class Rectangle extends Shape{
     public int width;
     public int height;
     public Rectangle() {
@@ -16,6 +15,11 @@ public class Rectangle extends Shape {
 
     @Override
     public Shape clone() {
-        return null;
+        return new Rectangle(this);
+    }
+    public boolean equals(Object object) {
+        if (!(object instanceof Rectangle) || !super.equals(object)) return false;
+        Rectangle shape = (Rectangle) object;
+        return shape.width == width && shape.height == height;
     }
 }
