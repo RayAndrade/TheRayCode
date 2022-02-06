@@ -1,15 +1,13 @@
 package TheRayCode.Prototype;
 
-import TheRayCode.Prototype.shapes.Circle;
-import TheRayCode.Prototype.shapes.Rectangle;
-import TheRayCode.Prototype.shapes.Shape;
-
 import java.util.ArrayList;
 import java.util.List;
 
+import TheRayCode.Prototype.shapes.*;
+
 public class Demo {
+
     public static void main(String[] args) {
-        System.out.println("hello");
         List<Shape> shapes = new ArrayList<>();
         List<Shape> shapesCopy = new ArrayList<>();
 
@@ -18,7 +16,6 @@ public class Demo {
         circle.y = 20;
         circle.radius = 15;
         circle.color = "red";
-
         shapes.add(circle);
 
         Circle anotherCircle = (Circle) circle.clone();
@@ -31,6 +28,7 @@ public class Demo {
         shapes.add(rectangle);
 
         cloneAndCompare(shapes, shapesCopy);
+        
     }
 
     private static void cloneAndCompare(List<Shape> shapes, List<Shape> shapesCopy) {
@@ -50,5 +48,4 @@ public class Demo {
             }
         }
     }
-
 }

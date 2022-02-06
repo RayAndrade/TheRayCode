@@ -7,7 +7,6 @@ public abstract class Shape {
     public int y;
     public String color;
 
-
     public Shape() {
     }
 
@@ -22,11 +21,9 @@ public abstract class Shape {
 
     public abstract Shape clone();
 
-    @Override
-    public boolean equals(Object object2) {
-        if (!(object2 instanceof Shape)) return false;
-        Shape shape2 = (Shape) object2;
-        return shape2.x == x && shape2.y == y && Objects.equals(shape2.color, color);
+    public boolean equals(Object object) {
+        if (!(object instanceof Shape)) return false;
+        Shape shape = (Shape) object;
+        return shape.x == x && shape.y == y && Objects.equals(shape.color, color);
     }
-
 }
