@@ -10,7 +10,8 @@ The Prototype pattern delegates the cloning process to the actual objects that a
 The pattern declares a common interface for all objects that support cloning. 
 This interface lets you clone an object without coupling your code to the class of that object. Usually, such an interface contains just a single clone method.
 
-We start by creating an **enum** to list our types **PROTOTYPE_1** and **PROTOTYPE_2**:
+We start by creating an **Type** to list our types **PROTOTYPE_1** and **PROTOTYPE_2**:
+First we add the enum **Type** emum..
 ```c++
 enum Type {
   PROTOTYPE_1 = 0,
@@ -19,6 +20,7 @@ enum Type {
 ```
 The example class that has cloning ability. 
 We'll see how the values of field with different types will be cloned.
+Next we create the **Prototype** class.
 ```c++
 #include <string>
 #include <iostream>
@@ -44,6 +46,7 @@ public:
 ConcretePrototype1 is a Sub-Class of Prototype and implement the Clone Method.
 In this example all data members of Prototype Class are in the Stack. 
 If you have pointers in your properties for ex: String* name_ ,you will need to implement the Copy-Constructor to make sure you have a *deep copy* from the **clone method**
+We add the **ConcretePrototype1** which will be extended with **Prototype**
 ```c++
 #include "Prototype.h"
 
@@ -63,6 +66,7 @@ public:
 ```
 Notice that Clone method return a Pointer to a new **ConcretePrototype1** replica. so, the client (who call the clone method) has the responsability to free that memory. 
 If you have smart pointer knowledge you may prefer to use unique_pointer here.
+We add the **ConcretePrototype2** which will also be extended with **Prototype**
 ```c++
 
 #include "Prototype.h"
@@ -119,8 +123,12 @@ Again, if you have smart pointers knowelege will be better to use it here.
 
 Notice here that you just need to specify the type of the prototype you want and the method will create from the object with this type.
 
+We #include "Factory.h"
+
 Now we go to main and add some client function 
 ```c++
+#include "Factory.h"
+
 void Client(Factory &prototype_factory) {
     std::cout << "Let's create a Prototype 1\n";
 
@@ -138,6 +146,8 @@ void Client(Factory &prototype_factory) {
     delete prototype;
 }
 ```
+
+
 Now in the main method we run this **Client** function.
 ```c++
 int main() {
