@@ -25,6 +25,7 @@ public static void main(String[] args) {
 
 compile and run
 
+new package
 
 
 [Github](https://www.TheRayCode.com)
