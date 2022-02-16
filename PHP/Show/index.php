@@ -1,27 +1,25 @@
 <?php
 
-include_once ('Factory1.php');
-include_once ('Factory2.php');
+//https://www.youtube.com/watch?v=VuBVAgwMfLE
 
-include_once ('ProductA1.php');
-include_once ('ProductA2.php');
+namespace TheRayCode\Factory;
 
-include_once ('ProductB1.php');
-include_once ('ProductB2.php');
 
-function clientCode(AbstractFactory $factory)
-{
-    $productA = $factory->createProductA();
-    $productB = $factory->createProductB();
 
-    echo $productB->usefulFunctionB() . "<br/>";
-    echo $productB->anotherUsefulFunctionB($productA) . "<br/>";
+include_once ('ShapeFactory.php');
+
+function drawStuff(Shape $shape){
+    $shape ->draw();
 }
 
-echo "Client: Testing client code with the first factory type:<br/>";
-clientCode(new Factory1);
+//$shape = new Rectangle();
+$shape1 = new Rectangle(new Position());
 
-echo "<br/>";
+$shape2 = new Rectangle(new Position());
+//$shape3 = new Rectangle(new Position());
 
-echo "Client: Testing the same client code with the second factory type:<br/>";
-clientCode(new Factory2);
+//drawStuff($shape);
+drawStuff($shape1);
+drawStuff($shape2);
+
+//echo "The Ray Code is AWESOME!!!<br/>";

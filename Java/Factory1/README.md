@@ -27,9 +27,11 @@ File add new java class Demo
 
 add code:
 
+```java
 public static void main(String[] args) {
     System.out.println("The Ray Code is AWESOME!!!.");
 }
+```
 
 compile and run
 
