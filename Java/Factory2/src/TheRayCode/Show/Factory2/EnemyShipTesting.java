@@ -1,4 +1,5 @@
 package TheRayCode.Show.Factory2;
+//https://www.youtube.com/watch?v=ub0DXaeV6hA
 
 import java.util.Scanner;
 
