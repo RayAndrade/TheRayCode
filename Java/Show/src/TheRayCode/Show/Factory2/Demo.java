@@ -1,4 +1,4 @@
-package TheRayCode.Show.Factory;
+package TheRayCode.Show.Factory2;
 
 public class Demo {
     public static void main(String[] args) {
