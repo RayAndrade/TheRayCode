@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ed17ee2-2228-42f6-abfe-080c86fe2610" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Factory/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Factory/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Factory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Factory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/obj/Factory.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/obj/Factory.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/bin/Debug/netcoreapp3.1/Factory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/bin/Debug/netcoreapp3.1/Factory.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/bin/Debug/netcoreapp3.1/Factory.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/bin/Debug/netcoreapp3.1/Factory.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/obj/Debug/netcoreapp3.1/Factory.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,16 +21,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Factory/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Factory/Builder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Factory/Client.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Factory/Creator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Factory/Creator1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Factory/Director.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Factory/Client.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Factory/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Factory/Creator2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Factory/Director.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Factory/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Factory/Product1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Factory/Product2.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Factory/Builder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Factory/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -44,25 +44,29 @@
       <option value="$PROJECT_DIR$/Factory/Builder.cs" />
     </changedPaths>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1eEWyBrpGXTTZA8KPGEJ0gaWj2F" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RunManager">
     <configuration name="Factory" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -106,6 +110,10 @@
       <workItem from="1615586599360" duration="603000" />
       <workItem from="1615670570272" duration="53000" />
       <workItem from="1629969406823" duration="1027000" />
+      <workItem from="1644990812872" duration="367000" />
+      <workItem from="1644991403450" duration="687000" />
+      <workItem from="1644993251550" duration="268000" />
+      <workItem from="1644993627405" duration="94000" />
     </task>
     <servers />
   </component>
@@ -125,7 +133,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
