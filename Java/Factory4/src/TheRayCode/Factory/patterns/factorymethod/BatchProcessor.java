@@ -1,5 +1,5 @@
-package TheRayCode.Factory.patterns;
+package TheRayCode.Factory.patterns.factorymethod;
 
 public class BatchProcessor {
-    public void processBatch(String fileName)
+    public void processBatch(String fileName){}
 }
