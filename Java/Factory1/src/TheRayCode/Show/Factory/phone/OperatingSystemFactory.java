@@ -1,8 +1,9 @@
 package TheRayCode.Show.Factory.phone;
+// 5:10 / 8:49
 
 public class OperatingSystemFactory {
 
-    public OS getInstatnce(String str){
+    public OS getInstance(String str){
         if(str.equals("Open")){
             return new Android();
         }else if(str.equals("Closed"))
