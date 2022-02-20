@@ -2,6 +2,7 @@ namespace Factory1
 {
     public abstract class BaseCustomerFactory
     {
+        // 3:40
         public ICustomer GetCustomer()
         {
             ICustomer myCust = this.CreateCustomer();

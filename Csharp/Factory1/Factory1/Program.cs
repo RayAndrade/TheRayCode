@@ -8,7 +8,7 @@ namespace Factory1
     {
         public static void Main(string[] args)
         {
-            BaseCustomerFactory c = new GoldCusomerFactory();
+            BaseCustomerFactory c = new GoldCustomerFactory();
             ICustomer objCust = c.GetCustomer();
             
             //Console.WriteLine("Hello World!");

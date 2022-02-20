@@ -2,11 +2,13 @@
 
 namespace TheRayCode\Factory;
 include_once "Shape.php";
+// 2:12 / 11:19
 
 class Position { }
 
 class Rectangle implements Shape
 {
+    // 7:20
     private $position;
 
     public function __construct($pos){
