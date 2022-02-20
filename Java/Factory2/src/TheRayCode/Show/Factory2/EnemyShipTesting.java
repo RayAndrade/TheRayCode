@@ -1,5 +1,7 @@
 package TheRayCode.Show.Factory2;
 //https://www.youtube.com/watch?v=ub0DXaeV6hA
+// Factory Design Pattern
+// Derek Banas
 
 import java.util.Scanner;
 

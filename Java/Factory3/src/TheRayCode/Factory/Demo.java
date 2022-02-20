@@ -9,6 +9,7 @@ import java.util.Scanner;
 /**
  * https://www.youtube.com/watch?v=mTzDf_EZ1aM
  * Understanding The Factory Design Pattern
+ * Ryan Schachte
  */
 
 public class Demo {
@@ -16,7 +17,7 @@ public class Demo {
 
         // What type of server the user wants to resolve
         Scanner input = new Scanner(System.in);
-        System.out.println("Which server do you wish to resolve?");
+        System.out.println("Which server do you wish to resolve? (mail, ftp, q)");
         String serverResult = input.nextLine();
 
         IServer server = ServerFactory.GetServer(serverResult);
