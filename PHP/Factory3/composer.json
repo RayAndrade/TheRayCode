@@ -1,0 +1,10 @@
+{
+  "name": "adeleke.akinade/factory_pattern",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "SimpleFactory\\": "SimpleFactory",
+      "FactoryMethod\\": "FactoryMethod"
+    }
+  }
+}
