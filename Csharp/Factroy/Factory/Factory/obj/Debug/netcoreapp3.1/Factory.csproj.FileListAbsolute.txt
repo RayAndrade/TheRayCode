@@ -24,3 +24,16 @@
 /home/ray/TheRayCode/TheRayCode/Csharp/Factory/Factory/obj/Debug/netcoreapp3.1/Factory.dll
 /home/ray/TheRayCode/TheRayCode/Csharp/Factory/Factory/obj/Debug/netcoreapp3.1/Factory.pdb
 /home/ray/TheRayCode/TheRayCode/Csharp/Factory/Factory/obj/Debug/netcoreapp3.1/Factory.genruntimeconfig.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/bin/Debug/netcoreapp3.1/Factory
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/bin/Debug/netcoreapp3.1/Factory.deps.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/bin/Debug/netcoreapp3.1/Factory.runtimeconfig.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/bin/Debug/netcoreapp3.1/Factory.runtimeconfig.dev.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/bin/Debug/netcoreapp3.1/Factory.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/bin/Debug/netcoreapp3.1/Factory.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/obj/Debug/netcoreapp3.1/Factory.csprojAssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/obj/Debug/netcoreapp3.1/Factory.AssemblyInfoInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/obj/Debug/netcoreapp3.1/Factory.AssemblyInfo.cs
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/obj/Debug/netcoreapp3.1/Factory.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/obj/Debug/netcoreapp3.1/Factory.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/obj/Debug/netcoreapp3.1/Factory.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/obj/Debug/netcoreapp3.1/Factory.genruntimeconfig.cache
