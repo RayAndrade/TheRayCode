@@ -5,9 +5,13 @@ Hi, I'm Ray and this is my code for the project I call The Ray Code.
 Here are some of my social media accounts.
 
 ([youtube](https://www.youtube.com/TheRayCode/))
+
 ([Twitter](https://twitter.com/TheRayCode))
+
 ([Facebook](https://www.Facebook.com/TheRayCode/))
+
 ([pinterest](https://www.pinterest.com/TheRayCode/))
+
 ([instagram](https://www.instagram.com/the_ray_code/))
 
 https://rayandrade.com/
