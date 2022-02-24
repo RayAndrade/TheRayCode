@@ -20,7 +20,7 @@ https://rayandrade.com/
 
 https://rayandrade.org/
 
-
+To make a link, place the link text in brackets and the url in parentheses ([Facebook](https://www.Facebook.com/TheRayCode/))
 
 Here you will find all the code I use at the <http://rayandrade.com> homepage.
 You can also email me: <TheRayCode@RayAndrade.com>
