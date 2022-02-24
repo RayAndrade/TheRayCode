@@ -18,7 +18,7 @@ https://rayandrade.com/
 
 https://rayandrade.org/
 
-![This is an image](https://www.blogger.com/profile/11319060901876038228)
+![This is an image](https://i0.wp.com/rayandrade.com/wp-content/uploads/2021/12/abstract-_factory03.jpeg?resize=1536%2C1024&ssl=1)
 
 
 
