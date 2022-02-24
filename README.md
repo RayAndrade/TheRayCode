@@ -1,5 +1,27 @@
 # TheRayCode Java
 
+Hi, I'm Ray and this is my code for the project I call The Ray Code.
+
+Here are some of my social media accounts.
+
+https://www.youtube.com/TheRayCode/
+
+https://twitter.com/TheRayCode
+
+https://www.linkedin.com/in/theraycode/
+
+https://www.instagram.com/the_ray_code/
+
+https://www.Facebook.com/TheRayCode/
+
+https://www.pinterest.com/TheRayCode/
+
+https://rayandrade.com/
+
+https://rayandrade.org/
+
+
+
 Here you will find all the code I use at the <http://rayandrade.com> homepage.
 You can also email me: <TheRayCode@RayAndrade.com>
 
