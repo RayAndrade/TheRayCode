@@ -4,6 +4,9 @@
 
 #ifndef SHOW_PRODUCT_H
 #define SHOW_PRODUCT_H
+
+#include <iostream>
+
 class Product {
 public:
     virtual ~Product() {}
