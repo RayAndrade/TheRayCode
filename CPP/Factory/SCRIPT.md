@@ -32,7 +32,11 @@ because we are using the **std** we will to incude the iostream
 ```
 
 Now we create an interface I call **Creator**. The code for this file will be.
+```c++
+  class Creator{ };
+```
 
+and we add some code
 ```c++
 
 public:
