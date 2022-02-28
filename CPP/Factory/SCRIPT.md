@@ -12,7 +12,7 @@ set(CMAKE_CXX_STANDARD 23)
 add_executable(Show main.cpp)
 ```
 
-Now I will create a file I call **Product.h**.
+**Product**
 
 to this file I add the following code:
 ```c++
@@ -31,9 +31,16 @@ because we are using the **std** we will to incude the iostream
  #include <iostream>
 ```
 
+_____________________________________________________________________________
+
 Now we create an interface I call **Creator**. The code for this file will be.
 ```c++
   class Creator{ };
+```
+We will be using the **Product** *interface*
+
+```c++
+#include "Product.h"
 ```
 
 and we add some code
@@ -48,13 +55,58 @@ public:
         delete product;
         return result;
 ```
+__________________________________________________________________
 
-we need to include Product also
+Now let's create a couple of Products we call **ProductA** and **ProductB**.
+
+First we create **ProductA**.
 
 ```c++
-#include "Product.h"
+  class ProductA { }
+```
+We will extend ProductA with Product
+```c++
+  : public Product
+```
+
+and we add an operation to override *Operation* in **Product**
+
+```c++
+public:
+    std::string Operation() const override {
+        return "{Result of ProductA}";
+    }
 ```
 __________________________________________________________________
+
+Let's do the same for another product we call **ProductB**
+
+```c++
+  class CreatorB { };
+```
+extend it with **Creator**
+
+```c++
+  : public Creator
+```
+
+Let's incude our uncludes
+
+```c++
+#include "Creator.h"
+#include "ProductB.h"
+```
+and add some code to to ProductB work
+
+```c++
+public:
+    Product* FactoryMethod() const override {
+        return new ProductB();
+    }
+```
+__________________________________________________________________
+
+
 
 let's create a *class* called **CreatorA** 
 
