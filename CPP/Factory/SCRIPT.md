@@ -16,7 +16,7 @@ Now I will create a file I call **Product.h**.
 
 to this file I add the following code:
 ```c++
-  Product{};
+  class Product{};
 ```
 Inside of this *interface* we add the folloing code:
 ```c++
