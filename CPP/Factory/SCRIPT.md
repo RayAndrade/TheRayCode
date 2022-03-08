@@ -62,7 +62,7 @@ Now let's create a couple of Products we call **ProductA** and **ProductB**.
 First we create **ProductA**.
 
 ```c++
-  class ProductA { }
+  class ProductA { };
 ```
 We will extend ProductA with Product
 ```c++
@@ -82,30 +82,55 @@ __________________________________________________________________
 Let's do the same for another product we call **ProductB**
 
 ```c++
-  class CreatorB { };
+  class ProductB { };
 ```
-extend it with **Creator**
-
+extent this class also with : public **Product**
 ```c++
-  : public Creator
+  : public Product
 ```
-
-Let's incude our uncludes
-
+Include **Product**
 ```c++
-#include "Creator.h"
-#include "ProductB.h"
+  #include "Product.h"
 ```
-and add some code to to ProductB work
-
+the code for **ProductB** will be
 ```c++
-public:
-    Product* FactoryMethod() const override {
-        return new ProductB();
+  public:
+    std::string Operation() const override {
+        return "{Result of ProductB}";
     }
 ```
 __________________________________________________________________
 
+let's create a *class* called **Creator** 
+```c++
+  class Creator { };
+```
+We will need the **Product** class
+
+```c++
+  #include "Product.h"
+```
+We also exttend the class with **Product** and this make both **ProductA** and **ProductB** the same type.
+
+```c++
+  : public Product
+```
+
+The code for the **Creator** will be
+```c++
+
+  public:
+    virtual ~Creator() {};
+    virtual Product *FactoryMethod() const = 0;
+    std::string SomeOperation() const {
+        Product *product = this->FactoryMethod();
+        std::string result = "Creator: The same creator's code has just worked with " + product->Operation();
+        delete product;
+        return result;
+    }
+```
+
+__________________________________________________________________
 
 
 let's create a *class* called **CreatorA** 
@@ -114,6 +139,13 @@ let's create a *class* called **CreatorA**
 class CreatorA{ };
 ```
 we will extend it with the **Creator** *class*
+Include
+
+```c++
+ #include "Creator.h"
+```
+
+
 
 ```c++
   : public Creator

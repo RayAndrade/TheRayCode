@@ -1,5 +1,5 @@
 //
-// Created by ray on 2/28/22.
+// Created by ray on 3/8/22.
 //
 
 #ifndef SHOW_PRODUCTA_H
@@ -7,7 +7,7 @@
 
 #include "Product.h"
 
-class ProductA : public Product {
+class ProductA : public Product{
 public:
     std::string Operation() const override {
         return "{Result of ProductA}";
