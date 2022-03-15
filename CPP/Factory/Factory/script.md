@@ -33,44 +33,74 @@ For **ProductA**  I proved the following code:
 We start by creating the class **ProductA** 
 
 ```c++
+ class ProductA { };
 ```
-
-
+we extend this class with **Product**, so let's include **Product**
 
 ```c++
-#include "Product.h"
+  #include "Product.h"
+```
 
-class ProductA : public Product {
-public:
+and extend
+
+```c++
+  :public Product
+```
+
+and we add
+```c++
+ public:
     std::string Operation() const override {
         return "{Result of ProductA}";
     }
-};
 ```
-Similarly, for **ProductB** the code is:
-```c++
-#include "Product.h"
 
-class ProductB : public Product {
-public:
+because we incluced **Product**,**Product** also has **iostream** and we dont' need to incude it again 
+
+Similarly we do the samething for **ProductB**.
+
+
+```c++
+ class ProductB { };
+```
+we include **Product.h**
+
+```c++
+   #include "Product.h"
+```
+and extend
+
+```c++
+  :public Product
+```
+
+The code for **ProductB** will be simular
+```c++
+  public:
     std::string Operation() const override {
         return "{Result of ProductB}";
     }
-};
 ```
-Now we create an *interface* I call **Creator**. 
+
+Now we create an *interface* called **Creator**. 
 
 The Creator class declares the factory method that is supposed to return an object of a *Product class*. 
-The Creator's subclasses usually provide the implementation of this method.
+The Creator's subclasses usually provides the implementation of this method.
 
 The **Creator** may also provide some default implementations of the *factory method*.
 
-```c++
-#include "Product.h"
+first let's incunde the parent of **ProductA** and **ProductB**
 
-class Creator { };
+```c++
+ #include "Product.h"
 ```
-Even though its name is **Creator**'s, that not it's primary responsibility. 
+
+here's the class **Creator**
+
+```c++
+ class Creator { };
+```
+
 The Creator is contains some core business logic that relies on **Product** *objects*, 
 by returning its *factored method*. 
 
@@ -90,47 +120,66 @@ public:
     }
 ```
 
+let's create a class called **CreatorA** and **CreatorA** will be responsible for creating **ProductA** objects.
 
-The code for **CreatorA.h** will be:
 ```c++
-#include "Creator.h"
+ class CreatorA { };
+```
+
+Since **CreatorA** will be creating **ProductA** objects and we will be using the **Creator** we include both
+
+```c++
+ #include "Creator.h"
 #include "ProductA.h"
 
-class CreatorA : public Creator {
+```
 
-public:
+We this class with the **Creator**
+
+```c++
+  : public Creator
+```
+The code for this class is
+```c++
+  public:
     Product* FactoryMethod() const override {
         return new ProductA();
     }
-};
 ```
-We include both *Creator.h* and **ProductB**.h. 
-We also extend the class with *Creator*.
+Now let's create a **CreatorB** which will creates **ProductB**s
 
-We do the same for another class we create **CreatorB**.h and extend it also with **Creator** class.
-In the **FactoryMethod** we return a new **ProductB**
-
-Let's create another class we call **CreatorB**. We extend it with **Creator**.
+Let's create the class
+```c++
+class ProductB { };
+```
+we want to extend it with **Product** also so let's include it
 
 ```c++
-#include "Creator.h"
-#include "ProductB.h"
-
-class CreatorB : public Creator {
-
-public:
-    Product* FactoryMethod() const override {
-        return new ProductB();
-    }
-};
+  #include "Product.h"
 ```
+next we extend **ProductB** with **Product**
+```c++
+  : public Product
+```
+
+and for code we have
+
+```c++
+ public:
+    std::string Operation() const override {
+        return "{Result of ProductB}";
+    }
+
+```
+
+
 
 Lastly we go to **main.cpp**. At the top we add the *includes* that we will be using:
 ```c++
-#include "Product.h"
+
 #include "ProductA.h"
 #include "ProductB.h"
-#include "Creator.h"
+
 #include "CreatorA.h"
 #include "CreatorB.h"
 ```
