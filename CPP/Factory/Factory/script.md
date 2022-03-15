@@ -155,7 +155,7 @@ class CreatorB { };
 we want to extend it with **Product** also so let's include it
 
 ```c++
-  #include "Product.h"
+  #include "ProductB.h"
 #include "Creator.h"
 ```
 next we extend **ProductB** with **Creator**

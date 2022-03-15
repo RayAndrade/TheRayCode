@@ -5,9 +5,13 @@
 #ifndef SHOW_CREATORB_H
 #define SHOW_CREATORB_H
 
-#include "Product.h"
+#include "ProductB.h"
 #include "Creator.h"
 
-class CreatorB : public Creator{ };
+class CreatorB : public Creator{
+    Product* FactoryMethod() const override {
+        return new ProductB();
+    }
+};
 
 #endif //SHOW_CREATORB_H
