@@ -29,6 +29,14 @@ We will create two concrete product classes one will be called **ProductA** and 
 *Concrete Products* provide various implementations of the **Product**'s interface.
 
 For **ProductA**  I proved the following code:
+
+We start by creating the class **ProductA** 
+
+```c++
+```
+
+
+
 ```c++
 #include "Product.h"
 
