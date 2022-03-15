@@ -3,4 +3,4 @@ project(Show)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Show main.cpp Product.h Creator.h ProductA.h ProductB.h)
+add_executable(Show main.cpp)
