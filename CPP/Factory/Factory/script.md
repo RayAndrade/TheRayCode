@@ -156,6 +156,7 @@ we want to extend it with **Product** also so let's include it
 
 ```c++
   #include "Product.h"
+#include "Creator.h"
 ```
 next we extend **ProductB** with **Creator**
 ```c++
