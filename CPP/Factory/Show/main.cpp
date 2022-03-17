@@ -1,6 +1,6 @@
 #include <iostream>
 
 int main() {
-    std::cout << "App: Launched with the CreatorA." << std::endl;
+    std::cout << "The Ray Code is AWESOME!!" << std::endl;
     return 0;
 }

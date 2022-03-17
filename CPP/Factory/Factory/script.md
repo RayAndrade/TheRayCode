@@ -170,9 +170,7 @@ and for code we have
     Product* FactoryMethod() const override {
         return new ProductB();
     }
-``
-
-
+```
 
 Lastly we go to **main.cpp**. At the top we add the *includes* that we will be using:
 ```c++
