@@ -58,11 +58,53 @@ The HTML Dialog will produce HTML buttons.
 ```java
 public class HtmlDialog extends Dialog { }
 ```
+Next we create the **HtmlDialog** class.
+```java
+package factory;
 
-
-
-
-
+import buttons.Button;
+import buttons.HtmlButton;
+```
+For code we have:
+```java
+public class HtmlDialog extends Dialog{
+    @Override
+    public Button createButton() {
+        return new HtmlButton();
+    }
+}
+```
+Next we create the **WindowsDialog** class.
+Here are our imports
+```java
+import buttons.Button;
+import buttons.WindowsButton;
+```
+Let's extend this class
+```jave
+extends Dialog
+```
+from the method we had to override we just
+```java
+return new WindowsButton();
+```
+Let's put this alltogether in a **Demo** *class*.
+Let's have a static varable we call **dialog**.
+```java
+private static Dialog dialog
+```
+So we can change back and forth we create a static method we call **configure**
+```java
+static void configure() {
+        if (System.getProperty("os.name").equals("Linux"))
+        // if (System.getProperty("os.name").equals("Windows 10")) 
+        {
+            dialog = new WindowsDialog();
+        } else {
+            dialog = new HtmlDialog();
+        }
+    }
+```
 
 
 
