@@ -31,7 +31,13 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 ```
- The code for the OnClick method is
+Let's also add some **JFrame** elements
+```java
+JPanel panel = new JPanel();
+JFrame frame = new JFrame();
+JButton button;
+```
+Next for the methods we just created, for the  **onClick** method
 ```java
 button = new JButton("Exit");
 button.addActionListener(new ActionListener() {
@@ -40,6 +46,24 @@ button.addActionListener(new ActionListener() {
        System.exit(0);
     }
 });
+```
+and for the **render** method we have
+```java
+frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+JLabel label = new JLabel("The Ray Code is AWESOME!!!");
+label.setOpaque(true);
+label.setBackground(new Color(235, 233, 126));
+label.setFont(new Font("Dialog", Font.BOLD, 44));
+label.setHorizontalAlignment(SwingConstants.CENTER);
+panel.setLayout(new FlowLayout(FlowLayout.CENTER));
+frame.getContentPane().add(panel);
+panel.add(label);
+onClick();
+panel.add(button);
+
+frame.setSize(320, 200);
+frame.setVisible(true);
+onClick();
 ```
 Now let's create a factory for our buttons. 
 The name of the pacakage we create is **factory**
@@ -51,8 +75,8 @@ public abstract class Dialog { }
 ```
 Let's take care of our imports
 ```java
-import refactoring_guru.factory_method.example.buttons.Button;
-import refactoring_guru.factory_method.example.buttons.HtmlButton;
+import buttons.Button;
+import buttons.HtmlButton;
 ```
 The HTML Dialog will produce HTML buttons.
 ```java
@@ -84,7 +108,16 @@ Let's extend this class
 ```jave
 extends Dialog
 ```
-from the method we had to override we just
+Implement the missing methods.
+We will need some awt varables.
+
+```java
+JPanel panel = new JPanel();
+JFrame frame = new JFrame();
+JButton button;
+```
+
+from the **render** method we had to override we just
 ```java
 return new WindowsButton();
 ```
