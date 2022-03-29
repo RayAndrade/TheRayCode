@@ -17,7 +17,7 @@ onClick();
 ```
 And for the onClick method we have
 ```java
-System.out.println("Click! Button says - 'Hello World!'");
+System.out.println("Click! Button says - 'The Ray Code is AWE!!!'");
 ```
 Let's create anoteth but that will use the java sqing library
 This button also implements the **Button** interface
