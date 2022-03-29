@@ -19,7 +19,7 @@ And for the onClick method we have
 ```java
 System.out.println("Click! Button says - 'The Ray Code is AWESOME!!!'");
 ```
-Let's create anoteth but that will use the java sqing library
+Let's create anothor class we call **WindowsButton** and we will use the java sqing library.
 This button also implements the **Button** interface
 ```java
 public class WindowsButton implements Button { }
