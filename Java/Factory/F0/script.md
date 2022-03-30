@@ -82,65 +82,100 @@ The HTML Dialog will produce HTML buttons.
 ```java
 public class HtmlDialog extends Dialog { }
 ```
-Next we create the **HtmlDialog** class.
+The code inside will be for **renderWindow**
 ```java
-package factory;
+public void renderWindow() {
+    // ... other code ...
 
-import buttons.Button;
-import buttons.HtmlButton;
-```
-For code we have:
-```java
-public class HtmlDialog extends Dialog{
-    @Override
-    public Button createButton() {
-        return new HtmlButton();
-    }
+    Button okButton = createButton();
+    okButton.render();
 }
 ```
-Next we create the **WindowsDialog** class.
-Here are our imports
+Add the abstract **createButton**. 
+```java
+public abstract Button createButton();
+```
+
+We move onto a class we will call **HtmlDialog**. 
+**HtmlDialog** will be extended with the *abstract class* called **Dialog**
+```java
+extends Dialog
+```
+implment method **createButton**.
+Replace the return null with
+```java
+return new HtmlButton();
+```
+to do this we need to
+```java
+import buttons.HtmlButton;
+```
+Next we create a class called **WindowsDialog**. It too is extended with **Dialog**.
+
+```java
+extends Dialog
+```
+
+Implment **createButton**.
+We get the generated code
+```java
+@Override
+public Button createButton() {
+    return null;
+}
+```
+here are the imports we will need
 ```java
 import buttons.Button;
 import buttons.WindowsButton;
 ```
-Let's extend this class
-```jave
-extends Dialog
-```
-Implement the missing methods.
-We will need some awt varables.
+we replace the *return null;* with.
 
-```java
-JPanel panel = new JPanel();
-JFrame frame = new JFrame();
-JButton button;
-```
 
-from the **render** method we had to override we just
 ```java
 return new WindowsButton();
 ```
-Let's put this alltogether in a **Demo** *class*.
-Let's have a static varable we call **dialog**.
+Our last class to create will be the **Demo** class
+The imports we will need
 ```java
-private static Dialog dialog
+import factory.Dialog;
+import factory.HtmlDialog;
+import factory.WindowsDialog;
 ```
+Let's have a static local varable we call **dialog**.
+```java
+private static Dialog dialog;
+```
+
 So we can change back and forth we create a static method we call **configure**
 ```java
 static void configure() {
-        if (System.getProperty("os.name").equals("Linux"))
-        // if (System.getProperty("os.name").equals("Windows 10")) 
-        {
-            dialog = new WindowsDialog();
-        } else {
-            dialog = new HtmlDialog();
-        }
+    if (System.getProperty("os.name").equals("Linux"))
+    // if (System.getProperty("os.name").equals("Windows 10")) 
+    {
+         dialog = new WindowsDialog();
+    } else {
+        dialog = new HtmlDialog();
     }
+}
 ```
+All of the client code should work with factories and products through abstract interfaces. 
+This way it does not care which factory it works with and what kind of product it returns.
 
+We add
+```java
+static void runBusinessLogic() {
+    dialog.renderWindow();
+}
+```
+and lastly for our **main** method we have
 
-
+```java
+public static void main(String[] args) {
+    configure();
+    runBusinessLogic();
+}
+```
 
 
 
