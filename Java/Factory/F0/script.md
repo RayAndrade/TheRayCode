@@ -76,42 +76,50 @@ public abstract class Dialog { }
 Let's take care of our imports
 ```java
 import buttons.Button;
-import buttons.HtmlButton;
 ```
+The code for this *abstrac class* will have the method **renderWindow**
+```java
+public void renderWindow() {
+// ... other code ...
+   Button okButton = createButton();
+   okButton.render();
+}
+```
+Subclasses will override this method in order to create specific button  objects.
+```java
+public abstract Button createButton();
+
+```
+
 The HTML Dialog will produce HTML buttons.
 ```java
 public class HtmlDialog extends Dialog { }
 ```
-The code inside will be for **renderWindow**
-```java
-public void renderWindow() {
-    // ... other code ...
+We implment the missing method
 
-    Button okButton = createButton();
-    okButton.render();
+```java
+@Override
+public Button createButton() {
+    return null;
 }
 ```
-Add the abstract **createButton**. 
-```java
-public abstract Button createButton();
-```
-
-We move onto a class we will call **HtmlDialog**. 
-**HtmlDialog** will be extended with the *abstract class* called **Dialog**
-```java
-extends Dialog
-```
-implment method **createButton**.
-Replace the return null with
+We repace the *return null* in the **createButton** method with
 ```java
 return new HtmlButton();
 ```
-to do this we need to
+And we need to import the **HtmlButton class**
+
 ```java
 import buttons.HtmlButton;
 ```
-Next we create a class called **WindowsDialog**. It too is extended with **Dialog**.
 
+Now let's create the **WindowsDialog**.
+The imports we will need
+```java
+import buttons.Button;
+import buttons.WindowsButton;
+```
+We extend the **WindowsDialog** with **Dialog**
 ```java
 extends Dialog
 ```
@@ -176,41 +184,4 @@ public static void main(String[] args) {
     runBusinessLogic();
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
