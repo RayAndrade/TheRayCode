@@ -69,6 +69,9 @@ OS obj = osf.getInstance("any junk");
 obj.spec();
 ```
 demo each option
+first we import the **OS** interface.
 
-
+```java
+import phone.OS;
+```
 
