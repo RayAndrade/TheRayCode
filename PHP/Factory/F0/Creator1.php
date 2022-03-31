@@ -1,4 +1,5 @@
 <?php
+
 class Creator1 extends Creator
 {
     public function factoryMethod(): Product
