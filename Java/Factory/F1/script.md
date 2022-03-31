@@ -26,11 +26,11 @@ public void spec() {
     System.out.println("The Ray Code supports IOS");
 }
 ```
-we create a class and add some code.
+we create **Windows** a class and add some code.
 ```java
 @Override
 public void spec() {
-    System.out.println("Window is proprietary software");
+    System.out.println("Windows is proprietary software");
 }
 ```
 
@@ -69,42 +69,6 @@ OS obj = osf.getInstance("any junk");
 obj.spec();
 ```
 demo each option
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

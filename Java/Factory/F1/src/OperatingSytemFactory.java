@@ -1,7 +1,7 @@
 import phone.OS;
 import phone.Android;
 import phone.IOS;
-import phone.Windows;
+import phone.Window;
 
 public class OperatingSytemFactory {
     public OS getInstance(String str){
@@ -10,6 +10,6 @@ public class OperatingSytemFactory {
         } else if(str.equals("IOS")){
             return new IOS();
         } else
-            return new Windows();
+            return new Window();
     }
 }

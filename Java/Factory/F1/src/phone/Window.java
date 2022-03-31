@@ -1,6 +1,6 @@
 package phone;
 
-public class Windows implements OS{
+public class Window implements OS {
     @Override
     public void spec() {
         System.out.println("Window is proprietary software");
