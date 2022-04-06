@@ -1,5 +1,5 @@
-Say you want to create a *factory* of multiple multiple classes. If the have same *interface* then we can create a fatory
-that can istanciate those classes. In our example we have Android, IOS and Window
+Say you want to create a *factory* of multiple multiple classes. If they have same *interface* then we can create a fatory
+that can istanciate each of those classes. In our example we have 3 types of OSes: Android, IOS and Windows.
 these are 3 classes and we will place under one interface we call **OS**.
 Our goal is to hide the logic of creating such objects from the user. 
 
@@ -8,7 +8,7 @@ Let's start with creating a static main method in a class we call **FactoryMain*
 public static void main(String[] args) { }
 ```
 Let's create a package we call **phone**, in this paclage  we create an interface we call **OS**.
-Here is the method we will require by this interface.
+Here is the method we will requireof each OS by with this interface:
 ```java
 void spec();
 ```
