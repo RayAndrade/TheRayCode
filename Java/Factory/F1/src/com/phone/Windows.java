@@ -1,4 +1,4 @@
-package phone;
+package com.phone;
 
 public class Windows implements OS {
     @Override

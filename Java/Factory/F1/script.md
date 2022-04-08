@@ -1,13 +1,14 @@
 Say you want to create a *factory* of multiple multiple classes. If they have same *interface* then we can create a fatory
-that can istanciate each of those classes. In our example we have 3 types of OSes: Android, IOS and Windows.
-these are 3 classes and we will place under one interface we call **OS**.
+that can istanciate each of those classes. In our example we have 3 types of OSes: *Android*, *IOS* and *Windows*.
+These are 3 classes and we will place under one interface that we call **OS**.
+
 Our goal is to hide the logic of creating such objects from the user. 
 
-Let's start with creating a static main method in a class we call **FactoryMain**
+Let's start with creating a static main method in a class we call **Demo**
 ```java
 public static void main(String[] args) { }
 ```
-Let's create a package we call **phone**, in this paclage  we create an interface we call **OS**.
+Let's create a package we call **systems**, in this paclage  we create an interface we call **OS**.
 Here is the method we will requireof each OS by with this interface:
 ```java
 void spec();
@@ -24,8 +25,15 @@ public void spec() {
     System.out.println("The Ray Code supports Android");
 }
 ```
+Note uncheck Insert @Override
+
 
 We create another class we call **IOS** and it to is extended with **OS**.
+
+```java
+implements OS
+```
+
 ```java
 @Override
 public void spec() {
@@ -40,7 +48,7 @@ public void spec() {
 }
 ```
 
-Now we goto **FactoryMain** and in **main** we place some code.
+Now we goto **Demo** and in **main** we place some code.
 ```java
 public static void main(String args[]) {
     OS obj = new Android();
@@ -63,19 +71,27 @@ public OS getInstance(String str){
 }
 ```
 We add the imports required
+
 ```java
-import phone.OS;
-import phone.Android;
-import phone.IOS;
-import phone.Windows;
+
+
 ```
-Now we go to the **FactoryMain** class
+Now we go to the **Demo** class
+Clear out any imports
+```java
+import systems.OperatingSytemFactory;
+```
+
+
 ```java
 OperatingSytemFactory osf = new OperatingSytemFactory();
-// OS obj = osf.getInstance("Android");
-// OS obj = osf.getInstance("IOS");
-OS obj = osf.getInstance("any junk");
-obj.spec();
+osf.getInstance("Android").spec();
+osf.getInstance("IOS").spec();
+osf.getInstance("any other").spec();
 ```
-demo each option
-
+Our output shoud be
+```demo
+The Ray Code supports Android
+The Ray Code supports IOS
+Windows is proprietary software
+```
