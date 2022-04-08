@@ -1,6 +1,9 @@
 
 public class Demo {
     public static void main(String[] args) {
-        System.out.println("The Ray Code is AWESOME!!!");
+        OperatingSytemFactory osf = new OperatingSytemFactory();
+        osf.getInstance("Android").spec();
+        osf.getInstance("IOS").spec();
+        osf.getInstance("any other").spec();
     }
 }
