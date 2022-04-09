@@ -1,5 +1,4 @@
 <?php
-
 //https://www.youtube.com/watch?v=VuBVAgwMfLE
 // Factory Pattern - PHP Design Patterns
 // Easy Learn Tutorial
@@ -29,4 +28,4 @@ $factory = new ShapeFactory("Rectangle");
 $rect = $factory->create("Rectangle");
 echo $rect->draw();
 
-//echo "The Ray Code is AWESOME!!!<br/>";
+//echo "The Ray Code is AWESOME!!!<br/>";$rect ->draw();
