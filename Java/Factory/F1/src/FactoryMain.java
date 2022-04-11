@@ -5,9 +5,9 @@ public class FactoryMain {
 
         OperatingSystemFactory osf = new OperatingSystemFactory();
 
-        //OS obj = osf.getInstance("Android");
+        OS obj = osf.getInstance("Android");
         //OS obj = osf.getInstance("IOS");
-        OS obj = osf.getInstance("junk");
+        //OS obj = osf.getInstance("junk");
         obj.spec();
         System.out.println("The Ray Code is AWESOME!!!");
     }
