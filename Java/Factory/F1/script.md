@@ -8,19 +8,25 @@ Let's start with creating a static main method in a class we call **Demo**
 ```java
 public static void main(String[] args) { }
 ```
-Let's create a package we call **systems**, in this paclage  we create an interface we call **OS**.
-Here is the method we will requireof each OS by with this interface:
+
+First we create a package we call **systems**. 
+In this paclage  we create an interface we call **OS**.
+Here is the method we will require of each OS using this interface:
 ```java
 void spec();
 ```
 Let's create an **OS** type class we call **Android**. **Android** will implment the **OS** *interface*. 
+
+We start with **Android**
 ```java
 implements OS
 ```
-Implment the **spec** method.
+
+
+
+Implment the **spec** method. (un check overrid)
 we add some code:
 ```java
-@Override
 public void spec() {
     System.out.println("The Ray Code supports Android");
 }
@@ -35,14 +41,12 @@ implements OS
 ```
 
 ```java
-@Override
 public void spec() {
     System.out.println("The Ray Code supports IOS");
 }
 ```
 we create another class called **Windows**. Here is some code.
 ```java
-@Override
 public void spec() {
     System.out.println("Windows is proprietary software");
 }
