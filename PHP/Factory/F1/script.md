@@ -1,5 +1,5 @@
 Let's look at the Factory method using PHP.
-We start by creating and *interface* we call **Shape**. Shape will be and interface to many object that we have.
+We start by creating and *interface* we call **Shape**. 
 
 File > New > PHP Class
 
@@ -23,49 +23,115 @@ Filename: Rectangle
 Template: class
 [OK]
 
-
-
-
-
+We want to inplement **Shape**
 ```php
-interface Shape
-{
-    public function draw();
-}
+implements Shape
 ```
-next we will create a *class* we call **Rectangle** that will inplement **Shape**.
-Let's also implement the missing method.
+next
 ```php
-class Rectangle implements Shape
-{
-    public function draw()
-    {
-        // TODO: Implement draw() method.
-    }
-}
-```
-we repace the *todo* with
-
-```php
-echo "Drawing a Rectangle";
-```
-
-```php
-private $position;
-
-public function __construct($pos){
-   $this->position = $pos;
-}
-
-    //public $x;
-    //public $y;
-    //public $w;
-    //public $h;
-
 public function draw()
 {
     echo "Drawing a rectangle<br/>";
 }
 ```
+At the top we can add
+```php
+class Position { }
+```
+add some code:
+```php
+//public $x;
+//public $y;
+//public $w;
+//public $h;
+    
+private $position;
 
-next you may want to add a mock object
+public function __construct($pos){
+    $this->position = $pos;
+}
+```
+
+next we add another *class* called **MockShape**
+it will implment **Shape**
+
+
+```php
+implements Shape
+```
+
+add code to return true 
+```php
+public function draw()
+{
+    // does a lot of mock stuff
+    return true;
+}
+```
+so now let's put this all a a class called **ShapeFactory**
+```php
+include_once ('Rectangle.php');
+```
+
+the code for our class will be
+
+```
+public function __construct($type)
+{
+    if ($type=="Rectangle"){
+        return new Rectangle(new Position());
+    }
+}
+```
+
+now let's put this all in **Demo.php**
+
+```php
+include_once ('ShapeFactory.php');
+
+function drawStuff(Shape $shape){
+    $shape ->draw();
+}
+```
+
+more code
+```php
+$shape1 = new Rectangle(new Position());
+$shape2 = new Rectangle(new Position());
+
+drawStuff($shape1);
+drawStuff($shape2);
+```
+
+and view in the browser
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
