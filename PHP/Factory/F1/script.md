@@ -4,7 +4,7 @@ We start by creating and *interface* we call **Shape**.
 File > New > PHP Class
 
 Name: Shape
-Namespace: TheRayCode
+Namespace: TheRayCode\Factory
 Filename: Shape
 Template: interface
 [OK]
@@ -18,11 +18,13 @@ Next we create a class we call **Rectangle**
 File > New > PHP Class
 
 Name: Rectangle
-Namespace: TheRayCode
+Namespace: TheRayCode\Factory
 Filename: Rectangle
 Template: class
 [OK]
-
+```php
+include_once "Shape.php";
+```
 We want to inplement **Shape**
 ```php
 implements Shape
