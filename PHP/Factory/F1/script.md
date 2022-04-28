@@ -4,9 +4,13 @@ We start by creating and *interface* we call **Shape**.
 File > New > PHP Class
 
 Name: Shape
+
 Namespace: TheRayCode\Factory
+
 Filename: Shape
+
 Template: interface
+
 [OK]
 
 add code 
@@ -18,10 +22,15 @@ Next we create a class we call **Rectangle**
 File > New > PHP Class
 
 Name: Rectangle
+
 Namespace: TheRayCode\Factory
+
 Filename: Rectangle
+
 Template: class
+
 [OK]
+
 ```php
 include_once "Shape.php";
 ```
@@ -40,12 +49,15 @@ At the top we can add
 ```php
 class Position { }
 ```
+
 add some code:
+
 ```php
-//public $x;
-//public $y;
-//public $w;
-//public $h;
+
+    //public $x;
+    //public $y;
+    //public $w;
+    //public $h;
     
 private $position;
 
@@ -72,6 +84,7 @@ public function draw()
 ```
 so now let's put this all a a class called **ShapeFactory**
 ```php
+namespace TheRayCode\Factory;
 include_once ('Rectangle.php');
 ```
 
