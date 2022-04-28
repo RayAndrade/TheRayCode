@@ -89,6 +89,7 @@ public function __construct($type)
 now let's put this all in **Demo.php**
 
 ```php
+namespace TheRayCode\Factory;
 include_once ('ShapeFactory.php');
 
 function drawStuff(Shape $shape){
