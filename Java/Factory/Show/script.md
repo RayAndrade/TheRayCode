@@ -5,7 +5,7 @@ When a method returns one of several possible classe that share a common super c
 In our example we start by createing an **EnemyShip** *abstract class*<br/>
 
 new > java class > class<br/>
-name **EnemyShip**
+name **EnemyShip** and add the *abstract* modifier.
 ```java
 public abstract class private { }
 ```
