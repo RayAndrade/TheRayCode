@@ -1,9 +1,10 @@
 following https://youtu.be/ub0DXaeV6hA<br/>
 What is the Factory Pattern??<br/>
 When a method returns one of several possible classe that share a common super class<br/>
+
 <br/>
 In our example we start by createing an **EnemyShip** *abstract class*<br/>
-
+We declare the class *abstract* because: An abstract class is a class which cannot be instantiated. It is used by creating an inheriting subclass that can be instantiated.
 new > java class > class<br/>
 name **EnemyShip** and add the *abstract* modifier.
 ```java
@@ -14,7 +15,7 @@ we will add a couple of *private* fields we call:<br/>
 private String name;
 private double speed;
 ```
-we use Edit > Create getters and setters<br/>
+we use cursor on the desired varable wait for the 💡 to appear Edit > Create getters and setters<br/>
 The following code should be generateed.
 
 ```java
