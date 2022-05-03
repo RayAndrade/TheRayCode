@@ -14,18 +14,27 @@ we will add a couple of *private* fields we call:<br/>
 private String name;
 private double speed;
 ```
+we use Edit > Create getters and setters<br/>
+The following code should be generateed.
 
-Let add some getters and setters for these varabls(can the be done on auto<br/> 
-for the *name* <br/>
 ```java
-public String getName() { return name; }
-public void setName(String newName) { name = newName; }
+public double getSpeed() {
+   return speed;
+}
+
+public void setSpeed(double speed) {
+    this.speed = speed;
+}
+
+public String getName() {
+    return name;
+}
+
+public void setName(String name) {
+    this.name = name;
+}
 ```
-for *Damage*<br/>
 
-```java
-public double getDamage() { return amtDamage; }
-public void setDamage(double newDamage) { amtDamage = newDamage; }
 ```
 Let's create some fields to handle some actions we would want to do..<br/>
 ```java
