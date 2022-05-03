@@ -33,8 +33,6 @@ public void setName(String name) {
     this.name = name;
 }
 ```
-
-```
 Let's create some fields to handle some actions we would want to do..<br/>
 ```java
 public void followHeroShip(){
