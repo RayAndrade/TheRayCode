@@ -76,14 +76,24 @@ public void enemyShipShoots() {
     System.out.println(getName() + " attacks and does " + getDamage() + " damage to hero");
 }
 ```
-Now let's creat a class we call the **UFOEnemyShip** which will be extended by *EnemyShip*..<br/>
+Now let's creat a couple of classes we call the **UFOEnemyShip**, **RocketEnemyShip** and **BigUFOEnemyShip** each extended with *EnemyShip*..<br/>
+
+
+
+
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
 ```java
 public class RocketEnemyShip extends EnemyShip
 ```
-we add the following code:
+we add the following *constructor*:
 ```java
-setName("Rocket Enemy Ship");
-setDamage(10.0);
+public UFOEnemyShip(){
+    setName("Rocket Enemy Ship");
+    setDamage(10.0);
+}
 ```
 Let's create a class we call **EnemyShipTesting** which will contain the **main** method<br/>
 ```java
@@ -104,7 +114,7 @@ doStuff(ufoShip);
 ```
 code gerate<br/>
 ```java
-private static void doStuff(EnemyShip ufoShip) {
+private static void doStuff(EnemyShip anEnemyShip) {
 }
 ```
 Change ufoShip to anEnemyShip and add code<br/>
@@ -116,11 +126,13 @@ anEnemyShip.enemyShipShoots();
 ```
 When we run it we see the result is limited<br/>
 ```run
-UFO Enemy Ship is on the screen
-UFO Enemy Ship is following the hero
-UFO Enemy Ship attacks and does 20.0 damage to hero
+Rocket Enemy Ship is on the screen
+Rocket Enemy Ship is following the hero
+Rocket Enemy Ship attacks and does 10.0 damage to hero
 ```
 Back at main. we add some code<br/>
+
+We repasce the code in main with
 
 ```java
 EnemyShip theEnemy = null;
@@ -135,7 +147,7 @@ doStuffEnemy(theEnemy);
 } else System.out.print("Please enter U, R, or B next time");
 }
 ```
-
+We may add another class we call **RocketEnmyShip** and **UFOEnemyShip**
 
 
 
