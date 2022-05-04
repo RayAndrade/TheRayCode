@@ -10,4 +10,12 @@ public abstract class EnemyShip {
     public void setName(String name) {
         this.name = name;
     }
+
+    public double getAmtDamage() {
+        return amtDamage;
+    }
+
+    public void setAmtDamage(double amtDamage) {
+        this.amtDamage = amtDamage;
+    }
 }

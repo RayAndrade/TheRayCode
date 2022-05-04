@@ -25,72 +25,43 @@ public void setName(String name) {
 }
 ```
 Do the same for amtDamage<br/>
-refactor **setAmtDamage** to **setDamage**
-
-
-
-
-
-
-
-
-
-
-<br/><br/><br/><br/><br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+we get
 ```java
-public double getSpeed() {
-   return speed;
+public double getAmtDamage() {
+    return amtDamage;
 }
 
-public void setSpeed(double speed) {
-    this.speed = speed;
-}
-
-public String getName() {
-    return name;
-}
-
-public void setName(String name) {
-    this.name = name;
+public void setAmtDamage(double amtDamage) {
+    this.amtDamage = amtDamage;
 }
 ```
+We refactor **setAmtDamage** to **setDamage**
+so we can match the video we are watching..
+we Start with::
+```java
+public double getAmtDamage() {
+    return amtDamage;
+}
+
+public void setAmtDamage(double amtDamage) {
+    this.amtDamage = amtDamage;
+}
+```
+refactor **getAmtDamage** to **getDamage** and <br/>
+newDamage to **newDamage**
+we end up with
+```java
+public double amtDamage() {
+    return amtDamage;
+}
+
+public void setDamage(double newDamage) {
+    this.amtDamage = newDamage;
+}
+```
+to keep in line with the video<br/>
+Next we add:<br/>
+
 Let's create some fields to handle some actions we would want to do..<br/>
 ```java
 public void followHeroShip(){
