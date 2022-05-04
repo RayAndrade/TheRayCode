@@ -1,22 +1,14 @@
 public abstract class EnemyShip {
+
     private String name;
-    private double speed;
 
-    public String getName() {
-        return name;
+    public double getDamage() {
+        return amtDamage;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setDamage(double amtDamage) {
+        this.amtDamage = amtDamage;
     }
 
-    public double getSpeed() {
-        return speed;
-    }
-
-    public void setSpeed(double speed) {
-        this.speed = speed;
-    }
-
-    
+    private double amtDamage;
 }

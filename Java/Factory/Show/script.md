@@ -14,7 +14,65 @@ private String name;
 private double speed;
 ```
 we use cursor on the desired varable wait for the 💡 to appear Edit > Create getters and setters<br/>
-The following code should be generateed.
+The following code should be generateed for name
+```java
+public String getName() {
+    return name;
+}
+
+public void setName(String name) {
+    this.name = name;
+}
+```
+Do the same for amtDamage<br/>
+refactor **setAmtDamage** to **setDamage**
+
+
+
+
+
+
+
+
+
+
+<br/><br/><br/><br/><br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```java
 public double getSpeed() {
