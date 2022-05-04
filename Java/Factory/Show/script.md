@@ -11,7 +11,7 @@ public abstract class private { }
 we will add a couple of *private* fields we call:<br/>
 ```java
 private String name;
-private double speed;
+private double amtDamage;
 ```
 we use cursor on the desired varable wait for the 💡 to appear Edit > Create getters and setters<br/>
 The following code should be generateed for name
