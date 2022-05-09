@@ -78,114 +78,92 @@ public void enemyShipShoots() {
 ```
 Now let's creat a couple of classes we call the **UFOEnemyShip**, **RocketEnemyShip** and **BigUFOEnemyShip** each extended with *EnemyShip*..<br/>
 
-
-
-
-
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-
-```java
-public class RocketEnemyShip extends EnemyShip
-```
-we add the following *constructor*:
+for **UFOEnemyShip** we add the following constructor:
 ```java
 public UFOEnemyShip(){
+    setName("UFO Enemy Ship");
+    setDamage(20.0);
+}
+```
+for **RocketEnemyShip** we add the following constructor:
+```java
+public RocketEnemyShip(){
     setName("Rocket Enemy Ship");
     setDamage(10.0);
 }
 ```
-Let's create a class we call **EnemyShipTesting** which will contain the **main** method<br/>
+and for **BigUFOEnemyShip** we add the following constructor:
 ```java
-public class EnemyShipTesting {
-    public static void main(String[] args){ }
+public BigUFOEnemyShip(){
+    setName("Big UFO Enemy Ship");
+    setDamage(40.0);
 }
 ```
-we add the import<br/>
-
+BUT we want to be able to have each ship interact during fun time. Since each are under the *same* interfase, they are of the same type.
+An we can slect which one to run during runtime.
+Let's create a **factory**.<br/>
+the name we choose will be **EnemyShipFactory**. the code will be:
 ```java
-import java.util.Scanner;
-```
-This is our FIRST apporach<br/>
-to **main** we add<br/>
-```java
-EnemyShip ufoShip = new UFOEnemyShip();
-doStuff(ufoShip);
-```
-code gerate<br/>
-```java
-private static void doStuff(EnemyShip anEnemyShip) {
+public EnemyShip makeEnemyShip(String newShipType){
+    EnemyShip newShip = null;
+    if (newShipType.equals("U")){
+        return new UFOEnemyShip();
+    } else
+    if (newShipType.equals("R")){
+        return new RocketEnemyShip();
+    } else
+    if (newShipType.equals("B")){
+        return new BigUFOEnemyShip();
+    } else return null;
 }
 ```
-Change ufoShip to anEnemyShip and add code<br/>
+Now back at the main method in **EnemyShipTesting**.. <br/>
 
 ```java
-anEnemyShip.displayEnemyShip();
-anEnemyShip.followHeroShip();
-anEnemyShip.enemyShipShoots();
-```
-When we run it we see the result is limited<br/>
-```run
-Rocket Enemy Ship is on the screen
-Rocket Enemy Ship is following the hero
-Rocket Enemy Ship attacks and does 10.0 damage to hero
-```
-Back at main. we add some code<br/>
-
-We repasce the code in main with
-
-```java
+     // Create the factory object
+     EnemyShipFactory shipFactory = new EnemyShipFactory();
+     // Enemy ship object
+     EnemyShip theEnemy = null;
+     Scanner userInput = new Scanner(System.in);
+     System.out.print("What type of ship? (U / R / B)");
+     if (userInput.hasNextLine()){
+         String typeOfShip = userInput.nextLine();
+         theEnemy = shipFactory.makeEnemyShip(typeOfShip);
+         if(theEnemy != null){
+             doStuffEnemy(theEnemy);
+         } else System.out.print("Please enter U, R, or B next time");
+     }
+/*
 EnemyShip theEnemy = null;
+// Old way of creating objects
+// When we use new we are not being dynamic
+EnemyShip ufoShip = new UFOEnemyShip();
+doStuffEnemy(ufoShip);
+System.out.print("\n");
+// -----------------------------------------
+// This allows me to make the program more dynamic
+// It doesn't close the code from being modified
+// and that is bad!
+// Defines an input stream to watch: keyboard
 Scanner userInput = new Scanner(System.in);
-System.out.print("What type of ship? (U / R / B)");
+String enemyShipOption = "";
+System.out.print("What type of ship? (U or R)");
 if (userInput.hasNextLine()){
-String typeOfShip = userInput.nextLine();
-theEnemy = shipFactory.makeEnemyShip(typeOfShip);
-
-if(theEnemy != null){
+enemyShipOption = userInput.nextLine();
+}
+if (enemyShipOption == "U"){
+	theEnemy = new UFOEnemyShip();
+} else
+if (enemyShipOption == "R"){
+	theEnemy = new RocketEnemyShip();
+} else {
+	theEnemy = new BigUFOEnemyShip();
+}
 doStuffEnemy(theEnemy);
-} else System.out.print("Please enter U, R, or B next time");
+// --------------------------------------------
+*/
 }
 ```
-We may add another class we call **RocketEnmyShip** and **UFOEnemyShip**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
