@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class EnemyShipTesting {
     public static void main(String[] args){
-        EnemyShip ufoShip = new UFOEnemyShip();
-        doStuff(ufoShip);
+        RocketEnemyShip ship = new RocketEnemyShip();
+        doStuff(ship);
     }
 
     private static void doStuff(EnemyShip anEnemyShip) {

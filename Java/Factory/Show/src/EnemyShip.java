@@ -1,8 +1,5 @@
 public abstract class EnemyShip {
 
-    private String name;
-    private double amtDamage;
-
     public String getName() {
         return name;
     }
@@ -11,13 +8,16 @@ public abstract class EnemyShip {
         this.name = name;
     }
 
-    public double getDamage() {
+    public double getAmtDamage() {
         return amtDamage;
     }
 
-    public void setDamage(double newDamage) {
-        this.amtDamage = newDamage;
+    public void setAmtDamage(double amtDamage) {
+        this.amtDamage = amtDamage;
     }
+
+    private String name;
+    private double amtDamage;
 
     public void followHeroShip(){
         System.out.println(getName() + " is following the hero");
@@ -28,6 +28,6 @@ public abstract class EnemyShip {
     }
 
     public void enemyShipShoots() {
-        System.out.println(getName() + " attacks and does " + getDamage() + " damage to hero");
+        System.out.println(getName() + " attacks and does " + getAmtDamage() + " damage to hero");
     }
 }

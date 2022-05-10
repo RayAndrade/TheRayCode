@@ -13,17 +13,28 @@ private String name;
 private double speed;
 
 ```
-Let's add some getters and some setters for name:
+Let's add some getters and some setters for these varables:
+We use place cursor on the varable *generate > getter and setters*
+This should add the following dode for you:
+
 ```java
-public String getName() { return name; }
-public void setName(String newName) { name = newName; }
+public String getName() {
+    return name;
+}
+
+public void setName(String name) {
+    this.name = name;
+}
+
+public double getAmtDamage() {
+    return amtDamage;
+}
+
+public void setAmtDamage(double amtDamage) {
+    this.amtDamage = amtDamage;
+}
 ```
 
-next we mant to have setters for **name** and **amtDamage**.
-```java
-public double getDamage() { return amtDamage; }
-public void setDamage(double newDamage) { amtDamage = newDamage; }
-```
 Let's create some fields to handle some actions.
 ```java
 public void followHeroShip(){
@@ -35,19 +46,20 @@ public void displayEnemyShip(){
 }
 
 public void enemyShipShoots() {
-    System.out.println(getName() + " attacks and does " + getDamage() + " damage to hero");
+    System.out.println(getName() + " attacks and does " + getAmtDamage() + " damage to hero");
 }
 ```
-Now we are go to create the **UFOEnemyShip** which is extended by **EnemyShip**.
+
+Now create the **UFOEnemyShip** which is extended by **EnemyShip**.
 ```java
 public class UFOEnemyShip extends EnemyShip{
 }
 ```
-we add some code to show some action
+we add some code to show some actions constuctor.
 ```java
 public UFOEnemyShip(){
     setName("UFO Enemy Ship");
-    setDamage(20.0);
+    setAmtDamage(20.0);
 }
 ```
 
@@ -55,25 +67,76 @@ Now let's create the **RocketEnemyShip**  and  it too will be extended by **Enem
 ```java
 public class RocketEnemyShip extends EnemyShip{ }
 ```
-The code for **RocketEnemyShip** will be simple.
+Now we try out the **RocketEnemyShip** which ill be simple.
 ```java
 public RocketEnemyShip(){
     setName("Rocket Enemy Ship");
-    setDamage(10.0);
+    setAmtDamage(10.0);
 }
 ```
 
-Now let's create **EnemyShipTesting** which will have a **main** method
+Now let's create **EnemyShipTesting** first we Import the java Scanner
+so we will be able to ge input form the user
+
+```java
+import java.util.Scanner;
+```
+No we  will have a **main** method
 ```java
 public class EnemyShipTesting {
     public static void main(String[] args){ }
 }
 ```
-Import the java Scanner.
+To do our texting
+We add code:
+```java
+EnemyShip ufoShip = new UFOEnemyShip();
+doStuff(ufoShip);
+```
+which means we need to create the function **doStuff**
 
 ```java
-import java.util.Scanner;
+private static void doStuff(EnemyShip anEnemyShip) {
+    anEnemyShip.displayEnemyShip();
+    anEnemyShip.followHeroShip();
+    anEnemyShip.enemyShipShoots();
+}
 ```
+our result will be
+```run
+UFO Enemy Ship is on the screen
+UFO Enemy Ship is following the hero
+UFO Enemy Ship attacks and does 20.0 damage to hero
+```
+But to access the other object we need to pick another object and run.
+We replace the code in main with
+```java
+RocketEnemyShip ship = new RocketEnemyShip();
+doStuff(ship);
+```
+Now when we run this we get
+```run
+Rocket Enemy Ship is on the screen
+Rocket Enemy Ship is following the hero
+Rocket Enemy Ship attacks and does 10.0 damage to hero
+```
+Now we want to create either one of these *Ships* at runtime
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Create the factory object create **EnemyShipFactory**
