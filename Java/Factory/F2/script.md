@@ -10,7 +10,7 @@ public abstract class private { }
 It will have a couple of *private* fields such as
 ```java
 private String name;
-private double speed;
+private double amtDamage;
 
 ```
 Let's add some getters and some setters for these varables:
@@ -49,7 +49,7 @@ public void enemyShipShoots() {
     System.out.println(getName() + " attacks and does " + getAmtDamage() + " damage to hero");
 }
 ```
-
+Now we will use this abstract class to create other ships.
 Now create the **UFOEnemyShip** which is extended by **EnemyShip**.
 ```java
 public class UFOEnemyShip extends EnemyShip{
@@ -74,7 +74,7 @@ public RocketEnemyShip(){
     setAmtDamage(10.0);
 }
 ```
-
+No we want to test out these ships.
 Now let's create **EnemyShipTesting** first we Import the java Scanner
 so we will be able to ge input form the user
 
@@ -121,8 +121,54 @@ Rocket Enemy Ship is following the hero
 Rocket Enemy Ship attacks and does 10.0 damage to hero
 ```
 Now we want to create either one of these *Ships* at runtime
+Let's create a call that will harness these clases and provide a way we can access and create each ship at run time.
+We start with defineing a class we call **EnemyShipFactory**.
+Here we define a method called **makeEnemyShip** which will have the following code.
+```java
+public EnemyShip makeEnemyShip(String newShipType){
 
+    EnemyShip newShip = null;
 
+    if (newShipType.equals("U")){
+        return new UFOEnemyShip();
+    } else
+    if (newShipType.equals("R")){
+        return new RocketEnemyShip();
+    } else return null;
+}
+```
+We can now run this with option U or R, but we can add another ship to our program easlaly.
+Let's a **BigUFOEnemyShip** to our program.It to will be extended by **EnemyShip**. 
+And will have simular code to use to create its damage.
+```java
+public class BigUFOEnemyShip extends UFOEnemyShip {
+    public BigUFOEnemyShip(){
+        setName("Big UFO Enemy Ship");
+        setDamage(40.0);
+    }
+}
+```
+We can eaily add this ship to our game by just adding another choice we can make by adding
+```java
+else
+   if (newShipType.equals("B")){
+        return new BigUFOEnemyShip();
+```
+now we change main in **EnemyShipTesting** to
+```java
+EnemyShipFactory shipFactory = new EnemyShipFactory();
+// Enemy ship object
+EnemyShip theEnemy = null;
+Scanner userInput = new Scanner(System.in);
+System.out.print("What type of ship? (U / R / B)");
+ if (userInput.hasNextLine()){
+       String typeOfShip = userInput.nextLine();
+       theEnemy = shipFactory.makeEnemyShip(typeOfShip);
+ if(theEnemy != null){
+          doStuffEnemy(theEnemy);
+   } else System.out.print("Please enter U, R, or B next time");
+}
+```
 
 
 
