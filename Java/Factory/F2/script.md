@@ -1,11 +1,11 @@
-Following //https://www.youtube.com/watch?v=ub0DXaeV6hA
+Following //  https://www.youtube.com/watch?v=ub0DXaeV6hA
 Use the factory if you mant your code to return one of several classes that share a common super class.
 We want the ability to choose clases at runtime, that is what the factory provides.
 
 
 We start by createing an **EnemyShip** *class*. It will be abstract.
 ```java
-public abstract class private { }
+public abstract class EnemyShip { }
 ```
 It will have a couple of *private* fields such as
 ```java
@@ -137,6 +137,38 @@ public EnemyShip makeEnemyShip(String newShipType){
     } else return null;
 }
 ```
+Back at main we repace the code with
+```java
+// Create the factory object
+EnemyShipFactory shipFactory = new EnemyShipFactory();
+// Enemy ship object
+EnemyShip theEnemy = null;
+Scanner userInput = new Scanner(System.in);
+System.out.print("What type of ship? (U / R )");
+if (userInput.hasNextLine()){
+    String typeOfShip = userInput.nextLine();
+    theEnemy = shipFactory.makeEnemyShip(typeOfShip);
+    if(theEnemy != null){
+        doStuff(theEnemy);
+    } else System.out.print("Please enter U or R next time");
+}
+```
+When we rung this now
+```run
+What type of ship? (U / R )U
+UFO Enemy Ship is on the screen
+UFO Enemy Ship is following the hero
+UFO Enemy Ship attacks and does 20.0 damage to hero
+```
+and if we choose R we get
+```run
+What type of ship? (U / R )R
+Rocket Enemy Ship is on the screen
+Rocket Enemy Ship is following the hero
+Rocket Enemy Ship attacks and does 10.0 damage to hero
+```
+
+
 We can now run this with option U or R, but we can add another ship to our program easlaly.
 Let's a **BigUFOEnemyShip** to our program.It to will be extended by **EnemyShip**. 
 And will have simular code to use to create its damage.
@@ -144,7 +176,7 @@ And will have simular code to use to create its damage.
 public class BigUFOEnemyShip extends UFOEnemyShip {
     public BigUFOEnemyShip(){
         setName("Big UFO Enemy Ship");
-        setDamage(40.0);
+        setAmtDamage(40.0);
     }
 }
 ```
@@ -152,90 +184,28 @@ We can eaily add this ship to our game by just adding another choice we can make
 ```java
 else
    if (newShipType.equals("B")){
-        return new BigUFOEnemyShip();
+        return new BigUFOEnemyShip();}
 ```
 now we change main in **EnemyShipTesting** to
 ```java
+// Create the factory object
 EnemyShipFactory shipFactory = new EnemyShipFactory();
-// Enemy ship object
-EnemyShip theEnemy = null;
-Scanner userInput = new Scanner(System.in);
-System.out.print("What type of ship? (U / R / B)");
- if (userInput.hasNextLine()){
-       String typeOfShip = userInput.nextLine();
-       theEnemy = shipFactory.makeEnemyShip(typeOfShip);
- if(theEnemy != null){
-          doStuffEnemy(theEnemy);
-   } else System.out.print("Please enter U, R, or B next time");
+
+ // Create the factory object
+  EnemyShip theEnemy = null;
+  Scanner userInput = new Scanner(System.in);
+  System.out.print("What type of ship? (U / R / B)");
+  if (userInput.hasNextLine()){
+      String typeOfShip = userInput.nextLine();
+      theEnemy = shipFactory.makeEnemyShip(typeOfShip);
+      if(theEnemy != null){
+          doStuff(theEnemy);
+      } else System.out.print("Please enter U, R, or B next time");
 }
 ```
 
+Run and enter closing notes
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-Create the factory object create **EnemyShipFactory**
-
-First apporac
-```java
-EnemyShip ufoShip = new UFOEnemyShip();
-doStuff(ufoShip);
-```
-code gerate
-```java
-private static void doStuff(EnemyShip ufoShip) {
-}
-```
-Change ufoShip to **anEnemyShip** and add code
-
-```java
-anEnemyShip.displayEnemyShip();
-anEnemyShip.followHeroShip();
-anEnemyShip.enemyShipShoots();
-```
-Test an show how it's limited.
-
-```run
-UFO Enemy Ship is on the screen
-UFO Enemy Ship is following the hero
-UFO Enemy Ship attacks and does 20.0 damage to hero
-```
-t = 6:11
-
-Back at **main**. we add comments first:
-
-
-
-
-```java
-
-
-
-EnemyShip theEnemy = null;
-Scanner userInput = new Scanner(System.in);
-System.out.print("What type of ship? (U / R / B)");
-if (userInput.hasNextLine()){
-String typeOfShip = userInput.nextLine();
-theEnemy = shipFactory.makeEnemyShip(typeOfShip);
-
-if(theEnemy != null){
-doStuffEnemy(theEnemy);
-} else System.out.print("Please enter U, R, or B next time");
-}
-
-
-```
-Ended in confusion.
 
 
