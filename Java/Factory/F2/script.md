@@ -52,7 +52,7 @@ public void enemyShipShoots() {
 Now we will use this abstract class to create other ships.
 Now create the **UFOEnemyShip** which is extended by **EnemyShip**.
 ```java
-public class UFOEnemyShip extends EnemyShip{
+public class UFOEnemyShip extends EnemyShip  {
 }
 ```
 we add some code to show some actions constuctor.
