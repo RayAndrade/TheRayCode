@@ -94,8 +94,8 @@ public class EnemyShipTesting {
 To do our texting
 We add code:
 ```java
-EnemyShip ufoShip = new UFOEnemyShip();
-doStuff(ufoShip);
+EnemyShip anEnemyShip = new UFOEnemyShip();
+doStuff(anEnemyShip);
 ```
 which means we need to create the function **doStuff**
 
@@ -116,7 +116,7 @@ But to access the other object we need to pick another object and run.
 We replace the code in main with
 ```java
 RocketEnemyShip ship = new RocketEnemyShip();
-doStuff(ship);
+doStuff(anEnemyShip);
 ```
 Now when we run this we get
 ```run
