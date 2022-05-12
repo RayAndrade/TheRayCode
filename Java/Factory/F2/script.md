@@ -3,12 +3,13 @@ Use the factory if you mant your code to return one of several classes that shar
 We want the ability to choose clases at runtime, that is what the factory provides.
 
 
-We start by createing an **EnemyShip** *class*. It will be abstract.
+We start by createing an * **EnemyShip** *class*. It will be abstract.
 ```java
-public abstract class EnemyShip { }
+* public abstract class EnemyShip { }
 ```
 It will have a couple of *private* fields such as
 ```java
+*
 private String name;
 private double amtDamage;
 
@@ -16,7 +17,7 @@ private double amtDamage;
 Let's add some getters and some setters for these varables:
 We use place cursor on the varable *generate > getter and setters*
 This should add the following dode for you:
-
+XX
 ```java
 public String getName() {
     return name;
@@ -37,6 +38,8 @@ public void setAmtDamage(double amtDamage) {
 
 Let's create some fields to handle some actions.
 ```java
+*
+
 public void followHeroShip(){
     System.out.println(getName() + " is following the hero");
 }
@@ -50,13 +53,14 @@ public void enemyShipShoots() {
 }
 ```
 Now we will use this abstract class to create other ships.
-Now create the **UFOEnemyShip** which is extended by **EnemyShip**.
+Now create the * **UFOEnemyShip** which is extended by **EnemyShip**.
 ```java
-public class UFOEnemyShip extends EnemyShip  {
+public class UFOEnemyShip * extends EnemyShip  {
 }
 ```
 we add some code to show some actions constuctor.
 ```java
+*
 public UFOEnemyShip(){
     setName("UFO Enemy Ship");
     setAmtDamage(20.0);
