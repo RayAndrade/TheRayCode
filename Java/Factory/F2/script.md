@@ -69,7 +69,7 @@ public UFOEnemyShip(){
 
 Now let's create the **RocketEnemyShip**  and  it too will be extended by **EnemyShip**.
 ```java
-public class RocketEnemyShip extends EnemyShip{ }
+public class RocketEnemyShip extends EnemyShip  { }
 ```
 Now we try out the **RocketEnemyShip** which ill be simple.
 ```java
