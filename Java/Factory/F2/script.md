@@ -1,9 +1,9 @@
 Following //  https://www.youtube.com/watch?v=ub0DXaeV6hA <br/>
-Use the factory if you mant your code to return one of several classes that share a common super class.
-We want the ability to choose clases at runtime, that is what the factory provides.
+Use the factory if you want your code to return one of several classes that share a common super interface super class.
+We want the ability to choose clases at runtime, that is what the factory provides for us.
 
 
-We start by createing an * **EnemyShip** *class*. It will be abstract.
+We start by createing a class called * **EnemyShip**. **EnemyShip** will be an abstract class.
 ```java
 * public abstract class EnemyShip { }
 ```
