@@ -143,9 +143,8 @@ public EnemyShip makeEnemyShip(String newShipType){
 ```
 Back at main we repace the code with
 ```java
-// Create the factory object
+
 EnemyShipFactory shipFactory = new EnemyShipFactory();
-// Enemy ship object
 EnemyShip theEnemy = null;
 Scanner userInput = new Scanner(System.in);
 System.out.print("What type of ship? (U / R )");
@@ -192,7 +191,7 @@ else
 ```
 now we change main in **EnemyShipTesting** to
 ```java
-// Create the factory object
+
 EnemyShipFactory shipFactory = new EnemyShipFactory();
 
  // Create the factory object
