@@ -115,7 +115,7 @@ UFO Enemy Ship attacks and does 20.0 damage to hero
 But to access the other object we need to pick another object and run.
 We replace the code in main with
 ```java
-RocketEnemyShip ship = new RocketEnemyShip();
+RocketEnemyShip anEnemyShip = new RocketEnemyShip();
 doStuff(anEnemyShip);
 ```
 Now when we run this we get
