@@ -84,7 +84,7 @@ Back in the **main** method we add the following code
 
 ```java
 EnemyShip anEnemyShip = new UFOEnemyShip();
-doStuffEnemy(anEnemyShip);
+doStuff(anEnemyShip);
 System.out.print("\n");
 ```
 
