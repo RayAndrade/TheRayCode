@@ -7,9 +7,10 @@ First I want to create a class that I call the **EnemyShip**. This class will be
 
 ```java
 public abstract class EnemyShip {
+
     private String name;
     private double amtDamage;
-
+    
     public String getName() {
         return name;
     }
@@ -18,12 +19,12 @@ public abstract class EnemyShip {
         this.name = name;
     }
 
-    public double getDamage() {
+    public double getAmtDamage() {
         return amtDamage;
     }
 
-    public void setDamage(double newDamage) {
-        this.amtDamage = newDamage;
+    public void setAmtDamage(double amtDamage) {
+        this.amtDamage = amtDamage;
     }
 
     public void followHeroShip(){
@@ -35,8 +36,9 @@ public abstract class EnemyShip {
     }
 
     public void enemyShipShoots() {
-        System.out.println(getName() + " attacks and does " + getDamage() + " damage to hero");
+        System.out.println(getName() + " attacks and does " + getAmtDamage() + " damage to hero");
     }
+
 }
 ```
 We have the first two field *private* so we add some setters and setters to be able to access them.
