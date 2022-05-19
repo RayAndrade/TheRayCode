@@ -1,9 +1,9 @@
 Following //  https://www.youtube.com/watch?v=ub0DXaeV6hA <br/>
-Use the factory if you want your code to return one of several classes that share a common super interface super class.
-We want the ability to choose clases at runtime, that is what the factory provides for us.
+Use the factory pattern when you want a class to return one of several class objects that share a common interface.
+We want the ability to choose clases at runtime, that is what the factory pattern can provide for us.
 
 
-We start by createing a class called * **EnemyShip**. **EnemyShip** will be an abstract class.
+We start by createing a class we call * **EnemyShip**. **EnemyShip** will be an abstract class.
 ```java
 * public abstract class EnemyShip { }
 ```
@@ -14,7 +14,7 @@ private String name;
 private double amtDamage;
 
 ```
-Let's add some getters and some setters for these varables:
+Let's add some getters and setters for these varables:
 We use place cursor on the varable *generate > getter and setters*
 This should add the following dode for you:
 XX
@@ -52,8 +52,8 @@ public void enemyShipShoots() {
     System.out.println(getName() + " attacks and does " + getAmtDamage() + " damage to hero");
 }
 ```
-Now we will use this abstract class to create other ships.
-Now create the * **UFOEnemyShip** which is extended by **EnemyShip**.
+Now we will use this abstract class that we created to create other ships.
+Let's create the * **UFOEnemyShip** which is extended by **EnemyShip**.
 ```java
 public class UFOEnemyShip * extends EnemyShip  {
 }
@@ -71,27 +71,27 @@ Now let's create the **RocketEnemyShip**  and  it too will be extended by **Enem
 ```java
 public class RocketEnemyShip extends EnemyShip  { }
 ```
-Now we try out the **RocketEnemyShip** which ill be simple.
+Now we try out the **RocketEnemyShip** which will be simple.
 ```java
 public RocketEnemyShip(){
     setName("Rocket Enemy Ship");
     setAmtDamage(10.0);
 }
 ```
-No we want to test out these ships.
-Now let's create **EnemyShipTesting** first we Import the java Scanner
+To test out these 2 ships.
+we create the **EnemyShipTesting** class. First we Import the java Scanner
 so we will be able to ge input form the user
 
 ```java
 import java.util.Scanner;
 ```
-No we  will have a **main** method
+Now we  will have a **main** method
 ```java
 public class EnemyShipTesting {
     public static void main(String[] args){ }
 }
 ```
-To do our texting
+To do our testing
 We add code:
 ```java
 EnemyShip anEnemyShip = new UFOEnemyShip();
