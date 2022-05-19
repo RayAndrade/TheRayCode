@@ -19,8 +19,6 @@ Here are some of my social media accounts.
 ([LinkedIn](https://www.linkedin.com/in/theraycode/))
 
 
-
-
 https://rayandrade.com/
 
 https://rayandrade.org/
