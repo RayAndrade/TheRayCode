@@ -78,6 +78,9 @@ public RocketEnemyShip(){
     setAmtDamage(10.0);
 }
 ```
+
+**Start**
+
 To test out these 2 ships.
 we create the **EnemyShipTesting** class. First we Import the java Scanner
 so we will be able to ge input form the user
