@@ -119,7 +119,6 @@ But to access the other object we need to pick another object and run.
 We replace the code in main with
 ```java
 RocketEnemyShip anEnemyShip = new RocketEnemyShip();
-doStuff(anEnemyShip);
 ```
 Now when we run this we get
 ```run
@@ -159,7 +158,7 @@ if (userInput.hasNextLine()){
     } else System.out.print("Please enter U or R next time");
 }
 ```
-When we rung this now
+When we run this now
 ```run
 What type of ship? (U / R )U
 UFO Enemy Ship is on the screen
@@ -174,7 +173,7 @@ Rocket Enemy Ship is following the hero
 Rocket Enemy Ship attacks and does 10.0 damage to hero
 ```
 
-
+**new phase**
 We can now run this with option U or R, but we can add another ship to our program easlaly.
 Let's a **BigUFOEnemyShip** to our program.It to will be extended by **EnemyShip**. 
 And will have simular code to use to create its damage.
@@ -186,7 +185,7 @@ public class BigUFOEnemyShip extends UFOEnemyShip {
     }
 }
 ```
-We can eaily add this ship to our game by just adding another choice we can make by adding
+In the class **EnemyShipFactory** We can eaily add this ship to our game by just adding another choice we can make by adding
 ```java
 else
    if (newShipType.equals("B")){
@@ -194,20 +193,12 @@ else
 ```
 now we change main in **EnemyShipTesting** to
 ```java
-
-EnemyShipFactory shipFactory = new EnemyShipFactory();
-
- // Create the factory object
-  EnemyShip theEnemy = null;
-  Scanner userInput = new Scanner(System.in);
   System.out.print("What type of ship? (U / R / B)");
-  if (userInput.hasNextLine()){
-      String typeOfShip = userInput.nextLine();
-      theEnemy = shipFactory.makeEnemyShip(typeOfShip);
-      if(theEnemy != null){
-          doStuff(theEnemy);
-      } else System.out.print("Please enter U, R, or B next time");
-}
+```
+
+and if something eles is entered
+```java
+System.out.print("Please enter U, R or B next time");
 ```
 
 Run and enter closing notes
