@@ -1,12 +1,10 @@
 Following //  https://www.youtube.com/watch?v=ub0DXaeV6hA <br/>
-st
-art at 2:20 <br/>
-11
+start at 2:20 <br/>
 
+We use the factory pattern when we want a class to be returned as one of several class objects that share a common interface.
+We want the ability to be able to choose clases at runtime, that is what the factory pattern can provide for us.
 
-Use the factory pattern when you want a class to return one of several class objects that share a common interface.
-We want the ability to choose clases at runtime, that is what the factory pattern can provide for us.
-
+The demonstration will simulate a battle between 2 UFO ships
 
 We start by createing a class we call * **EnemyShip**. **EnemyShip** will be an abstract class.
 ```java
