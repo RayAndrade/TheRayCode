@@ -1,7 +1,7 @@
 Following //  https://www.youtube.com/watch?v=ub0DXaeV6hA <br/>
 start at 2:20 <br/>
 
-We want the ability to choose and create a class object from a family of objects that share a common interface.
+We want the ability to choose and create a class object from a family of objects that share a common interface at runtime.
 That is what the factory pattern can provice for us.
 
 In this demonstration will simulate a battle between 2 UFO ships that would share a common super class 
