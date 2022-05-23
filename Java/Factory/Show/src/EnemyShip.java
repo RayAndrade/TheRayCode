@@ -18,7 +18,6 @@ public abstract class EnemyShip {
     private String name;
     private double amtDamage;
 
-
     public void followHeroShip(){
         System.out.println(getName() + " is following the hero");
     }

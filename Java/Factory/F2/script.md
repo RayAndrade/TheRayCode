@@ -130,10 +130,6 @@ Now we want to create either one of these *Ships* at runtime
 Let's create a call that will harness these clases and provide a way we can access and create each ship at run time.
 We start with defineing a class we call **EnemyShipFactory**.
 
-```java
-import java.util.Scanner;
-```
-
 
 Here we define a method called **makeEnemyShip** which will have the following code.
 ```java
@@ -149,7 +145,12 @@ public EnemyShip makeEnemyShip(String newShipType){
     } else return null;
 }
 ```
-Back at main we repace the code with
+Back at main we repace the code with<br/>
+we add:
+```java
+import java.util.Scanner;
+```
+and the repace main with
 ```java
 
 EnemyShipFactory shipFactory = new EnemyShipFactory();
