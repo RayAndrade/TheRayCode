@@ -1,4 +1,9 @@
 Following //  https://www.youtube.com/watch?v=ub0DXaeV6hA <br/>
+st
+art at 2:20 <br/>
+11
+
+
 Use the factory pattern when you want a class to return one of several class objects that share a common interface.
 We want the ability to choose clases at runtime, that is what the factory pattern can provide for us.
 
