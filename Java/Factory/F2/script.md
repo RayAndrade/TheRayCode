@@ -1,8 +1,8 @@
 Following //  https://www.youtube.com/watch?v=ub0DXaeV6hA <br/>
 start at 2:20 <br/>
 
-We use the factory pattern when we want a class to be returned as one of several class objects that share a common interface.
-We want the ability to be able to choose clases at runtime, that is what the factory pattern can provide for us.
+We to use the factory pattern when we want a requested class to be returned that is of a common shared interface.
+We want the ability to be able to choose that clases at runtime, that is what the factory pattern can provide for us.
 
 The demonstration will simulate a battle between 2 UFO ships
 
