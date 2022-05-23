@@ -88,9 +88,6 @@ To test out these 2 ships.
 we create the **EnemyShipTesting** class. First we Import the java Scanner
 so we will be able to ge input form the user
 
-```java
-import java.util.Scanner;
-```
 Now we  will have a **main** method
 ```java
 public class EnemyShipTesting {
@@ -132,6 +129,12 @@ Rocket Enemy Ship attacks and does 10.0 damage to hero
 Now we want to create either one of these *Ships* at runtime
 Let's create a call that will harness these clases and provide a way we can access and create each ship at run time.
 We start with defineing a class we call **EnemyShipFactory**.
+
+```java
+import java.util.Scanner;
+```
+
+
 Here we define a method called **makeEnemyShip** which will have the following code.
 ```java
 public EnemyShip makeEnemyShip(String newShipType){
