@@ -72,7 +72,11 @@ public UFOEnemyShip(){
 }
 ```
 
-Now let's create the **RocketEnemyShip**  and  it too will be extended by **EnemyShip**.
+Now let's create the **RocketEnemyShip**  and  it too will be extended by **EnemyShip**.<br/>
+	RocketEnemyShip	<br/>
+	extends EnemyShip	<br/>
+
+
 ```java
 public class RocketEnemyShip extends EnemyShip  { }
 ```
