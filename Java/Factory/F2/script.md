@@ -4,7 +4,7 @@ start at 2:20 <br/>
 The Factory method lets a class defer instantiation to subclasses.
 Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
 
-In this demonstration will simulate a battle using an EnemyShip interface or share a common super class 
+In this demonstration will simulate a battle using an EnemyShip interface or ships that share a common super class 
 
 We start by createing a class we call * **EnemyShip**. **EnemyShip** will be an abstract class.
 ```java
