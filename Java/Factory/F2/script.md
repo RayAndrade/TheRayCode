@@ -6,7 +6,8 @@ Factory Method is a creational design pattern that provides an interface for cre
 
 In this demonstration will simulate a battle using an EnemyShip interface or ships that share a common super class 
 
-We start by createing a class we call * **EnemyShip**. **EnemyShip** will be an abstract class.
+We start by createing a class we call * **EnemyShip**. **EnemyShip** will be an abstract class.<br/>
+   EnemyShip
 ```java
 * public abstract class EnemyShip { }
 ```
