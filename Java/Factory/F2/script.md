@@ -135,7 +135,8 @@ Rocket Enemy Ship attacks and does 10.0 damage to hero
 Now we want to create either one of these *Ships* at runtime
 Let's create a call that will harness these clases and provide a way we can access and create each ship at run time.
 We start with defineing a class we call **EnemyShipFactory**.
-
+	EnemyShipFactory	<br/>
+	
 
 Here we define a method called **makeEnemyShip** which will have the following code.
 ```java
@@ -190,6 +191,8 @@ Rocket Enemy Ship attacks and does 10.0 damage to hero
 We can now run this with option U or R, but we can add another ship to our program easlaly.
 Let's a **BigUFOEnemyShip** to our program.It to will be extended by **EnemyShip**. 
 And will have simular code to use to create its damage.
+	BigUFOEnemyShip	<br/>
+	extends UFOEnemyShip	<br/>
 ```java
 public class BigUFOEnemyShip extends UFOEnemyShip {
     public BigUFOEnemyShip(){
