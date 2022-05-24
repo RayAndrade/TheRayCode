@@ -190,7 +190,7 @@ Rocket Enemy Ship attacks and does 10.0 damage to hero
 **new phase**
 We can now run this with option U or R, but we can add another ship to our program easlaly.
 Let's a **BigUFOEnemyShip** to our program.It to will be extended by **EnemyShip**. 
-And will have simular code to use to create its damage.
+And will have simular code to use to create its damage.<br/>
 	BigUFOEnemyShip	<br/>
 	extends UFOEnemyShip	<br/>
 ```java
