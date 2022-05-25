@@ -8,6 +8,9 @@ public class EnemyShipFactory {
         } else
         if (newShipType.equals("R")){
             return new RocketEnemyShip();
-        } else return null;
+        } else
+        if (newShipType.equals("B")){
+            return new BigUFOEnemyShip();}
+        else return null;
     }
 }
