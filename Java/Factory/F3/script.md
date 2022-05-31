@@ -18,7 +18,7 @@ Create new class **ServerMgmtTool**
 import java.util.Scanner;
 
 public class ServerMgmtTool {
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args){
 
         // What type of server the user wants to resolve
         Scanner input = new Scanner(System.in);
@@ -37,7 +37,7 @@ Createclass **ServerFactory**
 
 ```java
 public class ServerFactory {
-    public static IServer GetServer(String server) throws Exception{
+    public static IServer GetServer(String server){
 
 
     }
@@ -74,6 +74,14 @@ switch (server){
 
 Create class for each of these servers
 
+at class **ServerMgmtTool** we add:
+```java
+throws Exception
+```
+as a result this is added
+```java
+
+```
 
 
 
