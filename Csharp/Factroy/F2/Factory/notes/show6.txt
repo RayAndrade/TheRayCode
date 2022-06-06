@@ -1,0 +1,63 @@
+using System;
+
+namespace TheRayCode.DesignPatterns.FactoryMethod.Conceptual
+{
+
+    // add abstract class
+    abstract class Creator
+    {
+        public abstract IProduct FactoryMethod();
+        public string SomeOperation()
+        {
+            var product = FactoryMethod();
+            var result = "Creator: This creator's code has just worked with "
+                         + product.Operation();
+
+            return result;
+        }
+    }
+    //Added ConcreteCreator1 & ConcreteCreator2
+    class ConcreteCreator1 : Creator
+    {
+        public override IProduct FactoryMethod()
+        {
+            return new ConcreteProduct1();
+        }
+    }
+
+    class ConcreteCreator2 : Creator
+    {
+        public override IProduct FactoryMethod()
+        {
+            return new ConcreteProduct2();
+        }
+    }
+    public interface IProduct
+    {
+        string Operation();
+    }
+
+    class ConcreteProduct1 : IProduct
+    {
+        public string Operation()
+        {
+            return "{From of ConcreteProduct1}";
+        }
+    }
+    class ConcreteProduct2 : IProduct
+    {
+        public string Operation()
+        {
+            return "{From of ConcreteProduct2}";
+        }
+    }
+    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello world");
+            //new Client().Main();
+        }
+    }
+}
