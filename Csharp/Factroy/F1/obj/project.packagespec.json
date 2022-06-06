@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory1/Factory1/Factory1.csproj",
+    "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/F1/Factory1.csproj",
     "projectName": "Factory1",
-    "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory1/Factory1/Factory1.csproj",
-    "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory1/Factory1/obj/",
+    "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/F1/Factory1.csproj",
+    "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/F1/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/share/dotnet/sdk/NuGetFallbackFolder"

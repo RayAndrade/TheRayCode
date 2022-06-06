@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/Factory.csproj": {}
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/F0/Factory/Factory.csproj": {}
   },
   "projects": {
-    "/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/Factory.csproj": {
+    "/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/F0/Factory/Factory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/Factory.csproj",
+        "projectUniqueName": "/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/F0/Factory/Factory.csproj",
         "projectName": "Factory",
-        "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/Factory.csproj",
+        "projectPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/F0/Factory/Factory.csproj",
         "packagesPath": "/home/ray/.nuget/packages/",
-        "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/Factory/Factory/obj/",
+        "outputPath": "/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/F0/Factory/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
