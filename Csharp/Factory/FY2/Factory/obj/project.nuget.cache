@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YUqiWnAJoIems6LdJXmtiSObnZo+xbsbR6jqNhOyAwNayvbYZCc2AXCHEhAuVEPBEBbyTiL2KaO7ZrWmKF5KzA==",
+  "dgSpecHash": "mRvHwot7v63fg8nlOeGXLq71KQhhPxZqGOVBX8LvyzkttRBfOlVWF0DghCWi5OvrjabWCxbuiC+6c9TRl5eTPQ==",
   "success": true,
-  "projectFilePath": "/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/FY2/Factory/Factory.csproj",
+  "projectFilePath": "/home/ray/TheRayCode/TheRayCode/Csharp/Factory/FY2/Factory/Factory.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,9 +1,11 @@
 # TheRayCode
 ## Factory Design Pattern using c#
 
+The Factory Method pattern is widely used in C# code. It’s very useful when you need to provide a high level of flexibility for your code.
 
 For our example of the **Factory** pattern we will create an interface we call **Product**.cs. 
-This interface will require one method. The code for **Product** looks like the following:
+The Product interface declares the operations that all concrete products must implement.
+This interface will require one method. The code for **Product** looks as the following:
 ```c#
 public interface Product
 {
@@ -12,6 +14,7 @@ public interface Product
 ```
 Next we will create a couple of *concrete products* to add them to our project. 
 The name of these products will be **ProductA** and **ProductB**.
+The Concrete Products will provide various implementations of the Product interface
 The code for **ProductA** will be:
 ```c#
 class ProductA : Product
@@ -32,7 +35,20 @@ class ProductB : Product
    }
 }
 ```
+The client code works with an instance of the concrete creator, even through it is the base interface. 
+As long as the client keeps working with the creator via this base interface, you can pass it any creator's subclass to it.
+
+Concrete Creators override the factory method in order to change the resulting product's type.
+ 
 Now let's focus on the abstract class we call **Creator**.
+
+The Creator class declares the factory method that is returns an object of a Product class. The Creator's subclasses usually provide the implementation of thie factory method.
+
+Note also despite its name, the Creator's primary responsibility is not creating products. 
+Usually, it will contain some core business logic that relies on the Product objects, returned by the factory method. 
+Subclasses can indirectly change that business logic by overriding the factory method and returning a different type of product from it.
+
+
 It look's like:
 ```c#
 abstract class Creator
@@ -69,6 +85,9 @@ class CreatorX : Creator
    }
 }
 ```
+
+Note that the signature of the method still uses the abstract product type, even though the concrete product is actually returned from the method. 
+This way the Creator can stay independent of concrete product classes.
 likewise, the code for **CreatorZ** will be like: 
 
 ```c#
