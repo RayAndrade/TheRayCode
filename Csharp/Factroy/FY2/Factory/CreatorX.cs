@@ -1,10 +1,10 @@
 namespace TheRayCode.Factory.DesignPatterns
 {
-    class Creator1 : Creator
+    class CreatorX : Creator
     {
         public override Product FactoryMethod()
         {
-            return new Product1();
+            return new ProductA();
         }
     }
 }

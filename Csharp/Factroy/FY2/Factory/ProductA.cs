@@ -1,10 +1,10 @@
 namespace TheRayCode.Factory.DesignPatterns
 {
-    class Product2 : Product
+    class ProductA : Product
     {
         public string Operation()
         {
-            return "{From of Product2}";
+            return "{From of ProductA}";
         }
     }
 }
