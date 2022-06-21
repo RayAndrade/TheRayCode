@@ -1,5 +1,7 @@
 # TheRayCode
 ## Factory Design Pattern using c#
+
+
 For our example of the **Factory** pattern we will create an interface we call **Product**.cs. 
 This interface will require one method. The code for **Product** looks like the following:
 ```c#
@@ -9,24 +11,24 @@ public interface Product
 }
 ```
 Next we will create a couple of *concrete products* to add them to our project. 
-The name of these products will be **Product1** and **Product2**.
-The code for **Product1** will be:
+The name of these products will be **ProductA** and **ProductB**.
+The code for **ProductA** will be:
 ```c#
-class Product1 : Product
+class ProductA : Product
 {
    public string Operation()
    {
-      return "{From of Product1}";
+      return "{From of ProductA}";
    }
 }
 ```
-And for the *concrete product* **Product2** we have:
+And for the *concrete product* **ProductB** we have:
 ```c#
-class Product2 : Product
+class ProductB : Product
 {
    public string Operation()
    {
-     return "{From of Product2}";
+     return "{From of ProductB}";
    }
 }
 ```
@@ -55,26 +57,26 @@ We add an abstract Product we call **FactoryMethod**.
 We then add **SomeOperation** to the progect class. 
 
 We now create a couple of *abstract class*.
-Let's create these classes **Creator1** and **Creator2**.
-We start with **Creator1**. This class returns a *new* **Product1**.
+Let's create these classes **CreatorX** and **CreatorZ**.
+We start with **CreatorX**. This class returns a *new* **ProductA**.
 Let's look at the code:
 ```c#
-class Creator1 : Creator
+class CreatorX : Creator
 {
    public override Product FactoryMethod()
    {
-      return new Product1();
+      return new ProductA();
    }
 }
 ```
-likewise, the code for **Creator2** will be like: 
+likewise, the code for **CreatorZ** will be like: 
 
 ```c#
-class Creator2 : Creator
+class CreatorZ : Creator
 {
    public override Product FactoryMethod()
    {
-      return new Product2();
+      return new ProductB();
    }
 }
 ```
@@ -114,12 +116,12 @@ class Client
 {
     public void Main()
     {
-        Console.WriteLine("App: Launched with the Creator1.");
-        ClientCode(new Creator1());
+        Console.WriteLine("App: Launched with the CreatorX.");
+        ClientCode(new CreatorX());
            
         Console.WriteLine("");
-        Console.WriteLine("App: Launched with the Creator2.");
-        ClientCode(new Creator2());
+        Console.WriteLine("App: Launched with the CreatorZ.");
+        ClientCode(new CreatorZ());
     }
     public void ClientCode(Creator creator)
     {
@@ -146,13 +148,13 @@ class Program
 We are ready to run our program and thus we have:
 
 ```
-App: Launched with the Creator1.
+App: Launched with the CreatorX.
 Client: I'm not aware of the creator's class,but it still works.
-Creator: This creator's code has just worked with {From of Product1}
+Creator: This creator's code has just worked with {From of ProductA}
 
-App: Launched with the Creator2.
+App: Launched with the CreatorZ.
 Client: I'm not aware of the creator's class,but it still works.
-Creator: This creator's code has just worked with {From of Product2}
+Creator: This creator's code has just worked with {From of ProductB}
 ```
 
 Be good and happy programming
