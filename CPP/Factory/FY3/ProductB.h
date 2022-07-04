@@ -1,9 +1,9 @@
 //
-// Created by ray on 1/9/22.
+// Created by ray on 7/4/22.
 //
 
-#ifndef FACTORY_PRODUCTB_H
-#define FACTORY_PRODUCTB_H
+#ifndef F3_PRODUCTB_H
+#define F3_PRODUCTB_H
 
 #include "Product.h"
 
@@ -13,5 +13,4 @@ public:
         return "{Result of ProductB}";
     }
 };
-
-#endif //FACTORY_PRODUCTB_H
+#endif //F3_PRODUCTB_H

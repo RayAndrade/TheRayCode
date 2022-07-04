@@ -1,9 +1,10 @@
 //
-// Created by ray on 1/9/22.
+// Created by ray on 7/4/22.
 //
 
-#ifndef FACTORY_CREATORA_H
-#define FACTORY_CREATORA_H
+#ifndef F3_CREATORA_H
+#define F3_CREATORA_H
+
 #include "Creator.h"
 #include "ProductA.h"
 
@@ -14,4 +15,5 @@ public:
         return new ProductA();
     }
 };
-#endif //FACTORY_CREATORA_H
+
+#endif //F3_CREATORA_H

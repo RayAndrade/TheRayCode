@@ -1,9 +1,9 @@
 //
-// Created by ray on 1/9/22.
+// Created by ray on 7/4/22.
 //
 
-#ifndef FACTORY_CREATOR_H
-#define FACTORY_CREATOR_H
+#ifndef F3_CREATOR_H
+#define F3_CREATOR_H
 
 #include "Product.h"
 
@@ -19,4 +19,5 @@ public:
     }
 };
 
-#endif //FACTORY_CREATOR_H
+
+#endif //F3_CREATOR_H
