@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/Singleton.dir/main.cpp.o CMakeFiles/Singleton.dir/Singleton.cpp.o -o Singleton 
