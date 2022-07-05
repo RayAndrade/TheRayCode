@@ -1,3 +1,0 @@
-/home/ray/TheRayCode/TheRayCode/CPP/Iterator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ray/TheRayCode/TheRayCode/CPP/Iterator/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ray/TheRayCode/TheRayCode/CPP/Iterator/cmake-build-debug/CMakeFiles/Iterator.dir
