@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/Memento.dir/main.cpp.o -o Memento 
