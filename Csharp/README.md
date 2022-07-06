@@ -2,7 +2,7 @@
 ## is AWESOME!!!
 C# section
 
-[TheRayCode.COM](https://www.TheRayCode.com)
+[RayAndrade.COM](https://www.RayAndrade.com)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
