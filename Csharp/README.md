@@ -1,5 +1,11 @@
 # TheRayCode
 ## is AWESOME!!!
-PHP section
+C# section
 
-[Github](https://www.TheRayCode.com)
+[TheRayCode.COM](https://www.TheRayCode.com)
+[TheRayCode.ORG](https://www.TheRayCode.org)
+
+[Facebook](https://www.facebook.com/TheRayCode/)
+[Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
+[YouTube](https://www.youtube.com/AndradeRay/)
+
