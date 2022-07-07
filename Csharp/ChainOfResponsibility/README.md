@@ -1,6 +1,6 @@
 # TheRayCode
 ## is AWESOME!!!
-Php section
+C# Chain of Responsibity section
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 

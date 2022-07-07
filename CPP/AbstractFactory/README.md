@@ -1,6 +1,6 @@
 # TheRayCode
 ## is AWESOME!!!
-Php section
+C++ Apstract Factory section
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 

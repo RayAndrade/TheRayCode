@@ -1,6 +1,6 @@
 # TheRayCode
 ## is AWESOME!!!
-Php section
+PHP Builder section
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 

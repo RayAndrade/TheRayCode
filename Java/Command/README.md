@@ -1,6 +1,6 @@
 # TheRayCode
 ## is AWESOME!!!
-Php section
+Java Command section
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 

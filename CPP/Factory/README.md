@@ -1,5 +1,17 @@
 # TheRayCode
-## Factory c++
+## is AWESOME!!!
+C++ Factory section
+
+[RayAndrade.COM](https://www.RayAndrade.com)
+
+[TheRayCode.ORG](https://www.TheRayCode.org)
+
+[Facebook](https://www.facebook.com/TheRayCode/)
+
+[Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
+
+[YouTube](https://www.youtube.com/AndradeRay/)
+
 
 In this artical I will take a look at the **Factory** design pattern using *c++*.
 
@@ -179,15 +191,15 @@ Creator: The same creator's code has just worked with {Result of the ProductB}
 
 Find Ray on:
 
-[facebook](https://www.facebook.com/TheRayCode/)
+[RayAndrade.COM](https://www.RayAndrade.com)
 
-[youtube](https://www.youtube.com/user/AndradeRay/)
+[TheRayCode.ORG](https://www.TheRayCode.org)
 
-[The Ray Code](https://www.RayAndrade.com)
+[Facebook](https://www.facebook.com/TheRayCode/)
 
-[Ray Andrade](https://www.RayAndrade.org)
+[Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
 
-
+[YouTube](https://www.youtube.com/AndradeRay/)
 
 
 

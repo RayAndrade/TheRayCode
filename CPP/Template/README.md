@@ -1,6 +1,6 @@
 # TheRayCode
 ## is AWESOME!!!
-Php section
+C++ Template section
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
@@ -11,4 +11,5 @@ Php section
 [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
 
 [YouTube](https://www.youtube.com/AndradeRay/)
+
 

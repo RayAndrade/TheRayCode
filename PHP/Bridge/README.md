@@ -1,6 +1,6 @@
 # TheRayCode
 ## is AWESOME!!!
-Php section
+PHP Bridge section
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
