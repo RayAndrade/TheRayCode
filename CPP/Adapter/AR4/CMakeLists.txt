@@ -3,4 +3,4 @@ project(AR4)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(AR4 main.cpp)
+add_executable(AR4 main.cpp Iparser.h cParser.h IbetterParser.h betterParser.h Adapter.h)

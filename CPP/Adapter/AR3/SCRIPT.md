@@ -9,17 +9,20 @@
 ## Look at code
 
 
+First we create a class called *Iparser*. Iparser will be an intrerface
+
 ```cpp
-
-#include <iostream>
-using namespace std;
-
 // cParser Interface
 class Iparser{
 public:
     void virtual parser()=0;
     void virtual parse()=0;
 };
+```
+
+now we create a Concrete class
+
+```cpp
 // Concrete Class
 class cParser : public Iparser{
 public:
@@ -30,14 +33,24 @@ public:
         cout << "Class : cParser-Fun :parser, I am a parse  " << endl;
     }
 };
-// Interface for Adaptee
+
+```
+
+Next we create an Adaptee  Interface for Adaptee
+
+```cpp
 class IbetterParser{
 public:
     void virtual parser() =0;
     void virtual firstLevelParser() =0;
     void virtual secondLevelParser() =0;
 };
-//Concrete class Adaptee
+```
+
+now a Concrete class called *betterParser*.
+
+```cpp
+
 class betterParser : public IbetterParser{
     void parser(){
        cout << "Class: betterPArser-Fun: parser, i am Parser " << endl;
@@ -49,7 +62,13 @@ class betterParser : public IbetterParser{
         cout << "Class: betterPArser-Fun: parser, i am secondParser " << endl;
     }
 };
-// Adaper Class which will simulate the cParserPin functionality
+
+```
+
+Now we create Adaper Class which will simulate the cParserPin functionality
+
+
+```cpp
 class Adapter : public Iparser{
 public:
     IbetterParser *bParserPtr;
@@ -63,6 +82,16 @@ public:
         bParserPtr->secondLevelParser();
     }
 };
+
+```
+now we move on the main method
+
+```cpp
+
+#include <iostream>
+using namespace std;
+
+// Adaper Class which will simulate the cParserPin functionality
 int main() {
     betterParser *betterParserPtr = new betterParser;
     Iparser *adapter = new Adapter(betterParserPtr);
