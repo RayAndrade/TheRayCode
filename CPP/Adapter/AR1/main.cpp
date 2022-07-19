@@ -1,3 +1,5 @@
+// https://refactoring.guru/design-patterns/adapter/cpp/example
+
 #include <iostream>
 #include <algorithm>
 #include "Adapter.h"
