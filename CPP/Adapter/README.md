@@ -2,7 +2,11 @@
 ## is AWESOME!!!
 C++ Adapter section
 
-[refactoring.guru](https://refactoring.guru/design-patterns/adapter/cpp/example)
+AR1 [refactoring.guru](https://refactoring.guru/design-patterns/adapter/cpp/example)
+
+AR2 [Vorbrodt's C-Plus-Plus Channel](https://youtu.be/5dfRV5uWLy4)
+
+AR3 [Embedded OS](https://youtu.be/LsvyrZ1sWcw)
 
 
 [RayAndrade.COM](https://www.RayAndrade.com)

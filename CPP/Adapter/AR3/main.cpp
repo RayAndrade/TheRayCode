@@ -1,11 +1,9 @@
 // https://youtu.be/LsvyrZ1sWcw
 
-
 #include <iostream>
 #include <memory>
 
 #include "DispayAdapter.h"
-
 
 // Remote Dispay
 void RemoteDisplay::MsgRed(std::string message) const {
@@ -20,7 +18,6 @@ void RemoteDisplay::MsgGreen(std::string message) const {
 void RemoteDisplay::MsgYellow(std::string message) const {
     std::cout << "Y: " << message << std::endl;
 }
-
 
 int main() {
     std::unique_ptr<LocalDisplay> displayPtr(new DispayAdapter);
