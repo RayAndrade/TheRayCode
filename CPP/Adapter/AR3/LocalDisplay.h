@@ -11,9 +11,9 @@ class LocalDisplay{
 public:
     enum Color{
         Red = 0,
-        Blue = 1,
-        Green = 2,
-        Yellow = 3
+        Blue,
+        Green,
+        Yellow
     };
     virtual void Message(Color color, std::string message) = 0;
 };

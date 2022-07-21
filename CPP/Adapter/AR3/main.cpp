@@ -1,7 +1,9 @@
+// t=6:18
+
 // https://youtu.be/LsvyrZ1sWcw
 
 #include <iostream>
-#include <memory>
+#include <memory> //has strong pointer
 
 #include "DispayAdapter.h"
 
@@ -22,5 +24,9 @@ void RemoteDisplay::MsgYellow(std::string message) const {
 int main() {
     std::unique_ptr<LocalDisplay> displayPtr(new DispayAdapter);
     displayPtr->Message(displayPtr->Red,"Cold Stone");
+    displayPtr->Message(displayPtr->Blue,"Earth Stone");
+    displayPtr->Message(displayPtr->Green,"Mars Stone");
+    displayPtr->Message(displayPtr->Yellow,"Yogi Stone");
+
     return 0;
 }

@@ -1,3 +1,4 @@
+// t = 8:00
 //
 // Created by ray on 7/15/22.
 //
@@ -30,7 +31,6 @@ class DispayAdapter : public LocalDisplay, public RemoteDisplay{
                 break;
         }
     }
-
 };
 
 #endif //AR3_DISPAYADAPTER_H
