@@ -1,7 +1,5 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
-
-
 namespace Adapter
 {
     public class CustomerManager
