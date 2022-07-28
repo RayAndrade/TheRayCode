@@ -2,6 +2,8 @@
 ## is AWESOME!!!
 C# Adapter section
 
+In this section of my github repository I list of my demonstrations showing the Adapter design pattern.
+
 [RayAndrade.COM](https://www.RayAndrade.com)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
