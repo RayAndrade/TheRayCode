@@ -122,7 +122,17 @@ public interface ICustomer
 public class CustomerAdapter : CustomerManager, ICustomer
 ```
 
+To show how you might atapt an object replace:
+```csharp
+//public class CustomerAdapter:CustomerManager,ICustomer
+public class CustomerAdapter: ICustomer
+```
+and 
 
+```csharp
+//var data = base.GetData();
+var data = manager.GetData();
+```
 
 
 
