@@ -47,65 +47,52 @@ namespace Adapter
 {
     public class CustomerManager
     {
-        private List<Customer> cutomerList = new List<Customer>();
-
-        public CustomerManager()
-        {
-            cutomerList.Add(new Customer
-            {
-                Id = 1,
-                Name = "Cecil",
-                Address = "USA",
-                Contact = "(818)457-MATH"
-            });
-
-        }
-
-        public string GetData()
-        {
-            return JsonConvert.SerializeObject(cutomerList);
-        }
+        
     }
 }
 ```
 
-```charp
+First we add a *privite* varable
+
+```csharp
+ private List<Customer> cutomerList = new List<Customer>();
+```
+Because we are using *List* we need to import *System.Collections.Generic*
+
+```csharp
 using System.Collections.Generic;
 ```
-Find this type on nuget.org
+Our next bit of code is a record in Json format
 
-Choose v.3.1.2
-+ install
-
-
-
-please note the record construction:
-```charp
-cutomerList.Add(new Customer
-{
-    Id = 1,
-    Name = "Cecil",
-    Address = "USA",
-    Contact = "(818)457-MATH"
-});
-```
-
-We put these value in a *private* list we call **cutomerList**
 ```csharp
-private List<Customer> cutomerList = new List<Customer>();
+public CustomerManager()
+{
+    cutomerList.Add(new Customer
+    {
+        Id = 1,
+        Name = "Cecil",
+        Address = "USA",
+        Contact = "(818)457-MATH"
+    });
+}
 ```
+Now we want to convert this record into a Json element that we may use some UI. To do this we use a *JsonConverter*.
+The name of the method is *GetData*:
 
-To access the records we add a **GetData** method:
 ```csharp
 public string GetData()
 {
    return JsonConvert.SerializeObject(cutomerList);
 }
 ```
-This requires at the top:
+To use *JsonConvert* we need to import
+
+
 ```csharp
 using Newtonsoft.Json;
 ```
+
+I am using *Newtonsoft.Json* v.13.1.2
 
 Next we create a *class* we call the **CustomerDTO**.
 
