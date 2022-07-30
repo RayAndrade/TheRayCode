@@ -1,12 +1,33 @@
 ```url
 https://youtu.be/h400NTIOrf8
 ```
+Setup:
+
+New Solution >>
+Solution Name: Show
+Project Name: Show
+
+Solution Dirtetory
+
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/
+
+SDK 3.1
+
+Language C#
+
+Docker Support Disables
+
+[Create]
+
+put solution in same directory
+
+Refactor Show to Adapter
 
 We start by creating a project space we call **Adapter**.
 We will demonstrate the **Adapter** design pattern.
 
 We start by defining our **Customer**. 
-We have a class that is called **Customer**. It looks like this:
+We have a class that is called **CustomerCustomer**. It looks like this:
 ```csharp
 public class Customer
 {
@@ -47,6 +68,16 @@ namespace Adapter
     }
 }
 ```
+
+```charp
+using System.Collections.Generic;
+```
+Find this type on nuget.org
+
+Choose v.3.1.2
++ install
+
+
 
 please note the record construction:
 ```charp
