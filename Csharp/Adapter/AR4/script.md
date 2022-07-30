@@ -1,4 +1,4 @@
-![youtube video](https://youtu.be/YsAAzosaM2Y "DotNetIQ")
+[youtube video-DotNetIQ](https://youtu.be/YsAAzosaM2Y "DotNetIQ")
 
 These notes are taken as:DotNetIQ
 
