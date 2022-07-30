@@ -1,4 +1,4 @@
-[youtube video](https://youtu.be/YsAAzosaM2Y "DotNetIQ")
+![youtube video](https://youtu.be/YsAAzosaM2Y "DotNetIQ")
 
 These notes are taken as:DotNetIQ
 
@@ -16,18 +16,10 @@ Also called the wrapper patern.
 
 uml:
 
-Reference-style: 
-![alt text][logo]
-
-[logo]: "https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/Adapter141.png" Logo Title Text 2"
-
-
-Here's our logo (hover to see the title text):
-
 Inline-style: 
-![alt text](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/Adapter141.png "Logo Title Text 1")
+![Adapter design pattern](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/Adapter141.png "Adapter design pattern")
 
-Reference-style: 
-![alt text][logo]
+Let's now look at some code:
 
-[logo]: https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/Adapter141.png "Logo Title Text 2"
+
+
