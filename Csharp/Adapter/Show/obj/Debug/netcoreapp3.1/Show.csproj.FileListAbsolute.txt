@@ -1,0 +1,15 @@
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Show/bin/Debug/netcoreapp3.1/Show
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Show/bin/Debug/netcoreapp3.1/Show.deps.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Show/bin/Debug/netcoreapp3.1/Show.runtimeconfig.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Show/bin/Debug/netcoreapp3.1/Show.runtimeconfig.dev.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Show/bin/Debug/netcoreapp3.1/Show.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Show/bin/Debug/netcoreapp3.1/Show.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Show/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Show/obj/Debug/netcoreapp3.1/Show.csprojAssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Show/obj/Debug/netcoreapp3.1/Show.AssemblyInfoInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Show/obj/Debug/netcoreapp3.1/Show.AssemblyInfo.cs
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Show/obj/Debug/netcoreapp3.1/Show.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Show/obj/Debug/netcoreapp3.1/Show.csproj.CopyComplete
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Show/obj/Debug/netcoreapp3.1/Show.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Show/obj/Debug/netcoreapp3.1/Show.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/Show/obj/Debug/netcoreapp3.1/Show.genruntimeconfig.cache

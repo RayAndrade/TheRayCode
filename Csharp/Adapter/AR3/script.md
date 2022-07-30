@@ -128,19 +128,44 @@ public class CustomerAdapter:CustomerManager
     }
 }
 ```
-We add an interface **ICustomer**
+
+As a result we need to add the following imports.
+
+```csharp
+using System.Collections.Generic;
+using System.Linq;
+using Newtonsoft.Json;
+```
+
+Now we add an interface **ICustomer**
 ```csharp
 public interface ICustomer
 {
     IEnumerable<CustomerDTO> GetCustomers();
 }
 ```
- and we add the **ICustomer** to the **CustomerAdapter** the result will be:
-```csharp
-public class CustomerAdapter : CustomerManager, ICustomer
+
+we import the missing reference
+
+```charp
+using System.Collections.Generic;
 ```
 
-To show how you might atapt an object replace:
+ and we add the **ICustomer** to the **CustomerAdapter** the result will be:
+```csharp
+public class CustomerAdapter : CustomerManager  , ICustomer
+```
+
+Now if we want to REPLACE the *base.GetData();* with 
+
+```csharp
+manager.GetData();
+```
+
+
+
+
+To show how you might adapt an object replace:
 ```csharp
 //public class CustomerAdapter:CustomerManager,ICustomer
 public class CustomerAdapter: ICustomer
