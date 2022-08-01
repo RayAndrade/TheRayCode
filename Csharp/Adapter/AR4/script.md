@@ -12,6 +12,8 @@ Adapter pattern translates interface of a class into another interface client ex
 An Adapter allows classes to work together that normally could not because of incompatible interfaces, by
 providing its interface fo clients whild using the original interface.
 
+TODO: Create a uml simular to the uml found at 6:19
+
 Also called the wrapper patern.
 
 uml:
@@ -21,5 +23,5 @@ Inline-style:
 
 Let's now look at some code:
 
-
+@ 6:21
 
