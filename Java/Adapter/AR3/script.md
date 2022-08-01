@@ -10,6 +10,6 @@ We create an interface for our writing instrment *Pen*
 
 ```java
 public interface Pen {
-    void write();
+    void write(String str);
 }
 ```
