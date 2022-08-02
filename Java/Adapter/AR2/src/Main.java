@@ -8,14 +8,14 @@ public class Main {
 
         System.out.println("The Robot");
 
-        fredTheRobot.reactToHuman("Paul");
+        fredTheRobot.reactToHuman("Robby");
         fredTheRobot.walkForward();
         fredTheRobot.smashWithHands();
         System.out.println();
 
         System.out.println("The Tank");
 
-        rx7Tank.assignDriver("Frank");
+        rx7Tank.assignDriver("Hank");
         rx7Tank.driveForward();
         rx7Tank.fireWeapon();
         System.out.println();
