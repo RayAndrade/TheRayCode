@@ -2,7 +2,7 @@
 ## is AWESOME!!!
 C++ Adapter section
 
-[Adapter]: https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/Adapter141.png "Adapter"
+[Adapter]: (https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/Adapter141.png "Adapter")
 
 [Vimeo](https://vimeo.com/735684583)
 
