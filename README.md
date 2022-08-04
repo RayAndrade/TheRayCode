@@ -5,7 +5,7 @@ Hi, I'm Ray and this is my code for the project I call The Ray Code.
 Here are some of my social media accounts.
 
 
-[![vimeo](https://github.com/RayAndrade/TheRayCode/UMLs/Adapter141.png)](https://vimeo.com/735684583)
+[![vimeo](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/Adapter141.png)](https://vimeo.com/735684583)
 
 
 
