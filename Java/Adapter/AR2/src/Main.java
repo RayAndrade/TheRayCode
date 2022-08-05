@@ -1,23 +1,23 @@
 public class Main {
     public static void main(String[] args) {
-        Tank rx7Tank = new Tank();
+        Tank hankTheTank = new Tank();
 
-        Robot fredTheRobot = new Robot();
+        Robot robbyTheRobot = new Robot();
 
-        Attacker robotAdapter = new RobotAdapter(fredTheRobot);
+        Attacker robotAdapter = new RobotAdapter(robbyTheRobot);
 
         System.out.println("The Robot");
 
-        fredTheRobot.reactToHuman("Robby");
-        fredTheRobot.walkForward();
-        fredTheRobot.smashWithHands();
+        robbyTheRobot.reactToHuman("Robby");
+        robbyTheRobot.walkForward();
+        robbyTheRobot.smashWithHands();
         System.out.println();
 
         System.out.println("The Tank");
 
-        rx7Tank.assignDriver("Hank");
-        rx7Tank.driveForward();
-        rx7Tank.fireWeapon();
+        hankTheTank.assignDriver("Hank");
+        hankTheTank.driveForward();
+        hankTheTank.fireWeapon();
         System.out.println();
 
         System.out.println("The Robot with Adapter");
@@ -25,6 +25,6 @@ public class Main {
         robotAdapter.assignDriver("Mark");
         robotAdapter.driveForward();
         robotAdapter.fireWeapon();
-
     }
 }
+
