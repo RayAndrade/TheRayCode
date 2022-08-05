@@ -129,10 +129,10 @@ Now Let's create an Adapter.
 The Adapter will implement the Attacker interface
 
 ```java
-public class EnemyRobotAdapter implements EnemyAttacker{
-    EnemyRobot theRobot;
+public class RobotAdapter implements Attacker{
+    Robot theRobot;
 	
-    public EnemyRobotAdapter(EnemyRobot newRobot){
+    public RobotAdapter(Robot newRobot){
         theRobot = newRobot;
     }
 	
