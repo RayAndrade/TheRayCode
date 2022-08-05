@@ -23,30 +23,42 @@ We create a **Tank** that will be implentented by **Attacker**. We will import t
 ```java
 public class Tank implements Attacker { }
 ```
-we add a random number generator
+Because it *implements Attacker* we need to : 
+*Generate* -> *Override* *methods* : should yeield:
 
+
+```java
+@Override
+public void fireWeapon() {
+    super.fireWeapon();
+}
+
+@Override
+public void driveForward() {
+    super.driveForward();
+}
+
+@Override
+public void assignDriver(String driverName) {
+    super.assignDriver(driverName);
+}
+```
+
+First we need a vriable that will add radom damage
+
+
+
+We add the functionality
 ```java
 Random generator = new Random();
 ```
-
-Import the class
+ but we also neet to import *java.util.Random*.
 ```java
 import java.util.Random;
 ```
 
-Next we add the methods
+Let's replace the auto generated super stubs with
 
-```java
-public void fireWeapon() {
-}
-
-public void driveForward() {
-}
-
-public void assignDriver(String driverName) {
-}
-```
-And now we add code to each of those methods:
 
 for **fireWeapon**
 ```java
@@ -90,7 +102,7 @@ public class Tank implements Attacker{
 }
 ```
 
-Next we creatte a **Robot**.
+Next we create a **Robot**.
 The class for the Robot looks like
 
 ```java
@@ -121,10 +133,10 @@ Now Let's create an Adapter.
 The Adapter will implement the Attacker interface
 
 ```java
-public class RobotAdapter implements Attacker{
+public class Adapter implements Attacker{
     Robot theRobot;
 	
-    public RobotAdapter(Robot newRobot){
+    public Adapter(Robot newRobot){
         theRobot = newRobot;
     }
 	
@@ -142,7 +154,7 @@ public class RobotAdapter implements Attacker{
 }
 ```
 
-Now let's test this in the mail method
+Now let's test this in the main method
 
 
 ```java
@@ -152,7 +164,7 @@ public class Main {
 
         Robot robbyTheRobot = new Robot();
 
-        Attacker robotAdapter = new RobotAdapter(robbyTheRobot);
+        Attacker robotAdapter = new Adapter(robbyTheRobot);
 
         System.out.println("The Robot");
 
@@ -170,7 +182,7 @@ public class Main {
 
         System.out.println("The Robot with Adapter");
 
-        robotAdapter.assignDriver("Mark");
+        robotAdapter.assignDriver("Cecil");
         robotAdapter.driveForward();
         robotAdapter.fireWeapon();
     }
@@ -182,18 +194,21 @@ public class Main {
 We compile and should get the following result
 ```run
 The Robot
-Robot Tramps on Robby
-Robot Walks Forward 2 spaces
-Robot Causes 7 Damage With Its Hands
+The Robot Tramps on Robby
+The Robot Walks Forward 1 spaces
+The Robot Causes 8 Damage With Its Hands
 
 The Tank
 Hank is driving the tank
-The Tank moves 1 spaces
-The Tank Does 6 Damage
+The Tank moves 5 spaces
+The Tank Does 7 Damage
 
 The Robot with Adapter
-Robot Tramps on Mark
-Robot Walks Forward 3 spaces
-Robot Causes 6 Damage With Its Hands
+The Robot Tramps on Cecil
+The Robot Walks Forward 3 spaces
+The Robot Causes 1 Damage With Its Hands
 ```
+
+
+
 
