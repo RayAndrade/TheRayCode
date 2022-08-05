@@ -12,9 +12,7 @@ public class RobotAdapter implements Attacker{
     Robot theRobot;
 
     public RobotAdapter(Robot newRobot){
-
         theRobot = newRobot;
-
     }
 
     public void fireWeapon() {

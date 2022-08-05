@@ -2,22 +2,14 @@
    https://youtu.be/qG286LQM6BU
 ```
 
-Derek Banas
+In this code demonstration I will give a code example of using the Adapter design patter
 
-Our goal is to connect two incompatable systems together.
+(write goal of program)
 
-The Adapter:
 
-* Allows 2 incoparable interfaces to work together
+We start bu createing an interface we call **Attacker**. The **Attacker** will require the following methods:
 
-* Used when the cleient expects a (target) interface
-
-* TheAdapter class allows the use of the avaiable interface and the Target interface
-
-* Any class can work together as long as the Adapter solve the issue that all must must implement every method definded by the shared interface.
-
-The first thing we create is the interface for the Attacker we call **Attacker**.
-The interface requiers the following methods
+**fireWeapon**, **driveForward** and **assignDriver**
 
 ```java
 public void fireWeapon();
