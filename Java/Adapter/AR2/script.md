@@ -171,7 +171,7 @@ public class Main {
 
         System.out.println("The Tank");
 
-        hankTheTankNondfa.assignDriver("Hank");
+        hankTheTank.assignDriver("Hank");
         hankTheTank.driveForward();
         hankTheTank.fireWeapon();
         System.out.println();
