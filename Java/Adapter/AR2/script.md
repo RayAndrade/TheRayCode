@@ -21,7 +21,7 @@ Next we create a class that will use this adapter called **Tank**
 We create a **Tank** that will be implentented by **Attacker**. We will import the *Random* library to add some reandomness to our project.
 
 ```java
-public class Tank implements Attacker{ }
+public class Tank implements Attacker { }
 ```
 we add a random number generator
 
