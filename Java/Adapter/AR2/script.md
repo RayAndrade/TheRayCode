@@ -3,6 +3,9 @@
 ```
 http://www.theraycode.com or <http://www.theraycode.com> and sometimes 
 
+Inline-style: 
+
+[![vimeo](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/Adapter141.png)](https://vimeo.com/735684583)
 
 In this code demonstration I will give a code example of using the Adapter design patter
 
