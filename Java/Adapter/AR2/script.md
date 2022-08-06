@@ -1,5 +1,5 @@
 ```url
-   https://youtu.be/qG286LQM6BU
+   https://youtu.be/qG286LQM6BU?t=142
 ```
 
 In this code demonstration I will give a code example of using the Adapter design patter
