@@ -1,5 +1,7 @@
 ```url
    https://youtu.be/qG286LQM6BU?t=142
+   
+   https://github.com/bethrobson/Head-First-Design-Patterns/tree/master/src/headfirst/designpatterns/
 ```
 
 http://www.theraycode.com or <http://www.theraycode.com> and sometimes 
