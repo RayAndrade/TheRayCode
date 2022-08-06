@@ -2,15 +2,11 @@
    https://youtu.be/qG286LQM6BU?t=142
 ```
 
-
-<p>Hello World</p>
-<div>Hello World</div>
-
 http://www.theraycode.com or <http://www.theraycode.com> and sometimes 
 
 Inline-style: 
-
 [![vimeo](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/Adapter141.png)](https://vimeo.com/735684583)
+
 
 In this code demonstration I will give a code example of using the Adapter design patter
 
@@ -27,6 +23,8 @@ public void driveForward();
 public void assignDriver(String driverName);
 ```
 These are the methods that the client expects to work with.
+
+<hr>
 
 Next we create a class that will use *this* adapter and we will call **Tank**
 The **Tank**  class will be implentented by the interface we just created called **Attacker**. 
@@ -86,6 +84,7 @@ And for **assignDriver**
 System.out.println(driverName + " is driving the tank");
 ```
 
+<hr>
 When we commplete our tank looks like
 
 
@@ -109,6 +108,8 @@ public class Tank implements Attacker{
     }
 }
 ```
+
+<hr>
 
 Next we create a **Robot**.
 The class for the Robot looks like
@@ -136,6 +137,9 @@ public class Robot{
 	
 }
 ```
+
+<hr>
+
 Now Let's create an Adapter.
 
 The Adapter will implement the Attacker interface
@@ -161,7 +165,7 @@ public class Adapter implements Attacker{
     }
 }
 ```
-
+<hr>
 Now let's test this in the main method
 
 
