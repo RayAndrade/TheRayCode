@@ -1,6 +1,8 @@
 ```url
    https://youtu.be/qG286LQM6BU?t=142
 ```
+http://www.theraycode.com or <http://www.theraycode.com> and sometimes 
+
 
 In this code demonstration I will give a code example of using the Adapter design patter
 
