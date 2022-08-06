@@ -33,21 +33,16 @@ public class Tank implements Attacker { }
 Because it *implements Attacker* we need to : 
 *Generate* -> *Override* *methods* : should yeield:
 
+Uncheck insrt @overide and super
 
 ```java
-@Override
 public void fireWeapon() {
-    super.fireWeapon();
 }
 
-@Override
 public void driveForward() {
-    super.driveForward();
 }
 
-@Override
 public void assignDriver(String driverName) {
-    super.assignDriver(driverName);
 }
 ```
 
