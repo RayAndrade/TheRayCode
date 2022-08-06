@@ -48,9 +48,10 @@ public void assignDriver(String driverName) {
 
 We will also import the *Random* library to add some reandomness to our project.
 
-First we need a vriable that will add radom damage
-
-We add the functionality
+```java
+import java.util.Random;
+```
+We add the damage functionality with the Random number generator
 ```java
 Random generator = new Random();
 ```
