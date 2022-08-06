@@ -11,8 +11,8 @@ In this code demonstration I will give a code example of using the Adapter desig
 
 (write goal of program)
 
-
-We start bu createing an interface we call **Attacker**. The **Attacker** will require the following methods:
+The first thing we want to do is to create the *target* interface. 
+We call it the **Attacker** and the **Attacker** will require the following methods:
 
 **fireWeapon**, **driveForward** and **assignDriver**
 
@@ -21,13 +21,15 @@ public void fireWeapon();
 public void driveForward();
 public void assignDriver(String driverName);
 ```
+These are the methods that the client expects to work with.
 
-Next we create a class that will use this adapter called **Tank**
-We create a **Tank** that will be implentented by **Attacker**. We will import the *Random* library to add some reandomness to our project.
+Next we create a class that will use *this* adapter and we will call **Tank**
+The **Tank**  class will be implentented by the interface we just created called **Attacker**. 
 
 ```java
 public class Tank implements Attacker { }
 ```
+
 Because it *implements Attacker* we need to : 
 *Generate* -> *Override* *methods* : should yeield:
 
@@ -49,9 +51,9 @@ public void assignDriver(String driverName) {
 }
 ```
 
+We will also import the *Random* library to add some reandomness to our project.
+
 First we need a vriable that will add radom damage
-
-
 
 We add the functionality
 ```java
