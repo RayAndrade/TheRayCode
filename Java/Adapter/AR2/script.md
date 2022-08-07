@@ -38,7 +38,7 @@ public class Tank implements Attacker { }
 Because it *implements Attacker* we need to : 
 *Generate* -> *Override* *methods* : should yeield:
 
-Uncheck insrt @overide and super
+**Uncheck insrt @overide and super**
 
 ```java
 public void fireWeapon() {
