@@ -43,7 +43,7 @@ public class RoundHole {
     }
 }
 ```
-![Factory](/UMLs/images/Adaptee-3.jpg)
+
 
 The **SquarePegs** are not compatible with **RoundHoles**. 
 But we have to integrate them into our program.
