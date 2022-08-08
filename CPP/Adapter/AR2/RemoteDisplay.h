@@ -1,10 +1,9 @@
-// t=6:35
 //
-// Created by ray on 7/15/22.
+// Created by ray on 8/7/22.
 //
 
-#ifndef AR3_REMOTEDISPLAY_H
-#define AR3_REMOTEDISPLAY_H
+#ifndef AR2_REMOTEDISPLAY_H
+#define AR2_REMOTEDISPLAY_H
 
 #include <iostream>
 
@@ -16,4 +15,5 @@ public:
     void MsgYellow(std::string message) const;
 };
 
-#endif //AR3_REMOTEDISPLAY_H
+
+#endif //AR2_REMOTEDISPLAY_H

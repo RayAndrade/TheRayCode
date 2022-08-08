@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.22)
-project(Adapter)
+cmake_minimum_required(VERSION 3.23)
+project(AR2)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Adapter main.cpp Interface1.h Object1.h Interface2.h Object2.h Adapter.h)
+add_executable(AR2 main.cpp RemoteDisplay.h LocalDisplay.h DispayAdapter.h)

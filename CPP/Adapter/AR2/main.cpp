@@ -1,18 +1,27 @@
-//  https://youtu.be/5dfRV5uWLy4
-
 #include <iostream>
+#include <memory>
+#include "RemoteDisplay.h"
+#include "LocalDisplay.h"
+#include "DispayAdapter.h"
 
-#include "Interface1.h"
-#include "Interface2.h"
-#include "Object2.h"
-#include "Adapter.h"
-
-void Codebase1(Interface1* obj) {}
-void Codebase2(Interface2* obj) {}
-
+void RemoteDisplay::MsgRed(std::string message) const {
+    std::cout << "R: " << message << std::endl;
+}
+void RemoteDisplay::MsgBlue(std::string message) const {
+    std::cout << "B: " << message << std::endl;
+}
+void RemoteDisplay::MsgGreen(std::string message) const {
+    std::cout << "G: " << message << std::endl;
+}
+void RemoteDisplay::MsgYellow(std::string message) const {
+    std::cout << "Y: " << message << std::endl;
+}
 int main() {
-    Object2 obj;
-    Adapter adp(&obj);
-    Codebase1(&adp);
+    std::unique_ptr<LocalDisplay> displayPtr(new DispayAdapter);
+    displayPtr->Message(displayPtr->Red,"Cold Stone");
+    displayPtr->Message(displayPtr->Blue,"Earth Stone");
+    displayPtr->Message(displayPtr->Green,"Mars Stone");
+    displayPtr->Message(displayPtr->Yellow,"Yogi Stone");
+
     return 0;
 }

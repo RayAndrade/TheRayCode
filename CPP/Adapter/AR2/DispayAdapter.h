@@ -1,10 +1,9 @@
-// t = 8:00
 //
-// Created by ray on 7/15/22.
+// Created by ray on 8/7/22.
 //
 
-#ifndef AR3_DISPAYADAPTER_H
-#define AR3_DISPAYADAPTER_H
+#ifndef AR2_DISPAYADAPTER_H
+#define AR2_DISPAYADAPTER_H
 
 #include "LocalDisplay.h"
 #include "RemoteDisplay.h"
@@ -32,5 +31,4 @@ class DispayAdapter : public LocalDisplay, public RemoteDisplay{
         }
     }
 };
-
-#endif //AR3_DISPAYADAPTER_H
+#endif //AR2_DISPAYADAPTER_H

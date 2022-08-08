@@ -1,9 +1,9 @@
 //
-// Created by ray on 7/13/22.
+// Created by ray on 8/7/22.
 //
 
-#ifndef AR2_OBJECT2_H
-#define AR2_OBJECT2_H
+#ifndef AR02_OBJECT2_H
+#define AR02_OBJECT2_H
 
 #include "Interface2.h"
 
@@ -13,4 +13,4 @@ public:
     virtual void Method2() override {}
 };
 
-#endif //AR2_OBJECT2_H
+#endif //AR02_OBJECT2_H
