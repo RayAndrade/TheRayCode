@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\Adapter\Conceptual;
+namespace TheRayCode\Adapter\Conceptual;
 
 /**
  * The Adaptee contains some useful behavior, but its interface is incompatible

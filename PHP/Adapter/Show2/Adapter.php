@@ -1,6 +1,6 @@
 <?php
 
-namespace RefactoringGuru\Adapter\Conceptual;
+namespace TheRayCode\Adapter\Conceptual;
 
 /**
  * The Adapter makes the Adaptee's interface compatible with the Target's
