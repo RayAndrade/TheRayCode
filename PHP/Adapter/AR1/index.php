@@ -4,8 +4,6 @@ include_once ('Target.php');
 include_once ('Adaptee.php');
 include_once ('Adapter.php');
 
-
-
 /**
 * The client code supports all classes that follow the Target interface.
 */
