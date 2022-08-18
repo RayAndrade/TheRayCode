@@ -8,7 +8,7 @@ class Adaptee
 {
     public function specificRequest(): string
     {
-        return ".eetpadA eht fo roivaheb laicepS";
+        return "!!!EMOSEWA si edoC yaR ehT";
     }
 }
 ```
@@ -22,7 +22,7 @@ class Target
 {
     public function request(): string
     {
-        return "!!!EMOSEWA si edoC yaR ehT";
+        return "Target: The default target's behavior.";
     }
 }
 ```
@@ -54,14 +54,7 @@ The Adapter makes the Adaptee's interface compatible with the Target's interface
 
 Let's put this all together in the index file.
 
-First we create some client code. The client code supports all classes that follow the Target interface.
 
-```php
-function clientCode(Target $target)
-{
-    echo $target->request();
-}
-```
 Now for our demo. 
 We start with the files we want to inclued
 
@@ -69,11 +62,24 @@ We start with the files we want to inclued
 include_once ("Adaptee.php");
 include_once ("Adapter.php");
 ```
+
+First we create some client code. The client code supports all classes that follow the Target interface.
+
+```php
+
+function clientCode(Target $target)
+{
+    echo $target->request();
+}
+
+```
+
 Note that **Target.php** is decleared in **Adapter**.
 
 Now for our **DEMO**.
 
 ```php
+
 echo "Client: I can work just fine with the Target objects:<br/>";
 $target = new Target();
 clientCode($target);
@@ -87,6 +93,7 @@ echo "<br/><br/>";
 echo "Client: But I can work with it via the Adapter:<br/>";
 $adapter = new Adapter($adaptee);
 clientCode($adapter);
+
 ```
 
 When we view the result in a browser we see:

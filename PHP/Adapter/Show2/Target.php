@@ -6,6 +6,6 @@ class Target
 {
     public function request(): string
     {
-        return "!!!EMOSEWA si edoC yaR ehT";
+        return "Target: The default target's behavior.";
     }
 }
