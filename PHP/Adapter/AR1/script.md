@@ -62,8 +62,16 @@ function clientCode(Target $target)
     echo $target->request();
 }
 ```
- Now for our demo
+Now for our demo. 
+We start with the files we want to inclued
 
+```php
+include_once ("Adaptee.php");
+include_once ("Adapter.php");
+```
+Note that **Target.php** is decleared in **Adapter**.
+
+Now for our **DEMO**.
 
 ```php
 echo "Client: I can work just fine with the Target objects:<br/>";
