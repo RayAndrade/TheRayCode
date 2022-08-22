@@ -6,6 +6,6 @@ class Adaptee
 {
     public function specificRequest(): string
     {
-        return "!!!EMOSEWA si edoC yaR ehT";
+        return ".eetpadA eht fo roivaheb laicepS";
     }
 }

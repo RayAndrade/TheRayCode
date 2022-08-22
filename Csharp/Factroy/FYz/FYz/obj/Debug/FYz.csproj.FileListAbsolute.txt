@@ -1,0 +1,6 @@
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/FYz/FYz/obj/Debug/FYz.csprojAssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/FYz/FYz/obj/Debug/FYz.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/FYz/FYz/bin/Debug/FYz.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/FYz/FYz/bin/Debug/FYz.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/FYz/FYz/obj/Debug/FYz.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/FYz/FYz/obj/Debug/FYz.pdb

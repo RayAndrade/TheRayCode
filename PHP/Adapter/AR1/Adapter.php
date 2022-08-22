@@ -1,4 +1,7 @@
 <?php
+
+include_once ('Target.php');
+
 class Adapter extends Target
 {
     private $adaptee;

@@ -4,7 +4,7 @@ namespace TheRayCode\Adapter\Conceptual;
 
 include_once ("Target.php");
 
-class Adapter extends Target
+class Adapter
 {
     private $adaptee;
 
@@ -15,6 +15,6 @@ class Adapter extends Target
 
     public function request(): string
     {
-        return "Adapter: (TRANSLATED): " . strrev($this->adaptee->specificRequest());
+        return "Adapter: (TRANSLATED) " . strrev($this->adaptee->specificRequest());
     }
 }

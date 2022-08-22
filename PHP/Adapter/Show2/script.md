@@ -1,7 +1,7 @@
-We start with the *class* **Adaptee**.
+We start with the **Adaptee** *class*.
 
-The Adaptee will contain some useful behavior, **BUT** its interface is incompatible  with the existing client code. 
-The **Adaptee** will need some adaptation before the client code can use it.
+The Adaptee will contain some useful behavior, **BUT** its interface *is* incompatible with the existing client code. 
+We will have to do some adaptation to the **Adaptee** before the client code can use it.
 
 ```php
 class Adaptee
@@ -13,9 +13,9 @@ class Adaptee
 }
 ```
 
-As is noted we are unable to read the message provided.
+As you will notice the text is unable to read the message provided.
 
-Fist we create the **Target** *class*.
+To solve this problem we create a *class* called **Target**.
 
 ```php
 class Target
@@ -51,8 +51,14 @@ class Adapter extends Target
 
 The Adapter makes the Adaptee's interface compatible with the Target's interface.
 
-
 Let's put this all together in the index file.
+
+we to include both the **Adaptee.php** and the **Adapter.php** for our demosration.
+
+```php
+include_once ("Adaptee.php");
+include_once ("Adapter.php");
+```
 
 First we create some client code. The client code supports all classes that follow the Target interface.
 
@@ -62,7 +68,8 @@ function clientCode(Target $target)
     echo $target->request();
 }
 ```
- Now for our demo
+
+Now for some code for our demosration.
 
 
 ```php
