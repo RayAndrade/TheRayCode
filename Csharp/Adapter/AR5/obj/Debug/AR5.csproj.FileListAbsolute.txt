@@ -1,0 +1,6 @@
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR5/bin/Debug/AR5.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR5/bin/Debug/AR5.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR5/obj/Debug/AR5.csprojAssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR5/obj/Debug/AR5.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR5/obj/Debug/AR5.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR5/obj/Debug/AR5.pdb
