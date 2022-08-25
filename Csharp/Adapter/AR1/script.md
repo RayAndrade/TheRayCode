@@ -109,4 +109,15 @@ foreach (var item in listOfString)
 Console.ReadKey();
 ```
  and when we run the project we get.
+ 
+ 
+ ```run
+ 
+Laptop
+Mouse
+Desktop
+keyboard
+Pen Drive
+
+ ```
 
