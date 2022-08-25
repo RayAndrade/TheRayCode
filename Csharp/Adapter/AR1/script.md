@@ -12,7 +12,7 @@ This is done by going to the red bulb and selecting imprort
 ```csarp
 using System;
 ```
-Let's take a look at our first object. We are given a **ThirdPartyAdapter**. The code looks like:
+Let's take a look at our first object. We are given a **ThirdPartyAdapter** *class*. The code looks like:
 ```csharp
 private List<string> listOfString;
 public ThirdPartyAdapter()
@@ -37,12 +37,22 @@ using System.Collections.Generic;
 ```
 
 So we create an *interface* we call **IClientAdapter** which is an *Adapter*.
+
+```csharp
+ public interface IClientAdapter
+ {
+    List<string> GetClientAdapterItem();
+ }
+```
 It requires the *List* item and hence we need to import **System.Collections.Generic**.
 So we add
 ```csharp
 using System.Collections.Generic;
 ```
 
+
+
+Next. 
 The **Client** *class* looks like:
 ```csharp
 private IClientAdapter ilientAdapter;
@@ -73,6 +83,19 @@ public List<string> GetListOfClientItem()
 }
 ```
 
+Now let us look at the **ClientAdapter** class..
+
+```csharp
+public class ClientAdapter:ThirdPartyAdapter, IClientAdapter
+{
+    public List<string> GetClientAdapterItem()
+    {
+        return GetThirdPartyItem();
+    }
+}
+```
+
+
 Now let's put this all in a demostration we one place in the **Program.cs** .
 
 ```csharp
@@ -85,5 +108,5 @@ foreach (var item in listOfString)
 }
 Console.ReadKey();
 ```
-
+ and when we run the project we get.
 
