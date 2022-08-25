@@ -1,6 +1,0 @@
-/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AF1/AbstractFactory/obj/Debug/AbstractFactory.csprojAssemblyReference.cache
-/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AF1/AbstractFactory/obj/Debug/AbstractFactory.csproj.CoreCompileInputs.cache
-/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AF1/AbstractFactory/bin/Debug/AbstractFactory.exe
-/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AF1/AbstractFactory/bin/Debug/AbstractFactory.pdb
-/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AF1/AbstractFactory/obj/Debug/AbstractFactory.exe
-/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AF1/AbstractFactory/obj/Debug/AbstractFactory.pdb
