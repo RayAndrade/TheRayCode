@@ -1,0 +1,6 @@
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR1/Adapter/Adapter/bin/Debug/Adapter.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR1/Adapter/Adapter/bin/Debug/Adapter.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR1/Adapter/Adapter/obj/Debug/Adapter.csprojAssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR1/Adapter/Adapter/obj/Debug/Adapter.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR1/Adapter/Adapter/obj/Debug/Adapter.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR1/Adapter/Adapter/obj/Debug/Adapter.pdb

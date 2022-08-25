@@ -4,7 +4,7 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{E9F458DB-1280-4A97-BA2A-83D0D8AFF8F4}</ProjectGuid>
+        <ProjectGuid>{9CBDBBE6-9331-40AA-96DF-670F28813269}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
         <RootNamespace>Adapter</RootNamespace>
@@ -44,7 +44,6 @@
         <Compile Include="IClientAdapter.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-        <Compile Include="Properties\IClientAdapter.cs" />
         <Compile Include="ThirdPartyAdapter.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
