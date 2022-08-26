@@ -1,123 +1,64 @@
-We start with the basic The Ray Code message.
+We start out with the basic hello world program.
 ```csharp
 Console.WriteLine("The Ray Code is AWESOME!!!");
 ```
-because I use the **Console** method I need to include or add *using* or
 
+we start out with the **Customer** object
 ```csharp
-using System;
+ public int Id { get; set; }
+ public string Name { get; set; }
+ public string Address { get; set; }
+ public string Contact { get; set; }
 ```
 
-This is done by going to the red bulb and selecting imprort
-```csarp
-using System;
-```
-Let's take a look at our first object. We are given a **ThirdPartyAdapter** *class*. The code looks like:
+The **CustomerDTO** is
 ```csharp
-private List<string> listOfString;
-public ThirdPartyAdapter()
-{
-   listOfString = new List<string>();
-}
-
-public List<string> GetThirdPartyItem()
-{
-    listOfString.Add("Laptop");
-    listOfString.Add("Mouse");
-    listOfString.Add("Desktop");
-    listOfString.Add("keyboard");
-    listOfString.Add("Pen Drive");
-     return listOfString;
-}
+ public int CustomerId { get; set; }
+ public string FullName { get; set; }
+ public string AddressDetails { get; set; }
+ public string Mobile { get; set; }
 ```
 
-As a result we need add
+Install **Newtonsoft.Json;**.
+So in the end we have 
 ```csharp
-using System.Collections.Generic;
+ using System.Collections.Generic;
+ using Newtonsoft.Json;
+```
+the top.
+
+We create a **ICustomer** interface.
+```csharp
+ IEnumerable<CustomerDTO> GetCustomers();
 ```
 
-So we create an *interface* we call **IClientAdapter** which is an *Adapter*.
-
+We need to import the **System.Collections.Generic** for the **IEnumerable** object.
 ```csharp
- public interface IClientAdapter
+ using System.Collections.Generic;
+```
+So let's create an Adapter we will call it **CustomerAdapter**.
+
+we want to extned is with
+```csharp
+ : CustomerManager,ICustomer
+```
+include missing reference. That should yeild
+```csharp
+public class CustomerAdapter:CustomerManager,ICustomer
  {
-    List<string> GetClientAdapterItem();
+     public IEnumerable<CustomerDTO> GetCustomers()
+     {
+         throw new System.NotImplementedException();
+     }
  }
 ```
-It requires the *List* item and hence we need to import **System.Collections.Generic**.
-So we add
-```csharp
-using System.Collections.Generic;
-```
-
-
-
-Next. 
-The **Client** *class* looks like:
-```csharp
-private IClientAdapter ilientAdapter;
-
-public Client(IClientAdapter _ilientAdapter)
-{
-   this.ilientAdapter = _ilientAdapter;
-}
-
-public List<string> GetListOfClientItem()
-{
-    return this.ilientAdapter.GetClientAdapterItem();
-}
-```
-
-Of course we have a **IClientAdapter** handle called *ilientAdapter*.
-We also need to include 
-```csharp
-using System.Collections.Generic;
-```
-
-for our
-
-```csharp
-public List<string> GetListOfClientItem()
-{
-    return this.ilientAdapter.GetClientAdapterItem();
-}
-```
-
-Now let us look at the **ClientAdapter** class..
-
-```csharp
-public class ClientAdapter:ThirdPartyAdapter, IClientAdapter
-{
-    public List<string> GetClientAdapterItem()
-    {
-        return GetThirdPartyItem();
-    }
-}
-```
-
-
-Now let's put this all in a demostration we one place in the **Program.cs** .
-
-```csharp
-IClientAdapter iClientAdapter = new ClientAdapter();
-Client objClient = new Client(iClientAdapter);
-List<string> listOfString = objClient.GetListOfClientItem();
-foreach (var item in listOfString)
-{
-    Console.WriteLine(item);
-}
-Console.ReadKey();
-```
- and when we run the project we get.
+repace the throw statment with,
  
  
- ```run
- 
-Laptop
-Mouse
-Desktop
-keyboard
-Pen Drive
+Now let' put this all together in the **Program.cs**,
 
- ```
+
+
+Compile yeilds nothing..
+
 
