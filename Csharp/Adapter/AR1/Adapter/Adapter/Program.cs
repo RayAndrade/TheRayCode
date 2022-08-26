@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Adapter
 {
@@ -9,7 +10,7 @@ namespace Adapter
         {
             ICustomer customer = new CustomerAdapter();
             IEnumerable<CustomerDTO> data = customer.GetCustomers();
-            Console.WriteLine(data);
+            Console.WriteLine(data.First().FullName);
         }
     }
 }
