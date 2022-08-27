@@ -6,6 +6,13 @@ In this section of my github repository I list of my demonstrations showing the 
 
 Git Repositories
 
+
+
+
+| c1 | co2 | co2
+|: colum 1|: colum 3|: colum 3|
+
+
 [AR1](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Adapter/AR1)
 
 [AR2](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Adapter/AR2)
