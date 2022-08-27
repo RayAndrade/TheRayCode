@@ -9,7 +9,7 @@ Git Repositories
 
 
 
-| c1 | co2 | co2
+| Column 1 | Column 2 | Column 3|
 |: colum 1|: colum 3|: colum 3|
 
 
