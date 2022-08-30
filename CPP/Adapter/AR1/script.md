@@ -43,33 +43,48 @@ This will return the default behaivor.
 Our next *class* we will create will be the **Adaptee**. 
 
 ```cpp
-
-class Adaptee {
+ class Adaptee {
  
 };
 ```
 The code for this class
 
 ```cpp
-
-public:
+ public:
     std::string SpecificRequest() const {
         return ".eetpadA eht fo roivaheb laicepS";
     }
 
 ```
+
 So for the **SpecificRequest** we will need to include the
+The Adapter will be extended by **Target** which will mean we need ti include the Target.h file.
+
+
 ```cpp
  #include "Target.h"
 ```
 
-The Adapter will be extended by **Target** which will mean we need ti include the Target.h file.
+Let's create a class called **Adapter**.
+
+
+
+```cpp
+ class Adapter {
+ 
+};
+```
+We will *extend* the  **Adapter** with the **Target** class.
 
 ```cpp
   : public Target
 ```
+We need to include the **Target** class.
 
-So lets add a privite varable pointer
+So also need to import **Target**
+
+
+So lets **add** a privite varable pointer
 
 ```cpp
  private:
@@ -78,8 +93,16 @@ So lets add a privite varable pointer
 
 And we add the public **Adapter** constructor
 
+Also incude the **Adaptee**
+
 ```cpp
-public:
+ #include "Adaptee.h"
+```
+
+So the adapter passes the sring decoded
+
+```cpp
+ public:
     Adapter(Adaptee *adaptee) : adaptee_(adaptee) {}
     std::string Request() const override {
         std::string to_reverse = this->adaptee_->SpecificRequest();
@@ -88,17 +111,89 @@ public:
     }
 ```
 This will return the *translation* of the message.
+Let's put this altogether in main
 
 
+we start with some *client* code
+```cpp
+ void ClientCode(const Target *target) {
+    std::cout << target->Request();
+}
+```
+ because of **std** we include **iostream**.
+
+```cpp
+ #include <iostream>
+```
+The client code looks like
+
+```cpp
+ void ClientCode(const Target *target) {
+    std::cout << target->Request();
+}
+```
+**Adapter** also cotains/has the Target file included and we will also need the  **Adapter** which also includes to **Target** file , so we
+inclue the **Adapter** file
+
+```cpp
+ #include "Adapter.h"
+```
+
+we will also be using the
+```cpp
+ #include <algorithm>
+```
+library
 
 
+So for our demo
 
+First we take a look at **Target**
 
+```cpp
+ std::cout << "Client: I can work just fine with the Target objects:\n";
+ Target *target = new Target;
+ ClientCode(target);
+ std::cout << "\n\n";
+```
 
+next we setup the **Adaptee**
+```cpp
+ Adaptee *adaptee = new Adaptee;
+ std::cout << "Client: The Adaptee class has a weird interface. See, I don't understand it:\n";
+ std::cout << "Adaptee: " << adaptee->SpecificRequest();
+ std::cout << "\n\n";
+```
 
+And now dmonstrate the **Adapter**
 
+```cpp
+ std::cout << "Client: But I can work with it via the Adapter:\n";
+ Adapter *adapter = new Adapter(adaptee);
+ ClientCode(adapter);
+ std::cout << "\n";
+```
+and let's do some cleanup.
 
+```cpp
+ delete target;
+ delete adaptee;
+ delete adapter;
+```
 
+WE now compile and run we should get
+
+```run
+Client: I can work just fine with the Target objects:
+Target: The default target's behavior.
+
+Client: The Adaptee class has a weird interface. See, I don't understand it:
+Adaptee: .eetpadA eht fo roivaheb laicepS
+
+Client: But I can work with it via the Adapter:
+Adapter: (TRANSLATED) Special behavior of the Adaptee.
+
+```
 
 
 
