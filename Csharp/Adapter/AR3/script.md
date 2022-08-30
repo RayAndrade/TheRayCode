@@ -1,17 +1,20 @@
 ```url
 https://youtu.be/h400NTIOrf8
 ```
+
+Which will need us to have at the top.
+
+```charp
+using System;
+```
+
 Setup:
 
-New Solution >>
-Solution Name: Show
-Project Name: Show
-
-Solution Dirtetory
-
-/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/
-
-SDK 3.1
+```setup
+ /usr/lib/mono/msbuild/15.0/bin/MSBuild.dll
+ 
+ Build Engine version 16.6.0 for Mono
+```
 
 Language C#
 
@@ -23,8 +26,19 @@ put solution in same directory
 
 Refactor Show to Adapter
 
+
+
+We start out with
+```csharp
+Console.WriteLine("The Ray Code is AWESOME!!!");
+```
+
+@ time = 4:54
+
 We start by creating a project space we call **Adapter**.
 We will demonstrate the **Adapter** design pattern.
+
+@ time = 3:11
 
 We start by defining our **Customer**. 
 We have a class that is called **CustomerCustomer**. It looks like this:
@@ -38,6 +52,10 @@ public class Customer
 }
 ```
 Note: Look for a way that will auto-generate the getters and setters.
+
+@ time = 5:27
+
+
 
 We assume that a class called **CustomerManager** that has been provide by a customer to be adaped by the class we are now creating.
 
@@ -63,6 +81,8 @@ Because we are using *List* we need to import *System.Collections.Generic*
 using System.Collections.Generic;
 ```
 Our next bit of code is a record in Json format
+
+@ time = 5:28 come back and 6:27
 
 ```csharp
 public CustomerManager()
@@ -94,6 +114,8 @@ using Newtonsoft.Json;
 
 I am using *Newtonsoft.Json* v.13.1.2
 
+@ time = 7:31 go to main FAKOUT @ 7:49 goto **CustomerDTO**
+
 Next we create a *class* we call the **CustomerDTO**.
 
 ```csharp
@@ -105,6 +127,25 @@ public class CustomerDTO
     public string Mobile { get; set; }
 }
 ```
+Slide demo talk 8:31 to 8:42 no go to **Main**
+
+
+At this point I have already sdded code to the **CustomerDTO** **not yet**
+
+
+@time 5:44
+
+the Customer class is created.
+
+public class Customer
+{
+    public int CustomerId { get; set; }
+    public string FullName { get; set; }
+    public string AddressDetails { get; set; }
+    public string Mobile { get; set; }
+}
+
+
 
 So now our goal is to map **CustomerManager** to the **CustomerDTO**. We do this by adding the class **CostomerAdapter**.
 
@@ -151,6 +192,30 @@ we import the missing reference
 using System.Collections.Generic;
 ```
 
+@at time 9:39
+```csharp
+public class CustomerAdapter : CustomerManager
+{
+    class CustomerAdapter
+    {}
+}
+```
+
+
+@13:25 view slides untill 13:34
+
+@13:38
+
+```cshap
+public interface ICustomer
+ {
+    IEnumerable<CustomerDTO> GetCustomers();
+ }
+```
+
+
+
+
  and we add the **ICustomer** to the **CustomerAdapter** the result will be:
 ```csharp
 public class CustomerAdapter : CustomerManager  , ICustomer
@@ -179,9 +244,16 @@ var data = manager.GetData();
 
 
 
+@time 7:31 start a 8:42
+
+at the Main method in program.
 
 
-
+```csharp
+ ICustomer customer = new CustomerAdapter();
+ IEnumerable<CustomerDTO> data = customer.GetCustomers();
+ Console.WriteLine(data);
+```
 
 
 

@@ -1,0 +1,13 @@
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR2/Adapter/Adapter/bin/Debug/Adapter.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR2/Adapter/Adapter/bin/Debug/Adapter.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR2/Adapter/Adapter/obj/Debug/Adapter.csprojAssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR2/Adapter/Adapter/obj/Debug/Adapter.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR2/Adapter/Adapter/obj/Debug/Adapter.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR2/Adapter/Adapter/obj/Debug/Adapter.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR2/Adapter/Adapter/bin/Debug/Adapter.exe.config
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR2/Adapter/Adapter/bin/Debug/dotMemory.Unit.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR2/Adapter/Adapter/bin/Debug/Newtonsoft.Json.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR2/Adapter/Adapter/bin/Debug/dotMemory.Unit.xml
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR2/Adapter/Adapter/bin/Debug/Newtonsoft.Json.xml
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR2/Adapter/Adapter/obj/Debug/Adapter.exe.config
+/home/ray/TheRayCode/TheRayCode/Csharp/Adapter/AR2/Adapter/Adapter/obj/Debug/Adapter.csproj.CopyComplete
