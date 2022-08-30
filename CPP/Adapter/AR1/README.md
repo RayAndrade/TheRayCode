@@ -47,7 +47,7 @@ public:
     }
 };
 ```
-![Factory](/UMLs/images/Adaptee-1.jpg)
+![Adapter](/UMLs/images/Adapter/Adaptee-1.jpg)
 
 First we need to add some includes
 ```cpp
