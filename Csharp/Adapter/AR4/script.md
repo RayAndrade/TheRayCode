@@ -25,3 +25,102 @@ Let's now look at some code:
 
 @ 6:21
 
+main method view at 7:27
+```csharp
+
+
+static void Main(string[] ars)
+{
+     ManagersData md = new ManagersData();
+     Console.WriteLine( md.GetQualifiedData() );
+     
+     // Remove during video
+     // EmployeeData emplo = new EmployeeData();
+     // emplo.GetQualifiedData();
+     
+
+      EmployeeAdaptee emplo = new EmployeeAdaptee();
+      string finalOutput = string.Format("Total {0} {1}", emplo.ContractEmployeeData(), emplo.FullTimeEmployeeData());
+      emplo.GetQualifiedData();
+     
+     Console.ReadLine();
+}
+
+```
+@ 7:38
+
+Let now take a look at class **ManagerData**
+
+```csharp
+public class ManagersData  // IData
+{
+   public string GetQualifiedData()
+   {
+       return "All Managers qualified data";
+   }
+}
+```
+
+@ 8:16
+
+```csharp
+public class EmployeeAdaptee
+{
+    public string FullTimeEmployeeData()
+    {
+        return "All full time employee data"; 
+    }
+    public string ContractEmployeeData()
+    {
+        return "All contract employee data";
+    }
+
+    public void GetQualifiedData()
+    {
+        throw new System.NotImplementedException();
+    }
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

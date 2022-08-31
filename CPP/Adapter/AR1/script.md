@@ -52,7 +52,7 @@ The code for this class
 ```cpp
  public:
     std::string SpecificRequest() const {
-        return ".eetpadA eht fo roivaheb laicepS";
+        return "!!!EMOSEWA si edoC yaR ehT";
     }
 
 ```

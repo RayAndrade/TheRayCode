@@ -3,4 +3,4 @@ project(Show)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Show main.cpp RemoteDisplay.h LocalDisplay.h DispayAdapter.h)
+add_executable(Show main.cpp Target.h Adaptee.h)
