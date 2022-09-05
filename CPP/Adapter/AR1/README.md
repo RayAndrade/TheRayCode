@@ -1,7 +1,8 @@
 # TheRayCode
 ## Adapter design pattern c++
 
-This will be a code demonstration of the **Adapter** design pattern using C++
+In this artical I plan review and demontrate the the **Adapter** design pattern using C++.
+We start by creating a class we call **Target**.
 The **Target** defines the domain-specific interface used by the client code.
 ```cpp
 #include <iostream>
@@ -14,7 +15,7 @@ public:
     }
 };
 ```
-
+To our project we add the **Adaptee** class
 The **Adaptee** contains some useful behavior, but its interface is incompatible with the existing client code. 
 The **Adaptee** needs some adaptation before the client code can use it.
 ```cpp
