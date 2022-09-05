@@ -5,8 +5,11 @@ Lication
 /home/ray/TheRayCode/TheRayCode/CPP/Adapter/Show
 ```
 
+
+In this code demonstation I will cover th Adapter design pattern using C++
+We strat by creating to **Target** class.
 The Target defines the *domain-specific* interface that will be used by the client.
-We begin by creating an object we call **Target**
+
 With focus on a file in the file explorer, right click > C++ header file.
 Add to targets checked / Shoe checked
 
