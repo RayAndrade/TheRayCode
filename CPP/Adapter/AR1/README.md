@@ -1,7 +1,7 @@
 # TheRayCode
 ## Adapter design pattern c++
 
-
+This will be a code demonstration of the **Adapter** design pattern using C++
 The **Target** defines the domain-specific interface used by the client code.
 ```cpp
 #include <iostream>

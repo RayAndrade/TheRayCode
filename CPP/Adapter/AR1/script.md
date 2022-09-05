@@ -6,8 +6,8 @@ Lication
 ```
 
 
-In this code demonstation I will cover th Adapter design pattern using C++
-We strat by creating to **Target** class.
+In this code demonstation I will cover the Adapter design pattern using C++
+We start by creating a class we call **Target**.
 The Target defines the *domain-specific* interface that will be used by the client.
 
 With focus on a file in the file explorer, right click > C++ header file.
