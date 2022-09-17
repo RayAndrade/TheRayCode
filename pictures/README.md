@@ -5,5 +5,5 @@
 The standard size for desktop wallpaper is *1920 pixels in width* and *1080 pixels in height* **(1920×1080 px)**. 
 Other popular sizes include 2560×1440 pixels (QHD) and 3840×2160 pixels (4K).
 
-[![vimeo](https://github.com/RayAndrade/TheRayCode/pictures/cpp/splash.jpg)](https://vimeo.com/735684583)
+[![vimeo](https://github.com/RayAndrade/TheRayCode/pictures/cpp/splash.png)](https://vimeo.com/735684583)
 
