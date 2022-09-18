@@ -4,13 +4,12 @@ Hi, I'm Ray and this is my code for the project I call The Ray Code.
 
 
 
-[CPP](https://github.com/RayAndrade/TheRayCode/tree/main/CPP)
+[CPP](https://github.com/RayAndrade/TheRayCode/tree/main/CPP) | [CSHARP](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp) | [JAVA](https://github.com/RayAndrade/TheRayCode/tree/main/Java)  | [PHP](https://github.com/RayAndrade/TheRayCode/tree/main/PHP)
 
 
+[TheRayCode.ORG](https://www.TheRayCode.org/)
 
-[.ORG](https://www.rayandrade.org/)
-
-[.COM](https://www.rayandrade.com/)
+[RayAndrade.COM](https://www.rayandrade.com/)
 
 [youtube](https://www.youtube.com/TheRayCode/)
 
