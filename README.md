@@ -2,8 +2,6 @@
 
 Hi, I'm Ray and this is my code for the project I call The Ray Code.
 
-
-
 [CPP](https://github.com/RayAndrade/TheRayCode/tree/main/CPP) | [CSHARP](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp) | [JAVA](https://github.com/RayAndrade/TheRayCode/tree/main/Java)  | [PHP](https://github.com/RayAndrade/TheRayCode/tree/main/PHP)
 
 
