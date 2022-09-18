@@ -2,8 +2,8 @@
 ## is AWESOME!!!
 **C++ Structural**
 
-
-[![C++](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/pictures/cpp/splash.png width=100)]()
+TheRayCode/pictures
+[![C++](/TheRayCode/main/pictures/cpp/splash.png width=100)]()
 
 
 [Adapter](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Structural/Adapter)
