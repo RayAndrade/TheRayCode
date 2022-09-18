@@ -3,12 +3,7 @@
 **C++ Structural**
 
 TheRayCode/pictures
-![C++](/TheRayCode/main/pictures/cpp/splash.png width=100)]()
-
-![This is an image](https://i0.wp.com/rayandrade.com/wp-content/uploads/2021/12/abstract-_factory03.jpeg?resize=1536%2C1024&ssl=1)
-
-
-
+![C++](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/pictures/cpp/splash.png width=100)]()
 
 [Adapter](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Structural/Adapter)
 
