@@ -1,12 +1,6 @@
-# TheRayCode Java
+# TheRayCode 
 
 Hi, I'm Ray and this is my code for the project I call The Ray Code.
-
-Here are some of my social media accounts.
-
-
-[![vimeo](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/Adapter141.png)](https://vimeo.com/735684583)
-
 
 
 ([youtube](https://www.youtube.com/TheRayCode/))
@@ -23,10 +17,10 @@ Here are some of my social media accounts.
 
 ([LinkedIn](https://www.linkedin.com/in/theraycode/))
 
+([.ORG](https://www.rayandrade.org/))
 
-https://rayandrade.com/
+([.COM](https://www.rayandrade.com/))
 
-https://rayandrade.org/
 
 ![This is an image](https://i0.wp.com/rayandrade.com/wp-content/uploads/2021/12/abstract-_factory03.jpeg?resize=1536%2C1024&ssl=1)
 
