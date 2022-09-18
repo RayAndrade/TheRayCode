@@ -1,6 +1,6 @@
 # TheRayCode
 ## is AWESOME!!!
-**C++ Factory Design Pattern in CPP**
+**C++ Factory Design Pattern**
 
  * [Example 1](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Factory/FY1/README.md)
  * [Example 2](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Factory/FY2/README.md)
