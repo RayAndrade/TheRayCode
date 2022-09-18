@@ -1,6 +1,6 @@
 # TheRayCode
 ## is AWESOME!!!
-C++ section
+**C++ Creational**
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 

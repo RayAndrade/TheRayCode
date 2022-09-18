@@ -1,6 +1,10 @@
 # TheRayCode
 ## is AWESOME!!!
-C++ section
+**C++ Structural**
+
+[Adapter](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Structural/Adapter)
+
+
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 

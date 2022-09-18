@@ -1,6 +1,6 @@
 # TheRayCode
 ## is AWESOME!!!
-C++ section
+**C++ Behavioral**
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
