@@ -4,20 +4,18 @@
 **C++ Creational Patterns**
 
  * [Factory](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Factory/README.md)
-
  * [AbstractFactory](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/AbstractFactory/README.md)
- 
  * [Builder](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Builder/README.md)
-
  * [Prototype](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Prototype/README.md)
-
  * [Singleton](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Singleton/README.md)
 
-[C++](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/README.md)    
+[C++](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/README.md) 
+
+
+[TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[TheRayCode.ORG](https://www.TheRayCode.org)
 
 [Facebook](https://www.facebook.com/TheRayCode/)
 
