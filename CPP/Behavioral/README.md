@@ -9,7 +9,7 @@
 
 https://github.com/RayAndrade/TheRayCode/blob/main/CPP/Behavioral/Mediator/README.md
 
- * [Mediator](https://github.com/RayAndrade/TheRayCode/blob/main/CPP/Behavoiral/Mediator/README.md)
+ * [Mediator](https://github.com/RayAndrade/TheRayCode/blob/main/CPP/Behavioral/Mediator/README.md)
  * 
  * [Memento](https://github.com/RayAndrade/TheRayCode/blob/main/main/CPP/Behavoiral/Memento/README.md)
  * [Observer](https://github.com/RayAndrade/TheRayCode/blob/main/main/CPP/Behavoiral/Observer/README.md)
