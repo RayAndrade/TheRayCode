@@ -2,6 +2,12 @@
 
 Hi, I'm Ray and this is my code for the project I call The Ray Code.
 
+A design pattern is a general repeatable solution to a commonly occurring problem in software design in software engineering.
+
+Design Patterns are ways of expressing solid architectures that are reusable, extensible and industry standard. 
+The concepts of design patterns are usable and understandable in any language and any environment.
+
+
 [CPP](https://github.com/RayAndrade/TheRayCode/tree/main/CPP) | [CSHARP](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp) | [JAVA](https://github.com/RayAndrade/TheRayCode/tree/main/Java)  | [PHP](https://github.com/RayAndrade/TheRayCode/tree/main/PHP)
 
 
