@@ -4,8 +4,8 @@
 **C++ Behavoiral Patterns**
 
  * [ChainOfResponsibility](https://github.com/RayAndrade/TheRayCode/blob/main/CPP/Behavioral/ChainOfResponsibility/README.md)
- 
- * [Iterator](https://github.com/RayAndrade/TheRayCode/CPP/Behavoiral/Iterator/README.md)
+
+* [Iterator](https://github.com/RayAndrade/TheRayCode/blob/main/CPP/Behavioral/Iterator/README.md)
 
  * [Mediator](https://github.com/RayAndrade/TheRayCode/blob/main/CPP/Behavoiral/Mediator/README.md)
  * [Memento](https://github.com/RayAndrade/TheRayCode/blob/main/main/CPP/Behavoiral/Memento/README.md)
