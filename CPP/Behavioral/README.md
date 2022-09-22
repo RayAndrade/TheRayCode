@@ -13,12 +13,15 @@
  * [Strategy](https://github.com/RayAndrade/TheRayCode/blob/main/main/CPP/Creational/Strategy/README.md)
  * [Template](https://github.com/RayAndrade/TheRayCode/blob/main/main/CPP/Creational/Template/README.md)
  * [Visitor](https://github.com/RayAndrade/TheRayCode/blob/main/main/CPP/Creational/Visitor/README.md)
-  
+
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
-[Facebook](https://www.facebook.com/TheRayCode/)
+[RayAndrade.COM](https://www.RayAndrade.com)
+
+
+[YouTube](https://www.youtube.com/AndradeRay/)
 
 [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
 
-[YouTube](https://www.youtube.com/AndradeRay/)
+[Facebook](https://www.facebook.com/TheRayCode/)
 
