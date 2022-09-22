@@ -14,14 +14,14 @@
  * [Template](https://github.com/RayAndrade/TheRayCode/blob/main/main/CPP/Creational/Template/README.md)
  * [Visitor](https://github.com/RayAndrade/TheRayCode/blob/main/main/CPP/Creational/Visitor/README.md)
 
+
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
 
-[YouTube](https://www.youtube.com/AndradeRay/)
+[Facebook](https://www.facebook.com/TheRayCode/)
 
 [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
 
-[Facebook](https://www.facebook.com/TheRayCode/)
-
+[YouTube](https://www.youtube.com/AndradeRay/)
