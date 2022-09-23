@@ -28,8 +28,3 @@
 [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
 
 [YouTube](https://www.youtube.com/AndradeRay/)
-
-
-TheRayCode/pictures
-![C++](https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/pictures/cpp/splash.png width=100)]()
-
