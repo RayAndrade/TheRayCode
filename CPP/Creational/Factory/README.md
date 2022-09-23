@@ -6,11 +6,13 @@
  * [Example 2](FY2/)
  * [Example 3](FY3/README.md)
 
-**[Creational Patterns](../README.md)**
 
-**[Behavioral](../../Behavioral/README.md)**
+**[Creational](./README.md)**
 
-**[Structural](../../Structural/README.md)**
+**[Structural](../Structural/README.md)**
+
+**[Behavioral](../Behavioral/README.md)**
+
 
 **[C++](../../README.md)**  
 
