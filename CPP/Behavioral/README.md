@@ -3,6 +3,11 @@
 
 **C++ Behavoiral Patterns**
 
+* **[C++](../README.md)** * 
+
+
+* **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
+
 * **[ChainOfResponsibility](./ChainOfResponsibility/README.md)**
 * **[Iterator](./Iterator/README.md)**
 * **[Mediator](./Mediator/README.md)**
@@ -13,9 +18,6 @@
 * **[Template](./Template/README.md)**
 * **[Visitor](./Visitor/README.md)**
 
-* **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
-
-* **[C++](../README.md)** * 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
