@@ -3,9 +3,9 @@
 
 **C++ Structural Patterns**
 
- * [Adapter](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Structural/Adapter/README.md)
- * [Bridge](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Structural/Bridge/README.md)
- * [Command](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Structural/Command/README.md)
+ * [Adapter](./Adapter/README.md)
+ * [Bridge](./Bridge/README.md)
+ * [Command](./Command/README.md)
  * [Composite](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Structural/Composite/README.md)
  * [Decorator](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Structural/Decorator/README.md)
  * [Facade](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Structural/Facade/README.md)
