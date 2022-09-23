@@ -10,6 +10,8 @@
 
 [Behavioral](../../Behavioral/README.md)
 
+[Structural](../../Structural/README.md)
+
 [C++](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/README.md)  
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
