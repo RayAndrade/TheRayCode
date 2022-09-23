@@ -3,11 +3,11 @@
 
 **C++ Creational Patterns**
 
- * [Factory](/Factory/README.md)
+ * [Factory](./Factory/README.md)
  * [AbstractFactory](./AbstractFactory/README.md)
- * [Builder](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Builder/README.md)
- * [Prototype](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Prototype/README.md)
- * [Singleton](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Singleton/README.md)
+ * [Builder](./Builder/README.md)
+ * [Prototype](./Prototype/README.md)
+ * [Singleton](./Singleton/README.md)
 
 [C++](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/README.md) 
 
