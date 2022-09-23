@@ -5,7 +5,7 @@
 
 * **[C++](../README.md)** * 
 
-**C++ Creational Patterns**
+* **C++ Creational Patterns** *
 
  * **[Factory](./Factory/README.md)**
  * **[AbstractFactory](./AbstractFactory/README.md)**
