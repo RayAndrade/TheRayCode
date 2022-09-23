@@ -2,6 +2,10 @@
 ## is AWESOME!!!
 C++ Template section
 
+[Behavioral](../README.md)
+
+
+
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
