@@ -8,7 +8,7 @@
 
 [Creational Patterns](../README.md)
 
-[Creational Patterns](../Behavioral/README.md)
+[Behavioral](../../Behavioral/README.md)
 
 [C++](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/README.md)  
 
