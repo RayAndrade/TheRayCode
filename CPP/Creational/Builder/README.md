@@ -4,13 +4,12 @@
 
 * [Example 1](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/AbstractFactory/BR1/README.md)
 
+**[C++](../../README.md)**  
 
-[C++](../../README.md)  
-
+[TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[TheRayCode.ORG](https://www.TheRayCode.org)
 
 [Facebook](https://www.facebook.com/TheRayCode/)
 
