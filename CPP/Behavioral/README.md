@@ -5,17 +5,13 @@
 
 * [ChainOfResponsibility](./ChainOfResponsibility/README.md)
 * [Iterator](./Iterator/README.md)
-
-https://github.com/RayAndrade/TheRayCode/blob/main/CPP/Behavioral/Mediator/README.md
-
- * [Mediator](https://github.com/RayAndrade/TheRayCode/blob/main/CPP/Behavioral/Mediator/README.md)
- * 
- * [Memento](https://github.com/RayAndrade/TheRayCode/blob/main/main/CPP/Behavoiral/Memento/README.md)
- * [Observer](https://github.com/RayAndrade/TheRayCode/blob/main/main/CPP/Behavoiral/Observer/README.md)
- * [State](https://github.com/RayAndrade/TheRayCode/blob/main/main/CPP/Behavoiral/State/README.md)
- * [Strategy](https://github.com/RayAndrade/TheRayCode/blob/main/main/CPP/Behavoiral/Strategy/README.md)
- * [Template](https://github.com/RayAndrade/TheRayCode/blob/main/main/CPP/Behavoiral/Template/README.md)
- * [Visitor](https://github.com/RayAndrade/TheRayCode/blob/main/main/CPP/Behavoiral/Visitor/README.md)
+* [Mediator](./Mediator/README.md)
+* Memento](./Memento/README.md)
+* [Observer](./Observer/README.md)
+* [State](./State/README.md)
+* [Strategy](./Strategy/README.md)
+* [Template](./Template/README.md)
+* [Visitor](./Visitor/README.md)
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
