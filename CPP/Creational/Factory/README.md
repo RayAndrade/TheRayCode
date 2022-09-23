@@ -9,7 +9,7 @@
 
 **[Creational](./README.md)**
 
-**[Structural](./Structural/README.md)**
+**[Structural](../Structural/README.md)**
 
 **[Behavioral](../Behavioral/README.md)**
 
