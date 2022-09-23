@@ -3,7 +3,7 @@
 **C++ Factory Design Pattern**
 
  * [Example 1](FY1/)
- * [Example 2](FY2/README.md)
+ * [Example 2](FY2/)
  * [Example 3](FY3/README.md)
 
 [Creational Patterns](../README.md)
