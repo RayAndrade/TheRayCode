@@ -3,8 +3,8 @@
 **C++ section**
 
  * [Creational](./Creational/README.md)
- * [Structural](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Structural/README.md)
- * [Behavioral](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Behavioral/README.md)
+ * [Structural](./Structural/README.md)
+ * [Behavioral](./Behavioral/README.md)
 
 
 [TheRayCode.ORG](https://www.TheRayCode.ORG)
