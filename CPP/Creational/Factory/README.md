@@ -6,13 +6,13 @@
  * [Example 2](FY2/)
  * [Example 3](FY3/README.md)
 
-[Creational Patterns](../README.md)
+**[Creational Patterns](../README.md)**
 
-[Behavioral](../../Behavioral/README.md)
+**[Behavioral](../../Behavioral/README.md)**
 
-[Structural](../../Structural/README.md)
+**[Structural](../../Structural/README.md)**
 
-[C++](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/README.md)  
+**[C++](../../../README.md)**  
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
