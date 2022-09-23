@@ -9,7 +9,7 @@
  * [Prototype](./Prototype/README.md)
  * [Singleton](./Singleton/README.md)
 
-[C++](../README.md) 
+**[C++](../README.md)** 
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
