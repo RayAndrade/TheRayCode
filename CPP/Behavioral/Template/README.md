@@ -4,7 +4,7 @@ C++ Template section
 
 [Behavioral](../README.md)
 
-[Structural](./Structural/README.md)
+[Structural](../Structural/README.md)
 
 [Behavioral](../README.md)
 
