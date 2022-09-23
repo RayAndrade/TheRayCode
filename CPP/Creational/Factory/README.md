@@ -12,7 +12,7 @@
 
 **[Structural](../../Structural/README.md)**
 
-**[C++](../../../README.md)**  
+**[C++](../../README.md)**  
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
