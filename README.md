@@ -8,7 +8,7 @@ Design Patterns are ways of expressing solid architectures that are reusable, ex
 The concepts of design patterns are usable and understandable in any language and any environment.
 
 
-[CPP](./CPP) | [CSHARP](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp) | [JAVA](https://github.com/RayAndrade/TheRayCode/tree/main/Java)  | [PHP](https://github.com/RayAndrade/TheRayCode/tree/main/PHP)
+[CPP](./CPP) | [CSHARP](./Csharp) | [JAVA](./Java)  | [PHP](./PHP)
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org/)
