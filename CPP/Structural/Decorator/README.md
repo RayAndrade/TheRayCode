@@ -1,5 +1,10 @@
 # TheRayCode
 ## is AWESOME!!!
+
+* **[C++](../README.md)** * 
+
+* **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
+
 C++ Decorator section
 
  * **[Adapter](../Adapter/README.md)**
