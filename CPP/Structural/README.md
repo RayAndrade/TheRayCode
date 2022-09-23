@@ -12,6 +12,8 @@
  * [Flyweight](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Structural/Flyweight/README.md) 
  * [Proxy](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Structural/Proxy/README.md)
 
+[C++](../README.md) 
+
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
