@@ -8,7 +8,7 @@ CPP/Creational
 
 **[Creational Patterns](../README.md)**
 
-**[Structural Patterns](../../Structural/README.md)**
+**[Structural Patterns](../../Structural/)**
 
 [C++](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/README.md)  
 
