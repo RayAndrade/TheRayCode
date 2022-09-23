@@ -11,7 +11,7 @@ C++ Mediator section
 
 [Behavioral](../README.md) 
  
-[Structural](../../Structural/README.md)
+[Mediator](../../Mediator/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
