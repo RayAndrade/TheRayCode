@@ -2,6 +2,16 @@
 ## is AWESOME!!!
 C++ Facade section
 
+ * **[Adapter](../Adapter/README.md)**
+ * **[Bridge](../Bridge/README.md)**
+ * **[Command](../Command/README.md)**
+ * **[Composite](../Composite/README.md)**
+ * **[Decorator](../Decorator/README.md)**
+ * **[Facade](./README.md)**
+ * **[Flyweight](../Flyweight/README.md)**
+ * **[Proxy](../Proxy/README.md)**
+
+
 [RayAndrade.COM](https://www.RayAndrade.com)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
