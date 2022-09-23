@@ -6,7 +6,7 @@
  * [Example 2](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Factory/FY2/README.md)
  * [Example 3](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Factory/FY3/README.md)
 
-[Creational Patterns](../../README.md)
+[Creational Patterns](../README.md)
 
 [C++](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/README.md)  
 
