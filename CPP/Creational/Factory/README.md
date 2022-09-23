@@ -11,16 +11,6 @@
  * [Example 2](FY2/)
  * [Example 3](FY3/README.md)
 
-
-**[Creational](./README.md)**
-
-**[Structural](../Structural/README.md)**
-
-**[Behavioral](../Behavioral/README.md)**
-
-
-**[C++](../../README.md)**  
-
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
