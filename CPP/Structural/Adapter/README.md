@@ -1,5 +1,10 @@
 # TheRayCode
 ## is AWESOME!!!
+
+* **[C++](../README.md)** * 
+
+* **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
+
 C++ Adapter section
 
 **[Adapter AR1](./AR1/README.md)**  [refactoring.guru](https://refactoring.guru/design-patterns/adapter/cpp/example)
