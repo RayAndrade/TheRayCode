@@ -2,7 +2,7 @@
 ## is AWESOME!!!
 **C++ Singleton Design Pattern**
 
- * [Example 1](../SN1/README.md)
+ * [Example 1](/SN1/README.md)
 
 [Creational Patterns](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/README.md)
 
