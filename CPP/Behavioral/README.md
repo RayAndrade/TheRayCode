@@ -6,7 +6,7 @@
 * [ChainOfResponsibility](./ChainOfResponsibility/README.md)
 * [Iterator](./Iterator/README.md)
 * [Mediator](./Mediator/README.md)
-* Memento](./Memento/README.md)
+* [Memento](./Memento/README.md)
 * [Observer](./Observer/README.md)
 * [State](./State/README.md)
 * [Strategy](./Strategy/README.md)
