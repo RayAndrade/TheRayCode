@@ -4,6 +4,9 @@ C++ Template section
 
 [Behavioral](../README.md)
 
+[Structural](./Structural/README.md)
+
+[Behavioral](../README.md)
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
