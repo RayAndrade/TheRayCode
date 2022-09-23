@@ -9,6 +9,9 @@
 
 [Behavioral](../README.md) 
  
+[Structural](../../Structural/README.md)
+
+ 
 [TheRayCode.ORG](https://www.TheRayCode.ORG)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
