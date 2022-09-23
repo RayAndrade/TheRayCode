@@ -2,9 +2,9 @@
 ## is AWESOME!!!
 **C++ section**
 
- * [Creational](./Creational/README.md)
- * [Structural](./Structural/README.md)
- * [Behavioral](./Behavioral/README.md)
+ * **[Creational](./Creational/README.md)**
+ * **[Structural](./Structural/README.md)**
+ * **[Behavioral](./Behavioral/README.md)**
 
 
 [TheRayCode.ORG](https://www.TheRayCode.ORG)
