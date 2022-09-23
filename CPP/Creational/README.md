@@ -9,6 +9,13 @@
  * **[Prototype](./Prototype/README.md)**
  * **[Singleton](./Singleton/README.md)**
 
+
+ * **[Creational](../Creational/README.md)**
+ * **[Structural](../Structural/README.md)**
+ * **[Behavioral](../Behavioral/README.md)**
+
+
+
 **[C++](../README.md)** 
 
 
