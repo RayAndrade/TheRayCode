@@ -6,11 +6,11 @@
  * [Adapter](./Adapter/README.md)
  * [Bridge](./Bridge/README.md)
  * [Command](./Command/README.md)
- * [Composite](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Structural/Composite/README.md)
- * [Decorator](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Structural/Decorator/README.md)
- * [Facade](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Structural/Facade/README.md)
- * [Flyweight](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Structural/Flyweight/README.md) 
- * [Proxy](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Structural/Proxy/README.md)
+ * [Composite](./Composite/README.md)
+ * [Decorator](./Decorator/README.md)
+ * [Facade](./Facade/README.md)
+ * [Flyweight](./Flyweight/README.md) 
+ * [Proxy](./Proxy/README.md)
 
 [C++](../README.md) 
 
