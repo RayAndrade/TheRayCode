@@ -2,9 +2,11 @@
 ## is AWESOME!!!
 **C++ Factory Design Pattern**
 
- * [Example 1](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Factory/FY1/README.md)
+ * [Example 1](./FY1/README.md)
  * [Example 2](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Factory/FY2/README.md)
  * [Example 3](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Factory/FY3/README.md)
+
+[Creational Patterns](../README.md)
 
 [Creational Patterns](../README.md)
 
