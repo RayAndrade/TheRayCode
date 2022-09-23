@@ -2,9 +2,9 @@
 ## is AWESOME!!!
 C++ Adapter section
 
-**[Adapter](./AR1/README.md)** AR1 [refactoring.guru](https://refactoring.guru/design-patterns/adapter/cpp/example)
+**[Adapter AR1](./AR1/README.md)**  [refactoring.guru](https://refactoring.guru/design-patterns/adapter/cpp/example)
 
-AR2 [Vorbrodt's C-Plus-Plus Channel](https://youtu.be/5dfRV5uWLy4)
+**[Adapter AR2](./AR2/README.md)** [Vorbrodt's C-Plus-Plus Channel](https://youtu.be/5dfRV5uWLy4)
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
