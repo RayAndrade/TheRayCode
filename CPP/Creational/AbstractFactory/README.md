@@ -8,11 +8,13 @@
 * [Example 3](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/AbstractFactory/AF3/README.md)
 
 
-[Creational Patterns](../README.md)
+**[Creational Patterns](../README.md)**
 
-[Behavioral](../../Behavioral/README.md)
+**[Behavioral](../../Behavioral/README.md)**
 
-[C++](../../README.md)  
+**[Structural](../../Structural/README.md)**
+
+**[C++](../../README.md)**  
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
