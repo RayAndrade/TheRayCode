@@ -7,12 +7,6 @@
 
 C++ Mediator section
 
-[Creational](../../Creational/README.md) 
-
-[Behavioral](../README.md) 
- 
-[Mediator](../../Mediator/README.md)
-
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
