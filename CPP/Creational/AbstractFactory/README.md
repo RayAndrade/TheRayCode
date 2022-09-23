@@ -8,19 +8,10 @@
 
 **C++ Apstract Factory pattern**
 
-* [Example 0](/AF0/README.md)
+* [Example 0](./AF0/README.md)
 * [Example 1](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/AbstractFactory/AF1/)
 * [Example 2](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/AbstractFactory/AF2/)
 * [Example 3](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/AbstractFactory/AF3/README.md)
-
-
-**[Creational Patterns](./README.md)**
-
-**[Behavioral](../../Behavioral/README.md)**
-
-**[Structural](../../Structural/README.md)**
-
-**[C++](../../README.md)**  
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
