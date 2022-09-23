@@ -12,7 +12,7 @@
 
 [Behavioral](../../Behavioral/README.md)
 
-[C++](../../../README.md)  
+[C++](../../README.md)  
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
