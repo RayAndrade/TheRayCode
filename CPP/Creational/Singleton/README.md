@@ -1,18 +1,15 @@
 # TheRayCode
 ## is AWESOME!!!
+
+
+* **[C++](../README.md)** * 
+
+**[Creational Patterns](../README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](./Behavioral/README.md)**
+
 **C++ Singleton Design Pattern**
 
  * [Example 1](/SN1/README.md)
 
-CPP/Creational
-
-**[Creational Patterns](../README.md)**
-
-**[Structural Patterns](../../Structural/README.md)**
-
-**[Behavioral Patterns](../../Behavioral/README.md)**
-
-**[C++](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/README.md)**  
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
