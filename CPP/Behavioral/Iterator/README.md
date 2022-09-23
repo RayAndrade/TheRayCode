@@ -2,9 +2,16 @@
 ## is AWESOME!!!
 C++ Iterator section
 
-[RayAndrade.COM](https://www.RayAndrade.com)
+ 
+[Creational](../../Creational/README.md) 
+
+[Behavioral](../README.md) 
+ 
+[Structural](../../Structural/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
+
+[RayAndrade.COM](https://www.RayAndrade.com)
 
 [Facebook](https://www.facebook.com/TheRayCode/)
 
