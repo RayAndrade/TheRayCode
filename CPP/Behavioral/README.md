@@ -3,7 +3,7 @@
 
 **C++ Behavoiral Patterns**
 
- * [ChainOfResponsibility](https://github.com/RayAndrade/TheRayCode/blob/main/CPP/Behavioral/ChainOfResponsibility/README.md)
+ * [ChainOfResponsibility](./ChainOfResponsibility/README.md)
 
 * [Iterator](https://github.com/RayAndrade/TheRayCode/blob/main/CPP/Behavioral/Iterator/README.md)
 
