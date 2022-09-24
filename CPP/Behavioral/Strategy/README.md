@@ -5,7 +5,6 @@
 
 * **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
 
-
 C++ Statergy section
 
 [Example 1](./SY1/README.md)
