@@ -15,11 +15,9 @@ The concepts of design patterns are usable and understandable in any language an
 
 [RayAndrade.COM](https://www.rayandrade.com/)
 
-[youtube](https://www.youtube.com/TheRayCode/)
 
-[Twitter](https://twitter.com/TheRayCode)
 
-[Facebook](https://www.Facebook.com/TheRayCode/)
+[Facebook](https://www.Facebook.com/TheRayCode/) | [Twitter](https://twitter.com/TheRayCode) | [youtube](https://www.youtube.com/TheRayCode/)
 
 [pinterest](https://www.pinterest.com/TheRayCode/)
 
