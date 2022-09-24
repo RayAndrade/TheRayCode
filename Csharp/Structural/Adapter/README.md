@@ -5,9 +5,9 @@ C# Adapter section
 
 [AR1](./AR1)
 
-[AR2](../AR2)
+[AR2](./AR2)
 
-[AR3](../AR3)
+[AR3](./AR3)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
