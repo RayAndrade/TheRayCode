@@ -8,6 +8,8 @@
 
 C++ Statergy section
 
+[Example 1](./SY1/README.md)
+
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
