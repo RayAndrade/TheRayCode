@@ -2,24 +2,6 @@
 ## is AWESOME!!!
 C# Adapter section
 
-In this section of my github repository I list of my demonstrations showing the Adapter design pattern.
-
-Git Repositories
-
-
-<table><tr><td>
-<pre>
-**Hello**,
-
-_world_.
-</pre>
-</td></tr></table>
-
-
-
-| Column 1 | Column 2 | Column 3|
-|: colum 1|: colum 3|: colum 3|
-
 
 [AR1](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Adapter/AR1)
 
@@ -31,9 +13,4 @@ _world_.
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
-[Facebook](https://www.facebook.com/TheRayCode/)
-
-[Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
-
-[YouTube](https://www.youtube.com/AndradeRay/)
-
+[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
