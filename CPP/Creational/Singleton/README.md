@@ -7,7 +7,7 @@
 
 **C++ Singleton Design Pattern**
 
- * [Example 1](../../SN1/README.md)
+ * [Example 1](./SN1/README.md)
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
