@@ -12,8 +12,6 @@
  * [Example 1](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/AbstractFactory/AF1/README.md)
  * [Example 2](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/AbstractFactory/AF2/README.md)
 
-[C#](./Csharp/README.md)    
-
 [RayAndrade.COM](https://www.RayAndrade.com)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
