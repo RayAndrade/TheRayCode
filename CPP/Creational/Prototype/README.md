@@ -7,7 +7,7 @@
 
 **C++ Prototype Design Pattern**
 
- * [Example 1](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Prototype/PE1/README.md)
+ * [Example 1](PE1/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
