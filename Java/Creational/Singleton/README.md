@@ -1,15 +1,17 @@
 # TheRayCode
 ## is AWESOME!!!
-Java Singleton section
 
-[RayAndrade.COM](https://www.RayAndrade.com)
+* **[Java](../README.md)** * 
+
+**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
+
+**Java Singleton Design Pattern**
+
+ * [Example 1](./SN1/README.md)
+
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
-[Facebook](https://www.facebook.com/TheRayCode/)
+[RayAndrade.COM](https://www.RayAndrade.com)
 
-[Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
-
-[YouTube](https://www.youtube.com/AndradeRay/)
-
-
+[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
