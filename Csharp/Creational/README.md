@@ -13,8 +13,6 @@
  * **[Prototype](./Prototype/README.md)**
  * **[Singleton](./Singleton/README.md)**
 
-[C#](./Cshap/README.md) 
-
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
