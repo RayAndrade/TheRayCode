@@ -12,10 +12,9 @@
  * [Example 1](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/AbstractFactory/AF1/README.md)
  * [Example 2](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/AbstractFactory/AF2/README.md)
 
-[RayAndrade.COM](https://www.RayAndrade.com)
-
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
+[RayAndrade.COM](https://www.RayAndrade.com)
 
 [Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
 
