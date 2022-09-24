@@ -1,24 +1,26 @@
 # TheRayCode
 ## is AWESOME!!!
 
+* **[C#](../README.md)** * 
+
+* **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
+
 **C# Behavoiral Patterns**
 
- * [ChainOfResponsibility](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Creational/ChainOfResponsibility/README.md)
- * [Iterator](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Creational/Iterator/README.md)
- * [Mediator](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Creational/Mediator/README.md)
- * [Memento](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Creational/Memento/README.md)
- * [Observer](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Creational/Observer/README.md)
- * [State](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Creational/State/README.md)
- * [Strategy](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Creational/Strategy/README.md)
- * [Template](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Creational/Template/README.md)
- * [Visitor](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Creational/Visitor/README.md)
+* **[ChainOfResponsibility](./ChainOfResponsibility/README.md)**
+* **[Iterator](./Iterator/README.md)**
+* **[Mediator](./Mediator/README.md)**
+* **[Memento](./Memento/README.md)**
+* **[Observer](./Observer/README.md)**
+* **[State](./State/README.md)**
+* **[Strategy](./Strategy/README.md)**
+* **[Template](./Template/README.md)**
+* **[Visitor](./Visitor/README.md)**
+
+[TheRayCode.ORG](https://www.TheRayCode.org)
+
+[RayAndrade.COM](https://www.RayAndrade.com)
   
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
-[Facebook](https://www.facebook.com/TheRayCode/)
-
-[Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
-
-[YouTube](https://www.youtube.com/AndradeRay/)
-
-
+[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
