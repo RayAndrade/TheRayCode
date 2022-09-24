@@ -3,7 +3,7 @@
 
 * **[C#](../README.md)** * 
 
-**[Creational Patterns](../README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](./Behavioral/README.md)**
+**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
 **C# Singleton Design Pattern**
 
