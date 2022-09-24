@@ -11,6 +11,7 @@ The concepts of design patterns are usable and understandable in any language an
 **[CPP](./CPP/README.md)** | **[CSHARP](./Csharp/README.md)** | **[JAVA](./Java/README.md)**  | **[PHP](./PHP/README.md)**
 
 
+![This is an image](https://i0.wp.com/rayandrade.com/wp-content/uploads/2021/12/abstract-_factory03.jpeg?resize=1536%2C1024&ssl=1)
 [TheRayCode.ORG](https://www.TheRayCode.org/)
 
 [RayAndrade.COM](https://www.rayandrade.com/)
@@ -23,6 +24,5 @@ The concepts of design patterns are usable and understandable in any language an
 [LinkedIn](https://www.linkedin.com/in/andraderay/) | [LinkedIn](https://www.linkedin.com/in/theraycode/)
 
 
-![This is an image](https://i0.wp.com/rayandrade.com/wp-content/uploads/2021/12/abstract-_factory03.jpeg?resize=1536%2C1024&ssl=1)
 
 
