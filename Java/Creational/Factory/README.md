@@ -15,9 +15,9 @@
 
 **Java Factory Design Pattern**
 
- * [Example 1](FY1/)
- * [Example 2](FY2/)
- * [Example 3](FY3/README.md)
+ * [Example 1](FY01/)
+ * [Example 2](FY02/)
+ * [Example 3](FY03/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
