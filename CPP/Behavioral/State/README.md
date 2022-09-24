@@ -7,7 +7,7 @@
 
 C++ State section
 
-[Example 1](./O1/README.md)
+[Example 1](./SE1/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
