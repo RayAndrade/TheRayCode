@@ -2,9 +2,11 @@
 ## is AWESOME!!!
 **C# section**
 
- * [Creational](./Csharp/Creational/README.md)
- * [Structural](./Csharp/Structural/README.md)
- * [Behavioral](./Behavioral/README.md)
+ * **[Creational](./Creational/README.md)**
+ * **[Structural](./Structural/README.md)**
+ * **[Behavioral](./Behavioral/README.md)**
+
+**[CPP](../CPP/README.md)** | **[CSHARP](../Csharp/README.md)** | **[JAVA](../Java/README.md)**  | **[PHP](../PHP/README.md)**
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
