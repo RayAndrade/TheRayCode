@@ -3,11 +3,11 @@
 C# Adapter section
 
 
-[AR1](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Adapter/AR1)
+[AR1](./AR1)
 
-[AR2](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Adapter/AR2)
+[AR2](../AR2)
 
-[AR3](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Adapter/AR3)
+[AR3](../AR3)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
