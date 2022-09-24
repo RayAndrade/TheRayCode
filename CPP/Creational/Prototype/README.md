@@ -9,12 +9,6 @@
 
  * [Example 1](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Prototype/PE1/README.md)
 
- * **[Factory](./Factory/README.md)**
- * **[AbstractFactory](./AbstractFactory/README.md)**
- * **[Builder](./Builder/README.md)**
- * **[Prototype](./Prototype/README.md)**
- * **[Singleton](./Singleton/README.md)**
-
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
