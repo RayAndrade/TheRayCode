@@ -7,11 +7,6 @@
 
 **C# Creational Patterns**
 
- * **[Factory](./Factory/README.md)**
- * **[AbstractFactory](./AbstractFactory/README.md)**
- * **[Builder](./Builder/README.md)**
- * **[Prototype](./Prototype/README.md)**
- * **[Singleton](./Singleton/README.md)**
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
