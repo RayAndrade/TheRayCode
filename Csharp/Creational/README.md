@@ -8,10 +8,10 @@
 **C# Creational Patterns**
 
  * [Factory](./Factory/README.md)
- * [AbstractFactory](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Creational/AbstractFactory/README.md)
- * [Builder](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Creational/Builder/README.md)
- * [Prototype](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Creational/Prototype/README.md)
- * [Singleton](https://github.com/RayAndrade/TheRayCode/tree/main/Csharp/Creational/Singleton/README.md)
+ * [AbstractFactory](./AbstractFactory/README.md)
+ * [Builder](./Creational/Builder/README.md)
+ * [Prototype](./Creational/Prototype/README.md)
+ * [Singleton](./Singleton/README.md)
 
 [C#](./Cshap/README.md) 
 
