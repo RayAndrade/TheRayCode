@@ -7,9 +7,9 @@
 
 C++ Adapter section
 
-**[Adapter AR1](./AR1/README.md)**  [refactoring.guru](https://refactoring.guru/design-patterns/adapter/cpp/example)
+[Example 1](./AR1/README.md)
 
-**[Adapter AR2](./AR2/README.md)** [Vorbrodt's C-Plus-Plus Channel](https://youtu.be/5dfRV5uWLy4)
+[Example 2](./AR/README.md)
 
  * **[Adapter](./README.md)**
  * **[Bridge](../Bridge/README.md)**
