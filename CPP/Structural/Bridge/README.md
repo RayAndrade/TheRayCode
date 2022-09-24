@@ -9,6 +9,7 @@ C++ Bridge section
 
 [Example 1](./BE1/README.md)  
 
+[Example 2](./BE2/README.md)  
 
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](./README.md)**
