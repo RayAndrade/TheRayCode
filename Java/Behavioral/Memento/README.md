@@ -9,7 +9,7 @@ Java Memento section
 
 [Example 0](./MO0/README.md)
 
-[Example 1](./MO1/README.md)
+[Example 1](./MO1/)
 
 [Example 2](./MO2/README.md)
 
