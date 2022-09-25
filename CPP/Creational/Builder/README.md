@@ -8,7 +8,7 @@
 
 **C++ Builder section pattern**
 
-* [Example 1](./BR1/)
+* [Example 1](./BR1/README.MD)
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
