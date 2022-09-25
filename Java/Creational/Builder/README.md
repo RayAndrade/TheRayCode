@@ -1,6 +1,6 @@
 # TheRayCode
 ## is AWESOME!!!
-Java Builder section
+**Java Builder section**
 
 * [Example 1](./BR1/README.md)
 
