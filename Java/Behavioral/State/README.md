@@ -1,11 +1,11 @@
 # TheRayCode
 ## is AWESOME!!!
 
-* **[C++](../README.md)** * 
+* **[Java](../README.md)** * 
 
 * **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
 
-C++ State section
+Java State section
 
 [Example 1](./SE1/README.md)
 
