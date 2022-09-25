@@ -1,6 +1,11 @@
 # TheRayCode
 ## is AWESOME!!!
-Java Memento section
+
+* **[C++](../README.md)** * 
+
+* **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
+
+C++ Memento section
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
