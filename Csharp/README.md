@@ -6,7 +6,7 @@
  * **[Structural](./Structural/README.md)**
  * **[Behavioral](./Behavioral/README.md)**
 
-**[CPP](../CPP/README.md)** | **[CSHARP](../README.md)** | **[JAVA](../Java/README.md)**  | **[PHP](../PHP/README.md)**
+**[CPP](../CPP/README.md)** | **[CSHARP](./README.md)** | **[JAVA](../Java/README.md)**  | **[PHP](../PHP/README.md)**
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
