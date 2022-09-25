@@ -7,11 +7,11 @@
 
 Java Adapter section
 
-**[Adapter AR1](./AR1/README.md)** 
+[Example 1](./AR1/README.md) 
 
-**[Adapter AR2](./AR2/README.md)**
+[Example 2](./AR2/README.md)
 
-**[Adapter AR3](./AR3/README.md)** 
+[Example 3](./AR3/README.md) 
 
  * **[Adapter](./README.md)**
  * **[Bridge](../Bridge/README.md)**
