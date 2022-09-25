@@ -7,6 +7,8 @@
 
 C++ Decorator section
 
+[Example 1](./D1/README.md)  
+
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](../Bridge/README.md)**
  * **[Command](../Command/README.md)**
