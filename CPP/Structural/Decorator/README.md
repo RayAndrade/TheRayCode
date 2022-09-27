@@ -5,18 +5,21 @@
 
 * **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
-C++ Decorator section
 
-[Example 1](./D1/README.md)  
+**C++ Creational Patterns**
 
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](../Bridge/README.md)**
  * **[Command](../Command/README.md)**
- * **[Composite](../Composite/README.md)**
- * **[Decorator](./README.md)**
+ * **[Composite](./README.md)**
+ * **[Decorator](../Decorator/README.md)**
  * **[Facade](../Facade/README.md)**
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
+
+**C++ Composite Design Pattern**
+
+[Example 1](./D1/README.md)  
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
