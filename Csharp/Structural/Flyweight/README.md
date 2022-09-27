@@ -3,8 +3,7 @@
 
 * **[C#](../README.md)** * 
 
-* **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
-
+**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
 **C# Structural Patterns**
 
@@ -30,5 +29,3 @@
 [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
 
 [YouTube](https://www.youtube.com/AndradeRay/)
-
-
