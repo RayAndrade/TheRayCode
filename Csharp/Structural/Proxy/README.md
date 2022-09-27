@@ -1,11 +1,11 @@
 # TheRayCode
 ## is AWESOME!!!
 
-* **[C++](../README.md)** * 
+* **[C#](../README.md)** * 
 
 * **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**C++ Structural Patterns**
+**C# Structural Patterns**
 
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](../Bridge/README.md)**
@@ -16,7 +16,7 @@
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](./README.md)**
 
-**C++ Proxy Design Pattern**
+**C# Proxy Design Pattern**
 
 [Example 1](./PY1/README.md)  
 
