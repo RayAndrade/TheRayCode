@@ -7,18 +7,18 @@
 
 C++ Adapter section
 
+ * **[Adapter](./Adapter/README.md)**
+ * **[Bridge](./Bridge/README.md)**
+ * **[Command](./Command/README.md)**
+ * **[Composite](./Composite/README.md)**
+ * **[Decorator](./Decorator/README.md)**
+ * **[Facade](./Facade/README.md)**
+ * **[Flyweight](./Flyweight/README.md)**
+ * **[Proxy](./Proxy/README.md)**
+
 [Example 1](./AR1/README.md)
 
 [Example 2](./AR/README.md)
-
- * **[Adapter](./README.md)**
- * **[Bridge](../Bridge/README.md)**
- * **[Command](../Command/README.md)**
- * **[Composite](../Composite/README.md)**
- * **[Decorator](../Decorator/README.md)**
- * **[Facade](../Facade/README.md)**
- * **[Flyweight](../Flyweight/README.md)**
- * **[Proxy](../Proxy/README.md)**
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
