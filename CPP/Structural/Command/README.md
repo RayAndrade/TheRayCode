@@ -8,20 +8,6 @@
 
 **C++ Creational Patterns**
 
- * **[Adapter](./README.md)**
- * **[Bridge](../Bridge/README.md)**
- * **[Command](../Command/README.md)**
- * **[Composite](../Composite/README.md)**
- * **[Decorator](../Decorator/README.md)**
- * **[Facade](../Facade/README.md)**
- * **[Flyweight](../Flyweight/README.md)**
- * **[Proxy](../Proxy/README.md)**
-
-**C++ Command Design Pattern**
-
-
-[Example 1](./CD1/README.md)  
-
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](../Bridge/README.md)**
  * **[Command](./README.md)**
@@ -30,6 +16,10 @@
  * **[Facade](../Facade/README.md)**
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
+
+**C++ Command Design Pattern**
+
+[Example 1](./CD1/README.md)  
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
