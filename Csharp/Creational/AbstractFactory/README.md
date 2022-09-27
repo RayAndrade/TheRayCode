@@ -16,8 +16,8 @@
 **C# Abstract Factory Design Pattern**
 
  * [Example 0](./AF0/README.md)
- * [Example 1](../AF1/README.md)
- * [Example 2](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/AbstractFactory/AF2/README.md)
+ * [Example 1](./AF1/README.md)
+ * [Example 2](./AF2/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
