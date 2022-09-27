@@ -5,8 +5,13 @@
 
 **[Creational Patterns](../README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
-
 **C++ Apstract Factory pattern**
+
+ * **[Factory](./Factory/README.md)**
+ * **[AbstractFactory](./AbstractFactory/README.md)**
+ * **[Builder](./Builder/README.md)**
+ * **[Prototype](./Prototype/README.md)**
+ * **[Singleton](./Singleton/README.md)**
 
 * [Example 0](./AF0/README.md)
 * [Example 1](./AF1/)
