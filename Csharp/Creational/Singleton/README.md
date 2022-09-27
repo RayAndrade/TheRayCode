@@ -5,7 +5,16 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**C# Singleton Design Pattern**
+
+**C++ Creational Patterns**
+
+ * **[Factory](../Factory/README.md)**
+ * **[AbstractFactory](../AbstractFactory/README.md)**
+ * **[Builder](../Builder/README.md)**
+ * **[Prototype](../Prototype/README.md)**
+ * **[Singleton](../Singleton/README.md)**
+
+**C++ Singleton Design Pattern**
 
  * [Example 1](./SN1/README.md)
 
