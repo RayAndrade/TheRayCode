@@ -5,6 +5,7 @@
 
 * **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
+
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](./README.md)**
  * **[Command](../Command/README.md)**
