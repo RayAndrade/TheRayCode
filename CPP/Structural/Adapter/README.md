@@ -5,14 +5,21 @@
 
 * **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
+
+**C++ Creational Patterns**
+
  * **[Adapter](./README.md)**
- * **[Bridge](./Bridge/README.md)**
- * **[Command](./Command/README.md)**
- * **[Composite](./Composite/README.md)**
- * **[Decorator](./Decorator/README.md)**
- * **[Facade](./Facade/README.md)**
- * **[Flyweight](./Flyweight/README.md)**
- * **[Proxy](./Proxy/README.md)**
+ * **[Bridge](../Bridge/README.md)**
+ * **[Command](../Command/README.md)**
+ * **[Composite](../Composite/README.md)**
+ * **[Decorator](../Decorator/README.md)**
+ * **[Facade](../Facade/README.md)**
+ * **[Flyweight](../Flyweight/README.md)**
+ * **[Proxy](../Proxy/README.md)**
+
+**C++ Factory Design Pattern**
+
+ * [Example 1](FY1/)
 
 **C++ Adapter Design Pattern**
 
