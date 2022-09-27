@@ -5,9 +5,8 @@
 
 * **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
-C++ Composite section
 
-[Example 1](./CE1/README.md)  
+**C++ Creational Patterns**
 
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](../Bridge/README.md)**
@@ -18,6 +17,9 @@ C++ Composite section
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
 
+**C++ Composite Design Pattern**
+
+[Example 1](./CE1/README.md)  
 
 
 [RayAndrade.COM](https://www.RayAndrade.com)
