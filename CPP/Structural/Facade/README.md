@@ -10,13 +10,13 @@
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](../Bridge/README.md)**
  * **[Command](../Command/README.md)**
- * **[Composite](./README.md)**
+ * **[Composite](../Composite/README.md)**
  * **[Decorator](../Decorator/README.md)**
- * **[Facade](../Facade/README.md)**
+ * **[Facade](./README.md)**
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
 
-**C++ Composite Design Pattern**
+**C++ Facade Design Pattern**
 
 [Example 1](./FE1/README.md)  
 
