@@ -10,7 +10,7 @@
 
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](./README.md)**
- * **[Command](./Command/README.md)**
+ * **[Command](../Command/README.md)**
  * **[Composite](../Composite/README.md)**
  * **[Decorator](../Decorator/README.md)**
  * **[Facade](../Facade/README.md)**
