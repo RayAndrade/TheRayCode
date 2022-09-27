@@ -17,10 +17,6 @@
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
 
-**C++ Factory Design Pattern**
-
- * [Example 1](FY1/)
-
 **C++ Adapter Design Pattern**
 
 [Example 1](./AR1/README.md)
