@@ -6,6 +6,8 @@
 * **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
 
+**C++ Creational Patterns**
+
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](./README.md)**
  * **[Command](../Command/README.md)**
@@ -16,6 +18,7 @@
  * **[Proxy](../Proxy/README.md)**
 
 **C++ Bridge Pattern**
+
 
 [Example 1](./BE1/README.md)  
 
