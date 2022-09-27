@@ -14,8 +14,11 @@
  * **[Singleton](./Singleton/README.md)**
 
  [Example 0](./AF0/README.md)
+ 
  [Example 1](./AF1/)
+ 
  [Example 2](./AF2/)
+ 
  [Example 3](./AF3/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
