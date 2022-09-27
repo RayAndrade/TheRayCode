@@ -17,7 +17,7 @@
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
 
-**C++ Composite Design Pattern**
+**C++ Decorator Design Pattern**
 
 [Example 1](./D1/README.md)  
 
