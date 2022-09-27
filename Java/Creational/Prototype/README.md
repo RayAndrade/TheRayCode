@@ -13,11 +13,11 @@
  * **[Prototype](../Prototype/README.md)**
  * **[Singleton](../Singleton/README.md)**
 
-**Java Prototype Design Pattern**
+**Java Singleton Design Pattern**
 
- * [Example 1](./PE1/)
+ * [Example 1](./PE1/README.md)
 
-[TheRayCode.ORG](https://www.TheRayCode.org)
+[TheRayCode.ORG](https://www.TheRayCode.org)  
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
