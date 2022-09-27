@@ -5,9 +5,7 @@
 
 * **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
-C++ Proxy section
-
-[Example 1](./BE1/README.md)  
+**C++ Creational Patterns**
 
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](../Bridge/README.md)**
@@ -17,6 +15,10 @@ C++ Proxy section
  * **[Facade](../Facade/README.md)**
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](./README.md)**
+
+**C++ Flyweight Design Pattern**
+
+[Example 1](./BE1/README.md)  
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
