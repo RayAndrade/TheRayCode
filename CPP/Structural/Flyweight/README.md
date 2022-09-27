@@ -5,19 +5,21 @@
 
 * **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
-C++ Flyweight section
 
-[Example 1](./FT1/README.md)  
+**C++ Creational Patterns**
 
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](../Bridge/README.md)**
  * **[Command](../Command/README.md)**
- * **[Composite](../Composite/README.md)**
+ * **[Composite](./README.md)**
  * **[Decorator](../Decorator/README.md)**
  * **[Facade](../Facade/README.md)**
- * **[Flyweight](./README.md)**
+ * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
 
+**C++ Flyweight Design Pattern**
+
+[Example 1](./FT1/README.md)  
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
