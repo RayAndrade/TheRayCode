@@ -5,7 +5,19 @@
 
 * **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
 
-C++ Mediator section
+**C++ Behavioral Patterns**
+
+* **[ChainOfResponsibility](../ChainOfResponsibility/README.md)**
+* **[Iterator](../Iterator/README.md)**
+* **[Mediator](./README.md)**
+* **[Memento](../Memento/README.md)**
+* **[Observer](../Observer/README.md)**
+* **[State](../State/README.md)**
+* **[Strategy](../Strategy/README.md)**
+* **[Template](../Template/README.md)**
+* **[Visitor](../Visitor/README.md)**
+
+**C++ Mediator Design Pattern**
 
 [Example 1](./MR1/README.md)
 
