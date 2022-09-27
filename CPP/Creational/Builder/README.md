@@ -8,8 +8,13 @@
 
 **C++ Builder section pattern**
 
-* [Example 1](./BR1/README.MD)
+ * **[Factory](../Factory/README.md)**
+ * **[AbstractFactory](../AbstractFactory/README.md)**
+ * **[Builder](../Builder/README.md)**
+ * **[Prototype](../Prototype/README.md)**
+ * **[Singleton](../Singleton/README.md)**
 
+* [Example 1](./BR1/README.MD)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
