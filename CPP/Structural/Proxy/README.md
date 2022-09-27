@@ -16,7 +16,7 @@
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](./README.md)**
 
-**C++ Flyweight Design Pattern**
+**C++ Proxy Design Pattern**
 
 [Example 1](./BE1/README.md)  
 
