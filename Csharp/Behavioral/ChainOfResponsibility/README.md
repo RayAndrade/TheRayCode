@@ -5,7 +5,7 @@
 
 * **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
 
-**C+# Behavioral Patterns**
+**C# Behavioral Patterns**
 
 * **[ChainOfResponsibility](./README.md)**
 * **[Iterator](../Iterator/README.md)**
