@@ -5,7 +5,20 @@
 
 * **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
 
-C++ State section
+**C++ Behavioral Patterns**
+
+* **[ChainOfResponsibility](../ChainOfResponsibility/README.md)**
+* **[Iterator](../Iterator/README.md)**
+* **[Mediator](../Mediator/README.md)**
+* **[Memento](../Memento/README.md)**
+* **[Observer](../Observer/README.md)**
+* **[State](./README.md)**
+* **[Strategy](../Strategy/README.md)**
+* **[Template](../Template/README.md)**
+* **[Visitor](../Visitor/README.md)**
+
+**C++ State Design Pattern**
+
 
 [Example 1](./SE1/README.md)
 
