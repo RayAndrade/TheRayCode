@@ -5,6 +5,14 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
+**C++ Creational Patterns**
+
+ * **[Factory](../Factory/README.md)**
+ * **[AbstractFactory](../AbstractFactory/README.md)**
+ * **[Builder](../Builder/README.md)**
+ * **[Prototype](../Prototype/README.md)**
+ * **[Singleton](../Singleton/README.md)**
+
 **C++ Prototype Design Pattern**
 
  * [Example 1](PE1/README.md)
