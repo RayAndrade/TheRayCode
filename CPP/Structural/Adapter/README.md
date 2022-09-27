@@ -7,7 +7,7 @@
 
 **C++ Adapter Design Pattern**
 
- * **[Adapter](../README.md)**
+ * **[Adapter](./README.md)**
  * **[Bridge](./Bridge/README.md)**
  * **[Command](./Command/README.md)**
  * **[Composite](./Composite/README.md)**
