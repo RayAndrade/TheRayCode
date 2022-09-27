@@ -15,7 +15,7 @@
 
 **Java Prototype Design Pattern**
 
- * [Example 1](./PE1/README.md)
+ * [Example 1](./PE1/)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
