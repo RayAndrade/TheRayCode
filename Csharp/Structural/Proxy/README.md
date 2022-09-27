@@ -1,6 +1,24 @@
 # TheRayCode
 ## is AWESOME!!!
-C# Proxy section
+
+* **[C++](../README.md)** * 
+
+* **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
+
+**C++ Structural Patterns**
+
+ * **[Adapter](../Adapter/README.md)**
+ * **[Bridge](../Bridge/README.md)**
+ * **[Command](../Command/README.md)**
+ * **[Composite](../Composite/README.md)**
+ * **[Decorator](../Decorator/README.md)**
+ * **[Facade](../Facade/README.md)**
+ * **[Flyweight](../Flyweight/README.md)**
+ * **[Proxy](./README.md)**
+
+**C++ Proxy Design Pattern**
+
+[Example 1](./PY1/README.md)  
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
