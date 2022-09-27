@@ -19,12 +19,10 @@
 
 **C# Memento Design Pattern**
 
-[RayAndrade.COM](https://www.RayAndrade.com)
+[Example 1](./MO1/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
-[Facebook](https://www.facebook.com/TheRayCode/)
+[RayAndrade.COM](https://www.RayAndrade.com)
 
-[Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
-
-[YouTube](https://www.youtube.com/AndradeRay/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
