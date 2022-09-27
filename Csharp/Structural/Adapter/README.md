@@ -1,7 +1,23 @@
 # TheRayCode
 ## is AWESOME!!!
-C# Adapter section
 
+* **[C#](../README.md)** * 
+
+* **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
+
+
+**C# Structural Patterns**
+
+ * **[Adapter](./README.md)**
+ * **[Bridge](../Bridge/README.md)**
+ * **[Command](../Command/README.md)**
+ * **[Composite](../Composite/README.md)**
+ * **[Decorator](../Decorator/README.md)**
+ * **[Facade](../Facade/README.md)**
+ * **[Flyweight](../Flyweight/README.md)**
+ * **[Proxy](../Proxy/README.md)**
+
+**C# Adapter Design Pattern**
 
 [AR1](./AR1)
 
