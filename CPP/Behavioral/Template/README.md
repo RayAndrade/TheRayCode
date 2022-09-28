@@ -30,5 +30,3 @@
 [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
 
 [YouTube](https://www.youtube.com/AndradeRay/)
-
-
