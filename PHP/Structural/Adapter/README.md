@@ -23,7 +23,7 @@
 
 [Example 2](./AR1/README.md)
 
-[Show](./Show/README.md)
+[Show](./Show/script.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
