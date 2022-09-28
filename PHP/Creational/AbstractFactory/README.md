@@ -9,7 +9,7 @@
 
  * **[Factory](../Factory/README.md)**
  * **[AbstractFactory](../AbstractFactory/README.md)**
- * **[Builder](../Builder/)**
+ * **[Builder]([../Builder/](../Builder%20))**
  * **[Prototype](../Prototype/README.md)**
  * **[Singleton](../Singleton/README.md)**
 
