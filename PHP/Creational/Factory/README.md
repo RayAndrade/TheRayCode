@@ -11,7 +11,7 @@
  * **[AbstractFactory](../AbstractFactory/README.md)**
  * **[Builder](../Builder/README.md)**
  * **[Prototype](../Prototype/README.md)**
- * **[Singleton](../Singleton/README.md)**
+ * **[Singelton](../Singelton/README.md)**
 
 **PHP Factory Design Pattern**
 
