@@ -15,12 +15,12 @@
 
 **PHP Factory Design Pattern**
 
- * [Example 1](FY01/)
- * [Example 2](FY02/)
- * [Example 3](FY03/)
- * [Example 1](FY07/)
- * [Example 1](FY08/)
- * [Example 1](FY09/)
+ * [Example 1](FY1/)
+ * [Example 2](FY2/)
+ * [Example 3](FY3/)
+ * [Example 1](FY7/)
+ * [Example 1](FY8/)
+ * [Example 1](FY9/)
  * [Example 1](FY11/)
  * [Example 1](FY11/)
 
@@ -29,21 +29,3 @@
 [RayAndrade.COM](https://www.RayAndrade.com)
 
 [Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
-
-
-
-# TheRayCode
-## is AWESOME!!!
-PHP Factory section
-
-Find Ray on:
-
-[RayAndrade.COM](https://www.RayAndrade.com)
-
-[TheRayCode.ORG](https://www.TheRayCode.org)
-
-[Facebook](https://www.facebook.com/TheRayCode/)
-
-[Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
-
-[YouTube](https://www.youtube.com/AndradeRay/)
