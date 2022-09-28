@@ -1,12 +1,12 @@
 # TheRayCode
 ## is AWESOME!!!
 
-* **[Java](../README.md)** * 
+* **[PHP](../README.md)** * 
 
 **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
 
-**Java Structural Patterns**
+**PHP Structural Patterns**
 
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](../Bridge/README.md)**
@@ -17,7 +17,7 @@
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
 
-**Java Composite Design Pattern**
+**PHP Composite Design Pattern**
 
 [Example 1](./CE1/README.md)  
 
