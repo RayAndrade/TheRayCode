@@ -21,7 +21,9 @@
 
 [Example 1](./AR1/README.md)
 
-[Example 2](./AR/README.md)
+[Example 2](./AR1/README.md)
+
+[Show](./Show/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
