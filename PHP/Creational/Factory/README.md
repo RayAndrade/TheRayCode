@@ -16,7 +16,6 @@
 **PHP Factory Design Pattern**
 
  * [Example 1](FY1/README.md)
- * [Example 2](FY2/)
  * [Example 3](FY3/)
  * [Example 1](FY7/)
  * [Example 1](FY8/)
