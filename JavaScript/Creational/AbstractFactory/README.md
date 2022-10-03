@@ -1,11 +1,11 @@
 # TheRayCode
 ## is AWESOME!!!
 
-* **[Java](../README.md)** * 
+* **[JavaScript](../README.md)** * 
 
 **[Creational Patterns](../README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**Java Creational Patterns**
+**JavaScript Creational Patterns**
 
  * **[Factory](../Factory/README.md)**
  * **[AbstractFactory](../AbstractFactory/README.md)**
@@ -13,13 +13,9 @@
  * **[Prototype](../Prototype/README.md)**
  * **[Singleton](../Singleton/README.md)**
 
-**Java Abstract Factory Design Pattern**
+**JavaScript Abstract Factory Design Pattern**
 
-* [Example 0](./AF0/README.md)
-* [Example 1](./AF1/)
-* [Example 2](./AF2/)
-* [Example 3](./AF3/README.md)
-* [Example 3](./AF4/README.md)
+* [Example 1](./AF1/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
