@@ -5,7 +5,7 @@
 
 **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
 
-**Java Creational Patterns**
+**JavaScript Creational Patterns**
 
  * **[Factory](./Factory/README.md)**
  * **[AbstractFactory](./AbstractFactory/README.md)**
