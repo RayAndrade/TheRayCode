@@ -7,6 +7,10 @@
 
 **JavaScript Structural Patterns**
 
+**JavaScript Adapter Design Pattern**
+
+[Example 1](./AR1/README.md) 
+
  * **[Adapter](./README.md)**
  * **[Bridge](../Bridge/README.md)**
  * **[Command](../Command/README.md)**
@@ -16,9 +20,6 @@
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
 
-**JavaScript Adapter Design Pattern**
-
-[Example 1](./AR1/README.md) 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
