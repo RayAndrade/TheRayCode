@@ -5,7 +5,7 @@
 
 **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
 
-JavaScript Bridge section
+JavaScript **Bridge** section
 
 [Example 1](./BE1/README.md)  
 
