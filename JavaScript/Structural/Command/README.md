@@ -13,7 +13,7 @@ JavaScript **Command** section
 
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](../Bridge/README.md)**
- * **[Command](../README.md)**
+ * **[Command](./README.md)**
  * **[Composite](../Composite/README.md)**
  * **[Decorator](../Decorator/README.md)**
  * **[Facade](../Facade/README.md)**
