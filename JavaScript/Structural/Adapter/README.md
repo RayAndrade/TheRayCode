@@ -7,7 +7,7 @@
 
 **JavaScript Structural Patterns**
 
-**JavaScript Adapter Design Pattern**
+JavaScript **Adapter** Design Pattern
 
 [Example 1](./AR1/README.md) 
 
