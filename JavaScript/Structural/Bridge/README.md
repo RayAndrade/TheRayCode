@@ -13,7 +13,7 @@ JavaScript **Bridge** Design Pattern
 
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](./README.md)**
- * **[Command](../Command/)**
+ * **[Command](../Command/README.md)**
  * **[Composite](../Composite/README.md)**
  * **[Decorator](../Decorator/README.md)**
  * **[Facade](../Facade/README.md)**
