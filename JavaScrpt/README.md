@@ -1,12 +1,12 @@
 # TheRayCode
 ## is AWESOME!!!
-**Java section**
+**JavaScript section**
 
  * **[Creational](./Creational/README.md)**
  * **[Structural](./Structural/README.md)**
  * **[Behavioral](./Behavioral/README.md)**
 
-**[CPP](../CPP/README.md)** | **[CSHARP](../Csharp/README.md)** | **[JAVA](../Java/README.md)**  | **[PHP](../PHP/README.md)**
+**[CPP](../CPP/README.md)** | **[CSHARP](../Csharp/README.md)** | **[JAVA](../Java/README.md)**  | **[PHP](../PHP/README.md)** | **[JAVASCRIPT](../JavaScript/README.md)**
 
 [TheRayCode.ORG](https://www.TheRayCode.ORG)
 

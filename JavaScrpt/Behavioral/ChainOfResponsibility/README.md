@@ -1,13 +1,13 @@
 # TheRayCode
 ## is AWESOME!!!
 
-* **[Java](../README.md)** * 
+* **[JavaScript](../README.md)** * 
 
 * **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
 
-**Java Chain of Responsibity Pattern**
+**JavaScript Chain of Responsibity Pattern**
 
- * [Example 1](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Behavioral/ChainOfResponsibility/COR1/README.md)
+ * [Example 1](./COR1/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.ORG)
 
