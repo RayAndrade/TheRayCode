@@ -5,7 +5,9 @@
 
 * **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
 
-JavaScript Composite section
+**JavaScript Structural Patterns**
+
+JavaScript **Composite** section
 
 [Example 1](./CD1/README.md)
 
