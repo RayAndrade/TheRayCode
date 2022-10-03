@@ -5,7 +5,7 @@
 
 * **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
 
-JavaScript Composite section
+JavaScript **Composite** section
 
 [Example 1](./CE1/README.md)
 
@@ -17,8 +17,6 @@ JavaScript Composite section
  * **[Facade](../Facade/README.md)**
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
-
-
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
