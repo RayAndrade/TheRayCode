@@ -8,7 +8,7 @@ Design Patterns are ways of expressing solid architectures that are reusable, ex
 The concepts of design patterns are usable and understandable in any language and any environment.
 
 
-**[CPP](./CPP/README.md)** | **[CSHARP](./Csharp/README.md)** | **[JAVA](./Java/README.md)**  | **[PHP](./PHP/README.md)** | **[JAVASCRIPT](./Java/README.md)**  
+**[CPP](./CPP/README.md)** | **[CSHARP](./Csharp/README.md)** | **[JAVA](./Java/README.md)**  | **[PHP](./PHP/README.md)** | **[JAVASCRIPT](./JavaScript/README.md)**  
 
 
 ![This is an image](https://i0.wp.com/rayandrade.com/wp-content/uploads/2021/12/abstract-_factory03.jpeg?resize=1536%2C1024&ssl=1)
