@@ -1,5 +1,5 @@
 # TheRayCode
-## Iterator pattern java
+## Iterator pattern JavaScript
 
 Find Ray on:
 

@@ -1,5 +1,5 @@
 # TheRayCode
-## Command pattern java
+## Command pattern JavaScript
 
 
 [Wikipedia](https://en.wikipedia.org/wiki/Command_pattern)
