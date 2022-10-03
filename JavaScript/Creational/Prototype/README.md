@@ -13,7 +13,7 @@
  * **[Prototype](../Prototype/README.md)**
  * **[Singleton](../Singleton/README.md)**
 
-**JavaScript Singleton Design Pattern**
+**JavaScript Prototype Design Pattern**
 
  * [Example 1](./PE1/README.md)
 
