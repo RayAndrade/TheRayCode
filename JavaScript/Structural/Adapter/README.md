@@ -1,7 +1,7 @@
 # TheRayCode
 ## is AWESOME!!!
 
-* **[JavaScript](../README.md)** * 
+* **[JavaScript](../README.md)**
 
 **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
@@ -19,7 +19,6 @@ JavaScript **Adapter** Design Pattern
  * **[Facade](../Facade/README.md)**
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
-
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
