@@ -1,11 +1,13 @@
 # TheRayCode
 ## is AWESOME!!!
 
-* **[Java](../README.md)** * 
+**[JavaScript](../README.md)**
 
-* **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
+**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
-C++ Decorator section
+**JavaScript Structural Patterns**
+
+JavaScript **Decorator** Design Pattern
 
 [Example 1](./D1/README.md)  
 
