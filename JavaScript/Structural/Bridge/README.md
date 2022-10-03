@@ -1,13 +1,13 @@
 # TheRayCode
 ## is AWESOME!!!
 
+**[JavaScript](../README.md)**
+
+**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
+
 **JavaScript Structural Patterns**
 
-**[JavaScript](../README.md)** 
-
-**[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
-
-JavaScript **Bridge** section:
+JavaScript **Bridge** Design Pattern
 
 [Example 1](./BE1/README.md)  
 
@@ -19,7 +19,6 @@ JavaScript **Bridge** section:
  * **[Facade](../Facade/README.md)**
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
-
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
