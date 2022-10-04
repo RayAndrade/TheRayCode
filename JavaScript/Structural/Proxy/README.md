@@ -1,13 +1,15 @@
 # TheRayCode
 ## is AWESOME!!!
 
-* **[Java](../README.md)** * 
+**[JavaScript](../README.md)**
 
 **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
-Java Proxy section
+**JavaScript Structural Patterns**
 
-[Example 1](./BE1/README.md)  
+JavaScript **Proxy** section
+
+[Example 1](./PY1/README.md)  
 
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](../Bridge/README.md)**
