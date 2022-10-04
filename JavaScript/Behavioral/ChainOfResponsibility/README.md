@@ -1,11 +1,11 @@
 # TheRayCode
 ## is AWESOME!!!
 
-* **[JavaScript](../README.md)** * 
+**[JavaScript](../README.md)** 
 
-* **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
+**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
 
-**JavaScript Chain of Responsibity Pattern**
+JavaScript **Chain of Responsibity** Pattern
 
  * [Example 1](./COR1/README.md)
 
