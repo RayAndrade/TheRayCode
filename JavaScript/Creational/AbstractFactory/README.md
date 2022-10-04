@@ -1,7 +1,7 @@
 # TheRayCode
 ## is AWESOME!!!
 
-* **[JavaScript](../README.md)** * 
+**[JavaScript](../README.md)** 
 
 **[Creational Patterns](../README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
@@ -13,14 +13,13 @@
  * **[Prototype](../Prototype/README.md)**
  * **[Singleton](../Singleton/README.md)**
 
-**JavaScript Abstract Factory Design Pattern**
+JavaScript **Abstract Factory** Design Pattern
 
 * [Example 1](./AF1/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
-
 
 [Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
 
