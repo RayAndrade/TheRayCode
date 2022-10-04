@@ -1,7 +1,7 @@
 # TheRayCode
 ## is AWESOME!!!
 
-* **[JavaScript](../README.md)** * 
+**[JavaScript](../README.md)** 
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
@@ -13,7 +13,7 @@
  * **[Prototype](../Prototype/README.md)**
  * **[Singleton](../Singleton/README.md)**
 
-**JavaScript Prototype Design Pattern**
+JavaScript **Prototype** Design Pattern
 
  * [Example 1](./PE1/README.md)
 
