@@ -1,7 +1,8 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
-* **[PHP](../README.md)** * 
+**Flyweight**
+
+**[PHP](../README.md)** * 
 
 **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
