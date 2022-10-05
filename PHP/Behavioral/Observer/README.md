@@ -1,5 +1,6 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
+
+**Observer**
 
 **[PHP](../README.md)** 
 
