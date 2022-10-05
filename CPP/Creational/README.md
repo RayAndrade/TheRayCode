@@ -2,9 +2,9 @@
 
 **Creational Design Patterns**
 
-* **[C++](../README.md)** * 
+**[C++](../README.md)** * 
 
-* **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
+**[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
 
 **C++ Creational Patterns**
 
@@ -30,12 +30,8 @@ I explore this pattern with some c++ code. All the code you can find at TheRayCo
 **Abstract Factory**
 Also known as the factory of factories this pattern allows you to create a family of related objects  
 
-
-
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-
 [Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
-
