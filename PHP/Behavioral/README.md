@@ -1,6 +1,6 @@
 # TheRayCode is AWESOME!!!
 
-**Behavoiral Patterns Sectiion**
+**Behavoiral Patterns sectiion**
 
 **[PHP](../README.md)** 
 
