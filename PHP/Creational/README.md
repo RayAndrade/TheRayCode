@@ -1,6 +1,6 @@
 # TheRayCode is AWESOME!!!
 
-**Creational Pattern section**
+**Creational Patterns section**
 
 **[PHP](../README.md)** 
 
