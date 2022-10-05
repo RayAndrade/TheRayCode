@@ -8,6 +8,8 @@
 
 **[CPP](../CPP/README.md)** | **[CSHARP](../Csharp/README.md)** | **[JAVA](../Java/README.md)**  | **[PHP](../PHP/README.md)** | **[JAVASCRIPT](../JavaScript/README.md)**
 
+In this section I will explore the desiogn patterns using JavaScript.
+
 [TheRayCode.ORG](https://www.TheRayCode.ORG)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
