@@ -1,8 +1,10 @@
 # TheRayCode is AWESOME!!!
 
-* **[C++](../README.md)** * 
+**Structural Patterns cection**
 
-* **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
+**[C++](../README.md)** 
+
+**[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
 
 
 **C++ Structural Patterns**
