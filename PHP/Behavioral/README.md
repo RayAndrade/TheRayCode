@@ -1,5 +1,6 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
+
+**Behavoiral Patterns Sectiion**
 
 **[PHP](../README.md)** 
 
