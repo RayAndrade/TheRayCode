@@ -2,7 +2,7 @@
 
 **Factory**
 
-**[PHP](../README.md)** * 
+**[PHP](../README.md)** 
 
 **[Creational Patterns](../README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
