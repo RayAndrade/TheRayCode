@@ -1,5 +1,4 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
 * **[C++](../README.md)** * 
 
