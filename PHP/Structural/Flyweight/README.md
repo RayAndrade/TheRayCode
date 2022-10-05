@@ -2,7 +2,7 @@
 
 **Flyweight**
 
-**[PHP](../README.md)** * 
+**[PHP](../README.md)** 
 
 **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
