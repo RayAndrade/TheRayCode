@@ -1,13 +1,14 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
-* **[PHP](../README.md)** * 
+**Factory**
+
+**[PHP](../README.md)** * 
 
 **[Creational Patterns](../README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
 **PHP Creational Patterns**
 
- * **[Factory](../Factory/README.md)**
+ * **[Factory](./README.md)**
  * **[AbstractFactory](../AbstractFactory/README.md)**
  * **[Builder](../Builder/README.md)**
  * **[Prototype](../Prototype/README.md)**
