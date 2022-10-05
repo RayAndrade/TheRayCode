@@ -1,5 +1,6 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
+
+**Creational***
 
 **[PHP](../README.md)** 
 
@@ -12,13 +13,6 @@
  * **[Builder](./Builder/README.md)**
  * **[Prototype](./Prototype/README.md)**
  * **[Singleton](./Singleton/README.md)**
-
-**PHP Factory Design Pattern**
-
- * [Example 1](FY01/)
- * [Example 2](FY02/)
- * [Example 3](FY03/README.md)
- * [Example 7](FY07/)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
