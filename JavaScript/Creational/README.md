@@ -13,7 +13,7 @@
  * **[Prototype](./Prototype/README.md)**
  * **[Singleton](./Singleton/README.md)**
 
-In this section I explore the creational desin patterns. This patterns are the [Abstract Factory](./AbstractFactory/README.md) pattern, the [Factory](./Factory/README.md)   **[Abstract Factory] (./AbstractFactory/README.md)** pattern, the [Builder](./Builder/README.md) design pattern,the [Prototype](./Prototype/README.md) and the [Singleton](./Singleton/README.md) design pattern.
+In this section I explore the creational desin patterns. This patterns are the [Factory](./Factory/README.md) method, the [Abstract Factory](./AbstractFactory/README.md) pattern,  , the [Builder](./Builder/README.md) design pattern,the [Prototype](./Prototype/README.md) and the [Singleton](./Singleton/README.md) design pattern.
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
