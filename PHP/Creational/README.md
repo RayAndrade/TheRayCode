@@ -1,6 +1,6 @@
 # TheRayCode is AWESOME!!!
 
-**Creational***
+**Creational**
 
 **[PHP](../README.md)** 
 
