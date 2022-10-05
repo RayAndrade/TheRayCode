@@ -1,5 +1,5 @@
-# TheRayCode  **Chain Of Responsibility**
-## is AWESOME!!!
+# TheRayCode  is AWESOME!!!
+**Chain Of Responsibility**
 
 **[PHP](../README.md)** 
 
