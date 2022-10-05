@@ -1,9 +1,9 @@
 # TheRayCode
 ## is AWESOME!!!
 
-* **[PHP](../README.md)** * 
+**[PHP](../README.md)**  
 
-* **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
+**[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
 
 
 **PHP Structural Patterns**
