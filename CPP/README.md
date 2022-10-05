@@ -8,6 +8,8 @@
 
 **[CPP](../CPP/README.md)** | **[CSHARP](../Csharp/README.md)** | **[JAVA](../Java/README.md)**  | **[PHP](../PHP/README.md)** | **[JAVASCRIPT](../JavaScript/README.md)**
 
+In this section you will find code examples in C++.
+
 [TheRayCode.ORG](https://www.TheRayCode.ORG)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
