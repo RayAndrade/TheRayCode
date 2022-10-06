@@ -1,11 +1,12 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
-* **[Java](../README.md)** * 
+**Statergy**
 
-* **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
+**[Statergy](../README.md)** 
 
-Java Statergy section
+**[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
+
+JavaScript Statergy section
 
 [Example 1](./SY1/README.md)
 
@@ -13,6 +14,4 @@ Java Statergy section
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-
 [Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
-
