@@ -1,5 +1,6 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
+
+**Decorator**
 
 **[JavaScript](../README.md)**
 
@@ -25,4 +26,3 @@ JavaScript **Decorator** Design Pattern
 [TheRayCode.ORG](https://www.TheRayCode.org) 
 
 [Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
-
