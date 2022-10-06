@@ -1,7 +1,8 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
-* **[C#](../README.md)** * 
+**Abstract Factory**
+
+**[C#](../README.md)** 
 
 **[Creational Patterns](../README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
