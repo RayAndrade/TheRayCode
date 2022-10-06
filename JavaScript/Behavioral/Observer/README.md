@@ -1,11 +1,12 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
-* **[Java](../README.md)** * 
+**Oberver**
 
-* **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
+**[JavaScript](../README.md)** 
 
-Java Oberver section
+**[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
+
+JavaScript Oberver section
 
 [Example 1](./O1/README.md)
 
