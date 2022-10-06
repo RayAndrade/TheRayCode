@@ -6,10 +6,6 @@
 
 **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
 
-JavaScript **Chain of Responsibity** Pattern
-
-[Example 1](./COR1/README.md)
-
 * **[ChainOfResponsibility](./README.md)**
 * **[Iterator](../Iterator/README.md)**
 * **[Mediator](../Mediator/README.md)**
@@ -19,6 +15,10 @@ JavaScript **Chain of Responsibity** Pattern
 * **[Strategy](../Strategy/README.md)**
 * **[Template](../Template/README.md)**
 * **[Visitor](../Visitor/README.md)**
+
+JavaScript **Chain of Responsibity** Pattern
+
+[Example 1](./COR1/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.ORG)
 
