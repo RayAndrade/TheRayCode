@@ -1,10 +1,8 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
-* **[C++](../README.md)** * 
+**[C++](../README.md)** * 
 
 **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
-
 
 **C++ Structural Patterns**
 
@@ -20,7 +18,6 @@
 **C++ Composite Design Pattern**
 
 [Example 1](./CE1/README.md)  
-
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
