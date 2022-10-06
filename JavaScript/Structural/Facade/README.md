@@ -8,10 +8,6 @@
 
 **JavaScript Structural Patterns**
 
-JavaScript **Facade** Design Pattern
-
-[Example 1](./FE1/README.md)  
-
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](../Bridge/README.md)**
  * **[Command](../Command/README.md)**
@@ -20,6 +16,10 @@ JavaScript **Facade** Design Pattern
  * **[Facade](./README.md)**
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
+
+JavaScript **Facade** Design Pattern
+
+[Example 1](./FE1/README.md)  
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
