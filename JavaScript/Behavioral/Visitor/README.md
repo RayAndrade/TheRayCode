@@ -2,9 +2,9 @@
 
 **Visitior**
 
-* **[Java](../README.md)** * 
+**[Java](../README.md)** 
 
-* **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
+**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
 
 Java Visitior section
 
@@ -16,4 +16,3 @@ Java Visitior section
 
 
 [Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
-
