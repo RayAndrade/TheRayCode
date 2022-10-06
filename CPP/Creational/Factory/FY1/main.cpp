@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+//using namespace std;
 
 // https://www.youtube.com/watch?v=XyNWEWUSa5E
 // Factory Design Pattern in C++
@@ -11,8 +11,8 @@ int main() {
 // client code starts
     int type;
     while(1){
-        cout << "Enter type of Zero for exit" << endl;
-        cin >> type;
+        std::cout << "Enter type of Zero for exit" << std::endl;
+        std::cin >> type;
         if(!type)
             break;
         Toy *v = ToyFactory::createToy(type);
@@ -21,7 +21,7 @@ int main() {
             delete v;
         }
     }
-    cout << "Exit...";
+    std::cout << "Exit...";
 //Client code ends
     return 0;
 }

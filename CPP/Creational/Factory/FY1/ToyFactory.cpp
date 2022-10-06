@@ -1,10 +1,8 @@
 //
 // Created by ray on 7/4/22.
 //
-#include <iostream>
-using namespace std;
 
-#include "Object.cpp"
+#include "Toys.cpp"
 
 class ToyFactory{
 public:
@@ -24,7 +22,7 @@ public:
                 break;
             }
             default:{
-                cout << "Invalid toy type please re-enter type" << endl;
+                std::cout << "Invalid toy type please re-enter type" << std::endl;
                 return NULL;
             }
         }
