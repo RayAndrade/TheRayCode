@@ -1,5 +1,7 @@
 # TheRayCode is AWESOME!!!
 
+**Factory**
+
 **[JavaScript](../README.md)**  
 
 **[Creational Patterns](../README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
