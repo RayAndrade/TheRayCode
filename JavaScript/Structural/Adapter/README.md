@@ -1,5 +1,6 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
+
+**Adapter**
 
 **[JavaScript](../README.md)**
 
