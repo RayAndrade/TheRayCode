@@ -1,15 +1,12 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
+
+**Proxy**
 
 **[JavaScript](../README.md)**
 
 **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
 **JavaScript Structural Patterns**
-
-JavaScript **Proxy** section
-
-[Example 1](./PY1/README.md)  
 
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](../Bridge/README.md)**
@@ -20,6 +17,9 @@ JavaScript **Proxy** section
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](./README.md)**
 
+JavaScript **Proxy** section
+
+[Example 1](./PY1/README.md) 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
