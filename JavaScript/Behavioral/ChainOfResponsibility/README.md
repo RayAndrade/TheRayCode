@@ -6,6 +6,8 @@
 
 **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
 
+**JavaScript Behavoiral Patterns**
+
 * **[ChainOfResponsibility](./README.md)**
 * **[Iterator](../Iterator/README.md)**
 * **[Mediator](../Mediator/README.md)**
