@@ -1,7 +1,8 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
-* **[Java](../README.md)** * 
+**Factory**
+
+**[Java](../README.md)** 
 
 **[Creational Patterns](../README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
