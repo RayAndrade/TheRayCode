@@ -1,11 +1,12 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
-* **[Java](../README.md)** * 
+**State**
 
-* **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
+**[Java](../README.md)**  
 
-Java State section
+**[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
+
+**Java State section**
 
 [Example 1](./SE1/README.md)
 
