@@ -6,7 +6,7 @@
 
 **[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
-* **[ChainOfResponsibility](./ChainOfResponsibility/README.md)**
+* **[ChainOfResponsibility](../README.md)**
 * **[Iterator](./Iterator/README.md)**
 * **[Mediator](./Mediator/README.md)**
 * **[Memento](./Memento/README.md)**
