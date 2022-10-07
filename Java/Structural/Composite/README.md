@@ -6,9 +6,7 @@
 
 **[Creational Patterns](../Creational/README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
-Java Composite section
-
-[Example 1](./CE1/README.md)
+**Java Structural Patterns**
 
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](../Bridge/README.md)**
@@ -18,6 +16,8 @@ Java Composite section
  * **[Facade](../Facade/README.md)**
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
+
+[Example 1](./CE1/README.md)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
