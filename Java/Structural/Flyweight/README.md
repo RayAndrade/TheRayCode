@@ -17,7 +17,7 @@
  * **[Flyweight](./README.md)**
  * **[Proxy](../Proxy/README.md)**
 
-Java Flyweight section
+**Java Flyweight section**
 
 [Example 1](./FT1/README.md)  
 
