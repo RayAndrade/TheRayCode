@@ -17,6 +17,8 @@
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
 
+**Java Composite Design Pattern**
+
 [Example 1](./CE1/README.md)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
