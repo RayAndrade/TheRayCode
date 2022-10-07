@@ -1,9 +1,10 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
-* **[Java](../README.md)** * 
+**Composite**
 
-* **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
+**[Java](../README.md)** 
+
+**[Creational Patterns](../Creational/README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
 Java Composite section
 
@@ -17,8 +18,6 @@ Java Composite section
  * **[Facade](../Facade/README.md)**
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
-
-
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
