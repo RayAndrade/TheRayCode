@@ -6,7 +6,7 @@
 
 **[Creational Patterns](../Creational/README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
-Java Bridge section
+**Java Bridge section**
 
 [Example 1](./BE1/README.md)  
 
