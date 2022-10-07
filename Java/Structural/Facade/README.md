@@ -1,24 +1,26 @@
 # TheRayCode
 ## is AWESOME!!!
 
-* **[Java](../README.md)** * 
+**[Java](../README.md)** * 
 
-* **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
+**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
 
+**Java Structural Patterns**
 
 * **[Adapter](../Adapter/README.md)**
 * **[Bridge](../Bridge/README.md)**
 * **[Command](../Command/README.md)**
 * **[Composite](../Composite/README.md)**
-* **[Decorator](../Decorator/README.md)**
-* **[Facade](./README.md)**
+* **[Decorator](./README.md)**
+* **[Facade](../Facade/README.md)**
 * **[Flyweight](../Flyweight/README.md)**
 * **[Proxy](../Proxy/README.md)**
+
+**Java Decorator section**
 
 Java Facade section
 
 [Example 1](./FE1/README.md)  
-
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
