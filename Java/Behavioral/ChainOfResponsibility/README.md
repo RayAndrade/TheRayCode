@@ -1,9 +1,10 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
-* **[Java](../README.md)** * 
+**Chain of Responsibity**
 
-* **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
+**[Java](../README.md)**  
+
+**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
 **Java Chain of Responsibity Pattern**
 
