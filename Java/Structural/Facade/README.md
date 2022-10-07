@@ -12,7 +12,7 @@
 * **[Bridge](../Bridge/README.md)**
 * **[Command](../Command/README.md)**
 * **[Composite](../Composite/README.md)**
-* **[Decorator](./README.md)**
+* **[Decorator](../Decorator/README.md)**
 * **[Facade](../Facade/README.md)**
 * **[Flyweight](../Flyweight/README.md)**
 * **[Proxy](../Proxy/README.md)**
