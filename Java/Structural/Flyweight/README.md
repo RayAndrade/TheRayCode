@@ -4,7 +4,7 @@
 
 **[Java](../README.md)** 
 
-**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
+**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](./README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](../Bridge/README.md)**
