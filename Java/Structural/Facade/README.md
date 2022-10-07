@@ -16,9 +16,7 @@
 * **[Flyweight](../Flyweight/README.md)**
 * **[Proxy](../Proxy/README.md)**
 
-**Java Decorator section**
-
-Java Facade section
+**Java Facade section**
 
 [Example 1](./FE1/README.md)  
 
