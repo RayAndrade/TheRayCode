@@ -1,10 +1,10 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
-* **[Java](../README.md)** * 
+**Structural**
 
-**[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
+**[Java](../README.md)** 
 
+**[Creational Patterns](../Creational/README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
 **Java Structural Patterns**
 
@@ -16,7 +16,6 @@
  * **[Facade](./Facade/README.md)**
  * **[Flyweight](./Flyweight/README.md)**
  * **[Proxy](./Proxy/README.md)**
-
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
