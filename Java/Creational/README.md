@@ -1,5 +1,7 @@
 # TheRayCode is AWESOME!!!
 
+**Creational**
+
 **[Java](../README.md)**  
 
 **[Creational Patterns](../Creational/README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
@@ -16,6 +18,4 @@
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
-
+[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/) 
