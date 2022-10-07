@@ -14,8 +14,8 @@
 * **[Memento](../Memento/README.md)**
 * **[Observer](../Observer/README.md)**
 * **[State](../State/README.md)**
-* **[Strategy](./README.md)**
-* **[Template](../Template/README.md)**
+* **[Strategy](../Strategy/README.md)**
+* **[Template](./README.md)**
 * **[Visitor](../Visitor/README.md)**
 
 **Java Template section**
