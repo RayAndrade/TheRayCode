@@ -2,11 +2,11 @@
 
 **Command**
 
-**[C#](../README.md)** 
+**[Java](../README.md)** 
 
 **[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](./README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**C# Structural Patterns**
+**Java Structural Patterns**
 
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](../Bridge/README.md)**
@@ -17,7 +17,7 @@
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
 
-**C# Command Design Pattern**
+**Java Command Design Pattern**
 
 [Example 1](./CD1/README.md)  
 
