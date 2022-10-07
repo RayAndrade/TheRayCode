@@ -1,9 +1,10 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
-* **[C#](../README.md)** * 
+**Iterator**
 
-**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
+**[C#](../README.md)**  
+
+**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
 **C# Behavioral Patterns**
 
