@@ -1,11 +1,24 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
-* **[Java](../README.md)** * 
+**Visitior**
 
-* **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
+**[Java](../README.md)** 
 
-Java Visitior section
+**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
+
+**Java Behavoiral Patterns**
+
+* **[ChainOfResponsibility](../ChainOfResponsibility/README.md)**
+* **[Iterator](../Iterator/README.md)**
+* **[Mediator](../Mediator/README.md)**
+* **[Memento](../Memento/README.md)**
+* **[Observer](../Observer/README.md)**
+* **[State](../State/README.md)**
+* **[Strategy](../Strategy/README.md)**
+* **[Template](./README.md)**
+* **[Visitor](../Visitor/README.md)**
+
+**Java Visitior section**
 
 [Example 1](./V1/README.md)
 
@@ -13,6 +26,4 @@ Java Visitior section
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-
 [Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
-
