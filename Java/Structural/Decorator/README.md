@@ -1,11 +1,12 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
-* **[Java](../README.md)** * 
+**Decorator**
 
-* **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
+**[Java](../README.md)** 
 
-C++ Decorator section
+**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
+
+**Java Decorator section**
 
 [Example 1](./D1/README.md)  
 
@@ -23,4 +24,3 @@ C++ Decorator section
 [TheRayCode.ORG](https://www.TheRayCode.org) 
 
 [Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
-
