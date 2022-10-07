@@ -1,9 +1,10 @@
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
-* **[Java](../README.md)** * 
+**Bridge**
 
-* **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
+**[Java](../README.md)**  
+
+**[Creational Patterns](../Creational/README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
 Java Bridge section
 
@@ -17,7 +18,6 @@ Java Bridge section
  * **[Facade](../Facade/README.md)**
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
-
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
