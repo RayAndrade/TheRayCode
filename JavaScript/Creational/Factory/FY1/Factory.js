@@ -23,7 +23,7 @@ function SchoolFactory()
             case 1:
                 return new Teacher(name)
             case 2:
-                return new Student(name)
+                return new Member(name)
         }
     }
 }
