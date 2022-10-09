@@ -3,16 +3,16 @@
     Author: DevSage (Youtube) -> https://www.youtube.com/DevSage
 */
 
-function Developer(name)
+function Teacher(name)
 {
     this.name = name
-    this.type = "Developer"
+    this.type = "Teacher"
 }
 
-function Tester(name)
+function Student(name)
 {
     this.name = name
-    this.type = "Tester"
+    this.type = "Student"
 }
 
 function EmployeeFactory()
@@ -21,26 +21,26 @@ function EmployeeFactory()
         switch(type)
         {
             case 1:
-                return new Developer(name)
+                return new Teacher(name)
             case 2:
-                return new Tester(name)
+                return new Student(name)
         }
     }
 }
 
 function say()
 {
-    console.log("Hi, I am " + this.name + " and I am a " + this.type)
+    console.log("Hello I am " + this.name + " and I am a " + this.type)
 }
 
 const employeeFactory = new EmployeeFactory()
 const employees = []
 
-employees.push(employeeFactory.create("Patrick", 1))
-employees.push(employeeFactory.create("John", 2))
-employees.push(employeeFactory.create("Jamie", 1))
-employees.push(employeeFactory.create("Taylor", 1))
-employees.push(employeeFactory.create("Tim", 2))
+employees.push(employeeFactory.create("Patrick Starfish", 1))
+employees.push(employeeFactory.create("Dora Explore", 2))
+employees.push(employeeFactory.create("Mickey Mouse", 1))
+employees.push(employeeFactory.create("Ricky Rat", 1))
+employees.push(employeeFactory.create("Tiny Tim", 2))
 
 employees.forEach( emp => {
     say.call(emp)
