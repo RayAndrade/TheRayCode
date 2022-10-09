@@ -2,7 +2,7 @@ In this article I will explore the Factory Design pattern and I will be using Ja
 Our factory will creatory both Teacher and Student objects.
 The Teacher object will look like this:
 
-```jsscript
+```javascript
 function Teacher(name)
 {
    this.name = name
@@ -11,7 +11,7 @@ function Teacher(name)
 ```
 
 and for the Teacher we will have:
-```jsscript
+```javascript
 function Teacher(name)
 {
    this.name = name
@@ -21,7 +21,7 @@ function Teacher(name)
 Notice both the student *could* have the same interface in other languages. Both methods have the same name and number of methods.
 For student we have.
 
-```jsscript
+```javascript
 function Student(name)
 {
    this.name = name
@@ -30,7 +30,7 @@ function Student(name)
 ```
 
 For the factory that will create either the a student or a teacher. If you would like to add other member types you may do that here.
-```jsscript
+```javascript
 function SchoolFactory()
 {
    this.create = (name, type) => {
@@ -46,7 +46,7 @@ function SchoolFactory()
 ```
 Now let's create a method for our objects. We will call the object method *say* to denote talking.
 
-```jsscript
+```javascript
 function say()
 {
    console.log("Hello I am " + this.name + " and I am a " + this.type)
@@ -81,6 +81,10 @@ classroom.forEach(emp => {
 Now let's run this JavaScript and we should get:
 
 ```run
-
+Hello I am Patrick Starfish and I am a Teacher
+Hello I am Dora Explore and I am a Student
+Hello I am Mickey Mouse and I am a Teacher
+Hello I am Ricky Rat and I am a Teacher
+Hello I am Tiny Tim and I am a Student
 ```
 
