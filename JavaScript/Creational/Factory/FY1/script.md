@@ -15,7 +15,7 @@ this.name = name
 this.type = "Student"
 }
 
-function EmployeeFactory()
+function SchoolFactory()
 {
 this.create = (name, type) => {
 switch(type)
@@ -33,15 +33,15 @@ function say()
 console.log("Hello I am " + this.name + " and I am a " + this.type)
 }
 
-const employeeFactory = new EmployeeFactory()
-const employees = []
+const factory = new SchoolFactory()
+const student = []
 
-employees.push(employeeFactory.create("Patrick Starfish", 1))
-employees.push(employeeFactory.create("Dora Explore", 2))
-employees.push(employeeFactory.create("Mickey Mouse", 1))
-employees.push(employeeFactory.create("Ricky Rat", 1))
-employees.push(employeeFactory.create("Tiny Tim", 2))
+student.push(factory.create("Patrick Starfish", 1))
+student.push(factory.create("Dora Explore", 2))
+student.push(factory.create("Mickey Mouse", 1))
+student.push(factory.create("Ricky Rat", 1))
+student.push(factory.create("Tiny Tim", 2))
 
-employees.forEach( emp => {
+student.forEach(emp => {
 say.call(emp)
 })
