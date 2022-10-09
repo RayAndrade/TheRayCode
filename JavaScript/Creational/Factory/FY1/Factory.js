@@ -1,8 +1,3 @@
-/*
-    Factory Design Pattern -> https://www.youtube.com/watch?v=kuirGzhGhyw
-    Author: DevSage (Youtube) -> https://www.youtube.com/DevSage
-*/
-
 function Teacher(name)
 {
     this.name = name
@@ -14,7 +9,6 @@ function Student(name)
     this.name = name
     this.type = "Student"
 }
-
 function SchoolFactory()
 {
     this.create = (name, type) => {
@@ -23,7 +17,7 @@ function SchoolFactory()
             case 1:
                 return new Teacher(name)
             case 2:
-                return new Member(name)
+                return new Student(name)
         }
     }
 }
@@ -34,14 +28,15 @@ function say()
 }
 
 const factory = new SchoolFactory()
-const student = []
 
-student.push(factory.create("Patrick Starfish", 1))
-student.push(factory.create("Dora Explore", 2))
-student.push(factory.create("Mickey Mouse", 1))
-student.push(factory.create("Ricky Rat", 1))
-student.push(factory.create("Tiny Tim", 2))
+const classroom = []
 
-student.forEach(emp => {
+classroom.push(factory.create("Patrick Starfish", 1))
+classroom.push(factory.create("Dora Explore", 2))
+classroom.push(factory.create("Mickey Mouse", 1))
+classroom.push(factory.create("Ricky Rat", 1))
+classroom.push(factory.create("Tiny Tim", 2))
+
+classroom.forEach(emp => {
     say.call(emp)
 })
