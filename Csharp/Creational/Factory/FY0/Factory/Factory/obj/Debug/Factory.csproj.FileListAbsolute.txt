@@ -1,3 +1,9 @@
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/FY1/Factory/Factory/bin/Debug/Factory.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/FY1/Factory/Factory/bin/Debug/Factory.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/FY1/Factory/Factory/obj/Debug/Factory.csprojAssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/FY1/Factory/Factory/obj/Debug/Factory.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/FY1/Factory/Factory/obj/Debug/Factory.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Factroy/FY1/Factory/Factory/obj/Debug/Factory.pdb
 /home/ray/TheRayCode/TheRayCode/Csharp/Creational/Factory/FY1/Factory/Factory/bin/Debug/Factory.exe
 /home/ray/TheRayCode/TheRayCode/Csharp/Creational/Factory/FY1/Factory/Factory/bin/Debug/Factory.pdb
 /home/ray/TheRayCode/TheRayCode/Csharp/Creational/Factory/FY1/Factory/Factory/obj/Debug/Factory.csprojAssemblyReference.cache

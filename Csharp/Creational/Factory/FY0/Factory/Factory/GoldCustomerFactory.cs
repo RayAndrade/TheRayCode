@@ -1,6 +1,6 @@
 namespace Factory
 {
-    public class GoldCustomerFactory: BaseCustomerFactory
+    public class GoldCustomerFactory : BaseCustomerFactory
     {
         public override ICustomer CreateCustomer()
         {

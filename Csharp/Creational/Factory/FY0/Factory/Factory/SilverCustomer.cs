@@ -1,8 +1,7 @@
-using System;
-
 namespace Factory
 {
-    public class SilverCustomer: ICustomer
+    using System;
+    public class SilverCustomer : ICustomer
     {
         public void AddPoints()
         {
