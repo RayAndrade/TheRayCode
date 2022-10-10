@@ -16,7 +16,6 @@ public:
     void assembleParts() { std::cout<< "Assembling Plane Parts" <<std::endl; };
     void applyLabel()  { std::cout<< "Preparing Plane Label " <<std::endl; name = "Applying Plane Label"; price = 10; };
     void showProduct() { std::cout<< "Preparing Plane Parts" <<std::endl; };
-
 };
 
 

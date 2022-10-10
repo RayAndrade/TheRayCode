@@ -5,10 +5,9 @@
 #ifndef FY1_CAR_H
 #define FY1_CAR_H
 
-#include "Toy.h";
+#include "Toy.h"
 
 class Car : public Toy{
-    // make all constructor privater or protected
 
 public:
     void prepareParts() { std::cout<< "Preparing Car Parts" <<std::endl; };
@@ -16,7 +15,6 @@ public:
     void assembleParts() { std::cout<< "Assembling Car Parts" <<std::endl; };
     void applyLabel()  { std::cout<< "Preparing Car Label " <<std::endl; name = "Applying Car Label"; price = 10; };
     void showProduct() { std::cout<< "Preparing Car Parts" <<std::endl; };
-
 };
 
 #endif //FY1_CAR_H

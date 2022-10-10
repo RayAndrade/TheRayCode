@@ -5,7 +5,7 @@
 #ifndef FY1_BIKE_H
 #define FY1_BIKE_H
 
-#include "Toy.h";
+#include "Toy.h"
 
 class Bike : public Toy{
     // make all constructor privater or protected
