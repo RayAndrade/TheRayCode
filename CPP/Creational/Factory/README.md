@@ -19,10 +19,8 @@
  * [Example 3](FY3/README.md)
 
 
-zz
-![Alternate image text]( https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/CPP/Creational/Factory/splash-100.png)
-xx
-[logo]: https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/CPP/Creational/Factory/splash-100.png "Logo Title Text 2"
+image
+![C# Factory]( https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/CPP/Creational/Factory/splash-100.png)
 
 
 [C++ factory]: https://github.com/RayAndrade/TheRayCode/images/cpp/splash-100.png "Factory Pattern"
