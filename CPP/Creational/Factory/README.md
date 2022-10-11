@@ -19,6 +19,8 @@
  * [Example 3](FY3/README.md)
 
 
+[logo]: ./splash-100.png "Logo Title Text 2"
+
 
 [C++ factory]: https://github.com/RayAndrade/TheRayCode/images/cpp/splash-100.png "Factory Pattern"
 
