@@ -19,7 +19,7 @@
  * [Example 3](FY3/README.md)
 
 xx
-[logo]: https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Factory "Logo Title Text 2"
+[logo]: https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Creational/Factory/splash-100.png "Logo Title Text 2"
 
 
 [C++ factory]: https://github.com/RayAndrade/TheRayCode/images/cpp/splash-100.png "Factory Pattern"
