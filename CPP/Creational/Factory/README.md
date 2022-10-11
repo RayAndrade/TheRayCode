@@ -20,7 +20,7 @@
 
 
 image
-![C# Factory]( https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/CPP/Creational/Factory/splash-100.png)
+![C# Factory](https://github.com/RayAndrade/TheRayCode/blob/main/CPP/Creational/Factory/splash-100.png)
 
 
 [C++ factory]: https://github.com/RayAndrade/TheRayCode/images/cpp/splash-100.png "Factory Pattern"
