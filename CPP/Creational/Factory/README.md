@@ -18,6 +18,9 @@
  * [Example 2](FY2/)
  * [Example 3](FY3/README.md)
 
+
+[C++ factory]: https://github.com/RayAndrade/TheRayCode/blob/main/images/cpp/splash-100.png/images/splash-100.png "Factory Pattern"
+
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
