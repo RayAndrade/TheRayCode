@@ -18,6 +18,9 @@
  * [Example 2](FY2/)
  * [Example 3](FY3/README.md)
 
+
+zz
+![Alternate image text]( https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/CPP/Creational/Factory/splash-100.png)
 xx
 [logo]: https://raw.githubusercontent.com/RayAndrade/TheRayCode/main/CPP/Creational/Factory/splash-100.png "Logo Title Text 2"
 
