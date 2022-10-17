@@ -106,6 +106,7 @@ public:
             }
             case 2:{
                 toy = new Bike;
+                break;
             }
             case 3:{
                 toy = new Plane;
