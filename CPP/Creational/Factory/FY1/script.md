@@ -75,6 +75,19 @@ public:
     void showProduct() { std::cout<< "Preparing Plane Parts" <<std::endl; };
 };
 ```
+Now Let's create an interface for are to to allow them be of the same class, **Toys**.
+
+```
+#include "Plane.h"
+#include "Bike.h"
+#include "Car.h"
+
+class Toys{
+
+};
+```
+Here we just group the toys under the same interface.
+
 
 Now to create each one of theses objecet I create a **ToyFactory**. The toy factory consist of a switch statement that will swithc to the desired type of **Toy**
 
