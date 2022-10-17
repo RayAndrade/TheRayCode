@@ -77,7 +77,7 @@ public:
 ```
 Now Let's create an interface for are to to allow them be of the same class, **Toys**.
 
-```
+```cpp
 #include "Plane.h"
 #include "Bike.h"
 #include "Car.h"
@@ -92,7 +92,7 @@ Here we just group the toys under the same interface.
 Now to create each one of theses objecet I create a **ToyFactory**. The toy factory consist of a switch statement that will swithc to the desired type of **Toy**
 
 ```cpp
-#include "Toys.cpp"
+#include "Toys.h"
 
 class ToyFactory{
 public:
