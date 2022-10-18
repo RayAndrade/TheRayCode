@@ -52,7 +52,7 @@ public void spec() {
 }
 ```
 
-Now we goto **Demo** and in **main** we place some code.
+Now we goto **FactoryMain** and in static **main** method we place some code.
 ```java
 public static void main(String args[]) {
     OS obj = new Android();
