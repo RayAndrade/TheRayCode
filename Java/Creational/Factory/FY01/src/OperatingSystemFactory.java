@@ -1,7 +1,7 @@
-import com.phone.OS;
-import com.phone.Android;
-import com.phone.IOS;
-import com.phone.Windows;
+import systems.OS;
+import systems.Android;
+import systems.IOS;
+import systems.Windows;
 
 public class OperatingSystemFactory {
     public OS getInstance(String str){

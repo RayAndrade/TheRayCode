@@ -1,13 +1,7 @@
-import com.phone.OS;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-
 public class FactoryMain {
     public static void main(String[] args) {
 
-
+/*
         BufferedReader scan = new BufferedReader(new InputStream() {
             @Override
             public int read() throws IOException {
@@ -42,6 +36,6 @@ public class FactoryMain {
         OS obj = osf.getInstance("junk");
         obj.spec();
         System.out.println("The Ray Code is AWESOME!!!");
-    }
 
-}
+*/
+    }}
