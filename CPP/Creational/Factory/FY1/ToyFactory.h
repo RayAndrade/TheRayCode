@@ -1,4 +1,10 @@
 //
+// Created by ray on 10/17/22.
+//
+
+#ifndef FY1_TOYFACTORY_H
+#define FY1_TOYFACTORY_H
+//
 // Created by ray on 7/4/22.
 //
 
@@ -16,6 +22,7 @@ public:
             }
             case 2:{
                 toy = new Bike;
+                break;
             }
             case 3:{
                 toy = new Plane;
@@ -33,3 +40,4 @@ public:
         return toy;
     }
 };
+#endif //FY1_TOYFACTORY_H

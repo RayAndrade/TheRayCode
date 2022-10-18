@@ -5,7 +5,7 @@
 // Factory Design Pattern in C++
 // CppNuts
 
-#include "ToyFactory.cpp"
+#include "ToyFactory.h"
 
 int main() {
 // client code starts
