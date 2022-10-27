@@ -3,12 +3,14 @@ import systems.Android;
 import systems.IOS;
 import systems.Windows;
 
-public class OperatingSystemFactory {
-    public OS getInstance(String str){
+import java.util.Objects;
 
-        if(str.equals("Android")){
+public class OperatingSystemFactory {
+    public OS getInstance(int str){
+
+        if(Objects.equals(str, 1)){
             return new Android();
-        } else if(str.equals("IOS")){
+        } else if(Objects.equals(str, 2)){
             return new IOS();
         } else
             return new Windows();

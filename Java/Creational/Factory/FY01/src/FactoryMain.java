@@ -1,41 +1,35 @@
+import systems.Android;
+import systems.IOS;
+import systems.OS;
+import systems.Windows;
+
+import java.util.Scanner;
+
+import java.io.IOException;
+
 public class FactoryMain {
     public static void main(String[] args) {
-
-/*
-        BufferedReader scan = new BufferedReader(new InputStream() {
-            @Override
-            public int read() throws IOException {
-                return 0;
-            }
-        });
-
-
-        int expression = int can1;
-
-        while (contine) {
-            if (expression == 1){
-
-            }
-            if (expression == 2){
-
-            }
-            if (expression == 3){
-
-            }
-            if (expression == 0){
-                break;
-            }
-        }
-
-
-
+        int os = 0;
         OperatingSystemFactory osf = new OperatingSystemFactory();
+        OS obj = null;
 
-        //OS obj = osf.getInstance("Android");
-        //OS obj = osf.getInstance("IOS");
-        OS obj = osf.getInstance("junk");
-        obj.spec();
-        System.out.println("The Ray Code is AWESOME!!!");
-
-*/
-    }}
+        Scanner scan= new Scanner(System.in);
+        while(os == 0) {
+            System.out.println("Select 1 for Android, 2 for IOS or 3 for Windows ");
+            os = scan.nextInt();
+            switch (os) {
+                case 1:
+                    obj = osf.getInstance(1);
+                    break;
+                case 2:
+                    obj = osf.getInstance(2);
+                    break;
+                case 3:
+                    obj = osf.getInstance(3);
+                    break;
+            }
+            obj.spec();
+            os = 0;
+        }
+    }
+}

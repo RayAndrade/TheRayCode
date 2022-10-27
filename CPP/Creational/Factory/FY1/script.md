@@ -1,20 +1,21 @@
-We start by creating an interface for the toys. This will bake all the toys will be of the same type.
+We start by creating an *interface* for the toys. This will hold all the toys and they will be of the same type.
 
 ```cpp
 class Toy { };
 ```
-in each of our toys we will need to use the **iostream** so we may use the standard out to print to the screen.
+In each one of our toys we will need to use the **iostream** so we may use the standard out to print to the screen. Since all the toys will be of the
+same type we can include the **iostream** here so that when we include each class this interface, it will be included also. 
 ```cpp
 #include <iostream>
 ```
 
-we have the name and the price protected varables:
+we have bot the name and the price protected varables:
 ```cpp
 protected:
     std::string name;
     float price;
 ```
-we add some methods that will be required of each class
+we add some methods that will be required for each class
 ```cpp
 public:
     virtual void prepareParts()  = 0;
@@ -23,12 +24,13 @@ public:
     virtual void applyLabel()    = 0;
     virtual void showProduct()   = 0;
 ```
-Now let's create our first toy the **Bike**. We include the Toy interface.
+Now let create some toys
+Now let's create our first toy the **Bike**. We include the Toy interface 
 
 ```cpp
 #include "Toy.h"
 ```
-now we can extend this class with the toy interface
+now we can extend this class with the toy interface and the requaired methods
 ```cpp
 class Bike : public Toy{
 
@@ -46,7 +48,9 @@ We have our required methods: **prepareParts**, **combineParts**, **assemblePart
 Now let's create a class for **Car**. It too is extended with the **Toy** interface.
 ```cpp
 #include "Toy.h"
+```
 
+```cpp
 class Car : public Toy{
 
 public:

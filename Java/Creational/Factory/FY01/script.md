@@ -52,7 +52,11 @@ public void spec() {
 }
 ```
 
+<<<<<<< HEAD
 Now we goto **FactoryMain** and in static **main** method we place some code.
+=======
+Now we goto **Main** and in **main** we place some code.
+>>>>>>> 8fb668b9 (Java/Creational/Factory)
 ```java
 public static void main(String args[]) {
     OS obj = new Android();
