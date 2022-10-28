@@ -1,10 +1,29 @@
+The Factory Method is a *creational design pattern* that provides an interface for creating objects in a superclass. 
+It but allows the subclasses to alter the type of classes/objets that will be created.
 We start by creating an *interface* for the toys. This will hold all the toys and they will be of the same type.
+
+
+[to slide 2](./page2.md)
+
+
+
+
+
+
+
+
+
 
 ```cpp
 class Toy { };
 ```
 In each one of our toys we will need to use the **iostream** so we may use the standard out to print to the screen. Since all the toys will be of the
 same type we can include the **iostream** here so that when we include each class this interface, it will be included also. 
+
+
+
+
+
 ```cpp
 #include <iostream>
 ```
