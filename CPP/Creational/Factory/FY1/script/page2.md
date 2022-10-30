@@ -1,5 +1,8 @@
 [back](./script.md)
 
+We will create an *interface* for the toys and they will hold all the toys and they will be of the same type.
+
+Now let's create a Toy interfase that will make each toy of the same type *Toy*.
 
 ```cpp
 class Toy { };
