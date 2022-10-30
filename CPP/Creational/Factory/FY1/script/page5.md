@@ -2,10 +2,9 @@
 
 Next we create the **Plane** class.  The code for the plane class looks like:
 ```cpp
-#include "Toy.h"
+  #include "Toy.h"
 
 class Plane : public Toy{
-    // make all constructor privater or protected
 
 public:
     void prepareParts() { std::cout<< "Preparing Plane Parts" <<std::endl; };
