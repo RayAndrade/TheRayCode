@@ -10,6 +10,7 @@ Let's put this together in the nain method.
 
 int main() {
 // client code starts
+
     int type;
     while(1){
         std::cout << "Enter type of Zero for exit" << std::endl;
@@ -23,6 +24,8 @@ int main() {
         }
     }
     std::cout << "Exit...";
+
+
 //Client code ends
     return 0;
 }
