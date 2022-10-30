@@ -2,12 +2,9 @@
 
 Now let's create a class for **Car**. It too is extended with the **Toy** interface.
 ```cpp
-#include "Toy.h"
-```
+  #include "Toy.h"
 
-```cpp
 class Car : public Toy{
-
 public:
     void prepareParts() { std::cout<< "Preparing Car Parts" <<std::endl; };
     void combineParts() { std::cout<< "combining Car Parts" <<std::endl; };
