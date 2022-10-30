@@ -6,7 +6,7 @@ If zero is chosen the routine is exited.
 Let's put this together in the nain method.
 
 ```cpp
-#include "ToyFactory.h"
+  #include "ToyFactory.h"
 
 int main() {
 // client code starts
