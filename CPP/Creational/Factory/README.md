@@ -14,9 +14,9 @@
 
 **C++ Factory Design Pattern**
 
- * [Example 1](FY1/)
- * [Example 2](FY2/)
- * [Example 3](FY3/README.md)
+ * [Factory Example 1](FY1/)
+ * [Factory Example 2](FY2/)
+ * [Factory Example 3](FY3/README.md)
 
 
 image
