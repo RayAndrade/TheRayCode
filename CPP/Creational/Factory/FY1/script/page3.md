@@ -8,7 +8,7 @@ Now let's create our first toy the **Bike**. We include the Toy interface
 ```
 now we can extend this class with the toy interface and the requaired methods
 ```cpp
-class Bike : public Toy{
+  class Bike : public Toy{
 
 public:
     void prepareParts() { std::cout<< "Preparing Bike Parts" <<std::endl; };
