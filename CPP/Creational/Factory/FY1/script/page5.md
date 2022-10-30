@@ -15,6 +15,3 @@ public:
 };
 ```
 [page6](./page6.md)
-
-
-
