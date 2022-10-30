@@ -4,7 +4,7 @@
 Now to create each one of theses objecet I create a **ToyFactory**. The toy factory consist of a switch statement that will swithc to the desired type of **Toy**
 
 ```cpp
-#include "Toys.h"
+ #include "Toys.h"
 
 class ToyFactory{
 public:
