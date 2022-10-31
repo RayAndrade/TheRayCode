@@ -9,7 +9,7 @@ namespace Factory
             while (true) 
             {
                 int choice = 0 ;
-                Console.WriteLine("Choose 1, 2, 3 or 0 to exitcd The    ");
+                Console.WriteLine("Choose 1, 2, 3 or 0 to exit");
                 
                 choice = Convert.ToInt32(Console.ReadLine());
                 switch(choice) 
