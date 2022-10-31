@@ -1,5 +1,5 @@
 
-[back](./page1.md)
+[back](./page01.md)
 
 We will use this interface to make all of our customer types of the same type.
 
@@ -46,4 +46,4 @@ Console.WriteLine("Gold Customer - Discount Added");
 
 Console.WriteLine("Operation specific to Gold Customer"); 
 
-[to slide 3](./page3.md)
+[to slide 3](./page03.md)
