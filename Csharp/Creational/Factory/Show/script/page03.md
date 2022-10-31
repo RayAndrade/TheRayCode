@@ -1,4 +1,4 @@
-[back](./page2.md)
+[back](./page02.md)
 
 We do the same as we did to the Gold customer by extending this class with also the **ICustomer**  intetrface.
 
@@ -45,4 +45,4 @@ Console.WriteLine("Operation specific to Silver Customer");
 
 
 
-[to slide 4](./page4.md)
+[to slide 4](./page04.md)
