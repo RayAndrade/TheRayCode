@@ -1,4 +1,4 @@
-[back](./page3.md)
+[back](./page03.md)
 
 
 We do the same as we did to the BronzeCustomer .
@@ -44,4 +44,4 @@ Console.WriteLine("Operation specific to Bronze Customer");
 
 
 
-[to slide 5](./page5.md)
+[to slide 5](./page05.md)
