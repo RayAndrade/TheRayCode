@@ -40,6 +40,8 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="BaseCustomerFactory.cs" />
+        <Compile Include="BronzeCustomer.cs" />
+        <Compile Include="BronzeCustomerFactory.cs" />
         <Compile Include="GoldCustomer.cs" />
         <Compile Include="GoldCustomerFactory.cs" />
         <Compile Include="ICustomer.cs" />

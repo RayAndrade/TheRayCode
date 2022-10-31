@@ -9,6 +9,8 @@ namespace Factory
             while (true) 
             {
                 int choice = 0 ;
+                Console.WriteLine("Choose 1, 2, 3 or 0 to exitcd The    ");
+                
                 choice = Convert.ToInt32(Console.ReadLine());
                 switch(choice) 
                 {
@@ -18,6 +20,10 @@ namespace Factory
                         break;
                     case 2:
                         c = new SilverCustomerFactory();
+                        c.GetCustomer();
+                        break;
+                    case 3:
+                        c = new BronzeCustomerFactory();
                         c.GetCustomer();
                         break;
                     case 0:
