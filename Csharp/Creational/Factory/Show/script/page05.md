@@ -1,4 +1,4 @@
-[back](./page4.md)
+[back](./page04.md)
 
 Now to create those objexts we make a Fatory for each that will look like for the GoldCustomer
 
@@ -15,4 +15,4 @@ public class GoldCustomerFactory: BaseCustomerFactory
 ```    
 
 
-[to slide 6](./page6.md)
+[to slide 6](./page06.md)
