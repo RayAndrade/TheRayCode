@@ -1,12 +1,11 @@
-[back](./page2.md)
+[back](./page3.md)
 
-We do the same as we did to the Gold customer by extending this class with also the **ICustomer**  intetrface.
 
-The mame of this customer will be **SilverCustomer**
+We do the same as we did to the BronzeCustomer .
 
 
 ```charp
-public class SilverCustomer : ICustomer
+public class BronzeCustomer : ICustomer
 {
     public void AddPoints()
     {
@@ -30,19 +29,19 @@ Build:
 
 Extend it with **ICustomer** and auto generate methods
 
-public class GoldCustomer : ICustomer
+public class BronzeCustomer : ICustomer
 { }
 
 auto generate missing classes
 
 add:
 
-Console.WriteLine("Silver Customer - Points Added");
+Console.WriteLine("Bronze Customer - Points Added");
 
-Console.WriteLine("Silver Customer - Discount Added");
+Console.WriteLine("Bronze Customer - Discount Added");
 
-Console.WriteLine("Operation specific to Silver Customer"); 
+Console.WriteLine("Operation specific to Bronze Customer"); 
 
 
 
-[to slide 4](./page4.md)
+[to slide 5](./page5.md)
