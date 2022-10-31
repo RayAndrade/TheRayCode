@@ -24,4 +24,4 @@ public interface ICustomer
 We want each customer to have the **AddPoints** and **AddDiscount** methods so we infource tha condisition here.
 
 
-[to slide 2](./page2.md)
+[to slide 2](./page02.md)
