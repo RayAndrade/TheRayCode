@@ -14,7 +14,7 @@
 
 **C# Factory Design Pattern**
 
- * [Factory Example 1](FY1/)
+ * [Factory Example 1](FY1/README.md)
  * [Factory Example 2](FY2/)
  * [Factory Example 3](FY3/README.md)
 
