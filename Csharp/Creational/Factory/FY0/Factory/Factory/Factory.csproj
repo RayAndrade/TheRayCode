@@ -4,7 +4,7 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{A5A445BA-5F0D-46BD-BECF-130D3AA80402}</ProjectGuid>
+        <ProjectGuid>{0EDB8493-A1E5-4307-A53C-E4A4E720C20C}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
         <RootNamespace>Factory</RootNamespace>
@@ -40,6 +40,8 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="BaseCustomerFactory.cs" />
+        <Compile Include="BronzeCustomer.cs" />
+        <Compile Include="BronzeCustomerFactory.cs" />
         <Compile Include="GoldCustomer.cs" />
         <Compile Include="GoldCustomerFactory.cs" />
         <Compile Include="ICustomer.cs" />

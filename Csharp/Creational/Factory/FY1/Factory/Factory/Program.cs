@@ -4,6 +4,7 @@ namespace Factory
 {
     internal class Program
     {
+        // https://refactoring.guru/design-patterns/factory-method/csharp/example
         public static void Main(string[] args)
         {
             Console.WriteLine("App: Launched with the CreatorX.");
