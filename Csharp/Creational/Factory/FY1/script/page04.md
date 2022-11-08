@@ -4,7 +4,7 @@
 The *abstract class* called **Creator** :
 
 ```csharp
-abstract class Creator
+public abstract class Creator
 { 
 }
 
