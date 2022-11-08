@@ -1,9 +1,8 @@
 namespace Show
 {
-    abstract class Creator
+    public abstract class Creator
     {
         public abstract Product FactoryMethod();
-        
         public string SomeOperation()
         {
             var product = FactoryMethod();
