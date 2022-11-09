@@ -1,6 +1,6 @@
 [start](./page01.md)
 
-Let's start bu creating a c# progame called **Show**.
+Let's start by creating a c# progame called **Show**.
 
 In this artical I will review a design pattern called the **Factory** method.
 I will be using the langyuage c#.
