@@ -1,20 +1,16 @@
 [back](./page03.md)
 
+We create **ProductB** and also etend it with Product.
 
-
-We do the same with a class we call **CreatorY**.
 ```csharp
-
-class CreatorY : Creator
+class ProductB : Product
 {
-    public override Product FactoryMethod()
+    public string Operation()
     {
-        return new ProductB();
+        return "{Result of ProductB}";
     }
 }
-
 ```
-
 
 
 
