@@ -17,7 +17,7 @@ As long as the client keeps working with the creator via the base interface, you
 
 ```csharp
 
-public void ClientCode(Creator creator)
+public static void ClientCode(Creator creator)
 {
      Console.WriteLine("Program: I'm not aware of the creator's class," +
          "but it still works.\n" + creator.SomeOperation());
