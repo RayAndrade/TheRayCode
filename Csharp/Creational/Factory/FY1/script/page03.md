@@ -6,10 +6,13 @@ The **Product** interface declares the operations that all concrete products mus
 ```csharp
 
 public interface Product
-{
-    string Operation();
-}
+{ }
 ```
+expect to have this method
+```csharp
 
+string Operation();
+
+```
 
 [page 4](./page04.md)
