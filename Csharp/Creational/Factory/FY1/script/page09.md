@@ -6,7 +6,7 @@
 Now let's create a **Program** class for our demonstrateion. 
 
 ```csharp
-class Program
+internal static class Program
 {
     public void Main()
     { }
