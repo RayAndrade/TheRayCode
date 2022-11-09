@@ -1,14 +1,32 @@
 [back](./page05.md)
 
-We create ProductB and also etend it with Product.
+
+We do the same with a class we call **CreatorX**.
+
+
 ```csharp
-class ProductB : Product
+class CreatorX : Creator
 {
-    public string Operation()
+    public override Product FactoryMethod()
     {
-        return "{Result of ProductB}";
+        return new ProductA();
     }
 }
+
+```
+
+We do the same with a class we call **CreatorY**.
+
+
+```csharp
+class CreatorY : Creator
+{
+    public override Product FactoryMethod()
+    {
+        return new ProductA();
+    }
+}
+
 ```
 
 
