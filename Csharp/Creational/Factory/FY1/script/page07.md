@@ -8,7 +8,7 @@ class CreatorY : Creator
 {
     public override Product FactoryMethod()
     {
-        return new ProductA();
+        return new ProductB();
     }
 }
 
