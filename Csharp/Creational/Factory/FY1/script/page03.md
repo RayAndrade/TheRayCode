@@ -1,7 +1,7 @@
 [back](./page01.md)
 
 
-The Product interface declares the operations that all concrete products must implement.
+The **Product** interface declares the operations that all concrete products must implement.
 
 ```csharp
 
