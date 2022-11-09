@@ -2,7 +2,7 @@
 
 The abstract class called Creator :
 ```csharp
-public abstract class Creator
+abstract class Creator
 { 
 }
 ```
