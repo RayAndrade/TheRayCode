@@ -11,7 +11,7 @@ Let's start with creating a static main method in a class we call FactoryMain
 
 ```java
 public static void main(String[] args) { 
-    System.out.println("The Ray Code ia AWESOME!!!");
+    System.out.println("The Ray Code is AWESOME!!!");
 }
 
 ```

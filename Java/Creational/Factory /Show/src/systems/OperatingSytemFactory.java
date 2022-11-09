@@ -1,11 +1,5 @@
-[back](./page05.md)
+package systems;
 
-at the FactoryMain level we add the class **OperatingSystemFactory**
-
-
-The code looks like
-
-```java
 import systems.OS;
 import systems.Android;
 import systems.IOS;
@@ -21,13 +15,8 @@ public class OperatingSystemFactory {
         } else if(Objects.equals(str, 2)) {
             return new IOS();
         } else if(Objects.equals(str, 3)){
-                return new Windows();
+            return new Windows();
         } else
             return null;
     }
 }
-
-```
-
-
-[page 7](./page07.md)
