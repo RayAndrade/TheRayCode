@@ -6,11 +6,14 @@ We create **ProductA** and also etend it with Product.
 class ProductA : Product
 {
     public string Operation()
-    {
-        return "{Result of ProductA}";
-    }
+    {   }
 }
 ```
+Add the following code
+```csarp
 
+return "{Result of ProductA}";
+
+```
 
 [page 5](./page05.md)
