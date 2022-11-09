@@ -1,13 +1,13 @@
 [back](./page06.md)
 
-We do the same with a class we call **CreatorY**.
+We do the same with a class we call **CreatorX**.
 
 ```csharp
-class CreatorY : Creator
+class CreatorX : Creator
 {
     public override Product FactoryMethod()
     {
-        return new ProductB();
+        return new ProductA();
     }
 }
 
