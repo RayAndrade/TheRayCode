@@ -5,7 +5,7 @@ The Product interface declares the operations that all concrete products must im
 
 ```csharp
 
-public interface Product
+interface Product
 {
     string Operation();
 }
