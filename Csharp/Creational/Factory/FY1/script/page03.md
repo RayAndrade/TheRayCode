@@ -5,7 +5,7 @@ The **Product** interface declares the operations that all concrete products mus
 
 ```csharp
 
-interface Product
+public interface Product
 {
     string Operation();
 }
