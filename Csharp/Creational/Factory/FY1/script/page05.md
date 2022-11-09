@@ -1,13 +1,19 @@
 [back](./page04.md)
 
-
+The abstract class called Creator :
+```csharp
+public abstract class Creator
+{ 
+}
+```
 
 
 
 
 We do the same with a class we call **CreatorY**.
-```csharp
 
+
+```csharp
 class CreatorY : Creator
 {
     public override Product FactoryMethod()
