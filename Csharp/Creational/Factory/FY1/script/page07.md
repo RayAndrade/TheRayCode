@@ -4,7 +4,7 @@ We do the same with a class we call **CreatorY**.
 
 
 ```csharp
-public class CreatorY : Creator
+class CreatorY : Creator
 {
     public override Product FactoryMethod()
     {
