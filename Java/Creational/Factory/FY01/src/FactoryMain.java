@@ -15,7 +15,7 @@ public class FactoryMain {
 
         Scanner scan= new Scanner(System.in);
         while(os == 0) {
-            System.out.println("Select 1 for Android, 2 for IOS or 3 for Windows ");
+            System.out.println("Select 1 for Android, 2 for IOS, 3 for Windows or 4 to exit");
             os = scan.nextInt();
             switch (os) {
                 case 1:
@@ -27,8 +27,12 @@ public class FactoryMain {
                 case 3:
                     obj = osf.getInstance(3);
                     break;
+                case 4:
+                    obj = osf.getInstance(4);
+                    break;
             }
-            obj.spec();
+            if(obj != null){obj.spec();}
+            else {break;}
             os = 0;
         }
     }

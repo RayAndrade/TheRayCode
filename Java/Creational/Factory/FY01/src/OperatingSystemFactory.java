@@ -10,9 +10,11 @@ public class OperatingSystemFactory {
 
         if(Objects.equals(str, 1)){
             return new Android();
-        } else if(Objects.equals(str, 2)){
+        } else if(Objects.equals(str, 2)) {
             return new IOS();
+        } else if(Objects.equals(str, 3)){
+                return new Windows();
         } else
-            return new Windows();
+            return null;
     }
 }
