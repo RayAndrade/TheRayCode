@@ -1,6 +1,6 @@
 package systems;
 
-public class Android implements OS{
+public class Android implements OS {
     public void spec() {
         System.out.println("The Ray Code supports Android");
     }
