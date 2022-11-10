@@ -12,11 +12,11 @@ and looks like
 
 ```php
 
-class Creator2 extends Creator
+class Creator1 extends Creator
 {
    public function factoryMethod(): Product
    {
-      return new Product2();
+      return new Product1();
    }
 }
 
