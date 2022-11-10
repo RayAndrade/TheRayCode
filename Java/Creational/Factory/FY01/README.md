@@ -4,9 +4,9 @@ Say you want to create a *factory* of multiple multiple classes. If they have sa
 that can istanciate each of those classes. In our example we have 3 types of OSes: *Android*, *IOS* and *Windows*.
 These are 3 classes and we will place under one interface that we call **OS**.
 
-Let's start with creating a static main method in a class we called **Demo**
+Let's start with creating a static main method in a class we called **FactoryMain**
 ```java
-public class Demo {
+public class FactoryMain {
     public static void main(String[] args) {
         System.out.println("The Ray Code is AWESOME!!!");
     }
