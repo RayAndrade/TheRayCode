@@ -7,7 +7,7 @@ These are 3 classes and we will place under one interface that we call OS.
 Our goal is to hide the logic of creating such objects from the user.
 
 
-Let's start with creating a static main method in a class we call FactoryMain
+Let's start with creating a static main method in a class we call **FactoryMain**
 
 ```java
 public static void main(String[] args) { 
