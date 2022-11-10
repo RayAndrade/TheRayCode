@@ -1,10 +1,9 @@
 //
-// Created by ray on 10/29/22.
+// Created by ray on 11/10/22.
 //
 
 #ifndef SHOW_TOY_H
 #define SHOW_TOY_H
-
 #include <iostream>
 
 class Toy {

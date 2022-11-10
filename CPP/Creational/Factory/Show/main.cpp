@@ -1,6 +1,7 @@
 #include "ToyFactory.h"
 
 int main() {
+// client code starts
 
     int type;
     while(1){
@@ -16,6 +17,7 @@ int main() {
     }
     std::cout << "Exit...";
 
-    std::cout << "The Ray Code is AWESOME!!!";
+
+//Client code ends
     return 0;
 }
