@@ -1,4 +1,5 @@
 <?php
+namespace TheRayCode\FactoryMethod\Conceptual;
 
 interface Product
 {
