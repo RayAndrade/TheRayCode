@@ -13,7 +13,7 @@ int main() {
 ```
 
 
-[to slide 2](./page2.md)
+[page 02](./page02.md)
 
 
 

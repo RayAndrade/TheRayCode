@@ -1,4 +1,4 @@
-[back](./page4.md)
+[back](./page04.md)
 
 Next we create the **Plane** class.  The code for the plane class looks like:
 ```cpp
@@ -14,4 +14,4 @@ public:
     void showProduct() { std::cout<< "Preparing Plane Parts" <<std::endl; };
 };
 ```
-[page6](./page6.md)
+[page6](./page06.md)

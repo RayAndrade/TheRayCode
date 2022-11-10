@@ -1,4 +1,4 @@
-[back](./page2.md)
+[back](./page02.md)
 
 Now let create some toys
 Now let's create our first toy the **Bike**. We include the Toy interface 
@@ -22,6 +22,6 @@ public:
 We have our required methods: **prepareParts**, **combineParts**, **assembleParts**, ***applyLabel**,  and **showProduct**.
 
 
-[to slide 4](./page4.md)
+[to slide 4](./page04.md)
 
 

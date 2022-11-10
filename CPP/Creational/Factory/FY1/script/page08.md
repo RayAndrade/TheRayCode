@@ -1,4 +1,4 @@
-[back](./page7.md)
+[back](./page07.md)
 
 If the choioce os not 1, 2 or 3, the program defaiults to messaging to invalid selection.
 If zero is chosen the routine is exited.
@@ -30,6 +30,6 @@ int main() {
     return 0;
 }
 ```
-[page9](./page9.md)
+[page9](./page09.md)
 
 [home](./script.md)

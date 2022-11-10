@@ -1,4 +1,4 @@
-[back](./page6.md)
+[back](./page06.md)
 
 
 Now to create each one of theses objecet I create a **ToyFactory**. The toy factory consist of a switch statement that will swithc to the desired type of **Toy**
@@ -38,5 +38,5 @@ public:
 };
 ```
 
-[page8](./page8.md)
+[page8](./page08.md)
 

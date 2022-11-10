@@ -1,4 +1,4 @@
-[back](./script.md)
+[back](./page01.md)
 
 We will create an *interface* for the toys and they will hold all the toys and they will be of the same type.
 
@@ -33,4 +33,4 @@ public:
 
 now let's create the toys.. I sorta feel like an elf of santa.
 
-[to slide 3](./page3.md)
+[to slide 3](./page03.md)
