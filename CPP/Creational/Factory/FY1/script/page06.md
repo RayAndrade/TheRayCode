@@ -12,7 +12,7 @@ class SantasBag{
 
 };
 ```
-Here we just group the toys under the same interface.
+Here we also group the toys under the **same interface** and become of the **same type**.
 
 [page7](./page07.md)
 
