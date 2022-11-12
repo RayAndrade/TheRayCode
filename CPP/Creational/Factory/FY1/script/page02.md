@@ -34,4 +34,29 @@ Then we add some methods that will be required for each class
 
 Now let's create our toys.. I sorta feel like santas elf.
 
+<hr/>
+
+Our code should look like:
+
+```cpp
+
+
+#include <iostream>
+
+class Toy {
+protected:
+    std::string name;
+    float price;
+public:
+    virtual void prepareParts()  = 0;
+    virtual void combineParts()  = 0;
+    virtual void assembleParts() = 0;
+    virtual void applyLabel()    = 0;
+    virtual void showProduct()   = 0;
+
+};
+
+
+```
+
 [to slide 3](./page03.md)
