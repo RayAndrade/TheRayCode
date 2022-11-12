@@ -2,6 +2,8 @@
 
 Hi, I'm Ray and this is my code for the project I call The Ray Code.
 
+Hello
+
 A design pattern is a general repeatable solution to a commonly occurring problem in software design in software engineering.
 
 Design Patterns are ways of expressing solid architectures that are reusable, extensible and industry standard. 
