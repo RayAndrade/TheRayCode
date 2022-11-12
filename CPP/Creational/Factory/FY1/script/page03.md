@@ -19,7 +19,7 @@ public:
 
 };
 ```
-We have our required methods: **prepareParts**, **combineParts**, **assembleParts**, ***applyLabel**,  and **showProduct**.
+Our required methods are: **prepareParts**, **combineParts**, **assembleParts**, ***applyLabel**,  and **showProduct**.
 
 Our interface should look like :
 
