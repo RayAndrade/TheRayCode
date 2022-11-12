@@ -1,4 +1,4 @@
-In this show I will give a demonwstration of the **Factory** method design pattern using C# .
+In this show I will give a demonstration of the **Factory** method design pattern using C# .
 
 As usual we start with :
 
