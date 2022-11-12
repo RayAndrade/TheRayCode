@@ -1,7 +1,7 @@
-The Factory Method pattern is a *creational design pattern* that provides an interface for creating objects in the same superclass. 
-It but allows the subclasses to alter the type of classes/objets that will be creating.
+The Factory Method pattern is a *creational design pattern* that provides an interface for creating objects in the same **superclass**
+It allows the subclasses to alter the type of classes objets that will be created.
 
-Starting Code:
+Let's start coding:
 
 ```cpp
 #include <iostream>
