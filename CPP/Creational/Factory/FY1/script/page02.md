@@ -17,13 +17,13 @@ We will include the *iostream* here in this interface (or class) and each or our
 
 we will have both the name and the price be protected varables:
 ```cpp
-protected:
+  protected:
     std::string name;
     float price;
 ```
 Then we add some methods that will be required for each class
 ```cpp
-public:
+  public:
     virtual void prepareParts()  = 0;
     virtual void combineParts()  = 0;
     virtual void assembleParts() = 0;
