@@ -1,7 +1,7 @@
 package systems;
 
-public class Windows implements OS {
+class Windows implements OS{
     public void spec() {
-        System.out.println("Windows is proprietary software");
+        System.out.println("Get a REAL OS ..");
     }
 }

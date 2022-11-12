@@ -2,9 +2,9 @@ namespace Factory
 {
     public interface Builder
     {
-        void BuildPartA();
+        void BuildPartX();
         
-        void BuildPartB();
+        void BuildPartY();
         
         void BuildPartC(); 
     }

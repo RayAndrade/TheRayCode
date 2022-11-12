@@ -1,10 +1,10 @@
 namespace Factory
 {
-    public class ProductA: Product
+    public class ProductY: Product
     {
         public string Operation()
         {
-            return "{From of ProductA}";
+            return "{From of ProductY}";
         }
     }
 }

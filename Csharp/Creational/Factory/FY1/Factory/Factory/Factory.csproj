@@ -44,8 +44,8 @@
         <Compile Include="CreatorX.cs" />
         <Compile Include="CreatorY.cs" />
         <Compile Include="Product.cs" />
-        <Compile Include="ProductA.cs" />
-        <Compile Include="ProductB.cs" />
+        <Compile Include="ProductX.cs" />
+        <Compile Include="ProductY.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>

@@ -1,4 +1,5 @@
 <?php
+
 include_once ('Creator.php');
 include_once('Creator1.php');
 include_once('Creator2.php');
@@ -18,5 +19,4 @@ echo "<br/><br/>";
 
 echo "App: Launched with the Creator2.<br/>";
 clientCode(new Creator2);
-
-echo "<br/>The Ray Code is AWESOME!!!<br/>";
+echo "App: Launched with the Creator1.<br/>";

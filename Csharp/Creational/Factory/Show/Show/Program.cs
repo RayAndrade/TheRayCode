@@ -4,7 +4,13 @@ namespace Show
 {
     internal class Program
     {
-        internal static void Main(string[] args)
+        public static void ClientCode(Creator creator)
+        {
+            Console.WriteLine("Program: I'm not aware of the creator's class," +
+                              "but it still works.\n" + creator.SomeOperation());
+        }
+        
+        public static void Main(string[] args)
         {
             Console.WriteLine("App: Launched with the CreatorX.");
             ClientCode(new CreatorX());
@@ -13,12 +19,8 @@ namespace Show
 
             Console.WriteLine("App: Launched with the CreatorY.");
             ClientCode(new CreatorY());
+            
             Console.WriteLine("The Ray Code is AWESOME!!!");
-        }
-        public static void ClientCode(Creator creator)
-        {
-            Console.WriteLine("Program: I'm not aware of the creator's class," +
-                              "but it still works.\n" + creator.SomeOperation());
         }
     }
 }

@@ -1,9 +1,6 @@
-//#include <iostream>
 #include "ToyFactory.h"
 
 int main() {
-// client code starts
-
     int type;
     while(1){
         std::cout << "1 Car, 2 Bike, 3 Plane Enter type or Zero for exit" << std::endl;
@@ -16,9 +13,10 @@ int main() {
             delete v;
         }
     }
+
     std::cout << "Exit...";
 
 
-//Client code ends
+    std::cout << "The Ray Code is AWESOME!!!" << std::endl;
     return 0;
 }

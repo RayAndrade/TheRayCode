@@ -1,6 +1,6 @@
 namespace Show
 {
-    class ProductB : Product
+    class ProductB: Product
     {
         public string Operation()
         {

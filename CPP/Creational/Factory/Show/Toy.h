@@ -1,5 +1,5 @@
 //
-// Created by ray on 11/10/22.
+// Created by ray on 11/12/22.
 //
 
 #ifndef SHOW_TOY_H
@@ -17,6 +17,7 @@ public:
     virtual void assembleParts() = 0;
     virtual void applyLabel()    = 0;
     virtual void showProduct()   = 0;
+
 };
 
 #endif //SHOW_TOY_H

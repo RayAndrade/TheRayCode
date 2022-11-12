@@ -4,7 +4,7 @@ namespace Show
     {
         public override Product FactoryMethod()
         {
-             return new ProductA();
+            return new ProductA();
         }
     }
 }

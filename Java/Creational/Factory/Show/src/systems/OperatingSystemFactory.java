@@ -1,7 +1,6 @@
+package systems;
+
 import systems.OS;
-import systems.Android;
-import systems.IOS;
-import systems.Windows;
 
 import java.util.Objects;
 

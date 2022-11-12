@@ -1,5 +1,5 @@
 //
-// Created by ray on 11/10/22.
+// Created by ray on 11/12/22.
 //
 
 #ifndef SHOW_TOYFACTORY_H
@@ -37,5 +37,4 @@ public:
         return toy;
     }
 };
-
 #endif //SHOW_TOYFACTORY_H
