@@ -1,7 +1,7 @@
 [back](./page06.md)
 
 
-Now to create each one of theses objecet I create a **ToyFactory**. The toy factory consist of a switch statement that will swithc to the desired type of **Toy**
+Now let's create a **ToyFactory**. We will use a switch statement create to the desired **Toy** type.
 
 ```cpp
  #include "SantasBag.h"
