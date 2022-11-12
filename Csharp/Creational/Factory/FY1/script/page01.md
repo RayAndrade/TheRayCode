@@ -11,7 +11,10 @@ and our basic hello world app
 
  public static void Main(string[] args)
 {
+
    Console.WriteLine("The Ray Code is AWESOME!!!");
+
+
 }
 ```
 [page 2](./page02.md)
