@@ -29,9 +29,13 @@ videos:
 
 General
 
-[Abstract Factory Design Pattern - Introduction](https://youtu.be/cvqyJvVjxj4)
+[Abstract Factory Design Pattern - Introduction](https://youtu.be/cvqyJvVjxj4) (java)
 
 Php
+
+[The Abstract Factory Pattern in PHP](https://youtu.be/C4b_ywzA7Qg) (life michael)
+[Abstract Factory Design Pattern | Implementation and Disadvantages | Clean Code Series](https://youtu.be/C4b_ywzA7Qg) (Tech Primers)
+
 
 
 
