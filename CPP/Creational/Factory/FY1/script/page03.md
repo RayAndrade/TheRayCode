@@ -21,6 +21,26 @@ public:
 ```
 We have our required methods: **prepareParts**, **combineParts**, **assembleParts**, ***applyLabel**,  and **showProduct**.
 
+Our interface should look like :
+
+```cpp
+
+#include <iostream>
+
+class Toy {
+protected:
+    std::string name;
+    float price;
+public:
+    virtual void prepareParts()  = 0;
+    virtual void combineParts()  = 0;
+    virtual void assembleParts() = 0;
+    virtual void applyLabel()    = 0;
+    virtual void showProduct()   = 0;
+
+};
+
+```
 
 [to slide 4](./page04.md)
 
