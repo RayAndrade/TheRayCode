@@ -1,8 +1,9 @@
 [back](./page01.md)
 
-We will create an *interface* for the toys and they will hold all the toys and they will be of the same type.
+We will create an *interface* for our toys and the interface will hold all the toys and they will make them of the **same type**.
 
-Now let's create a Toy interfase that will make each toy of the same type *Toy*.
+We create the interface and call it **Toy**. In this interface we will define the methods we require of each **Toy**.
+Also all the toys will be of the SAME type.
 
 ```cpp
 class Toy { };
@@ -31,6 +32,6 @@ Then we add some methods that will be required for each class
     virtual void showProduct()   = 0;
 ```
 
-now let's create the toys.. I sorta feel like an elf of santa.
+Now let's create our toys.. I sorta feel like santas elf.
 
 [to slide 3](./page03.md)
