@@ -2,10 +2,10 @@
 // Created by ray on 11/10/22.
 //
 
+#include "Toy.h"
+
 #ifndef SHOW_BIKE_H
 #define SHOW_BIKE_H
-
-#include "Toy.h"
 
 class Bike : public Toy{
 
@@ -17,5 +17,4 @@ public:
     void showProduct() { std::cout<< "Preparing Bike Parts" <<std::endl; };
 
 };
-
 #endif //SHOW_BIKE_H

@@ -4,6 +4,7 @@
 
 #ifndef SHOW_TOYFACTORY_H
 #define SHOW_TOYFACTORY_H
+
 #include "SantasBag.h"
 
 class ToyFactory{
@@ -36,4 +37,5 @@ public:
         return toy;
     }
 };
+
 #endif //SHOW_TOYFACTORY_H

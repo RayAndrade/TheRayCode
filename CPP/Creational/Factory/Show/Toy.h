@@ -4,6 +4,7 @@
 
 #ifndef SHOW_TOY_H
 #define SHOW_TOY_H
+
 #include <iostream>
 
 class Toy {
