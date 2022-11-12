@@ -1,8 +1,8 @@
 <?php
-include "ConcreteFactory2.php";
-include "ConcreteFactory1.php";
+include "Factory2.php";
+include "Factory1.php";
 
-$factory1 = new ConcreteFactory2();
+$factory1 = new Factory2();
 //$prod1 = $factory1->CreateProduct1();
 
 
