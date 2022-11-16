@@ -1,3 +1,3 @@
-[back](./page07.md)
+[start]
 
 [page9](./page02.md)
