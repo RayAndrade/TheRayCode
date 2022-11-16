@@ -1,0 +1,37 @@
+https://refactoring.guru/design-patterns/abstract-factory/java/example
+
+first create the name spaces
+TheRayCode.abstract_factory.example.app;
+TheRayCode.abstract_factory.example.buttons;
+TheRayCode.abstract_factory.example.factory;
+=============================================================================
+next create
+buttons/Button.java
+public interface Button {
+    void render();
+    void onClick();
+}
+=============================================================================
+
+buttons/HtmlButton.java
+public class HtmlButton implements Button {
+
+    public void render() {
+       onClick();
+    }
+
+    public void onClick() {
+        System.out.println("Click! Button says - 'Hello World!'");
+    }
+}
+=============================================================================
+
+buttons/WindowsButton.java
+
+public class WindowsButton implements Button {
+
+    @Override
+    public void paint() {
+        System.out.println("You have created WindowsButton.");
+    }
+}
