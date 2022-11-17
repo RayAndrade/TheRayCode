@@ -2,4 +2,4 @@
 
 page09
 
-[page 3](./page10.md)
+[page 10](./page10.md)
