@@ -1,6 +1,10 @@
+[back](./page08.md)
+
+Next we create a **LabtopFactory** which extends **AbstractDeviceFactory** and we override the **getGaget**
+
+```java
 
 public class LabtopFactory extends AbstractDeviceFactory{
-
 
     @Override
     Device getGaget(DeviceType deviceType) {
@@ -11,3 +15,8 @@ public class LabtopFactory extends AbstractDeviceFactory{
         return null;
     }
 }
+
+
+```
+
+[page 10](./page10.md)
