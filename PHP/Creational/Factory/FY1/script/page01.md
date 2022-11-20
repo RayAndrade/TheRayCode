@@ -1,5 +1,6 @@
-Factory methods can be recognized by creation methods which comes from objects chreated from concrete classes, but return them as objects of abstract type or interface. 
-In this post we will explore the Factory method using PHP. We will start by creating an interface for our products. 
+The Factory Method
+
+The Factory methods pattern can be recognized by having creation methods which comes from objects chreated from concrete classes, but return them as objects of abstract type or interface. n this post we will explore the Factory method using PHP. We will start by creating an interface for our products. 
 
 Let's create an onterfase call this interface Product.php. 
 Product.php will require one Operation for its use. The Product interface declares the operations that all concrete products *must* implement. 
