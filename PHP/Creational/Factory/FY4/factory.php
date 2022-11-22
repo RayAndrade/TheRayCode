@@ -24,7 +24,7 @@ class Cat
     private $catType;
     function __toString()
     {
-        return "cat" . $this->catType;
+        return "cat and type is " . $this->catType;
     }
     function setCatType($str)
     {
