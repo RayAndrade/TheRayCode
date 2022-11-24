@@ -32,4 +32,4 @@ int main() {
 ```
 [page9](./page09.md)
 
-[home](./script.md)
+[home](./page01.md)
