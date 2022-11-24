@@ -2,11 +2,13 @@
 
 We will create an *interface* for our toys and the it will hold all the toys and they will be of the **same type**.
 
-Let's create interface and call it **Toy**. In this interface we will define the methods we require of each **Toy**.
+Let's create interface and call it **Toy**. In this interface we will define the methods we will require for each **Toy**.
 Also all the toys will be of the SAME type.
 
 ```cpp
+
 class Toy { };
+
 ```
 In each one of our toys we will need to use the **iostream** so we may use the standard out to print to the screen. Since all the toys will be of the
 same type we can include the **iostream** here so that when we include each class this interface, it will be included also. 
