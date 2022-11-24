@@ -21,25 +21,6 @@ public:
 ```
 Our required methods are: **prepareParts**, **combineParts**, **assembleParts**, ***applyLabel**,  and **showProduct**.
 
-<hr/>
-
-Our code for the **Bike** should look like :
-
-```cpp
-#include "Toy.h"
-
-class Bike : public Toy{
-
-public:
-    void prepareParts() { std::cout<< "Preparing Bike Parts" <<std::endl; };
-    void combineParts() { std::cout<< "combining Bike Parts" <<std::endl; };
-    void assembleParts() { std::cout<< "Assembling Bike Parts" <<std::endl; };
-    void applyLabel()  { std::cout<< "Preparing Bike Label " <<std::endl; name = "Applying Bike Label"; price = 10; };
-    void showProduct() { std::cout<< "Preparing Bike Parts" <<std::endl; };
-
-};
-
-```
 
 [to slide 4](./page04.md)
 
