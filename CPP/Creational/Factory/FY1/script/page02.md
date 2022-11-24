@@ -10,8 +10,8 @@ Also all the toys will be of the SAME type.
 class Toy { };
 
 ```
-In each one of our toys we will need to use the **iostream** so we may use the standard out to print to the screen. Since all the toys will be of the
-same type we can include the **iostream** here so that when we include each class this interface, it will be included also. 
+
+In each one of our toys we will need to use the iostream so we may use the standard out to print to the screen. Since all the toys will be of the same type we can include the **iostream** and it will included in each class because this interface will be included also.
 
 We will include the *iostream* here in this interface (or class) and each or our toy will requier this *include* so each toy will have access to this include.
 ```cpp
