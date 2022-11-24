@@ -5,6 +5,12 @@ Now let's create a **ToyFactory**. We will use a switch statement create to the 
 
 ```cpp
  #include "SantasBag.h"
+ 
+```
+
+and here is the code for **SantasBag**
+
+```cpp
 
 class ToyFactory{
 public:
