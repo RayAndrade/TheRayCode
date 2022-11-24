@@ -1,8 +1,8 @@
 [back](./page01.md)
 
-We will create an *interface* for our toys and the interface will hold all the toys and they will make them of the **same type**.
+We will create an *interface* for our toys and the it will hold all the toys and they will be of the **same type**.
 
-We create the interface and call it **Toy**. In this interface we will define the methods we require of each **Toy**.
+Let's create interface and call it **Toy**. In this interface we will define the methods we require of each **Toy**.
 Also all the toys will be of the SAME type.
 
 ```cpp
