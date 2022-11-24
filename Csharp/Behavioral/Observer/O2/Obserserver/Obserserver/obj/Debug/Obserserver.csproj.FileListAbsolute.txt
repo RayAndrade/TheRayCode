@@ -1,0 +1,6 @@
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Observer/O2/Obserserver/Obserserver/bin/Debug/Obserserver.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Observer/O2/Obserserver/Obserserver/bin/Debug/Obserserver.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Observer/O2/Obserserver/Obserserver/obj/Debug/Obserserver.csprojAssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Observer/O2/Obserserver/Obserserver/obj/Debug/Obserserver.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Observer/O2/Obserserver/Obserserver/obj/Debug/Obserserver.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Observer/O2/Obserserver/Obserserver/obj/Debug/Obserserver.pdb
