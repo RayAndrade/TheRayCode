@@ -8,7 +8,7 @@ Now let's create a **ToyFactory**. We will use a switch statement create to the 
  
 ```
 
-and here is the code for **SantasBag**
+and here is the code for the **ToyFactory**
 
 ```cpp
 
