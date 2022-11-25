@@ -19,5 +19,4 @@ public:
     virtual void showProduct()   = 0;
 };
 
-
 #endif //SHOW_TOY_H

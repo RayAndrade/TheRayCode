@@ -17,5 +17,4 @@ public:
     void showProduct() { std::cout<< "Preparing Plane Parts" <<std::endl; };
 };
 
-
 #endif //SHOW_PLANE_H

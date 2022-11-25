@@ -15,4 +15,5 @@ public:
     void applyLabel()  { std::cout<< "Preparing Car Label " <<std::endl; name = "Applying Car Label"; price = 10; };
     void showProduct() { std::cout<< "Preparing Car Parts" <<std::endl; };
 };
+
 #endif //SHOW_CAR_H

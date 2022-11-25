@@ -37,6 +37,4 @@ public:
         return toy;
     }
 };
-
-
 #endif //SHOW_TOYFACTORY_H
