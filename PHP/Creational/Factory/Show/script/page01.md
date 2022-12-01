@@ -22,14 +22,10 @@ add code:
 public function draw();
 ```
 
-
-Try to put a blank line before...
+Here is the complete code for the page:
 
 ---
 
----------------------------------------------
-
-...and after a horizontal rule.
 
 ```php
 namespace TheRayCode\Factory;
@@ -41,5 +37,8 @@ interface Shape
 
 ```
 
+
+
+...and after a horizontal rule.
 
 [page 2](./page02.md)
