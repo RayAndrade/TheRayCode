@@ -15,22 +15,44 @@ Template: class
 ```php
 include_once "Shape.php";
 ```
-We want to inplement **Shape** [+] button
+
 ```php
-implements Shape
-```
-next
-```php
-public function draw()
-{
-    echo "Drawing a rectangle<br/>";
+class Position { }
+
+class Rectangle implements Shape
+{ 
+
 }
+
 ```
+The code for **Rectangle** is :
+
+```php
+
+```
+
+
 
 
 Here is the complete code for the page:
 
 ---
+
+```php
+class Rectangle implements Shape
+{
+    private $position;
+
+    public function __construct($pos){
+        $this->position = $pos;
+    }
+
+    public function draw()
+    {
+        echo "Drawing a rectangle<br/>";
+    }
+}
+```
 
 
 ```php
