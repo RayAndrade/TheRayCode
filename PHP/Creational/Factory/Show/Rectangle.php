@@ -1,6 +1,6 @@
 <?php
-namespace TheRayCode\Factory;
 
+namespace TheRayCode\Factory;
 
 include_once "Position.php";
 
