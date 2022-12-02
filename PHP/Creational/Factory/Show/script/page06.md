@@ -1,23 +1,5 @@
 [back](./page05.md)
 
-
-We have a mock shape
-
-```php
-
-namespace TheRayCode\Factory;
-
-class MockShape implements Shape
-{
-    public function draw()
-    {
-        // does a lot of mock stuff
-        return true;
-    }
-}
-
-
-```
-
+page06
 
 [page 7](./page07.md)
