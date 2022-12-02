@@ -1,4 +1,7 @@
 <?php
+
+include_once "Shape.php";
+
 class Rectangle implements Shape
 {
     private $position;

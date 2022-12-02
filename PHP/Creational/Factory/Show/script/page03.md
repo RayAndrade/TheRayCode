@@ -40,30 +40,9 @@ Here is the complete code for the page:
 ---
 
 ```php
-class Rectangle implements Shape
-{
-    private $position;
-
-    public function __construct($pos){
-        $this->position = $pos;
-    }
-
-    public function draw()
-    {
-        echo "Drawing a rectangle<br/>";
-    }
-}
-```
-
-
-```php
-
-namespace TheRayCode\Factory;
 
 include_once "Shape.php";
 
-class Position { }
-
 class Rectangle implements Shape
 {
     private $position;
@@ -77,12 +56,9 @@ class Rectangle implements Shape
         echo "Drawing a rectangle<br/>";
     }
 }
-
 ```
 
-
-
-...and after a horizontal rule.
+---
 
 
 
