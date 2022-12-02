@@ -1,4 +1,5 @@
 <?php
+
 namespace TheRayCode\Factory;
 
 include_once ('Rectangle.php');
@@ -12,5 +13,4 @@ class ShapeFactory
             return new Rectangle(new Position());
         }
     }
-
 }
