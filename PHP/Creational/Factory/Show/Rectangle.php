@@ -1,10 +1,4 @@
 <?php
-namespace TheRayCode\Factory;
-
-include_once "Shape.php";
-
-class Position { }
-
 class Rectangle implements Shape
 {
     private $position;

@@ -1,28 +1,22 @@
 [back](./page05.md)
 
 
-now let's put this all in **Demo.php**
-
+so now let's put this all a a class called **ShapeFactory**
 ```php
 namespace TheRayCode\Factory;
-include_once ('ShapeFactory.php');
+include_once ('Rectangle.php');
+```
 
-function drawStuff(Shape $shape){
-    $shape ->draw();
+the code for our class will be
+
+```
+public function __construct($type)
+{
+    if ($type=="Rectangle"){
+        return new Rectangle(new Position());
+    }
 }
 ```
-
-more code
-```php
-$shape1 = new Rectangle(new Position());
-$shape2 = new Rectangle(new Position());
-
-drawStuff($shape1);
-drawStuff($shape2);
-```
-
-and view in the browser
-
 
 
 

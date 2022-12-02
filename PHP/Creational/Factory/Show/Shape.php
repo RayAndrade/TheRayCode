@@ -1,4 +1,5 @@
 <?php
+
 namespace TheRayCode\Factory;
 
 interface Shape

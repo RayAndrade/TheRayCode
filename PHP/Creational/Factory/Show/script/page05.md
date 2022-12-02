@@ -1,20 +1,16 @@
 [back](./page04.md)
 
+**TheRayCode\Factory**
 
-so now let's put this all a a class called **ShapeFactory**
+it will implment **Shape**
+
+
+add code to return true 
 ```php
-namespace TheRayCode\Factory;
-include_once ('Rectangle.php');
-```
-
-the code for our class will be
-
-```
-public function __construct($type)
+public function draw()
 {
-    if ($type=="Rectangle"){
-        return new Rectangle(new Position());
-    }
+    // does a lot of mock stuff
+    return true;
 }
 ```
 
