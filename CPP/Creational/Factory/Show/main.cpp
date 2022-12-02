@@ -1,7 +1,8 @@
+
+
 #include "ToyFactory.h"
 
 int main() {
-// client code starts
 
     int type;
     while(1){
@@ -17,7 +18,5 @@ int main() {
     }
     std::cout << "Exit...";
 
-
-//Client code ends
     return 0;
 }
