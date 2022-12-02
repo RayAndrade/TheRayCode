@@ -1,7 +1,7 @@
 [back](./page06.md)
 
 
-now let's put this all in **Demo.php**
+now let's put this all in **index.php**
 
 ```php
 namespace TheRayCode\Factory;
