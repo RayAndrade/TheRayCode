@@ -1,8 +1,5 @@
-[back](./page04.md)
-
-**Rectangle**
-
-```php
+<?php
+namespace TheRayCode\Factory;
 
 include_once "Shape.php";
 
@@ -21,7 +18,3 @@ class Rectangle implements Shape
         echo "Drawing a rectangle<br/>";
     }
 }
-
-```
-
-[page 6](./page06.md)

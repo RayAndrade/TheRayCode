@@ -1,5 +1,6 @@
 [back](./page06.md)
 
+
 **ShapeFactory**
 
 ```php

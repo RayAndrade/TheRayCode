@@ -1,24 +1,23 @@
 [back](./page05.md)
 
-**ShapeFactory**
+
+We have a mock shape
 
 ```php
 
+namespace TheRayCode\Factory;
 
-include_once ('Rectangle.php');
-
-class ShapeFactory
+class MockShape implements Shape
 {
-    public function __construct($type)
+    public function draw()
     {
-        if ($type=="Rectangle"){
-            // 7:55
-            return new Rectangle(new Position());
-        }
+        // does a lot of mock stuff
+        return true;
     }
-
 }
 
+
 ```
+
 
 [page 7](./page07.md)

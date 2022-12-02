@@ -1,27 +1,22 @@
 [back](./page07.md)
 
-**index**
+**ShapeFactory**
 
 ```php
 
-namespace TheRayCode\Factory;
+include_once ('Rectangle.php');
 
-include_once ('ShapeFactory.php');
+class ShapeFactory
+{
+    public function __construct($type)
+    {
+        if ($type=="Rectangle"){
+            // 7:55
+            return new Rectangle(new Position());
+        }
+    }
 
-function drawStuff(Shape $shape){
-    $shape ->draw();
 }
-
-$shape1 = new Rectangle(new Position());
-$shape2 = new Rectangle(new Position());
-
-drawStuff($shape1);
-drawStuff($shape2);
-
-$factory = new ShapeFactory("Rectangle");
-$rect = $factory->create("Rectangle");
-echo $rect->draw();
-
 
 ```
 
