@@ -1,9 +1,5 @@
 [back](./page03.md)
 
-At the top we can add
-```php
-class Position { }
-```
-Not using
+page04
 
 [page 5](./page05.md)

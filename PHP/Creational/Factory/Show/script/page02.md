@@ -1,12 +1,5 @@
 [back](./page01.md)
 
+page02
 
-```php
-
-namespace TheRayCode\Factory;
-
-class Position { }
-
-
-```
 [page 3](./page03.md)
