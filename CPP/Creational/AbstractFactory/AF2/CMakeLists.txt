@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
-project(AbstractFactory2)
+project(AbstractFactory3)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(AbstractFactory2 main.cpp ConfigurationManager.h UnisysConfigurationManager.h IBMConfigurationManager.h OperationManager.h UnisysOperationManager.h IBMOperationManager.h SystemManagementFactory.h UnisysSMFactory.h IBMSMFactory.h)
+add_executable(AbstractFactory3 main.cpp SystemManagementFactory.h ConfigurationManager.h OperationManager.h ConcreteFactory1.h ConcreteFactory2.h IBMConfiguration.h UnisysConfiguration.h IBMOperation.h UnisysOperation.h)
