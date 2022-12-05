@@ -1,197 +1,147 @@
-# TheRayCode
-## Factory Design Pattern using c#
+https://youtu.be/4m7IuLM4wdw <br/>
 
-The Factory Method pattern is widely used in C# code. It’s very useful when you need to provide a high level of flexibility for your code.
+Let’s take a close look at the Factory Method. When you want to define an interface for creating an object BUT, let subclasses decide which class is to instantiate to the subclass.
 
-For our example of the **Factory** pattern we will create an interface we call **Product**.cs. 
-The Product interface declares the operations that all concrete products must implement.
-This interface will require one method. The code for **Product** looks as the following:
-```c#
-public interface Product
+In today’s example I will use the story of creating a type of awards plan. We have 2 (you may add more) types of plans. A Gold plan and a Silver plan. Latter we may want to add a Bronze plan or a Diamond plan.
+
+The code example will be using C sharp as a programming language.
+
+we start by first creating the interface
+```csharp
+public interface ICustomer
 {
-   string Operation();
+    void AddPoints();
+    void AddDiscount();
 }
 ```
-Next we will create a couple of *concrete products* to add them to our project. 
-The name of these products will be **ProductA** and **ProductB**.
-The Concrete Products will provide various implementations of the Product interface
-The code for **ProductA** will be:
-```c#
-class ProductA : Product
-{
-   public string Operation()
-   {
-      return "{From of ProductA}";
-   }
-}
-```
-And for the *concrete product* **ProductB** we have:
-```c#
-class ProductB : Product
-{
-   public string Operation()
-   {
-     return "{From of ProductB}";
-   }
-}
-```
-The client code works with an instance of the concrete creator, even through it is the base interface. 
-As long as the client keeps working with the creator via this base interface, you can pass it any creator's subclass to it.
 
-Concrete Creators override the factory method in order to change the resulting product's type.
+next we turn our attention to creating the classes
+
+We start with the Silver Customer. We will all make this class use the interface that we have just created.
+```csharp
+using System;
+public class SilverCustomer : ICustomer
+{
+    public void AddPoints()
+    {
+        Console.WriteLine("Silver Customer - Points Added");
+    }
+
+    public void AddDiscount()
+    {
+        Console.WriteLine("Silver Customer - Discount Added");
+    }
+    public void SilverOperation()
+    {
+        Console.WriteLine("Operation specific to Silver Customer");
+    }
+}
+```
+
+Now we need to create a BaseCustomerFactory to house the factories that will be creating our objects.
+```csharp
+public abstract class BaseCustomerFactory
+{
+    public ICustomer GetCustomer()
+    {
+        ICustomer myCust = this.CreateCustomer();
+        myCust.AddPoints();
+        myCust.AddDiscount();
+        return myCust;
+    }
+    public abstract ICustomer CreateCustomer();
+}
+```
+the BaseCustomerFactory class gets the which customer we desire, for example say the Silver Customer.
+
+So if we go to to **main** we can run
+```charp
+public static void Main(string[] args)
+{
+    BaseCustomerFactory c = new SilverCustomerFactory();
+    ICustomer objCust = c.GetCustomer();
+}
+```
+we should get 
+```run
+Operation specific to Silver Customer
+Silver Customer - Points Added
+Silver Customer - Discount Added
+```
+as a result.
+
+Now let’s add the Gold Customer. It also will use the interface ICustomer. This makes both the Silver and Gold customer of the same type.
+
+```csharp
+using System;
+public class GoldCustomer : ICustomer
+{
+    public void AddPoints()
+    {
+        Console.WriteLine("Gold Customer - Points Added");
+    }
+
+    public void AddDiscount()
+    {
+        Console.WriteLine("Gold Customer - Discount Added");
+    }
+
+    public void GoldOperation()
+    {
+        Console.WriteLine("Operation specific to Gold Customer"); 
+    } 
+}
+```
+We also need to create a interface factory that it will also be extended by the base BaseCustomerFactory abstract class
+```csharp
+public class GoldCustomerFactory : BaseCustomerFactory
+{
+    public override ICustomer CreateCustomer()
+    {
+        GoldCustomer objCust = new GoldCustomer();
+        objCust.GoldOperation();
+        return objCust;
+    }
+}
+```
+Now if we just change the desired class to the GoldCustomer we should get desired result
+```charp
+public static void Main(string[] args)
+{
+    BaseCustomerFactory c = new GoldCustomer();
+    ICustomer objCust = c.GetCustomer();
+}
+```
  
-Now let's focus on the abstract class we call **Creator**.
+result:
 
-The Creator class declares the factory method that is returns an object of a Product class. The Creator's subclasses usually provide the implementation of thie factory method.
-
-Note also despite its name, the Creator's primary responsibility is not creating products. 
-Usually, it will contain some core business logic that relies on the Product objects, returned by the factory method. 
-Subclasses can indirectly change that business logic by overriding the factory method and returning a different type of product from it.
-
-
-It look's like:
-```c#
-abstract class Creator
-{
-   public abstract Product FactoryMethod();
-   public string SomeOperation()
-   {
-      var product = FactoryMethod();
-      var result = "Creator: This creator's code has just worked with "
-                  + product.Operation();
-      return result;
-   }
-}
-```
-Notice that the **Creator** also provides some default implementation of the factory method.
-Also note that, despite its name, the Creator's primary responsibility is not creating products. 
-Usually, it contains some core business logic that relies on Product objects, returned by the factory method. 
-Subclasses can indirectly change that business logic by overriding the factory method and returning a different type of product from it.
-
-Subclasses can indirectly change the business logic by overriding the factory and returning a different type.
-We add an abstract Product we call **FactoryMethod**.
-We then add **SomeOperation** to the progect class. 
-
-We now create a couple of *abstract class*.
-Let's create these classes **CreatorX** and **CreatorZ**.
-We start with **CreatorX**. This class returns a *new* **ProductA**.
-Let's look at the code:
-```c#
-class CreatorX : Creator
-{
-   public override Product FactoryMethod()
-   {
-      return new ProductA();
-   }
-}
+```run
+Operation specific to Gold Customer
+Gold Customer - Points Added
+Gold Customer - Discount Added
 ```
 
-Note that the signature of the method still uses the abstract product type, even though the concrete product is actually returned from the method. 
-This way the Creator can stay independent of concrete product classes.
-likewise, the code for **CreatorZ** will be like: 
-
-```c#
-class CreatorZ : Creator
-{
-   public override Product FactoryMethod()
-   {
-      return new ProductB();
-   }
-}
-```
-
-Let's create a **Director** class that will run the **Builder** class object.
-The code for this class will be:
-```c#
- public class Director
- {
-    private Builder _builder;
-    
-    public Builder Builder
-    {
-       set { _builder = value; } 
-    }
-       
-    // The Director can construct several product variations using the same
-    // building steps.
-    public void buildMinimalViableProduct()
-    {
-       this._builder.BuildPartA();
-    }
-        
-    public void buildFullFeaturedProduct()
-    {
-      this._builder.BuildPartA();
-      this._builder.BuildPartB();
-      this._builder.BuildPartC();
-    }
- }
-```
-
-Now let's put this all together in the **Client**.cs class.
-
-```c#
-class Client
-{
-    public void Main()
-    {
-        Console.WriteLine("App: Launched with the CreatorX.");
-        ClientCode(new CreatorX());
-           
-        Console.WriteLine("");
-        Console.WriteLine("App: Launched with the CreatorZ.");
-        ClientCode(new CreatorZ());
-    }
-    public void ClientCode(Creator creator)
-    {
-        // ...
-        Console.WriteLine("Client: I'm not aware of the creator's class," +
-                          "but it still works.\n" + creator.SomeOperation());
-        // ...
-    }
-}
-```
-
-and now let's run our work in the **Program**.cs class. 
-We create the following code:
-
-```c#
-class Program
-{
-    static void Main(string[] args)
-    {
-        new Client().Main();
-    }
-}
-```
-We are ready to run our program and thus we have:
-
-```
-App: Launched with the CreatorX.
-Client: I'm not aware of the creator's class,but it still works.
-Creator: This creator's code has just worked with {From of ProductA}
-
-App: Launched with the CreatorZ.
-Client: I'm not aware of the creator's class,but it still works.
-Creator: This creator's code has just worked with {From of ProductB}
-```
-
-Be good and happy programming
 
 
-[Wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern/)
 
-![Factory](https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/images/Factory.png)
-----------------------------------------------------------------------------------------------------
 
-Find Ray on:
 
-[facebook](https://www.facebook.com/TheRayCode/)
 
-[youtube](https://www.youtube.com/user/AndradeRay/)
 
-[The Ray Code](https://www.RayAndrade.com)
 
-[Ray Andrade](https://www.RayAndrade.org)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
