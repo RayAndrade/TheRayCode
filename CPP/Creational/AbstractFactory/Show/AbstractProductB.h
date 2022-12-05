@@ -1,6 +1,10 @@
-[back](./page03.md)
+//
+// Created by ray on 12/5/22.
+//
 
-```cpp
+#ifndef SHOW_ABSTRACTPRODUCTB_H
+#define SHOW_ABSTRACTPRODUCTB_H
+
 #include <string>
 #include "AbstractProductA.h"
 
@@ -10,6 +14,6 @@ public:
     virtual std::string UsefulFunction2() const = 0;
     virtual std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const = 0;
 };
-```
 
-[page 5](./page05.md)
+
+#endif //SHOW_ABSTRACTPRODUCTB_H

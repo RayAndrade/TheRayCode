@@ -1,8 +1,9 @@
-[back](./page05.md)
+//
+// Created by ray on 12/5/22.
+//
 
-**ProductA1**
-
-```cpp
+#ifndef SHOW_PRODUCTA1_H
+#define SHOW_PRODUCTA1_H
 
 #include "AbstractProductA.h"
 class ProductA1 : public AbstractProductA {
@@ -12,6 +13,5 @@ public:
     }
 };
 
-```
 
-[page 7](./page07.md)
+#endif //SHOW_PRODUCTA1_H

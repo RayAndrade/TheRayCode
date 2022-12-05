@@ -1,8 +1,9 @@
-[back](./page10.md)
+//
+// Created by ray on 12/5/22.
+//
 
-**ConcreteFactory2**
-
-```cpp
+#ifndef SHOW_CONCRETEFACTORY2_H
+#define SHOW_CONCRETEFACTORY2_H
 
 #include "AbstractFactory.h"
 #include "ProductA2.h"
@@ -18,6 +19,4 @@ public:
     }
 };
 
-```
-
-[page 12](./page12.md)
+#endif //SHOW_CONCRETEFACTORY2_H

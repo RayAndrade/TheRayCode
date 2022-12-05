@@ -1,8 +1,9 @@
-[back](./page08.md)
+//
+// Created by ray on 12/5/22.
+//
 
-**ProductB2**
-
-```cpp
+#ifndef SHOW_PRODUCTB2_H
+#define SHOW_PRODUCTB2_H
 
 #include "AbstractProductB.h"
 
@@ -17,6 +18,5 @@ public:
     }
 };
 
-```
 
-[page 10](./page10.md)
+#endif //SHOW_PRODUCTB2_H
