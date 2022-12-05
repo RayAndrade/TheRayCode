@@ -2,7 +2,7 @@ using System;
 
 namespace TheRayCode.Factory.DesignPatterns
 {
-    class Client
+    internal class Client
     {
         public void Main()
         {
