@@ -1,15 +1,19 @@
 [back](./page03.md)
 
-```cpp
-#include <string>
-#include "AbstractProductA.h"
 
-class AbstractProductB {
+**AbstractFactory**
+
+```cpp
+
+//#include "AbstractProductA.h"
+#include "AbstractProductB.h"
+
+class AbstractFactory {
 public:
-    ~AbstractProductB(){};
-    virtual std::string UsefulFunction2() const = 0;
-    virtual std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const = 0;
+    virtual AbstractProductA *CreateProductA() const = 0;
+    virtual AbstractProductB *CreateProductB() const = 0;
 };
+
 ```
 
 [page 5](./page05.md)

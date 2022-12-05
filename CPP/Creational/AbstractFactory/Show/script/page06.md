@@ -1,17 +1,5 @@
 [back](./page05.md)
 
-**ProductA1**
-
-```cpp
-
-#include "AbstractProductA.h"
-class ProductA1 : public AbstractProductA {
-public:
-    std::string UsefulFunctionA() const override {
-        return "The result of Product A1.";
-    }
-};
-
-```
+**ProductA2**
 
 [page 7](./page07.md)

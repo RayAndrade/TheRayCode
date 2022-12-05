@@ -1,6 +1,10 @@
 [back](./page10.md)
 
-**ConcreteFactory2**
+**main**
+
+**Client**
+
+**main**
 
 ```cpp
 

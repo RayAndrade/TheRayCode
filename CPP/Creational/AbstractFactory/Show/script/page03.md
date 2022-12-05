@@ -6,11 +6,15 @@ Now create a dot h file named **AbstractProductB**
 ```cpp
 
 #include <string>
-class AbstractProductA {
+#include "AbstractProductA.h"
+
+class AbstractProductB {
 public:
-    AbstractProductA(){};
-    virtual std::string UsefulFunctionA() const = 0;
+    ~AbstractProductB(){};
+    virtual std::string UsefulFunction2() const = 0;
+    virtual std::string AnotherUsefulFunctionB(const AbstractProductA &collaborator) const = 0;
 };
+
 
 ```
 
