@@ -1,11 +1,24 @@
 [back](./page02.md)
 
-The Product interface declares the operations that all concrete products must implement.
+We start bu creating an *interface* we call **ICustomer**
+
+We add some method requierments
 
 ```csharp
-public interface IProduct
+
+  void AddPoints();
+  void AddDiscount();
+  
+```
+
+When the interface is complete it shoud look like
+
+```csharp
+
+public interface ICustomer
 {
-    string Operation();
+    void AddPoints();
+    void AddDiscount();
 }
 
 ```

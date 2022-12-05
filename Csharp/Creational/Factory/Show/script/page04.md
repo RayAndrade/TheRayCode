@@ -1,18 +1,33 @@
 [back](./page03.md)
 
+We create a class we call **BronzeCustomer**
 
-Concrete Products provide various implementations of the Product interface.
+we extent it with **BronzeCustomer**
+
+We auto generate the methiods **AddPoints** and **AddDiscount**
+
+the code will be respectively
+
+```csharp
+ 
+ Console.WriteLine("Bronze Customer - Discount Added");
+
+```
 
 ```csharp
 
-class Product1 : IProduct
-{
-    public string Operation()
-    {
-        return "{Result of Product1}";
-    }
-}
+ Console.WriteLine("Operation specific to Bronze Customer");
+
 ```
 
+lets add code for the **BronzeOperation**
+
+```csharp
+ public void BronzeOperation()
+{
+    Console.WriteLine("Operation specific to Bronze Customer");
+}
+
+```
 
 [page 5](./page05.md)
