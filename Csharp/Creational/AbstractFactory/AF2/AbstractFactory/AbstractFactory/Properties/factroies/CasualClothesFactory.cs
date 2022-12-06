@@ -2,7 +2,7 @@ using AbstractFactory.Properties.abstract_products;
 
 namespace AbstractFactory.Properties.factroies
 {
-    class CasualClothesFactory:ClothesFactory
+    internal class CasualClothesFactory:ClothesFactory
     {
         public override Shirt CreateShirt()
         {

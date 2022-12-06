@@ -13,7 +13,7 @@ namespace AbstractFactory.Properties
             _trousers = factory.CreateTrousers();
         }
 
-        public string DecribeYourCloths()
+        public string DescribeYourClothes()
         {
             return $"Today I'm dressed in: {_shirt.GetType().Name} and {_trousers.GetType().Name}";
         }

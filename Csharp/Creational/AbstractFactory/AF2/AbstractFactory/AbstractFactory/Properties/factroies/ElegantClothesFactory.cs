@@ -3,14 +3,14 @@ using AbstractFactory.Properties.products;
 
 namespace AbstractFactory.Properties.factroies
 {
-    class ElegantClothesFactory
+    internal class ElegantClothesFactory:ClothesFactory
     {
-        public Shirt CreateShirt()
+        public override Shirt CreateShirt()
         {
             return new DressShirt();
         }
 
-        public Trousers CreateTrousers()
+        public override Trousers CreateTrousers()
         {
             return new SuitTrousers();
         }
