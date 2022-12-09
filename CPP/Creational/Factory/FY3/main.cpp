@@ -1,32 +1,34 @@
 #include <iostream>
 
-#include "Product.h"
-#include "ProductA.h"
-#include "ProductB.h"
-#include "Creator.h"
-#include "CreatorA.h"
-#include "CreatorB.h"
+// https://www.youtube.com/watch?v=_fYW9iabyEo
+// The Factory Method and Abstract Factory Design Patterns in C++ pt-1
+// Eduard Karesli
 
-void ClientCode(const Creator& creator) {
-    // ...
-    std::cout << "Client: I'm not aware of the creator's class, but it still works.\n"
-              << creator.SomeOperation() << std::endl;
-    // .
-}
+#include "vehicle.h"
+#include "factory.h"
 
-int main() {
+using std::cout;
+using std::endl;
 
-    std::cout << "App: Launched with the CreatorA." << std::endl;
-    Creator* creatorA = new CreatorA();
-    ClientCode(*creatorA);
+int main(int argc, char* argv[])
+{
+    Vehicle* p = Factory::createInstance(1);
+    if (p)
+    {
+        p->doRun();
+    }
 
-    std::cout << std::endl;
-    std::cout << "App: Launched with the CreatorB." << std::endl;
-    Creator* creatorB = new CreatorB();
-    ClientCode(*creatorB);
+    Vehicle* q = Factory::createInstance(2);
+    if (q)
+    {
+        q->doRun();
+    }
 
-    delete creatorA;
-    delete creatorB;
+    int result = Factory::destroyInstance(p);
+    cout << "Destroying p: " << result << endl;
+
+    result = Factory::destroyInstance(q);
+    cout << "Destroying q: " << result << endl;
 
     return 0;
 }

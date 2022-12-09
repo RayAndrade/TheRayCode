@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.22)
-project(FY2)
+project(F3)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(FY2 main.cpp vehicle.h vehicle.cpp factory.h factory.cpp)
+add_executable(F3 main.cpp Product.h ProductA.h ProductB.h Creator.h CreatorA.h CreatorB.h)
