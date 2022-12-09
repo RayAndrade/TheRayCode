@@ -1,9 +1,9 @@
 #include <iostream>
 
-#include "Product.h"
-#include "ProductA.h"
-#include "ProductB.h"
-#include "Creator.h"
+//#include "Product.h"
+//#include "ProductA.h"
+//#include "ProductB.h"
+//#include "Creator.h"
 #include "CreatorA.h"
 #include "CreatorB.h"
 
