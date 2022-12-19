@@ -192,36 +192,4 @@ Invalid toy type please re-enter type
 Exit...
 Process finished with exit code 0
 
-
-
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
