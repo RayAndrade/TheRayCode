@@ -1,27 +1,56 @@
-//
-// Created by The Ray Code
-//
+#include <iostream>
+#include <string>
 
-#include "ToyFactory.h"
+// Base class
+class Shape {
+public:
+    virtual void draw() = 0;
+};
 
-int main() {
-// client code starts
-
-    int type;
-    while(1){
-        std::cout << "1 Car, 2 Bike, 3 Plane Enter type or Zero for exit" << std::endl;
-        std::cin >> type;
-        if(!type)
-            break;
-        Toy *v = ToyFactory::createToy(type);
-        if(v){
-            v->showProduct();
-            delete v;
-        }
+// Concrete classes
+class Circle : public Shape {
+public:
+    void draw() {
+        std::cout << "Inside Circle::draw() method." << std::endl;
     }
-    std::cout << "Exit...";
+};
 
+class Rectangle : public Shape {
+public:
+    void draw() {
+        std::cout << "Inside Rectangle::draw() method." << std::endl;
+    }
+};
 
-//Client code ends
+class Square : public Shape {
+public:
+    void draw() {
+        std::cout << "Inside Square::draw() method." << std::endl;
+    }
+};
+
+// Factory class
+class ShapeFactory {
+public:
+    static Shape* createShape(std::string type) {
+        if (type == "circle")
+            return new Circle();
+        else if (type == "rectangle")
+            return new Rectangle();
+        else if (type == "square")
+            return new Square();
+        else
+            return nullptr;
+    }
+};
+
+// Client code
+int main() {
+    Shape* shape1 = ShapeFactory::createShape("circle");
+    shape1->draw();
+    Shape* shape2 = ShapeFactory::createShape("rectangle");
+    shape2->draw();
+    Shape* shape3 = ShapeFactory::createShape("square");
+    shape3->draw();
     return 0;
 }
