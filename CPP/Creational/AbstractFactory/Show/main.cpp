@@ -1,56 +1,33 @@
-#include <iostream>
-#include <string>
 
-// Base class
-class Shape {
-public:
-    virtual void draw() = 0;
-};
 
-// Concrete classes
-class Circle : public Shape {
-public:
-    void draw() {
-        std::cout << "Inside Circle::draw() method." << std::endl;
-    }
-};
+#include "Product.h"
+#include "ConcreteProduct1.h"
+#include "ConcreteProduct2.h"
+#include "Factory.h"
+#include "ConcreteFactory1.h"
+#include "ConcreteFactory2.h"
 
-class Rectangle : public Shape {
-public:
-    void draw() {
-        std::cout << "Inside Rectangle::draw() method." << std::endl;
-    }
-};
-
-class Square : public Shape {
-public:
-    void draw() {
-        std::cout << "Inside Square::draw() method." << std::endl;
-    }
-};
-
-// Factory class
-class ShapeFactory {
-public:
-    static Shape* createShape(std::string type) {
-        if (type == "circle")
-            return new Circle();
-        else if (type == "rectangle")
-            return new Rectangle();
-        else if (type == "square")
-            return new Square();
-        else
-            return nullptr;
-    }
-};
 
 // Client code
 int main() {
-    Shape* shape1 = ShapeFactory::createShape("circle");
-    shape1->draw();
-    Shape* shape2 = ShapeFactory::createShape("rectangle");
-    shape2->draw();
-    Shape* shape3 = ShapeFactory::createShape("square");
-    shape3->draw();
+    // Create a ConcreteFactory1 object
+    Factory* factory1 = new ConcreteFactory1();
+    Factory* factory2 = new ConcreteFactory2();
+
+    // Use the factory to create a product
+    Product* product1 = factory1->createProduct();
+    Product* product2 = factory2->createProduct();
+
+    // Print the name of the product
+    std::cout << product1->getName() << std::endl;
+    std::cout << product2->getName() << std::endl;
+
+    // Clean up
+    delete product1;
+    delete factory1;
+
+    delete product2;
+    delete factory2;
+
     return 0;
 }
