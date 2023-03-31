@@ -1,19 +1,18 @@
 <?php
 
-namespace Show;
+namespace TheRayCode\Factory;
 
-include_once "DogFactory.php";
-include_once "CatFactory.php";
+include('Vehicle.php');
+include('Car.php');
+include('Motorcycle.php');
+include('Bicycle.php');
+include('VehicleFactory.php');
 
-include_once "Dog.php";
-include_once "Cat.php";
+$vehicleFactory = new VehicleFactory();
+$car = $vehicleFactory->createVehicle('car');
+$motorcycle = $vehicleFactory->createVehicle('motorcycle');
+$bicycle = $vehicleFactory->createVehicle('bicycle');
 
-// Create a dog using the DogFactory
-$dogFactory = new DogFactory();
-$dog = $dogFactory->createAnimal();
-$dog->speak(); // Output: Woof!
-
-// Create a cat using the CatFactory
-$catFactory = new CatFactory();
-$cat = $catFactory->createAnimal();
-$cat->speak(); // Output: Meow!
+$car->drive();          // Output: Driving a car...
+$motorcycle->drive();   // Output: Riding a motorcycle...
+$bicycle->drive();      // Output: Riding a bicycle...
