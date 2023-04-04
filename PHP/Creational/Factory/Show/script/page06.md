@@ -13,7 +13,7 @@ include('Bicycle.php');
 we name it VehicleFactory and ith will have the following Factory code
 
 ```
-public function createVehicle($type) {
+public function createVehicle($type): Bicycle|Car|Motorcycle {
     if ($type == 'car') {
         return new Car();
     } elseif ($type == 'motorcycle') {
