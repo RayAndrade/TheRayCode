@@ -44,9 +44,6 @@ where if you give it the carmeter car you get a Car class.
 
 same if your parmeter is motorcycle you get a Motorcycle
 
-likewise for Bicycle
-
-if the parameter is no reconized we thow an error..
 
 
 [page 7](./page07.md)
