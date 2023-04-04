@@ -2,7 +2,13 @@
 
 Let's create a Car Class.
 
-And implements the Vehicle inerface
+first we incllude the Vehicle interface file
+
+```
+include_once('Vehicle.php');
+```
+
+Our ckass implements the Vehicle inerface
 
 in the drive method we add the following code:
 
