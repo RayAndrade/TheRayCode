@@ -4,7 +4,7 @@ No we create the Factory class
 
 
 ```
-Factory
+VehicleFactory
 ```
 
 let's first incude our class files
