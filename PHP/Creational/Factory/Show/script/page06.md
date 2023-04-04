@@ -37,7 +37,6 @@ public function createVehicle($type): Bicycle|Car|Motorcycle {
          throw new InvalidArgumentException("Invalid vehicle type");
     }
 }
-
 ```
 
 where if you give it the carmeter car you get a Car class.
