@@ -17,11 +17,6 @@ include('Bicycle.php');
 
 we name it VehicleFactory and ith will have the following Factory code
 
-First we extednt this class with
-
-```
-: Bicycle|Car|Motorcycle
-```
 
 and we add some code:
 
