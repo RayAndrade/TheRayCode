@@ -2,6 +2,14 @@
 
 No we create the Factory class
 
+let's first incude our class files
+
+```
+include('Car.php');
+include('Motorcycle.php');
+include('Bicycle.php');
+```
+
 we name it VehicleFactory and ith will have the following Factory code
 
 ```
