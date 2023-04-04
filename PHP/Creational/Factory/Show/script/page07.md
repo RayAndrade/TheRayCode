@@ -1,12 +1,8 @@
 [back](./page06.md)
 
-we put some code into the index class to demo our code, first we add our includes
+we put some code into the index class to demo our code, first we add our include file
 
 ```
-include('Vehicle.php');
-include('Car.php');
-include('Motorcycle.php');
-include('Bicycle.php');
 include('VehicleFactory.php');
 ```
 
