@@ -2,6 +2,11 @@
 
 No we create the Factory class
 
+
+```
+Factory
+```
+
 let's first incude our class files
 
 ```
@@ -11,6 +16,14 @@ include('Bicycle.php');
 ```
 
 we name it VehicleFactory and ith will have the following Factory code
+
+First we extednt this class with
+
+```
+: Bicycle|Car|Motorcycle
+```
+
+and we add some code:
 
 ```
 public function createVehicle($type): Bicycle|Car|Motorcycle {
