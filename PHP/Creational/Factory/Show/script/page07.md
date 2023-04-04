@@ -1,3 +1,6 @@
+[home](./page01.md)
+
+
 [back](./page06.md)
 
 we put some code into the index class to demo our code, first we add our include file
