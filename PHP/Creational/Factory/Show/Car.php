@@ -2,6 +2,7 @@
 
 namespace TheRayCode\Factory;
 
+include_once('Vehicle.php');
 class Car implements Vehicle
 {
 

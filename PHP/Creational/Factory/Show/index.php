@@ -2,10 +2,6 @@
 
 namespace TheRayCode\Factory;
 
-include('Vehicle.php');
-include('Car.php');
-include('Motorcycle.php');
-include('Bicycle.php');
 include('VehicleFactory.php');
 
 $vehicleFactory = new VehicleFactory();

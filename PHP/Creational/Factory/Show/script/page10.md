@@ -1,19 +1,6 @@
 [back](./page09.md)
 
 
-```
-function test() {
-  console.log("This code will have a copy button to the right of it");
-}
-```
-
-````
-```
-Look! You can see my backticks.
-```
-````
-
-
 
 
 Model: Default (GPT-3.5)
