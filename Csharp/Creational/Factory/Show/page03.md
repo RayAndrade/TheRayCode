@@ -1,6 +1,12 @@
 [back](./page02.md)
 
-This is page 3
+Now let's create a Toy. Our first toy will be a 
+
+```
+Doll
+```
+
+the **Doll** class will requier **Play**
 
 [next](./page04.md)
 
