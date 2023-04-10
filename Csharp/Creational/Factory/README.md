@@ -11,7 +11,7 @@ For this example, let's create a toy factory that produces different types of to
 First, let's create an interface for the toys that the factory will produce. We will call this interface "IToy".
 
 
-[show](./show/page01.md)
+[show](./Show/page01.md)
 
 
 **C# Creational Patterns**
