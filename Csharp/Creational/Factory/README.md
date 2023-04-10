@@ -4,6 +4,14 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
+The factory design pattern is a creational pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created. In other words, it defines a way to create objects without specifying their exact class.
+
+For this example, let's create a toy factory that produces different types of toys, such as dolls, cars, and trains. We will use C# to implement this example.
+
+First, let's create an interface for the toys that the factory will produce. We will call this interface "IToy".
+
+
+
 **C# Creational Patterns**
 
  * **[Factory](../Factory/README.md)**
@@ -11,12 +19,6 @@
  * **[Builder](../Builder/README.md)**
  * **[Prototype](../Prototype/README.md)**
  * **[Singleton](../Singleton/README.md)**
-
-**C# Factory Design Pattern**
-
- * [Factory Example 1](FY1/README.md)
- * [Factory Example 2](FY2/)
- * [Factory Example 3](FY3/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
