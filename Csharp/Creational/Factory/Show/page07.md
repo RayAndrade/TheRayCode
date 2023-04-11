@@ -1,9 +1,9 @@
 [back](./page06.md)
 
 ```
-IToy doll = ToyFactory.CreateToy("doll");
-IToy car = ToyFactory.CreateToy("car");
-IToy train = ToyFactory.CreateToy("train");
+IToy doll = SantasBag.CreateToy("doll");
+IToy car = SantasBag.CreateToy("car");
+IToy train = SantasBag.CreateToy("train");
 
 doll.Play();
 car.Play();
