@@ -21,8 +21,8 @@ public static IToy CreateToy(string type)
             default:
                 throw new ArgumentException("Invalid toy type");
         }
-    }
-}
+ }
+
 ```
 
 [next](./page07.md)
