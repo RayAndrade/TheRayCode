@@ -1,9 +1,9 @@
 [back](./page05.md)
 
-Now let's creat a ToyFactory.  This class is responsible for creating new toy objects based on a given string input. It provides a simple interface for creating toys without knowing the exact type of toy that is being created.
+Now let's creat a toy factory called SantasBag this class will be responsible for creating the toy objects based on a given string input. It provides a simple interface for creating toys without knowing the exact type of toy that is being created.
 
 ```
-ToyFactory
+SantasBag
 ```
 
 
