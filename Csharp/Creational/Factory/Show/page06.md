@@ -3,6 +3,11 @@
 Now let's creat a ToyFactory.  This class is responsible for creating new toy objects based on a given string input. It provides a simple interface for creating toys without knowing the exact type of toy that is being created.
 
 ```
+ToyFactory
+```
+
+
+```
 public static IToy CreateToy(string type)
     {
         switch (type)
