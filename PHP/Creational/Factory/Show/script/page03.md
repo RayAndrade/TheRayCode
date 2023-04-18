@@ -17,7 +17,7 @@ Our ckass implements the Vehicle inerface
 in the drive method we add the following code:
 
 ```php
-echo "Driving a car...\n";
+echo "Driving a car...<br/>";
 ```
 
 
