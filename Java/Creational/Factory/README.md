@@ -8,13 +8,9 @@
 
 **Java Creational Patterns**
 
- * **[Factory](../Factory/README.md)**
- * **[AbstractFactory](../AbstractFactory/README.md)**
- * **[Builder](../Builder/README.md)**
- * **[Prototype](../Prototype/README.md)**
- * **[Singleton](../Singleton/README.md)**
-
-**Java Factory Design Pattern**
+ * **[Top](../README.md)**
+ 
+ **Java Factory Design Pattern**
 
  * [Show](Show/)
 
