@@ -7,12 +7,8 @@
 **C++ Creational Patterns**
 
  * **[Factory](../Factory/README.md)**
- * **[AbstractFactory](../AbstractFactory/README.md)**
- * **[Builder](../Builder/README.md)**
- * **[Prototype](../Prototype/README.md)**
- * **[Singleton](../Singleton/README.md)**
 
-**C++ Factory Design Pattern**
+**C++ Factory Design Pattern Exampls**
 
  * [Factory Example 1](FY1/)
  * [Factory Example 2](FY2/)
