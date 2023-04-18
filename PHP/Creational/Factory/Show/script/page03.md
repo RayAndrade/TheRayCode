@@ -24,11 +24,3 @@ echo "Driving a car...<br/>";
 
 [page 4](./page04.md)
 
-
-The needle💉 tears a hole
-The old familiar sting🤧
-Try to kill☠️ it all away but I remember🤔 everything
-
-I am thinking a veggi pizza ,, Buono's Pizzeria 250 W Ocean Blvd A, Long Beach, CA 90802
-
-https://goo.gl/maps/B9FJenUcWB55F6g46
