@@ -15,7 +15,7 @@ include_once('Vehicle.php');
 for the drive method we add the following code
 
 ```
-echo "Riding a motorcycle...\n";
+echo "Riding a motorcycle...<br/>";
 ```
 
 [page 6](./page06.md)
