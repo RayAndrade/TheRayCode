@@ -16,6 +16,7 @@
 
 **Java Factory Design Pattern**
 
+ * [Show](Show/)
  * [Example 1](FY01/)
  * [Example 2](FY02/)
  * [Example 3](FY03/README.md)
