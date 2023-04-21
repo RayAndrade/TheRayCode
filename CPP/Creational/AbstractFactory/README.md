@@ -6,21 +6,13 @@
 
 **C++ Creational Patterns**
 
- * **[Factory](../Factory/README.md)**
- * **[AbstractFactory](../AbstractFactory/README.md)**
- * **[Builder](../Builder/README.md)**
- * **[Prototype](../Prototype/README.md)**
- * **[Singleton](../Singleton/README.md)**
-
 **C++ Abstract Factory Design Pattern**
 
- [Example 0](./AF0/README.md)
- 
- [Example 1](./AF1/)
+ [Show](./Show/README.md)
+
+[Example 1](./AF1/)
  
  [Example 2](./AF2/)
- 
- [Example 3](./AF3/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
