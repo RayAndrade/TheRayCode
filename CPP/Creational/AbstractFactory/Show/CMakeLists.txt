@@ -3,4 +3,4 @@ project(Show)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Show main.cpp Toy.h Toy.h)
+add_executable(Show main.cpp Toy.h Toy.h ActionFigure.h)

@@ -7,6 +7,7 @@ We start with the createion of the  abstract base class that defines the interfa
 
 It has a single pure virtual method play() which must be implemented by all concrete toy classes.
 
+This is an abstract base class that defines the interface for all toys. It has a single pure virtual method play() which must be implemented by all concrete toy classes.
 
 ```
 class Toy { };

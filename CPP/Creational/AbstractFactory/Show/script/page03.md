@@ -6,6 +6,9 @@
 ActionFigure
 ```
 
+This is a concrete class that inherits from Toy and represents a type of toy that is an action figure. It overrides the play() method from Toy to provide a specific implementation for an action figure toy.
+
+
 ```
 class ActionFigure { };
 ```
