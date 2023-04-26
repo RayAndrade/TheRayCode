@@ -10,10 +10,14 @@ class CarToy { };
 ```
 
 ```
-class CarToy
+: public Toy 
 ```
 
 import Toy
+
+```
+#include "Toy.h"
+```
 
 ```
 public:
