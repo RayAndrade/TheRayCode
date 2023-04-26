@@ -20,6 +20,7 @@ DollToyFactory is another concrete factory that creates doll toys by implementin
 ```
 public:
     Toy* createToy() override {
+        std::cout << "DollToy :ToyFactory" << std::endl;
         return new DollToy();
     }
 ```
