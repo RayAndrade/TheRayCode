@@ -20,6 +20,7 @@ class CarToyFactory { };
 ```
 public:
     Toy* createToy() override {
+        std::cout << "CarToyFactory :ToyFactory" << std::endl;
         return new CarToy();
     }
 ```
