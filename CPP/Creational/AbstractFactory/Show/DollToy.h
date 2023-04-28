@@ -1,5 +1,5 @@
 //
-// Created by ray on 4/23/23.
+// Created by ray on 4/26/23.
 //
 
 #ifndef SHOW_DOLLTOY_H
@@ -10,8 +10,9 @@
 class DollToy : public Toy {
 public:
     void play() override {
-        std::cout << "Concrete product class for doll toys" << std::endl;
+        // Play with the doll toy
     }
 };
+
 
 #endif //SHOW_DOLLTOY_H

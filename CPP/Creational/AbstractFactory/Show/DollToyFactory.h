@@ -1,14 +1,15 @@
 //
-// Created by ray on 4/23/23.
+// Created by ray on 4/26/23.
 //
 
 #ifndef SHOW_DOLLTOYFACTORY_H
 #define SHOW_DOLLTOYFACTORY_H
 
+#include <iostream>
 #include "ToyFactory.h"
 #include "DollToy.h"
 
-class DollToyFactory : public ToyFactory {
+class DollToyFactory : public ToyFactory{
 public:
     Toy* createToy() override {
         std::cout << "DollToy :ToyFactory" << std::endl;

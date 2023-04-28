@@ -18,6 +18,5 @@ int main() {
     delete dollToy;
     delete carFactory;
     delete dollFactory;
-    std::cout << "Hello, World!" << std::endl;
     return 0;
 }
