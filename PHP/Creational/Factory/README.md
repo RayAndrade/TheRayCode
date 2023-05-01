@@ -9,11 +9,7 @@
 **PHP Creational Patterns**
 
  * **[Factory](./README.md)**
- * **[AbstractFactory](../AbstractFactory/README.md)**
- * **[Builder](../Builder/README.md)**
- * **[Prototype](../Prototype/README.md)**
- * **[Singelton](../Singelton/README.md)**
-
+ 
 **PHP Factory Design Pattern**
 
  * [Example 1](FY1/README.md)
