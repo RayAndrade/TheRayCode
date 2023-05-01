@@ -1,7 +1,7 @@
-[home](./page01.md)
-
 [back](./page05.md)
 
-page06
+No we create the Factory class
+
+
 
 [page 7](./page07.md)

@@ -1,5 +1,3 @@
-[home](./page01.md)
-
 [back](./page19.md)
 
 page3=20

@@ -13,10 +13,10 @@ class Demo {
         $catFactory = new CatFactory();
 
         $dog = $dogFactory->createDog();
-        echo $dog->bark() . "<br/>";
+        echo $dog->bark() . "\n";
 
         $cat = $catFactory->createCat();
-        echo $cat->meow() . "<br/>";
+        echo $cat->meow() . "\n";
     }
 }
 
