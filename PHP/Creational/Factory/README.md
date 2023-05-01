@@ -8,7 +8,9 @@
 
 **PHP Creational Patterns**
 
- * **[Factory](./README.md)**
+ **[Factory]**
+ 
+ [Show]()
  
 **PHP Factory Design Pattern**
 
