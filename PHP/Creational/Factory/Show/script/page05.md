@@ -2,6 +2,21 @@
 
 [back](./page04.md)
 
-page05
+create class
+
+```
+Bicycle
+```
+
+it too *implements*
+
+```
+Vehicle
+```
+and it's drive function is
+
+```
+echo "Riding a bicycle...<br/>";
+```
 
 [page 6](./page06.md)

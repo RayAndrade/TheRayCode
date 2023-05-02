@@ -2,6 +2,18 @@
 
 [back](./page03.md)
 
-page04
+Create class *Motorcycle*
+
+it *implements*
+
+```
+Vehicle
+```
+
+and for drive we have
+
+```
+echo "Riding a motorcycle...<br/>";
+```
 
 [page 5](./page05.md)
