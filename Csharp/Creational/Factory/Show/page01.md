@@ -2,4 +2,4 @@ The factory design pattern is a creational pattern that provides an interface fo
 
 For this example, let's create a toy factory that produces different types of toys, such as dolls, cars, and trains. We will use C# to implement this example.
 
-[Script](./page02.md)
+[page2](./page02.md)
