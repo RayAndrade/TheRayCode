@@ -5,8 +5,6 @@
  * **[Structural](./Structural/README.md)**
  * **[Behavioral](./Behavioral/README.md)**
 
-**[CPP](../CPP/README.md)** | **[CSHARP](../Csharp/README.md)** | **[JAVA](../Java/README.md)**  | **[PHP](../PHP/README.md)** | **[JAVASCRIPT](../JavaScript/README.md)**
-
 Design patterns are general solutions to common software design problems that can be applied to different programming languages, including C++. However, the implementation of design patterns can vary slightly between programming languages due to differences in their syntax and features.
 
 In C++, design patterns are typically implemented using classes and object-oriented programming concepts such as inheritance, encapsulation, and polymorphism. The implementation of design patterns in C++ often involves the use of interfaces, abstract classes, and templates to provide flexibility and extensibility to the code.
@@ -20,6 +18,11 @@ Some examples of design patterns commonly used in C++ include:
 * **Singleton pattern** This pattern involves ensuring that a class has only one instance and providing a global point of access to it. This pattern is often used in C++ to ensure that a single instance of a class is used throughout an application.
 
 Overall, C++ provides a rich set of features and concepts that make it well-suited for implementing design patterns. However, the choice of design pattern and its implementation details will depend on the specific requirements of the software being developed.
+
+other computer languages:
+
+**[CPP](../CPP/README.md)** | **[CSHARP](../Csharp/README.md)** | **[JAVA](../Java/README.md)**  | **[PHP](../PHP/README.md)** | **[JAVASCRIPT](../JavaScript/README.md)**
+
 
 [TheRayCode.ORG](https://www.TheRayCode.ORG)
 
