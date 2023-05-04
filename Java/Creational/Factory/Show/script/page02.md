@@ -1,5 +1,18 @@
 [back](./page01.md)
 
-page 2
+First, let's create an interface for the toys that the factory will produce. We will call this interface "IToy".
 
-[page 3](./page03.md)
+```
+IToy
+```
+
+**IToy** will force the reqiierment for
+
+
+```
+ void Play();
+``` 
+ 
+
+[next](./page03.md)
+
