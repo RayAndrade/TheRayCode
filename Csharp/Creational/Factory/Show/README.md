@@ -66,7 +66,7 @@ Now, let's create the toy factory itself. We will call this class **SantasBag**.
 ```csharp
 namespace TheRayCode.Factory
 {
-    public class ToyFactory
+    public class SantasBag
     {
         public static IToy CreateToy(string type)
         {
@@ -95,9 +95,9 @@ namespace TheRayCode.Factory
     {
         static void Main(string[] args)
         {
-            IToy doll = ToyFactory.CreateToy("doll");
-            IToy car = ToyFactory.CreateToy("car");
-            IToy train = ToyFactory.CreateToy("train");
+            IToy doll = SantasBag.CreateToy("doll");
+            IToy car = SantasBag.CreateToy("car");
+            IToy train = SantasBag.CreateToy("train");
 
             doll.Play();
             car.Play();
@@ -110,6 +110,12 @@ namespace TheRayCode.Factory
 ```
 
 In this example, we created an interface for the toys, implemented classes for each type of toy, created a factory class that creates the toys based on a string input, and finally created a program that uses the factory to create and play with toys.
+
+```run
+Playing with a doll...
+Playing with a car...
+Playing with a train...
+```
 
 Note that each class is in its own separate file and organized by namespace. The dependency is organized by making sure that each class has the proper namespace and is referenced properly in the other classes that use it.
 
