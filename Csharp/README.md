@@ -13,10 +13,10 @@ In C#, there are several design patterns that are commonly used, including:
 
 **Creational Patterns: These patterns are used to create objects and manage their lifecycle. Examples include:**
 1. [Singleton pattern](./Creational/Singleton/README.md)
-2. Factory pattern
-3. Abstract Factory pattern
-4. Builder pattern
-5. Prototype pattern
+2. [Factory pattern](./Creational/Factory/README.md)
+3. [Abstract Factory pattern]((./Creational/AbstractFactory/README.md))
+4. [Builder pattern](./Creational/Builder/README.md)
+5. [Prototype pattern](./Creational/Prototype/README.md)
 
 **Structural Patterns: These patterns are used to compose objects into larger structures while keeping them flexible and efficient. Examples include:**     
 1. [Adapter pattern](./Csharp/Structural/Adapter/README.md)
@@ -49,4 +49,4 @@ Design patterns can be implemented in C# using object-oriented programming conce
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
