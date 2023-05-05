@@ -1,9 +1,11 @@
 # TheRayCode is AWESOME!!!
 **C# section**
 
- * **[Creational](./Creational/README.md)**
- * **[Structural](./Structural/README.md)**
- * **[Behavioral](./Behavioral/README.md)**
+**[Creational](./Creational/README.md)**
+
+**[Structural](./Structural/README.md)**
+
+**[Behavioral](./Behavioral/README.md)**
 
 Design patterns are a set of proven solutions to commonly occurring problems in software design. They provide a reusable template for solving similar problems in different contexts, and they allow developers to build software that is more modular, flexible, and maintainable.
 
