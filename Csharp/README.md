@@ -12,7 +12,7 @@ Design patterns are a set of proven solutions to commonly occurring problems in 
 In C#, there are several design patterns that are commonly used, including:
 
 **Creational Patterns: These patterns are used to create objects and manage their lifecycle. Examples include:**
-1. [Singleton pattern](./Csharp/Creational/Singleton/README.md)
+1. [Singleton pattern](./Creational/Singleton/README.md)
 2. Factory pattern
 3. Abstract Factory pattern
 4. Builder pattern
