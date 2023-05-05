@@ -2,7 +2,9 @@
 **C++ section**
 
 **[Creational](./Creational/README.md)**
+
 **[Structural](./Structural/README.md)**
+
 **[Behavioral](./Behavioral/README.md)**
 
 Design patterns are general solutions to common software design problems that can be applied to different programming languages, including C++. However, the implementation of design patterns can vary slightly between programming languages due to differences in their syntax and features.
