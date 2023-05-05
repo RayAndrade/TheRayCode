@@ -13,7 +13,7 @@ In C++, design patterns are typically implemented using classes and object-orien
 
 Some examples of design patterns commonly used in C++ include:
 
-* **Factory pattern** This pattern involves creating an interface for creating objects and delegating the creation of objects to its subclasses. This pattern is often used in C++ to create objects of different types without exposing the creation logic to the client code.
+* **[Factory pattern](./Creational/Factory/README.md)** This pattern involves creating an interface for creating objects and delegating the creation of objects to its subclasses. This pattern is often used in C++ to create objects of different types without exposing the creation logic to the client code.
 
  * **Observer pattern** This pattern involves defining a one-to-many relationship between objects so that when one object changes state, all its dependents are notified and updated automatically. This pattern is often used in C++ for event handling and GUI programming.
 
