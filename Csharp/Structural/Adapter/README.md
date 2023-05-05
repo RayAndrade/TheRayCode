@@ -17,6 +17,11 @@
 
 **C# Adapter Design Pattern**
 
+
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/README.md
+
+[README.md](./README.md)
+
 [AR1](./AR1)
 
 [AR2](./AR2)
