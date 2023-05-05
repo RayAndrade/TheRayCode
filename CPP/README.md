@@ -17,7 +17,7 @@ Some examples of design patterns commonly used in C++ include:
 
  * **[Observer pattern](./Behavioral/Observer/README.md)** This pattern involves defining a one-to-many relationship between objects so that when one object changes state, all its dependents are notified and updated automatically. This pattern is often used in C++ for event handling and GUI programming.
 
-* **Singleton pattern** This pattern involves ensuring that a class has only one instance and providing a global point of access to it. This pattern is often used in C++ to ensure that a single instance of a class is used throughout an application.
+* **[Singleton pattern](./Creational/Singleton/README.md)** This pattern involves ensuring that a class has only one instance and providing a global point of access to it. This pattern is often used in C++ to ensure that a single instance of a class is used throughout an application.
 
 Overall, C++ provides a rich set of features and concepts that make it well-suited for implementing design patterns. However, the choice of design pattern and its implementation details will depend on the specific requirements of the software being developed.
 
