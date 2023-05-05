@@ -16,27 +16,28 @@
 4. Builder pattern
 5. Prototype pattern
 
-    Structural Patterns: These patterns are used to compose objects into larger structures while keeping them flexible and efficient. Examples include:
-        Adapter pattern
-        Bridge pattern
-        Composite pattern
-        Decorator pattern
-        Facade pattern
-        Flyweight pattern
-        Proxy pattern
+**Structural Patterns: These patterns are used to compose objects into larger structures while keeping them flexible and efficient. Examples include:**     
+1. [Adapter pattern](./Csharp/Structural/Adapter/README.md)
+2. Bridge pattern
+3. Composite pattern
+4. Decorator pattern
+5. Facade pattern
+6. Flyweight pattern
+7. Proxy pattern
 
-    Behavioral Patterns: These patterns are used to manage algorithms, communication, and the assignment of responsibilities between objects. Examples include:
-        Chain of Responsibility pattern
-        Command pattern
-        Interpreter pattern
-        Iterator pattern
-        Mediator pattern
-        Memento pattern
-        Observer pattern
-        State pattern
-        Strategy pattern
-        Template Method pattern
-        Visitor pattern
+**Behavioral Patterns: These patterns are used to manage algorithms, communication, and the assignment of responsibilities between objects. Examples include:**
+
+1. Chain of Responsibility pattern
+2. Command pattern
+3. Interpreter pattern
+4. Iterator pattern
+5. Mediator pattern
+6. Memento pattern
+7. Observer pattern
+8. State pattern
+9. Strategy pattern
+10. Template Method pattern
+11. Visitor pattern
 
 Design patterns can be implemented in C# using object-oriented programming concepts like inheritance, interfaces, and polymorphism. By using design patterns, developers can create software that is more modular, flexible, and easier to maintain over time.
 
