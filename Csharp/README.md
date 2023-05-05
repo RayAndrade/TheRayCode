@@ -5,11 +5,11 @@
  * **[Structural](./Structural/README.md)**
  * **[Behavioral](./Behavioral/README.md)**
 
-# Design patterns are a set of proven solutions to commonly occurring problems in software design. They provide a reusable template for solving similar problems in different contexts, and they allow developers to build software that is more modular, flexible, and maintainable.
+## Design patterns are a set of proven solutions to commonly occurring problems in software design. They provide a reusable template for solving similar problems in different contexts, and they allow developers to build software that is more modular, flexible, and maintainable.
 
-## In C#, there are several design patterns that are commonly used, including:
+### In C#, there are several design patterns that are commonly used, including:
 
-### Creational Patterns: These patterns are used to create objects and manage their lifecycle. Examples include:
+**Creational Patterns: These patterns are used to create objects and manage their lifecycle. Examples include:**
 1. Singleton pattern
 2. Factory pattern
 3. Abstract Factory pattern
