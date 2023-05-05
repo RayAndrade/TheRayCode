@@ -15,7 +15,7 @@ As a Java programmer, studying the design patterns by the Gang of Four (GoF) can
 4. Best practices: The design patterns reflect best practices for software design and can help you write better code that is easier to maintain, extend, and test.
 5. Improved performance: By using the design patterns, you can optimize the performance of your Java applications by reducing the number of resources needed to run the program.
 
-Overall, studying the design patterns by the Gang of Four can enhance your Java programming skills and make you a more valuable member of your development te
+Overall, studying the design patterns by the Gang of Four can enhance your Java programming skills and make you a more valuable member of your development team.
 
 **[CPP](../CPP/README.md)** | **[CSHARP](../Csharp/README.md)** | **[JAVA](../Java/README.md)**  | **[PHP](../PHP/README.md)** | **[JAVASCRIPT](../JavaScript/README.md)** 
 
