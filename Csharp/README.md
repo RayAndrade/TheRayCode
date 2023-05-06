@@ -29,17 +29,17 @@ In C#, there are several design patterns that are commonly used, including:
 
 **Behavioral Patterns: These patterns are used to manage algorithms, communication, and the assignment of responsibilities between objects. Examples include:**
 
-1. Chain of Responsibility pattern
+1. [Chain of Responsibility pattern](./Behavioral/ChainOfResponsibility/README.md)
 2. [Command pattern](./Behavioral/Command/README.md)
-3. Interpreter pattern
-4. Iterator pattern
-5. Mediator pattern
-6. Memento pattern
-7. Observer pattern
-8. State pattern
-9. Strategy pattern
-10. Template Method pattern
-11. Visitor pattern
+3. [Interpreter pattern](./Behavioral/Interpreter/README.md)
+4. [Iterator pattern](./Behavioral/Iterator/README.md)
+5. [Mediator pattern](./Behavioral/Mediator/README.md)
+6. [Memento pattern](./Behavioral/Memento/README.md)
+7. [Observer pattern](./Behavioral/Observer/README.md)
+8. [State pattern](./Behavioral/State/README.md)
+9. [Strategy pattern](./Behavioral/Strategy/README.md)
+10.[Template Method pattern](./Behavioral/Template/README.md)
+11.[Visitor pattern](./Behavioral/Visitor/README.md)
 
 Design patterns can be implemented in C# using object-oriented programming concepts like inheritance, interfaces, and polymorphism. By using design patterns, developers can create software that is more modular, flexible, and easier to maintain over time.
 
