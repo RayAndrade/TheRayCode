@@ -1,4 +1,5 @@
-# TheRayCode is AWESOME!!!
+# [TheRayCode](../README.md) is AWESOME!!!
+
 **Java section**
 
 **[Creational](./Creational/README.md)**
