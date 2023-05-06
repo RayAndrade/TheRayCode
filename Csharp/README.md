@@ -20,7 +20,7 @@ In C#, there are several design patterns that are commonly used, including:
 
 **Structural Patterns: These patterns are used to compose objects into larger structures while keeping them flexible and efficient. Examples include:**     
 1. [Adapter pattern](./Csharp/Structural/Adapter/README.md)
-2. Bridge pattern
+2. [Bridge pattern}](./Csharp/Structural/Bridge/README.md)
 3. Composite pattern
 4. Decorator pattern
 5. Facade pattern
