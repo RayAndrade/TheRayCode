@@ -1,10 +1,10 @@
 # TheRayCode is AWESOME!!!
 
-**Creational Design Patterns**
+**Creational Patterns section**
 
 **[C#](../README.md)** 
 
-**[Creational Patterns](../Creational/README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
+**[Creational Patterns](./README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
 **C# Creational Patterns**
 
@@ -12,11 +12,12 @@
 
 **[AbstractFactory](./AbstractFactory/README.md)**
 
-**[Singleton](./Singleton/README.md)**
-
 **[Builder](./Builder/README.md)**
 
 **[Prototype](./Prototype/README.md)**
+
+**[Singleton](./Singleton/README.md)**
+
 
 Creational design patterns are a category of design patterns that deal with object creation. They provide flexible and reusable ways to create objects in your application. In C#, these patterns can be used to create objects in a more flexible and efficient manner. Here are some examples of Creational design patterns in C#:
 
