@@ -1,4 +1,4 @@
-# [TheRayCode](../../) is AWESOME!!!
+# [TheRayCode](../) is AWESOME!!!
 **C++ section**
 
 **[Creational](./Creational/README.md)**
