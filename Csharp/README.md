@@ -38,8 +38,8 @@ In C#, there are several design patterns that are commonly used, including:
 7. [Observer pattern](./Behavioral/Observer/README.md)
 8. [State pattern](./Behavioral/State/README.md)
 9. [Strategy pattern](./Behavioral/Strategy/README.md)
-10.[Template Method pattern](./Behavioral/Template/README.md)
-11.[Visitor pattern](./Behavioral/Visitor/README.md)
+10. [Template Method pattern](./Behavioral/Template/README.md)
+11. [Visitor pattern](./Behavioral/Visitor/README.md)
 
 Design patterns can be implemented in C# using object-oriented programming concepts like inheritance, interfaces, and polymorphism. By using design patterns, developers can create software that is more modular, flexible, and easier to maintain over time.
 
