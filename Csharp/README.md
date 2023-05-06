@@ -30,7 +30,7 @@ In C#, there are several design patterns that are commonly used, including:
 **Behavioral Patterns: These patterns are used to manage algorithms, communication, and the assignment of responsibilities between objects. Examples include:**
 
 1. Chain of Responsibility pattern
-2. Command pattern
+2. Command pattern(./Behavioral/Command/README.md)
 3. Interpreter pattern
 4. Iterator pattern
 5. Mediator pattern
