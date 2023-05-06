@@ -1,5 +1,7 @@
 # TheRayCode 
 
+**[C++](./CPP/README.md)** | **[C#](./Csharp/README.md)** | **[JAVA](./Java/README.md)**  | **[PHP](./PHP/README.md)** | **[JAVASCRIPT](./JavaScript/README.md)**  
+
 Hi, I'm Ray and this is my code for the project I call The Ray Code.
 
 The Gang of Four (GoF) design patterns are a set of 23 software design patterns that were presented in the book "Design Patterns: Elements of Reusable Object-Oriented Software" by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides. These patterns have become a fundamental part of modern software engineering and are widely used by software developers worldwide. Here are some reasons why you should study the GoF design patterns:
