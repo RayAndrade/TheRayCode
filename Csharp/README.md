@@ -19,13 +19,13 @@ In C#, there are several design patterns that are commonly used, including:
 5. [Prototype pattern](./Creational/Prototype/README.md)
 
 **Structural Patterns: These patterns are used to compose objects into larger structures while keeping them flexible and efficient. Examples include:**     
-1. [Adapter pattern](./Csharp/Structural/Adapter/README.md)
-2. [Bridge pattern}](./Csharp/Structural/Bridge/README.md)
-3. [Composite pattern](./Csharp/Structural/Composite/README.md)
-4. [Decorator pattern](./Csharp/Structural/Decorator/README.md)
-5. [Facade pattern](./Csharp/Structural/Facade/README.md)
-6. [Flyweight pattern](./Csharp/Structural/Flyweight/README.md)
-7. [Proxy pattern](./Csharp/Structural/Proxy/README.md)
+1. [Adapter pattern](./Structural/Adapter/README.md)
+2. [Bridge pattern}](./Structural/Bridge/README.md)
+3. [Composite pattern](./Structural/Composite/README.md)
+4. [Decorator pattern](./Structural/Decorator/README.md)
+5. [Facade pattern](./Structural/Facade/README.md)
+6. [Flyweight pattern](./Structural/Flyweight/README.md)
+7. [Proxy pattern](./Structural/Proxy/README.md)
 
 **Behavioral Patterns: These patterns are used to manage algorithms, communication, and the assignment of responsibilities between objects. Examples include:**
 
