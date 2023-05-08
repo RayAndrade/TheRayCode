@@ -1,22 +1,16 @@
-# TheRayCode is AWESOME!!!
-
-**Creational Patterns section**
-
-**[C++](../README.md)** 
+# [TheRayCode](../../README.md) is AWESOME!!!
 
 **[Creational Patterns](./README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
 **C++ Creational Patterns**
 
-**[Factory](./Factory/README.md)**
-
-**[AbstractFactory](./AbstractFactory/README.md)**
-
-**[Builder](./Builder/README.md)**
-
-**[Prototype](./Prototype/README.md)**
-
-**[Singleton](./Singleton/README.md)**
+| examples using C++ | | | |
+|----|---|---|---|
+|**[Factory](./Factory/README.md)** | [Java](../../Java/Creational/Factory/README.md) | [C#](../../Csharp/Creational/Factory/README.md) | [PHP](../../PHP/Creational/Factory/README.md) |
+|**[AbstractFactory](./AbstractFactory/README.md)** | [C++](../../CPP/Creational/AbstractFactory/README.md) | [C#](../../Csharp/Creational/AbstractFactory/README.md) | [PHP](../../PHP/Creational/AbstractFactory/README.md) |
+|**[Builder](./Builder/README.md)** | [Java](../../Java/Creational/Builder/README.md) | [C#](../../Csharp/Creational/Builder/README.md) | [PHP](../../PHP/Creational/Builder/README.md) |
+|**[Prototype](./Prototype/README.md)** | [Java](../../Java/Creational/Prototype/README.md) | [C#](../../Csharp/Creational/Prototype/README.md) | [PHP](../../PHP/Creational/Prototype/README.md) |
+|**[Singleton](./Singleton/README.md)** | [Java](../../Java/Creational/Singleton/README.md) | [C#](../../Csharp/Creational/Singleton/README.md) | [PHP](../../PHP/Creational/Singleton/README.md) |
 
 
 **Creational Design Patterns**
