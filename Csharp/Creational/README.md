@@ -12,7 +12,7 @@
 
 **[AbstractFactory](./AbstractFactory/README.md)** ( [C++](../../CPP/Creational/AbstractFactory/README.md) [Java](../../Java/Creational/AbstractFactory/README.md)  [PHP](../../PHP/Creational/AbstractFactory/README.md) )
 
-**[Builder](./Builder/README.md)** ( [C++](../../CPP/Creational/BuilderBuilderBuilder/README.md) [Java](../../Java/Creational/BuilderBuilder/README.md)  [PHP](../../PHP/Creational/Builder/README.md) )
+**[Builder](./Builder/README.md)** ( [C++](../../CPP/Creational/Builder/README.md) [Java](../../Java/Creational/Builder/README.md)  [PHP](../../PHP/Creational/Builder/README.md) )
 
 **[Prototype](./Prototype/README.md)** ( [C++](../../CPP/Creational/PrototypePrototypePrototype/README.md) [Java](../../Java/Creational/PrototypePrototype/README.md)  [PHP](../../PHP/Creational/Prototype/README.md) )
 
