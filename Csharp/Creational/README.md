@@ -7,7 +7,7 @@
 | examples using C# | | | |
 |----|---|---|---|
 |**[Factory](./Factory/README.md)** | [Java](../../Java/Creational/Factory/README.md) | [C++](../../CPP/Creational/Factory/README.md) | [PHP](../../PHP/Creational/Factory/README.md) |
-|**[AbstractFactory](./AbstractFactory/README.md)** | [C++](../../CPP/Creational/AbstractFactory/README.md) | [C++](../../CPP/Creational/AbstractFactory/README.md) | [PHP](../../PHP/Creational/AbstractFactory/README.md) |
+|**[AbstractFactory](./AbstractFactory/README.md)** | [Java](../../Java/Creational/AbstractFactory/README.md) | [C++](../../CPP/Creational/AbstractFactory/README.md) | [PHP](../../PHP/Creational/AbstractFactory/README.md) |
 |**[Builder](./Builder/README.md)** | [Java](../../Java/Creational/Builder/README.md) | [C++](../../CPP/Creational/Builder/README.md) | [PHP](../../PHP/Creational/Builder/README.md) |
 |**[Prototype](./Prototype/README.md)** | [Java](../../Java/Creational/Prototype/README.md) | [C++](../../CPP/Creational/Prototype/README.md) | [PHP](../../PHP/Creational/Prototype/README.md) |
 |**[Singleton](./Singleton/README.md)** | [Java](../../Java/Creational/Singleton/README.md) | [C++](../../CPP/Creational/Singleton/README.md) | [PHP](../../PHP/Creational/Singleton/README.md) |
