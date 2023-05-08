@@ -8,8 +8,7 @@
 
 **C# Creational Patterns**
 
-**[Factory](./Factory/README.md)** [C++](../../CPP/Creational/Factory/README.md) [Java](../Java/Factory/README.md) [PHP](../PHP/Factory/README.md)
-
+**[Factory](./Factory/README.md)** [C++](../../CPP/Creational/Factory/README.md) [Java](../../Java/Creational/Factory/README.md)  [PHP](../../PHP/Creational/Factory/README.md) 
 **[AbstractFactory](./AbstractFactory/README.md)**
 
 **[Builder](./Builder/README.md)**
