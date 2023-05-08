@@ -1,9 +1,5 @@
 # TheRayCode is AWESOME!!!
 
-**Creational Patterns section**
-
-**[Java](../README.md)** 
-
 **[Creational Patterns](./README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
 **Java Creational Patterns**
