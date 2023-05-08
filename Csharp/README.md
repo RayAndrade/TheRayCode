@@ -10,7 +10,7 @@
 
 The design patterns created by the Gang of Four (GoF) are a set of 23 design patterns that provide proven solutions to common programming problems. These patterns are divided into three categories: [Creational](./Creational/README.md), [Structural](./Structural/README.md), and [Behavioral](./Behavioral/README.md). Here are some examples of GoF design patterns and how they can be used in C#:
 
-    Factory Method Pattern: This pattern provides an interface for creating objects, but allows subclasses to decide which class to instantiate. In C#, the factory method pattern can be implemented using a virtual method in an abstract base class, which is implemented by the subclasses.
+[Factory](./Creational/Factory/README.md) Method Pattern: This pattern provides an interface for creating objects, but allows subclasses to decide which class to instantiate. In C#, the factory method pattern can be implemented using a virtual method in an abstract base class, which is implemented by the subclasses.
 
     Abstract Factory Pattern: This pattern provides an interface for creating families of related objects without specifying their concrete classes. In C#, this can be achieved using abstract base classes for the objects and a factory interface to create the objects.
 
