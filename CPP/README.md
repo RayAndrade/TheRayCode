@@ -1,5 +1,5 @@
 # [TheRayCode](../README.md) is AWESOME!!!
-**C++ section**  other languages: [C#](../Csarp/README.md) Java Php
+**C++ section**  other languages: [C#](../Csharp/README.md) Java Php
 
 **[Creational](./Creational/README.md)**
 
