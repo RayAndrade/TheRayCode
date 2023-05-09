@@ -6,7 +6,7 @@
 
 | examples using C++ | | | |
 |----|---|---|---|
-|**[ChainOfResponsibilityChainOfResponsibility](./ChainOfResponsibility/README.md)**  | [C#](../../Csharp/BehavioralBehavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../PHP/Behavioral/ChainOfResponsibility/README.md) |
+|**[ChainOfResponsibility](./ChainOfResponsibility/README.md)**  | [C#](../../Csharp/BehavioralBehavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../PHP/Behavioral/ChainOfResponsibility/README.md) |
 
 
 **[C++](../README.md)** 
