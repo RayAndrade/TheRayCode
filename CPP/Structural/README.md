@@ -1,4 +1,12 @@
-# TheRayCode is AWESOME!!!
+# [TheRayCode](../../README.md) is AWESOME!!!
+
+**[Creational Patterns](./README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
+
+**C++ Creational Patterns**
+
+| examples using C++ | | | |
+|----|---|---|---|
+|**[Factory](./Factory/README.md)**  | [C#](../../Csharp/Creational/Factory/README.md) | [Java](../../Java/Creational/Factory/README.md) | [PHP](../../PHP/Creational/Factory/README.md) |
 
 **Structural Patterns cection**
 
