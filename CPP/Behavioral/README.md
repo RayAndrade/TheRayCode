@@ -9,15 +9,12 @@
 |**[ChainOfResponsibility](./ChainOfResponsibility/README.md)**  | [C#](../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../PHP/Behavioral/ChainOfResponsibility/README.md) |
 |**[Iterator](./Iterator/README.md)**  | [C#](../../Csharp/Behavioral/Iterator/README.md) | [Java](../../Java/Behavioral/Iterator/README.md) | [PHP](../../PHP/Behavioral/Iterator/README.md) |
 |**[Mediator](./MediatorMediatorMediatorMediator/README.md)**  | [C#](../../Csharp/Behavioral/MediatorMediatorMediator/README.md) | [Java](../../Java/Behavioral/MediatorMediator/README.md) | [PHP](../../PHP/Behavioral/Mediator/README.md) |
-|**[ChainOfResponsibility](./ChainOfResponsibility/README.md)**  | [C#](../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../PHP/Behavioral/ChainOfResponsibility/README.md) |
-|**[ChainOfResponsibility](./ChainOfResponsibility/README.md)**  | [C#](../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../PHP/Behavioral/ChainOfResponsibility/README.md) |
-|**[ChainOfResponsibility](./ChainOfResponsibility/README.md)**  | [C#](../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../PHP/Behavioral/ChainOfResponsibility/README.md) |
-|**[ChainOfResponsibility](./ChainOfResponsibility/README.md)**  | [C#](../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../PHP/Behavioral/ChainOfResponsibility/README.md) |
-|**[ChainOfResponsibility](./ChainOfResponsibility/README.md)**  | [C#](../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../PHP/Behavioral/ChainOfResponsibility/README.md) |
-|**[ChainOfResponsibility](./ChainOfResponsibility/README.md)**  | [C#](../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../PHP/Behavioral/ChainOfResponsibility/README.md) |
-|**[ChainOfResponsibility](./ChainOfResponsibility/README.md)**  | [C#](../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../PHP/Behavioral/ChainOfResponsibility/README.md) |
-|**[ChainOfResponsibility](./ChainOfResponsibility/README.md)**  | [C#](../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../PHP/Behavioral/ChainOfResponsibility/README.md) |
-|**[ChainOfResponsibility](./ChainOfResponsibility/README.md)**  | [C#](../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../PHP/Behavioral/ChainOfResponsibility/README.md) |
+|**[MementoMemento](./Memento/README.md)**  | [C#](../../Csharp/Behavioral/Memento/README.md) | [Java](../../Java/Behavioral/Memento/README.md) | [PHP](../../PHP/Behavioral/Memento/README.md) |
+|**[Observer](./Observer/README.md)**  | [C#](../../Csharp/Behavioral/Observer/README.md) | [Java](../../Java/Behavioral/Observer/README.md) | [PHP](../../PHP/Behavioral/Observer/README.md) |
+|**[State](./State/README.md)**  | [C#](../../Csharp/Behavioral/State/README.md) | [Java](../../Java/Behavioral/State/README.md) | [PHP](../../PHP/Behavioral/State/README.md) |
+|**[Strategy](./Strategy/README.md)**  | [C#](../../Csharp/Behavioral/Strategy/README.md) | [Java](../../Java/Behavioral/Strategy/README.md) | [PHP](../../PHP/Behavioral/Strategy/README.md) |
+|**[Template](./Template/README.md)**  | [C#](../../Csharp/Behavioral/Template/README.md) | [Java](../../Java/Behavioral/Template/README.md) | [PHP](../../PHP/Behavioral/Template/README.md) |
+|**[Visitor](./ChainOfResponsibility/README.md)**  | [C#](../../Csharp/Behavioral/Visitor/README.md) | [Java](../../Java/Behavioral/Visitor/README.md) | [PHP](../../PHP/Behavioral/Visitor/README.md) |
 
 
 **[C++](../README.md)** 
