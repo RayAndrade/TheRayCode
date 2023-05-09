@@ -2,11 +2,11 @@
 
 **[Creational Patterns](./README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
-**C++ Creational Patterns**
+**C++ Structural Patterns**
 
 | examples using C++ | | | |
 |----|---|---|---|
-|**[Adapter](./Adapter/README.md)**  | [C#](../../Csharp/Creational/Factory/README.md) | [Java](../../Java/Creational/Factory/README.md) | [PHP](../../PHP/Creational/Factory/README.md) |
+|**[Adapter](./Adapter/README.md)**  | [C#](../../Csharp/Structural/Adapter/README.md) | [Java](../../Java/Structural/Adapter/README.md) | [PHP](../../PHP/Structural/Adapter/README.md) |
 
 **Structural Patterns cection**
 
