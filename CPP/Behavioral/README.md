@@ -7,9 +7,9 @@
 | examples using C++ | | | |
 |----|---|---|---|
 |**[ChainOfResponsibility](./ChainOfResponsibility/README.md)**  | [C#](../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../PHP/Behavioral/ChainOfResponsibility/README.md) |
+|**[Command](./Command/README.md)**  | [C#](../../Csharp/Behavioral/Command/README.md) | [Java](../../Java/Behavioral/Command/README.md) | [PHP](../../PHP/Behavioral/Command/README.md) |
 |**[Intepretor](./Iterator/README.md)**  | [C#](../../Csharp/Behavioral/Intepretor/README.md) | [Java](../../Java/Behavioral/Intepretor/README.md) | [PHP](../../PHP/Behavioral/Intepretor/README.md) |
 |**[Iterator](./Iterator/README.md)**  | [C#](../../Csharp/Behavioral/Iterator/README.md) | [Java](../../Java/Behavioral/Iterator/README.md) | [PHP](../../PHP/Behavioral/Iterator/README.md) |
-|**[Command](./Command/README.md)**  | [C#](../../Csharp/Behavioral/Command/README.md) | [Java](../../Java/Behavioral/Command/README.md) | [PHP](../../PHP/Behavioral/Command/README.md) |
 |**[Mediator](./Mediator/README.md)**  | [C#](../../Csharp/Behavioral/Mediator/README.md) | [Java](../../Java/Behavioral/Mediator/README.md) | [PHP](../../PHP/Behavioral/Mediator/README.md) |
 |**[Memento](./Memento/README.md)**  | [C#](../../Csharp/Behavioral/Memento/README.md) | [Java](../../Java/Behavioral/Memento/README.md) | [PHP](../../PHP/Behavioral/Memento/README.md) |
 |**[Observer](./Observer/README.md)**  | [C#](../../Csharp/Behavioral/Observer/README.md) | [Java](../../Java/Behavioral/Observer/README.md) | [PHP](../../PHP/Behavioral/Observer/README.md) |
