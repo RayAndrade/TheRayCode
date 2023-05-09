@@ -7,6 +7,14 @@
 | examples using C++ | | | |
 |----|---|---|---|
 |**[Adapter](./Adapter/README.md)**  | [C#](../../Csharp/Structural/Adapter/README.md) | [Java](../../Java/Structural/Adapter/README.md) | [PHP](../../PHP/Structural/Adapter/README.md) |
+|**[Adapter](./Adapter/README.md)**  | [C#](../../Csharp/Structural/Adapter/README.md) | [Java](../../Java/Structural/Adapter/README.md) | [PHP](../../PHP/Structural/Adapter/README.md) |
+|**[Adapter](./Adapter/README.md)**  | [C#](../../Csharp/Structural/Adapter/README.md) | [Java](../../Java/Structural/Adapter/README.md) | [PHP](../../PHP/Structural/Adapter/README.md) |
+|**[Adapter](./Adapter/README.md)**  | [C#](../../Csharp/Structural/Adapter/README.md) | [Java](../../Java/Structural/Adapter/README.md) | [PHP](../../PHP/Structural/Adapter/README.md) |
+|**[Adapter](./Adapter/README.md)**  | [C#](../../Csharp/Structural/Adapter/README.md) | [Java](../../Java/Structural/Adapter/README.md) | [PHP](../../PHP/Structural/Adapter/README.md) |
+|**[Adapter](./Adapter/README.md)**  | [C#](../../Csharp/Structural/Adapter/README.md) | [Java](../../Java/Structural/Adapter/README.md) | [PHP](../../PHP/Structural/Adapter/README.md) |
+|**[Adapter](./Adapter/README.md)**  | [C#](../../Csharp/Structural/Adapter/README.md) | [Java](../../Java/Structural/Adapter/README.md) | [PHP](../../PHP/Structural/Adapter/README.md) |
+|**[Adapter](./Adapter/README.md)**  | [C#](../../Csharp/Structural/Adapter/README.md) | [Java](../../Java/Structural/Adapter/README.md) | [PHP](../../PHP/Structural/Adapter/README.md) |
+|**[Adapter](./Adapter/README.md)**  | [C#](../../Csharp/Structural/Adapter/README.md) | [Java](../../Java/Structural/Adapter/README.md) | [PHP](../../PHP/Structural/Adapter/README.md) |
 
 **Structural Patterns cection**
 
