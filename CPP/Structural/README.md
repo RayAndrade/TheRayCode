@@ -6,7 +6,7 @@
 
 | examples using C++ | | | |
 |----|---|---|---|
-|**[Factory](./Factory/README.md)**  | [C#](../../Csharp/Creational/Factory/README.md) | [Java](../../Java/Creational/Factory/README.md) | [PHP](../../PHP/Creational/Factory/README.md) |
+|**[Adapter](./Adapter/README.md)**  | [C#](../../Csharp/Creational/Factory/README.md) | [Java](../../Java/Creational/Factory/README.md) | [PHP](../../PHP/Creational/Factory/README.md) |
 
 **Structural Patterns cection**
 
