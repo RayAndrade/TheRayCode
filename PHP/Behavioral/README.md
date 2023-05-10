@@ -6,7 +6,7 @@
 
 | examples using C++ | | | |
 |----|---|---|---|
-|**[ChainOfResponsibility](./ChainOfResponsibility/README.md)**  | [C#](../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | [C++](../../CPP/Behavioral/ChainOfResponsibility/README.md) |
+|**[ChainOfResponsibility](./ChainOfResponsibility/README.md)** | [C++](../../CPP/Behavioral/ChainOfResponsibility/README.md) | [C#](../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | 
 |**[Command](./Command/README.md)**  | [C#](../../Csharp/Behavioral/Command/README.md) | [Java](../../Java/Behavioral/Command/README.md) | [C++](../../CPP/Behavioral/Command/README.md) |
 |**[Intepretor](./Intepretor/README.md)**  | [C#](../../Csharp/Behavioral/Intepretor/README.md) | [Java](../../Java/Behavioral/Intepretor/README.md) | [C++](../../CPP/Behavioral/Intepretor/README.md) |
 |**[Iterator](./Iterator/README.md)**  | [C#](../../Csharp/Behavioral/Iterator/README.md) | [Java](../../Java/Behavioral/Iterator/README.md) | [C++](../../CPP/Behavioral/Iterator/README.md) |
