@@ -7,7 +7,7 @@
 | examples using C++ | | | |
 |----|---|---|---|
 |**[Adapter](./Adapter/README.md)** | [C++](../../CPP/Structural/Adapter/README.md) | [C#](../../Csharp/Structural/Adapter/README.md) | [Java](../../Java/Structural/Adapter/README.md) |
-|**[Bridge](./Bridge/README.md)**   |C++](../../CPP/Structural/Bridge/README.md) | [C#](../../Csharp/Structural/Bridge/README.md) | [Java](../../Java/Structural/Bridge/README.md) |
+|**[Bridge](./Bridge/README.md)** |[C++](../../CPP/Structural/Bridge/README.md) | [C#](../../Csharp/Structural/Bridge/README.md) | [Java](../../Java/Structural/Bridge/README.md) |
 |**[Command](./Command/README.md)**  | [C++](../../CPP/Structural/Command/README.md) | [C#](../../Csharp/Structural/Command/README.md) | [Java](../../Java/Structural/Command/README.md) |
 |**[Composite](./Composite/README.md)**  | [C++](../../CPP/Structural/Composite/README.md) | [C#](../../Csharp/Structural/Composite/README.md) | [Java](../../Java/Structural/Composite/README.md) |
 |**[Decorator](./Decorator/README.md)** | [C++](../../CPP/Structural/Decorator/README.md) | [C#](../../Csharp/Structural/Decorator/README.md) | [Java](../../Java/Structural/Decorator/README.md) |
