@@ -12,7 +12,7 @@
 |**[Iterator](./Iterator/README.md)** | [C++](../../CPP/Behavioral/Iterator/README.md) | [C#](../../Csharp/Behavioral/Iterator/README.md) | [Java](../../Java/Behavioral/Iterator/README.md) |
 |**[Mediator](./Mediator/README.md)** | [C++](../../CPP/Behavioral/Mediator/README.md) | [C#](../../Csharp/Behavioral/Mediator/README.md) | [Java](../../Java/Behavioral/Mediator/README.md) |
 |**[Memento](./Memento/README.md)** | [C++](../../CPP/Behavioral/Memento/README.md) | [C#](../../Csharp/Behavioral/Memento/README.md) | [Java](../../Java/Behavioral/Memento/README.md) |
-|**[Observer](./Observer/README.md)**  | [C#](../../Csharp/Behavioral/Observer/README.md) | [Java](../../Java/Behavioral/Observer/README.md) | [C++](../../CPP/Behavioral/Observer/README.md) |
+|**[Observer](./Observer/README.md)** | [C++](../../CPP/Behavioral/Observer/README.md) | [C#](../../Csharp/Behavioral/Observer/README.md) | [Java](../../Java/Behavioral/Observer/README.md) |
 |**[State](./State/README.md)**  | [C#](../../Csharp/Behavioral/State/README.md) | [Java](../../Java/Behavioral/State/README.md) | [C++](../../CPP/Behavioral/State/README.md) |
 |**[Strategy](./Strategy/README.md)**  | [C#](../../Csharp/Behavioral/Strategy/README.md) | [Java](../../Java/Behavioral/Strategy/README.md) | [C++](../../CPP/Behavioral/Strategy/README.md) |
 |**[Template](./Template/README.md)**  | [C#](../../Csharp/Behavioral/Template/README.md) | [Java](../../Java/Behavioral/Template/README.md) | [C++](../../CPP/Behavioral/Template/README.md) |
