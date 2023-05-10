@@ -18,6 +18,32 @@
 |**[Template](./Template/README.md)**  | [C++](../../CPP/Behavioral/Template/README.md) | [C#](../../Csharp/Behavioral/Template/README.md) | [Java](../../Java/Behavioral/Template/README.md) |
 |**[Visitor](./Visitor/README.md)** | [C++](../../CPP/Behavioral/Visitor/README.md) | [C#](../../Csharp/Behavioral/Visitor/README.md) | [Java](../../Java/Behavioral/Visitor/README.md) |
 
+
+Behavioral design patterns are design patterns that deal with communication between objects, encapsulating complex communication and control flows. They focus on how objects interact and communicate with each other to achieve specific behaviors and functionalities. As a senior PHP programmer, you should be familiar with the following behavioral design patterns:
+
+1. [Chain of Responsibility] Pattern: This pattern allows multiple objects to handle a request, without knowing which object will handle it. Each object in the chain has a chance to handle the request, and the request is passed along the chain until it is handled or until the end of the chain is reached.
+
+2. [Command] Pattern: This pattern encapsulates a request as an object, allowing you to parameterize clients with different requests, queue or log requests, and support undoable operations.
+
+3. [Interpreter] Pattern: This pattern provides a way to evaluate language grammar or expressions. It defines a representation for grammar rules along with an interpreter that uses the representation to interpret sentences in the language.
+
+4. [Iterator Pattern: This pattern provides a way to access the elements of an aggregate object sequentially, without exposing its underlying representation.
+
+5.[Mediator] Pattern: This pattern defines an object that encapsulates how a set of objects interact. It promotes loose coupling by keeping objects from referring to each other explicitly and allows for more flexibility in object communication.
+
+6. [Observer Pattern: This pattern defines a one-to-many dependency between objects, so that when one object changes state, all its dependents are notified and updated automatically.
+
+7. [State] Pattern: This pattern allows an object to alter its behavior when its internal state changes. It appears as if the object changed its class.
+
+8. [Strategy] Pattern: This pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. It allows you to change the behavior of an object at runtime.
+
+9. [Template] Method Pattern: This pattern defines the skeleton of an algorithm in a method, deferring some steps to subclasses. It allows subclasses to redefine certain steps of an algorithm without changing the algorithm's structure.
+
+10. [Visitor] Pattern: This pattern allows for a way to add new operations to existing classes without changing their structure. It separates the algorithm from the object structure, making it easier to modify the algorithms independently.
+
+Understanding these design patterns can help you write more flexible, reusable and maintainable code in PHP. You can start by studying each pattern in detail and understanding their purpose and implementation. Additionally, looking at open-source projects that make use of these design patterns can provide practical examples of how to implement these patterns in real-world scenarios.
+
+
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
