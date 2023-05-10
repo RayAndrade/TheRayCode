@@ -5,7 +5,7 @@
 
 int main() {
 
-    std::cout << "The ray Code is AWESOME!!!";
+    std::cout << "The Ray Code is AWESOME!!!";
 
     return 0;
 }
