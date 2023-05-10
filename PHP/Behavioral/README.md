@@ -2,9 +2,9 @@
 
 **[Creational Patterns](../Creational/README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
-**C++ Structural Patterns**
+**PHP Behavioral Patterns**
 
-| examples using C++ | | | |
+| examples using PHP | | | |
 |----|---|---|---|
 |**[ChainOfResponsibility](./ChainOfResponsibility/README.md)** | [C++](../../CPP/Behavioral/ChainOfResponsibility/README.md) | [C#](../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | 
 |**[Command](./Command/README.md)** | [C++](../../CPP/Behavioral/Command/README.md) | [C#](../../Csharp/Behavioral/Command/README.md) | [Java](../../Java/Behavioral/Command/README.md) |
