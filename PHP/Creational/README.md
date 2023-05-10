@@ -2,9 +2,9 @@
 
 **[Creational Patterns](./README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
-**C++ Creational Patterns**
+**PHP Creational Patterns**
 
-| examples using C++ | | | |
+| examples using PHP | | | |
 |----|---|---|---|
 |**[Factory](./Factory/README.md)** | [C++](../../CPP/Creational/Factory/README.md) | [C#](../../Csharp/Creational/Factory/README.md) | [Java](../../Java/Creational/Factory/README.md) | 
 |**[AbstractFactory](./AbstractFactory/README.md)** | [C++](../../CPP/Creational/AbstractFactory/README.md) | [C#](../../Csharp/Creational/AbstractFactory/README.md) | [Java](../../Java/Creational/AbstractFactory/README.md)|
