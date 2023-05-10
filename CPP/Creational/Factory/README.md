@@ -5,7 +5,7 @@
 [Sample Code/(../Factory/README.md)
 
 image
-![C# Factory](../Creational/Factory/splash-100.png)
+![C# Factory](./splash-100.png)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
