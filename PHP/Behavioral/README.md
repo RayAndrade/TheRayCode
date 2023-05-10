@@ -15,8 +15,8 @@
 |**[Observer](./Observer/README.md)** | [C++](../../CPP/Behavioral/Observer/README.md) | [C#](../../Csharp/Behavioral/Observer/README.md) | [Java](../../Java/Behavioral/Observer/README.md) |
 |**[State](./State/README.md)** | [C++](../../CPP/Behavioral/State/README.md) | [C#](../../Csharp/Behavioral/State/README.md) | [Java](../../Java/Behavioral/State/README.md) | 
 |**[Strategy](./Strategy/README.md)** | [C++](../../CPP/Behavioral/Strategy/README.md) | [C#](../../Csharp/Behavioral/Strategy/README.md) | [Java](../../Java/Behavioral/Strategy/README.md) |
-|**[Template](./Template/README.md)**  | [C#](../../Csharp/Behavioral/Template/README.md) | [Java](../../Java/Behavioral/Template/README.md) | [C++](../../CPP/Behavioral/Template/README.md) |
-|**[Visitor](./Visitor/README.md)**  | [C#](../../Csharp/Behavioral/Visitor/README.md) | [Java](../../Java/Behavioral/Visitor/README.md) | [C++](../../CPP/Behavioral/Visitor/README.md) |
+|**[Template](./Template/README.md)**  | [C++](../../CPP/Behavioral/Template/README.md) | [C#](../../Csharp/Behavioral/Template/README.md) | [Java](../../Java/Behavioral/Template/README.md) |
+|**[Visitor](./Visitor/README.md)** | [C++](../../CPP/Behavioral/Visitor/README.md) | [C#](../../Csharp/Behavioral/Visitor/README.md) | [Java](../../Java/Behavioral/Visitor/README.md) |
 
 **Behavoiral Patterns sectiion**
 
