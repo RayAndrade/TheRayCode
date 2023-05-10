@@ -2,7 +2,7 @@
 
 **[C++](../README.md)**
 
-[Sample Code/(./Factory/README.md)
+[Sample Code/](./Factory/README.md)
 
 image
 ![C# Factory](./splash-100.png)
