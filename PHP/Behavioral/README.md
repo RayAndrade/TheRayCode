@@ -29,7 +29,7 @@ Behavioral design patterns are design patterns that deal with communication betw
 
 4. [Iterator](./Iterator/README.md) Pattern: This pattern provides a way to access the elements of an aggregate object sequentially, without exposing its underlying representation.
 
-5.[Mediator](./Mediator/README.md) Pattern: This pattern defines an object that encapsulates how a set of objects interact. It promotes loose coupling by keeping objects from referring to each other explicitly and allows for more flexibility in object communication.
+5. [Mediator](./Mediator/README.md) Pattern: This pattern defines an object that encapsulates how a set of objects interact. It promotes loose coupling by keeping objects from referring to each other explicitly and allows for more flexibility in object communication.
 
 6. [Observer](./Observer/README.md) Pattern: This pattern defines a one-to-many dependency between objects, so that when one object changes state, all its dependents are notified and updated automatically.
 
