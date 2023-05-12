@@ -8,6 +8,14 @@ In each one of our toys we will need to use the **iostream** so we may use the s
 we can include the **iostream** and it will included in each our classes and this interface in each.
 
 We will have both the name and the price be protected varables, and some methods that will be required for each class.
+
+New header 
+```
+Toy
+```
+
+
+
 ```cpp
 #include <iostream>
 
