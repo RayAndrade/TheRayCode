@@ -7,6 +7,10 @@ Now Let's create an interface for are to to allow them be of the same class, **S
 SantasBag
 ```
 
+```
+class SantasBag {  };
+```
+
 
 ```
 #include "Plane.h"
