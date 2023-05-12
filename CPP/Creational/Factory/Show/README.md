@@ -9,13 +9,6 @@ we can include the **iostream** and it will included in each our classes and thi
 
 We will have both the name and the price be protected varables, and some methods that will be required for each class.
 
-New header 
-```
-Toy
-```
-
-
-
 ```cpp
 #include <iostream>
 
