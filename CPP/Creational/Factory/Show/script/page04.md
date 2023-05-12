@@ -7,7 +7,7 @@ Car
 ```
 
 ```
-class Car { };
+class Car {  };
 ```
 
 

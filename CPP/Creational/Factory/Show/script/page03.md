@@ -16,7 +16,9 @@ class  Bike {  };
 ```cpp
 #include "Toy.h"
 ```
+
 now we can extend this class with the toy interface and the requaired methods
+
 ```cpp
  : public Toy
 ```
