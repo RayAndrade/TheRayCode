@@ -11,6 +11,10 @@ ToyFactory
 #include "SantasBag.h"
 ```
 
+```
+class ToyFactory {  };
+```
+
 and here is the code for the **ToyFactory**
 
 ```
