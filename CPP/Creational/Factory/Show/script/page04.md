@@ -6,6 +6,10 @@ Now let's create a class for **Car**. It too is extended with the **Toy** interf
 Car
 ```
 
+```
+class Car { };
+```
+
 
 ```
 : public Toy
