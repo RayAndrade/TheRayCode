@@ -7,6 +7,10 @@ Plane
 ```
 
 ```
+class Plane {  };
+```
+
+```
 : public Toy
 ```
 
