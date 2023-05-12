@@ -4,34 +4,8 @@ It allows the subclasses to alter the type of classes objets that will be create
 Let's start coding:
 
 ```
-Toy
-```
-
-
-```
-#include <iostream>
-```
-
-
-```
-protected:
-    std::string name;
-    float price;
-```
-
-
-```
-public:
-    virtual void prepareParts()  = 0;
-    virtual void combineParts()  = 0;
-    virtual void assembleParts() = 0;
-    virtual void applyLabel()    = 0;
-    virtual void showProduct()   = 0;
-```
-
-
-
-
+std::cout << "The Ray Code is AWESOME!!!";
+``
 
 
 [page 02](./page02.md)
