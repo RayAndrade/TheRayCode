@@ -28,7 +28,7 @@ add **iostream**
 Add class
 
 ```
-class Toy {  }
+class Toy {  };
 ```
 
 add protected varables
