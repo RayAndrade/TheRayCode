@@ -18,6 +18,12 @@ We will include the *iostream* here in this interface (or class) and each or our
 #include <iostream>
 ```
 
+```
+class Toy{  };
+```
+
+
+
 we will have both the name and the price be protected varables:
 ```cpp
   protected:
