@@ -5,31 +5,29 @@ If zero is chosen the routine is exited.
 
 Let's put this together in the nain method.
 
-```cpp
-  #include "ToyFactory.h"
-
-int main() {
-// client code starts
-
-    int type;
-    while(1){
-        std::cout << "1 Car, 2 Bike, 3 Plane Enter type or Zero for exit" << std::endl;
-        std::cin >> type;
-        if(!type)
-            break;
-        Toy *v = ToyFactory::createToy(type);
-        if(v){
-            v->showProduct();
-            delete v;
-        }
-    }
-    std::cout << "Exit...";
-
-
-//Client code ends
-    return 0;
-}
 ```
+#include "ToyFactory.h"
+```
+
+```
+int type;
+while(1){
+    std::cout << "1 Car, 2 Bike, 3 Plane Enter type or Zero for exit" << std::endl;
+    std::cin >> type;
+    if(!type)
+        break;
+    Toy *v = ToyFactory::createToy(type);
+    if(v){
+        v->showProduct();
+        delete v;
+    }
+}
+std::cout << "Exit...";
+
+return 0;
+```
+
+
 [page9](./page09.md)
 
 [home](./page01.md)

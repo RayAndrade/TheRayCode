@@ -3,4 +3,4 @@ project(Factory)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Factory main.cpp Toy.h Bike.h Car.h Plane.h SantasBag.h ToyFactory.h)
+add_executable(Factory main.cpp)
