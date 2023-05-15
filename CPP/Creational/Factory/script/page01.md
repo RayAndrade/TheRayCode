@@ -14,8 +14,9 @@ class Shape {  };
 
 Require the following methods
 ```
-virtual void draw() = 0; // Pure virtual function makes this an abstract base class
-virtual ~Shape() {}
+public:
+    virtual void draw() = 0; // Pure virtual function makes this an abstract base class
+    virtual ~Shape() {}
 ```
 
 [page 02](./page02.md)
