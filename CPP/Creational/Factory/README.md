@@ -15,11 +15,7 @@ The main goal of the Factory pattern is to encapsulate object creation logic and
 
 In practice, factories can be more complex, and there are variations such as abstract factories and parameterized factories.
 
-
 [Sample Code/](./Show/README.md)
-
-image
-![C# Factory](./splash-100.png)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
