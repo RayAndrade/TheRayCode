@@ -1,24 +1,26 @@
+[home](./page01.md)
+
 [back](./page05.md)
 
-
-Now Let's create an interface for are to to allow them be of the same class, **SantasBag**.
-
 ```
-SantasBag
+#include "ShapeFactory.h"
+#include <memory>
 ```
 
-```
-class SantasBag {  };
-```
-
+main function (main.cpp): This is where the Factory pattern is demonstrated. An object of ShapeFactory is created, and then different types of Shape objects are created using the getShape() method of the ShapeFactory. The draw() method of each Shape object is then called. The use of std::unique_ptr is to ensure that the dynamically allocated memory (from the new keyword in the getShape() method) is automatically deallocated when the pointer goes out of scope, to prevent memory leaks.
 
 ```
-#include "Plane.h"
-#include "Bike.h"
-#include "Car.h"
-```
+ ShapeFactory factory;
 
-Here we also group the toys under the **same interface** and become of the **same type**.
+std::unique_ptr<Shape> shape1(factory.getShape("CIRCLE"));
+if (shape1) shape1->draw();
+
+std::unique_ptr<Shape> shape2(factory.getShape("SQUARE"));
+if (shape2) shape2->draw();
+
+std::unique_ptr<Shape> shape3(factory.getShape("RECTANGLE"));
+if (shape3) shape3->draw();
+```
 
 [page7](./page07.md)
 

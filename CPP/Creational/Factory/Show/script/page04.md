@@ -1,31 +1,36 @@
+[home](./page01.md)
+
 [back](./page03.md)
 
-Now let's create a class for **Car**. It too is extended with the **Toy** interface.
 
 ```
-Car
+Rectangle
+```
+
+Rectangle (Rectangle.h): This is a concrete class derived from the Shape abstract base class. It implements the draw() method in a way that is unique to the Rectangle class.
+
+I am going to need **iostream**
+
+```
+#include "Shape.h"
+#include <iostream>
 ```
 
 ```
-class Car {  };
-```
-
-
-```
-: public Toy
+class Rectangle {   };
 ```
 
 ```
-void prepareParts() { std::cout<< "Preparing Car Parts" <<std::endl; };
-void combineParts() { std::cout<< "combining Car Parts" <<std::endl; };
-void assembleParts() { std::cout<< "Assembling Car Parts" <<std::endl; };
-void applyLabel()  { std::cout<< "Preparing Car Label " <<std::endl; name = "Applying Car Label"; price = 10; };
-void showProduct() { std::cout<< "Preparing Car Parts" <<std::endl; };
+: public Shape
 ```
 
+```
+public:
+    void draw() override {
+        std::cout << "Drawing Rectangle." << std::endl;
+    }
+```
 
-
-As you can see all the required methods.
 
 [to slide 5](./page05.md)
 
