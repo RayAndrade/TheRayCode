@@ -9,7 +9,7 @@ Circle
 Circle (Circle.h): This is a concrete class that is derived from the Shape abstract base class. It provides a specific implementation of the draw() method, which is unique to the Circle class
 
 ```
-Circle {  };
+class Circle {  };
 ```
 
 ```
