@@ -1,18 +1,17 @@
 <?php
 namespace TheRayCode\Factory;
+include('Vehicle.php');
+include('Car.php');
+include('Motorcycle.php');
+include('Bicycle.php');
+include('VehicleFactory.php');
 
-require_once 'ProductInterface.php';
-require_once 'Shirt.php';
-require_once 'Pants.php';
-require_once 'ProductFactory.php';
+$vehicleFactory = new VehicleFactory();
+$car = $vehicleFactory->createVehicle('car');
+$motorcycle = $vehicleFactory->createVehicle('motorcycle');
+$bicycle = $vehicleFactory->createVehicle('bicycle');
 
-
-// Create a shirt and print its name and price
-$shirt = ProductFactory::createProduct('shirt');
-echo 'Product: ' . $shirt->getName() . ', Price: $' . number_format($shirt->getPrice(), 2) . '<br>';
-
-// Create pants and print their name and price
-$pants = ProductFactory::createProduct('pants');
-echo 'Product: ' . $pants->getName() . ', Price: $' . number_format($pants->getPrice(), 2) . '<br>';
-
+$car->drive();          // Output: Driving a car...
+$motorcycle->drive();   // Output: Riding a motorcycle...
+$bicycle->drive();      // Output: Riding a bicycle...
 echo "The Ray Code is AWESOME!!!";
