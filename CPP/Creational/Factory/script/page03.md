@@ -1,38 +1,32 @@
+[home](./page01.md)
+
 [back](./page02.md)
 
-Now let create some toys
-Now let's create our first toy the **Bike**. We include the Toy interface 
-
 ```
-Bike 
+Square
 ```
 
+Square (Square.h): This is another concrete class that is derived from the Shape abstract base class. It provides a unique implementation of the draw() method, specific to the Square class.
 
 ```
-class  Bike {  };
-```
-
-
-```cpp
-#include "Toy.h"
-```
-
-now we can extend this class with the toy interface and the requaired methods
-
-```cpp
- : public Toy
+#include "Shape.h"
+#include <iostream>
 ```
 
 ```
-void prepareParts() { std::cout<< "Preparing Bike Parts" <<std::endl; };
-void combineParts() { std::cout<< "combining Bike Parts" <<std::endl; };
-void assembleParts() { std::cout<< "Assembling Bike Parts" <<std::endl; };
-void applyLabel()  { std::cout<< "Preparing Bike Label " <<std::endl; name = "Applying Bike Label"; price = 10; };
-void showProduct() { std::cout<< "Preparing Bike Parts" <<std::endl; };
+class Square {  };
 ```
 
+```
+: public Shape
+```
 
-Our required methods are: **prepareParts**, **combineParts**, **assembleParts**, ***applyLabel**,  and **showProduct**.
+```
+public:
+    void draw() override {
+        std::cout << "Drawing Square." << std::endl;
+    }
+```
 
 
 [to slide 4](./page04.md)
