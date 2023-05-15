@@ -4,11 +4,9 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**C++ Creational Patterns**
-
 **C++ Abstract Factory Design Pattern**
 
- [Show](./Show/README.md)
+[Show](./Show/README.md)
 
 [Example 1](./AF1/)
  
