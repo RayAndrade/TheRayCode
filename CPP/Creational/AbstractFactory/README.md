@@ -8,10 +8,6 @@
 
 [Show](./Show/README.md)
 
-[Example 1](./AF1/)
- 
- [Example 2](./AF2/)
-
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
