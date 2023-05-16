@@ -2,7 +2,7 @@
 
 
 
-1. #UIFactory# (in `UIFactory.h`): This is the abstract factory class that declares the creation methods that all concrete factories must implement. It declares methods to create a `Button` and a `Scrollbar`. These methods return pointers to the abstract base classes, which allows the concrete factory to return concrete products.
+1. **UIFactory** (in `UIFactory.h`): This is the abstract factory class that declares the creation methods that all concrete factories must implement. It declares methods to create a `Button` and a `Scrollbar`. These methods return pointers to the abstract base classes, which allows the concrete factory to return concrete products.
 
     - `createButton()`: Abstract method that should create and return a `Button` object when implemented.
     - `createScrollbar()`: Abstract method that should create and return a `Scrollbar` object when implemented.
