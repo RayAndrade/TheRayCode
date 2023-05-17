@@ -9,7 +9,7 @@ Singleton
 ```
 
 ```
-Singleton {  };
+class Singleton {  };
 ```
 
 ```
