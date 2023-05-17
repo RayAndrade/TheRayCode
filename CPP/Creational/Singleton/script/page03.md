@@ -2,8 +2,27 @@
 
 [back](./page02.md)
 
+**Demo.cpp**
 
-page03
+```
+#include <iostream>
+#include "Singleton.h"
+```
+
+```
+int main() {  }
+```
+
+```
+Singleton* s = Singleton::getInstance();
+Singleton* r = Singleton::getInstance();
+
+std::cout << s << std::endl;
+std::cout << r << std::endl;
+
+return 0;
+```
+
 
 
 [page 4](./page04.md)
