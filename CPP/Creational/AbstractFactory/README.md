@@ -6,15 +6,8 @@
 
 **C++ Abstract Factory Design Pattern**
 
-<<<<<<< HEAD
 [Show](./Show/README.md)
-=======
 
-
-
- [Show](./Show/README.md)
-
->>>>>>> b93ac32c (*)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
