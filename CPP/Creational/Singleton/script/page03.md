@@ -19,8 +19,6 @@ Singleton* r = Singleton::getInstance();
 
 std::cout << s << std::endl;
 std::cout << r << std::endl;
-
-return 0;
 ```
 
 
