@@ -1,10 +1,10 @@
-[home](./page01.md)
+//
+// Created by ray on 5/18/23.
+//
+#include "UIFactory.h"
+#include "MacButton.h"
+#include "MacScrollbar.h"
 
-[back](./page11.md)
-
-Create **MacUIFactory**
-
-```
 class MacUIFactory : public UIFactory{
 public:
     Button* createButton() override {
@@ -15,6 +15,3 @@ public:
         return new MacScrollbar();
     }
 };
-```
-
-[page 13](./page13.md)
