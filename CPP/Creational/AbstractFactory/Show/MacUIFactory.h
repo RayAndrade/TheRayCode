@@ -1,5 +1,5 @@
 //
-// Created by ray on 5/15/23.
+// Created by ray on 5/17/23.
 //
 
 #ifndef SHOW_MACUIFACTORY_H
@@ -9,16 +9,6 @@
 #include "MacButton.h"
 #include "MacScrollbar.h"
 
-
-class MacUIFactory : public UIFactory {
-public:
-    Button* createButton() override {
-        return new MacButton();
-    }
-
-    Scrollbar* createScrollbar() override {
-        return new MacScrollbar();
-    }
-};
+class MacUIFactory {  };
 
 #endif //SHOW_MACUIFACTORY_H

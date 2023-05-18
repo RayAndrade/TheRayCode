@@ -1,5 +1,5 @@
 //
-// Created by ray on 5/15/23.
+// Created by ray on 5/17/23.
 //
 
 #ifndef SHOW_WINDOWSUIFACTORY_H
@@ -9,7 +9,7 @@
 #include "WindowsButton.h"
 #include "WindowsScrollbar.h"
 
-class WindowsUIFactory : public UIFactory {
+class WindowsUIFactory : public UIFactory{
 public:
     Button* createButton() override {
         return new WindowsButton();

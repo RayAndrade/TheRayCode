@@ -1,5 +1,5 @@
 //
-// Created by ray on 5/15/23.
+// Created by ray on 5/17/23.
 //
 
 #ifndef SHOW_BUTTON_H
@@ -9,6 +9,5 @@ class Button {
 public:
     virtual void click() = 0;
 };
-
 
 #endif //SHOW_BUTTON_H

@@ -1,5 +1,5 @@
 //
-// Created by ray on 5/15/23.
+// Created by ray on 5/17/23.
 //
 
 #ifndef SHOW_WINDOWSBUTTON_H
@@ -7,10 +7,10 @@
 
 #include "Button.h"
 
-class WindowsButton : public Button {
+class WindowsButton : public Button{
 public:
     void click() override {
-        std::cout << "WindowsButton click." << std::endl;
+        // implement windows button click
     }
 };
 
