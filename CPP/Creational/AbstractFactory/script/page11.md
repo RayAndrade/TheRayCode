@@ -15,6 +15,7 @@ class MacScrollbar {  };
 ```
 
 ```
+#include <iostream>
 #include "Scrollbar.h"
 ```
 
