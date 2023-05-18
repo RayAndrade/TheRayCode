@@ -5,6 +5,11 @@
 Let's start with the base class **UIFactory**. We'll place it in **UIFactory.h**:
 
 ```
+UIFactory
+```
+
+
+```
 class UIFactory {  };
 ```
 
