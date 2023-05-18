@@ -16,6 +16,7 @@ class WindowsScrollbar {  };
 ```
 
 ```
+#include <iostream>
 #include "Scrollbar.h"
 ```
 
