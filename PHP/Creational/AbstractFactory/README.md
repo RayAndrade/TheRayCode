@@ -22,15 +22,4 @@
 [RayAndrade.COM](https://www.RayAndrade.com)
 
 
-
-Php
-
-[The Abstract Factory Pattern in PHP](https://youtu.be/C4b_ywzA7Qg) (life michael)
-
-[Abstract Factory Design Pattern | Implementation and Disadvantages | Clean Code Series](https://youtu.be/C4b_ywzA7Qg) (Tech Primers)
-
-[The Abstract Factory Pattern in PHP](https://youtu.be/S2u-pzhJmOw) (Suresh Srivastava)
-
-[The Abstract Factory Pattern in PHP](https://youtu.be/S2u-pzhJmOw) (Suresh Srivastava)
-
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
