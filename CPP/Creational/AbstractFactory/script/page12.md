@@ -5,6 +5,11 @@
 Create **MacUIFactory**
 
 ```
+: public UIFactory
+```
+
+
+```
 public:
 Button* createButton() override {
     return new MacButton();
