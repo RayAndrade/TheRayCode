@@ -17,7 +17,7 @@ class WindowsButton {  };
 ```
 public:
     void click() override {
-        // implement windows button click
+        std::cout << "WindowsButton scroll." << std::endl;
     }
 ```
 
