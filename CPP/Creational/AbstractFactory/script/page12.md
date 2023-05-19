@@ -4,6 +4,15 @@
 
 Create **MacUIFactory**
 
+
+```
+MacUIFactory
+```
+
+```
+class MacUIFactory {  };
+```
+
 ```
 : public UIFactory
 ```
