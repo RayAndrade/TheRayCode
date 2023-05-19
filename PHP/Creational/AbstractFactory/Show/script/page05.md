@@ -1,21 +1,39 @@
+[home](./page01.md)
+
 [back](./page04.md)
+ 
+ So now let's create a factory for the Cat object
+ 
+ 
+**CatFactory**
+ 
+ implements: **AbstractPetFactory**
+ 
+```
+public function createCat(): Cat {  }
+```
 
-
-Now let's create a Bicycle class
-
-again we implment Vehicle
-
-
-we incllude the Vehicle interface file
+and
 
 ```
-include_once('Vehicle.php');
+public function createDog(): Dog {  }
 ```
 
-for the drive method we add the following code
+for creating Cat objects
 
+```php
+return new class implements Cat {
+    public function meow(): string {
+        return 'Meow! I am a Persian cat.';
+    }
+};
 ```
-echo "Riding a motorcycle...<br/>";
+
+and for dog we disalow that
+
+```php
+throw new Exception('Cannot create dogs from a cat factory');
 ```
+
 
 [page 6](./page06.md)

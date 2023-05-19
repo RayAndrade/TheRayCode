@@ -1,20 +1,29 @@
+[home](./page01.md)
+
 [back](./page03.md)
 
-We now add a Motorcycle class
-
-and it too Implements the Vehiclce interface
-
-we incllude the Vehicle interface file
+Now let's create an Abstract Factory that will be a Factory of these factory
 
 ```
-include_once('Vehicle.php');
+AbstractPetFactory
+```
+
+Namespace: **TheRayCode\AbstractFactory**
+
+Directory: ../Show
+
+
+Temlpet interface
+
+[Ok]
+
+
+```
+public function createCat(): Cat;
+public function createDog(): Dog;
 ```
 
 
-and we add the following code to the method drive
 
-```
-echo "Riding a motorcycle...<br/>";
-```
 
 [page 5](./page05.md)

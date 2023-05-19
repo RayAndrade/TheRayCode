@@ -1,25 +1,27 @@
+[home](./page01.md)
+
 [back](./page02.md)
 
-Let's create a Car Class.
+
+create an interface for the Dog object
 
 ```
-Car
+Dog
 ```
 
-first we incllude the Vehicle interface file
+Namespace: **TheRayCode\AbstractFactory**
+
+Directory: ../Show
+
+
+Temlpet interface
+
+[Ok]
+
 
 ```
-include_once('Vehicle.php');
+public function bark(): string;
 ```
-
-Our ckass implements the Vehicle inerface
-
-in the drive method we add the following code:
-
-```php
-echo "Driving a car...<br/>";
-```
-
 
 
 [page 4](./page04.md)

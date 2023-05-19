@@ -1,17 +1,25 @@
+[home](./page01.md)
+
 [back](./page01.md)
 
-
-so we start with the interface
-
-```
-Vehicle
-```
-
-and it have the following method requirment
+create an interface for the Cat object
 
 ```
-public function drive();
+Cat
 ```
 
+Namespace: **TheRayCode\AbstractFactory**
+
+Directory: ../Show
+
+
+Temlpet interface
+
+[Ok]
+
+
+```
+public function meow(): string;
+```
 
 [page 3](./page03.md)
