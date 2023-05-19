@@ -5,16 +5,13 @@
 Create **MacUIFactory**
 
 ```
-class MacUIFactory : public UIFactory{
 public:
-    Button* createButton() override {
-        return new MacButton();
-    }
-
-    Scrollbar* createScrollbar() override {
-        return new MacScrollbar();
-    }
-};
+Button* createButton() override {
+    return new MacButton();
+}
+ Scrollbar* createScrollbar() override {
+    return new MacScrollbar();
+}
 ```
 
 [page 13](./page13.md)
