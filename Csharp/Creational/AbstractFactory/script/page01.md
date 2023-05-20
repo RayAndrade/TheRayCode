@@ -5,9 +5,6 @@ Create **interface**
 IFactory
 ```
 
-```
-public interface IFactory {  }
-```
 
 ```
 FactoryDataItem GetData(int type);
