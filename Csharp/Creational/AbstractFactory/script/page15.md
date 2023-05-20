@@ -1,7 +1,7 @@
 [home](./page01.md)
 
 [back](./page14.md)
-
+```
 public class FactoryDataItem
     {
         public FactoryDataItem(object dataItem)
@@ -14,5 +14,7 @@ public class FactoryDataItem
             get { return _dataItem; }
         }
     }
+```
+
 
 [page 16](./page16.md)
