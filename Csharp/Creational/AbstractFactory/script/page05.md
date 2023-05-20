@@ -18,4 +18,9 @@ public void GetInfo()
     Console.WriteLine("This is a circle.");
 }
 ```
+
+```
+using System;
+```
+
 [page 6](./page06.md)
