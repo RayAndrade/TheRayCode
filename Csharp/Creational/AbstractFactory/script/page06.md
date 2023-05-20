@@ -2,6 +2,20 @@
 
 [back](./page05.md)
 
-page06
+```
+Square
+```
+
+```
+class Square {  }
+```
+
+```
+public void GetInfo() {  }
+```
+
+```
+Console.WriteLine("This is a square.");
+```
 
 [page 7](./page07.md)

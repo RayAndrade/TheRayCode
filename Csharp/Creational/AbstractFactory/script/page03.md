@@ -3,10 +3,22 @@
 [back](./page02.md)
 
 
+ceate a enum
+
+```
+AbstractFactory
 ```
 
 
-page03
+```
+enum ShapeType
+{
+    Circle = 1,
+    Square = 2,
+    Rectangle = 3
+}
+```
+
 
 
 [page 4](./page04.md)

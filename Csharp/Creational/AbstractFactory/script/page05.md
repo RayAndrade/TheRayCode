@@ -2,6 +2,18 @@
 
 [back](./page04.md)
 
-page05
+```
+Circle
+```
 
+```
+class Circle {   }
+```
+
+```
+public void GetInfo()
+{
+    Console.WriteLine("This is a circle.");
+}
+```
 [page 6](./page06.md)

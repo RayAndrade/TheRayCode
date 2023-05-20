@@ -1,6 +1,6 @@
 [home](./page01.md)
 
-Create interface
+Create **interface**
 ```
 IFactory
 ```

@@ -2,6 +2,21 @@
 
 [back](./page06.md)
 
-page07
+```
+Rectangle
+```
+
+```
+class Rectangle {  }
+```
+
+```
+public void GetInfo() {  }
+```
+
+```
+Console.WriteLine("This is a rectangle.");
+```
+
 
 [page 8](./page08.md)

@@ -2,6 +2,18 @@
 
 [back](./page03.md)
 
-page04
+create a enum
 
+```
+ColorType
+```
+
+```
+public enum ColorType
+{
+    Red = 1,
+    Green = 2,
+    Blue = 3
+}
+```
 [page 5](./page05.md)
