@@ -2,20 +2,30 @@
 
 [back](./page10.md)
 
+factory of factiries
+
 ```
-Red
+FactoryDataItem
+```
+
+remove public
+
+```
+class FactoryDataItem {   }
 ```
 
 ```
-class Red {  }
-```
-
-
-```
-public void GetInfo()
+public FactoryDataItem(object dataItem)
 {
-    Console.WriteLine("This is the red color.");
+    _dataItem = dataItem;
+}
+private object _dataItem;
+public object DataItem
+{
+    get { return _dataItem; }
 }
 ```
+
+
 
 [page 12](./page12.md)

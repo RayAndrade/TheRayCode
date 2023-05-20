@@ -1,0 +1,6 @@
+/home/ray/TheRayCode/TheRayCode/Csharp/Creational/AbstractFactory/Demo/Demo/bin/Debug/Demo.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Creational/AbstractFactory/Demo/Demo/bin/Debug/Demo.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Creational/AbstractFactory/Demo/Demo/obj/Debug/Demo.csproj.AssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Creational/AbstractFactory/Demo/Demo/obj/Debug/Demo.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Creational/AbstractFactory/Demo/Demo/obj/Debug/Demo.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Creational/AbstractFactory/Demo/Demo/obj/Debug/Demo.pdb

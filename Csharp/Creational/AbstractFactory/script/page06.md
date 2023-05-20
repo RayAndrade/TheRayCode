@@ -3,19 +3,24 @@
 [back](./page05.md)
 
 ```
-Square
+Green
+```
+remove **public**
+
+```
+class Green {   }
 ```
 
 ```
-class Square {  }
+public void GetInfo()
+{
+    Console.WriteLine("This is the green color.");
+}
 ```
 
 ```
-public void GetInfo() {  }
+using System;
 ```
 
-```
-Console.WriteLine("This is a square.");
-```
 
 [page 7](./page07.md)

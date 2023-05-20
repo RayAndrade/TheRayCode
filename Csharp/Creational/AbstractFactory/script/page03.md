@@ -3,22 +3,25 @@
 [back](./page02.md)
 
 
-ceate a enum
-
-```
-AbstractFactory
-```
+Back at the **ColorFactory**
 
 
 ```
-enum ShapeType {  }
+FactoryDataItem factoryDataItem = null;
+switch ((ColorType)type)
+{
+   case ColorType.Red:
+       factoryDataItem = new FactoryDataItem(new Red());
+       break;
+   case ColorType.Blue:
+       factoryDataItem = new FactoryDataItem(new Blue());
+       break;
+   case ColorType.Green:
+       factoryDataItem = new FactoryDataItem(new Green());
+       break;
+}
+            
+return factoryDataItem;
 ```
-
-```
-Circle = 1,
-Square = 2,
-Rectangle = 3
-```
-
 
 [page 4](./page04.md)

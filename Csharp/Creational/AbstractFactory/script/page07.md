@@ -3,20 +3,42 @@
 [back](./page06.md)
 
 ```
-Rectangle
+ShapeFactory
+```
+
+remove public
+
+```
+class ShapeFactory {   }
+```
+
+
+```
+: AbstractFactory
 ```
 
 ```
-class Rectangle {  }
+public override FactoryDataItem GetData(int type)
+{
+     FactoryDataItem factoryDataItem = null;
+     switch ((ShapeType)type)
+     {
+        case ShapeType.Circle:
+            factoryDataItem = new FactoryDataItem(new Circle());
+            break;
+        case ShapeType.Square:
+            factoryDataItem = new FactoryDataItem(new Square());
+            break;
+        case ShapeType.Rectangle:
+            factoryDataItem = new FactoryDataItem(new Rectangle());
+            break;
+     }
+            
+    return factoryDataItem;
+}
 ```
 
-```
-public void GetInfo() {  }
-```
 
-```
-Console.WriteLine("This is a rectangle.");
-```
 
 
 [page 8](./page08.md)

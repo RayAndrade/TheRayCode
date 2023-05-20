@@ -2,23 +2,28 @@
 
 [back](./page01.md)
 
-Create abstract class
-
 ```
-AbstractFactory
+FactoryDataItem
 ```
 
-```
-abstract class AbstractFactory {  }
-```
-
+remove **public**
 
 ```
-: IFactory
+class FactoryDataItem {   }
 ```
 
 ```
-public abstract FactoryDataItem GetData(int type);
+public FactoryDataItem(object dataItem)
+{
+     _dataItem = dataItem;
+}
+private object _dataItem;
+public object DataItem
+{
+    get { return _dataItem; }
+}
 ```
+
+
 
 [page 3](./page03.md)

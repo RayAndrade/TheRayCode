@@ -2,6 +2,10 @@
 
 [back](./page13.md)
 
+wrape it up on Progran
+
+in the main method place
+
 ```
 ShapeFactory shapeFactory = new ShapeFactory();
 ColorFactory colorFactory = new ColorFactory();

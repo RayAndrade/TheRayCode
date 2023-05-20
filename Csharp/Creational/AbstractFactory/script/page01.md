@@ -1,13 +1,18 @@
 [home](./page01.md)
 
-Create **interface**
 ```
-IFactory
+ColorFactory
 ```
 
+remove **public**
 
 ```
-FactoryDataItem GetData(int type);
+class ColorFactory {   }
 ```
+
+```
+public FactoryDataItem GetData(int type) {  }
+```
+
 
 [page 2](./page02.md)

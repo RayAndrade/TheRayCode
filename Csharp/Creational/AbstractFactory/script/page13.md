@@ -2,25 +2,20 @@
 
 [back](./page10.md)
 
+create an **interface**
 
 ```
-FactoryDataItem
-```
-
-```
-public class FactoryDataItem {  }
+IFactory
 ```
 
 ```
-public FactoryDataItem(object dataItem)
-{
-    _dataItem = dataItem;
-}
-private object _dataItem;
-public object DataItem
-{
-    get { return _dataItem; }
-}
+interface IFactory {   }
 ```
+
+
+```
+FactoryDataItem GetData(int type);
+```
+
 
 [page 14](./page14.md)

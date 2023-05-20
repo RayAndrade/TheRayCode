@@ -3,19 +3,23 @@
 [back](./page09.md)
 
 ```
-Blue
+Rectangle
 ```
+remove public
 
 ```
-class Blue {  }
+class Rectangle {   }
 ```
 
 ```
 public void GetInfo()
 {
-    Console.WriteLine("This is the blue color.");
+   Console.WriteLine("This is a rectangle.");
 }
 ```
 
+```
+using System;
+```
 
 [page 11](./page11.md)

@@ -2,21 +2,25 @@
 
 [back](./page03.md)
 
-create a enum
-
 ```
-ColorType
+Red
 ```
-
 remove **public**
 
 ```
-enum ColorType {  }
+class Red {   }
 ```
 
 ```
-Red = 1,
-Green = 2,
-Blue = 3
+public void GetInfo()
+{
+    Console.WriteLine("This is the red color.");
+}
 ```
+
+```
+using System;
+```
+
+
 [page 5](./page05.md)
