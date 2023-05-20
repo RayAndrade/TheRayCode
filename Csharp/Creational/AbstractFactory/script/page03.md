@@ -11,14 +11,14 @@ AbstractFactory
 
 
 ```
-enum ShapeType
-{
-    Circle = 1,
-    Square = 2,
-    Rectangle = 3
-}
+enum ShapeType {  }
 ```
 
+```
+Circle = 1,
+Square = 2,
+Rectangle = 3
+```
 
 
 [page 4](./page04.md)
