@@ -6,6 +6,8 @@
 Circle
 ```
 
+remove public
+
 ```
 class Circle {   }
 ```
