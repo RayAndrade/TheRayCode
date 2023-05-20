@@ -8,12 +8,15 @@ create a enum
 ColorType
 ```
 
+remove **public**
+
 ```
-public enum ColorType
-{
-    Red = 1,
-    Green = 2,
-    Blue = 3
-}
+enum ColorType {  }
+```
+
+```
+Red = 1,
+Green = 2,
+Blue = 3
 ```
 [page 5](./page05.md)
