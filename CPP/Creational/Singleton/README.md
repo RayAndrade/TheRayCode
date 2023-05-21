@@ -12,6 +12,8 @@
  * **[Prototype](../Prototype/README.md)**
  * **[Singleton](../Singleton/README.md)**
 
+[Script](../Singleton/script/page01.md)
+
 **C++ Singleton Design Pattern**
 
 The Singleton design pattern ensures that a class has only one instance and provides a global point of access to it. Below is a basic example:
