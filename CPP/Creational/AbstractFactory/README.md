@@ -6,7 +6,7 @@
 
 **C++ Abstract Factory Design Pattern**
 
-[Show](./Show/script/page01.md)
+[Show](./script/page01.md)
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
