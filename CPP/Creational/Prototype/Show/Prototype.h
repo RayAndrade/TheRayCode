@@ -1,9 +1,9 @@
 //
-// Created by ray on 5/15/23.
+// Created by ray on 5/22/23.
 //
 
-#ifndef DEMO_PROTOTYPE_H
-#define DEMO_PROTOTYPE_H
+#ifndef SHOW_PROTOTYPE_H
+#define SHOW_PROTOTYPE_H
 
 class Prototype {
 public:
@@ -11,4 +11,4 @@ public:
     virtual Prototype* clone() const = 0;
 };
 
-#endif //DEMO_PROTOTYPE_H
+#endif //SHOW_PROTOTYPE_H

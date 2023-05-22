@@ -1,13 +1,14 @@
 //
-// Created by ray on 5/15/23.
+// Created by ray on 5/22/23.
 //
 
-#ifndef DEMO_CONCRETEPROTOTYPE_H
-#define DEMO_CONCRETEPROTOTYPE_H
+#ifndef SHOW_CONCRETEPROTOTYPE_H
+#define SHOW_CONCRETEPROTOTYPE_H
 
 #include "Prototype.h"
 
-class ConcretePrototype : public Prototype {
+class ConcretePrototype : public Prototype{
+
 public:
     ConcretePrototype(int value): value_(value){}
     ConcretePrototype(const ConcretePrototype& other): value_(other.value_){}
@@ -18,6 +19,8 @@ public:
     int getValue() { return value_; }
 private:
     int value_;
+
 };
 
-#endif //DEMO_CONCRETEPROTOTYPE_H
+
+#endif //SHOW_CONCRETEPROTOTYPE_H
