@@ -11,6 +11,13 @@ ConcretePrototype
 class ConcretePrototype {  };
 ```
 
+
+```
+#include "Prototype.h"
+```
+
+
+
 ```
 public:
     ConcretePrototype(int value): value_(value){}
