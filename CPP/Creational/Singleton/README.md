@@ -86,6 +86,21 @@ To summarize: Singleton.h and Singleton.cpp work together to implement a Singlet
 
 Please note that this basic Singleton implementation is not thread-safe. If you are working in a multithreaded environment, you should use mechanisms such as std::call_once or double-checked locking to ensure that only one instance of the Singleton class is created.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
