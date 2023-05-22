@@ -11,6 +11,10 @@ ConcretePrototype
 class ConcretePrototype {  };
 ```
 
+```
+: public Prototype
+```
+
 
 ```
 #include "Prototype.h"
