@@ -8,9 +8,6 @@ FactoryDataItem
 
 remove **public**
 
-```
-class FactoryDataItem {   }
-```
 
 ```
 public FactoryDataItem(object dataItem)
