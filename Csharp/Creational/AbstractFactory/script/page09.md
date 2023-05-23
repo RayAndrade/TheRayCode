@@ -2,25 +2,6 @@
 
 [back](./page08.md)
 
-```
-Square
-```
-
-remove public
-
-```
-class Square {   }
-```
-
-```
-public void GetInfo()
-{
-   Console.WriteLine("This is a square.");
-}
-```
-
-```
-using System;
-```
+page09
 
 [page 10](./page10.md)

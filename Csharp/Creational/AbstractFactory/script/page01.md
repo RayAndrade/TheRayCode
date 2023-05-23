@@ -1,18 +1,5 @@
 [home](./page01.md)
 
-```
-ColorFactory
-```
-
-remove **public**
-
-```
-class ColorFactory {   }
-```
-
-```
-public FactoryDataItem GetData(int type) {  }
-```
-
+page 1
 
 [page 2](./page02.md)

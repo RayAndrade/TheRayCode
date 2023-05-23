@@ -1,6 +1,6 @@
-namespace Demo
+namespace Show
 {
-    class FactoryDataItem
+    public class FactoryDataItem
     {
         public FactoryDataItem(object dataItem)
         {

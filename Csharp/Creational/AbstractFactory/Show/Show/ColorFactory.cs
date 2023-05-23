@@ -1,4 +1,4 @@
-namespace Demo
+namespace Show
 {
     class ColorFactory
     {

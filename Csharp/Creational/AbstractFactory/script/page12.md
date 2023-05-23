@@ -2,18 +2,6 @@
 
 [back](./page11.md)
 
-```
-AbstractFactory
-```
+page12
 
-replace **public** with
-
-```
-abstract
-```
-make it a IFactory type
-
-```
-: IFactory
-```
 [page 13](./page13.md)

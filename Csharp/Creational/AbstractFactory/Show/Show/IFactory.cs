@@ -1,6 +1,6 @@
-namespace Demo
+namespace Show
 {
-    interface IFactory
+    public interface IFactory
     {
         FactoryDataItem GetData(int type);
     }

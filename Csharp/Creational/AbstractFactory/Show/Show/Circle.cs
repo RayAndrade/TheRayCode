@@ -1,7 +1,6 @@
-using System;
-
-namespace Demo
+namespace Show
 {
+    using System;
     class Circle
     {
         public void GetInfo()

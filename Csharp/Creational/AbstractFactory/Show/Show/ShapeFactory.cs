@@ -1,6 +1,6 @@
-namespace Demo
+namespace Show
 {
-    class ShapeFactory: AbstractFactory
+    public class ShapeFactory: AbstractFactory
     {
         public override FactoryDataItem GetData(int type)
         {

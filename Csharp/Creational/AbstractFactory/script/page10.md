@@ -2,24 +2,6 @@
 
 [back](./page09.md)
 
-```
-Rectangle
-```
-remove public
-
-```
-class Rectangle {   }
-```
-
-```
-public void GetInfo()
-{
-   Console.WriteLine("This is a rectangle.");
-}
-```
-
-```
-using System;
-```
+page10
 
 [page 11](./page11.md)

@@ -2,21 +2,6 @@
 
 [back](./page13.md)
 
-wrape it up on Progran
-
-in the main method place
-
-```
-ShapeFactory shapeFactory = new ShapeFactory();
-ColorFactory colorFactory = new ColorFactory();
-            
-Circle circle = shapeFactory.GetData((int)ShapeType.Circle).DataItem as Circle;
-circle.GetInfo();
-            
-Red red = colorFactory.GetData((int)ColorType.Red).DataItem as Red;
-red.GetInfo();
-            
-Console.WriteLine("The Ray Code is AWESOME!!");
-```
+page14
 
 [page 15](./page15.md)

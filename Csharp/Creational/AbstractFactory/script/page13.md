@@ -2,20 +2,6 @@
 
 [back](./page10.md)
 
-create an **interface**
-
-```
-IFactory
-```
-
-```
-interface IFactory {   }
-```
-
-
-```
-FactoryDataItem GetData(int type);
-```
-
+page13
 
 [page 14](./page14.md)
