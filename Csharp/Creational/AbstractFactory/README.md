@@ -16,7 +16,7 @@
 
 **[Singleton](../Singleton/README.md)**
 
-[script](./show/page01.md)
+[script](./script/page01.md)
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
