@@ -19,6 +19,7 @@ abstract
 ```
 : IFactory
 ```
+replace with:
 
 ```
 public abstract FactoryDataItem GetData(int type);
