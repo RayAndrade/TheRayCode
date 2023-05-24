@@ -8,8 +8,16 @@ IFactory
 
 which has a reference call to **FactoryDataItem**
 
+
+replace
+
+public FactoryDataItem GetData(int type) {  throw new System.NotImplementedException();  }
+
+
+with just 
+
 ```
-FactoryDataItem GetData(int type);
+public abstract FactoryDataItem GetData(int type);
 ```
 
 [page 2](./page02.md)
