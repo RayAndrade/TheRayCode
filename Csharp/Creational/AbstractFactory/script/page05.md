@@ -8,6 +8,9 @@ we create a **ShapeFactory** which is of **AbstractFactory** type
 ShapeFactory
 ```
 
+
+remove puplic
+
 ```
 : AbstractFactory
 ```
