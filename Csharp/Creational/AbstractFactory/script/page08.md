@@ -2,6 +2,26 @@
 
 [back](./page07.md)
 
-page08
+for **Rectangle**
+
+we have
+
+```
+Rectangle
+```
+
+remove public
+
+```
+public void GetInfo() {  }
+```
+
+```
+Console.WriteLine("This is a rectangle.");
+```
+
+```
+using System;
+```
 
 [page 9](./page09.md)

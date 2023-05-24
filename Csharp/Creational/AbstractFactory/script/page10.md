@@ -2,6 +2,24 @@
 
 [back](./page09.md)
 
-page10
+class **Red**
+
+```
+Red
+```
+class {  }
+
+```
+public void GetInfo()
+{
+    Console.WriteLine("This is the red color.");
+}
+```
+
+
+```
+using System;
+```
+
 
 [page 11](./page11.md)

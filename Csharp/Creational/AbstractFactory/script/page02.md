@@ -2,12 +2,12 @@
 
 [back](./page01.md)
 
-<<<<<<< HEAD
+
 ```
 FactoryDataItem
 ```
 
-remove **public**
+keep **public**
 
 
 ```
@@ -23,8 +23,5 @@ public object DataItem
 ```
 
 
-=======
-page02
->>>>>>> f0a9ed65 (*)
 
 [page 3](./page03.md)

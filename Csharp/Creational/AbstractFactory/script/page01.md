@@ -1,5 +1,11 @@
 [home](./page01.md)
 
-page 1
+We start with the **interface**
+
+```
+IFactory
+```
+
+which has a reference call to **FactoryDataItem**
 
 [page 2](./page02.md)

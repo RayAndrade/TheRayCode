@@ -2,6 +2,19 @@
 
 [back](./page08.md)
 
-page09
+Now let's make a color factory we will start with creating the **ColorType enum**
+
+```
+ColorType
+```
+
+```
+Red = 1,
+Green = 2,
+Blue = 3
+```
+ Now let's create each color
+ 
+ 
 
 [page 10](./page10.md)

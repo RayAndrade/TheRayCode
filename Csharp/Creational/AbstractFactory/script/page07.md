@@ -2,6 +2,26 @@
 
 [back](./page06.md)
 
-page07
+for **Square**
+
+we have
+
+```
+Square
+```
+
+remove public
+
+```
+public void GetInfo() {  }
+```
+
+```
+Console.WriteLine("This is a square.");
+```
+
+```
+using System;
+```
 
 [page 8](./page08.md)
