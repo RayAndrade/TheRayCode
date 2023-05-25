@@ -7,7 +7,7 @@
 
 **Java Singleton Design Pattern**
 
- * [Example 1](./SN1/README.md)
+ [Show](./Show/README.md)
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
