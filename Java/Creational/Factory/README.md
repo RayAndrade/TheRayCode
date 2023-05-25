@@ -12,7 +12,7 @@
  
  **Java Factory Design Pattern**
 
- * [Code for the Show](Show/)
+ [Code for the Show](Show/)
 
 Let's start by creating an interface for the types of pets. We'll call it **Pet**.
 
