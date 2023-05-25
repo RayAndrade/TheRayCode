@@ -2,7 +2,7 @@
 
 [back](./page03.md)
 
-Now let's create an Abstract Factory that will be a Factory of these factory
+Now let's create an Abstract Factory that will be a Factory of these **factories**
 
 ```
 AbstractPetFactory
