@@ -30,7 +30,7 @@ The key idea in this pattern is to make the class itself responsible for control
     }
 }
 ```
-![Singleton](/UMLs/images/Singlton127.png)
+![Singleton](/UMLs/Singlton127.png)
 
 Let's see how this works by creating a **main** method we put in our **Demo** class.
  
