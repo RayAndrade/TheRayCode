@@ -113,6 +113,9 @@ public class Main {
 and when we run this :
 
 ```
+I am a bird.
+I am a dog.
+I am a cat.
 ```
 
 
