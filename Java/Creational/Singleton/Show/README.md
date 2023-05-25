@@ -30,7 +30,7 @@ The key idea in this pattern is to make the class itself responsible for control
     }
 }
 ```
-![Singleton](/UMLs/images/Singleton_pattern_uml.png)
+![Singleton](../UMLs/images/Singleton_pattern_uml.png)
 
 Let's see how this works by creating a **main** method we put in our **Demo** class.
  
@@ -69,7 +69,7 @@ Find Ray on:
 
 [facebook](https://www.facebook.com/TheRayCode/)
 
-[youtube](https://www.youtube.com/user/AndradeRay/)
+[youtube](https://www.youtube.com/user/TheRayCode/)
 
 [The Ray Code](https://www.RayAndrade.com)
 
