@@ -12,5 +12,6 @@ public class Main {
         printAnimal(new DogFactory());
         printAnimal(new CatFactory());
         printAnimal(new BirdFactory());
+        System.out.println("The Ray Code is AWESOME!!!");
     }
 }

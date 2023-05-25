@@ -5,6 +5,7 @@ class Labrador implements Animal {
     public String getSpecies() {
         return "Labrador";
     }
+
     @Override
     public String makeSound() {
         return "Barks";

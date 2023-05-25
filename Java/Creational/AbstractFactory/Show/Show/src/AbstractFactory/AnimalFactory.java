@@ -1,5 +1,5 @@
 package AbstractFactory;
 
-interface AnimalFactory {
+public interface AnimalFactory {
     Animal createAnimal();
 }
