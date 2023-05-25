@@ -2,6 +2,19 @@
 
 [back](./page06.md)
 
-page07
+```
+DogFactory
+```
+ you can remove **public**
+ 
+```
+implements AnimalFactory 
+```
+
+```
+return new Labrador();
+```
+ so let's create a **Labrador** class
+
 
 [page 8](./page08.md)

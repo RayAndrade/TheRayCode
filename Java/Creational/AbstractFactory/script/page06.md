@@ -2,6 +2,28 @@
 
 [back](./page05.md)
 
-page06
+
+```
+PersianCat
+```
+
+you may remove **public**
+
+```
+implements Animal
+```
+for **getSpecies**
+
+```
+return "Persian Cat";
+```
+
+for **makeSound**
+
+
+```
+return "Meows";
+```
+
 
 [page 7](./page07.md)

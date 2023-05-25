@@ -2,6 +2,21 @@
 
 [back](./page04.md)
 
-page05
+class 
+
+```
+CatFactory
+```
+ you can remove **public**
+ 
+```
+implements AnimalFactory 
+```
+
+```
+return new PersianCat();
+```
+ so let's create a **PersianCat** class
+
 
 [page 6](./page06.md)

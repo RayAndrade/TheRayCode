@@ -1,5 +1,17 @@
 [home](./page01.md)
 
-page 1
+We make an interface called 
+
+```
+Animal
+```
+
+it requires
+
+```
+String getSpecies();
+String makeSound();
+```
+
 
 [page 2](./page02.md)

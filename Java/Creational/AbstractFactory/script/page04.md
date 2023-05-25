@@ -2,6 +2,26 @@
 
 [back](./page03.md)
 
-page04
+```
+Parrot
+```
+
+you may remove **public**
+
+```
+implements Animal
+```
+for **getSpecies**
+
+```
+return "Parrot";
+```
+
+for **makeSound**
+
+
+```
+return "Chirps";
+```
 
 [page 5](./page05.md)

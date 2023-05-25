@@ -2,6 +2,15 @@
 
 [back](./page01.md)
 
-page02
+Let's now create our *interface* **AnimalFactory**
+
+which requires:
+```
+Animal createAnimal();
+```
+
+that we just created
+
+Now let's create our factories
 
 [page 3](./page03.md)

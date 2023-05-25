@@ -2,6 +2,27 @@
 
 [back](./page07.md)
 
-page08
+create class
+```
+Labrador
+```
+
+remove **public**
+
+```
+implements Animal
+```
+
+for **getSpecies**
+
+```
+return "Labrador";
+```
+
+for **makeSound**
+
+```
+return "Barks";
+```
 
 [page 9](./page09.md)
