@@ -1,5 +1,7 @@
 <?php
 
+namespace TheRayCode\Singleton;
+
 require_once 'Singleton.php';
 
 use TheRayCode\Singleton\Singleton;
@@ -12,3 +14,4 @@ if ($singleton1 === $singleton2) {
 } else {
     echo "Variables contain different instances.";
 }
+echo "The Ray Code is AWESOME!!!\n";
