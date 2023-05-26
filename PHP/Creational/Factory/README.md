@@ -18,7 +18,7 @@ In the **index.php** file, we import the required classes and use the **ProductF
 
 Overall, the Factory pattern is useful when you need to create multiple objects of a similar type, but want to delegate the creation of those objects to a separate factory class. This can help simplify your code and make it easier to maintain in the long run.
 
-[script](/script/page01.md)
+[script](./script/page01.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
