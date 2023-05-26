@@ -20,17 +20,17 @@ echo $car1->getInfo();
 
 do another car
 ```
-echo "\n";
+echo "<br/>\n";
 $car2 = $car1->clone();
 echo $car2->getInfo();
 ```
 Now let's modify some property in car2, but car1 should not be affected.
 
 ```
-echo "\n";
+echo "<br/>\n";
 $car2->color = 'Blue';
 echo $car1->getInfo();
-echo "\n";
+echo "<br/>\n";
 echo $car2->getInfo();
 ```
 
