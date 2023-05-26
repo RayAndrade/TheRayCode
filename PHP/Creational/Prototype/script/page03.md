@@ -32,6 +32,7 @@ $car2->color = 'Blue';
 echo $car1->getInfo();
 echo "<br/>\n";
 echo $car2->getInfo();
+echo "<br/>\n";
 ```
 
 
