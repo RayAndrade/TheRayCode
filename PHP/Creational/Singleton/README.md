@@ -16,7 +16,7 @@
 
 **PHP Singleton Design Pattern**
 
- [script](/script/page01.md)
+ [script](./script/page01.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
