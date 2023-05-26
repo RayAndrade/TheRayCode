@@ -14,6 +14,7 @@
  * **[Prototype](../Prototype/README.md)**
  * **[Singleton](../Singleton/README.md)**
 
+**PHP Factory Design Pattern**
 
 This is an example of the Factory design pattern, which is a creational pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
 
