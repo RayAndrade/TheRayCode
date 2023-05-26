@@ -4,4 +4,4 @@
 
 page05
 
-[page 6](./page06.md)
+[home](./page01.md)
