@@ -16,7 +16,7 @@
 
 **PHP Singleton Design Pattern**
 
- * [Example 1](./SN1/README.md)
+ [script](/script/page01.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
