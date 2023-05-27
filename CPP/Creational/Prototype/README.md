@@ -17,7 +17,8 @@
 
 **C++ Prototype Design Pattern**
 
- * [Example 1](PE1/README.md)
+[Script](../Prototype/script/page01.md)
+
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
