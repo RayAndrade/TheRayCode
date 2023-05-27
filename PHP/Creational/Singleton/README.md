@@ -10,11 +10,11 @@
 
 |Pattern|   |   |   |   |
 |---|---|---|---|---|
-| Abstract Factory | C++ |C#|Java|PHP |
+| Abstract Factory | **[C++**](../../../CPP/Creational/Builder/README.md) |C#|Java|PHP |
 | Builder| [**C++**](../../../CPP/Creational/Builder/README.md) | C# | Java | PHP |
-| Factory | C++ | C# | Java | PHP |
-| Prototype | C++ | C# | Java | PHP |
-| Singleton | C++ | C# | Java | PHP |
+| Factory | [**C++**](../../../CPP/Creational/Builder/README.md) | C# | Java | PHP |
+| Prototype | [**C++**](../../../CPP/Creational/Builder/README.md) | C# | Java | PHP |
+| Singleton | [**C++**](../../../CPP/Creational/Builder/README.md) | C# | Java | PHP |
 
 * **[Factory](../Factory/README.md)**
  * **[AbstractFactory](../AbstractFactory/README.md)**
