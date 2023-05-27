@@ -2,6 +2,8 @@
 
 **[Creational Patterns](./README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
+**C++ Abstract Factory Design Pattern**
+
 **Java Creational Patterns**
 
 | examples using Java | | | |
