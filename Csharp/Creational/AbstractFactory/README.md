@@ -20,7 +20,6 @@
 
 [script](./script/page01.md)
 
-
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
