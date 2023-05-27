@@ -10,6 +10,7 @@
 | Prototype | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [Java](../../../Java/Creational/Prototype/README.md) | [PHP](../../../PHP/Creational/Prototype/README.md) |
 | Singleton | [**C++**](../../../CPP/Creational/Singleton/README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [Java](../../../Java/Creational/Singleton/README.md) | [PHP](../../../PHP/Creational/Singleton/README.md) |
 
+[Show](./script/page01.md)
 
 Here is a brief explanation of each class, abstract class and *interface* in the example:
 
@@ -135,10 +136,6 @@ Concrete Classes
 **BirdFactory** is another concrete factory that implements createAnimal to create an instance of Parrot.
 
 These factories encapsulate the creation of specific animals, and client code interacts with the factories to create animals, rather than creating them directly. This follows the principle of programming to an interface, not an implementation, allowing the client code to remain decoupled from the specific animal classes, which provides flexibility in adding new animal types in the future without modifying existing client code.
-
-
-[script](./script/page01.md)
-
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
