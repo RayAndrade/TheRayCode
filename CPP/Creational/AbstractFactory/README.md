@@ -14,7 +14,24 @@
 
 [Show](./script/page01.md)
 
-In our example,
+In our example, the Abstract Factory pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes. In our case, we will create a **UIFactory** that can create a **Button** and **Scrollbar** objects, and well also create the **WindowsUIFactory** and **MacUIFactory** that each implement the **UIFactory**.
+
+```
+#include "Button.h"
+#include "Scrollbar.h"
+class UIFactory { 
+
+};
+```
+
+For **Button** object
+```
+class Button {
+public:
+    virtual void click() = 0;
+};
+```
+
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
