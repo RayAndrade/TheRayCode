@@ -2,7 +2,7 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**C++ Factory Design Pattern**
+**Java Factory Design Pattern**
 
 |Pattern|   |   |   |   |
 |---|---|---|---|---|
@@ -13,7 +13,6 @@
 | Singleton | [**C++**](../../../CPP/Creational/Singleton/README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [Java](../../../Java/Creational/Singleton/README.md) | [PHP](../../../PHP/Creational/Singleton/README.md) |
 
 [Show](./script/page01.md)
-
 
 [TheRayCode.ORG](https://www.TheRayCode.org)  
 
