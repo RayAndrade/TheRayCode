@@ -10,11 +10,11 @@
 
 |Pattern|   |   |   |   |
 |---|---|---|---|---|
-| Abstract Factory | [**C++**](../../../CPP/Creational/Builder/README.md) |C#|Java|PHP |
-| Builder| [**C++**](../../../CPP/Creational/Builder/README.md) | C# | Java | PHP |
-| Factory | [**C++**](../../../CPP/Creational/Builder/README.md) | C# | Java | PHP |
-| Prototype | [**C++**](../../../CPP/Creational/Builder/README.md) | C# | Java | PHP |
-| Singleton | [**C++**](../../../CPP/Creational/Builder/README.md) | C# | Java | PHP |
+| Abstract Factory | [**C++**](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../CPP/Creational/Builder/README.md) | [Java](../../../CPP/Creational/Builder/README.md) | [PHP](../../../CPP/Creational/Builder/README.md) |
+| Builder| [**C++**](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../CPP/Creational/Builder/README.md) | [Java](../../../CPP/Creational/Builder/README.md) | [PHP](../../../CPP/Creational/Builder/README.md) |
+| Factory | [**C++**](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../CPP/Creational/Builder/README.md) | [Java](../../../CPP/Creational/Builder/README.md) | [PHP](../../../CPP/Creational/Builder/README.md) |
+| Prototype | [**C++**](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../CPP/Creational/Builder/README.md) | [Java](../../../CPP/Creational/Builder/README.md) | [PHP](../../../CPP/Creational/Builder/README.md) |
+| Singleton | [**C++**](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../CPP/Creational/Builder/README.md) | [Java](../../../CPP/Creational/Builder/README.md) | [PHP](../../../CPP/Creational/Builder/README.md) |
 
 * **[Factory](../Factory/README.md)**
  * **[AbstractFactory](../AbstractFactory/README.md)**
