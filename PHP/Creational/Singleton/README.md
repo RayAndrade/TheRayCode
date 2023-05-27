@@ -8,7 +8,15 @@
 
 **PHP Creational Patterns**
 
- * **[Factory](../Factory/README.md)**
+|Pattern|C++|C#|Java|PCC|
+|---|---|---|---|---|
+|AbstractFactory|C++|C#|Java|PCC|
+|Builder|C++|C#|Java|PCC|
+|Factory|C++|C#|Java|PCC|
+|Prototype|C++|C#|Java|PCC|
+|Singleton|C++|C#|Java|PCC|
+
+* **[Factory](../Factory/README.md)**
  * **[AbstractFactory](../AbstractFactory/README.md)**
  * **[Builder](../Builder/README.md)**
  * **[Prototype](../Prototype/README.md)**
