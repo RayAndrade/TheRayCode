@@ -14,15 +14,10 @@
 | Prototype | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [Java](../../../Java/Creational/Prototype/README.md) | [PHP](../../../PHP/Creational/Prototype/README.md) |
 | Singleton | [**C++**](../../../CPP/Creational/Singleton/README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [Java](../../../Java/Creational/Singleton/README.md) | [PHP](../../../PHP/Creational/Singleton/README.md) |
 
-
-**C++ Prototype Design Pattern**
-
-[Script](../Prototype/script/page01.md)
-
+[Show](./script/page01.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
-
 
 [Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
