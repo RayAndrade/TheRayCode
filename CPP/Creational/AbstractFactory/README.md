@@ -14,6 +14,8 @@
 
 [Show](./script/page01.md)
 
+In our example,
+
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
