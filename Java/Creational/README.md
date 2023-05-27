@@ -2,8 +2,6 @@
 
 **[Creational Patterns](./README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
-**Java Abstract Factory Design Pattern**
-
 **Java Creational Patterns**
 
 | examples using Java | | | |
@@ -14,6 +12,7 @@
 |**[Prototype](./Prototype/README.md)** | [C++](../../CPP/Creational/Prototype/README.md) | [C#](../../Csharp/Creational/Prototype/README.md) | [PHP](../../PHP/Creational/Prototype/README.md) |
 |**[Singleton](./Singleton/README.md)** | [C++](../../CPP/Creational/Singleton/README.md) | [C#](../../Csharp/Creational/Singleton/README.md) | [PHP](../../PHP/Creational/Singleton/README.md) |
 
+**Java Abstract Factory Design Pattern**
 
 Creational design patterns are a category of design patterns that deal with object creation. They provide flexible and reusable ways to create objects in your application. In Java, these patterns can be used to create objects in a more flexible and efficient manner. Here are some examples of Creational design patterns in Java:
 
