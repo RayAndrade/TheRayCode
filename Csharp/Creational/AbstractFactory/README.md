@@ -171,6 +171,53 @@ class Green
     }
 }
 ```
+let's create the **ColorFactory**
+
+```
+public class ColorFactory
+{
+    public FactoryDataItem GetData(int type)
+    {
+        FactoryDataItem factoryDataItem = null;
+        switch ((ColorType)type)
+        {
+            case ColorType.Red:
+                factoryDataItem = new FactoryDataItem(new Red());
+                break;
+            case ColorType.Blue:
+                factoryDataItem = new FactoryDataItem(new Blue());
+                break;
+            case ColorType.Green:
+                factoryDataItem = new FactoryDataItem(new Green());
+                break;
+        }
+        return factoryDataItem;
+    }
+}
+```
+let's now buid the demo
+
+```
+internal class Program
+{
+    public static void Main(string[] args)
+    {
+        ShapeFactory shapeFactory = new ShapeFactory();
+        ColorFactory colorFactory = new ColorFactory();
+            
+        Circle circle = shapeFactory.GetData((int)ShapeType.Circle).DataItem as Circle;
+        circle.GetInfo();
+           
+        Red red = colorFactory.GetData((int)ColorType.Red).DataItem as Red;
+        red.GetInfo();
+    }
+}
+```
+When we compile and run we get
+```
+This is a circle.
+This is the red color.
+```
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
