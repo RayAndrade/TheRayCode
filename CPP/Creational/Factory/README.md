@@ -9,10 +9,9 @@
 | Prototype | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [Java](../../../Java/Creational/Prototype/README.md) | [PHP](../../../PHP/Creational/Prototype/README.md) |
 | Singleton | [**C++**](../../../CPP/Creational/Singleton/README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [Java](../../../Java/Creational/Singleton/README.md) | [PHP](../../../PHP/Creational/Singleton/README.md) |
 
-
-
-
 **[C++](../README.md)**
+
+**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
 As a C++ developer, the Factory pattern is a creational design pattern that provides an interface for creating objects without specifying their concrete classes. It encapsulates the object creation logic within a separate factory class, allowing clients to create objects by calling factory methods rather than directly invoking constructors.
 
