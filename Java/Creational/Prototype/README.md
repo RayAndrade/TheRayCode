@@ -18,9 +18,7 @@
 | Singleton | [**C++**](../../../CPP/Creational/Singleton/README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [Java](../../../Java/Creational/Singleton/README.md) | [PHP](../../../PHP/Creational/Singleton/README.md) |
 
 
-**Java Singleton Design Pattern**
-
- * [Example 1](./PE1/README.md)
+[Show](./script/page01.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)  
 
