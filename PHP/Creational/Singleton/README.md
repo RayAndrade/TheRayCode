@@ -10,11 +10,11 @@
 
 |Pattern|C++|C#|Java|PCC|
 |---|---|---|---|---|
-|AbstractFactory|C++|C#|Java|PCC|
-|Builder|C++|C#|Java|PCC|
-|Factory|C++|C#|Java|PCC|
-|Prototype|C++|C#|Java|PCC|
-|Singleton|C++|C#|Java|PCC|
+| Abstract Factory | C++ |C#|Java|PHP |
+| Builder| C++ | C# | Java | PHP |
+| Factory | C++ | C# | Java | PHP |
+| Prototype | C++ | C# | Java | PHP |
+| Singleton | C++ | C# | Java | PHP |
 
 * **[Factory](../Factory/README.md)**
  * **[AbstractFactory](../AbstractFactory/README.md)**
