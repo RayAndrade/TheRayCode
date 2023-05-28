@@ -18,6 +18,7 @@ For this example, let's create a toy factory that produces different types of to
 
 First, let's create an interface for the toys that the factory will produce. We will call this interface "IToy".
 
+IToy will force the reqiierment for **void Play()**;
 
 [script](./script/page01.md)
 
