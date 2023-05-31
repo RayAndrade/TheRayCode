@@ -2,7 +2,7 @@
 
 [back](./page01.md)
 
-create an interface for the Cat object
+We start by creating an **interface** for the Cat object
 
 ```
 Cat
