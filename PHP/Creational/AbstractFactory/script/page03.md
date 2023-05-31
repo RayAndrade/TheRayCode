@@ -3,7 +3,7 @@
 [back](./page02.md)
 
 
-create an interface for the Dog object
+We **also** create an interface for the Dog object
 
 ```
 Dog
@@ -14,11 +14,9 @@ Namespace: **TheRayCode\AbstractFactory**
 Directory: ../Show
 
 
-Temlpet interface
+Temlplet interface
 
-[Ok]
-
-
+some code for the **interface**
 ```
 public function bark(): string;
 ```
