@@ -2,26 +2,28 @@
 
 [back](./page04.md)
  
- So now let's create a factory for the Cat object
- 
- 
+ So now let's create a **class** factory for the Cat object with the file name
+  
 **CatFactory**
  
- implements: **AbstractPetFactory**
- 
+ and it implements the **AbstractPetFactory**
+```
+implements AbstractPetFactory
+```
+with
+
 ```
 public function createCat(): Cat {  }
 ```
-
-and
+and for the **Dog**
 
 ```
-public function createDog(): Dog {  }
+public function createCat(): Dog {  }
 ```
 
-for creating Cat objects
-
-```php
+with the code for the **Cat** requirement
+```
+public function createCat(): Cat {
 return new class implements Cat {
     public function meow(): string {
         return 'Meow! I am a Persian cat.';
@@ -29,7 +31,9 @@ return new class implements Cat {
 };
 ```
 
-and for dog we disalow that
+and we will trow an Exception if a **Dog** is attempted
+
+
 
 ```php
 throw new Exception('Cannot create dogs from a cat factory');
