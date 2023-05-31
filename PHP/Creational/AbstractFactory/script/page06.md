@@ -1,18 +1,22 @@
 [back](./page05.md)
 
-For the creation of the Dog object
-
+For the creation of the **Dog** object we have the
 
 ```
 DogFactory
 ```
 
-implements AbstractPetFactory
+which implements AbstractPetFactory
 
-
+```
+implements AbstractPetFactory 
+```
+for **Cat**
 ```
 public function createCat(): Cat {  }
 ```
+
+for **Dog**
 
 ```
 public function createDog(): Dog {  }
