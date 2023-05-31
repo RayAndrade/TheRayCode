@@ -6,6 +6,15 @@
   
 **CatFactory**
  
+ ```
+ CatFactory
+ ```
+ 
+ and
+ ```
+ require_once 'Cat.php';
+ ```
+ 
  and it implements the **AbstractPetFactory**
 ```
 implements AbstractPetFactory
@@ -32,8 +41,6 @@ return new class implements Cat {
 ```
 
 and we will trow an Exception if a **Dog** is attempted
-
-
 
 ```php
 throw new Exception('Cannot create dogs from a cat factory');
