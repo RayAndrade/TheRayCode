@@ -6,6 +6,10 @@ For the creation of the **Dog** object we have the
 DogFactory
 ```
 
+```
+require_once 'Dog.php';
+```
+
 which implements AbstractPetFactory
 
 ```
