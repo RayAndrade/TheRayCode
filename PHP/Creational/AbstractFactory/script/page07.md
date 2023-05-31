@@ -9,23 +9,29 @@ In the Demo
 require_once 'AbstractPetFactory.php';
 require_once 'DogFactory.php';
 require_once 'CatFactory.php';
+```
 
+```
+class Demo {  }
+```
 
-class Demo {
-    public static function run() {
-        $dogFactory = new DogFactory();
-        $catFactory = new CatFactory();
+```
+public static function run() {  }
+```
 
-        $dog = $dogFactory->createDog();
-        echo $dog->bark() . "<br/>\n";
+```
+$dogFactory = new DogFactory();
+$catFactory = new CatFactory();
 
-        $cat = $catFactory->createCat();
-        echo $cat->meow() . "<br/>\n";
-    }
-}
+$dog = $dogFactory->createDog();
+echo $dog->bark() . "<br/>\n";
 
+$cat = $catFactory->createCat();
+echo $cat->meow() . "<br/>\n";
+```
+
+```
 Demo::run();
-
 ```
 
 [page 8](./page08.md)
