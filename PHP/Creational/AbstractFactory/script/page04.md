@@ -13,7 +13,7 @@ Namespace: **TheRayCode\AbstractFactory**
 Directory: ../Show
 
 
-Temlpet interface
+Temlpet **interface**
 
 [Ok]
 
