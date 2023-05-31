@@ -1,6 +1,11 @@
 [home](./page01.md)
 
 
+
+```
+echo "The Ray Code is AWESOME!!!";
+```
+
 create php file
 
 ```
