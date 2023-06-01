@@ -2,10 +2,8 @@
 
 [back](./page04.md)
  
- So now let's create a **class** factory for the Cat object with the file name
-  
-**CatFactory**
  
+<<<<<<< HEAD
  ```
  CatFactory
  ```
@@ -46,5 +44,7 @@ and we will trow an Exception if a **Dog** is attempted
 throw new Exception('Cannot create dogs from a cat factory');
 ```
 
+=======
+>>>>>>> 9113628b (*)
 
 [page 6](./page06.md)

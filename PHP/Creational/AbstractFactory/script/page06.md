@@ -1,5 +1,6 @@
 [back](./page05.md)
 
+<<<<<<< HEAD
 For the creation of the **Dog** object we have the
 
 ```
@@ -41,6 +42,8 @@ return new class implements Dog {
     }
 };
 ```
+=======
+>>>>>>> 9113628b (*)
 
 
 [page 7](./page07.md)

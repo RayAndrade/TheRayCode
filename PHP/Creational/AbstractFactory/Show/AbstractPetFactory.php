@@ -2,8 +2,8 @@
 
 namespace TheRayCode\Factory;
 
-interface AbstractPetFactory
+abstract class AbstractPetFactory
 {
-    public function createCat(): Cat;
-    public function createDog(): Dog;
+    abstract public function createDog(): Dog;
+    abstract public function createCat(): Cat;
 }

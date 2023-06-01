@@ -16,9 +16,16 @@ Directory: ../Show
 
 Temlplet **interface**
 
+repace **interface** with
+
 ```
-public function createCat(): Cat;
-public function createDog(): Dog;
+abstract class 
+```
+
+
+```
+abstract public function createCat(): Cat;
+abstract public function createDog(): Dog;
 ```
 
 [page 5](./page05.md)

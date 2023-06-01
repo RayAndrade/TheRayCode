@@ -7,8 +7,9 @@ In the Demo
 
 ```php
 require_once 'AbstractPetFactory.php';
-require_once 'DogFactory.php';
-require_once 'CatFactory.php';
+require_once 'Dog.php';
+require_once 'Cat.php';
+require_once 'PetFactory.php';
 ```
 
 ```
