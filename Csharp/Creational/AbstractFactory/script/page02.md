@@ -2,6 +2,7 @@
 
 [back](./page01.md)
 
+Create **class**
 
 ```
 FactoryDataItem
