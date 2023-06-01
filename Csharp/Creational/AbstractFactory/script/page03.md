@@ -16,9 +16,6 @@ AbstractFactory
 abstract
 ```
 
-```
-: IFactory
-```
 replace with:
 
 ```
