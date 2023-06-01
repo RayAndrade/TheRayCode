@@ -2,6 +2,11 @@
 
 [back](./page14.md)
 
-End
+When you run you shoud get:
+
+```
+This is a circle.
+This is the red color.
+```
 
 [home](./page01.md)
