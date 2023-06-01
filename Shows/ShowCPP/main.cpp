@@ -1,5 +1,4 @@
 #include <iostream>
-
 #include "UIFactory.h"
 #include "WindowsUIFactory.h"
 #include "MacUIFactory.h"
@@ -13,9 +12,9 @@ int main() {
     windowsButton->click();
     Scrollbar* windowsScrollbar = factory->createScrollbar();
     windowsScrollbar->scroll();
-    delete windowsButton;
-    delete windowsScrollbar;
-    delete factory;
+    //delete windowsButton;
+    //delete windowsScrollbar;
+    //delete factory;
 
 // Use MacUIFactory
     factory = new MacUIFactory();
@@ -23,9 +22,10 @@ int main() {
     macButton->click();
     Scrollbar* macScrollbar = factory->createScrollbar();
     macScrollbar->scroll();
-    delete macButton;
-    delete macScrollbar;
-    delete factory;
+    //delete macButton;
+    //delete macScrollbar;
+    //delete factory;
+
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }

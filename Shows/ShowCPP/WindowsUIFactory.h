@@ -1,5 +1,5 @@
 //
-// Created by ray on 5/22/23.
+// Created by ray on 5/31/23.
 //
 
 #ifndef SHOW_WINDOWSUIFACTORY_H
@@ -19,6 +19,5 @@ public:
         return new WindowsScrollbar();
     }
 };
-
 
 #endif //SHOW_WINDOWSUIFACTORY_H
