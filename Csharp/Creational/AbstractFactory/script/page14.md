@@ -2,7 +2,7 @@
 
 [back](./page13.md)
 
-let's now buid a **demo**
+let's now buid a **Program**
 
 
 ```
@@ -14,8 +14,6 @@ circle.GetInfo();
             
 Red red = colorFactory.GetData((int)ColorType.Red).DataItem as Red;
 red.GetInfo();
-            
-Console.WriteLine("The Ray Code is AWESOME!!");
 ```
 
 [page 15](./page15.md)
