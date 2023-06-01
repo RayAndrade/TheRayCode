@@ -1,5 +1,7 @@
 # TheRayCode 
 
+<a href="http://theraycode.org" target="_blank">Go</a>
+
 **[C++](./CPP/README.md)** | **[C#](./Csharp/README.md)** | **[JAVA](./Java/README.md)**  | **[PHP](./PHP/README.md)** | **[JAVASCRIPT](./JavaScript/README.md)**  
 
 Hi, I'm Ray and this is my code for the project I call The Ray Code.
