@@ -1,6 +1,6 @@
 # TheRayCode 
 
-<a href="http://theraycode.org" target="_top">Go</a>
+<a href="http://theraycode.org" rel="noopener" target="_blank">Go</a>
 
 **[C++](./CPP/README.md)** | **[C#](./Csharp/README.md)** | **[JAVA](./Java/README.md)**  | **[PHP](./PHP/README.md)** | **[JAVASCRIPT](./JavaScript/README.md)**  
 
