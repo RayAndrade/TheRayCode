@@ -4,6 +4,7 @@
 
 now we go to main we add
 
+We create a function for this class
 ```
 public static void printAnimal(AnimalFactory factory) {
     Animal animal = factory.createAnimal();
