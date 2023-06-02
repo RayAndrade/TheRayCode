@@ -7,6 +7,13 @@
 Labrador
 ```
 
+which
+
+```
+implements Animal
+```
+
+
 Labrador is a type of dog and hence it **implements the Animal interface** and defines the **getSpecies**method to return "Labrador" and **makeSound** *method to return "Barks"*.
 
 ```
