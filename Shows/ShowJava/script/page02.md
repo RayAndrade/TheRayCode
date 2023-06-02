@@ -4,16 +4,6 @@
 
 So let's create our **concrete classes**.
 
-```
-Labrador
-```
-
-```
-PersianCat
-```
-
-```
-Parrot
-```
+Our classes are  Labrador PersianCat and Parrot
 
 [page 3](./page03.md)
