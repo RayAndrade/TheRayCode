@@ -3,7 +3,7 @@
 [back](./page02.md)
 
 
-class 
+let's create class 
 
 ```
 BirdFactory
