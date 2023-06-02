@@ -4,7 +4,7 @@
 
 Let's now create our *interface* **AnimalFactory**
 
-which requires:
+which just requires:
 ```
 Animal createAnimal();
 ```
