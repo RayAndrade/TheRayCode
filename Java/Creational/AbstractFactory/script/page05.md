@@ -2,7 +2,7 @@
 
 [back](./page04.md)
 
-class 
+Let's create another Animal class with the CatFactor 
 
 ```
 CatFactory
@@ -12,6 +12,8 @@ CatFactory
 ```
 implements AnimalFactory 
 ```
+
+And it creates
 
 ```
 return new PersianCat();
