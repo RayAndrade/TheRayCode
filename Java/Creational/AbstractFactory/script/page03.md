@@ -13,6 +13,7 @@ BirdFactory
 ```
 implements AnimalFactory 
 ```
+And the Animal it returns is
 
 ```
 return new Parrot();
