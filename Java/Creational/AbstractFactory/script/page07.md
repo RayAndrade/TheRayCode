@@ -2,6 +2,7 @@
 
 [back](./page06.md)
 
+And let's create a :
 ```
 DogFactory
 ```
