@@ -2,9 +2,11 @@
 
 namespace TheRayCode\AbstractFactory;
 
-class Cat
+class Cat extends AbstractPet
 {
-    public function meow() {
-        echo "Purr meow!";
+
+    public function makeSound()
+    {
+        return "Meow! Feed me, hooman!<br/>";
     }
 }

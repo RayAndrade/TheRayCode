@@ -2,9 +2,11 @@
 
 namespace TheRayCode\AbstractFactory;
 
-class Dog
+class Dog extends AbstractPet
 {
-    public function bark() {
-        echo "Woof! Woof!";
+
+    public function makeSound()
+    {
+        return "Woof! I'm a good boy!<br/>";
     }
 }

@@ -2,9 +2,11 @@
 
 namespace TheRayCode\AbstractFactory;
 
-class Bird
+class Bird extends AbstractPet
 {
-    public function tweet() {
-        echo "Chrup chrup!";
+
+    public function makeSound()
+    {
+        return "Tweet tweet! I'm bird-brained!<br/>";
     }
 }
