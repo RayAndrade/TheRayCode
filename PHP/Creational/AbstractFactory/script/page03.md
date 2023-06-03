@@ -3,18 +3,13 @@
 [back](./page02.md)
 
 
+Namespace: **TheRayCode\AbstractFactory**
+
 We **also** create a class for the Dog object
 
 ```
 Dog
 ```
-
-Namespace: **TheRayCode\AbstractFactory**
-
-Directory: ../Show
-
-
-Temlplet class
 
 some code for the **class**
 ```
