@@ -19,10 +19,5 @@ abstract public function createPet();
 ```
 
 
-```
-abstract class AbstractFactory {
-    abstract public function createPet();
-}
-```
 
 [page 3](./page03.md)
