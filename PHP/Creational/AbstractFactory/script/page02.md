@@ -12,4 +12,10 @@ We start by creating an **class** for the Cat object
 Cat
 ```
 
+```
+public function meow() {
+    echo "Purr meow!";
+}
+```
+
 [page 3](./page03.md)
