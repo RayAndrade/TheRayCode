@@ -1,23 +1,22 @@
 <?php
 
-namespace TheRayCode\Factory;
-require_once 'AbstractPetFactory.php';
-require_once 'Dog.php';
-require_once 'Cat.php';
-require_once 'PetFactory.php';
+namespace TheRayCode\AbstractFactory;
 
-class Demo {
-    public static function run() {
-        $dogFactory = new Dog();
-        $catFactory = new Cat();
+require_once('DogFactory.php');
+require_once('CatFactory.php');
+require_once('BirdFactory.php');
 
-        $dog = $dogFactory->createDog();
-        echo $dog->bark() . "<br/>\n";
+$dogFactory = new DogFactory();
+$catFactory = new CatFactory();
+$birdFactory = new BirdFactory();
 
-        $cat = $catFactory->createCat();
-        echo $cat->meow() . "<br/>\n";
-    }
-}
+$dog = $dogFactory->createDog();
+$cat = $catFactory->createCat();
+$bird = $birdFactory->createBird();
+
+$dog->bark();
+$cat->meow();
+$bird->tweet();
 
 echo "The Ray Code is AWESOME!!!";
 

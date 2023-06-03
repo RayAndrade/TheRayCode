@@ -1,21 +1,10 @@
 <?php
 
-namespace TheRayCode\Factory;
+namespace TheRayCode\AbstractFactory;
 
 class Dog
 {
-    private string $species;
-    public function __construct(string $species)
-    {
-        $this->species = $species;
+    public function bark() {
+        echo "Woof! Ruff!";
     }
-    public function makeSound(): string
-    {
-        return "Woof!";
-    }
-    public function getSpecies(): string
-    {
-        return $this->species;
-    }
-
 }

@@ -1,26 +1,10 @@
 <?php
 
-namespace TheRayCode\Factory;
+namespace TheRayCode\AbstractFactory;
 
-class PetFactory extends AbstractPetFactory
+abstract class PetFactory
 {
-
-    public function createCat(): Cat
-    {
-        $species = $this->generateRandomSpecies();
-        return new Cat($species);
-    }
-
-    public function createDog(): Dog
-    {
-        $species = $this->generateRandomSpecies();
-        return new Dog($species);
-    }
-
-    private function generateRandomSpecies(): string
-    {
-        $speciesList = ['Labrador', 'Poodle', 'German Shepherd'];
-        $randomIndex = array_rand($speciesList);
-        return $speciesList[$randomIndex];
-    }
+    abstract public function createDog();
+    abstract public function createCat();
+    abstract public function createBird();
 }
