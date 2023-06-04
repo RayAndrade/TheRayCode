@@ -16,7 +16,7 @@ require_once 'BirdFactory.php';
 
 function petSounds(AbstractFactory $factory) {
     $pet = $factory->createPet();
-    echo $pet->makeSound() . "\n";
+    echo $pet->makeSound() . "<br/>\n";
 }
 
 petSounds(new DogFactory());
