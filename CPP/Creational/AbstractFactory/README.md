@@ -192,6 +192,8 @@ After usage, the objects are deleted to free up memory resources.
 
 When we compile and run we get
 
+When the code is executed, depending on the UIFactory used, you get the corresponding **Button** and **Scrollbar** actions. This abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes. It allows for new types of themes to be easily incorporated with minimal changes to the client code.
+
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
