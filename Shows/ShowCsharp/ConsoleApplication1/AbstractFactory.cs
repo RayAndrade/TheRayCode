@@ -1,6 +1,6 @@
 namespace Show
 {
-    abstract class AbstractFactory: IFactory
+    abstract class AbstractFactory
     {
         public abstract FactoryDataItem GetData(int type);
     }

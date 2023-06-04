@@ -14,7 +14,6 @@ namespace Show
             
             Red red = colorFactory.GetData((int)ColorType.Red).DataItem as Red;
             red.GetInfo();
-            
             Console.WriteLine("The Ray Code is AWESOME!!");
         }
     }

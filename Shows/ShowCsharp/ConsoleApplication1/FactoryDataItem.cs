@@ -2,12 +2,14 @@ namespace Show
 {
     public class FactoryDataItem
     {
+        private object _dataItem;
         public FactoryDataItem(object dataItem)
         {
             _dataItem = dataItem;
         }
-        private object _dataItem;
-        public object DataItem => _dataItem;
+        public object DataItem
+        {
+            get { return _dataItem; }
+        }
     }
-        
 }

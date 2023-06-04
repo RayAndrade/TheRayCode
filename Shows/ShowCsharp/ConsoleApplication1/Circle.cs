@@ -2,7 +2,7 @@ using System;
 
 namespace Show
 {
-    public class Circle
+    class Circle
     {
         public void GetInfo()
         {

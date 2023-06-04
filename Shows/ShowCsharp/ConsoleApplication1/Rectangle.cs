@@ -6,7 +6,7 @@ namespace Show
     {
         public void GetInfo()
         {
-            Console.WriteLine("This is a retangle.");
+            Console.WriteLine("This is a rectangle.");
         }
     }
 }
