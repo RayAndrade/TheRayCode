@@ -21,6 +21,9 @@ public:
     virtual Scrollbar* createScrollbar() = 0;
 };
 ```
+This is the abstract factory class. It provides an interface to create objects of Button and Scrollbar types. 
+It declares two pure virtual methods: **createButton** and **createScrollbar**.
+
 
 For **Button** object
 ```
@@ -36,6 +39,9 @@ public:
     virtual void scroll() = 0;
 };
 ```
+
+**Button** and **Scrollbar** classes:
+These are abstract product classes. Each of them declares a pure virtual function (**click()** for Button and **scroll()** for Scrollbar) to be overridden in derived classes.
 
 So let's start with creating a **WindowsUIFactory**
 
@@ -55,6 +61,7 @@ public:
     }
 };
 ```
+This is a concrete factory class. It implements the UIFactory interface and overrides the createButton and createScrollbar methods to create Windows-specific objects (**WindowsButton** and **WindowsScrollbar**).
 
 For the **WindowsButton**
 
@@ -79,9 +86,10 @@ public:
     }
 };
 ```
+**WindowsButton** and **WindowsScrollbar** classes:
+These are concrete product classes. They implement the **Button** and **Scrollbar** interfaces respectively and override their virtual functions.
 
 Now let's look at the Mac side so we have the **MacUIFactory**.
-
 
 ```
 #include "UIFactory.h"
@@ -98,6 +106,7 @@ Button* createButton() override {
 }
 };
 ```
+Similar to **WindowsUIFactory**, this is a concrete factory that creates Mac-specific objects (**MacButton** and **MacScrollbar**).
 
 For the **MacButton**,
 
@@ -112,6 +121,8 @@ public:
     }
 };
 ```
+Like the Windows counterparts, these are concrete product classes for Mac that implement Button and Scrollbar interfaces respectively.
+
 and the **MacScrollbar**
 
 ```
@@ -126,6 +137,9 @@ public:
 };
 ```
 now let's but these together in main:
+
+
+
 
 ```
 #include <iostream>
@@ -160,9 +174,8 @@ int main() {
     return 0;
 }
 ```
+In the main() function:
 
-
-When we compile and run we get
 
 ```
 WindowsButton scroll.
@@ -170,6 +183,15 @@ WindowsScrollbar scroll.
 MacButton click.
 MacScrollbar scroll.
 ```
+
+We instantiate the specific UIFactory (Windows or Mac), and then use it to create the Button and Scrollbar objects. This demonstrates the benefit of the Abstract Factory pattern: the client code (here main()) works with abstract interfaces (UIFactory, Button, Scrollbar) and is agnostic to the concrete classes.
+
+We use the factory to create the concrete Button and Scrollbar objects and invoke their actions.
+
+After usage, the objects are deleted to free up memory resources.
+
+When we compile and run we get
+
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
