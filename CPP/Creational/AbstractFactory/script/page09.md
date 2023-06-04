@@ -16,6 +16,21 @@ so we have the **MacUIFactory**
 class MacUIFactory {  };
 ```
 
+```
+: public UIFactory
+```
+
+```
+public:
+Button* createButton() override {
+    return new MacButton();
+}
+
+Scrollbar* createScrollbar() override {
+    return new MacScrollbar();
+}
+```
+
 Let make these objects
 
 
