@@ -19,8 +19,10 @@ public interface IFactory
     FactoryDataItem GetData(int type);
 }
 ```
+**IFactory** *Interface*:
+It defines a method GetData that accepts an integer type and returns an instance of **FactoryDataItem**.
 
-The we crearte the **FactoryDataItem**
+Then we crearte the **FactoryDataItem**
 
 ```
 public class FactoryDataItem
@@ -36,6 +38,9 @@ public class FactoryDataItem
     }
 }
 ```
+**FactoryDataItem Class**:
+It's a class that encapsulates an object (data item). It contains a single field *_dataItem* and a property DataItem that returns this object.
+
 Let's now create the *abstract* class **AbstractFactory**
 
 ```
