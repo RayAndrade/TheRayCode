@@ -2,11 +2,11 @@
 
 namespace TheRayCode\AbstractFactory;
 
-class CatFactory extends AbstractFactory
+class BirdFactory extends AbstractFactory
 {
 
     public function createPet()
     {
-        return new Cat();
+        return new Bird();
     }
 }
