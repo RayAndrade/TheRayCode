@@ -2,6 +2,29 @@
 
 [back](./page09.md)
 
-page10
+```
+MacButton
+```
+
+```
+class  MacButton {  };
+```
+
+```
+: public Button
+```
+
+```
+#include <iostream>
+#include "Button.h"
+```
+
+
+```
+public:
+    void click() override {
+        std::cout << "MacButton click." << std::endl;
+    }
+```
 
 [page 11](./page11.md)

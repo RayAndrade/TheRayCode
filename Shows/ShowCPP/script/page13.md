@@ -2,6 +2,38 @@
 
 [back](./page10.md)
 
-page13
+now let's but these together in main
+
+
+```
+#include "UIFactory.h"
+#include "WindowsUIFactory.h"
+#include "MacUIFactory.h"
+```
+```
+UIFactory* factory;
+
+// Use WindowsUIFactory
+factory = new WindowsUIFactory();
+Button* windowsButton = factory->createButton();
+windowsButton->click();
+Scrollbar* windowsScrollbar = factory->createScrollbar();
+windowsScrollbar->scroll();
+//delete windowsButton;
+//delete windowsScrollbar;
+//delete factory;
+
+// Use MacUIFactory
+factory = new MacUIFactory();
+Button* macButton = factory->createButton();
+macButton->click();
+Scrollbar* macScrollbar = factory->createScrollbar();
+macScrollbar->scroll();
+//delete macButton;
+//delete macScrollbar;
+//delete factory;
+```
+
+
 
 [page 14](./page14.md)

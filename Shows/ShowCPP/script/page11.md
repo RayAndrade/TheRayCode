@@ -2,6 +2,29 @@
 
 [back](./page10.md)
 
-page11
+```
+MacScrollbar
+```
+
+```
+class MacScrollbar {  };
+```
+
+```
+: public Scrollbar
+```
+
+```
+#include <iostream>
+#include "Scrollbar.h"
+```
+
+```
+public:
+    void scroll() override {
+        std::cout << "MacScrollbar scroll." << std::endl;
+    }
+```
+
 
 [page 12](./page12.md)

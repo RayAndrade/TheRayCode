@@ -2,6 +2,23 @@
 
 [back](./page06.md)
 
-page07
+```
+WindowsButton
+```
+
+```
+class WindowsButton {  };
+```
+
+```
+: public Button
+```
+
+```
+public:
+    void click() override {
+        std::cout << "WindowsButton scroll." << std::endl;
+    }
+```
 
 [page 8](./page08.md)
