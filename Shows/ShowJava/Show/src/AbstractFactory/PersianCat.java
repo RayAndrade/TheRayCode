@@ -1,5 +1,6 @@
 package AbstractFactory;
-public class PersianCat implements Animal{
+
+class PersianCat implements Animal{
     @Override
     public String getSpecies() {
         return "Persian Cat";
