@@ -59,7 +59,10 @@ enum ShapeType
     Square = 2,
     Rectangle = 3
 }
-```    
+```
+
+**ShapeType Enum**:
+It defines three constants: Circle, Square, and Rectangle, each associated with a specific integer value
 
 We create a **ShapeFactory** which is of **AbstractFactory** type
 
@@ -86,6 +89,9 @@ class ShapeFactory: AbstractFactory
     }
 }
 ```
+**ShapeFactory Class**:
+This class extends AbstractFactory and overrides the **GetData** method. It creates a new instance of **FactoryDataItem** depending on the **ShapeType** specified by the type parameter.
+
 Let crate each one of there objects,
 
 For **Circle**
@@ -101,6 +107,7 @@ class Circle
     }
 }
 ```
+
 For **Square**
 
 ```
@@ -126,6 +133,9 @@ class Rectangle
     }
 }
 ```
+**Circle**, **Square**, and **Rectangle** *Classes*:
+Each of these classes has a GetInfo method that prints a message to the console identifying the shape.
+
 Now let's make a color factory we will start with creating the **ColorType** *enum*
 
 ```
@@ -136,6 +146,9 @@ public enum ColorType
     Blue = 3
 }
 ```
+
+**ColorType Enum**:
+Similar to ShapeType, it defines three constants: Red, Green, and Blue, each associated with a specific integer value.
 
 Now lets make our color classes
 
@@ -172,6 +185,10 @@ class Green
     }
 }
 ```
+
+**Red**, **Green**, and **Blue** *Classes*:
+These classes each have a GetInfo method that prints a message to the console identifying the color.
+
 let's create the **ColorFactory**
 
 ```
@@ -196,6 +213,9 @@ public class ColorFactory
     }
 }
 ```
+**ColorFactory** *Class*:
+Similar to ShapeFactory, this class creates a new instance of FactoryDataItem depending on the ColorType specified by the type parameter.
+
 let's now buid the demo
 
 ```
@@ -214,6 +234,9 @@ internal class Program
     }
 }
 ```
+**Program Class**:
+This class has a **Main** method where ShapeFactory and ColorFactory are instantiated. Then it uses these factories to create a Circle and a Red color, and calls their GetInfo methods to print the shape and color to the console.
+
 When we compile and run we get
 ```
 This is a circle.
