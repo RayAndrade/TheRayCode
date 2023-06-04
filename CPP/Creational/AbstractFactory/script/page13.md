@@ -19,9 +19,9 @@ Button* windowsButton = factory->createButton();
 windowsButton->click();
 Scrollbar* windowsScrollbar = factory->createScrollbar();
 windowsScrollbar->scroll();
-//delete windowsButton;
-//delete windowsScrollbar;
-//delete factory;
+delete windowsButton;
+delete windowsScrollbar;
+delete factory;
 
 // Use MacUIFactory
 factory = new MacUIFactory();
@@ -29,9 +29,9 @@ Button* macButton = factory->createButton();
 macButton->click();
 Scrollbar* macScrollbar = factory->createScrollbar();
 macScrollbar->scroll();
-//delete macButton;
-//delete macScrollbar;
-//delete factory;
+delete macButton;
+delete macScrollbar;
+delete factory;
 ```
 
 
