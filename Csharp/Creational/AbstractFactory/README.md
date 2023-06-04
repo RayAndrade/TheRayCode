@@ -242,6 +242,8 @@ When we compile and run we get
 This is a circle.
 This is the red color.
 ```
+This example of the Abstract Factory Pattern allows you to create families of related objects (in this case, shapes and colors) without specifying their concrete classes. The ShapeFactory and ColorFactory abstract the creation of shapes and colors, respectively. If you wanted to add a new shape or color, you'd only need to modify the relevant factory and add a new class for the shape or color, with no changes required in the Main method.
+
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
