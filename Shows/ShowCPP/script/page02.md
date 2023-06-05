@@ -9,7 +9,7 @@ Car
 ```
 
 ```
-class Car {  }
+class Car {  };
 ```
 we add:
 
