@@ -9,7 +9,7 @@ Director
 ```
 
 ```
-IPizzaBuilder
+ : IPizzaBuilder
 ```
 which will use the builder interface to construct the complex objects step by step.
 ```
