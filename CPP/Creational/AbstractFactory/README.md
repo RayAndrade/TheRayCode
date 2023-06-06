@@ -8,7 +8,7 @@
 |---|---|---|---|---|
 | Abstract Factory | [**C++**](../../../CPP/Creational/AbstractFactory/README.md) | [**C#**](../../../Csharp/Creational/AbstractFactory/README.md) | [Java](../../../Java/Creational/AbstractFactory/README.md) | [PHP](../../../PHP/Creational/AbstractFactory/README.md) |
 
-[Show](./script/page01.md)
+[script](./script/page01.md)
 
 In our example, the Abstract Factory pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes. In our case, we will create a **UIFactory** that can create a **Button** and **Scrollbar** objects, and well also create the **WindowsUIFactory** and **MacUIFactory** that each implement the **UIFactory**.
 
