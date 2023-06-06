@@ -93,8 +93,6 @@ free(): double free detected in tcache 2
 Remember, this is a very simplified example of the Builder pattern. In real scenarios, you might have a Director class that guides the building process, especially when the process is more complex.
 
 
-[Show](./README.md)
-
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
