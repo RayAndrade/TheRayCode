@@ -1,49 +1,29 @@
+[home](./page01.md)
+
 [back](./page05.md)
 
-<<<<<<< HEAD
-For the creation of the **Dog** object we have the
+at index
 
 ```
-DogFactory
-```
-
-```
+require_once 'AbstractFactory.php';
+require_once 'AbstractPet.php';
 require_once 'Dog.php';
+require_once 'Cat.php';
+require_once 'Bird.php';
+require_once 'DogFactory.php';
+require_once 'CatFactory.php';
+require_once 'BirdFactory.php';
+
+function petSounds(AbstractFactory $factory) {
+    $pet = $factory->createPet();
+    echo $pet->makeSound() . "<br/>\n";
+}
+
+petSounds(new DogFactory());
+petSounds(new CatFactory());
+petSounds(new BirdFactory());
 ```
 
-which implements AbstractPetFactory
-
-```
-implements AbstractPetFactory 
-```
-for **Cat**
-```
-public function createCat(): Cat {  }
-```
-
-for **Dog**
-
-```
-public function createDog(): Dog {  }
-```
-
-we discourage the creation of cats
-
-```
-throw new Exception('Cannot create cats from a dog factory');
-```
-
-for dogs we have
-
-```
-return new class implements Dog {
-    public function bark(): string {
-        return 'Woof! I am a Labrador.';
-    }
-};
-```
-=======
->>>>>>> 9113628b (*)
-
+This script loads all the necessary class files and then creates pets using the factories, printing the sounds they make.
 
 [page 7](./page07.md)

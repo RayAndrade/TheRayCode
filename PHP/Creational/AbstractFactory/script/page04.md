@@ -2,30 +2,40 @@
 
 [back](./page03.md)
 
-Now let's create an Abstract Factory that will be a Factory of these **factories**
-
-This will be an **interface**
+Next, we create specific pet classes:
 
 ```
-AbstractPetFactory
+Dog
 ```
 
-Namespace: **TheRayCode\AbstractFactory**
-
-Directory: ../Show
-
-Temlplet **interface**
-
-repace **interface** with
-
 ```
-abstract class 
+extends AbstractPet
 ```
 
+```
+return "Woof! I'm a good boy!";
+```
 
 ```
-abstract public function createCat(): Cat;
-abstract public function createDog(): Dog;
+Cat
 ```
+
+extend it
+
+```
+return "Meow! Feed me, hooman!";
+```
+
+```
+Bird
+```
+
+extend it
+
+```
+return "Tweet tweet! I'm bird-brained!";
+```
+
+Here, each pet class extends AbstractPet and defines makeSound() method accordingly.
 
 [page 5](./page05.md)
