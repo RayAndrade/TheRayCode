@@ -4,6 +4,8 @@
 
 **Pizza**: This is the complex object that we are trying to build. It consists of multiple parts.
 
+Create a public class
+
 ```
 Pizza
 ```
