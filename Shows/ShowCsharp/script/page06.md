@@ -15,32 +15,27 @@ that implements the **IPizzaBuilder** interface. This class represents a specifi
 
 in this case, a **MargheritaPizzaBuilder**.
 
+Let implment them
+
+for **BuildDough**
 ```
-public MargheritaPizzaBuilder() {
-    this.Reset();
-}
+this._pizza.Dough = "Regular";
+```
 
-public void Reset() {
-    this._pizza = new Pizza();
-}
+for **BuildSauce**
+```
+this._pizza.Sauce = "Tomato";
+```
 
-public void BuildDough() {
-    this._pizza.Dough = "Regular";
-}
-
-public void BuildSauce() {
-    this._pizza.Sauce = "Tomato";
-}
-
-public void BuildTopping() {
-    this._pizza.Topping = "Cheese";
-}
-
-public Pizza GetPizza() {
-    Pizza result = this._pizza;
-    this.Reset();
-    return result;
-}
+for **BuildTopping**
+```
+this._pizza.Topping = "Cheese";
+```
+.. and for **GetPizza**
+```
+Pizza result = this._pizza;
+this.Reset();
+return result;
 ```
 
 [page 7](./page07.md)
