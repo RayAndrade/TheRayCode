@@ -4,8 +4,6 @@
 
 **Abstract Factory**
 
-**[PHP](../README.md)**  
-
 **PHP Creational Patterns**
 
 
