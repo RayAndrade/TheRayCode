@@ -1,19 +1,17 @@
 namespace Show
 {
-    public class MargheritaPizzaBuilder: IPizzaBuilder
+    public class MargheritaPizzaBuilder : IPizzaBuilder
     {
         private Pizza _pizza = new Pizza();
 
-        public MargheritaPizzaBuilder()
-        {
+        public MargheritaPizzaBuilder() {
             this.Reset();
         }
 
-        public void Reset()
-        {
+        public void Reset() {
             this._pizza = new Pizza();
         }
-
+        
         public void BuildDough()
         {
             this._pizza.Dough = "Regular";

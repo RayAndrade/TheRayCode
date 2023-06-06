@@ -8,25 +8,16 @@ Then, we have the **Director** *class*,
 Director
 ```
 
-```
- : IPizzaBuilder
-```
-which will use the builder interface to construct the complex objects step by step.
-```
- private IPizzaBuilder _pizzaBuilder;
-```
+Which loks like
 
 ```
-public Director(IPizzaBuilder pizzaBuilder) {  }
-```
+private IPizzaBuilder _pizzaBuilder;
 
-```
-this._pizzaBuilder = pizzaBuilder;
-```
+public Director(IPizzaBuilder pizzaBuilder)
+{
+    this._pizzaBuilder = pizzaBuilder;
+}
 
-and the **makePizza**
-
-```
 public void makePizza()
 {
     this._pizzaBuilder.BuildDough();
@@ -34,6 +25,5 @@ public void makePizza()
     this._pizzaBuilder.BuildTopping();
 }
 ```
-
 
 [page 8](./page08.md)
