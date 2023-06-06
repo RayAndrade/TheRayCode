@@ -2,7 +2,7 @@
 
 [back](./page07.md)
 
-Finally, we can test this in a **Main** method:
+Finally, we can test this in a **Main** method in **Program.cs**:
 
 ```
         // Create a margherita pizza builder
