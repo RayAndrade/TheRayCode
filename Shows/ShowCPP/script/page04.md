@@ -32,10 +32,6 @@ enum class ProductType {
 
 now lets add our class
 
-```
-class ProductFactory {  };
-```
-
 with our **switch** statemt
 
 ```
