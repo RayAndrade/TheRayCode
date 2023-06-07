@@ -2,41 +2,20 @@
 
 [back](./page03.md)
 
-Now, let's create a concrete builder class:
-**SportsCarBuilder**
 
+And the **ScrollBar** will have a scroll method
 ```
-SportsCarBuilder
-```
-
-```
-class SportsCarBuilder {  };
+Scrollbar
 ```
 
 ```
-: public CarBuilder
-```
-
-```
-#include "CarBuilder.h"
+class Scrollbar {  };
 ```
 
 
 ```
-private:
-    Car *car;
 public:
-    SportsCarBuilder() { this->car = new Car(); }
-    ~SportsCarBuilder() { delete car; }
-    
-    void setEngine(std::string type) override { car->Engine = type + " sports engine"; }
-    void setSeats(std::string type) override { car->Seats = type + " sports seats"; }
-    void setWheels(std::string type) override { car->Wheels = type + " sports wheels"; }
-    Car* getCar() override { return car; }
+    virtual void scroll() = 0;
 ```
-
-The SportsCarBuilder is a concrete builder implementation. It provides specific ways to build a sports car.
-
-
 
 [page 5](./page05.md)

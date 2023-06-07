@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25)
-project(Show)
+project(ShowCPP)
 
-set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Show main.cpp CarBuilder.h SportsCarBuilder.h)
+add_executable(ShowCPP main.cpp)

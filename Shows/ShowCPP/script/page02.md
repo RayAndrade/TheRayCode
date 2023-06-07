@@ -2,27 +2,26 @@
 
 [back](./page01.md)
 
-First, let's define our *product* class, **Car**:
+Let's start with the base class **UIFactory**. We'll place it in **UIFactory.h**:
 
 ```
-Car
+UIFactory
 ```
 
-```
-class Car {  };
-```
-we add:
 
 ```
-public:
-    std::string Engine, Seats, Wheels;
+class UIFactory {  };
 ```
 
+this class will mangae a couple of interfases for the Button and ScrollBar
+
 ```
-#include <string>
+#include "Button.h"
+#include "Scrollbar.h"
 ```
 
-This is a very simplified Car class with three string properties.
+So let create these objects
+
 
 
 [page 3](./page03.md)
