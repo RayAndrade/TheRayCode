@@ -4,6 +4,17 @@
 
 Now we will create a *factory class* **ProductFactory.h** that will be responsible for creating objects of **ProductA** and **ProductB**:
 
+
+```
+ProductFactory
+```
+
+```
+class ProductFactory {  };
+```
+
+add includes
+
 ```
 #include "Product.h"
 #include "ProductA.h"
