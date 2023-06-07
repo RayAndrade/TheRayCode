@@ -12,7 +12,5 @@ namespace Show
         {
             Console.WriteLine($"Dough: {Dough}, Sauce: {Sauce}, Topping: {Topping}");
         }
-        
-        
     }
 }

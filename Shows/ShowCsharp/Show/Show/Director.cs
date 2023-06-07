@@ -1,30 +1,19 @@
 namespace Show
 {
-    public class Director : IPizzaBuilder
+    public class Director
     {
         private IPizzaBuilder _pizzaBuilder;
-        
-        public Director(IPizzaBuilder pizzaBuilder) {  }
-        
-        
-        public void BuildDough()
+
+        public Director(IPizzaBuilder pizzaBuilder)
         {
-            throw new System.NotImplementedException();
+            this._pizzaBuilder = pizzaBuilder;
         }
 
-        public void BuildSauce()
+        public void makePizza()
         {
-            throw new System.NotImplementedException();
-        }
-
-        public void BuildTopping()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public Pizza GetPizza()
-        {
-            throw new System.NotImplementedException();
+            this._pizzaBuilder.BuildDough();
+            this._pizzaBuilder.BuildSauce();
+            this._pizzaBuilder.BuildTopping();
         }
     }
 }
