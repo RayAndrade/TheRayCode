@@ -2,6 +2,10 @@
 
 [back](./page03.md)
 
-page04
+In the browser we get
+
+```
+whole grain, turkey, swiss, lettuce, tomato, onions
+```
 
 [page 5](./page05.md)
