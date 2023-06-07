@@ -3,7 +3,7 @@
 [back](./page04.md)
 
 
-Finally, we will use the factory class in the **index.cpp** file:
+Finally, we will use the factory class in the **main.cpp** file:
 
 ```
 #include <iostream>
