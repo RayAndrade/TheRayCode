@@ -13,7 +13,7 @@ class ProductB {  };
 ```
 
 ```
- : public Produc
+ : public Product
 ```
 
 ```
