@@ -1,23 +1,19 @@
 <?php
 
-namespace TheRayCode\AbstractFactory;
+namespace TheRayCode\Builder;
 
-require_once 'AbstractFactory.php';
-require_once 'AbstractPet.php';
-require_once 'Dog.php';
-require_once 'Cat.php';
-require_once 'Bird.php';
-require_once 'DogFactory.php';
-require_once 'CatFactory.php';
-require_once 'BirdFactory.php';
+include 'Sandwich.php';
+include 'SandwichBuilder.php';
 
-function petSounds(AbstractFactory $factory) {
-    $pet = $factory->createPet();
-    echo $pet->makeSound() . "<br/>\n";
-}
+$sandwichBuilder = new SandwichBuilder();
 
-petSounds(new DogFactory());
-petSounds(new CatFactory());
-petSounds(new BirdFactory());
+$sandwich = $sandwichBuilder->setBread("whole grain")
+    ->setMeat("turkey")
+    ->setCheese("swiss")
+    ->setVeggies("lettuce, tomato, onions")
+    ->build();
+
+echo $sandwich;
+
 echo "The Ray Code is AWESOME!!!";
 
