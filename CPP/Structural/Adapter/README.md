@@ -6,7 +6,7 @@
 
 |Pattern|   |   |   |   |
 |---|---|---|---|---|
-| Abstract Factory | [**C++**](../../../CPP/Creational/Adapter/README.md) | [**C#**](../../../Csharp/Creational/Adapter/README.md) | [Java](../../../Java/Creational/Adapter/README.md) | [PHP](../../../PHP/Creational/Adapter/README.md) |
+| Abstract Factory | [**C++**](../../../CPP/Structural/Adapter/README.md) | [**C#**](../../../Csharp/Structural/Adapter/README.md) | [Java](../../../Java/Structural/Adapter/README.md) | [PHP](../../../PHP/Structural/Adapter/README.md) |
 
 **C++ Adapter Design Pattern**
 
