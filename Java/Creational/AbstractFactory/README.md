@@ -11,7 +11,7 @@
 
 **Java Abstract Factory Design Pattern**
 
-[Show](./script/page01.md)
+[script](./script/page01.md)
 
 Here is a brief explanation of each class, abstract class and *interface* in the example:
 
