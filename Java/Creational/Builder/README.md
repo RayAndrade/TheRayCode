@@ -8,7 +8,7 @@
 |---|---|---|---|---|
 | Builder| [**C++**](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../Csharp/Creational/Builder/README.md) | [Java](../../../Java/Creational/Builder/README.md) | [PHP](../../../PHP/Creational/Builder/README.md) | 
 
-[script](./script/page01.md)
+[script](../script/page01.md)
 
 Dessert: This is the complex object that we are trying to build. It consists of multiple parts.
 
