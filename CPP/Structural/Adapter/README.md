@@ -2,7 +2,7 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**C++ Abstract Factory Design Pattern**
+**C++ Adapter Design Pattern**
 
 |Pattern|   |   |   |   |
 |---|---|---|---|---|
