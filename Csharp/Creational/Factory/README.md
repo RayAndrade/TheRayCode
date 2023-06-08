@@ -22,6 +22,8 @@ IToy will force the reqiierment for **void Play()**;
 
 [script](./script/page01.md)
 
+[Shoe](./Show/)
+
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
