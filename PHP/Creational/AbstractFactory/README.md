@@ -11,7 +11,7 @@
 
 **PHP Abstract Factory Design Pattern**
 
-[Show](./script/page01.md)
+[script](./script/page01.md)
 
 The **Abstract Factory Pattern** is a design pattern often used in programming, including in PHP. It's a part of the *Creational Design Patterns*, focusing on ways to handle object creation mechanisms, intending to create suitable objects based on the context or the logic of the program.
 
