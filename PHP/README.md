@@ -1,7 +1,6 @@
 # [TheRayCode](../README.md) is AWESOME!!!
 
-**PHP section** [C++](../CPP/README.md) [C#](../Csharp/README.md) [Java](../Java/README.md)
- [C++](../CPP/README.md) [C#](../Csharp/README.md) [Java](../Java/README.md)
+**PHP section other languages** [C++](../CPP/README.md) [C#](../Csharp/README.md) [Java](../Java/README.md)
 
 **[Creational](./Creational/README.md)**
 
