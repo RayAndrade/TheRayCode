@@ -155,7 +155,6 @@ Tweet tweet! I'm bird-brained!
 ```
 The Ray Code is AWESOME!!!
 
-[script](./script/page01.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
