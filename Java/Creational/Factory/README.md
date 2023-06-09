@@ -8,9 +8,9 @@
 |----|---|---|---|
 |**[Factory](./Factory/README.md)** | [C++](../../CPP/Creational/Factory/README.md) | [C#](../../Csharp/Creational/Factory/README.md) | [PHP](../../PHP/Creational/Factory/README.md) |
 
-**Java Factory Design Pattern**
-
 [Show](./script/page01.md)
+
+**Java Factory Design Pattern**
 
 Let's start by creating an interface for the types of pets. We'll call it **Pet**.
 
