@@ -23,6 +23,96 @@ interface Vehicle
     public function drive();
 }
 ```
+Let's create a **Bicycle** *Vehicle* and it will need to implement the **Vehicle** interface
+
+```
+class Bicycle implements Vehicle
+{
+    public function drive()
+    {
+        echo "Riding a bicycle...<br/>\n";
+    }
+}
+```
+Let add a Car to our **Vehicle** collection
+
+```
+class Car implements Vehicle
+{
+    public function drive()
+    {
+        echo "Driving a car...<br/>\n";
+    }
+}
+```
+
+And yes! I NEED a **Motorcycle**..
+
+```
+class Motorcycle implements Vehicle
+{
+    public function drive()
+    {
+        echo "Riding a motorcycle...<br/>\n";
+    }
+}
+```
+So now let's build a **VehicleFactory** for our Vehicles
+
+```
+class VehicleFactory
+{
+    public function createVehicle($type) {
+        if ($type == 'car') {
+            return new Car();
+        } elseif ($type == 'motorcycle') {
+            return new Motorcycle();
+        } elseif ($type == 'bicycle') {
+            return new Bicycle();
+        } else {
+            throw new InvalidArgumentException("Invalid vehicle type");
+        }
+    }
+}
+```
+
+Now we can put this all in our **index.php**
+
+We start with our includes:
+
+```
+include('Vehicle.php');
+include('Car.php');
+include('Motorcycle.php');
+include('Bicycle.php');
+include('VehicleFactory.php');
+```
+
+
+Create our Vehicle objects:
+
+```
+$vehicleFactory = new VehicleFactory();
+$car = $vehicleFactory->createVehicle('car');
+$motorcycle = $vehicleFactory->createVehicle('motorcycle');
+$bicycle = $vehicleFactory->createVehicle('bicycle');
+```
+
+Display our work to the browser:
+
+```
+$car->drive();          // Output: Driving a car...
+$motorcycle->drive();   // Output: Riding a motorcycle...
+$bicycle->drive();      // Output: Riding a bicycle...
+```
+
+When veiw the browser we see
+
+```
+Driving a car...
+Riding a motorcycle...
+Riding a bicycle...
+```
 
 
 
