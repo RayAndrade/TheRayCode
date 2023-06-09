@@ -14,7 +14,7 @@
 
 **Creational design patterns** are a category of design patterns that deal with object creation. They provide flexible and reusable ways to create objects in your application. In PHP, these patterns can be used to create objects in a more flexible and efficient manner. Here are some examples of Creational design patterns in PHP:
 
-The [Abstract Factory Pattern](./AbstractFactory/README.md) in C++ provides an interface for creating families of related objects without specifying their concrete classes, promoting code flexibility and scalability.
+The [Abstract Factory Pattern](./AbstractFactory/README.md) in PHP provides an interface for creating families of related objects without specifying their concrete classes, promoting code flexibility and scalability.
 
 [Factory Method Pattern](./Factory/README.md): The Factory design pattern in C++ provides a way to create objects without specifying their exact class, promoting loose coupling and flexibility in code design.
 
