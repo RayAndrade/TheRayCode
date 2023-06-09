@@ -6,7 +6,7 @@
 
 | **Pattern** | | | |
 |----|---|---|---|
-|**[Factory](../Factory/README.md)** | [C++](../../../CPP/Creational/Factory/README.md) | [C#](../../Csharp/Creational/Factory/README.md) | [PHP](../../PHP/Creational/Factory/README.md) |
+|**[Factory](../Factory/README.md)** | [C++](../../../CPP/Creational/Factory/README.md) | [C#](../../../Csharp/Creational/Factory/README.md) | [PHP](../../../PHP/Creational/Factory/README.md) |
 
 [Show](./script/page01.md)
 
