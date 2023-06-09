@@ -1,6 +1,6 @@
 # [TheRayCode](../../README.md) is AWESOME!!! 
 
-| **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)** |
+**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)** |
 
 **PHP Creational Patterns**
 
