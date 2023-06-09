@@ -2,6 +2,8 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
+**C++ Prototype Design Pattern**
+
 |**Pattern**|   |   |   |   |
 |---|---|---|---|---|
 | **[Prototype](../Factory/README.md)**  | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Factory/README.md) | [Java](../../../Java/Creational/Prototype/README.md) | [PHP](../../../PHP/Creational/Prototype/README.md) |
