@@ -2,33 +2,32 @@
 
 [back](./page02.md)
 
-```
-Square
-```
-
-Square (Square.h): This is another concrete class that is derived from the Shape abstract base class. It provides a unique implementation of the draw() method, specific to the Square class.
+and 
 
 ```
-#include "Shape.h"
-#include <iostream>
+ProductB
 ```
 
 ```
-class Square {  };
+class ProductB {  };
 ```
 
 ```
-: public Shape
+ : public Product
+```
+
+```
+#include "Product.h"
 ```
 
 ```
 public:
-    void draw() override {
-        std::cout << "Drawing Square." << std::endl;
+    std::string GetName() override {
+        return "ProductB";
     }
 ```
 
 
-[to slide 4](./page04.md)
 
 
+[page 4](./page04.md)

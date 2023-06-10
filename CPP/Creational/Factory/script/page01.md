@@ -1,26 +1,30 @@
 [home](./page01.md)
 
+In our example of the factory design pattern using different header files and an index.cpp file to demonstrate it. For simplicity, we will create two types of products: ProductA and ProductB.
+
+First, let's define a base product class **Product.h**:
+
+create a heater file
 
 ```
-Shape
-```
-Craete a class/interface named **Shape**
-
-This is an abstract base class that declares the draw() method as a pure virtual function. All derived classes (like Circle, Square, Rectangle) are expected to implement this method. The Shape class serves as a general template for all shapes.
-
-```
-class Shape {  };
+Product
 ```
 
-Require the following methods
+```
+class Product {  };
+```
+
+```
+#include <string>
+```
+
 ```
 public:
-    virtual void draw() = 0; // Pure virtual function makes this an abstract base class
-    virtual ~Shape() {}
+    virtual ~Product() {};
+    virtual std::string GetName() = 0;
 ```
 
-[page 02](./page02.md)
 
 
 
-
+[page 2](./page02.md)

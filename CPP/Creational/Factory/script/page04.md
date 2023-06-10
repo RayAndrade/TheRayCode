@@ -2,36 +2,52 @@
 
 [back](./page03.md)
 
+Now we will create a *factory class* **ProductFactory.h** that will be responsible for creating objects of **ProductA** and **ProductB**:
+
 
 ```
-Rectangle
-```
-
-Rectangle (Rectangle.h): This is a concrete class derived from the Shape abstract base class. It implements the draw() method in a way that is unique to the Rectangle class.
-
-I am going to need **iostream**
-
-```
-#include "Shape.h"
-#include <iostream>
+ProductFactory
 ```
 
 ```
-class Rectangle {   };
+class ProductFactory {  };
 ```
 
+add includes
+
 ```
-: public Shape
+#include "Product.h"
+#include "ProductA.h"
+#include "ProductB.h"
 ```
+
+we add an enum we will use to switch which we desire the **ProductType**
+
+```
+enum class ProductType {
+    A,
+    B
+};
+```
+
+now lets add our class
+
+with our **switch** statemt
 
 ```
 public:
-    void draw() override {
-        std::cout << "Drawing Rectangle." << std::endl;
+    static Product* CreateProduct(ProductType type) {
+        switch (type) {
+            case ProductType::A:
+                return new ProductA();
+            case ProductType::B:
+                return new ProductB();
+            default:
+                return nullptr;
+        }
     }
 ```
 
 
-[to slide 5](./page05.md)
 
-
+[page 5](./page05.md)

@@ -2,30 +2,33 @@
 
 [back](./page01.md)
 
-```
-Circle
-```
+Now, let's create two concrete product classes **ProductA.h** and **ProductB.h**:
 
-Circle (Circle.h): This is a concrete class that is derived from the Shape abstract base class. It provides a specific implementation of the draw() method, which is unique to the Circle class
 
 ```
-class Circle {  };
+ProductA
 ```
 
 ```
-#include "Shape.h"
-#include <iostream>
+class ProductA {  };
 ```
 
 ```
-: public Shape
+ : public Product
 ```
+
+
+```
+#include "Product.h"
+```
+
 
 ```
 public:
-    void draw() override {
-        std::cout << "Drawing Circle." << std::endl;
+    std::string GetName() override {
+        return "ProductA";
     }
 ```
 
-[to slide 3](./page03.md)
+
+[page 3](./page03.md)

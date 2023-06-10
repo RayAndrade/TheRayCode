@@ -1,20 +1,18 @@
 #include <iostream>
-
-#include "ShapeFactory.h"
-#include <memory>
-
+#include "ProductFactory.h"
 
 int main() {
-    ShapeFactory factory;
+    Product* productA = ProductFactory::CreateProduct(ProductType::A);
+    if (productA != nullptr) {
+        std::cout << "Created: " << productA->GetName() << std::endl;
+        delete productA;
+    }
 
-    std::unique_ptr<Shape> shape1(factory.getShape("CIRCLE"));
-    if (shape1) shape1->draw();
-
-    std::unique_ptr<Shape> shape2(factory.getShape("SQUARE"));
-    if (shape2) shape2->draw();
-
-    std::unique_ptr<Shape> shape3(factory.getShape("RECTANGLE"));
-    if (shape3) shape3->draw();
+    Product* productB = ProductFactory::CreateProduct(ProductType::B);
+    if (productB != nullptr) {
+        std::cout << "Created: " << productB->GetName() << std::endl;
+        delete productB;
+    }
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
