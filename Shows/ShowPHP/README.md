@@ -1,80 +1,120 @@
-# [TheRayCode](../../../README.md) is AWESOME!!!
+# [TheRayCode](../../README.md) is AWESOME!!!
 
-**[C#](../README.md)** 
+**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
-**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
+**Java Creational Patterns**
 
-**C# Creational Patterns**
+| **Pattern** | | | |
+|----|---|---|---|
+|**[Factory](../Factory/README.md)** | [C++](../../../CPP/Creational/Factory/README.md) | [C#](../../../Csharp/Creational/Factory/README.md) | [Java](../../../Java/Creational/Factory/README.md) |
 
-|Pattern|   |   |   |   |
-|---|---|---|---|---|
-| Builder| [**C++**](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../Csharp/Creational/Builder/README.md) | [Java](../../../Java/Creational/Builder/README.md) | [PHP](../../../PHP/Creational/Builder/README.md) |
+**PHP Factory Design Pattern**
 
-[script](./script/page01.md)
+[Show](./script/page01.md)
 
-In PHP, you might create a Sandwich class as follows in a file named Sandwich.php:
+The **Factory Design Pattern** is a creational design pattern that provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created. In other words, it defines a way for creating objects without specifying the exact class of object that will be created.
 
-**Sandwich**: This is the complex object that we are trying to build. It consists of multiple parts (bread, meat, cheese, and veggies).
+Let's demonstrate the Factory Design Pattern using a PHP example. Suppose we have a website that sells different types of *vehicles*, such as cars, motorcycles, and bicycles. We can create a **Vehicle** *interface*, and then create separate classes for each type of vehicle, such as **Car**, **Motorcycle**, and **Bicycle**, that implement this interface.
+
+Here is the *interface* for **Vehicle**.
+```
+interface Vehicle
+{
+    public function drive();
+}
+```
+Let's create a **Bicycle** *Vehicle* and it will need to implement the **Vehicle** interface
 
 ```
-class SandwichBuilder {
-    private $bread;
-    private $meat;
-    private $cheese;
-    private $veggies;
-
-    function setBread($bread) {
-        $this->bread = $bread;
-        return $this;
+class Bicycle implements Vehicle
+{
+    public function drive()
+    {
+        echo "Riding a bicycle...<br/>\n";
     }
+}
+```
+Let add a Car to our **Vehicle** collection
 
-    function setMeat($meat) {
-        $this->meat = $meat;
-        return $this;
-    }
-
-    function setCheese($cheese) {
-        $this->cheese = $cheese;
-        return $this;
-    }
-
-    function setVeggies($veggies) {
-        $this->veggies = $veggies;
-        return $this;
-    }
-
-    function build() {
-        return new Sandwich($this->bread, $this->meat, $this->cheese, $this->veggies);
+```
+class Car implements Vehicle
+{
+    public function drive()
+    {
+        echo "Driving a car...<br/>\n";
     }
 }
 ```
 
-Finally, use the **SandwichBuilder** in your main PHP file (**index.php**):
-**SandwichBuilder**: This is the builder class that helps us construct a Sandwich object step by step. The builder class typically contains a set of methods to configure each part of the object being built, and a build() method to finally create the object.
-
+And yes! I NEED a **Motorcycle**..
 
 ```
-<?php
-
-include 'Sandwich.php';
-include 'SandwichBuilder.php';
-
-$sandwichBuilder = new SandwichBuilder();
-
-$sandwich = $sandwichBuilder->setBread("whole grain")
-                            ->setMeat("turkey")
-                            ->setCheese("swiss")
-                            ->setVeggies("lettuce, tomato, onions")
-                            ->build();
-
-echo $sandwich;
+class Motorcycle implements Vehicle
+{
+    public function drive()
+    {
+        echo "Riding a motorcycle...<br/>\n";
+    }
+}
 ```
-
-Your result shouled be
-
+So now let's build a **VehicleFactory** for our Vehicles
 
 ```
+class VehicleFactory
+{
+    public function createVehicle($type) {
+        if ($type == 'car') {
+            return new Car();
+        } elseif ($type == 'motorcycle') {
+            return new Motorcycle();
+        } elseif ($type == 'bicycle') {
+            return new Bicycle();
+        } else {
+            throw new InvalidArgumentException("Invalid vehicle type");
+        }
+    }
+}
 ```
+
+Now we can put this all in our **index.php**
+
+We start with our includes:
+
+```
+include('Vehicle.php');
+include('Car.php');
+include('Motorcycle.php');
+include('Bicycle.php');
+include('VehicleFactory.php');
+```
+
+
+Create our Vehicle objects:
+
+```
+$vehicleFactory = new VehicleFactory();
+$car = $vehicleFactory->createVehicle('car');
+$motorcycle = $vehicleFactory->createVehicle('motorcycle');
+$bicycle = $vehicleFactory->createVehicle('bicycle');
+```
+
+Display our work to the browser:
+
+```
+$car->drive();          // Output: Driving a car...
+$motorcycle->drive();   // Output: Riding a motorcycle...
+$bicycle->drive();      // Output: Riding a bicycle...
+```
+
+When veiw the browser we see
+
+```
+Driving a car...
+Riding a motorcycle...
+Riding a bicycle...
+```
+
+
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 

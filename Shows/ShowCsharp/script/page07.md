@@ -1,29 +1,18 @@
-[home](./page01.md)
-
 [back](./page06.md)
 
-Then, we have the **Director** *class*, 
+Now to demonstrate our work in in the **Main** method.
 
 ```
-Director
+IToy doll = SantasBag.CreateToy("doll");
+IToy car = SantasBag.CreateToy("car");
+IToy train = SantasBag.CreateToy("train");
+
+doll.Play();
+car.Play();
+train.Play();
+
+Console.ReadKey();
 ```
 
-Which loks like
+[next](./page08.md)
 
-```
-private IPizzaBuilder _pizzaBuilder;
-
-public Director(IPizzaBuilder pizzaBuilder)
-{
-    this._pizzaBuilder = pizzaBuilder;
-}
-
-public void makePizza()
-{
-    this._pizzaBuilder.BuildDough();
-    this._pizzaBuilder.BuildSauce();
-    this._pizzaBuilder.BuildTopping();
-}
-```
-
-[page 8](./page08.md)

@@ -1,55 +1,29 @@
-[home](./page01.md)
-
 [back](./page05.md)
 
-Now, we can create the **MargheritaPizzaBuilder** class 
+Now let's creat a toy factory called SantasBag this class will be responsible for creating the toy objects based on a given string input. It provides a simple interface for creating toys without knowing the exact type of toy that is being created.
 
 ```
-MargheritaPizzaBuilder
-```
-that implements the **IPizzaBuilder** interface. This class represents a specific type of Pizza, 
-
-```
- : IPizzaBuilder
+SantasBag
 ```
 
-we start with
 
 ```
-private Pizza _pizza = new Pizza();
-
-public MargheritaPizzaBuilder() {
-    this.Reset();
-}
-
-public void Reset() {
-     this._pizza = new Pizza();
+public static IToy CreateToy(string type)
+{
+    switch (type)
+    {
+        case "doll":
+            return new Doll();
+        case "car":
+            return new Car();
+        case "train":
+            return new Train();
+        default:
+            throw new ArgumentException("Invalid toy type");
+    }
  }
+
 ```
 
-in this case, a **MargheritaPizzaBuilder**.
+[next](./page07.md)
 
-Let implment them
-
-for **BuildDough**
-```
-this._pizza.Dough = "Regular";
-```
-
-for **BuildSauce**
-```
-this._pizza.Sauce = "Tomato";
-```
-
-for **BuildTopping**
-```
-this._pizza.Topping = "Cheese";
-```
-.. and for **GetPizza**
-```
-Pizza result = this._pizza;
-this.Reset();
-return result;
-```
-
-[page 7](./page07.md)

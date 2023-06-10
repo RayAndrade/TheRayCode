@@ -1,35 +1,27 @@
-[home](./page01.md)
-
 [back](./page03.md)
 
-**Pizza**: This is the complex object that we are trying to build. It consists of multiple parts.
-
-Create a public class
+the next toy I will create is a toy
 
 ```
-Pizza
+Car
 ```
 
-we add some ingreedants we need to build the pizza.
+we will extend the Car class with the IToy interface
 
 ```
-public string Dough { get; set; }
-public string Sauce { get; set; }
-public string Topping { get; set; }
+: IToy
 ```
 
-and the we put the pizza on display
+the **Car** class will requier the **Play** method
+
+so we add:
 
 ```
-public void DisplayPizza() {  }
+Console.WriteLine("Playing with a car....");
 ```
 
-```
-Console.WriteLine($"Dough: {Dough}, Sauce: {Sauce}, Topping: {Topping}");
-```
+And of couse we will need to include the System
 
-include **System** for the use of **Console**
 
- 
+[next](./page05.md)
 
-[page 5](./page05.md)

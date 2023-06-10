@@ -1,11 +1,28 @@
-[home](./page01.md)
-
 [back](./page02.md)
 
+Now let's create a Toy. Our first toy will be a 
 
-In this demo we will create is a simple implementation of the Builder pattern in C#, using a Pizza as the object to build:
+```
+Doll
+```
 
-Firstly, let's create the Pizza class, this will be the object we're building.
+we will extend the Doll class with the IToy interface
+
+```
+: IToy
+```
+
+the **Doll** class will requier the **Play** method
+
+we add:
+
+```
+Console.WriteLine("Playing with a doll...");
+```
+
+we will need to include the System
 
 
-[page 4](./page04.md)
+
+[next](./page04.md)
+

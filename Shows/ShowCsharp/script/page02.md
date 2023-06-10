@@ -1,7 +1,18 @@
-[home](./page01.md)
-
 [back](./page01.md)
 
-The Builder pattern is a creational design pattern that lets you construct complex objects step by step. It separates the construction of an object from its representation so that the same construction process can create different representations. It's particularly useful when you need to create an object with lots of possible configuration options.
+First, let's create an interface for the toys that the factory will produce. We will call this interface "IToy".
 
-[page 3](./page03.md)
+```
+IToy
+```
+
+**IToy** will force the reqiierment for
+
+
+```
+ void Play();
+``` 
+ 
+
+[next](./page03.md)
+

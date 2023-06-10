@@ -1,24 +1,27 @@
-[home](./page01.md)
-
 [back](./page04.md)
 
-**IPizzaBuilder**: This is the builder interface that specifies the steps needed to create a **Pizza**.
-
-Next, we create the IPizzaBuilder interface. This **interface** defines all the steps needed to create a Pizza.
+the next toy I will create is a toy
 
 ```
-IPizzaBuilder
+Train
 ```
 
-We will require
+we will extend the Car class with the IToy interface
 
 ```
-void BuildDough();
-void BuildSauce();
-void BuildTopping();
-Pizza GetPizza();
+: IToy
 ```
 
+the **Train** class will requier the **Play** method
+
+so we add:
+
+```
+Console.WriteLine("Playing with a train....");
+```
+
+And of couse we will need to include the System
 
 
-[page 6](./page06.md)
+[next](./page06.md)
+
