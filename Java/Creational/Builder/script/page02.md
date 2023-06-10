@@ -2,7 +2,7 @@
 
 [back](./page01.md)
 
-Firstly, let's create the **Dessert class**, this will be the object we're building:
+First, let's create the **Dessert class**, this will be the object we're building:
 
 ```
 Dessert
