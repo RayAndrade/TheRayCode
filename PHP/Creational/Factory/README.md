@@ -1,14 +1,12 @@
-# [TheRayCode](../../README.md) is AWESOME!!!
+# [TheRayCode](../../../README.md) is AWESOME!!!
 
-**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
+**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
 **PHP Creational Patterns**
 
-| **Pattern** | | | |
-|----|---|---|---|
-|**[Factory](../Factory/README.md)** | [C++](../../../CPP/Creational/Factory/README.md) | [C#](../../../Csharp/Creational/Factory/README.md) | [Java](../../../Java/Creational/Factory/README.md) |
-
-**PHP Factory Design Pattern**
+|Pattern|   |   |   |   |
+|---|---|---|---|---|
+| **Factory**| [**PHP**](../../../CPP/Creational/Factory/README.md) | [**C#**](../../../Csharp/Creational/Factory/README.md) | [Java](../../../Java/Creational/Factory/README.md) | [PHP](../../../PHP/Creational/Factory/README.md) |
 
 [Show](./script/page01.md)
 
