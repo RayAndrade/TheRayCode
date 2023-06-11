@@ -12,16 +12,6 @@
 | Prototype | [**C++**](.../CPP/Creational/Prototype/README.md) | [**C#**](../Csharp/Creational/Prototype/README.md) | [Java](../Java/Creational/Prototype/README.md) | [PHP](../PHP/Creational/Prototype/README.md) |
 | Singleton | [**C++**](../CPP/Creational/Singleton/README.md) | [**C#**](../Csharp/Creational/Singleton/README.md) | [Java](../Java/Creational/Singleton/README.md) | [PHP](../PHP/Creational/Singleton/README.md) |
 
-
-**PHP section other languages** [C++](../CPP/README.md) [C#](../Csharp/README.md) [Java](../Java/README.md)
-
-**[Creational](./Creational/README.md)**
-
-**[Structural](./Structural/README.md)**
-
-**[Behavioral](./Behavioral/README.md)**
-
-
 Design patterns are reusable solutions to common programming problems. They provide proven approaches to designing and structuring code, promoting good software engineering practices and improving the quality, maintainability, and extensibility of your PHP code. Here are several ways design patterns can help you become a better PHP programmer:
 
 1. Code organization: Design patterns help you organize your code into modular, cohesive, and loosely coupled components. This makes your codebase more manageable and easier to understand, maintain, and debug.
