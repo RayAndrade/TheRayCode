@@ -2,7 +2,7 @@
 
 **[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
-**Java Creational Patterns**
+**PHP Creational Patterns**
 
 | **Pattern** | | | |
 |----|---|---|---|
