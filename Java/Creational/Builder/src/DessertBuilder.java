@@ -1,5 +1,3 @@
-package TheRayCode.Builder;
-
 public class DessertBuilder {
     private String name;
     private int sugar;
@@ -10,17 +8,14 @@ public class DessertBuilder {
         this.name = name;
         return this;
     }
-
     public DessertBuilder setSugar(int sugar) {
         this.sugar = sugar;
         return this;
     }
-
     public DessertBuilder setButter(int butter) {
         this.butter = butter;
         return this;
     }
-
     public DessertBuilder setBaked(boolean isBaked) {
         this.isBaked = isBaked;
         return this;

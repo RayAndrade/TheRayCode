@@ -1,5 +1,3 @@
-package TheRayCode.Builder;
-
 public class Dessert {
     private final String name;
     private final int sugar;  // grams
@@ -12,7 +10,6 @@ public class Dessert {
         this.butter = butter;
         this.isBaked = isBaked;
     }
-
     @Override
     public String toString() {
         return "Dessert{" +
