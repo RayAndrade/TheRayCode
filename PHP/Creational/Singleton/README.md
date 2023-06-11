@@ -1,7 +1,5 @@
 # [TheRayCode](../../README.md) is AWESOME!!! 
 
-**Singleton**
-
 **[PHP](../README.md)** 
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
