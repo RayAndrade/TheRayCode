@@ -1,4 +1,20 @@
 
+# [TheRayCode](../../README.md) is AWESOME!!!
+
+**[Creational Patterns](../README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
+
+**Java Creational Patterns**
+
+
+|Pattern|   |   |   |   |
+|---|---|---|---|---|
+| **Builder** | [**C++**](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../Csharp/Creational/Builder/README.md) | [Java](../../../Java/Creational/Builder/README.md) | [PHP](../../../PHP/Creational/Builder/README.md) |
+
+**Java Abstract Factory Design Pattern**
+
+[script](./script/page01.md)
+
+Here is a brief explanation of each class, abstract class and *interface* in the example:
 
 First, let's create the **Dessert class**, this will be the object we're building:
 
