@@ -4,13 +4,13 @@
 
 **Java Creational Patterns**
 
-| examples using Java | | | |
+| Patterns useing Java | | | |
 |----|---|---|---|
-|**[AbstractFactory](./AbstractFactory/README.md)** | [C++](../../CPP/Creational/AbstractFactory/README.md) | [C#](../../Csharp/Creational/AbstractFactory/README.md) | [PHP](../../PHP/Creational/AbstractFactory/README.md) |
-|**[Builder](./Builder/README.md)** | [C++](../../CPP/Creational/Builder/README.md) | [C#](../../Csharp/Creational/Builder/README.md) | [PHP](../../PHP/Creational/Builder/README.md) |
-|**[Factory](./Factory/README.md)** | [C++](../../CPP/Creational/Factory/README.md) | [C#](../../Csharp/Creational/Factory/README.md) | [PHP](../../PHP/Creational/Factory/README.md) |
-|**[Prototype](./Prototype/README.md)** | [C++](../../CPP/Creational/Prototype/README.md) | [C#](../../Csharp/Creational/Prototype/README.md) | [PHP](../../PHP/Creational/Prototype/README.md) |
-|**[Singleton](./Singleton/README.md)** | [C++](../../CPP/Creational/Singleton/README.md) | [C#](../../Csharp/Creational/Singleton/README.md) | [PHP](../../PHP/Creational/Singleton/README.md) |
+|**[AbstractFactory](../AbstractFactory/README.md)** | [C++](../../CPP/Creational/AbstractFactory/README.md) | [C#](../../Csharp/Creational/AbstractFactory/README.md) | [PHP](../../PHP/Creational/AbstractFactory/README.md) |
+|**[Builder](../Builder/README.md)** | [C++](../../CPP/Creational/Builder/README.md) | [C#](../../Csharp/Creational/Builder/README.md) | [PHP](../../PHP/Creational/Builder/README.md) |
+|**[Factory](../Factory/README.md)** | [C++](../../CPP/Creational/Factory/README.md) | [C#](../../Csharp/Creational/Factory/README.md) | [PHP](../../PHP/Creational/Factory/README.md) |
+|**[Prototype](../Prototype/README.md)** | [C++](../../CPP/Creational/Prototype/README.md) | [C#](../../Csharp/Creational/Prototype/README.md) | [PHP](../../PHP/Creational/Prototype/README.md) |
+|**[Singleton](../Singleton/README.md)** | [C++](../../CPP/Creational/Singleton/README.md) | [C#](../../Csharp/Creational/Singleton/README.md) | [PHP](../../PHP/Creational/Singleton/README.md) |
 
 **Creational design patterns** are a category of design patterns that deal with object creation. They provide flexible and reusable ways to create objects in your application. In Java, these patterns can be used to create objects in a more flexible and efficient manner. Here are some examples of Creational design patterns in Java:
 
