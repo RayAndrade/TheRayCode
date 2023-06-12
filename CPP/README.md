@@ -32,33 +32,27 @@
 
 [**Proxy**](./Structural/Proxy/README.md)
 
+<h3>C++ Behavioral Patterns</h3>
 
-Adapter  Bridge  Composite  Decorator  Facade  Flyweight  Proxy 
+[**ChainOfResponsibility**](./Behavioral/ChainOfResponsibility/README.md)
 
-Structural
+[**Command**](./Behavioral/Command/README.md)
 
-**[Structural](./Structural/README.md)**
+[**Iterator**](./Behavioral/ChainOfResponsibility/README.md)
 
-**[Behavioral](./Behavioral/README.md)**
+[**Mediator**](./Behavioral/Mediator/README.md)
 
+[**Memento**](./Behavioral/Memento/README.md)
 
+[**Observer**](./Behavioral/Observer/README.md)
 
+[**State**](./Behavioral/State/README.md)
 
+[**Strategy**](./Behavioral/Strategy/README.md)
 
+[**Template**](./Behavioral/Template/README.md)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+[**Visitor**](./Behavioral/Visitor/README.md)
 
 
 
