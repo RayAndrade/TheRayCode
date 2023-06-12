@@ -2,7 +2,7 @@
 
 **[Creational Patterns](./Creational/README.md)** | **[Structural Patterns](./Structural/README.md)** | **[Behavioral Patterns](./Behavioral/README.md)**
 
-<h1>C++ Creational Patterns</h1>
+<h3>C++ Creational Patterns</h3>
 
 [**AbstractFactory**](./Creational/AbstractFactory/README.md)
 
@@ -16,7 +16,7 @@
 
 [**Singleton**](./Creational/Singleton/README.md)
 
-**C++ Structural Patterns**
+<h3>C++ Structural Patterns</h3>
 
 [**Adapter**](./Structural/Adapter/README.md)
 
