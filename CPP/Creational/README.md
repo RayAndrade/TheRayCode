@@ -8,7 +8,7 @@
 |Pattern|   |  |
 |---|---|---|
 | **Abstract Factory** | [**C++**](../../CPP/Creational/AbstractFactory/README.md) |
-| **Builder|** [**C++**](../../CPP/Creational/Builder/README.md) | 
+| **Builder** | [**C++**](../../CPP/Creational/Builder/README.md) | 
 | **Factory** | [**C++**](../../CPP/Creational/Factory/README.md) |
 | **Prototype** | [**C++**](../../../CPP/Creational/Prototype/README.md) |
 | **Singleton** | [**C++**](../../CPP/Creational/Singleton/README.md) |
