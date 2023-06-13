@@ -12,8 +12,6 @@ Efficiently managing dependencies and achieving loose coupling is a challenge fo
 
 Developers can greatly benefit from studying the Builder design pattern to improve code clarity and reduce dependency on multiple constructors or configuration parameters. The pattern simplifies object creation by *encapsulating the construction logic*, leading to cleaner and more manageable code. 
 
-[**Builder**](./Creational/Builder/README.md)
-
 [**Factory**](./Creational/Factory/README.md)
 
 [**Prototype**](./Creational/Prototype/README.md)
