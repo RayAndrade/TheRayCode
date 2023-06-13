@@ -6,7 +6,7 @@
 
 [**AbstractFactory**](./Creational/AbstractFactory/README.md)
 
-Efficiently managing dependencies and achieving loose coupling is a challenge for C++ developers. The Abstract Factory pattern addresses this by decoupling the client code from the concrete object creation, promoting modular and extensible software. 
+Efficiently managing dependencies and achieving loose coupling is a challenge for C++ developers. The **Abstract Factory pattern** addresses this by decoupling the client code from the concrete object creation, promoting modular and extensible software. 
 
 [**Builder**](./Creational/Builder/README.md)
 
