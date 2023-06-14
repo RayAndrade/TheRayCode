@@ -13,7 +13,7 @@
     <tbody>
         <tr>
             <td rowspan=4><b>Creation</b></td>
-            <td rowspan=2>[**AbstractFactory**](./Creational/AbstractFactory/README.md)</td>
+            <td rowspan=2><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
             <td>L3 Name A</td>
         </tr>
         <tr>
