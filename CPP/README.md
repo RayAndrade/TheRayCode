@@ -13,13 +13,13 @@
         <tr>
             <td rowspan=5><b>Creation</b></td>
         </tr>
-        <tr>
-            <tr><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></tr>
-            <tr><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></tr>
-            <tr><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></tr>
-            <tr><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></tr>
-            <tr><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></tr>
-            <tr><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></tr>
+        <tr rowspan=5>
+            <td><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
+            <td><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
+            <td><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
+            <td><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
+            <td><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
+            <td><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
         </tr>     
      </tbody>
 </table>
