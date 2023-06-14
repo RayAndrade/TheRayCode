@@ -9,7 +9,7 @@
            <td rowspan=2>A</td>           
         </tr>
        <tr>
-          <td>B</td>
+          <td rowspan=2>B</td>
           <td>C</td>
         </tr>
    </tbody>
