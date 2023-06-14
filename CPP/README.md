@@ -11,7 +11,6 @@
         </tr>
        <tr>
             <td rowspan=2>L2x Name B</td>
-            <td>L3 Name C</td>
         </tr>
    </tbody>
 </table>
