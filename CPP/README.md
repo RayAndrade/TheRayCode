@@ -19,7 +19,7 @@
             <td>L3 Name B</td>
         </tr>
         <tr>
-            <td rowspan=2>L2 Name B</td>
+            <td rowspan=2><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a><</td>
             <td>L3 Name C</td>
         </tr>
         <tr>
