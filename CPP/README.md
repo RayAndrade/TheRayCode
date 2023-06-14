@@ -13,7 +13,7 @@
         <tr>
             <td rowspan=5><b>Creation</b></td>
         </tr>
-        <tr rowspan=5>
+        <tr>
             <td><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
             <td><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
             <td><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
