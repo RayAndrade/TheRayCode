@@ -6,8 +6,7 @@
 <table>
    <tbody>
         <tr>
-           
-            <td rowspan=2>L2 Name A</td>
+           <td rowspan=2>L2 Name A</td>
             <td>L3 Name A</td>
         </tr>
        <tr>
