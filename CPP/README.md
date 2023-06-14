@@ -5,21 +5,16 @@
 <table>
     <thead>
         <tr>
-            <th><b>Purpose</b></th>
-            <th>Layer 2</th> 
+            <th><b>Class</b></th>
+            <th>Pattern</th> 
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4><b>Creation</b></td>
-            <td rowspan=2><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
+            <td rowspan=2><b>Creation</b></td>
+            <td><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
         </tr>
-        <tr>
-        </tr>
-        <tr>
-            <td rowspan=2><a href="./Creational/Builder/README.md">Builder</a></td>
-       </tr>
-    </tbody>
+     </tbody>
 </table>
 
 
