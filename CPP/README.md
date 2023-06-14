@@ -7,7 +7,7 @@
         <tr>
             <th><b>Purpose</b></th>
             <th>Layer 2</th>
-            <th>Layer 3</th>
+            
         </tr>
     </thead>
     <tbody>
@@ -16,15 +16,13 @@
             <td rowspan=2><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
         </tr>
         <tr>
-            <td>L3 Name B</td>
+            
         </tr>
         <tr>
             <td rowspan=2><a href="./Creational/Builder/README.md">Builder</a></td>
-            <td>L3 Name C</td>
+            
         </tr>
-        <tr>
-            <td>L3 Name D</td>
-        </tr>
+        
     </tbody>
 </table>
 
