@@ -12,7 +12,7 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4>**Creation**</td>
+            <td rowspan=4><b>Creation</b></td>
             <td rowspan=2>L2 Name A</td>
             <td>L3 Name A</td>
         </tr>
