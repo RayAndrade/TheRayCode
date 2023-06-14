@@ -11,15 +11,15 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan=2><b>Creation</b></td>
+            <td rowspan=5><b>Creation</b></td>
+            <td><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
+            <td><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
+            <td><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
+            <td><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
+            <td><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
             <td><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
         </tr>
-        <tr>
-            <td rowspan=2><b>Creation</b></td>
-            <td><a href="./Creational/AbstractFactory/README.md">AbstractFactory2</a></td>
-        </tr>
-
-    </tbody>
+     </tbody>
 </table>
 
 
