@@ -4,14 +4,7 @@
 
 
 <table>
-    <thead>
-        <tr>
-            <th>Layer x1</th>
-            <th>Layer 2</th>
-            <th>Layer 3</th>
-        </tr>
-    </thead>
-    <tbody>
+   <tbody>
         <tr>
             <td rowspan=4>L1x Name</td>
             <td rowspan=2>L2 Name A</td>
