@@ -6,11 +6,11 @@
 <table>
    <tbody>
         <tr>
-           <td rowspan=2>A</td>
-            <td>B</td>
+           <td rowspan=2>A</td>           
         </tr>
        <tr>
-            <td rowspan=2>C</td>
+          <td>B</td>
+          <td>C</td>
         </tr>
    </tbody>
 </table>
