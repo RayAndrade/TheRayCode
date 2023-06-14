@@ -6,21 +6,15 @@
 <table>
    <tbody>
         <tr>
-            <td rowspan=4>L1x Name</td>
+           
             <td rowspan=2>L2 Name A</td>
             <td>L3 Name A</td>
         </tr>
-        <tr>
-            <td>L3 Name B</td>
-        </tr>
-        <tr>
+       <tr>
             <td rowspan=2>L2x Name B</td>
             <td>L3 Name C</td>
         </tr>
-        <tr>
-            <td>L3x Name D</td>
-        </tr>
-    </tbody>
+   </tbody>
 </table>
 
 
