@@ -6,11 +6,11 @@
 <table>
    <tbody>
         <tr>
-           <td rowspan=2>L2 Name A</td>
-            <td>L3 Name A</td>
+           <td rowspan=2>A</td>
+            <td>B</td>
         </tr>
        <tr>
-            <td rowspan=2>L2x Name B</td>
+            <td rowspan=2>C</td>
         </tr>
    </tbody>
 </table>
