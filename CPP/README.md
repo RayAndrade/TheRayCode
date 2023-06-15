@@ -3,7 +3,7 @@
 **[Creational Patterns](./Creational/README.md)** | **[Structural Patterns](./Structural/README.md)** | **[Behavioral Patterns](./Behavioral/README.md)**
 
 
-| Item         | Price | # In stock |
+| Creational Patterns | Creational Patterns | Behavioral Patterns |
 |--------------|:-----:|-----------:|
 | Juicy Apples |  1.99 |        739 |
 | Bananas      |  1.89 |          6 |
@@ -30,7 +30,7 @@ Studying the **Factory design pattern** is crucial for *C++ developers* as it pr
 
 [**Singleton**](./Creational/Singleton/README.md)
 
-<h3>C++ Structural Patterns</h3>
+<h3>C++ Creational Patterns</h3>
 
 [**Adapter**](./Structural/Adapter/README.md)
 
