@@ -6,9 +6,19 @@
 | Creational Patterns | Structural Patterns | Behavioral Patterns |
 |--------------|:-----:|-----------:|
 | [**AbstractFactory**](./Creational/AbstractFactory/README.md) | [**Adapter**](./Structural/Adapter/README.md) | [**ChainOfResponsibility**](./Behavioral/ChainOfResponsibility/README.md) |
-|  |  1.89 | Command |
+| [**Builder**](./Creational/Builder/README.md) |  1.89 | Command |
+| [**Factory**](./Creational/Factory/README.md) |  1.89 |          6 |
+| [**Prototype**](./Creational/Prototype/README.md) |  1.89 |          6 |
+| [**Singleton**](./Creational/Singleton/README.md) |  1.89 |          6 |
 |  |  1.89 |          6 |
-|              |  1.89 |          6 |
+|  |  1.89 |          6 |
+|  |  1.89 |          6 |
+|  |  1.89 |          6 |
+|  |  1.89 |          6 |
+|  |  1.89 |          6 |
+|  |  1.89 |          6 |
+|  |  1.89 |          6 |
+
 
 
 
