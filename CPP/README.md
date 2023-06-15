@@ -5,9 +5,9 @@
 
 | Creational Patterns | Creational Patterns | Behavioral Patterns |
 |--------------|:-----:|-----------:|
-| Juicy Apples |  1.99 |        739 |
-| Bananas      |  1.89 |          6 |
-| Bananas      |  1.89 |          6 |
+| AbstractFactory | ChainOfResponsibility |        739 |
+|  |  1.89 | Command |
+|  |  1.89 |          6 |
 |              |  1.89 |          6 |
 
 
