@@ -4,7 +4,7 @@
 
 
 | Creational Patterns | Structural Patterns | Behavioral Patterns |
-|--------------|:-----:|-----------:|
+|--------------|-----|-----------:|
 | [**AbstractFactory**](./Creational/AbstractFactory/README.md) | [**Adapter**](./Structural/Adapter/README.md) | [**ChainOfResponsibility**](./Behavioral/ChainOfResponsibility/README.md) |
 | [**Builder**](./Creational/Builder/README.md) |  1.89 | Command |
 | [**Factory**](./Creational/Factory/README.md) |  1.89 |          6 |
