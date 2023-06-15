@@ -15,11 +15,7 @@
             <td rowspan=2>L2 Name A</td>
         </tr>
         <tr>
-            <td>L3 Name B</td>
-        </tr>
-        <tr>
             <td rowspan=2>L2 Name B</td>
-            <td>L3 Name C</td>
         </tr>
     </tbody>
 </table>
