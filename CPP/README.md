@@ -5,7 +5,7 @@
 
 | Creational Patterns | Creational Patterns | Behavioral Patterns |
 |--------------|:-----:|-----------:|
-| AbstractFactory | ChainOfResponsibility |        739 |
+| [**AbstractFactory**](./Creational/AbstractFactory/README.md) | ChainOfResponsibility |        739 |
 |  |  1.89 | Command |
 |  |  1.89 |          6 |
 |              |  1.89 |          6 |
