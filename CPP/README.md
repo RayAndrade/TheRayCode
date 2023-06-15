@@ -3,9 +3,9 @@
 **[Creational Patterns](./Creational/README.md)** | **[Structural Patterns](./Structural/README.md)** | **[Behavioral Patterns](./Behavioral/README.md)**
 
 
-| Creational Patterns | Creational Patterns | Behavioral Patterns |
+| Creational Patterns | Structural Patterns | Behavioral Patterns |
 |--------------|:-----:|-----------:|
-| [**AbstractFactory**](./Creational/AbstractFactory/README.md) | ChainOfResponsibility |        739 |
+| [**AbstractFactory**](./Creational/AbstractFactory/README.md) | [**Adapter**](./Structural/Adapter/README.md) | [**ChainOfResponsibility**](./Behavioral/ChainOfResponsibility/README.md) |
 |  |  1.89 | Command |
 |  |  1.89 |          6 |
 |              |  1.89 |          6 |
@@ -30,7 +30,7 @@ Studying the **Factory design pattern** is crucial for *C++ developers* as it pr
 
 [**Singleton**](./Creational/Singleton/README.md)
 
-<h3>C++ Creational Patterns</h3>
+<h3>C++ Structural Patterns</h3>
 
 [**Adapter**](./Structural/Adapter/README.md)
 
