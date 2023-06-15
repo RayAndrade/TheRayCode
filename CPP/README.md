@@ -4,41 +4,19 @@
 
 
 <table>
-   <tbody>
-        <tr>
-           <td rowspan=2>A</td>           
-        </tr>
-       <tr>
-          <td rowspan=2>B</td>
-          <td>C</td>
-        </tr>
-   </tbody>
-</table>
-
-
-
-<table>
-    <thead>
-        <tr>
-            <th><b>Class</b></th>
-            <th>Pattern</th> 
-        </tr>
-    </thead>
     <tbody>
         <tr>
-            <td rowspan=5><b>Creation</b></td>
+            <td rowspan=4>L1 Name</td>
+            <td rowspan=2>L2 Name A</td>
         </tr>
         <tr>
-            <td rowspan=1><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
-            <td rowspan=1><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
-            <td rowspan=1><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
-            <td rowspan=1><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
-            <td rowspan=1><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
-            <td rowspan=1><a href="./Creational/AbstractFactory/README.md">AbstractFactory</a></td>
-        </tr>     
-     </tbody>
+            <td>L3 Name B</td>
+        </tr>
+        <tr>
+            <td rowspan=2>L2 Name B</td>
+        </tr>
+    </tbody>
 </table>
-
 
 
 <h3  style="color:#333">C++ Creational Patterns</h3>
