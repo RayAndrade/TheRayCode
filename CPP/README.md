@@ -2,46 +2,12 @@
 
 **[Creational Patterns](./Creational/README.md)** | **[Structural Patterns](./Structural/README.md)** | **[Behavioral Patterns](./Behavioral/README.md)**
 
-=== start-multi-column: RightSidebar1
 
-```multi-column-settings
+| Item         | Price | # In stock |
+|--------------|:-----:|-----------:|
+| Juicy Apples |  1.99 |        739 |
+| Bananas      |  1.89 |          6 |
 
-number of columns: 2
-
-largest column: left
-
-border: disabled
-
-shadow: off
-
-```
-
-```statblock
-
-monster: Format Boss
-
-size: Gargantuan
-
-type: dragon
-
-subtype:
-
-alignment: chaotic evil
-
-ac: 22
-
-hp: 367
-
-hit_dice: 21d20
-
-speed: 40 ft., fly 80 ft., swim 40 ft.
-
-stats: [27, 14, 25, 16, 15, 19]
-
-```
-
-
-=== end-column ===
 
 
 <h3  style="color:#333">C++ Creational Patterns</h3>
