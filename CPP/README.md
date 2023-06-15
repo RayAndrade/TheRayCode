@@ -5,8 +5,8 @@
 
 | Creational Patterns | Structural Patterns | Behavioral Patterns |
 |--------------|-----|-----------|
-| [**AbstractFactory**](./Creational/AbstractFactory/README.md) | [**Adapter**](./Structural/Adapter/README.md)         | [**ChainOfResponsibility**](./Behavioral/ChainOfResponsibility/README.md) |
-| [**Builder**](./Creational/Builder/README.md)                 | [**Bridge**](./Structural/Bridge/README.md) | Command | [Command](./Behavioral/Command/README.md) | 
+| [**AbstractFactory**](./Creational/AbstractFactory/README.md) | [**Adapter**](./Structural/Adapter/README.md)         | [**Chain Of Responsibility**](./Behavioral/ChainOfResponsibility/README.md) |
+| [**Builder**](./Creational/Builder/README.md)                 | [**Bridge**](./Structural/Bridge/README.md) | Command | [**Iterator**](./Behavioral/ChainOfResponsibility/README.md) |
 | [**Factory**](./Creational/Factory/README.md)                 | [**Composite**](./Structural/Composite/README.md)     | [**Iterator**](./Behavioral/ChainOfResponsibility/README.md) |
 | [**Prototype**](./Creational/Prototype/README.md)             | [**Decorator**](./Structural/Decorator/README.md)     | [**Mediator**](./Behavioral/Mediator/README.md) |
 | [**Singleton**](./Creational/Singleton/README.md)             | [**Facade**](./Structural/Facade/README.md)           | [**Memento**](./Behavioral/Memento/README.md) |
