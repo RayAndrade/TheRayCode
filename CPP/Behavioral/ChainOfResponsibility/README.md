@@ -12,7 +12,7 @@
 
 [script](./script/page01.md)
 
-**Comming Soon**
+**Comming Soon** 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
