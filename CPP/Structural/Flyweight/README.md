@@ -6,7 +6,7 @@
 
 |Pattern|   |   |   |   |
 |---|---|---|---|---|
-| Facade | [**C++**](../../../CPP/Structural/Flyweight/README.md) | [**C#**](../../../Csharp/Structural/Flyweight/README.md) | [Java](../../../Java/Structural/Flyweight/README.md) | [PHP](../../../PHP/Structural/Flyweight/README.md) |
+| Flyweight | [**C++**](../../../CPP/Structural/Flyweight/README.md) | [**C#**](../../../Csharp/Structural/Flyweight/README.md) | [Java](../../../Java/Structural/Flyweight/README.md) | [PHP](../../../PHP/Structural/Flyweight/README.md) |
 
 **C++ Flyweight Design Pattern**
 
