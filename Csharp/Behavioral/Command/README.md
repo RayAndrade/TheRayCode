@@ -1,14 +1,21 @@
-# TheRayCode
-## is AWESOME!!!
-C# Command section
+# [TheRayCode](../../../README.md) is AWESOME!!!
 
-[RayAndrade.COM](https://www.RayAndrade.com)
+**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
+
+**C# Command Design Pattern**
+
+|Pattern|   |   |   |   |
+|---|---|---|---|---|
+| Command | [**C++**](../../../CPP/Behavioral/Command/README.md) | [**C#**](../../../Csharp/Behavioral/Command/README.md) | [Java](../../../Java/Behavioral/Command/README.md) | [PHP](../../../PHP/Behavioral/Command/README.md) |
+
+**C# Command Design Pattern**
+
+[script](./script/page01.md)
+
+**Comming Soon** 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
-[Facebook](https://www.facebook.com/TheRayCode/)
+[RayAndrade.COM](https://www.RayAndrade.com)
 
-[Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
-
-[YouTube](https://www.youtube.com/AndradeRay/)
-
+[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)

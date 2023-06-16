@@ -1,29 +1,22 @@
-# TheRayCode is AWESOME!!!
-
-**Chain Of Responsibility**
-
-**[C#](../README.md)**  
+# [TheRayCode](../../../README.md) is AWESOME!!!
 
 **[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
-**C# Behavioral Patterns**
+**C# Chain Of Responsibility Design Pattern**
 
-* **[ChainOfResponsibility](./README.md)**
-* **[Iterator](../Iterator/README.md)**
-* **[Mediator](../Mediator/README.md)**
-* **[Memento](../Memento/README.md)**
-* **[Observer](../Observer/README.md)**
-* **[State](../State/README.md)**
-* **[Strategy](../Strategy/README.md)**
-* **[Template](../Template/README.md)**
-* **[Visitor](../Visitor/README.md)**
+|Pattern|   |   |   |   |
+|---|---|---|---|---|
+| Chain Of Responsibility | [**C++**](../../../CPP/Behavioral/ChainOfResponsibility/README.md) | [**C#**](../../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../../PHP/Behavioral/ChainOfResponsibility/README.md) |
 
 **C# Chain Of Responsibility Design Pattern**
 
- * [Example 1](./COR1/README.md)
+[script](./script/page01.md)
 
-[TheRayCode.ORG](https://www.TheRayCode.ORG)
+**Comming Soon** 
+
+[TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+
