@@ -63,12 +63,10 @@ when we run this demo we get
 ```
 0x55768a152eb0
 0x55768a152eb0
-```
+``
 
-Which are the **same**.
-[TheRayCode.ORG](https://www.TheRayCode.org)
+[TheRayCode.ORG](https://www.TheRayCode.org)  
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
 [Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
-
