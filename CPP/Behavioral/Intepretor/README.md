@@ -6,7 +6,7 @@
 
 |Pattern|   |   |   |   |
 |---|---|---|---|---|
-| Command | [**C++**](../../../CPP/Behavioral/Iterator/README.md) | [**C#**](../../../Csharp/Behavioral/Iterator/README.md) | [Java](../../../Java/Behavioral/Iterator/README.md) | [PHP](../../../PHP/Behavioral/Iterator/README.md) |
+| Iterator | [**C++**](../../../CPP/Behavioral/Iterator/README.md) | [**C#**](../../../Csharp/Behavioral/Iterator/README.md) | [Java](../../../Java/Behavioral/Iterator/README.md) | [PHP](../../../PHP/Behavioral/Iterator/README.md) |
 
 **C++ Iterator Design Pattern**
 
