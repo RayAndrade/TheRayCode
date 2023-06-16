@@ -8,7 +8,7 @@
 |---|---|---|---|---|
 | Bridge | [**C++**](../../../CPP/Structural/Bridge/README.md) | [**C#**](../../../Csharp/Structural/Bridge/README.md) | [Java](../../../Java/Structural/Bridge/README.md) | [PHP](../../../PHP/Structural/Bridge/README.md) |
 
-**C++ Adapter Design Pattern**
+**C++ Bridge Design Pattern**
 
 [script](./script/page01.md)
 
