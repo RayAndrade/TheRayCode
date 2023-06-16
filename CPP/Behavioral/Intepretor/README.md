@@ -1,26 +1,26 @@
-# TheRayCode is AWESOME!!!
+# [TheRayCode](../../../README.md) is AWESOME!!!
 
-**Iterator**
-
-**[C++](../README.md)** 
-
-**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
-
-**C++ Behavioral Patterns**
-
-* **[ChainOfResponsibility](../ChainOfResponsibility/README.md)**
-* **[Iterator](./README.md)**
-* **[Mediator](../Mediator/README.md)**
-* **[Memento](../Memento/README.md)**
-* **[Observer](../Observer/README.md)**
-* **[State](../State/README.md)**
-* **[Strategy](../Strategy/README.md)**
-* **[Template](../Template/README.md)**
-* **[Visitor](../Visitor/README.md)**
+**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
 **C++ Iterator Design Pattern**
 
-[Example 1](./I1/README.md)
+|Pattern|   |   |   |   |
+|---|---|---|---|---|
+| Command | [**C++**](../../../CPP/Behavioral/Iterator/README.md) | [**C#**](../../../Csharp/Behavioral/Iterator/README.md) | [Java](../../../Java/Behavioral/Iterator/README.md) | [PHP](../../../PHP/Behavioral/Iterator/README.md) |
+
+**C++ Iterator Design Pattern**
+
+[script](./script/page01.md)
+
+**Comming Soon** 
+
+[TheRayCode.ORG](https://www.TheRayCode.org)
+
+[RayAndrade.COM](https://www.RayAndrade.com)
+
+[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+
+
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
