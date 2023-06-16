@@ -6,7 +6,7 @@
 
 |Pattern|   |   |   |   |
 |---|---|---|---|---|
-| Flyweight | [**C++**](../../../CPP/Behavioral/ChainOfResponsibility/README.md) | [**C#**](../../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../../PHP/Behavioral/ChainOfResponsibility/README.md) |
+| Chain Of Responsibility | [**C++**](../../../CPP/Behavioral/ChainOfResponsibility/README.md) | [**C#**](../../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../../PHP/Behavioral/ChainOfResponsibility/README.md) |
 
 **C++ Chain Of Responsibility Design Pattern**
 
