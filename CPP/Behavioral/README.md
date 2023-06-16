@@ -2,7 +2,7 @@
 
 **[Creational Patterns](../Creational/README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
-**C++ Structural Patterns**
+**C++ Behavioral Patterns**
 
 | examples using C++ | | | |
 |----|---|---|---|
