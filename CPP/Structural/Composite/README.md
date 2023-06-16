@@ -2,13 +2,13 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**C++ Bridge Design Pattern**
+**C++ Composite Design Pattern**
 
 |Pattern|   |   |   |   |
 |---|---|---|---|---|
-| Bridge | [**C++**](../../../CPP/Structural/Bridge/README.md) | [**C#**](../../../Csharp/Structural/Bridge/README.md) | [Java](../../../Java/Structural/Bridge/README.md) | [PHP](../../../PHP/Structural/Bridge/README.md) |
+| Composite | [**C++**](../../../CPP/Structural/Composite/README.md) | [**C#**](../../../Csharp/Structural/Composite/README.md) | [Java](../../../Java/Structural/Composite/README.md) | [PHP](../../../PHP/Structural/Composite/README.md) |
 
-**C++ Adapter Design Pattern**
+**C++ Composite Design Pattern**
 
 [script](./script/page01.md)
 
