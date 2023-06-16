@@ -1,6 +1,6 @@
 # [TheRayCode](../../../README.md) is AWESOME!!!
 
-**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
+**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](..//README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
 **C++ Adapter Design Pattern**
 
