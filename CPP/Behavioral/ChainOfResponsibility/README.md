@@ -1,6 +1,6 @@
 # [TheRayCode](../../../README.md) is AWESOME!!!
 
-**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
+**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
 **C++ Chain Of Responsibility Design Pattern**
 
