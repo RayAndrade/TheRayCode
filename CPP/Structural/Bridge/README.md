@@ -1,28 +1,21 @@
-# TheRayCode is AWESOME!!!
+# [TheRayCode](../../../README.md) is AWESOME!!!
 
-**[C++](../README.md)** 
+**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](./README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
+**C++ Bridge Design Pattern**
 
-**C++ Structural Patterns**
+|Pattern|   |   |   |   |
+|---|---|---|---|---|
+| Bridge | [**C++**](../../../CPP/Structural/Bridge/README.md) | [**C#**](../../../Csharp/Structural/Bridge/README.md) | [Java](../../../Java/Structural/Bridge/README.md) | [PHP](../../../PHP/Structural/Bridge/README.md) |
 
- * **[Adapter](../Adapter/README.md)**
- * **[Bridge](./README.md)**
- * **[Command](../Command/README.md)**
- * **[Composite](../Composite/README.md)**
- * **[Decorator](../Decorator/README.md)**
- * **[Facade](../Facade/README.md)**
- * **[Flyweight](../Flyweight/README.md)**
- * **[Proxy](../Proxy/README.md)**
+**C++ Adapter Design Pattern**
 
-**C++ Bridge Pattern**
+[script](./script/page01.md)
 
-[Example 1](./BE1/README.md)  
-
-[Example 2](./BE2/README.md)  
+**Commin Soon**
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
