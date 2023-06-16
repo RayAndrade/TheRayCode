@@ -2,13 +2,13 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**C++ Facade Design Pattern**
+**C++ Flyweight Design Pattern**
 
 |Pattern|   |   |   |   |
 |---|---|---|---|---|
-| Facade | [**C++**](../../../CPP/Structural/Facade/README.md) | [**C#**](../../../Csharp/Structural/Facade/README.md) | [Java](../../../Java/Structural/Facade/README.md) | [PHP](../../../PHP/Structural/Facade/README.md) |
+| Facade | [**C++**](../../../CPP/Structural/Flyweight/README.md) | [**C#**](../../../Csharp/Structural/Flyweight/README.md) | [Java](../../../Java/Structural/Flyweight/README.md) | [PHP](../../../PHP/Structural/Flyweight/README.md) |
 
-**C++ Decorator Design Pattern**
+**C++ Flyweight Design Pattern**
 
 [script](./script/page01.md)
 
