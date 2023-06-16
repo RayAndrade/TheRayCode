@@ -1,26 +1,24 @@
-# TheRayCode is AWESOME!!!
+# [TheRayCode](../../../README.md) is AWESOME!!!
 
-**Mediator**
-
-**[C++](../README.md)**  
-
-**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
-
-**C++ Behavioral Patterns**
-
-* **[ChainOfResponsibility](../ChainOfResponsibility/README.md)**
-* **[Iterator](../Iterator/README.md)**
-* **[Mediator](./README.md)**
-* **[Memento](../Memento/README.md)**
-* **[Observer](../Observer/README.md)**
-* **[State](../State/README.md)**
-* **[Strategy](../Strategy/README.md)**
-* **[Template](../Template/README.md)**
-* **[Visitor](../Visitor/README.md)**
+**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
 **C++ Mediator Design Pattern**
 
-[Example 1](./MR1/README.md)
+|Pattern|   |   |   |   |
+|---|---|---|---|---|
+| Mediator | [**C++**](../../../CPP/Behavioral/Mediator/README.md) | [**C#**](../../../Csharp/Behavioral/Mediator/README.md) | [Java](../../../Java/Behavioral/Mediator/README.md) | [PHP](../../../PHP/Behavioral/Mediator/README.md) |
+
+**C++ Mediator Design Pattern**
+
+[script](./script/page01.md)
+
+**Comming Soon** 
+
+[TheRayCode.ORG](https://www.TheRayCode.org)
+
+[RayAndrade.COM](https://www.RayAndrade.com)
+
+[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
