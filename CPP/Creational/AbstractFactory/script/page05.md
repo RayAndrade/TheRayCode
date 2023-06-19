@@ -10,4 +10,9 @@ public:
     virtual Scrollbar* createScrollbar() = 0;
 ```
 
+```
+#include "Button.h"
+#include "Scrollbar.h"
+```
+
 [page 6](./page06.md)
