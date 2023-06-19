@@ -23,7 +23,7 @@ class WindowsScrollbar {  };
 ```
 public:
     void scroll() override {
-        std::cout << "WindowsScrollbar scroll." << std::endl;
+        std::cout << "WindowsScrollbar is scrolling." << std::endl;
     }
 ```
 
