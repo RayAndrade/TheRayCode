@@ -1,18 +1,31 @@
 #include <iostream>
-#include "ProductFactory.h"
+#include "UIFactory.h"
+#include "WindowsUIFactory.h"
+#include "MacUIFactory.h"
+
 
 int main() {
-    Product* productA = ProductFactory::CreateProduct(ProductType::A);
-    if (productA != nullptr) {
-        std::cout << "Created: " << productA->GetName() << std::endl;
-        delete productA;
-    }
+    UIFactory* factory;
 
-    Product* productB = ProductFactory::CreateProduct(ProductType::B);
-    if (productB != nullptr) {
-        std::cout << "Created: " << productB->GetName() << std::endl;
-        delete productB;
-    }
+// Use WindowsUIFactory
+    factory = new WindowsUIFactory();
+    Button* windowsButton = factory->createButton();
+    windowsButton->click();
+    Scrollbar* windowsScrollbar = factory->createScrollbar();
+    windowsScrollbar->scroll();
+    delete windowsButton;
+    delete windowsScrollbar;
+    delete factory;
+
+// Use MacUIFactory
+    factory = new MacUIFactory();
+    Button* macButton = factory->createButton();
+    macButton->click();
+    Scrollbar* macScrollbar = factory->createScrollbar();
+    macScrollbar->scroll();
+    delete macButton;
+    delete macScrollbar;
+    delete factory;
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
