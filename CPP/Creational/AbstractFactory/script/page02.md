@@ -16,6 +16,13 @@ class UIFactory {  };
 this class will mangae a couple of interfases for the Button and ScrollBar
 
 ```
+public:
+    virtual Button* createButton() = 0;
+    virtual Scrollbar* createScrollbar() = 0;
+```
+
+
+```
 #include "Button.h"
 #include "Scrollbar.h"
 ```
