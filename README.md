@@ -2,7 +2,7 @@
 
 <a href="http://theraycode.org" rel="noopener" target="_new">Go to The Ray Code</a>
 
-**[C++](./CPP/README.md)** | **[C#](./Csharp/README.md)** | **[JAVA](./Java/README.md)**  | **[PHP](./PHP/README.md)** | **[JAVASCRIPT](./JavaScript/README.md)**  
+**[C++](./CPP/README.md)** | **[C#](./Csharp/README.md)** | **[Java](./Java/README.md)**  | **[PHP](./PHP/README.md)** | **[JavaScript](./JavaScript/README.md)**  
 
 Hi, I'm Ray and this is my code for the project I call The Ray Code.
 
@@ -18,7 +18,7 @@ They provide proven solutions to common software design problems: The GoF design
 In summary, studying the GoF design patterns can help you become a better software developer by providing you with proven solutions to common design problems, promoting best practices, improving communication among developers, making it easier to maintain and extend code, and improving your job prospects in the software industry.
 
 
-**[CPP](./CPP/README.md)** | **[CSHARP](./Csharp/README.md)** | **[JAVA](./Java/README.md)**  | **[PHP](./PHP/README.md)** | **[JAVASCRIPT](./JavaScript/README.md)**  
+**[C++](./CPP/README.md)** | **[C#](./Csharp/README.md)** | **[Java](./Java/README.md)**  | **[PHP](./PHP/README.md)** | **[JavaScript](./JavaScript/README.md)**  
 
 ![This is an image](https://i0.wp.com/rayandrade.com/wp-content/uploads/2021/12/abstract-_factory03.jpeg?resize=1536%2C1024&ssl=1)
 
@@ -31,8 +31,4 @@ In summary, studying the GoF design patterns can help you become a better softwa
 
 [pinterest](https://www.pinterest.com/TheRayCode/) | [instagram](https://www.instagram.com/the_ray_code/)
 
-[LinkedIn](https://www.linkedin.com/in/andraderay/) | [LinkedIn](https://www.linkedin.com/in/theraycode/)
-
-
-
-
+[LinkedIn Ray (me) ](https://www.linkedin.com/in/andraderay/) | [LinkedIn TheRayCod](https://www.linkedin.com/in/theraycode/)
