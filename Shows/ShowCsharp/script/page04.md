@@ -12,6 +12,10 @@ MargheritaPizzaBuilder
 
 we make implment the **IPizzaBuilder** interface.
 
+```
+ : IPizzaBuilder
+```
+
 We add prive variable for the Pizza
 
 ```
