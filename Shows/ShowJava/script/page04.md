@@ -2,6 +2,10 @@
 
 [back](./page03.md)
 
+```
+Rectangle
+```
+
 **Rectangle.java:**
 
 This class represents a rectangle and also extends the **Shape** class.
