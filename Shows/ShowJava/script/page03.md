@@ -20,6 +20,8 @@ Circle
  extends Shape
 ```
 
+use the code generation and place logic
+
 ```
 System.out.println("Drawing a circle.");
 ```
