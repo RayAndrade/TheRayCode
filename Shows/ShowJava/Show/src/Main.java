@@ -1,5 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("The Ray Code is AWESOME!!!");
+        ShapeFactory shapeFactory = new ShapeFactory();
+
+        // Create shapes using the factory
+        Shape circle = shapeFactory.createShape("circle");
+        Shape rectangle = shapeFactory.createShape("rectangle");
+
+        // Draw the shapes
+        circle.draw();
+        rectangle.draw();
     }
 }
