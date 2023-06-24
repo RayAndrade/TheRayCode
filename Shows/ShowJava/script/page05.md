@@ -19,13 +19,15 @@ ShapeFactory
 add code
 
 ```
-if (shapeType.equalsIgnoreCase("circle")) {
-    return new Circle();
-} else if (shapeType.equalsIgnoreCase("rectangle")) {
-     return new Rectangle();
-} else {
-    return null; // Handle unsupported shape types
-}
+ShapeFactory shapeFactory = new ShapeFactory();
+
+    // Create shapes using the factory
+hape circle = shapeFactory.createShape("circle");
+Shape rectangle = shapeFactory.createShape("rectangle");
+
+    // Draw the shapes
+circle.draw();
+rectangle.draw();
 ```
 
 
