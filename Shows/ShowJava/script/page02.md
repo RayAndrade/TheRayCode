@@ -20,7 +20,6 @@ make it **abstract**
 
 ```
 abstract
-
 ```
 add the abstract method  Shape **draw**
 
