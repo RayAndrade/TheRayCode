@@ -3,18 +3,38 @@
 [back](./page02.md)
 
 
-Create the class *Car*
+in the index.php page
 
-it *implements*
+we need to
+```
+require 'Car.php';
+```
+
+
+define a  car and get info
 
 ```
-Vehicle
+$car1 = new Car('Tesla Model 3', 'Red', 2020);
+echo $car1->getInfo();
 ```
 
-and for drive we have
+do another car
+```
+echo "<br/>\n";
+$car2 = $car1->clone();
+echo $car2->getInfo();
+```
+Now let's modify some property in car2, but car1 should not be affected.
 
 ```
-echo "Driving a car...<br/>";
+echo "<br/>\n";
+$car2->color = 'Blue';
+echo $car1->getInfo();
+echo "<br/>\n";
+echo $car2->getInfo();
+echo "<br/>\n";
 ```
+
+
 
 [page 4](./page04.md)

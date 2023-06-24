@@ -1,122 +1,37 @@
-# [TheRayCode](../../README.md) is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
-**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
+**[PHP](../README.md)**  
 
-**Java Creational Patterns**
+**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-| **Pattern** | | | |
-|----|---|---|---|
-|**[Factory](../Factory/README.md)** | [C++](../../../CPP/Creational/Factory/README.md) | [C#](../../../Csharp/Creational/Factory/README.md) | [Java](../../../Java/Creational/Factory/README.md) |
-
-**PHP Factory Design Pattern**
-
-[Show](./script/page01.md)
-
-The **Factory Design Pattern** is a creational design pattern that provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created. In other words, it defines a way for creating objects without specifying the exact class of object that will be created.
-
-Let's demonstrate the Factory Design Pattern using a PHP example. Suppose we have a website that sells different types of *vehicles*, such as cars, motorcycles, and bicycles. We can create a **Vehicle** *interface*, and then create separate classes for each type of vehicle, such as **Car**, **Motorcycle**, and **Bicycle**, that implement this interface.
-
-Here is the *interface* for **Vehicle**.
-```
-interface Vehicle
-{
-    public function drive();
-}
-```
-Let's create a **Bicycle** *Vehicle* and it will need to implement the **Vehicle** interface
-
-```
-class Bicycle implements Vehicle
-{
-    public function drive()
-    {
-        echo "Riding a bicycle...<br/>\n";
-    }
-}
-```
-Let add a Car to our **Vehicle** collection
-
-```
-class Car implements Vehicle
-{
-    public function drive()
-    {
-        echo "Driving a car...<br/>\n";
-    }
-}
-```
-
-And yes! I NEED a **Motorcycle**..
-
-```
-class Motorcycle implements Vehicle
-{
-    public function drive()
-    {
-        echo "Riding a motorcycle...<br/>\n";
-    }
-}
-```
-So now let's build a **VehicleFactory** for our Vehicles
-
-```
-class VehicleFactory
-{
-    public function createVehicle($type) {
-        if ($type == 'car') {
-            return new Car();
-        } elseif ($type == 'motorcycle') {
-            return new Motorcycle();
-        } elseif ($type == 'bicycle') {
-            return new Bicycle();
-        } else {
-            throw new InvalidArgumentException("Invalid vehicle type");
-        }
-    }
-}
-```
-
-Now we can put this all in our **index.php**
-
-We start with our includes:
-
-```
-include('Vehicle.php');
-include('Car.php');
-include('Motorcycle.php');
-include('Bicycle.php');
-include('VehicleFactory.php');
-```
+**PHP Creational Patterns**
 
 
-Create our Vehicle objects:
+|Pattern|   |   |   |   |
+|---|---|---|---|---|
+| **Prototype** | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [Java](../../../Java/Creational/Prototype/README.md) | [PHP](../../../PHP/Creational/Prototype/README.md) |
 
-```
-$vehicleFactory = new VehicleFactory();
-$car = $vehicleFactory->createVehicle('car');
-$motorcycle = $vehicleFactory->createVehicle('motorcycle');
-$bicycle = $vehicleFactory->createVehicle('bicycle');
-```
+**PHP Prototype Design Pattern**
 
-Display our work to the browser:
+The **Prototype** Pattern is a design pattern in which an existing object is used as a prototype to create new objects with the same or similar properties. In the context of PHP development, understanding the Prototype pattern is important due to the following reasons:
 
-```
-$car->drive();          // Output: Driving a car...
-$motorcycle->drive();   // Output: Riding a motorcycle...
-$bicycle->drive();      // Output: Riding a bicycle...
-```
+1. Efficient Object Duplication: If you need to create many similar objects or if object creation is expensive in terms of resources (time, memory, etc.), the Prototype pattern can be beneficial. The prototype already holds the default state, and creating a new object through cloning can be more efficient than instantiating a new one from scratch.
 
-When veiw the browser we see
+2. Dynamic Addition or Removal at Runtime: The Prototype pattern allows developers to add or remove properties of an object dynamically at runtime. This can offer flexibility when dealing with an object structure that can change throughout the lifecycle of a program.
 
-```
-Driving a car...
-Riding a motorcycle...
-Riding a bicycle...
-```
+3. Reduced Subclassing: The pattern can help reduce the number of subclasses that only differ in the kind of objects they create. Instead of using a factory that needs a subclass for each object type, you can use a prototype object for each type.
 
+4. Preserving the Original State: When you need an exact copy of the object, the Prototype pattern helps preserve the state that otherwise might change if the object is manipulated directly.
 
+5. Avoiding Data Lookups: Instead of making a database call or a complex lookup operation to bring an object into memory, cloning an existing, pre-configured prototype can be more efficient.
 
-[TheRayCode.ORG](https://www.TheRayCode.org)
+6. Creating Complex Objects More Conveniently: The Prototype pattern can make it more convenient to copy complex objects that have complicated construction steps.
+
+Just like other design patterns, the Prototype pattern is a tool that should be used when it's appropriate. It may not be suitable for every situation, but it can be very useful in the right context. And understanding this pattern can certainly make you a better PHP developer.
+
+[show](./script/page01.md)
+
+[TheRayCode.ORG](https://www.TheRayCode.org)  
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 

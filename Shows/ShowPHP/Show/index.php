@@ -1,17 +1,19 @@
 <?php
-namespace TheRayCode\Factory;
-include('Vehicle.php');
-include('Car.php');
-include('Motorcycle.php');
-include('Bicycle.php');
-include('VehicleFactory.php');
+require 'Car.php';
+use TheRayCode\Prototype\Car;
 
-$vehicleFactory = new VehicleFactory();
-$car = $vehicleFactory->createVehicle('car');
-$motorcycle = $vehicleFactory->createVehicle('motorcycle');
-$bicycle = $vehicleFactory->createVehicle('bicycle');
+$car1 = new Car('Tesla Model 3', 'Red', 2020);
+echo $car1->getInfo();
 
-$car->drive();          // Output: Driving a car...
-$motorcycle->drive();   // Output: Riding a motorcycle...
-$bicycle->drive();      // Output: Riding a bicycle...
+echo "<br/>\n";
+$car2 = $car1->clone();
+echo $car2->getInfo();
+
+echo "<br/>\n";
+$car2->color = 'Blue';
+echo $car1->getInfo();
+echo "<br/>\n";
+echo $car2->getInfo();
+
+
 echo "The Ray Code is AWESOME!!!";

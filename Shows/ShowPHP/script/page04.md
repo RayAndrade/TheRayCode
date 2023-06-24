@@ -2,18 +2,14 @@
 
 [back](./page03.md)
 
-Create class *Motorcycle*
+we should get
 
-it *implements*
-
-```
-Vehicle
-```
-
-and for drive we have
 
 ```
-echo "Riding a motorcycle...<br/>";
-```
+Model: Tesla Model 3, Color: Red, Year: 2020
+Model: Tesla Model 3, Color: Red, Year: 2020
+Model: Tesla Model 3, Color: Red, Year: 2020
+Model: Tesla Model 3, Color: Blue, Year: 2020
 
+```
 [page 5](./page05.md)
