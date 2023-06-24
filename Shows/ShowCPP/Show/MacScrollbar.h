@@ -1,5 +1,5 @@
 //
-// Created by ray on 6/21/23.
+// Created by ray on 6/22/23.
 //
 
 #ifndef SHOWCPP_MACSCROLLBAR_H
@@ -8,7 +8,7 @@
 #include <iostream>
 #include "Scrollbar.h"
 
-class MacScrollbar : public Scrollbar{
+class MacScrollbar: public Scrollbar {
 public:
     void scroll() override {
         std::cout << "MacScrollbar scroll." << std::endl;

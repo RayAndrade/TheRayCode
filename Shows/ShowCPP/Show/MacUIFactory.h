@@ -1,5 +1,5 @@
 //
-// Created by ray on 6/21/23.
+// Created by ray on 6/22/23.
 //
 
 #ifndef SHOWCPP_MACUIFACTORY_H
@@ -19,6 +19,5 @@ public:
         return new MacScrollbar();
     }
 };
-
 
 #endif //SHOWCPP_MACUIFACTORY_H

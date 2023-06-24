@@ -3,7 +3,6 @@
 #include "MacUIFactory.h"
 
 int main() {
-
     UIFactory* factory;
 
 // Use WindowsUIFactory
