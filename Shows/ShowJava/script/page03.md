@@ -2,9 +2,9 @@
 
 [back](./page02.md)
 
-Next we creat a Circle class object.
+Next we creat the Circle **class** object.
 
-This class represents a circle and extends the Shape class. 
+This class represents a circle and is extended by the Shape class. 
 
 The **Circle** class inherits the draw method from the **Shape** *class* and provides its own implementation specific to drawing a circle. 
 
