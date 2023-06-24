@@ -19,15 +19,15 @@ ShapeFactory
 add code
 
 ```
-ShapeFactory shapeFactory = new ShapeFactory();
-
-    // Create shapes using the factory
-Shape circle = shapeFactory.createShape("circle");
-Shape rectangle = shapeFactory.createShape("rectangle");
-
-    // Draw the shapes
-circle.draw();
-rectangle.draw();
+ public Shape createShape(String shapeType) {
+    if (shapeType.equalsIgnoreCase("circle")) {
+        return new Circle();
+    } else if (shapeType.equalsIgnoreCase("rectangle")) {
+        return new Rectangle();
+    } else {
+        return null; // Handle unsupported shape types
+    }
+}
 ```
 
 
