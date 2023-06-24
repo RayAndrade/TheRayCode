@@ -13,7 +13,7 @@ This class represents a rectangle and **also** extends the **Shape** class.
 ```
  extends Shape
 ```
-add some logic
+lets add some logic
 
 ```
 System.out.println("Drawing a rectangle.");
