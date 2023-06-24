@@ -8,7 +8,7 @@ Rectangle
 
 **Rectangle.java:**
 
-This class represents a rectangle and also extends the **Shape** class.
+This class represents a rectangle and **also** extends the **Shape** class.
 
 ```
  extends Shape
