@@ -4,10 +4,7 @@
 
 Let's go to the **main** method
 
-
 The Main class demonstrates the usage of the **Factory Pattern** by creating instances of shapes using the **ShapeFactory**. 
-
-It showcases how the factory can create different shape objects based on the provided shape type, providing a flexible and extensible way to work with shape instances.
 
 ```
  public Shape createShape(String shapeType) {
