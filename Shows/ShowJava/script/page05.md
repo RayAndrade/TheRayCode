@@ -22,7 +22,7 @@ add code
 ShapeFactory shapeFactory = new ShapeFactory();
 
     // Create shapes using the factory
-hape circle = shapeFactory.createShape("circle");
+Shape circle = shapeFactory.createShape("circle");
 Shape rectangle = shapeFactory.createShape("rectangle");
 
     // Draw the shapes
