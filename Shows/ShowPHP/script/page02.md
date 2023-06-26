@@ -7,7 +7,7 @@ I'll also demonstrate how each copy can access methods from the original object.
 
 First, let's create an interface called **CloneablePrototype** that declares a **clone()** method. This interface will be implemented by the classes that need to support cloning:
 
-interface
+**interface**
 ```
 CloneablePrototype
 ```
