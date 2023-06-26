@@ -35,13 +35,12 @@ public function getColor()
 {
     return $this->color;
 }
-
-public function clone(): CloneablePrototype
-{
-    return new Bus($this->brand, $this->color);
-}
 ```
 
+for **clone**
 
+```
+return new Bus($this->brand, $this->color);
+```
 
 [page 5](./page05.md)
