@@ -41,12 +41,13 @@ public function getColor()
 {
     return $this->color;
 }
+````
 
-public function clone(): CloneablePrototype
-{
-    return clone $this;
-}
+in *function clone()
 ```
+return clone $this;
+```
+
 
 
 
