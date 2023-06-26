@@ -2,14 +2,6 @@
 
 [back](./page03.md)
 
-we should get
+page04
 
-
-```
-Model: Tesla Model 3, Color: Red, Year: 2020
-Model: Tesla Model 3, Color: Red, Year: 2020
-Model: Tesla Model 3, Color: Red, Year: 2020
-Model: Tesla Model 3, Color: Blue, Year: 2020
-
-```
 [page 5](./page05.md)
