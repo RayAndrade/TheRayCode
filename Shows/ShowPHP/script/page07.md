@@ -5,12 +5,15 @@
 at **index.php**
 
 ```
-require_once 'Vehicle.php';
+require_once 'Car.php';
 
-class Car extends Vehicle {
-    public function __clone() {
-    }
-}
+$car1 = new Car("BMW");
+$car2 = clone $car1;
+
+$car2->model = "Audi";
+
+echo "Car 1 Model: " . $car1->getModel(); // Outputs: "Car 1 Model: BMW"
+echo "Car 2 Model: " . $car2->getModel(); // Outputs: "Car 2 Model: Audi"
 ```
 
 [page 8](./page08.md)
