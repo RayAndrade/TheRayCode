@@ -12,8 +12,8 @@ $car2 = clone $car1;
 
 $car2->model = "Audi";
 
-echo "Car 1 Model: " . $car1->getModel(); // Outputs: "Car 1 Model: BMW"
-echo "Car 2 Model: " . $car2->getModel(); // Outputs: "Car 2 Model: Audi"
+echo "Car 1 Model: " . $car1->getModel() . "<br/>"; // Outputs: "Car 1 Model: BMW"
+echo "Car 2 Model: " . $car2->getModel() . "<br/>"; // Outputs: "Car 2 Model: Audi"
 ```
 
 [page 8](./page08.md)
