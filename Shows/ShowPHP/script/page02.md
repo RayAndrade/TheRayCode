@@ -2,19 +2,10 @@
 
 [back](./page01.md)
 
-Here is an example of the **Prototype** design pattern in PHP and explain the difference between shallow copy and deep copy. 
-I'll also demonstrate how each copy can access methods from the original object. Finally, I'll organize the code by placing each class in its own PHP file and use includes in the **index.php** page. Let's start!
-
-First, let's create an interface called **CloneablePrototype** that declares a **clone()** method. This interface will be implemented by the classes that need to support cloning:
-
-**interface**
-```
-CloneablePrototype
-```
-with code 
-```
-public function clone(): CloneablePrototype;
-```
-
+**Shallow Copy**: A shallow copy of an object is a new object which is a copy of the original object. 
+The new object refers to the same memory locations as the original one. 
+So changes in one object's properties will also reflect on the other. 
+In the context of a PHP object, a shallow copy will not clone nested objects. 
+Instead, the new and original objects will reference the same nested objects.
 
 [page 3](./page03.md)

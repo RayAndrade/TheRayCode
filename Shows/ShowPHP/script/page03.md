@@ -2,53 +2,10 @@
 
 [back](./page02.md)
 
-Next, let's create a concrete class called **Car** that implements the **CloneablePrototype** interface. 
-The **Car** class will have properties like *brand* and *color*, and it will implement the **clone()** method to perform a shallow copy:
 
-```
-Car
-```
-
-which
-```
- implements CloneablePrototype
-```
-At he top we have
-```
-private $brand;
-private $color;
-
-public function __construct($brand, $color)
-{
-    $this->brand = $brand;
-    $this->color = $color;
-}
-
-public function getBrand()
-{
-    return $this->brand;
-}
-```
-
-
-```
-public function getBrand()
-{
-    return $this->brand;
-}
-
-public function getColor()
-{
-    return $this->color;
-}
-````
-
-in *function clone()
-```
-return clone $this;
-```
-
-
+**Deep Copy**: A deep copy is a process in which the copying process occurs recursively. 
+It means that any modification in the new object will not affect the original object in any case, as a completely separate copy is created. 
+In the context of a PHP object, a deep copy will also clone nested objects.
 
 
 

@@ -2,6 +2,15 @@
 
 [back](./page06.md)
 
-end
+at **index.php**
 
-[home](./page01.md)
+```
+require_once 'Vehicle.php';
+
+class Car extends Vehicle {
+    public function __clone() {
+    }
+}
+```
+
+[page 8](./page08.md)

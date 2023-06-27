@@ -2,45 +2,18 @@
 
 [back](./page03.md)
 
-Now, let's create another class called **Bus** that also implements the **CloneablePrototype** interface. 
-The **Bus** class will have similar properties like *brand* and *color*, BUT it will implement the **clone()** method to perform a **deep** copy:
+Both shallow copies and deep copies can access the same methods of the original class, as they are copies of objects of the same class.
 
-```
-Bus
-```
+The use of shallow copy vs. deep copy depends on your requirements:
+
+Use a **Shallow Copy**: When you want to copy an object and don't mind that the original and the copy can influence each other. 
+This is often used when the object's data members are primitive types or when the object doesn't contain any members which are references to other complex objects.
+    
+Use a **Deep Copy**: When you want a fully independent copy of the object, including its nested objects. 
+This is used when you don't want changes to the copied object to affect the original object.
+
+Now let's look at an example:
 
 
-which
-```
- implements CloneablePrototype
-```
-At he top we have
-
-```
-private $brand;
-private $color;
-
-public function __construct($brand, $color)
-{
-    $this->brand = $brand;
-    $this->color = $color;
-}
-
-public function getBrand()
-{
-    return $this->brand;
-}
-
-public function getColor()
-{
-    return $this->color;
-}
-```
-
-for **clone**
-
-```
-return new Bus($this->brand, $this->color);
-```
 
 [page 5](./page05.md)
