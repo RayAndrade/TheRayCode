@@ -2,6 +2,23 @@
 
 [back](./page11.md)
 
-page12
+At the index
+
+```
+require_once 'Car.php';
+
+$bmwModel = new Model("BMW");
+$car1 = new Car($bmwModel);
+$audiModel = new Model("Audi");
+$car2 = clone $car1;
+$car2->model = $audiModel;
+
+echo "Car 1 Model: " . $car1->getModel(); // Outputs: "Car 1 Model: BMW"
+echo "Car 2 Model: " . $car2->getModel(); // Outputs: "Car 2 Model: Audi"
+```
+
+
+
+
 
 [page 13](./page13.md)
