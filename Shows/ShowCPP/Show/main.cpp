@@ -1,28 +1,37 @@
-#include "UIFactory.h"
-#include "WindowsUIFactory.h"
-#include "MacUIFactory.h"
+#include <iostream>
+#include "Singleton.h"
+#include "Regular.h"
 
 int main() {
-    UIFactory* factory;
+    std::cout << "=== Singleton ===\n";
+    Singleton& s1 = Singleton::getInstance();
+    Singleton& s2 = Singleton::getInstance();
 
-// Use WindowsUIFactory
-    factory = new WindowsUIFactory();
-    Button* windowsButton = factory->createButton();
-    windowsButton->click();
-    Scrollbar* windowsScrollbar = factory->createScrollbar();
-    windowsScrollbar->scroll();
-    delete windowsButton;
-    delete windowsScrollbar;
-    delete factory;
+    std::cout << "Address of Singleton s1: " << &s1 << "\n";
+    std::cout << "Address of Singleton s2: " << &s2 << "\n";
 
-// Use MacUIFactory
-    factory = new MacUIFactory();
-    Button* macButton = factory->createButton();
-    macButton->click();
-    Scrollbar* macScrollbar = factory->createScrollbar();
-    macScrollbar->scroll();
-    delete macButton;
-    delete macScrollbar;
-    delete factory;
+    if(&s1 == &s2) {
+        std::cout << "Both pointers point to the same object.\n";
+    }
+
+    std::cout << "Singleton doing something: ";
+    s1.doSomething();
+    std::cout << "\n";
+
+    // Regular object usage
+    std::cout << "=== Regular ===\n";
+    Regular r1;
+    Regular r2;
+
+    std::cout << "Address of Regular r1: " << &r1 << "\n";
+    std::cout << "Address of Regular r2: " << &r2 << "\n";
+
+    if(&r1 != &r2) {
+        std::cout << "Both pointers point to different objects.\n";
+    }
+
+    std::cout << "Regular object doing something: ";
+    r1.doSomething();
+    std::cout << "\n";
     return 0;
 }
