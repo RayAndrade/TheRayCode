@@ -2,14 +2,19 @@
 
 [back](./page10.md)
 
-In this example, **Model** is a simple class which contains a name. 
+At the index
 
-**Vehicle** now takes a **Model** object, and its method getModel() returns the name of the model. 
+```
+require_once 'Car.php';
 
-**Car** is the same as before but with an overridden __clone() method, where it creates a deep copy by cloning the model object when a **Car** object is cloned. 
+$bmwModel = new Model("BMW");
+$car1 = new Car($bmwModel);
+$audiModel = new Model("Audi");
+$car2 = clone $car1;
+$car2->model = $audiModel;
 
-This ensures that when the model of car2 **is** changed, car1 remains unaffected.
-
-In the browser, you will see the models of car1 and car2 displayed, demonstrating that they are different and showing the use of the Prototype pattern with deep copying.
+echo "Car 1 Model: " . $car1->getModel() . "<br/>"; // Outputs: "Car 1 Model: BMW"
+echo "Car 2 Model: " . $car2->getModel() . "<br/>"; // Outputs: "Car 2 Model: Audi"
+```
 
 [page 14](./page14.md)
