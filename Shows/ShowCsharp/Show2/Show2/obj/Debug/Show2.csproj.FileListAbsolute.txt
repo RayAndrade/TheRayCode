@@ -1,0 +1,6 @@
+/home/ray/TheRayCode/TheRayCode/Shows/ShowCsharp/Show2/Show2/bin/Debug/Show2.exe
+/home/ray/TheRayCode/TheRayCode/Shows/ShowCsharp/Show2/Show2/bin/Debug/Show2.pdb
+/home/ray/TheRayCode/TheRayCode/Shows/ShowCsharp/Show2/Show2/obj/Debug/Show2.csproj.AssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Shows/ShowCsharp/Show2/Show2/obj/Debug/Show2.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Shows/ShowCsharp/Show2/Show2/obj/Debug/Show2.exe
+/home/ray/TheRayCode/TheRayCode/Shows/ShowCsharp/Show2/Show2/obj/Debug/Show2.pdb
