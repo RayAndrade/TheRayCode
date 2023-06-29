@@ -6,5 +6,7 @@ require_once 'Vehicle.php';
 
 class Car extends Vehicle
 {
-    public function __clone() { }
+    public function __clone() {
+        $this->model = clone $this->model;
+    }
 }
