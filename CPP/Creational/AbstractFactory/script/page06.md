@@ -2,33 +2,30 @@
 
 [back](./page05.md)
 
-So let's start with creating a **WindowsUIFactory**
-
 ```
-class WindowsUIFactory {  };
+WindowsScrollbar
 ```
 
 ```
-: public UIFactory
+class WindowsScrollbar {  };
+```
+
+
+```
+: public Scrollbar
+```
+
+```
+#include <iostream>
+#include "Scrollbar.h"
 ```
 
 ```
 public:
-    Button* createButton() override {
-        return new WindowsButton();
-    }
-
-    Scrollbar* createScrollbar() override {
-        return new WindowsScrollbar();
+    void scroll() override {
+        std::cout << "WindowsScrollbar is scrolling." << std::endl;
     }
 ```
 
-don't forget to add.
-```
-#include "UIFactory.h"
-#include "WindowsButton.h"
-#include "WindowsScrollbar.h"
-```
- so let's create these
 
 [page 7](./page07.md)

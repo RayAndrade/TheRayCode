@@ -2,30 +2,32 @@
 
 [back](./page07.md)
 
+
 ```
-WindowsScrollbar
+MacButton
 ```
 
 ```
-class WindowsScrollbar {  };
+class  MacButton {  };
 ```
 
-
 ```
-: public Scrollbar
+: public Button
 ```
 
 ```
 #include <iostream>
-#include "Scrollbar.h"
+#include "Button.h"
 ```
+
 
 ```
 public:
-    void scroll() override {
-        std::cout << "WindowsScrollbar is scrolling." << std::endl;
+    void click() override {
+        std::cout << "MacButton clicked." << std::endl;
     }
 ```
+
 
 
 [page 9](./page09.md)

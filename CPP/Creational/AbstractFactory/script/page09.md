@@ -2,36 +2,29 @@
 
 [back](./page08.md)
 
-Now let's look at the Mac side
-so we have the **MacUIFactory**
-
 ```
-#include "UIFactory.h"
-#include "MacButton.h"
-#include "MacScrollbar.h"
-```
-
-
-```
-class MacUIFactory {  };
+MacScrollbar
 ```
 
 ```
-: public UIFactory
+class MacScrollbar {  };
+```
+
+```
+: public Scrollbar
+```
+
+```
+#include <iostream>
+#include "Scrollbar.h"
 ```
 
 ```
 public:
-Button* createButton() override {
-    return new MacButton();
-}
-
-Scrollbar* createScrollbar() override {
-    return new MacScrollbar();
-}
+    void scroll() override {
+        std::cout << "MacScrollbar scrolled." << std::endl;
+    }
 ```
-
-Let make these objects
 
 
 [page 10](./page10.md)

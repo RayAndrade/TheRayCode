@@ -2,20 +2,23 @@
 
 [back](./page02.md)
 
-First we create the Button interface
+
+And then the **ScrollBar**. 
+
+The **Scrollbar** will have a **scroll** method.
+```
+Scrollbar
+```
 
 ```
-Button
+class Scrollbar {  };
 ```
 
-```
-class Button { };
-```
 
 ```
 public:
-    virtual void click() = 0;
+    virtual void scroll() = 0;
 ```
-the button will have a click method.
+
 
 [page 4](./page04.md)

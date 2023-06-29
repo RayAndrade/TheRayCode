@@ -2,29 +2,38 @@
 
 [back](./page09.md)
 
+
+Create **MacUIFactory**
+
+
 ```
-MacButton
+MacUIFactory
 ```
 
 ```
-class  MacButton {  };
+class MacUIFactory {  };
 ```
 
 ```
-: public Button
-```
-
-```
-#include <iostream>
-#include "Button.h"
+: public UIFactory
 ```
 
 
 ```
 public:
-    void click() override {
-        std::cout << "MacButton click." << std::endl;
-    }
+Button* createButton() override {
+    return new MacButton();
+}
+ Scrollbar* createScrollbar() override {
+    return new MacScrollbar();
+}
 ```
+We Need 
+```
+#include "UIFactory.h"
+#include "MacButton.h"
+#include "MacScrollbar.h"
+```
+
 
 [page 11](./page11.md)

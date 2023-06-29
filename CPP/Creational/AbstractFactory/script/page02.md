@@ -2,33 +2,20 @@
 
 [back](./page01.md)
 
-Let's start with the base class **UIFactory**. We'll place it in **UIFactory.h**:
+First we create the Button interface
 
 ```
-UIFactory
+Button
 ```
 
-
 ```
-class UIFactory {  };
+class Button { };
 ```
-
-this class will mangae a couple of interfases for the Button and ScrollBar
 
 ```
 public:
-    virtual Button* createButton() = 0;
-    virtual Scrollbar* createScrollbar() = 0;
+    virtual void click() = 0;
 ```
-
-
-```
-#include "Button.h"
-#include "Scrollbar.h"
-```
-
-So let create these objects
-
-
+the button will have a click method.
 
 [page 3](./page03.md)

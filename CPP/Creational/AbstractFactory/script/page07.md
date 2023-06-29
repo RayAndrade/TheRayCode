@@ -2,28 +2,43 @@
 
 [back](./page06.md)
 
+Now let's look at the Mac side
+so we have the **MacUIFactory**
+
 ```
-WindowsButton
+MacUIFactory
+```
+
+
+```
+class MacUIFactory {  };
 ```
 
 ```
-class WindowsButton {  };
-```
-
-```
-: public Button
+: public UIFactory
 ```
 
 ```
 public:
-    void click() override {
-        std::cout << "WindowsButton CLICK!!." << std::endl;
-    }
+Button* createButton() override {
+    return new MacButton();
+}
+
+Scrollbar* createScrollbar() override {
+    return new MacScrollbar();
+}
 ```
 
+
 ```
-#include <iostream>
-#include "Button.h"
+#include "UIFactory.h"
+#include "MacButton.h"
+#include "MacScrollbar.h"
 ```
+
+
+Let make these objects
+
+
 
 [page 8](./page08.md)
