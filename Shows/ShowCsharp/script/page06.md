@@ -2,6 +2,6 @@
 
 [back](./page05.md)
 
-page06
+end
 
-[page 7](./page07.md)
+[Goto start](./page01.md)
