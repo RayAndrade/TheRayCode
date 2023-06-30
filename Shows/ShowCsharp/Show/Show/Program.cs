@@ -15,7 +15,7 @@ namespace Show
             person2.Address.City = "Townsville";
 
 // Deep copy
-            Pgiterson person3 = person1.DeepCopy();
+            Person person3 = person1.DeepCopy();
             person3.Name = "Mike";
             person3.Address.City = "Villageville";
 
