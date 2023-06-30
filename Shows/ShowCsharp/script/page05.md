@@ -2,6 +2,22 @@
 
 [back](./page04.md)
 
+```
+John
+Townsville
+123 Main St
+
+ShallowCopy
+Jane
+Townsville
+123 Main St
+
+DeepCopy
+Mike
+Villageville
+123 Main St
+```
+
 In the above example, we create a **Person** object (**person1**) with a given name and address. 
 
 Then, we create a **shallow copy** (**person2**) and *modify* the name and the city of the **address**. 
