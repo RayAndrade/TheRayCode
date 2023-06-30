@@ -1,6 +1,6 @@
 [home](./page01.md)
 
-Here's an example of the **Singleton** pattern in C++ with each class in its own **.h** file.
+In this example of the **Singleton** pattern in C++ with each class in its own **.h** file.
 
 I'll also provide a Demo in the **main** method *file* named **Demo.cpp** to showcase its usage. 
 
