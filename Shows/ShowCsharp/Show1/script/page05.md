@@ -4,33 +4,41 @@
 
 Finally, we can test this in a **Main** method:
 
+
+**1**
 ```
         //Create a margherita pizza builder
 var pizzaBuilder = new MargheritaPizzaBuilder();
 ```
 
+**2**
 Use the director to make the pizza
 ```
         //Create a margherita pizza builder
 var pizzaBuilder = new MargheritaPizzaBuilder();
 ```
 
+**3**
 ```
         // Pass the pizza builder to the director
 var director = new Director(pizzaBuilder);
 ```
+
+**4**
 
 ```
         // Use the director to make the pizza
 director.makePizza();
 ```
 
+**5**
 
 ```
         // Retrieve the finished pizza
 var pizza = pizzaBuilder.GetPizza();        
 ```
 
+**6**
 
 ```
         // Display the pizza
