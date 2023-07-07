@@ -9,12 +9,14 @@ Finally, we can test this in a **Main** method:
 ```
         //Create a margherita pizza builder
 var pizzaBuilder = new MargheritaPizzaBuilder();
+
 ```
 
 **2**
 ```
         // Pass the pizza builder to the director
 var director = new Director(pizzaBuilder);
+
 ```
 
 **3**
@@ -22,20 +24,23 @@ var director = new Director(pizzaBuilder);
 ```
         // Use the director to make the pizza
 director.makePizza();
+
 ```
 
 **4**
 
 ```
         // Retrieve the finished pizza
-var pizza = pizzaBuilder.GetPizza();        
+var pizza = pizzaBuilder.GetPizza();
+       
 ```
 
-**4**
+**5**
 
 ```
         // Display the pizza
-pizza.DisplayPizza();       
+pizza.DisplayPizza();
+    
 ```
 
 Your code should look like:
