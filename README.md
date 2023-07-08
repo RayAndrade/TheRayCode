@@ -31,4 +31,4 @@ In summary, studying the GoF design patterns can help you become a better softwa
 
 [pinterest](https://www.pinterest.com/TheRayCode/) | [instagram](https://www.instagram.com/the_ray_code/)
 
-[LinkedIn Ray (me) ](https://www.linkedin.com/in/andraderay/) | [LinkedIn TheRayCod](https://www.linkedin.com/in/theraycode/)
+[LinkedIn Ray (me) ](https://www.linkedin.com/in/andraderay/) | [LinkedIn TheRayCode](https://www.linkedin.com/in/theraycode/)
