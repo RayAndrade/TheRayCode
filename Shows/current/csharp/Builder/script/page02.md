@@ -2,6 +2,10 @@
 
 [back](./page01.md)
 
+```
+Monster
+```
+
 This is the 'Product' class.
 
 ```
