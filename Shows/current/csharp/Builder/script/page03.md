@@ -3,7 +3,43 @@
 [back](./page02.md)
 
 
-page03
+```
+MonsterBuilderDrFrank
+```
+
+
+```
+ : IBuilder
+```
+
+
+
+```
+private Monster _monster = new Monster();
+```
+**SetName**
+
+```
+_monster.Name = name;
+```
+
+**SetBodyType**
+
+```
+_monster.BodyType = bodyType;
+```
+
+**SetEyeColor**
+
+```
+_monster.EyeColor = color;
+```
+
+**GetMonster**
+
+```
+return _monster;
+```
 
 
 [page 4](./page04.md)
