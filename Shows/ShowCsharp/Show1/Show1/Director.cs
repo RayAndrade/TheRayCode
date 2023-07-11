@@ -3,7 +3,6 @@ namespace Show1
     public class Director
     {
         private IPizzaBuilder _pizzaBuilder;
-        
         public Director(IPizzaBuilder pizzaBuilder)
         {
             this._pizzaBuilder = pizzaBuilder;
