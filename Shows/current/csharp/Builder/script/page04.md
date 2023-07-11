@@ -3,6 +3,9 @@
 [back](./page03.md)
 
 DirectorIgor.cs
+```
+DirectorIgor
+```
 
 The 'DirectorIgor' class defines the order in which to execute the building steps.
 
