@@ -11,7 +11,7 @@ This is the 'Product' class.
 ```
 public string Name { get; set; }
 public string CatchPhrase { get; set; }
-public string EyeColor { get; set; }
+public string SetHeadType { get; set; }
 ```
 
 **Monster** is the complex object that is being built.
@@ -20,7 +20,7 @@ public string EyeColor { get; set; }
 ```
 public void Describe()
 {
-    Console.WriteLine($"Monster: {Name} with a {BodyType} body and eye color {EyeColor} eyes");
+    Console.WriteLine($"Monster: {Name} catch phrase {CatchPhrase} with head type {SetHeadType}");
 }
 ```
 
