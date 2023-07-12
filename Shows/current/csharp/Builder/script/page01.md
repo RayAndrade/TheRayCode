@@ -10,7 +10,7 @@ Here, we'll use the Builder design pattern to construct a 'monster' object.
 
 Let's break it down into different .cs files:
 
-**IBuilder** is the **interface** that outlines necessary steps for building a complex object.
+**IMonster** is the **interface** that outlines necessary steps for building a complex object.
 
 ```
 IMonster
