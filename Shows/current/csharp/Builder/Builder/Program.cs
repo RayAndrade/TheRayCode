@@ -6,7 +6,15 @@ namespace Builder
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("TheRayCode is AWESOME!!!");
+            DirectorFrankenstein drFrank = new DirectorFrankenstein();
+            IgoreMonsterBuilder igor = new IgoreMonsterBuilder();
+        
+            // Director uses the builder to construct the object
+            drFrank.Construct(builderDrFrank);
+        
+            Monster monster = builderDrFrank.GetMonster();
+        
+            monster.Describe();
         }
     }
 }
