@@ -13,14 +13,14 @@ Let's break it down into different .cs files:
 **IBuilder** is the **interface** that outlines necessary steps for building a complex object.
 
 ```
-IBuilder
+IMonster
 ```
 
 
 ```
 void SetName(string name);
-void SetBodyType(string bodyType);
-void SetEyeColor(string color);
+void SetSpeach(string bodyType);
+void SetHairColor(string color);
 Monster GetMonster();
 ```
 
