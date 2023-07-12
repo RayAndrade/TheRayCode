@@ -18,7 +18,7 @@
 * **[Template](../Template/README.md)**
 * **[Visitor](../Visitor/README.md)**
 
-**C# Statergy Design Pattern**
+**C# Statergy Design Pattern**[touch me](./Show/README.md)
 
 [Example 1](./SY1/README.md)
 
