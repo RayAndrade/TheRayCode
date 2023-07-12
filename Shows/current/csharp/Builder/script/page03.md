@@ -4,12 +4,12 @@
 
 
 ```
-MonsterBuilderDrFrank
+IgoreMonsterBuilder
 ```
 
 
 ```
- : IBuilder
+ : IMonster
 ```
 
 
@@ -23,7 +23,7 @@ private Monster _monster = new Monster();
 _monster.Name = name;
 ```
 
-**SetBodyType**
+**SetHeadType**
 
 ```
 _monster.BodyType = bodyType;
