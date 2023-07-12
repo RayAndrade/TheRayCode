@@ -116,6 +116,9 @@ public class Program
 When we compile and run we get
 
 ```
+Roar!
+Squeak!
+Squeak!
 ```
 The Strategy pattern is useful when there are several algorithms that can be used interchangeably. The pattern lets you swap the algorithm used at runtime. It's also useful when an algorithm uses data that the client shouldn't know about. The algorithm can be encapsulated in its own class that provides the strategy.
 
@@ -125,7 +128,7 @@ In this example, the strategy pattern lets the Animal class switch between diffe
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
 
 
 
