@@ -20,7 +20,7 @@ IMonster
 ```
 void SetName(string name);
 void SetSpeech(string bodyType);
-void SetHairColor(string color);
+void SetHeadType(string color);
 Monster GetMonster();
 ```
 
