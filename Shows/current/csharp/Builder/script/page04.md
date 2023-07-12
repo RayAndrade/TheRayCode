@@ -15,9 +15,9 @@ public void Construct(IBuilder builder) {  }
 ```
 
 ```
-builder.SetName("Frank");
-builder.SetCatchPhase("They did the moser mash");
-builder.SetHeadType("flat");
+monster.SetName("Frank");
+monster.SetCatchPhase("They did the moser mash");
+monster.SetHeadType("flat");
 ```
 
 
