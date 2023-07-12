@@ -19,7 +19,7 @@ IMonster
 
 ```
 void SetName(string name);
-void SetSpeech(string bodyType);
+void SetCatchPhase(string phrase);
 void SetHeadType(string color);
 Monster GetMonster();
 ```
