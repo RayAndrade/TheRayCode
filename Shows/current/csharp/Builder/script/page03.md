@@ -23,16 +23,16 @@ private Monster _monster = new Monster();
 _monster.Name = name;
 ```
 
+**SetCatchPhase**
+
+```
+_monster.CatchPhrase = phrase;
+```
+
 **SetHeadType**
 
 ```
-_monster.BodyType = bodyType;
-```
-
-**SetEyeColor**
-
-```
-_monster.EyeColor = color;
+_monster.SetHeadType = type;
 ```
 
 **GetMonster**
