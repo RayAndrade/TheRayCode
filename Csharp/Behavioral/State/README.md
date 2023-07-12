@@ -22,121 +22,28 @@
 
 [taarget](./Show/README.md)
 
-
 [Example 1](./SE1/README.md)
 
-I need an example of the State design pattern in c#. Place each class in its own .cs page. Place the demo in the main method file named Program. Describe the utility of each file. Describe when you would use the State design pattern in. Use sleep eat cycle as your states.
+The **State** design pattern is a *behavioral* design pattern, which means it's primarily concerned with the communication between objects and how they change over time. 
+In the context of the **State** pattern, it's all about allowing an object to modify its behavior when its internal state changes, without using intricate conditional statements.
 
-let's implement the State pattern in C#. The State pattern allows an object to alter its behavior when its internal state changes. The object will appear to change its class.
+Here's an analogy that might help: imagine you are a vending machine.
+The State design pattern is like the different modes you can be in, based on what's happening. 
+If someone has just inserted a coin, you're in "Accepting Selection" mode. If they've made a selection and you're dispensing the product, you're in "Dispensing" mode. 
+If no one has inserted a coin yet, you might be in "Idle" mode. Each of these modes corresponds to a different set of behaviors or actions you can take.
 
-Let's use the context of a person who can be in different states such as Sleeping or Eating.
+In the context of an object in a program, these "modes" are different states the object can be in, and the behaviors are what methods the object will execute.
 
-**IState.cs**
+When we use the State design pattern, instead of using complex conditional statements within our methods to determine behavior based on the object's current state, we encapsulate the state-specific behaviors within different state classes. 
+These state classes all follow the same interface, so they have the same set of methods, but they implement them differently based on what's appropriate for that state.
 
-This file defines an interface for all states. Each state will implement the Handle method, which takes the Context (the person) and alters its state.
+The object whose behavior is changing, often called the context object, maintains a reference to one of these state classes, which represents its current state. When a method is called on the context object, it delegates that call to the corresponding method in its current state object. 
+To change the object's behavior, we simply switch out the current state object for a different one.
 
-```
-public interface IState
-{
-    void Handle(Context context);
-}
-```
-**SleepState.cs**
-
-This file defines the SleepState class that implements IState. When Handle is called, it changes the state of the context to sleeping.
-
-```
-public class SleepState : IState
-{
-    public void Handle(Context context)
-    {
-        Console.WriteLine("Going to Sleep");
-        context.SetState(this);
-    }
-
-    public override string ToString()
-    {
-        return "Sleeping";
-    }
-}
-```
-**EatState.cs**
-
-This file defines the EatState class that implements IState. When Handle is called, it changes the state of the context to eating.
-
-```
-public class EatState : IState
-{
-    public void Handle(Context context)
-    {
-        Console.WriteLine("Going to Eat");
-        context.SetState(this);
-    }
-
-    public override string ToString()
-    {
-        return "Eating";
-    }
-}
-```
-**Context.cs**
-
-This file defines the Context class. In the context of our example, this is the person whose state can change. The Request method delegates state changing to the current IState object.
-
-```
-public class Context
-{
-    private IState _state;
-
-    public Context()
-    {
-        _state = new SleepState();
-    }
-
-    public void SetState(IState state)
-    {
-        _state = state;
-    }
-
-    public void Request()
-    {
-        _state.Handle(this);
-    }
-}
-```
-**Program.cs**
-
-This is the entry point for the application. It creates a Context (person) and changes its state from sleeping to eating.
-
-```
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Context context = new Context();
-
-        SleepState sleepState = new SleepState();
-        sleepState.Handle(context);
-        Console.WriteLine(context.ToString());
-
-        EatState eatState = new EatState();
-        eatState.Handle(context);
-        Console.WriteLine(context.ToString());
-    }
-}
-```
-
-When we compile and run we get
-
-```
-Going to Sleep
-Show.Context
-Going to Eat
-Show.Context
-```
-The State design pattern is used when an object's behavior should change with its state, and when complex conditions tie object behavior to its state. This pattern is used to avoid complex conditional or multibranch statements. This example demonstrated that a person can be in different states (sleeping, eating) and how this can be cleanly handled with the State pattern.
-
-
+The benefit of the State design pattern is that it makes it much easier to manage an object with many possible states and behaviors. 
+Each state and its associated behavior is isolated to its own class, following the principle of Single Responsibility, which makes the code easier to understand, maintain, and extend. 
+Adding new states or changing behavior involves adding or modifying isolated state classes, rather than changing a complex network of conditional statements. 
+This is a powerful tool when dealing with complex systems that are subject to change.
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
