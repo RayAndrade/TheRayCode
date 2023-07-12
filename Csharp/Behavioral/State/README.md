@@ -20,7 +20,7 @@
 
 **C# State Design Pattern**
 
-[taarget](./Show/README.md)
+[Example](./Show/README.md)
 
 [Example 1](./SE1/README.md)
 
