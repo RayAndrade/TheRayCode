@@ -11,7 +11,7 @@ This is the 'Product' class.
 ```
 public string Name { get; set; }
 public string CatchPhrase { get; set; }
-public string SetHeadType { get; set; }
+public string HeadType { get; set; }
 ```
 
 **Monster** is the complex object that is being built.
