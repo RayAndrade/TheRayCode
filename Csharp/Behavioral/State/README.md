@@ -126,7 +126,13 @@ public class Program
 When we compile and run we get
 
 ```
+Going to Sleep
+Show.Context
+Going to Eat
+Show.Context
 ```
+The State design pattern is used when an object's behavior should change with its state, and when complex conditions tie object behavior to its state. This pattern is used to avoid complex conditional or multibranch statements. This example demonstrated that a person can be in different states (sleeping, eating) and how this can be cleanly handled with the State pattern.
+
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
