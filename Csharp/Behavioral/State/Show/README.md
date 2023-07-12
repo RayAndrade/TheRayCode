@@ -8,7 +8,7 @@
 
 **C# Behavioral Patterns**
 
-* **[ChainOfResponsibility](../ChainOfResponsibility/README.md)**
+* **[ChainOfResponsibility](.../../../ChainOfResponsibility/README.md)**
 * **[Iterator](../Iterator/README.md)**
 * **[Mediator](../Mediator/README.md)**
 * **[Memento](../Memento/README.md)**
