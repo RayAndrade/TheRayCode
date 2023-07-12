@@ -4,10 +4,10 @@
 
 DirectorIgor.cs
 ```
-DirectorIgor
+DirectorFrankenstein
 ```
 
-The 'DirectorIgor' class defines the order in which to execute the building steps.
+The 'DirectorFrankenstein' class defines the order in which to execute the building steps.
 
 
 ```
@@ -16,8 +16,8 @@ public void Construct(IBuilder builder) {  }
 
 ```
 builder.SetName("Frank");
-builder.SetBodyType("Blond hair & a tan");
-builder.SetEyeColor("blue");
+builder.SetCatchPhase("They did the moser mash");
+builder.SetHeadType("flat");
 ```
 
 
