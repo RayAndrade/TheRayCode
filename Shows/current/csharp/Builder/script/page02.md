@@ -10,7 +10,7 @@ This is the 'Product' class.
 
 ```
 public string Name { get; set; }
-public string BodyType { get; set; }
+public string CatchPhrase { get; set; }
 public string EyeColor { get; set; }
 ```
 
