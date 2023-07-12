@@ -20,7 +20,7 @@ public string HeadType { get; set; }
 ```
 public void Describe()
 {
-    Console.WriteLine($"Monster: {Name} catch phrase {CatchPhrase} with head type {SetHeadType}");
+    Console.WriteLine($"Monster: {Name} catch phrase {CatchPhrase} with head type {HeadType}");
 }
 ```
 
