@@ -20,7 +20,7 @@
 
 **C# Statergy Design Pattern**
 
-[touch me](Show/README.md)
+[touch me](./Show/README.md)
 
 [Example 1](./SY1/README.md)
 
