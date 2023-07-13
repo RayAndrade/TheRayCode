@@ -10,135 +10,38 @@
 
 [script](./script/page01.md)
 
-The **Builder pattern** is a creational design pattern that lets you construct complex objects step by step. It separates the construction of an object from its representation so that the same construction process can create different representations. It's particularly useful when you need to create an object with lots of possible configuration options.
+The **Builder pattern** is a creational design pattern that lets you construct complex objects step by step. 
 
-Below is a simple implementation of the Builder pattern in C#, using a Pizza as the object to build:
+It separates the construction of an object from its representation so that the same construction process can create different representations. 
 
-Firstly, let's create the **Pizza** class, this will be the object we're building.
+It's particularly useful when you need to create an object with lots of possible configuration options.
 
-```
-public class Pizza
-{
-    public string Dough { get; set; }
-    public string Sauce { get; set; }
-    public string Topping { get; set; }
+**Separation of concerns**: The Builder design pattern separates the construction of an object from its representation, allowing you to focus on different aspects independently.
 
-    public void DisplayPizza()
-    {
-        Console.WriteLine($"Dough: {Dough}, Sauce: {Sauce}, Topping: {Topping}");
-    }
-}
-```
+**Encapsulation**: It encapsulates the construction logic within the Builder class, providing a clean and organized way to create complex objects.
 
-Next, we create the **IPizzaBuilder** *interface*. This interface defines all the steps needed to create a **Pizza**.
+**Readability and maintainability**: By using the Builder pattern, you can improve the readability and maintainability of your code by making the construction process explicit and easy to understand.
 
-```
-public interface IPizzaBuilder
-{
-    void BuildDough();
-    void BuildSauce();
-    void BuildTopping();
-    Pizza GetPizza();
-}
-```
-Now, we can create the *PizzaBuilder class* that implements the **IPizzaBuilder** *interface*. This class represents a specific type of Pizza, in this case, a **MargheritaPizzaBuilder**.
+**Flexibility**: The Builder pattern allows you to vary the internal representation of an object being constructed, giving you the flexibility to create different configurations without modifying the client code.
 
-```
-public class MargheritaPizzaBuilder : IPizzaBuilder
-{
-    private Pizza _pizza = new Pizza();
+**Encourages fluent interface**: The Builder pattern often promotes the use of a fluent interface, enabling a more expressive and readable way of constructing objects.
 
-    public MargheritaPizzaBuilder()
-    {
-        this.Reset();
-    }
+**Encourages SOLID principles**: The Builder pattern aligns with SOLID principles, such as Single Responsibility Principle (SRP) and Open/Closed Principle (OCP), by separating object construction and allowing for extension without modification.
 
-    public void Reset()
-    {
-        this._pizza = new Pizza();
-    }
+**Participants of the UML**
 
-    public void BuildDough()
-    {
-        this._pizza.Dough = "Regular";
-    }
+**Builder** specifies an abstract interface for creating parts of a **Product** object
 
-    public void BuildSauce()
-    {
-        this._pizza.Sauce = "Tomato";
-    }
+**ConcreteBuilder** constructs and assembles parts of the product by implementing the **Builder** interface.
 
-    public void BuildTopping()
-    {
-        this._pizza.Topping = "Cheese";
-    }
+Defines and keeps track of the representation it creates
 
-    public Pizza GetPizza()
-    {
-        Pizza result = this._pizza;
-        this.Reset();
-        return result;
-    }
-}
-```
+Provides an interfase for retrieving the product
 
-Then, we have the **Director** class, which will use the builder interface to construct the complex objects step by step.
+**Director** constructs an objectusing the **Builder** interface.
 
-```
-public class Director
-{
-    private IPizzaBuilder _pizzaBuilder;
+**Product** reoresents the complex object under construction.
 
-    public Director(IPizzaBuilder pizzaBuilder)
-    {
-        this._pizzaBuilder = pizzaBuilder;
-    }
-
-    public void makePizza()
-    {
-        this._pizzaBuilder.BuildDough();
-        this._pizzaBuilder.BuildSauce();
-        this._pizzaBuilder.BuildTopping();
-    }
-}
-```
-Finally, we can test this in a **Main** method:
-```
-class Program
-{
-    static void Main(string[] args)
-    {
-        // Create a margherita pizza builder
-        var pizzaBuilder = new MargheritaPizzaBuilder();
-
-        // Pass the pizza builder to the director
-        var director = new Director(pizzaBuilder);
-
-        // Use the director to make the pizza
-        director.makePizza();
-
-        // Retrieve the finished pizza
-        var pizza = pizzaBuilder.GetPizza();
-
-        // Display the pizza
-        pizza.DisplayPizza();
-    }
-}
-```
-When you run this, you'll get the output:
-```
-Dough: Regular, Sauce: Tomato, Topping: Cheese
-```
-
-Here's the explanation of each class:
-
-**Pizza**: This is the complex object that we are trying to build. It consists of multiple parts.
-
-**IPizzaBuilder**: This is the builder interface that specifies the steps needed to create a Pizza.
-
-**MargheritaPizzaBuilder**: This is a concrete builder that implements the builder interface IPizzaBuilder and provides
-
-**The Ray Code is AWESOME!!!**
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
