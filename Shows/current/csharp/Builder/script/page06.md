@@ -1,18 +1,16 @@
 [home](./page01.md)
 
 [back](./page05.md)
+You would use the Builder pattern when:
 
-At **Program**
+The object creation process should be independent from the parts that make up the object.
 
-```
-DrFrankenstein drFrank = new DrFrankenstein();
-MonsterBuilder igor = new MonsterBuilder();
-        
-            // Director uses the builder to construct the object
-drFrank.Construct(igor);
-        
-Monster monster = igor.GetMonster();
-        
-monster.Describe();
-```
+The construction process should allow different representations for the object that's constructed.
+
+The object has many potential configurations, or when increasing the number of constructor parameters would result in an explosion of constructors.
+
+In our case, a monster can have various types of bodies, different names, and power levels, and we want to avoid creating a new constructor for each combination. 
+
+This is where the Builder pattern becomes useful.
+
 [page 7](./page07.md)
