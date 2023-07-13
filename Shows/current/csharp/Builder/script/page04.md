@@ -11,7 +11,7 @@ The 'DrFrankenstein' class defines the order in which to execute the building st
 
 
 ```
-public void Construct(IBuilder builder) {  }
+public void Construct(IMonster builder) {  }
 ```
 
 ```
