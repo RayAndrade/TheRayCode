@@ -24,122 +24,25 @@
 
 **C# Template Design Pattern**
 
-Here's an example of the Template pattern using a **Pet Animal** theme. 
-Each class will have its own .cs file.
+The **Template Method Design Pattern** is a behavioral design pattern that defines the skeleton of an algorithm in a base class but lets derived classes override specific steps of the algorithm without changing its overall structure. 
 
-**AbstractPet.cs**
+Think of it like baking different types of bread. 
+The steps for baking bread (mixing ingredients, kneading the dough, allowing it to rise, baking, cooling) generally remain the same. 
+However, the ingredients (what goes into the dough) might change depending on whether you're making whole grain bread, sourdough bread, or rye bread. 
 
-The **AbstractPet** is an abstract class that defines a method, **DailyRoutine()**, which represents the template for an algorithm. 
-The steps of this algorithm are represented by the abstract methods **WakeUp()**, **Eat()**, **Play()**, and **Sleep()**.
-```
-public abstract class AbstractPet
-{
-    // Template Method
-    public void DailyRoutine()
-    {
-        WakeUp();
-        Eat();
-        Play();
-        Sleep();
-    }
+In this scenario, the overall algorithm (baking bread) would be defined in a base class, often called an "abstract class" in languages like C#. 
+This class would contain methods representing each step of the algorithm (mix ingredients, knead dough, let rise, bake, cool). 
+The method for the algorithm itself, often referred to as the "template method," would call each of these steps in the correct order.
 
-    public abstract void WakeUp();
-    public abstract void Eat();
-    public abstract void Play();
-    public abstract void Sleep();
-}
-```
-**Dog.cs**
+The methods representing the steps that are the same for every type of bread (like kneading the dough, allowing it to rise, baking, cooling) could be implemented directly in the base class. 
+The steps that change depending on the type of bread (like what ingredients to mix) would be left as abstract methods, meaning the base class doesn't provide an implementation for them.
 
-The Dog class is a concrete class that provides the implementation of the algorithm steps.
+Derived classes, which represent specific types of bread (like whole grain bread, sourdough bread, rye bread), would then provide their own implementation for these abstract methods (meaning, specify their own ingredients). 
+The base class's template method can be called on any instance of these derived classes, and it will execute the algorithm using both the base class's and the derived class's methods.
 
-```
-public class Dog : AbstractPet
-{
-    public override void WakeUp()
-    {
-        Console.WriteLine("Dog wakes up and wags its tail.");
-    }
-
-    public override void Eat()
-    {
-        Console.WriteLine("Dog eats its food happily.");
-    }
-
-    public override void Play()
-    {
-        Console.WriteLine("Dog fetches the ball.");
-    }
-
-    public override void Sleep()
-    {
-        Console.WriteLine("Dog sleeps in its comfy bed.");
-    }
-}
-```
-
-**Cat.cs**
-
-The Cat class is another concrete class that provides a different implementation of the algorithm steps.
-
-```
-public class Cat : AbstractPet
-{
-    public override void WakeUp()
-    {
-        Console.WriteLine("Cat wakes up and stretches.");
-    }
-
-    public override void Eat()
-    {
-        Console.WriteLine("Cat eats its food with pleasure.");
-    }
-
-    public override void Play()
-    {
-        Console.WriteLine("Cat chases a laser pointer.");
-    }
-
-    public override void Sleep()
-    {
-        Console.WriteLine("Cat curls up on the sofa and sleeps.");
-    }
-}
-
-```
-
-The Program file is the entry point of our application. It creates instances of Dog and Cat and invokes their DailyRoutine(), demonstrating the Template pattern.
-
-```
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        AbstractPet dog = new Dog();
-        dog.DailyRoutine();
-
-        AbstractPet cat = new Cat();
-        cat.DailyRoutine();
-    }
-}
-```
-
-When we compile and run we get
-
-```
-Dog wakes up and wags its tail.
-Dog eats its food happily.
-Dog fetches the ball.
-Dog sleeps in its comfy bed.
-Cat wakes up and stretches.
-Cat eats its food with pleasure.
-Cat chases a laser pointer.
-Cat curls up on the sofa and sleeps.
-```
-
-The Template pattern is useful when you have a set of operations (like daily routines of pets) that follows the same broad structure (wake up, eat, play, sleep), but the specific details of the steps vary between implementations (Dog and Cat do things differently). 
-By encapsulating these steps in a single workflow, the Template pattern offers a way to reuse code, facilitate code understanding, and enforce control over the algorithm. 
-It's particularly useful when you want subclasses to override certain steps of an algorithm without changing the algorithm's structure.
+This design pattern is beneficial as it provides a way to reuse code, avoid duplication, and follow the "Don't Repeat Yourself" (DRY) principle. 
+It also provides a convenient way to hook into existing functionality of an algorithm by allowing us to extend certain parts of it where necessary. 
+It's typically used in frameworks, where each framework defines the skeleton of an algorithm, and users of the framework fill in the details with their specific implementation.
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
