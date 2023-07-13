@@ -32,7 +32,7 @@ _monster.CatchPhrase = phrase;
 **SetHeadType**
 
 ```
-_monster.SetHeadType = type;
+_monster.HeadType = type;
 ```
 
 **GetMonster**
