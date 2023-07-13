@@ -42,6 +42,7 @@ Provides an interfase for retrieving the product
 
 **Product** reoresents the complex object under construction.
 
+[Video](https://youtu.be/VU6tmm6SuFg)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
