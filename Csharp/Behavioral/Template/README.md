@@ -20,6 +20,8 @@
 
 [Example 1](./T1/README.md)
 
+[Example](./Show/README.md)
+
 **C# Template Design Pattern**
 
 Here's an example of the Template pattern using a **Pet Animal** theme. 
