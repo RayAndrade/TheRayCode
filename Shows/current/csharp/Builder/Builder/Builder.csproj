@@ -39,10 +39,6 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="DirectorFrankenstein.cs" />
-        <Compile Include="IgoreMonsterBuilder.cs" />
-        <Compile Include="IMonster.cs" />
-        <Compile Include="Monster.cs" />
         <Compile Include="Program.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

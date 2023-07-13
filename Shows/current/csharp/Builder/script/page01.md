@@ -20,7 +20,11 @@ IMonster
 ```
 void SetName(string name);
 void SetCatchPhase(string phrase);
-void SetHeadType(string color);
+void SetHeadType(string type);
+```
+And to get the Monster
+
+```
 Monster GetMonster();
 ```
 
