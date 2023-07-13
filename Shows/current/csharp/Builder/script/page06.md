@@ -1,6 +1,7 @@
 [home](./page01.md)
 
 [back](./page05.md)
+
 You would use the Builder pattern when:
 
 The object creation process should be independent from the parts that make up the object.
