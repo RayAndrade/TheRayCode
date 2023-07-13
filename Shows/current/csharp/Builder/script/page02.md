@@ -13,7 +13,7 @@ This is the 'Monster' class.
 ```
 public string Name { get; set; }
 public string CatchPhrase { get; set; }
-public string SetHeadType { get; set; }
+public string HeadType { get; set; }
 ```
 And to **Describe** the **Monster**
 ```        
