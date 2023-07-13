@@ -4,7 +4,7 @@
 
 
 ```
-IgoreMonsterBuilder
+MonsterBuilder
 ```
 
 
