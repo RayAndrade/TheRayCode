@@ -5,13 +5,13 @@
 At **Program**
 
 ```
-DirectorIgor directorIgor = new DirectorIgor();
-MonsterBuilderDrFrank builderDrFrank = new MonsterBuilderDrFrank();
+DrFrankenstein drFrank = new DrFrankenstein();
+MonsterBuilder igor = new MonsterBuilder();
         
             // Director uses the builder to construct the object
-directorIgor.Construct(builderDrFrank);
+drFrank.Construct(igor);
         
-Monster monster = builderDrFrank.GetMonster();
+Monster monster = igor.GetMonster();
         
 monster.Describe();
 ```
