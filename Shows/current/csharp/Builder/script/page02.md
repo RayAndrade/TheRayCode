@@ -19,7 +19,7 @@ And to **Describe** the **Monster**
 ```        
 public void Describe()
 {
-     Console.WriteLine($"Monster: {Name} catch phrase {CatchPhrase} with head type {HeadType}");
+     Console.WriteLine($"Monster: {Name} catch phrase {CatchPhrase} with head type {SetHeadType}");
 }
 ```
 
