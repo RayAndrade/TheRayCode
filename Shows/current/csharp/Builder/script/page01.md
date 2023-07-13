@@ -6,11 +6,13 @@ It separates the construction of an object from its representation.
 
 By doing this, the same construction process can create different representations.
 
-Here, we'll use the Builder design pattern to construct a 'monster' object.
+Here, we'll use the Builder design pattern to construct a **Monster** object.
 
 Let's break it down into different .cs files:
 
-**IMonster** is the **interface** that outlines necessary steps for building a complex object.
+we start with
+
+**IMonster** is the **interface** that outlines necessary steps for building a **Monster** object.
 
 ```
 IMonster
