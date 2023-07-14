@@ -9,5 +9,5 @@ public class Main {
 
         Dessert dessert2 = dessertFactory.getDessert("IceCream");
         dessert2.prepare();
-        }
     }
+}
