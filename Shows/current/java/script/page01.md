@@ -2,11 +2,11 @@
 
 I will describe the utility of the Factory Design Pattern first, then explain how we can implement it with a "Dessert Factory" in Java. 
 
-Each class will be defined separately, as you asked, and a demo will be presented in the main method file named Program.java.
-
 The Factory Design Pattern is a creational design pattern that provides an interface for creating objects in a super class, but allows subclasses to alter the type of objects that will be created. 
 
-The pattern suggests that you replace direct object construction calls (using the new operator) with calls to a special factory method. Objects returned by a factory method are often referred to as "products."
+The pattern suggests that you replace direct object construction calls (using the new operator) with calls to a special factory method. 
+
+Objects returned by a factory method are often referred to as "products."
 
 When should you use the Factory Design Pattern?
 

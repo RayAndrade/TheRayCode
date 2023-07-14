@@ -2,6 +2,14 @@
 
 [back](./page02.md)
 
+Cake and IceCream: 
+
+These are classes that implement the Dessert interface, meaning they provide a specific implementation of the prepare method. 
+
+Cake and IceCream are both desserts, so it makes sense that they would adhere to the Dessert contract. 
+
+The role of these classes is to represent specific types of desserts and to define what it means to prepare them.
+
 
 Create class
 
