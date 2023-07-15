@@ -10,6 +10,3 @@ System.out.println("TheRayCode is AWESOME!!!");
 
 [start over](./page01.md)
 
-
-
-[page 9](./page09.md)
