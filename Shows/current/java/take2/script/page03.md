@@ -17,7 +17,7 @@ implements Dessert
 and we add code 
 
 ```
-System.out.println("Preparing a chocolite sundae...");
+System.out.println("Preparing a chocolate sundae...");
 ```
 
 [page 4](./page04.md)
