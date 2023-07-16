@@ -6,7 +6,7 @@
 Create **class**
 
 ```
-Cake
+Pie
 ```
 The **Pie** *class* implements the **Dessert** *interface* and provides its own implementation of the prepare method.
 
