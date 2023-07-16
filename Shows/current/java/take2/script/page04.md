@@ -8,7 +8,7 @@ Create **class**
 ```
 Cake
 ```
-The **Cake** *class* implements the **Dessert** *interface* and provides its own implementation of the prepare method.
+The **Pie** *class* implements the **Dessert** *interface* and provides its own implementation of the prepare method.
 
 
 it 
@@ -19,7 +19,7 @@ implements Dessert
 and we add code 
 
 ```
-System.out.println("Preparing cake...");
+System.out.println("Preparing cherry pie...");
 ```
 
 
