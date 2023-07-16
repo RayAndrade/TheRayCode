@@ -9,10 +9,10 @@ In the Program class, we create a new DessertFactory and use it to create Desser
 ```
 DessertFactory dessertFactory = new DessertFactory();
 
-Dessert dessert1 = dessertFactory.getDessert("ICECREAM");
+Dessert dessert1 = dessertFactory.getDessert("pie");
 dessert1.prepare();
 
-Dessert dessert2 = dessertFactory.getDessert("CAKE");
+Dessert dessert2 = dessertFactory.getDessert("sundae");
 dessert2.prepare();
 ```
 
