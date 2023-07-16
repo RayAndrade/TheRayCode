@@ -20,10 +20,10 @@ public Dessert getDessert(String dessertType){
     if(dessertType == null){
         return null;
     }       
-    if(dessertType.equalsIgnoreCase("ICECREAM")){
-        return new IceCream();
-    } else if(dessertType.equalsIgnoreCase("CAKE")){
-        return new Cake();
+    if(dessertType.equalsIgnoreCase("sundae")){
+        return new Sundae();
+    } else if(dessertType.equalsIgnoreCase("pie")){
+        return new Pie();
     }
     return null;
 }
