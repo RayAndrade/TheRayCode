@@ -10,9 +10,9 @@ For our specific scenario of a dessert factory, I am going to use the following 
 
 **Dessert.java**: This is the interface that all the different types of desserts will implement.
 
-**IceCream.java**: This is a class that implements the Dessert interface to represent an ice cream dessert.
+**Sundae.java**: This is a class that implements the Dessert interface to represent a sundae dessert.
 
-**Cake.java**: This is a class that implements the Dessert interface to represent a cake dessert.
+**Pie.java**: This is a class that implements the Dessert interface to represent a Pie dessert.
 
 **DessertFactory.java**: This is the Factory class which is used to create different types of Dessert objects.
 
