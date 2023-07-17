@@ -1,18 +1,20 @@
 <?php
-namespace TheRayCode\Prototype;
 
-require_once 'Original.php';
-require_once 'ShallowPrototype.php';
-require_once 'DeepPrototype.php';
+namespace TheRayCode\Factory;
 
-// Create a new object
-$component = new stdClass();
-$original = new Original("original", $component);
+include('Vehicle.php');
+include('Car.php');
+include('Motorcycle.php');
+include('Bicycle.php');
+include('VehicleFactory.php');
 
-// Create a shallow copy
-$shallowCopy = clone $original;
-echo "Shallow copy component identity: " . spl_object_id($shallowCopy->component) . "<br/>";
+$vehicleFactory = new VehicleFactory();
+$car = $vehicleFactory->createVehicle('car');
+$motorcycle = $vehicleFactory->createVehicle('motorcycle');
+$bicycle = $vehicleFactory->createVehicle('bicycle');
 
-// Create a deep copy
-$deepCopy = clone $original;
-echo "Deep copy component identity: " . spl_object_id($deepCopy->component) . "<br/>";
+
+$car->drive();          // Output: Driving a car...
+$motorcycle->drive();   // Output: Riding a motorcycle...
+$bicycle->drive();      // Output: Riding a bicycle...
+//echo "The Ray Code is AWESOME!!!";
