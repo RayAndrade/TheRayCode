@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Dessert {
+public interface Dessert {
+    void prepare();
 }
