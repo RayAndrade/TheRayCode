@@ -2,21 +2,11 @@
 
 namespace TheRayCode\Factory;
 
-class Cat
+class Cat extends AbstractPet
 {
-    private string $species;
 
-    public function __construct(string $species)
+    public function makeSound()
     {
-        $this->species = $species;
-    }
-
-    public function makeSound(): string
-    {
-        return "Meow!";
-    }
-    public function getSpecies(): string
-    {
-        return $this->species;
+        return "Meow! Feed me, hooman!";
     }
 }

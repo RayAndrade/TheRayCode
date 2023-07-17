@@ -2,11 +2,11 @@
 
 namespace TheRayCode\Factory;
 
-class Dog extends AbstractPet
+class Bird extends AbstractPet
 {
 
     public function makeSound()
     {
-        return "Woof! I'm a good boy!";
+        return "Tweet tweet! I'm bird-brained!";
     }
 }
