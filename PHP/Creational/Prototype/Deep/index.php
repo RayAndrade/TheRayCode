@@ -3,7 +3,8 @@ namespace TheRayCode\Prototype;
 
 require_once 'Car.php';
 
-$bmwModel = new Model("BMW");
+$bmwModel = new Model("BM
+W");
 $car1 = new Car($bmwModel);
 $audiModel = new Model("Audi");
 $car2 = clone $car1;
