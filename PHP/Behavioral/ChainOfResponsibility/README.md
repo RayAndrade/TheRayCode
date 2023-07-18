@@ -1,9 +1,24 @@
+
+
+# [TheRayCode](../../README.md) is AWESOME!!! 
+
+**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)** |
+
+**PHP Behavioral Patterns**
+
+|Pattern|   |   |   |   |
+|---|---|---|---|---|
+| **ChainOfResponsibility** | [**C++**](../../../CPP/Behavioral/ChainOfResponsibility/README.md) | [**C#**](../../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../../PHP/Behavioral/ChainOfResponsibility/README.md) |
+
+**PHP Abstract Factory Design Pattern**
+
+
 # TheRayCode  is AWESOME!!!
 **Chain Of Responsibility**
 
 **[PHP](../README.md)** 
 
-**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
+**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../../README.md)**
 
 **PHP Behavioral Patterns**
 
