@@ -144,9 +144,6 @@ Client: Who wants a Cup of coffee?
 Cup of coffee was left untouched.
 ```
 
-
-The Ray Code is AWESOME!!
-
 [Wikipedia](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
 
 ----------------------------------------------------------------------------------------------------
@@ -155,16 +152,8 @@ Find Ray on:
 
 [facebook](https://www.facebook.com/TheRayCode/)
 
-[youtube](https://www.youtube.com/user/AndradeRay/)
+[youtube](https://www.youtube.com/user/TheRayCode/)
 
-[The Ray Code](https://www.RayAndrade.com)
+[The Ray Code](https://www.TheRayCode.com)
 
-[Ray Andrade](https://www.RayAndrade.org)
-
-
-
-
-
-
-
-
+[Ray Andrade](https://www.TheRayCode.org)
