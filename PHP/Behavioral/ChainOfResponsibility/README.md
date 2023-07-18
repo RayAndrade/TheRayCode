@@ -36,67 +36,7 @@ Set the next handler for each handler in the chain.
 
 **Handle the request**: Pass the request to the first handler in the chain. The chain will propagate the request through each handler until it is handled or the end of the chain is reached.
 
-Here's a simple example to illustrate the usage of Chain of Responsibility in PHP:
-
-
-```
-<?php
-
-abstract class Handler
-{
-    protected $nextHandler;
-
-    public function setNext(Handler $handler)
-    {
-        $this->nextHandler = $handler;
-    }
-
-    public abstract function handleRequest($request);
-}
-
-class ConcreteHandler1 extends Handler
-{
-    public function handleRequest($request)
-    {
-        if ($request === 'A') {
-            echo "ConcreteHandler1 handles request: $request\n";
-        } else if ($this->nextHandler !== null) {
-            $this->nextHandler->handleRequest($request);
-        }
-    }
-}
-
-class ConcreteHandler2 extends Handler
-{
-    public function handleRequest($request)
-    {
-        if ($request === 'B') {
-            echo "ConcreteHandler2 handles request: $request\n";
-        } else if ($this->nextHandler !== null) {
-            $this->nextHandler->handleRequest($request);
-        }
-    }
-}
-
-// Usage example
-$handler1 = new ConcreteHandler1();
-$handler2 = new ConcreteHandler2();
-
-$handler1->setNext($handler2);
-
-$handler1->handleRequest('A'); // Output: ConcreteHandler1 handles request: A
-$handler1->handleRequest('B'); // Output: ConcreteHandler2 handles request: B
-$handler1->handleRequest('C'); // No output
-
-?>
-```
-
-In this example, **ConcreteHandler1** and **ConcreteHandler2** represent the concrete handlers in the chain. 
-They check if they can handle the request and pass it to the next handler if they can't. 
-You can extend the chain by adding more concrete handlers and linking them together.
-
 Understanding and implementing the Chain of Responsibility pattern can help you achieve loose coupling between components and enable easier maintenance and extension of your code.
-
 
 
 [TheRayCode.ORG](https://www.TheRayCode.ORG)
