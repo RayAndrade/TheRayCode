@@ -1,8 +1,28 @@
+# [TheRayCode](../../README.md) is AWESOME!!! 
+
+**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)** |
+
+**PHP Behavioral Patterns**
+
+|Pattern|   |   |   |   |
+|---|---|---|---|---|
+| **Command** | [**C++**](../../../CPP/Behavioral/Command/README.md) | [**C#**](../../../Csharp/Behavioral/Command/README.md) | [Java](../../../Java/Behavioral/Command/README.md) | [PHP](../../../PHP/Behavioral/Command/README.md) |
+
+**PHP Chain Of Responsibility Design Pattern**
+
+[Example 1](./CD1/README.md)
+
+[Show](./Show/README.md)
+
+
+
+
+
 # TheRayCode
 ## is AWESOME!!!
 PHP Command section
 
-[RayAndrade.COM](https://www.RayAndrade.com)
+[TheRayCode.COM](https://www.TheRayCode.com)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
@@ -10,5 +30,5 @@ PHP Command section
 
 [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
 
-[YouTube](https://www.youtube.com/AndradeRay/)
+[YouTube](https://www.youtube.com/TheRayCode/)
 
