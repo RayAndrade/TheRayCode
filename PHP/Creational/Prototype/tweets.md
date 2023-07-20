@@ -1,6 +1,6 @@
 Tweets:
 
-1. "🎥 Check out my latest YouTube video on the Prototype Design Pattern! 🌟 Learn the definition, see UML explanations, and dive into a code demonstration. Don't miss out on enhancing your software design skills! Watch now: [YouTube link] #SoftwareDevelopment #DesignPatterns"
+1. 🎥 Check out my latest YouTube video on the Prototype Design Pattern! 🌟 Learn the definition, see UML explanations, and dive into a code demonstration. Don't miss out on enhancing your software design skills! Watch now: https://youtu.be/Z7NOFramF2k #SoftwareDevelopment #DesignPatterns"
 
 2. "🔥 Discover the power of the Prototype Design Pattern in my new YouTube video! 🚀 Gain a solid understanding of this pattern with a clear definition, UML breakdown, and a practical code demo. Don't wait, level up your coding game today! 📺 [YouTube link] #SoftwareEngineering #Coding"
 
