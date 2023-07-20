@@ -20,8 +20,6 @@ class ConcretePrototype {  };
 #include "Prototype.h"
 ```
 
-
-
 ```
 public:
     ConcretePrototype(int value): value_(value){}
@@ -37,5 +35,8 @@ private:
 
 This is a concrete class implementing the Prototype interface. It defines the clone method to return a copy of itself.
 
+Here, ConcretePrototype is derived from Prototype and has a member data. It overrides the clone() method to create and return a copy of itself, which leads to deep cloning. 
+
+Also, it has a copy constructor which enables deep cloning.
 
 [page 4](./page04.md)
