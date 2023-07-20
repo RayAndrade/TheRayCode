@@ -1,14 +1,20 @@
 #include <iostream>
-#include "ConcretePrototype.h"
+#include "DemoClass.h"
 
-int main() {
-    ConcretePrototype original(10);
-    ConcretePrototype* copy = static_cast<ConcretePrototype*>(original.clone());
+int main()
+{
+    // Creating original object
+    DemoClass originalObj(10);
+    std::cout << "Original Object's data: " << originalObj.getData() << std::endl;
 
-    std::cout << "Original value: " << original.getValue() << std::endl;
-    std::cout << "Copy value: " << copy->getValue() << std::endl;
+    // Creating a shallow copy
+    DemoClass shallowCopyObj = originalObj;
+    std::cout << "Shallow Copy Object's data: " << shallowCopyObj.getData() << std::endl;
 
-    delete copy;
-    std::cout << "Hello, World!" << std::endl;
+    // Creating a deep copy
+    DemoClass deepCopyObj(0);
+    deepCopyObj = originalObj;
+    std::cout << "Deep Copy Object's data: " << deepCopyObj.getData() << std::endl;
+
     return 0;
 }

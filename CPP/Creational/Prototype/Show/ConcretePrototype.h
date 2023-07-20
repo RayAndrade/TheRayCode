@@ -1,5 +1,5 @@
 //
-// Created by ray on 5/22/23.
+// Created by ray on 7/20/23.
 //
 
 #ifndef SHOW_CONCRETEPROTOTYPE_H
@@ -7,20 +7,19 @@
 
 #include "Prototype.h"
 
-class ConcretePrototype : public Prototype{
+class ConcretePrototype : public Prototype
+{
+private:
+    int data;
 
 public:
-    ConcretePrototype(int value): value_(value){}
-    ConcretePrototype(const ConcretePrototype& other): value_(other.value_){}
-    virtual ~ConcretePrototype(){}
-    virtual Prototype* clone() const override {
+    ConcretePrototype(int d):data(d){}
+    ConcretePrototype(const ConcretePrototype& cp): data(cp.data){}
+    virtual Prototype* clone() const
+    {
         return new ConcretePrototype(*this);
     }
-    int getValue() { return value_; }
-private:
-    int value_;
-
+    int getData(){ return data;}
 };
-
 
 #endif //SHOW_CONCRETEPROTOTYPE_H
