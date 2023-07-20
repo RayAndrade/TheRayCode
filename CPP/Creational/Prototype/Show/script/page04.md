@@ -27,4 +27,8 @@ Please note that the Prototype pattern requires memory management. In the above 
 In DemoClass, the copy constructor performs a shallow copy of ConcretePrototype (which means it only copies the pointer). 
 On the other hand, the copy assignment operator (operator=) performs a deep copy by calling clone(), ensuring a new copy of ConcretePrototype is created.
 
+When you run this program, all of the std::cout calls will print '10', as the DemoClass object originalObj, the shallow copy shallowCopyObj, and the deep copy deepCopyObj are all initially identical.
+
+However, the difference comes into play when changes are made to the originalObj after the copying. The changes will reflect in the shallowCopyObj as they both point to the same ConcretePrototype object, while the deepCopyObj will remain the same because it points to a different ConcretePrototype object.
+
 [page 5](./page05.md)
