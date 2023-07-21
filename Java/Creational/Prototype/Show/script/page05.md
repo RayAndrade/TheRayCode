@@ -2,6 +2,17 @@
 
 [back](./page04.md)
 
-page05
+```
+public String getCity() {
+    return city;
+}
+```
+
+
+```
+public String getState() {
+   return state;
+}
+```
 
 [page 6](./page06.md)
