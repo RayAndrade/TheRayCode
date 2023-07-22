@@ -2,20 +2,20 @@
 
 [back](./page01.md)
 
-We start with the **Nose** class
+We start with the **Phrase** class
 
-The Nose class is straightforward. It's a simple class with a color property.
-
-```
-Nose
-```
-
+The Phrase class is straightforward. It's a simple class with a phrase type property.
 
 ```
-public $color;
+Phrase
+```
 
-public function __construct($color) {
-    $this->color = $color;
+
+```
+public $phrase;
+
+public function __construct($phrase) {
+    $this->phrase = $phrase;
 }
 ```
 

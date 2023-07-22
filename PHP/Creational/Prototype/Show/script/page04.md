@@ -10,32 +10,25 @@ Clown
 
 ```
 public $name;
-public $nose;
+public $chatchPrase;
 ```
 
 
 ```
-public function __construct($name, Nose $nose) {
+public function __construct($name, Phrase $phrase) {
     $this->name = $name;
-    $this->nose = $nose;
+    $this->chatchPrase = $phrase;
 }
 ```
 
 Shallow clone
-
-```
-public function __construct($name, Nose $nose) {
-    $this->name = $name;
-    $this->nose = $nose;
-}
-```
 
 Deep clone
 
 ```
 public function deepClone() {
     $cloned = clone $this;
-    $cloned->nose = clone $this->nose;  // clone inner object
+    $cloned->chatchPrase = clone $this->chatchPrase;  // clone inner object
     return $cloned;
 }
 ```

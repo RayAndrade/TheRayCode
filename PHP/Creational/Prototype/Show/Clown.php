@@ -7,9 +7,9 @@ class Clown
     public $name;
     public $chatchPrase;
 
-    public function __construct($name, Phrase $prase) {
+    public function __construct($name, Phrase $phrase) {
         $this->name = $name;
-        $this->chatchPrase = $prase;
+        $this->chatchPrase = $phrase;
     }
 
     // Shallow clone
