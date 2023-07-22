@@ -12,15 +12,10 @@ class Clown
         $this->chatchPrase = $phrase;
     }
 
-    // Shallow clone
-    public function __clone() {
-        // When you clone the Clown object, PHP does a shallow copy by default.
-    }
-
-    // Deep clone
     public function deepClone() {
         $cloned = clone $this;
         $cloned->chatchPrase = clone $this->chatchPrase;  // clone inner object
         return $cloned;
     }
+
 }

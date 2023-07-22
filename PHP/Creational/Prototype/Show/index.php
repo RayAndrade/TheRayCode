@@ -15,5 +15,3 @@ $bozoClown->chatchPrase->phrase = "WHOA NELLY";
 echo "Original Bozo Clown chatch Prase: " . $bozoClown->chatchPrase->phrase . "<br/>\n"; // WHOA NELLY
 echo "Shallow Bozo Clone phrase: " . $bozoShallowClone->chatchPrase->phrase . "<br/>\n"; // WHOA NELLY
 echo "Deep Krampus Clone phase: " . $KrampusKlown->chatchPrase->phrase . "<br/>\n"; // Merry Christmas
-
-//echo "TheRayCode is AWESOME" . "<br/>\n";
