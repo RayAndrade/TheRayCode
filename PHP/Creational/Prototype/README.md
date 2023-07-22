@@ -28,8 +28,15 @@ Here is that example:
 
 The **Phrase** class is straightforward. It's a simple class with a phrase property.
 
-
 ```
+class Phrase
+{
+    public $phrase;
+
+    public function __construct($phrase) {
+        $this->phrase = $phrase;
+    }
+}
 ```
 
 
