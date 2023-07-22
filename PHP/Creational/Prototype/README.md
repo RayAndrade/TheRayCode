@@ -20,13 +20,13 @@ Here is the structure for the project
 ```
 /project
 |-- Clown.php
-|-- Nose.php
+|-- Phrase.php
 `-- index.php
 ```
 
 Here is that example:
 
-
+The **Phrase** class is straightforward. It's a simple class with a phrase property.
 
 
 ```
