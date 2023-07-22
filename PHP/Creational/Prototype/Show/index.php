@@ -2,16 +2,18 @@
 namespace TheRayCode\Prototype;
 
 include 'Clown.php';
-include 'Nose.php';
+include 'Phrase.php';
 
-$bozoClown = new Clown("Bozo", new Nose("Red"));
+$bozoClown = new Clown("Bozo", new Phrase("Merry Christmas"));
 
 $bozoShallowClone = clone $bozoClown;
-$bozoDeepClone = $bozoClown->deepClone();
+$KrampusKlown = $bozoClown->deepClone();
 
 // Let's change the nose color of original bozoClown
-$bozoClown->nose->color = "Blue";
+$bozoClown->chatchPrase->phrase = "WHOA NELLY";
 
-echo "Original Bozo 🤡 CLOWN Nose Color: " . $bozoClown->nose->color . "<br/>\n"; // Blue
-echo "Shallow Clone Bozo 🥸 Clone Nose Color: " . $bozoShallowClone->nose->color . "<br/>\n"; // Blue
-echo "Deep Clone Bozo Clone 😎 Nose Color: " . $bozoDeepClone->nose->color . "<br/>\n"; // Red
+echo "Original Bozo Clown chatch Prase: " . $bozoClown->chatchPrase->phrase . "<br/>\n"; // WHOA NELLY
+echo "Shallow Bozo Clone phrase: " . $bozoShallowClone->chatchPrase->phrase . "<br/>\n"; // WHOA NELLY
+echo "Deep Krampus Clone phase: " . $KrampusKlown->chatchPrase->phrase . "<br/>\n"; // Merry Christmas
+
+//echo "TheRayCode is AWESOME" . "<br/>\n";
