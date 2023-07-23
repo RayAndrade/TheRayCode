@@ -11,7 +11,7 @@
 |---|---|---|---|---|
 | **Prototype** | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [Java](../../../Java/Creational/Prototype/README.md) | [PHP](../../../PHP/Creational/Prototype/README.md) |
 
-[show](./show/script/page01.md)
+[show](./Show/script/page01.md)
 
  I'm going to demonstrate this using a simple **Clown** class, which will have one property, a nested catch phrase.
 
