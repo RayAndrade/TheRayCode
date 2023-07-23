@@ -3,7 +3,9 @@
 [back](./page02.md)
 
 
-The Clown class has two properties: name (a string) and catch prase (an instance of the Prase class).
+The **Clown** class has two properties: name (a string) and catch prase (an instance of the Prase class).
+
+The **Prase** is part of the **Clown** class
 
 We also have a magic method **__clone()** for shallow cloning and a **deepClone()** method for deep cloning.
 
