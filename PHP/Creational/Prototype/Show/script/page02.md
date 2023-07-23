@@ -4,7 +4,11 @@
 
 We start with the **Phrase** class
 
-The Phrase class is straightforward. It's a simple class with a phrase type property.
+This class is *part* of the main class we desire to clone..
+
+The Phrase class is straightforward. 
+
+It's a simple class with a phrase type property.
 
 ```
 Phrase
