@@ -14,7 +14,6 @@ When you clone an object in PHP, by default it does a **shallow copy**.
 
 A *shallow copy* means creating a new object and then copying the non-static fields of the current object to the new object. 
 
-If a field is a value type, a bit-by-bit copy of the field is performed; 
 If a field is a reference type, the reference is copied but the referred object is not; hence the original and its clone refer to the same object.
 
 
