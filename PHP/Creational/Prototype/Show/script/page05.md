@@ -6,6 +6,26 @@ In the index.php file, we first create an instance of the Clown class named bozo
 
 Then we create a shallow clone (bozoShallowClone) and a deep clone (bozoDeepClone) of this object.
 
+```
+include 'Clown.php';
+include 'Phrase.php';
+
+$bozoClown = new Clown("Bozo", new Phrase("Merry Christmas"));
+```
+
+```
+$bozoShallowClone = clone $bozoClown;
+$KrampusKlown = $bozoClown->deepClone();
+
+// Let's change the Prase of original bozoClown
+$bozoClown->chatchPrase->phrase = "WHOA NELLY";
+
+echo "Original Bozo Clown chatch Prase: " . $bozoClown->chatchPrase->phrase . "<br/>\n"; // WHOA NELLY
+echo "Shallow Bozo Clone phrase: " . $bozoShallowClone->chatchPrase->phrase . "<br/>\n"; // WHOA NELLY
+echo "Deep Krampus Clone phase: " . $KrampusKlown->chatchPrase->phrase . "<br/>\n"; // Merry Christmas
+```
+
+
 We then change the color of the phrase property on the original bozoClown. 
 
 After that, we print the color of the nose property for the original, the shallow clone, and the deep clone.
