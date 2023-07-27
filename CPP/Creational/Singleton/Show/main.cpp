@@ -34,5 +34,5 @@ void OnlyOne::someMethod() {
 }
 
 void Ordinary::someMethod() {
-    std::cout << "Hello from Ordinary!" << std::endl;
+    std::cout << "Ordinary says Hello!" << std::endl;
 }
