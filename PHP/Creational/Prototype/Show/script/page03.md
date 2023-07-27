@@ -15,6 +15,20 @@ We also have a magic method **__clone()** for shallow cloning and a **deepClone(
 
 When you clone an object in PHP, by default it does a **shallow copy**. 
 
+```
+public $name;
+public $chatchPrase;
+```
+
+
+```
+public function __construct($name, Phrase $phrase) {
+    $this->name = $name;
+    $this->chatchPrase = $phrase;
+}
+```
+
+
 
 A *shallow copy* means creating a new object and then copying the non-static fields of the current object to the new object. 
 
