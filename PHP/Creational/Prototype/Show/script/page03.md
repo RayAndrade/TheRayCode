@@ -7,6 +7,10 @@ The **Clown** class has two properties: name (a string) and catch prase (an inst
 
 The **Prase** is part of the **Clown** class
 
+```
+Clown
+```
+
 We also have a magic method **__clone()** for shallow cloning and a **deepClone()** method for deep cloning.
 
 When you clone an object in PHP, by default it does a **shallow copy**. 
