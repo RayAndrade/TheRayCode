@@ -21,12 +21,15 @@ $KrampusKlown = $bozoClown->deepClone();
 $bozoClown->chatchPrase->phrase = "WHOA NELLY";
 
 echo "Original Bozo Clown chatch Prase: " . $bozoClown->chatchPrase->phrase . "<br/>\n"; // WHOA NELLY
-echo "Shallow Bozo Clone phrase: " . $bozoShallowClone->chatchPrase->phrase . "<br/>\n"; // WHOA NELLY
-echo "Deep Krampus Clone phase: " . $KrampusKlown->chatchPrase->phrase . "<br/>\n"; // Merry Christmas
 ```
 
 
 We then change the color of the phrase property on the original bozoClown. 
+
+```
+echo "Shallow Bozo Clone phrase: " . $bozoShallowClone->chatchPrase->phrase . "<br/>\n"; // WHOA NELLY
+echo "Deep Krampus Clone phase: " . $KrampusKlown->chatchPrase->phrase . "<br/>\n"; // Merry Christmas
+```
 
 After that, we print the color of the nose property for the original, the shallow clone, and the deep clone.
 
