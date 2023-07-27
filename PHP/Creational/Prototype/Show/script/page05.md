@@ -17,7 +17,7 @@ $bozoClown = new Clown("Bozo", new Phrase("Merry Christmas"));
 $bozoShallowClone = clone $bozoClown;
 $KrampusKlown = $bozoClown->deepClone();
 
-// Let's change the Prase of original bozoClown
+// Let's change the Prase of ORIGINAL bozoClown
 $bozoClown->chatchPrase->phrase = "WHOA NELLY";
 
 echo "Original Bozo Clown chatch Prase: " . $bozoClown->chatchPrase->phrase . "<br/>\n"; // WHOA NELLY
