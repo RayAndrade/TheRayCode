@@ -2,14 +2,6 @@
 
 [back](./page03.md)
 
-Create class
-
-```
-Clown
-```
-
-
-Shallow clone
 
 Deep clone
 
