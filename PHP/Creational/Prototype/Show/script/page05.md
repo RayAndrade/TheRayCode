@@ -36,6 +36,6 @@ After that, we print the color of the nose property for the original, the shallo
 Because the shallow clone only copied the reference to the Nose object, 
 when we change the the phrase in the original bozoClown, it is also changed in the bozoShallowClone (they both point to the same Phrase object).
 
-However, in the deep clone, we manually cloned the Nose object as well, so bozoDeepClone has its own Phrase object, and changes to the original bozoClown's nose do not affect it.
+However, in the deep clone, we manually cloned the Phrase object as well, so bozoDeepClone has its own Phrase object, and changes to the original bozoClown's phrase do not affect it.
 
 [page 6](./page06.md)
