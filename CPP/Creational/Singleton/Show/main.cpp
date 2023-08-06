@@ -22,7 +22,9 @@ int main() {
 
     // Use the objects.
     firstOrdinaryObject.someMethod();
+    firstOrdinaryObject.printAddress();
     secondOrdinaryObject.someMethod();
+    secondOrdinaryObject.printAddress();
 
     secondOrdinaryObject.printAddress();
 
@@ -30,9 +32,9 @@ int main() {
 }
 
 void OnlyOne::someMethod() {
-    std::cout << "Hello from OnlyOne!" << std::endl;
+    std::cout << "Hello from OnlyOne!" , this->printAddress();
 }
 
 void Ordinary::someMethod() {
-    std::cout << "Ordinary says Hello!" << std::endl;
+    std::cout << "Ordinary says Hello!" , this->printAddress();
 }
