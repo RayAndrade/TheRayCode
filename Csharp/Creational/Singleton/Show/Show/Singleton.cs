@@ -6,14 +6,12 @@ namespace Show
     {
         private static readonly object padlock = new object();
         private static Singleton instance = null;
-
-        // Private constructor ensures that no instances can be created from outside this class
-        private Singleton()
+        
+        private Singleton() 
         {
             // Initialization code here, if needed
         }
 
-        // Public method to access the single instance
         public static Singleton Instance
         {
             get
@@ -24,11 +22,11 @@ namespace Show
                     {
                         instance = new Singleton();
                     }
-
                     return instance;
                 }
             }
-        }
+       }
+        
         // Example method to demonstrate functionality
         public void ShowMessage(string message)
         {
