@@ -4,6 +4,8 @@
 
 we will add an  Example method to demonstrate functionality
 
+paste after the close brace
+
 ```
 public void ShowMessage(string message)
 {
