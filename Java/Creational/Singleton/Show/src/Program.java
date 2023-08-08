@@ -3,7 +3,6 @@ public class Program {
         // Obtaining the unique instance of Singleton
         Singleton singleton1 = Singleton.getInstance();
         Singleton singleton2 = Singleton.getInstance();
-
         // Showing messages from both instances
         singleton1.showMessage();
         singleton2.showMessage();
