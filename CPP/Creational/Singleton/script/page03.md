@@ -16,9 +16,12 @@ int main() {  }
 ```
 Singleton* s = Singleton::getInstance();
 Singleton* r = Singleton::getInstance();
+```
+and
 
-std::cout << s << std::endl;
-std::cout << r << std::endl;
+```
+std::cout <<"s : " << s << std::endl;
+std::cout <<"r : " << r << std::endl;
 ```
 
 
