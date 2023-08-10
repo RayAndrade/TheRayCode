@@ -4,4 +4,7 @@
 
 The End
 
+```
+std::cout <<"The Ray code is AWESOME!!!" << std::endl;
+```
 [start over](./page01.md)
