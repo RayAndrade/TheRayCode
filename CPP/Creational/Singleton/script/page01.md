@@ -12,6 +12,11 @@ Singleton
 class Singleton {  };
 ```
 
+
+The Singleton class is defined in Singleton.h. 
+
+
+
 ```
 public:
     // Delete copy constructor and assignment operator
@@ -20,7 +25,7 @@ public:
 
     static Singleton* getInstance();
 ```
-
+It has a private constructor, which ensures that the class cannot be directly instantiated. The copy constructor and assignment operator are deleted to prevent copying.
 
 ```
 private:
