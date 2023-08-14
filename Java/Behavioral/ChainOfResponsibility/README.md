@@ -20,7 +20,8 @@
 
 **Java Chain of Responsibity Pattern**
 
- * [Example 1](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Behavioral/ChainOfResponsibility/COR1/README.md)
+* [COR](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Behavioral/ChainOfResponsibility/COR1/README.md)
+* [COR](https://github.com/RayAndrade/TheRayCode/tree/main/CPP/Behavioral/ChainOfResponsibility/example1/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.ORG)
 
