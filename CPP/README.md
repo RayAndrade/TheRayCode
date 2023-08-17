@@ -2,12 +2,12 @@
 
 **[Creational Patterns](./Creational/README.md)** | **[Structural Patterns](./Structural/README.md)** | **[Behavioral Patterns](./Behavioral/README.md)**
 
-**[CPP](../README.md)** 
+**[C#](../README.md)** 
 
-| Creational Patterns | Behavioral Patterns | Structural Patterns | Behavioral Patterns |
+| Creational Patterns | Structural Patterns | Behavioral Patterns |
 |--------------|-----|-----------|
-| [**AbstractFactory**](./Creational/AbstractFactory/README.md) | [**Chain Of Responsibility**](./Behavioral/ChainOfResponsibility/README.md) || [**Adapter**](./Structural/Adapter/README.md)         
-| [**Builder**](./Creational/Builder/README.md)                 | [**Command**](./Behavioral/Command/README.md) | [**Bridge**](./Structural/Bridge/README.md)           |
+| [**AbstractFactory**](./Creational/AbstractFactory/README.md) | [**Adapter**](./Structural/Adapter/README.md)         | [**Chain Of Responsibility**](./Behavioral/ChainOfResponsibility/README.md) |
+| [**Builder**](./Creational/Builder/README.md)                 | [**Bridge**](./Structural/Bridge/README.md)           | [**Command**](./Behavioral/Command/README.md) |
 | [**Factory**](./Creational/Factory/README.md)                 | [**Composite**](./Structural/Composite/README.md)     | [**Iterator**](./Behavioral/Iterator/README.md) |
 | [**Prototype**](./Creational/Prototype/README.md)             | [**Decorator**](./Structural/Decorator/README.md)     | [**Mediator**](./Behavioral/Mediator/README.md) |
 | [**Singleton**](./Creational/Singleton/README.md)             | [**Facade**](./Structural/Facade/README.md)           | [**Memento**](./Behavioral/Memento/README.md) |
