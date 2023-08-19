@@ -11,10 +11,6 @@
 **Java Decorator Design Pattern**
 
 
-
-[TheRayCode.ORG](https://www.TheRayCode.org)
-
-
 The Decorator design pattern is a structural pattern that allows you to attach additional responsibilities or behaviors to an object dynamically. Instead of extending an object's functionality through inheritance, the decorator pattern uses composition to wrap individual objects with one or more decorator classes that add new behavior.
 
 Here's a breakdown of the pattern:
@@ -45,6 +41,8 @@ Here's a breakdown of the pattern:
     - Overuse can introduce complexity, as objects get wrapped multiple times with multiple decorators.
 
 In essence, the Decorator pattern enables you to "decorate" objects with new behavior without changing their structure. This provides a more flexible way to add responsibilities compared to using inheritance.
+
+[TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
