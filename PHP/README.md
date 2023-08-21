@@ -19,7 +19,7 @@
 
 Design patterns represent solutions to common problems that arise in software design. These patterns are not language-specific, so they apply to any object-oriented language, including PHP. Design patterns are typically divided into three primary categories:
 
-1. **[Creational Patterns]**(./Creational/README.md): These patterns deal with object creation mechanisms, aiming to create objects in a manner best suited to the situation. The basic form of object creation could lead to design problems or add unnecessary complexity to the design. Creational patterns solve this problem by controlling the object creation process. Examples include:
+1. **[Creational Patterns](./Creational/README.md)**: These patterns deal with object creation mechanisms, aiming to create objects in a manner best suited to the situation. The basic form of object creation could lead to design problems or add unnecessary complexity to the design. Creational patterns solve this problem by controlling the object creation process. Examples include:
    - Singleton
    - Factory Method
    - Abstract Factory
