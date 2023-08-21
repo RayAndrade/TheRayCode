@@ -8,7 +8,7 @@
 |---|---|---|---|---|
 | **Builder**| [**C++**](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../Csharp/Creational/Builder/README.md) | [Java](../../../Java/Creational/Builder/README.md) | [PHP](../../../PHP/Creational/Builder/README.md) |
 
-[Show](./Show/page01.md)
+[Show](./script/page01.md)
 
 The **Builder pattern** is a creational design pattern that lets you construct complex objects step by step. 
 
