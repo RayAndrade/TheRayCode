@@ -6,7 +6,7 @@
 
 |Pattern|   |   |   |   |
 |---|---|---|---|---|
-| Adapter | [**C++**](../../../CPP/Structural/Adapter/README.md) | [**C#**](../../../Csharp/Structural/Adapter/README.md) | [**Java**](../../../Java/Structural/Adapter/README.md) | [**PHP**](../../../PHP/Structural/Adapter/README.md) |
+| [**Adapter**](README.md) | [**C#**](../../../Csharp/Structural/Adapter/README.md) | [**Java**](../../../Java/Structural/Adapter/README.md) | [**PHP**](../../../PHP/Structural/Adapter/README.md) |
 
 **C++ Adapter Design Pattern**
 
