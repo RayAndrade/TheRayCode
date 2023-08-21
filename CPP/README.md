@@ -36,7 +36,7 @@ There are three primary types of design patterns:
    - [**Composite**](./Structural/Composite/README.md): Allows you to compose objects into tree structures to represent part-whole hierarchies.
    - [**Decorator**](./Structural/Decorator/README.md): Allows adding responsibilities to objects dynamically.
    - [**Proxy**](./Structural/Proxy/README.md): Provides a surrogate or placeholder for another object to control access to it.
-   - [**Facade**(./Structural/Facade/README.md): Provides a unified interface to a set of interfaces in a subsystem.
+   - [**Facade**](./Structural/Facade/README.md): Provides a unified interface to a set of interfaces in a subsystem.
 
 3. [**Behavioral Patterns**](./Behavioral/README.md): These patterns are specifically concerned with communication between objects. Examples include:
    - [**Observer**](./Behavioral/Observer/README.md): Allows an object (subject) to publish changes to its state so that other objects (observers) can react accordingly.
