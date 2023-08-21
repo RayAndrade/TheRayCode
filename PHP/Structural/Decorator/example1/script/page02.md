@@ -2,10 +2,6 @@
 
 [back](./page01.md)
 
-```
-TheRayCode\Decorator
-```
-
 We start with the Main Component **Interface**
 
 
