@@ -7,7 +7,6 @@ namespace Show
         public void AddCPU(string cpu)
         {
             _computer.CPU = cpu;
-
         }
 
         public void AddRAM(string ram)

@@ -13,7 +13,6 @@ namespace Show
 
             Console.WriteLine("Gaming Computer Specs:");
             Console.WriteLine(gamingComputer.ToString());
-
         }
     }
 }
