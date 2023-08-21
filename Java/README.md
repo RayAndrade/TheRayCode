@@ -29,7 +29,7 @@ Design patterns offer best practices to solve common problems in software design
 
 2. **Structural Patterns**: These concern class and object composition. They provide different ways to ensure that structures in the system are robust and flexible. Some common Structural patterns are:
 
-    - **Adapter**: Matches interfaces of different classes.
+    - [**Adapter**](./Structural/Adapter/README.md): Matches interfaces of different classes.
     - **Bridge**: Separates an object’s abstraction from its implementation.
     - **Composite**: A tree structure of simple and composite objects.
     - **Decorator**: Adds responsibilities to objects dynamically.
