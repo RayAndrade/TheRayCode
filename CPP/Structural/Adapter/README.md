@@ -4,8 +4,8 @@
 
 **C++ Adapter Design Pattern**
 
-|Pattern|   |   |   |   |
-|---|---|---|---|---|
+|Pattern|   |   |   |
+|---|---|---|---|
 | [**Adapter**](README.md) | [**C#**](../../../Csharp/Structural/Adapter/README.md) | [**Java**](../../../Java/Structural/Adapter/README.md) | [**PHP**](../../../PHP/Structural/Adapter/README.md) |
 
 **C++ Adapter Design Pattern**
