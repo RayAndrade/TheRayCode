@@ -39,17 +39,17 @@ Design patterns offer best practices to solve common problems in software design
 
 3. **Behavioral Patterns**: These are concerned with algorithms and the assignment of responsibilities between objects. Behavioral patterns describe not just patterns of objects or classes but also the patterns of communication between them. Some common Behavioral patterns include:
 
-    - **Strategy**: Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
-    - **Observer**: A way of notifying change to a number of classes.
-    - **State**: Allows an object to alter its behavior when its internal state changes.
-    - **Command**: Encapsulates a command request as an object.
-    - **Interpreter**: Defines a representational grammar and provides an interpreter.
-    - **Iterator**: Sequentially access the elements of a collection without exposing its underlying representation.
-    - **Mediator**: Defines simplified communication between classes.
-    - **Memento**: Captures and restores an object's internal state.
-    - **Visitor**: Adds further operations to objects without having to modify them.
-    - **Chain of Responsibility**: A way of passing a request between a chain of objects.
-    - **Template Method**: Define the skeleton of an algorithm in an operation, but delay some steps to subclasses.
+    - [**Strategy**](./Behavioral/Strategy/README.md): Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+    - [**Observer**](./Behavioral/Observer/README.md): A way of notifying change to a number of classes.
+    - [**State**](./Behavioral/State/README.md): Allows an object to alter its behavior when its internal state changes.
+    - [**Command**](./Behavioral/Command/README.md): Encapsulates a command request as an object.
+    - [**Interpreter**](./Behavioral/Interpreter/README.md): Defines a representational grammar and provides an interpreter.
+    - [**Iterator**](./Behavioral/Iterator/README.md): Sequentially access the elements of a collection without exposing its underlying representation.
+    - [**Mediator**](./Behavioral/Mediator/README.md): Defines simplified communication between classes.
+    - [**Memento**](./Behavioral/Memento/README.md): Captures and restores an object's internal state.
+    - [**Visitor**(./Behavioral/Visitor/README.md): Adds further operations to objects without having to modify them.
+    - [**Chain of Responsibility**](./Behavioral/ChainOfResponsibility/README.md): A way of passing a request between a chain of objects.
+    - [**Template Method**](./Behavioral/Template/README.md): Define the skeleton of an algorithm in an operation, but delay some steps to subclasses.
 
 **How Studying Design Patterns Can Improve You as a Java Developer**:
 
