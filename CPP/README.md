@@ -24,27 +24,27 @@ Design patterns represent solutions to common problems in software design. These
 There are three primary types of design patterns:
 
 1. [**Creational Patterns**](./Creational/README.md): These patterns deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. Examples include:
-   - **Singleton**: Ensures that a class has only one instance and provides a global point to access it.
-   - **Factory Method**: Provides an interface for creating instances of a class, with its subclasses deciding which class to instantiate.
-   - **Abstract Factory**: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
-   - **Builder**: Separates the construction of a complex object from its representation.
-   - **Prototype**: Creates objects by copying an existing object, known as the prototype.
+   - [**Singleton**](./Creational/Singleton/README.md): Ensures that a class has only one instance and provides a global point to access it.
+   - [**Factory Method**](./Creational/Factory/README.md): Provides an interface for creating instances of a class, with its subclasses deciding which class to instantiate.
+   - [**Abstract Factory**](./Creational/AbstractFactory/README.md): Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+   - [**Builder**](./Creational/Builder/README.md): Separates the construction of a complex object from its representation.
+   - [**Prototype**](./Creational/Prototype/README.md): Creates objects by copying an existing object, known as the prototype.
 
 2. [**Structural Patterns**](./Structural/README.md): These patterns are all about Class and Object composition. They define ways to compose objects to obtain new functionalities. Examples include:
-   - **Adapter**: Matches interfaces of different classes so they can work together despite incompatible interfaces.
-   - **Bridge**: Separates an object’s interface from its implementation.
-   - **Composite**: Allows you to compose objects into tree structures to represent part-whole hierarchies.
-   - **Decorator**: Allows adding responsibilities to objects dynamically.
-   - **Proxy**: Provides a surrogate or placeholder for another object to control access to it.
-   - **Facade**: Provides a unified interface to a set of interfaces in a subsystem.
+   - [**Adapter**](./Structural/Adapter/README.md): Matches interfaces of different classes so they can work together despite incompatible interfaces.
+   - [**Bridge**](./Structural/Bridge/README.md): Separates an object’s interface from its implementation.
+   - [**Composite**](./Structural/Composite/README.md): Allows you to compose objects into tree structures to represent part-whole hierarchies.
+   - [**Decorator**](./Structural/Decorator/README.md): Allows adding responsibilities to objects dynamically.
+   - [**Proxy**](./Structural/Proxy/README.md): Provides a surrogate or placeholder for another object to control access to it.
+   - [**Facade**(./Structural/Facade/README.md): Provides a unified interface to a set of interfaces in a subsystem.
 
 3. [**Behavioral Patterns**](./Behavioral/README.md): These patterns are specifically concerned with communication between objects. Examples include:
-   - **Observer**: Allows an object (subject) to publish changes to its state so that other objects (observers) can react accordingly.
-   - **Strategy**: Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
-   - **Command**: Encapsulates a request as an object, allowing parameterization of clients with different requests.
-   - **State**: Allows an object to alter its behavior when its internal state changes.
-   - **Template Method**: Defines the skeleton of an algorithm in a method, but delays some steps to subclasses.
-   - **Visitor**: Allows adding further operations to objects without having to modify them.
+   - [**Observer**](./Behavioral/Observer/README.md): Allows an object (subject) to publish changes to its state so that other objects (observers) can react accordingly.
+   - [**Strategy**](./Behavioral/Strategy/README.md): Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+   - [**Command**](./Behavioral/Command/README.md): Encapsulates a request as an object, allowing parameterization of clients with different requests.
+   - [**State**](./Behavioral/State/README.md): Allows an object to alter its behavior when its internal state changes.
+   - [**Template Method**](./Behavioral/Template/README.md): Defines the skeleton of an algorithm in a method, but delays some steps to subclasses.
+   - [**Visitor**](./Behavioral/Visitor/README.md): Allows adding further operations to objects without having to modify them.
 
 ### How studying design patterns can help improve as a C++ developer:
 
