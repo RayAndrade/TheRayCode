@@ -10,8 +10,6 @@
 
 **C++ Factory Design Pattern**
 
-Certainly!
-
 **Factory Design Pattern**:
 
 The Factory design pattern deals with the problem of creating objects without specifying the exact class of object that will be created. Instead of calling a constructor directly to create an object, a factory method is employed to create the object. This factory method is typically defined in an interface, which is implemented by concrete classes. The pattern is thus about delegating the responsibility of object instantiation to specialized methods, rather than directly instantiating objects with constructors.
