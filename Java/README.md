@@ -47,7 +47,7 @@ Design patterns offer best practices to solve common problems in software design
     - [**Iterator**](./Behavioral/Iterator/README.md): Sequentially access the elements of a collection without exposing its underlying representation.
     - [**Mediator**](./Behavioral/Mediator/README.md): Defines simplified communication between classes.
     - [**Memento**](./Behavioral/Memento/README.md): Captures and restores an object's internal state.
-    - [**Visitor**(./Behavioral/Visitor/README.md): Adds further operations to objects without having to modify them.
+    - [**Visitor**](./Behavioral/Visitor/README.md): Adds further operations to objects without having to modify them.
     - [**Chain of Responsibility**](./Behavioral/ChainOfResponsibility/README.md): A way of passing a request between a chain of objects.
     - [**Template Method**](./Behavioral/Template/README.md): Define the skeleton of an algorithm in an operation, but delay some steps to subclasses.
 
