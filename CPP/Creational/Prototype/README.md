@@ -6,77 +6,36 @@
 
 |Pattern|   |   |   |   |
 |---|---|---|---|---|
-|  Prototype | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [Java](../../../Java/Creational/Prototype/README.md) | [PHP](../../../PHP/Creational/Prototype/README.md) |
+|  Prototype | [**C++**](Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [Java](../../../Java/Creational/Prototype/README.md) | [PHP](../../../PHP/Creational/Prototype/README.md) |
 
-[Show](./script/page01.md)
 
-The prototype pattern is a creational design pattern in software development. It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects. This pattern is used to:
+**Prototype Design Pattern**:
 
-* Avoid subclasses of an object creator in the client application, like the factory method pattern does.
-* Avoid the inherent cost of creating a new object in the standard way (e.g., using the 'new' keyword) when it is prohibitively expensive for a given application.
+The Prototype pattern is about creating a new instance of an object by copying an existing instance, which serves as a prototype. Instead of constructing a new object from scratch, an object that's already initialized with certain states is cloned to produce a duplicate. This pattern involves two main actors:
 
-The pattern involves implementing a prototype interface which tells to create a clone of the current object. This is done by creating a function that uses the clone method to create and return a copy of itself.
+1. **Prototype**: This is the interface or abstract class that declares the cloning operation.
+2. **ConcretePrototype**: This is the concrete implementation of the Prototype interface and implements the cloning operation. Typically, it might use a copy constructor, a cloning method, or other mechanisms to achieve this.
 
-Here's how you might implement the prototype pattern in C++.
+The essence of the Prototype pattern is to avoid the overhead of creating an object in the standard way when it's more efficient to duplicate an existing instance.
 
-Create class **Prototype**
+**Importance for a C++ Developer**:
 
-This is the Prototype base class. It declares a method for cloning itself.
+1. **Performance Optimizations**: There might be scenarios where object instantiation is a costly operation due to resource allocations, database calls, or other complex initialization processes. If an object similar to the desired one already exists, cloning it (i.e., using the Prototype pattern) can be more efficient than creating a new one from scratch.
 
-```
-class Prototype {  
-public:
-    virtual ~Prototype(){}
-    virtual Prototype* clone() const = 0;
-};
-```
-This is a concrete class implementing the Prototype interface. It defines the clone method to return a copy of itself.
-```
-#include "Prototype.h"
+2. **Dynamic Object Creation**: In C++, object types are usually determined at compile-time. However, using the Prototype pattern, objects can be dynamically created at runtime by copying existing prototypes. This brings in flexibility in instantiating objects.
 
-class ConcretePrototype : public Prototype { 
-public:
-    ConcretePrototype(int value): value_(value){}
-    ConcretePrototype(const ConcretePrototype& other): value_(other.value_){}
-    virtual ~ConcretePrototype(){}
-    virtual Prototype* clone() const override {
-        return new ConcretePrototype(*this);
-    }
-    int getValue() { return value_; }
-private:
-    int value_;
-};
-```
-In the main function, we create an instance of ConcretePrototype and then clone it. We print out the values of the original and the copy to show that they are the same.
+3. **Maintain Object Consistency**: If there's a need to ensure that a set of objects start with a consistent state, then using a prototype to generate these objects ensures this consistency.
 
-Please note that the Prototype pattern requires memory management. In the above code, we are using raw pointers which need to be manually deleted to prevent memory leaks. In a real-world application, it is recommended to use smart pointers such as std::unique_ptr or std::shared_ptr for automatic and safe memory management.
+4. **Complex Object Creation**: For objects with numerous shared configurations or intricate internal structures, setting them up every time can be tedious. The Prototype pattern bypasses this by allowing developers to clone a pre-configured object.
 
-```
-#include <iostream>
-#include "ConcretePrototype.h"
+5. **Memory Management**: In C++, memory management is crucial. Sometimes, creating an object using the 'new' operator can be expensive. Cloning might provide a more controlled or efficient way to manage memory, especially when dealing with large objects.
 
-int main() {
-    ConcretePrototype original(10);
-    ConcretePrototype* copy = static_cast<ConcretePrototype*>(original.clone());
+6. **Polymorphism**: The Prototype pattern allows you to clone objects without knowing their concrete classes, only their prototypes. This means that you can copy a diverse set of objects treating them as polymorphic prototypes.
 
-    std::cout << "Original value: " << original.getValue() << std::endl;
-    std::cout << "Copy value: " << copy->getValue() << std::endl;
-
-    delete copy;
-    
-    return 0;
-}
-```
-
-When we compile and run we get:
-
-```
-Original value: 10
-Copy value: 10
-```
+In summary, the Prototype design pattern provides C++ developers with a mechanism to optimize object creation, manage memory efficiently, and introduce dynamic instantiation, leading to more flexible and efficient applications. Understanding this pattern is beneficial when dealing with situations where repeated and efficient object instantiation is paramount.
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
