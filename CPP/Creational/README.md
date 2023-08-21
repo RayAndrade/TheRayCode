@@ -7,7 +7,7 @@
 
 |Pattern|   |
 |---|---|
-| **Abstract Factory** | [**C++**](../../CPP/Creational/AbstractFactory/README.md) |
+| **Abstract Factory** | [**C++**](AbstractFactory/README.md) |
 | **Builder** | [**C++**](../../CPP/Creational/Builder/README.md) | 
 | **Factory** | [**C++**](../../CPP/Creational/Factory/README.md) |
 | **Prototype** | [**C++**](../../../CPP/Creational/Prototype/README.md) |
