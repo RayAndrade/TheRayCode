@@ -10,8 +10,18 @@ Now we create the Base Decorator Class
       - The `operation` method is implemented here, but it just delegates the call to the wrapped component.
     - **Role:** This class facilitates the dynamic addition of responsibilities to objects. Any concrete decorator will extend this class to inherit its wrapping capabilities.
 
+create class
 ```
-implements Component
+Decorator
+```
+
+make class 
+```
+abstract
+```
+
+```
+ implements Component
 ```    
 
 ``` 

@@ -8,6 +8,8 @@ TheRayCode\Decorator
 
 We start with the Main Component **Interface**
 
+
+name:
 ```
 Component
 ```

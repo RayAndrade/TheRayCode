@@ -16,7 +16,7 @@ SugarDecorator
 ```
 
 ```
-extends Decorator
+ extends Decorator
 ```
 
 ```

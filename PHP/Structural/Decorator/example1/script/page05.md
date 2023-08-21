@@ -9,7 +9,7 @@ MilkDecorator
 ```
 
 ```
-extends Decorator
+ extends Decorator
 ```
 
 ```
