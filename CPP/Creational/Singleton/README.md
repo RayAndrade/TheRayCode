@@ -6,7 +6,7 @@
 
 |Pattern|   |   |   |
 |---|---|---|---|
-|  [**Singleton**](README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [Java](../../../Java/Creational/Singleton/README.md) | [PHP](../../../PHP/Creational/Singleton/README.md) |
+|  [**Singleton**](README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [**Java**](../../../Java/Creational/Singleton/README.md) | [**PHP**](../../../PHP/Creational/Singleton/README.md) |
 
 
 **Singleton Design Pattern**:
