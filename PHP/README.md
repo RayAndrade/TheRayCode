@@ -26,7 +26,7 @@ Design patterns represent solutions to common problems that arise in software de
    - Prototype
    - Builder
 
-2. **Structural Patterns**: These patterns concern class and object composition. They provide different ways to ensure that structures are established efficiently and that relationships between different components of a system are clear and scalable. Examples include:
+2. **[Structural Patterns](./Structural/README.md)**: These patterns concern class and object composition. They provide different ways to ensure that structures are established efficiently and that relationships between different components of a system are clear and scalable. Examples include:
    - Adapter
    - Bridge
    - Composite
@@ -35,7 +35,7 @@ Design patterns represent solutions to common problems that arise in software de
    - Flyweight
    - Proxy
 
-3. **Behavioral Patterns**: These patterns are specifically concerned with communication between objects. They ensure efficient and clear interactions between objects and responsibilities. Examples include:
+3. **[Behavioral Patterns](./Behavioral/README.md)**: These patterns are specifically concerned with communication between objects. They ensure efficient and clear interactions between objects and responsibilities. Examples include:
    - Observer
    - Strategy
    - Command
