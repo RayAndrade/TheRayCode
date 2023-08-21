@@ -21,31 +21,31 @@ Design patterns represent solutions to common problems that arise in software de
 
 1. **[Creational Patterns](./Creational/README.md)**: These patterns deal with object creation mechanisms, aiming to create objects in a manner best suited to the situation. The basic form of object creation could lead to design problems or add unnecessary complexity to the design. Creational patterns solve this problem by controlling the object creation process. Examples include:
    - [Singleton](./Creational/Singleton/README.md)
-   - Factory Method
-   - Abstract Factory
-   - Prototype
-   - Builder
+   - [Factory Method](./Creational/Factory/README.md)
+   - [Abstract Factory](./Creational/AbstractFactory/README.md)
+   - [Prototype](./Creational/Prototype/README.md)
+   - [Builder](./Creational/Builder/README.md)
 
 2. **[Structural Patterns](./Structural/README.md)**: These patterns concern class and object composition. They provide different ways to ensure that structures are established efficiently and that relationships between different components of a system are clear and scalable. Examples include:
-   - Adapter
-   - Bridge
-   - Composite
-   - Decorator
-   - Facade
-   - Flyweight
-   - Proxy
+   - [Adapter](./Structural/Adapter/README.md)
+   - [Bridge](./Structural/Bridge/README.md)
+   - [Composite](./Structural/Composite/README.md)
+   - [Decorator](./Structural/Decorator/README.md)
+   - [Facade](./Structural/Facade/README.md)
+   - [Flyweight](./Structural/Flyweight/README.md)
+   - [Proxy](./Structural/Proxy/README.md)
 
 3. **[Behavioral Patterns](./Behavioral/README.md)**: These patterns are specifically concerned with communication between objects. They ensure efficient and clear interactions between objects and responsibilities. Examples include:
-   - Observer
-   - Strategy
-   - Command
-   - Template Method
-   - Iterator
-   - State
-   - Chain of Responsibility
-   - Mediator
-   - Memento
-   - Visitor
+   - [Observer](./Behavioral/Observer/README.md)
+   - [Strategy](./Behavioral/Strategy/README.md)
+   - [Command](./Behavioral/Command/README.md)
+   - [Template Method](./Behavioral/Template/README.md)
+   - [Iterator](./Behavioral/Iterator/README.md)
+   - [State](./Behavioral/State/README.md)
+   - [Chain of Responsibility](./Behavioral/Observer/README.md)
+   - [Mediator](./Behavioral/Mediator/README.md)
+   - [Memento](./Behavioral/Memento/README.md)
+   - [Visitor](./Behavioral/Visitor/README.md)
 
 **Benefits of studying design patterns for a PHP developer**:
 
