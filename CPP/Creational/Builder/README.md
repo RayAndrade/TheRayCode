@@ -6,95 +6,35 @@
 
 |Pattern|   |   |   |   |
 |---|---|---|---|---|
-| **Builder**| [**C++**](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../Csharp/Creational/Builder/README.md) | [Java](../../../Java/Creational/Builder/README.md) | [PHP](../../../PHP/Creational/Builder/README.md) |
-
-[script](./script/page01.md)
-
-The **Builder Design Pattern** is a *creational* pattern used for constructing complex objects step by step. It separates the construction of an object from its representation, so the same construction process can create different representations
-
-Let's imagine a simple example of a Car object. A Car may have different components (like Engine, Wheels, Seats, etc.), and these components can vary from car to car. We could have a CarBuilder that allows the creation of Car objects in a step-by-step manner.
-
-First, let's define our product class, **Car**:
-
-```
-#include <string>
-
-class Car {
-public:
-    std::string Engine, Seats, Wheels;
-};
-```
-This is a very simplified Car class with three string properties.
-
-The **CarBuilder** is an abstract base class with a set of pure virtual functions for setting parts of a Car object. Each concrete builder will provide a different implementation of these methods.
-
-```
-#include "Car.h"
-
-class CarBuilder {
-public:
-    virtual ~CarBuilder() {}
-    virtual void setEngine(std::string type) = 0;
-    virtual void setSeats(std::string type) = 0;
-    virtual void setWheels(std::string type) = 0;
-    virtual Car* getCar() = 0;
-};
-```
-The **SportsCarBuilder** is a concrete builder implementation. It provides specific ways to build a sports car.
-
-```
-#include "CarBuilder.h"
-
-class SportsCarBuilder : public CarBuilder{
-private:
-    Car *car;
-public:
-    SportsCarBuilder() { this->car = new Car(); }
-    ~SportsCarBuilder() { delete car; }
-
-    void setEngine(std::string type) override { car->Engine = type + " sports engine"; }
-    void setSeats(std::string type) override { car->Seats = type + " sports seats"; }
-    void setWheels(std::string type) override { car->Wheels = type + " sports wheels"; }
-    Car* getCar() override { return car; }
-};
-```
-
-In the main function, we create a SportsCarBuilder object, set its attributes, and then retrieve the built Car object.
-
-```
-#include <iostream>
-#include "SportsCarBuilder.h"
-
-int main() {
-    SportsCarBuilder builder;
-    builder.setEngine("V8");
-    builder.setSeats("Leather");
-    builder.setWheels("Alloy");
-
-    Car* car = builder.getCar();
-
-    std::cout << "Car built with: "
-              << car->Engine << ", "
-              << car->Seats << ", "
-              << car->Wheels << std::endl;
-
-    delete car;
-    return 0;
-}
-```
+| **Builder**| [**C++**](../Builder/README.md) | [**C#**](../../../Csharp/Creational/Builder/README.md) | [Java](../../../Java/Creational/Builder/README.md) | [PHP](../../../PHP/Creational/Builder/README.md) |
 
 
-When we run and compile we get:
+**Builder Design Pattern**:
 
-```
-Car built with: V8 sports engine, Leather sports seats, Alloy sports wheels
-free(): double free detected in tcache 2
-```
-Remember, this is a very simplified example of the Builder pattern. In real scenarios, you might have a Director class that guides the building process, especially when the process is more complex.
+The Builder design pattern separates the construction of a complex object from its representation, allowing the same construction process to create different representations. Essentially, the pattern aims to solve the problem of creating complex objects step by step. Instead of using numerous constructors or setting up an object in a chaotic manner, a builder class receives each initialization parameter step by step and returns the resulting constructed object at once.
 
+The process generally involves a *director* and a *builder*. The director specifies the building steps, while the builder provides an implementation for those steps and keeps the intermediate state until the object is ready to be delivered.
+
+**Importance for a C++ Developer**:
+
+1. **Separation of Concerns**: By decoupling the construction logic from the actual object representation, the Builder pattern ensures that the internal structure and assembly of objects is shielded from the client. This separation leads to a cleaner and more organized codebase.
+
+2. **Fluent Interface and Method Chaining**: The Builder pattern often makes use of method chaining (i.e., returning the builder object from each setup method) to provide a fluent interface that enhances readability and eases the object creation process.
+
+3. **Immutable Objects**: In situations where you need immutable objects, the Builder pattern can be handy. After constructing an object with all its properties, the builder can return an unmodifiable version of that object.
+
+4. **Fine-grained Control Over Construction Process**: There might be situations in C++ where an object needs to be created with a specific set of operations, possibly in a particular order. The Builder pattern allows for this level of detail in the object's creation process.
+
+5. **Scalability with Complex Constructors**: In C++, having constructors with a large number of parameters can become unwieldy and hard to manage. With the Builder pattern, developers can create objects step by step, making it clearer which parameters are being set and how.
+
+6. **Avoid Telescoping Constructors**: "Telescoping constructors" refer to the problem where a class ends up with many constructors where each one adds an additional argument. It becomes confusing and difficult to manage. The Builder pattern offers a clear solution to this problem.
+
+7. **Memory Management**: C++ requires explicit memory management. Using the Builder pattern, developers can have better control over the allocation and deallocation of memory, especially for complex objects.
+
+In conclusion, the Builder pattern offers a structured approach to constructing complex objects. For a C++ developer, understanding this pattern can lead to cleaner, more readable, and maintainable code, especially when dealing with intricate object creation scenarios.
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
