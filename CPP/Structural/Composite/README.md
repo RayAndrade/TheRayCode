@@ -6,7 +6,7 @@
 
 |Pattern|   |   |   |   |
 |---|---|---|---|---|
-| Composite | [**C++**](../../../CPP/Structural/Composite/README.md) | [**C#**](../../../Csharp/Structural/Composite/README.md) | [Java](../../../Java/Structural/Composite/README.md) | [PHP](../../../PHP/Structural/Composite/README.md) |
+| [**Composite**](Composite/README.md) | [**C#**](../../../Csharp/Structural/Composite/README.md) | [**Java**](../../../Java/Structural/Composite/README.md) | [**PHP**](../../../PHP/Structural/Composite/README.md) |
 
 **C++ Composite Design Pattern**
 
