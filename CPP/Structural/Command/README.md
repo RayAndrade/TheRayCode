@@ -6,7 +6,7 @@
 
 |Pattern|   |   |   |   |
 |---|---|---|---|---|
-| Command | [**C++**](../../../CPP/Structural/Command/README.md) | [**C#**](../../../Csharp/Structural/Command/README.md) | [Java](../../../Java/Structural/Command/README.md) | [PHP](../../../PHP/Structural/Command/README.md) |
+| [**Command**](Command/README.md) | [**C#**](../../../Csharp/Structural/Command/README.md) | [Java](../../../Java/Structural/Command/README.md) | [PHP](../../../PHP/Structural/Command/README.md) |
 
 **C++ Command Design Pattern**
 
