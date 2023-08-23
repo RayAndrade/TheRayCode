@@ -2,40 +2,41 @@
 
 **[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
-**C++ **Mediator** Design Pattern**
+**C++ Behavioral design Pattern**
 
-|Pattern|   |   |   |
-|---|---|---|---|
-| [**Mediator**](README.md) | [**C#**](../../../Csharp/Behavioral/Mediator/README.md) | [**Java**](../../../Java/Behavioral/Mediator/README.md) | [**PHP**](../../../PHP/Behavioral/Mediator/README.md) |
+Behavioral design patterns are focused on communication between objects, how they interact and fulfill their roles within a system. Here are the primary Behavioral design patterns:
 
-**C++ Mediator Design Pattern**
+1. **Chain of Responsibility**: Decouples request senders from receivers by allowing multiple objects to process the request independently or pass it along the chain.
+2. **Command**: Turns a request into a standalone object containing information about the request, making it possible to parameterize objects with different requests, delay request execution, or log them.
+3. [**Interpreter**](Behavioral/Interpreter/README.md): Provides a way to evaluate language grammar or expressions for particular languages.
+4. **Iterator**: Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+5. **Mediator**: Reduces direct communication between objects by introducing a mediator, which centralizes external communications.
+6. **Memento**: Allows for the ability to restore an object to its previous state, which can be beneficial for "undo" capabilities without exposing the essence of its structure.
+7. **Observer**: Lets objects notify each other of changes without knowing who those objects are, promoting loose coupling.
+8. **State**: Lets an object change its behavior when its state changes.
+9. **Strategy**: Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+10. **Template Method**: Defines the structure of an algorithm, allowing the steps of this algorithm to be redefined by subclasses.
+11. **Visitor**: Lets you add further operations to objects without having to modify them.
 
-**Mediator** is a behavioral design pattern that aims to reduce the direct dependencies among a set of system components or objects, by centralizing external communications between them. Instead of components communicating directly with each other, they would instead communicate through a mediator object. This pattern helps in decoupling many-to-many relationships between interacting components, making them simpler as many-to-one relationships between the components and the mediator.
+**How does learning these patterns improve you as a C++ programmer?**
 
-Key Characteristics:
-1. **Mediator Interface**: This defines the interface for communication with colleague components.
-2. **Concrete Mediator**: It implements the mediator interface and coordinates communication between colleague objects. It maintains references to colleagues to manage the interaction.
-3. **Colleagues (Components)**: These are the set of objects that need to communicate with each other. Instead of communicating directly, they use the mediator. Each colleague knows about the mediator and can communicate with it.
+1. **Enhanced Design Skills**: Knowing these patterns provides you with well-established solutions to common problems, so you can avoid "reinventing the wheel." This accelerates the design phase and leads to more efficient and effective solutions.
 
-**Importance for a C++ developer:**
+2. **Clear Communication**: When working in a team, using a commonly known vocabulary of design patterns facilitates clear communication. For instance, saying "Let's use the Observer pattern here" is more concise than explaining the entire concept without naming the pattern.
 
-1. **Decoupling**: One of the main advantages of the Mediator pattern is the reduction of dependencies between components. This leads to a decrease in the complexity of system communications and enhances the reusability of components.
+3. **Optimized Solutions**: Many of these patterns, when implemented correctly, can lead to optimized solutions in terms of both speed and memory in C++, which is crucial given the language's emphasis on performance.
 
-2. **Flexibility**: Changes in the mediator's behavior can affect colleague object interactions, allowing for more manageable adjustments in how components cooperate. 
+4. **Maintainability**: Patterns often lead to more organized and structured code. Well-structured code is easier to understand, modify, and maintain.
 
-3. **Unified Interface**: By having one point of contact (the mediator), you can present a unified interface over a set of classes or components. This can simplify interactions from the client's perspective.
+5. **Adaptability**: Behavioral patterns, in particular, focus on interactions and roles of individual objects, ensuring that systems can be more adaptable to change. As requirements evolve, systems built using these patterns can often be more easily extended or modified.
 
-4. **Easier Maintenance**: Reducing direct communication between components means that changes in one component will less likely impact others. This isolation makes maintenance and potential updates more straightforward.
+6. **Avoidance of Anti-patterns**: Recognizing and understanding design patterns can also help you recognize and avoid anti-patterns, which are commonly recurring solutions that appear beneficial but can have negative impacts.
 
-5. **Centralized Control**: Mediators facilitate centralized control. In systems where this control is necessary, like GUIs where interactions between widgets need to be managed, mediators can be invaluable.
+7. **Understanding Advanced Concepts**: As you dive deep into patterns, especially in C++, you'll encounter advanced language features, such as polymorphism, templates, and the importance of object composition. This deepens your understanding of C++ as a language.
 
-6. **Refinement**: Over time, as systems grow, the interaction logic between components can become muddled. Mediators can encapsulate this logic, leading to a cleaner design.
+8. **Reusability**: Patterns can often be abstracted and reused in different parts of a software system or even across multiple projects, leading to faster development cycles.
 
-7. **Better Testing**: With the Mediator pattern, components can be tested in isolation with mock mediators, leading to clearer and more effective unit testing.
-
-However, it's crucial to understand that while the Mediator pattern provides many benefits, it can also become a monolithic object if not designed correctly. It can centralize too much functionality, leading to a so-called "God object" which goes against the principles of modularity.
-
-In conclusion, for a C++ developer, understanding the Mediator pattern can be crucial when working with systems where components have complex interactions. Implementing the pattern can lead to a cleaner, more maintainable design by centralizing these interactions and reducing direct dependencies between components.
+In conclusion, learning behavioral design patterns and design patterns, in general, equips a C++ developer with a toolbox of proven solutions to common problems, making them more effective and efficient in their design and implementation phases. It enhances their ability to produce robust, scalable, and maintainable software.
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
