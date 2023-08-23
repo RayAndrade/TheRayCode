@@ -32,7 +32,7 @@ Design patterns can be broadly categorized into three types:
 
 *Creational Patterns (5)*:
 
-1. [**Singleton**](/Creational/Singleton/README.md)
+1. [**Singleton**](./Creational/Singleton/README.md)
 2. Prototype
 3. Factory Method
 4. Abstract Factory
