@@ -6,7 +6,7 @@
 
 Behavioral design patterns are focused on communication between objects, how they interact and fulfill their roles within a system. Here are the primary Behavioral design patterns:
 
-1. **Chain of Responsibility**: Decouples request senders from receivers by allowing multiple objects to process the request independently or pass it along the chain.
+1. [**Chain of Responsibility**](ChainOfResponsibility/README.md): Decouples request senders from receivers by allowing multiple objects to process the request independently or pass it along the chain.
 2. **Command**: Turns a request into a standalone object containing information about the request, making it possible to parameterize objects with different requests, delay request execution, or log them.
 3. [**Intepretor**](Intepretor/README.md): Provides a way to evaluate language grammar or expressions for particular languages.
 4. **Iterator**: Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
