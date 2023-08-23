@@ -4,8 +4,8 @@
 
 **C++ Command Design Pattern**
 
-|Pattern|   |   |   |   |
-|---|---|---|---|---|
+|Pattern|   |   |   |
+|---|---|---|---|
 | [**Command**](Command/README.md) | [**C#**](../../../Csharp/Behavioral/Command/README.md) | [Java](../../../Java/Behavioral/Command/README.md) | [PHP](../../../PHP/Behavioral/Command/README.md) |
 
 **C++ Command Design Pattern**
