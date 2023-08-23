@@ -8,7 +8,7 @@ Behavioral design patterns are focused on communication between objects, how the
 
 1. **Chain of Responsibility**: Decouples request senders from receivers by allowing multiple objects to process the request independently or pass it along the chain.
 2. **Command**: Turns a request into a standalone object containing information about the request, making it possible to parameterize objects with different requests, delay request execution, or log them.
-3. [**Interpreter**](README.md): Provides a way to evaluate language grammar or expressions for particular languages.
+3. [**Interpreter**](Interpreter/README.md): Provides a way to evaluate language grammar or expressions for particular languages.
 4. **Iterator**: Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 5. **Mediator**: Reduces direct communication between objects by introducing a mediator, which centralizes external communications.
 6. **Memento**: Allows for the ability to restore an object to its previous state, which can be beneficial for "undo" capabilities without exposing the essence of its structure.
