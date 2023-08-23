@@ -24,9 +24,9 @@ Design patterns can be broadly categorized into three types:
 
 1. [**Creational Patterns**](Creational/README.md): These deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.
   
-2. **Structural Patterns**: These concern class and object composition. They use inheritance to compose interfaces and define ways to compose objects to obtain new functionalities.
+2. [**Structural Patterns**](Structural/README.md): These concern class and object composition. They use inheritance to compose interfaces and define ways to compose objects to obtain new functionalities.
 
-3. **Behavioral Patterns**: These are about class's objects communication. They are concerned with the assignment of responsibilities between objects and how they communicate.
+3. [**Behavioral Patterns**](Behavioral/README.md): These are about class's objects communication. They are concerned with the assignment of responsibilities between objects and how they communicate.
 
 **23 Design Patterns Outlined by the Gang of Four (GoF):**
 
