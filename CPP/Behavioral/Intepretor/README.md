@@ -10,8 +10,6 @@
 
 **C++ Intepretor Design Pattern**
 
-Certainly!
-
 **Interpreter** is a behavioral design pattern that deals with the problem of interpreting languages or defining grammars for specific languages. It defines a representation for the grammar and provides an interpreter to deal with this grammar. Essentially, the pattern involves turning a task into a series of grammar rules and then interpreting sequences that follow these rules.
 
 Key Characteristics:
