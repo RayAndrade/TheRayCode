@@ -4,12 +4,11 @@
 
 **C++ Memento Design Pattern**
 
-|Pattern|   |   |   |   |
-|---|---|---|---|---|
-| Memento | [**C++**](../../../CPP/Behavioral/Memento/README.md) | [**C#**](../../../Csharp/Behavioral/Memento/README.md) | [Java](../../../Java/Behavioral/Memento/README.md) | [PHP](../../../PHP/Behavioral/Memento/README.md) |
+|Pattern|   |   |   |
+|---|---|---|---|
+| [**Memento**]](README.md) | [**C#**](../../../Csharp/Behavioral/Memento/README.md) | [Java](../../../Java/Behavioral/Memento/README.md) | [PHP](../../../PHP/Behavioral/Memento/README.md) |
 
 **C++ Memento Design Pattern**
-Certainly!
 
 **Memento** is a behavioral design pattern that allows for the ability to restore an object to its previous state, which can be useful for operations like undo functionality. The main idea is to capture the internal state of an object without exposing its internal structure, and then save it externally, so it can be restored later if needed.
 
