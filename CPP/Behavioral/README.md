@@ -10,13 +10,13 @@ Behavioral design patterns are focused on communication between objects, how the
 2. [**Command**](Command/README.md): Turns a request into a standalone object containing information about the request, making it possible to parameterize objects with different requests, delay request execution, or log them.
 3. [**Intepretor**](Intepretor/README.md): Provides a way to evaluate language grammar or expressions for particular languages.
 4. [**Iterator**](Iterator/README.md): Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
-5. [**Mediator**](Iterator/README.md): Reduces direct communication between objects by introducing a mediator, which centralizes external communications.
-6. [**Memento**](Iterator/README.md): Allows for the ability to restore an object to its previous state, which can be beneficial for "undo" capabilities without exposing the essence of its structure.
-7. [**Observer**](Iterator/README.md): Lets objects notify each other of changes without knowing who those objects are, promoting loose coupling.
-8. [**State**](Iterator/README.md): Lets an object change its behavior when its state changes.
-9. [**Strategy**](Iterator/README.md): Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
-10. [**Template Method**](Iterator/README.md): Defines the structure of an algorithm, allowing the steps of this algorithm to be redefined by subclasses.
-11. [**Visitor**](Iterator/README.md): Lets you add further operations to objects without having to modify them.
+5. [**Mediator**](Mediator/README.md): Reduces direct communication between objects by introducing a mediator, which centralizes external communications.
+6. [**Memento**](Memento/README.md): Allows for the ability to restore an object to its previous state, which can be beneficial for "undo" capabilities without exposing the essence of its structure.
+7. [**Observer**](Observer/README.md): Lets objects notify each other of changes without knowing who those objects are, promoting loose coupling.
+8. [**State**](State/README.md): Lets an object change its behavior when its state changes.
+9. [**Strategy**](Strategy/README.md): Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+10. [**Template Method**](Template/README.md): Defines the structure of an algorithm, allowing the steps of this algorithm to be redefined by subclasses.
+11. [**Visitor**](Visitor/README.md): Lets you add further operations to objects without having to modify them.
 
 **How does learning these patterns improve you as a C++ programmer?**
 
