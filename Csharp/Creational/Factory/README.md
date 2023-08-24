@@ -8,7 +8,7 @@
 |---|---|---|---|---|
 |  [**Factory**](README.md) | [**C++**](../../../CPP/Creational/Factory/README.md) | [Java](../../../Java/Creational/Factory/README.md) | [PHP](../../../PHP/Creational/Factory/README.md) |
 
-[Show](./script/page01.md)
+[Example](Show/README.md)
 
 The **Factory design** pattern is a creational pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created. In other words, it defines a way to create objects without specifying their exact class.
 
