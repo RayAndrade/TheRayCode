@@ -6,11 +6,11 @@
 
 | examples using PHP| | | |
 |----|---|---|---|
-|**[Abstract Factory](./Adapter/README.md)**  | [C++](../../CPP/Structural/Adapter/README.md) | [C#](../../Csharp/Structural/Adapter/README.md) | [Java](../../Java/Structural/Adapter/README.md) |
-|**[Builder](./Bridge/README.md)**  | [C++](../../CPP/Structural/Bridge/README.md) | [C#](../../Csharp/Structural/Bridge/README.md) | [Java](../../Java/Structural/Bridge/README.md) |
-|**[Factory](./Command/README.md)**  | [C++](../../CPP/Structural/Command/README.md) | [C#](../../Csharp/Structural/Command/README.md) | [Java](../../Java/Structural/Command/README.md) |
-|**[Prototype](./Composite/README.md)**  | [C++](../../CPP/Structural/Composite/README.md) | [C#](../../Csharp/Structural/Composite/README.md) | [Java](../../Java/Structural/Composite/README.md) |
-|**[Singleton](./Decorator/README.md)**  | [C++](../../CPP/Structural/Decorator/README.md) | [C#](../../Csharp/Structural/Decorator/README.md) | [Java](../../Java/Structural/Decorator/README.md) |
+|**[Abstract Factory](./AbstractFactory/README.md)**  | [C++](../../CPP/Creational/AbstractFactory/README.md) | [C#](../../Csharp/Creational/AbstractFactory/README.md) | [Java](../../Java/Creational/AbstractFactory/README.md) |
+|**[Builder](./Builder/README.md)**  | [C++](../../CPP/Creational/Builder/README.md) | [C#](../../Csharp/Creational/Builder/README.md) | [Java](../../Java/Creational/Builder/README.md) |
+|**[Factory](./Factory/README.md)**  | [C++](../../CPP/Creational/Factory/README.md) | [C#](../../Csharp/Creational/Factory/README.md) | [Java](../../Java/Creational/Factory/README.md) |
+|**[Prototype](./Prototype/README.md)**  | [C++](../../CPP/Creational/Prototype/README.md) | [C#](../../Csharp/Creational/Prototype/README.md) | [Java](../../Java/Creational/Prototype/README.md) |
+|**[Singleton](./Decorator/README.md)**  | [C++](../../CPP/Creational/Singleton/README.md) | [C#](../../Csharp/Creational/Singleton/README.md) | [Java](../../Java/Creational/Singleton/README.md) |
 
 **[Creational design patterns](./README.md)** are a category of design patterns that deal with object creation. They provide flexible and reusable ways to create objects in your application. In PHP, these patterns can be used to create objects in a more flexible and efficient manner. Here are some examples of Creational design patterns in PHP:
 
