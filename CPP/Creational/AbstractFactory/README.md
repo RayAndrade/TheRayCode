@@ -8,7 +8,7 @@
 |---|---|---|---|
 | [**Abstract Factory**](../AbstractFactory/README.md) | [**C#**](../../../Csharp/Creational/AbstractFactory/README.md) | [Java](../../../Java/Creational/AbstractFactory/README.md) | [PHP](../../../PHP/Creational/AbstractFactory/README.md) |
 
-**C++ Abstract Factory Design Pattern**
+[**Example**](Show/README.md)
 
 The Abstract Factory design pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes. In other words, it's a factory of factories.
 
