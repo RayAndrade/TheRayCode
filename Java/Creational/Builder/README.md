@@ -13,7 +13,6 @@
 
 [script](./script/page01.md)
 
-
 The Builder Design Pattern is a creational design pattern that focuses on the construction of complex objects by separating the construction process from the actual representation of the object. It allows you to create objects step by step, with the ability to create different variations of the same object using the same construction process.
 
 Java programmers should study the Builder Design Pattern for several reasons:
@@ -38,19 +37,9 @@ Java programmers should study the Builder Design Pattern for several reasons:
 
 In summary, Java programmers should study the Builder Design Pattern to deepen their grasp of software design concepts and to leverage a powerful technique for managing the construction of intricate objects. This knowledge aids in producing more modular, adaptable, and maintainable code, ultimately contributing to better software development practices and higher-quality applications.
 
-
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
-
-
-
-
-
-
-
-
-
+[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
 
