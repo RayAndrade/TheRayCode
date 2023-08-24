@@ -6,15 +6,11 @@
 
 | examples using C# | | | |
 |----|---|---|---|
-|**[Adapter](./Adapter/README.md)**  | [C++](../../CPP/Structural/Adapter/README.md) | [Java](../../Java/Structural/Adapter/README.md) | [PHP](../../PHP/Structural/Adapter/README.md) |
-|**[Bridge](./Bridge/README.md)**  | [C++](../../CPP/Structural/Bridge/README.md) | [Java](../../Java/Structural/Bridge/README.md) | [PHP](../../PHP/Structural/Bridge/README.md) |
-|**[Command](./Command/README.md)**  | [C++](../../CPP/Structural/Command/README.md) | [Java](../../Java/Structural/Command/README.md) | [PHP](../../PHP/Structural/Command/README.md) |
-|**[Composite](./Composite/README.md)**  | [C++](../../CPP/Structural/Composite/README.md) | [Java](../../Java/Structural/Composite/README.md) | [PHP](../../PHP/Structural/Composite/README.md) |
-|**[Decorator](./Decorator/README.md)**  | [C++](../../CPP/Structural/Decorator/README.md) | [Java](../../Java/Structural/Decorator/README.md) | [PHP](../../PHP/Structural/Decorator/README.md) |
-|**[Facade](./Facade/README.md)**  | [C++](../../CPP/Structural/Facade/README.md) | [Java](../../Java/Structural/Facade/README.md) | [PHP](../../PHP/Structural/Facade/README.md) |
-|**[Flyweight](./Flyweight/README.md)**  | [C++](../../CPP/Structural/Flyweight/README.md) | [Java](../../Java/Structural/Flyweight/README.md) | [PHP](../../PHP/Structural/Flyweight/README.md) |
-|**[Proxy](./Proxy/README.md)**  | [C++](../../CPP/Structural/Proxy/README.md) | [Java](../../Java/Structural/Proxy/README.md) | [PHP](../../PHP/Structural/Proxy/README.md) |
-
+|**[Abstract Factory](./Adapter/README.md)**  | [C++](../../CPP/Structural/Adapter/README.md) | [Java](../../Java/Structural/Adapter/README.md) | [PHP](../../PHP/Structural/Adapter/README.md) |
+|**[Builder](./Bridge/README.md)**  | [C++](../../CPP/Structural/Bridge/README.md) | [Java](../../Java/Structural/Bridge/README.md) | [PHP](../../PHP/Structural/Bridge/README.md) |
+|**[Factory](./Command/README.md)**  | [C++](../../CPP/Structural/Command/README.md) | [Java](../../Java/Structural/Command/README.md) | [PHP](../../PHP/Structural/Command/README.md) |
+|**[Prototype](./Composite/README.md)**  | [C++](../../CPP/Structural/Composite/README.md) | [Java](../../Java/Structural/Composite/README.md) | [PHP](../../PHP/Structural/Composite/README.md) |
+|**[Singleton](./Decorator/README.md)**  | [C++](../../CPP/Structural/Decorator/README.md) | [Java](../../Java/Structural/Decorator/README.md) | [PHP](../../PHP/Structural/Decorator/README.md) |
 
 [**Creational Design Patterns**](./README.md)
 Creational design patterns are a category of design patterns that deal with object creation. They provide flexible and reusable ways to create objects in your application. In C++, these patterns can be used to create objects in a more flexible and efficient manner. Here are some examples of Creational design patterns in C++:
