@@ -4,8 +4,8 @@
 
 **C# Factory Design Pattern**
 
-|Example in C#|   |   |   |   |
-|---|---|---|---|---|
+|Example in C#|   |   |   |
+|---|---|---|---|
 |  [**Factory**](README.md) | [**C++**](../../../CPP/Creational/Factory/README.md) | [Java](../../../Java/Creational/Factory/README.md) | [PHP](../../../PHP/Creational/Factory/README.md) |
 
 [Example](Show/README.md)
