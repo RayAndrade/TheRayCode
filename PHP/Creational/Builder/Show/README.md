@@ -1,83 +1,31 @@
-# [TheRayCode](../../../README.md) is AWESOME!!!
-
-**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
-
-**PHP Creational Patterns**
-
-|Pattern|   |   |   |   |
-|---|---|---|---|---|
-| **Builder**| [**PHP**](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../Csharp/Creational/Builder/README.md) | [Java](../../../Java/Creational/Builder/README.md) | [PHP](../../../PHP/Creational/Builder/README.md) |
-
-**PHP Builder Design Pattern**
-
-[Show](./script/page01.md)
-
-In PHP, you might create a Sandwich class as follows in a file named Sandwich.php:
-
-**Sandwich**: This is the complex object that we are trying to build. It consists of multiple parts (bread, meat, cheese, and veggies).
+In PHP, you might create a Sandwich class as follows in a file named **Sandwich.php**:
 
 ```
-class SandwichBuilder {
-    private $bread;
-    private $meat;
-    private $cheese;
-    private $veggies;
+class Sandwich {
+```
+Add varables that are needed
 
-    function setBread($bread) {
-        $this->bread = $bread;
-        return $this;
-    }
+```
+private $bread;
+private $meat;
+private $cheese;
+private $veggies;
+```
+add the **function __construct**er
 
-    function setMeat($meat) {
-        $this->meat = $meat;
-        return $this;
-    }
-
-    function setCheese($cheese) {
-        $this->cheese = $cheese;
-        return $this;
-    }
-
-    function setVeggies($veggies) {
-        $this->veggies = $veggies;
-        return $this;
-    }
-
-    function build() {
-        return new Sandwich($this->bread, $this->meat, $this->cheese, $this->veggies);
-    }
+```
+function __construct($bread, $meat, $cheese, $veggies) {
+    $this->bread = $bread;
+    $this->meat = $meat;
+    $this->cheese = $cheese;
+    $this->veggies = $veggies;
 }
 ```
 
-Finally, use the **SandwichBuilder** in your main PHP file (**index.php**):
-**SandwichBuilder**: This is the builder class that helps us construct a Sandwich object step by step. The builder class typically contains a set of methods to configure each part of the object being built, and a build() method to finally create the object.
-
+Let's format our **toString** function
 
 ```
-<?php
-
-include 'Sandwich.php';
-include 'SandwichBuilder.php';
-
-$sandwichBuilder = new SandwichBuilder();
-
-$sandwich = $sandwichBuilder->setBread("whole grain")
-                            ->setMeat("turkey")
-                            ->setCheese("swiss")
-                            ->setVeggies("lettuce, tomato, onions")
-                            ->build();
-
-echo $sandwich;
+function __toString() {
+    return $this->bread . ", " . $this->meat . ", " . $this->cheese . ", " . $this->veggies;
+}
 ```
-
-Your result shouled be
-
-
-```
-```
-
-[TheRayCode.ORG](https://www.TheRayCode.org)
-
-[RayAndrade.COM](https://www.RayAndrade.com)
-
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
