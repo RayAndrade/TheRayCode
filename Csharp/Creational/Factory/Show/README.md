@@ -1,14 +1,3 @@
-# [TheRayCode](../../../README.md) is AWESOME!!!
-
-**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
-
-**C# Factory Design Pattern**
-
-|Example in C#|   |   |   |   |
-|---|---|---|---|---|
-|  [**Factory**](README.md) | [**C++**](../../../CPP/Creational/Factory/README.md) | [Java](../../../Java/Creational/Factory/README.md) | [PHP](../../../PHP/Creational/Factory/README.md) |
-
-[Example](Show/README.md)
 
 The **Factory design** pattern is a creational pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created. In other words, it defines a way to create objects without specifying their exact class.
 
