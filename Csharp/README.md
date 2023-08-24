@@ -34,33 +34,33 @@ Design patterns can be broadly categorized into three types:
 
 1. [**Singleton**](./Creational/Singleton/README.md)
 2. [**Prototype**](./Creational/Prototype/README.md)
-3. Factory Method
-4. Abstract Factory
-5. Builder
+3. [**Factory Method**](./Creational/Factory/README.md)
+4. [**Abstract Factory**](./Creational/AbstractFactory/README.md)
+5. [**Builder**](./Creational/AbstractFactory/README.md)
 
 *Structural Patterns (7)*:
 
-1. Adapter
-2. Bridge
-3. Composite
-4. Decorator
-5. Facade
-6. Flyweight
-7. Proxy
+1. [**Adapter**](./Structural/Adapter/README.md)
+2. [**Bridge**](./Structural/Bridge/README.md)
+3. [**Composite**](./Structural/Composite/README.md)
+4. [**Decorator**](./Structural/Decorator/README.md)
+5. [**Facade**](./Structural/Facade/README.md)
+6. [**Flyweight**](./Structural/Flyweight/README.md)
+7. [**Proxy**](./Structural/Proxy/README.md)
 
 *Behavioral Patterns (11)*:
 
-1. Chain of Responsibility
-2. Command
-3. Interpreter
-4. Iterator
-5. Mediator
-6. Memento
-7. Observer
-8. State
-9. Strategy
-10. Template Method
-11. Visitor
+1. [**Chain of Responsibility**](./Behavioral/ChainOfResponsibility/README.md)
+2. [**Command**](./Behavioral/Command/README.md)
+3. [**Interpreter**](./Behavioral/Interpreter/README.md)
+4. [**Iterator**](./Behavioral/Iterator/README.md)
+5. [**Mediator**](./Behavioral/Mediator/README.md)
+6. [**Memento**](./Behavioral/Memento/README.md)
+7. [**Observer**](./Behavioral/Command/README.md)
+8. [**State**](./Behavioral/State/README.md)
+9. [**Strategy**](./Behavioral/Strategy/README.md)
+10. [**Template Method**](./Behavioral/Template/README.md)
+11. [**Visitor**](./Behavioral/Visitor/README.md)
 
 **Improvement as a C# Developer by Studying Design Patterns:**
 
