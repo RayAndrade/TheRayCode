@@ -11,7 +11,7 @@
 
 **Java Builder Design Pattern**
 
-[script](./script/page01.md)
+[**Example**](src/README.md)
 
 The Builder Design Pattern is a creational design pattern that focuses on the construction of complex objects by separating the construction process from the actual representation of the object. It allows you to create objects step by step, with the ability to create different variations of the same object using the same construction process.
 
