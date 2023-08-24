@@ -4,13 +4,13 @@
 
 **PHP Creational Patterns**
 
-|Pattern|   |   |   |   |
-|---|---|---|---|---|
-| Abstract Factory | [**C++**](../../../../CPP/Creational/AbstractFactory/README.md) | [**C#**](../../../Csharp/Creational/AbstractFactory/README.md) | [Java](../../../Java/Creational/AbstractFactory/README.md) | [PHP](/PHP/Creational/AbstractFactory/README.md) |
-| Builder| [**C++**](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../Csharp/Creational/Builder/README.md) | [Java](../../../Java/Creational/Builder/README.md) | [PHP](/PHP/Creational/Builder/README.md) |
-| Factory | [**C++**](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../Csharp/Creational/Builder/README.md) | [Java](../../../Java/Creational/Builder/README.md) | [PHP](/PHP/Creational/Builder/README.md) |
-| Prototype | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [Java](../../../Java/Creational/Prototype/README.md) | [PHP](/PHP/Creational/Prototype/README.md) |
-| Singleton | [**C++**](../../../CPP/Creational/Singleton/README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [Java](../../../Java/Creational/Singleton/README.md) | [PHP](/PHP/Creational/Singleton/README.md) |
+|Pattern|   |
+|---|---|
+| **Abstract Factory** | [**PHP**](AbstractFactory/README.md) |
+| **Builder** | [**PHP**](Builder/README.md) | 
+| **Factory** | [**PHP**](Factory/README.md) |
+| **Prototype** | [**PHP**](Prototype/README.md) |
+| **Singleton** | [**PHP**](Singleton/README.md) |
 
 **Creational design patterns** are a category of design patterns that deal with object creation. They provide flexible and reusable ways to create objects in your application. In PHP, these patterns can be used to create objects in a more flexible and efficient manner. Here are some examples of Creational design patterns in PHP:
 
@@ -32,4 +32,4 @@ By understanding and applying these creational design patterns in PHP, you can w
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
