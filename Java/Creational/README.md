@@ -4,13 +4,13 @@
 
 **Java Creational Patterns**
 
-|Pattern|   |
-|---|---|
-| **Abstract Factory** | [**Java**](AbstractFactory/README.md) |
-| **Builder** | [**Java**](Builder/README.md) | 
-| **Factory** | [**Java**](Factory/README.md) |
-| **Prototype** | [**Java**](Prototype/README.md) |
-| **Singleton** | [**Java**](Singleton/README.md) |
+| examples using Java| | | |
+|----|---|---|---|
+|**[Abstract Factory](./Adapter/README.md)**  | [C++](../../CPP/Structural/Adapter/README.md) | [C#](../../Csharp/Structural/Adapter/README.md) | [PHP](../../PHP/Structural/Adapter/README.md) |
+|**[Builder](./Bridge/README.md)**  | [C++](../../CPP/Structural/Bridge/README.md) | [C#](../../Csharp/Structural/Bridge/README.md) | [PHP](../../PHP/Structural/Bridge/README.md) |
+|**[Factory](./Command/README.md)**  | [C++](../../CPP/Structural/Command/README.md) | [C#](../../Csharp/Structural/Command/README.md) | [PHP](../../PHP/Structural/Command/README.md) |
+|**[Prototype](./Composite/README.md)**  | [C++](../../CPP/Structural/Composite/README.md) | [C#](../../Csharp/Structural/Composite/README.md) | [PHP](../../PHP/Structural/Composite/README.md) |
+|**[Singleton](./Decorator/README.md)**  | [C++](../../CPP/Structural/Decorator/README.md) | [C#](../../Csharp/Structural/Decorator/README.md) | [PHP](../../PHP/Structural/Decorator/README.md) |
 
 **Creational design patterns** are a category of design patterns that deal with object creation. They provide flexible and reusable ways to create objects in your application. In Java, these patterns can be used to create objects in a more flexible and efficient manner. Here are some examples of Creational design patterns in Java:
 
