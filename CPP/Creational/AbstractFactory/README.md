@@ -4,7 +4,7 @@
 
 **C++ Abstract Factory Design Pattern**
 
-|Pattern|   |   |   | 
+|Example in C++|   |   |   | 
 |---|---|---|---|
 | [**Abstract Factory**](../AbstractFactory/README.md) | [**C#**](../../../Csharp/Creational/AbstractFactory/README.md) | [Java](../../../Java/Creational/AbstractFactory/README.md) | [PHP](../../../PHP/Creational/AbstractFactory/README.md) |
 
