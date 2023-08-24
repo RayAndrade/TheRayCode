@@ -10,6 +10,7 @@
 | [**Abstract Factory**](README.md) | [**C++**](../../../CPP/Creational/AbstractFactory/README.md) | [Java](../../../Java/Creational/AbstractFactory/README.md) | [PHP](../../../PHP/Creational/AbstractFactory/README.md) |
 
 **C# Abstract Factory Design Pattern**
+[**Example**](Show/README.md)
 
 [script](./script/page01.md)
 
