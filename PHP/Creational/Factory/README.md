@@ -10,7 +10,7 @@
 
 **PHP Factory Design Pattern**
 
-[Show](./script/page01.md)
+[Show](Show/READMEmd)
 
 The **Factory Design Pattern** is a creational design pattern that provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created. In other words, it defines a way for creating objects without specifying the exact class of object that will be created.
 
