@@ -27,7 +27,7 @@ Design patterns offer best practices to solve common problems in software design
     - [**Builder**](./Creational/Builder/README.md): Separates the construction of a complex object from its representation.
     - [**Prototype**](./Creational/Prototype/README.md): Creates a fully initialized instance that can be cloned or copied to produce a new instance.
 
-2. **Structural Patterns**: These concern class and object composition. They provide different ways to ensure that structures in the system are robust and flexible. Some common Structural patterns are:
+2. [**Structural Patterns**](./Structural/README.md): These concern class and object composition. They provide different ways to ensure that structures in the system are robust and flexible. Some common Structural patterns are:
 
     - [**Adapter**](./Structural/Adapter/README.md): Matches interfaces of different classes.
     - [**Bridge**](./Structural/Bridge/README.md): Separates an object’s abstraction from its implementation.
@@ -37,7 +37,7 @@ Design patterns offer best practices to solve common problems in software design
     - [**Flyweight**](./Structural/Flyweight/README.md): Minimizes memory usage by sharing as much data as possible with other similar objects.
     - [**Proxy**](./Structural/Proxy/README.md): Represents another object and controls access to it.
 
-3. **Behavioral Patterns**: These are concerned with algorithms and the assignment of responsibilities between objects. Behavioral patterns describe not just patterns of objects or classes but also the patterns of communication between them. Some common Behavioral patterns include:
+3. [**Behavioral Patterns**](./Behavioral/README.md): These are concerned with algorithms and the assignment of responsibilities between objects. Behavioral patterns describe not just patterns of objects or classes but also the patterns of communication between them. Some common Behavioral patterns include:
 
     - [**Strategy**](./Behavioral/Strategy/README.md): Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
     - [**Observer**](./Behavioral/Observer/README.md): A way of notifying change to a number of classes.
