@@ -4,9 +4,9 @@
 
 **PHP Creational Patterns**
 
-|Pattern|   |   |   |   |
+|Example in PHP|   |   |   |   |
 |---|---|---|---|---|
-| **Factory**| [**PHP**](../../../CPP/Creational/Factory/README.md) | [**C#**](../../../Csharp/Creational/Factory/README.md) | [Java](../../../Java/Creational/Factory/README.md) | [PHP](../../../PHP/Creational/Factory/README.md) |
+| [**Factory**](README.md) | [**C#**](../../../Csharp/Creational/Factory/README.md) | [Java](../../../Java/Creational/Factory/README.md) |[PHP](../../../PHP/Creational/Factory/README.md) |
 
 **PHP Factory Design Pattern**
 
