@@ -4,7 +4,7 @@
 
 **C++ Factory Design Pattern**
 
-|Pattern|   |   |   |
+|Example in C++|   |   |   |
 |---|---|---|---|
 |  [**Factory**](../Factory/README.md) | [**C#**](../../../Csharp/Creational/Factory/README.md) | [Java](../../../Java/Creational/Factory/README.md) | [PHP](../../../PHP/Creational/Factory/README.md) |
 
