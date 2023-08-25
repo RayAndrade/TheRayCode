@@ -8,7 +8,7 @@
 |---|---|---|---|
 |  [**Prototype**](README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [**Java**](../../../Java/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
 
-**Prototype Design Pattern**:
+[Example](Show/README.md)
 
 The Prototype pattern is about creating a new instance of an object by copying an existing instance, which serves as a prototype. Instead of constructing a new object from scratch, an object that's already initialized with certain states is cloned to produce a duplicate. This pattern involves two main actors:
 
