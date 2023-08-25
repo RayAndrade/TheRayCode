@@ -6,16 +6,12 @@
 
 **PHP Behavioral Patterns**
 
-|Pattern|   |   |   |   |
-|---|---|---|---|---|
-| **ChainOfResponsibility** | [**C++**](../../../CPP/Behavioral/ChainOfResponsibility/README.md) | [**C#**](../../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../../PHP/Behavioral/ChainOfResponsibility/README.md) |
-
+|Pattern|   |   |   |
+|---|---|---|---|
+| [**ChainOfResponsibility**](README.md) | [**C++**](../../../CPP/Behavioral/ChainOfResponsibility/README.md) | [**C#**](../../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../../Java/Behavioral/ChainOfResponsibility/README.md) |
 **PHP Chain Of Responsibility Design Pattern**
 
-[Example 1](./COR1/README.md)
-
-[Show](./Show/README.md)
-
+[Example](./Show/README.md) [Example 1](./COR1/README.md)
 
 As a PHP developer, understanding and utilizing the Behavioral pattern Chain of Responsibility can be beneficial for building flexible and extensible code. 
 The Chain of Responsibility pattern allows you to decouple the sender of a request from its receivers, providing a chain of objects that can handle the request. 
@@ -43,4 +39,4 @@ Understanding and implementing the Chain of Responsibility pattern can help you 
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
