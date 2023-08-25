@@ -1,4 +1,16 @@
-Certainly! Let's delve into the "Singleton Design Pattern" and its importance for Java programmers.
+# [TheRayCode](../../../README.md) is AWESOME!!!
+
+**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
+
+**Java Singleton Design Pattern**
+
+|Pattern|   |   |   |
+|---|---|---|---|
+|  [**Singleton**](README.md) | [**C++**](../../../CPP/Creational/Singleton/README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [**PHP**](../../../PHP/Creational/Singleton/README.md) |
+
+[Example](Show/README.md)
+
+Let's delve into the "Singleton Design Pattern" and its importance for Java programmers.
 
 **Singleton Design Pattern**:
 The Singleton Design Pattern is categorized under the creational design patterns. Its primary purpose is to ensure that a class has only one instance throughout the runtime of an application and provides a centralized point of access to this instance. It essentially prevents the repeated instantiation of a class, ensuring that one and only one instance of the class exists.
