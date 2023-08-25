@@ -1,16 +1,14 @@
 # [TheRayCode](../../../README.md) is AWESOME!!!
 
-**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
+**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](..//README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
 **C# Adapter Design Pattern**
 
-|Pattern|   |   |   |   |
-|---|---|---|---|---|
-| Abstract Factory | [**C++**](../../../CPP/Structural/Adapter/README.md) | [**C#**](../../../Csharp/Structural/Adapter/README.md) | [Java](../../../Java/Structural/Adapter/README.md) | [PHP](../../../PHP/Structural/Adapter/README.md) |
+|Pattern|   |   |   |
+|---|---|---|---|
+| [**Adapter**](README.md) | [**C++**](../../../CPP/Structural/Adapter/README.md) | [**Java**](../../../Java/Structural/Adapter/README.md) | [**PHP**](../../../PHP/Structural/Adapter/README.md) |
 
-**C++ Adapter Design Pattern**
-
-[script](./script/page01.md)
+[Example](./Show/README.md)
 
 **Commin Soon**
 
