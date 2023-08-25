@@ -4,9 +4,9 @@
 
 **C# Prototype Design Pattern**
 
-|Example in C#|   |   |   |
+|Pattern|   |   |   |
 |---|---|---|---|
-|  [**Example in C#**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**Java**](../../../Java/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
+|  [**Prototype**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**Java**](../../../Java/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
 
 [Example](Show/README.md)
 
