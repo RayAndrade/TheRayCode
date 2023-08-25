@@ -2,17 +2,15 @@
 
 **[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](..//README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**C++ Bridge Design Pattern**
+**C# Bridge Design Pattern**
 
 |Pattern|   |   |   |
 |---|---|---|---|
-| [**Bridge**](Bridge/README.md) | [**C#**](../../../Csharp/Structural/Bridge/README.md) | [**Java**](../../../Java/Structural/Bridge/README.md) | [**PHP**](../../../PHP/Structural/Bridge/README.md) |
+| [**Bridge**](Bridge/README.md) | [**C#**](../../../CPP/Structural/Bridge/README.md) | [**Java**](../../../Java/Structural/Bridge/README.md) | [**PHP**](../../../PHP/Structural/Bridge/README.md) |
 
 **C++ Bridge Design Pattern**
 
 [Example 1](./BE1/README.md) 
-
-Certainly!
 
 **Bridge Design Pattern**:
 The Bridge Design Pattern is a structural design pattern that helps in decoupling an abstraction from its implementation so that the two can vary independently. This is especially useful when both the abstraction and its implementation need to be extended. It involves breaking down a larger class or set of intertwined functionalities into separate hierarchies – the abstraction and its implementation – so that they can be developed and scaled separately.
