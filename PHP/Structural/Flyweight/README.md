@@ -10,8 +10,6 @@
 
 [Example](FT1/README.md)
 
-Certainly!
-
 **Flyweight Design Pattern**:
 
 The Flyweight Design Pattern is a structural pattern focused on optimizing memory usage and improving performance by sharing data across similar objects. It aims to minimize the memory used by shared objects by extracting and sharing their common data. This pattern categorizes an object's state into two parts:
