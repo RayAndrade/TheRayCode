@@ -2,11 +2,11 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**C++ Prototype Design Pattern**
+**PHP Prototype Design Pattern**
 
 |Example in PHP|   |   |   |
 |---|---|---|---|
-|  [**Example in PHP**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**Java**](../../../Java/Creational/Prototype/README.md) |
+|  [**Example in PHP**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [**Java**](../../../Java/Creational/Prototype/README.md) |
 
 [Example](Show/README.md)
 
