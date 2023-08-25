@@ -8,6 +8,7 @@
 |---|---|---|---|
 | [**Flyweight**](Flyweight/README.md) | [C#](../../../Csharp/Structural/Flyweight/README.md) | [Java](../../../Java/Structural/Flyweight/README.md) | [PHP](../../../PHP/Structural/Flyweight/README.md) |
 
+[Example](FT1/README.md)
 
 The **Flyweight** is a structural design pattern that's used to reduce the number of objects created, decrease memory footprint, and increase performance. The main idea is to share common parts of state among multiple objects instead of keeping all of the data in each object. This is particularly useful when you have a large number of objects that share many common attributes, and it's wasteful to store them in every single object.
 
