@@ -2,7 +2,7 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**C# Flyweight Design Pattern**
+**Java Flyweight Design Pattern**
 
 |Pattern|   |   |   |
 |---|---|---|---|
