@@ -8,8 +8,6 @@
 |---|---|---|---|
 | [**Bridge**](Bridge/README.md) | [**C#**](../../../CPP/Structural/Bridge/README.md) | [**Java**](../../../Java/Structural/Bridge/README.md) | [**PHP**](../../../PHP/Structural/Bridge/README.md) |
 
-**C++ Bridge Design Pattern**
-
 [Example 1](./BE1/README.md) 
 
 **Bridge Design Pattern**:
