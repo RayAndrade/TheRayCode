@@ -1,23 +1,12 @@
-# TheRayCode is AWESOME!!!
+# [TheRayCode](../../../README.md) is AWESOME!!!
 
-**Composite**
-
-**[PHP](../README.md)**  
-
-**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
-
-**PHP Structural Patterns**
-
- * **[Adapter](../Adapter/README.md)**
- * **[Bridge](../Bridge/README.md)**
- * **[Command](../Command/README.md)**
- * **[Composite](./README.md)**
- * **[Decorator](../Decorator/README.md)**
- * **[Facade](../Facade/README.md)**
- * **[Flyweight](../Flyweight/README.md)**
- * **[Proxy](../Proxy/README.md)**
+**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
 **PHP Composite Design Pattern**
+
+|Pattern|   |   |   |
+|---|---|---|---|
+| [**Composite**](README.md) | [C++](../../../CPP/Structural/Composite/README.md) | [C#](../../../Csharp/Structural/Composite/README.md) | [Java](../../../Java/Structural/Composite/README.md) |
 
 [Example 1](./CE1/README.md)  
 
