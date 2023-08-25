@@ -6,7 +6,7 @@
 
 |Pattern|   |   |   |
 |---|---|---|---|
-| [**Bridge**](Bridge/README.md) | [**C#++](../../../CPP/Structural/Bridge/README.md) | [**C#**](../../../CPP/Structural/Bridge/README.md) | [**PHP**](../../../Java/Structural/Bridge/README.md) | 
+| [**Bridge**](Bridge/README.md) | [**C#++]**(../../../CPP/Structural/Bridge/README.md) | [**C#**](../../../CPP/Structural/Bridge/README.md) | [**PHP**](../../../Java/Structural/Bridge/README.md) | 
 
 [Example 1](./BE1/README.md)  
 
