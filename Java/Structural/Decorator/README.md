@@ -2,12 +2,11 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**C++ Decorator Design Pattern**
+**Java Decorator Design Pattern**
 
 |Pattern|   |   |   |
 |---|---|---|---|
-| [**Decorator**](Decorator/README.md) | [C#](../../../Csharp/Structural/Decorator/README.md) | [Java](../../../Java/Structural/Decorator/README.md) | [PHP](../../../PHP/Structural/Decorator/README.md) |
-
+| [**Decorator**](README.md) | [C++](../../../CPP/Structural/Decorator/README.md) | [C#](../../../Csharp/Structural/Decorator/README.md) | [PHP](../../../PHP/Structural/Decorator/README.md) |
 
 The **Decorator** pattern is a structural design pattern that allows you to add new responsibilities to an object dynamically without altering its structure. This pattern involves a set of decorator classes that are used to wrap concrete components. Decorator classes mirror the type of the components they aim to enhance, but add or override behavior.
 
@@ -32,7 +31,6 @@ The **Decorator** pattern is a structural design pattern that allows you to add 
 6. **Cleaner Code**: By splitting functionalities into decorators, code becomes more modular and easier to manage. If a functionality needs to change, it's isolated in its decorator, minimizing the impact on the rest of the system.
 
 For C++ developers, understanding the Decorator pattern is essential when you want to augment the behavior of objects without resorting to a cumbersome inheritance hierarchy. It provides a more flexible and composable approach to object augmentation, leading to cleaner and more maintainable codebases.
-
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
