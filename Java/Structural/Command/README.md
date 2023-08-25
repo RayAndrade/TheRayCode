@@ -6,7 +6,7 @@
 
 |Pattern|   |   |   |
 |---|---|---|---|
-| [**Command**](README.md) | [**C++**](../../../CPP/Structural/Command/README.md) | [**C#**](../../../Csharp/Structural/Command/README.md) | [PHP](../../../PHP/Structural/Command/README.md) |
+| [**Command**](README.md) | [C++](../../../CPP/Structural/Command/README.md) | [C#](../../../Csharp/Structural/Command/README.md) | [PHP](../../../PHP/Structural/Command/README.md) |
 
 **Command Design Pattern**:
 The Command Design Pattern is a behavioral pattern that encapsulates a request as an object, allowing for the parameterization of clients with different requests, queuing of requests, and logging of the operations. It provides a means to separate the object that invokes a command from the one that knows how to perform it.
