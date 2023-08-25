@@ -10,7 +10,7 @@
 
 [Example](Show/README.md)
 
-Absolutely! Let's delve into the "Prototype Design Pattern" and its pertinence for PHP programmers.
+Let's delve into the "Prototype Design Pattern" and its pertinence for PHP programmers.
 
 **Prototype Design Pattern**:
 The Prototype Design Pattern is categorized under the creational design patterns. Its fundamental principle is to instantiate a new object by copying or cloning an existing one, referred to as the 'prototype'. This sidesteps the traditional method of constructing an object from scratch, allowing you to create a copy of a pre-configured prototype instead.
