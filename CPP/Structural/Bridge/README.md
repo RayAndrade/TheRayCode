@@ -8,8 +8,6 @@
 |---|---|---|---|
 | [**Bridge**](Bridge/README.md) | [**C#**](../../../Csharp/Structural/Bridge/README.md) | [**Java**](../../../Java/Structural/Bridge/README.md) | [**PHP**](../../../PHP/Structural/Bridge/README.md) |
 
-**C++ Bridge Design Pattern**
-
 The **Bridge** pattern is a structural design pattern that's all about decoupling an abstraction from its implementation so that the two can vary independently. This pattern involves an interface or abstract base class which bridges the functionality from concrete classes.
 
 ### Components:
