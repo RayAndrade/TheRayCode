@@ -29,7 +29,6 @@ The pattern achieves this by separating an object's state into two categories:
 
 In summary, the Flyweight pattern is a tool that can significantly optimize the use of memory in situations where many objects share a significant amount of common data. Given C++'s emphasis on efficient resource management and its prevalent use in high-performance applications, it's beneficial for a developer to be familiar with this pattern.
 
-
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
