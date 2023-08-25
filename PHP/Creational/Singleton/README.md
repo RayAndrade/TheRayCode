@@ -1,4 +1,17 @@
-Absolutely! Let's delve into the "Singleton Design Pattern" and its significance for PHP programmers.
+# [TheRayCode](../../../README.md) is AWESOME!!!
+
+**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
+
+**PHP Singleton Design Pattern**
+
+|Pattern|   |   |   |
+|---|---|---|---|
+|  [**Singleton**](README.md) | [**C++**](../../../CPP/Creational/Singleton/README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [**Java**](../../../Java/Creational/Singleton/README.md) |
+
+[Example](Show/README.md)
+
+
+Let's delve into the "Singleton Design Pattern" and its significance for PHP programmers.
 
 **Singleton Design Pattern**:
 The Singleton Design Pattern is a part of the creational design patterns. Its primary objective is to ensure that a particular class can have only one instance throughout the lifetime of an application and to provide a global point of access to this instance. Essentially, it restricts a class from being instantiated multiple times.
