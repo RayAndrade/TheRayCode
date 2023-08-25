@@ -6,7 +6,7 @@
 
 |Pattern|   |   |   |
 |---|---|---|---|
-|  [**Pattern**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
+|  [**Prototype**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
 
 [Example](Show/README.md)
 
