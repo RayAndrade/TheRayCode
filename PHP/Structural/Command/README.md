@@ -2,11 +2,11 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**C++ Command Design Pattern**
+**PHP Command Design Pattern**
 
 |Pattern|   |   |   |
 |---|---|---|---|
-| [**Command**](README.md) | [**C#**](../../../Csharp/Structural/Command/README.md) | [Java](../../../Java/Structural/Command/README.md) | [PHP](../../../PHP/Structural/Command/README.md) |
+| [**Command**](README.md) | [C++](../../../Csharp/Structural/Command/README.md) | [C#](../../../Csharp/Structural/Command/README.md) | [Java](../../../Java/Structural/Command/README.md) |
 
 The **Command** pattern is not a structural design pattern but rather a behavioral design pattern. It's about encapsulating a request as an object, thus allowing users to parameterize clients with different requests, queue requests, and support operations that can be undone.
 
@@ -34,7 +34,6 @@ The **Command** pattern is not a structural design pattern but rather a behavior
 7. **Clearer Code**: Commands allow operations to be represented as objects. This can make the code clearer and more object-oriented, as it breaks down operations into self-contained units.
 
 Understanding the Command pattern is essential for a C++ developer because it provides a powerful mechanism for decoupling the sender from the receiver, enabling the development of scalable, extensible, and maintainable systems. The ability to treat requests as objects provides the developer with a plethora of possibilities in terms of execution control, logging, undo/redo operations, and more.
-
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
