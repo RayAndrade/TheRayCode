@@ -5,7 +5,7 @@
 
 **Java Creational Patterns**
 
-|Example in Java|   |   |   |
+|Pattern|   |   |   |
 |---|---|---|---|
 | [**Builder**](README.md) | [**C++**](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../Csharp/Creational/Builder/README.md) | [PHP](../../../PHP/Creational/Builder/README.md) |
 
