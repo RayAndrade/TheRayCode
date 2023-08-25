@@ -1,86 +1,35 @@
-# TheRayCode is AWESOME!!!
-
-**[PHP](../README.md)**  
+# [TheRayCode](../../../README.md) is AWESOME!!!
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**PHP Creational Patterns**
+**C++ Prototype Design Pattern**
 
+|Example in PHP|   |   |   |
+|---|---|---|---|
+|  [**Example in PHP**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**Java**](../../../Java/Creational/Prototype/README.md) |
 
-|Pattern|   |   |   |   |
-|---|---|---|---|---|
-| **Prototype** | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [Java](../../../Java/Creational/Prototype/README.md) | [PHP](../../../PHP/Creational/Prototype/README.md) |
+[Example](Show/README.md)
 
-[show](./Show/script/page01.md)
+Absolutely! Let's delve into the "Prototype Design Pattern" and its pertinence for PHP programmers.
 
- I'm going to demonstrate this using a simple **Clown** class, which will have one property, a nested catch phrase.
+**Prototype Design Pattern**:
+The Prototype Design Pattern is categorized under the creational design patterns. Its fundamental principle is to instantiate a new object by copying or cloning an existing one, referred to as the 'prototype'. This sidesteps the traditional method of constructing an object from scratch, allowing you to create a copy of a pre-configured prototype instead.
 
-Here is the structure for the project
+**Why should PHP programmers study the Prototype Design Pattern?**
 
-```
-/project
-|-- Clown.php
-|-- Phrase.php
-`-- index.php
-```
+1. **Optimized Performance**: For certain objects, the construction process can be resource-intensive, particularly if it involves database operations, file reads, or complex computations. By cloning an already initialized object, you can bypass these resource-heavy steps, optimizing performance.
 
-Here is that example:
+2. **Dynamic Instantiation**: PHP, being a dynamically-typed language, benefits greatly from patterns that enable flexible object creation. With the Prototype pattern, objects can be created and configured at runtime, allowing for a more adaptable application design.
 
-The **Phrase** class is straightforward. It's a simple class with a phrase property.
+3. **Avoid Repeated Initialization**: If objects in your system require a series of initializations or configurations (e.g., setting properties from a database), doing this every time you create a new instance can be redundant and inefficient. Cloning a pre-configured prototype can save these repetitive steps.
 
-```
-class Phrase
-{
-    public $phrase;
+4. **Manageable State Duplication**: If you're working with objects that have a particular state and you want to spawn a new object with that exact state, the Prototype pattern provides an elegant solution. This is particularly useful when you want multiple instances with shared configurations or properties.
 
-    public function __construct($phrase) {
-        $this->phrase = $phrase;
-    }
-}
-```
-The **Clown** class has two properties: name (a string) and nose (an instance of the Nose class). 
-We also have a magic method **__clone()** for shallow cloning and a **deepClone()** method for deep cloning.
+5. **Adaptable to Changing Structures**: As PHP projects grow, their structure might evolve. The Prototype pattern ensures that even if the way you configure objects changes, you can always have a prototype that adheres to the latest configuration, making your application more maintainable.
 
-When you clone an object in PHP, by default it does a shallow copy. 
-A shallow copy means creating a new object and then copying the non-static fields of the current object to the new object. 
-If a field is a value type, a bit-by-bit copy of the field is performed; If a field is a reference type, the reference is copied but the referred object is not; hence the original and its clone refer to the same object.
+6. **Ease of Deep and Shallow Cloning**: PHP provides capabilities for both deep and shallow cloning of objects. Grasping the Prototype pattern can aid programmers in making informed decisions about which cloning method is appropriate for their application and implementing it effectively.
 
-```
-class Clown
-{
-    public $name;
-    public $chatchPrase;
-
-    public function __construct($name, Phrase $prase) {
-        $this->name = $name;
-        $this->chatchPrase = $prase;
-    }
-
-    // Shallow clone
-    public function __clone() {
-        // When you clone the Clown object, PHP does a shallow copy by default.
-    }
-
-    // Deep clone
-    public function deepClone() {
-        $cloned = clone $this;
-        $cloned->chatchPrase = clone $this->chatchPrase;  // clone inner object
-        return $cloned;
-    }
-}
-```
-
-In the **index.php** file, we first create an instance of the Clown class named bozoClown. 
-Then we create a shallow clone (bozoShallowClone) and a deep clone (bozoDeepClone) of this object.
-
-We then change the color of the nose property on the original **bozoClown**. 
-After that, we print the color of the nose property for the original, the shallow clone, and the deep clone.
-
-Because the shallow clone only copied the reference to the **Prase** object, when we change the color of the nose in the original bozoClown, it is also changed in the bozoShallowClone (they both point to the same Nose object).
-
-However, in the deep clone, we manually cloned the Nose object as well, so bozoDeepClone has its own Nose object, and changes to the original bozoClown's nose do not affect it.
-
-
+Given PHP's dynamic nature and its widespread use in web applications where performance and flexibility are paramount, the Prototype Design Pattern offers valuable techniques for efficient object management. By familiarizing themselves with this pattern, PHP developers can craft more performant, flexible, and maintainable web applications.
 
 [TheRayCode.ORG](https://www.TheRayCode.org)  
 
