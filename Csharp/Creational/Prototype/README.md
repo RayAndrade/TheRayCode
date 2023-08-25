@@ -2,7 +2,7 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**C++ Prototype Design Pattern**
+**C# Prototype Design Pattern**
 
 |Example in C#|   |   |   |
 |---|---|---|---|
