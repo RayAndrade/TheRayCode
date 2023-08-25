@@ -6,7 +6,7 @@
 
 |Pattern|   |   |   |
 |---|---|---|---|
-| [**Command**](Command/README.md) | [**C++**](../../../CPP/Structural/Command/README.md) | [C#](../../../Csharp/Structural/Command/README.md) | [Java](../../../Java/Structural/Command/README.md) |
+| [**Command**](README.md) | [**C++**](../../../CPP/Structural/Command/README.md) | [C#](../../../Csharp/Structural/Command/README.md) | [Java](../../../Java/Structural/Command/README.md) |
 
 **Command Design Pattern**:
 The Command Design Pattern is a behavioral design pattern that turns a request into a standalone object containing information about the operation. It decouples the sender (invoker) from the receiver (the one executing the command) by encapsulating commands as objects. This allows for parameterization of objects with operations, delay or queueing of command's execution, and supports undo/redo functionalities.
