@@ -4,7 +4,7 @@
 
 **PHP Builder Design Pattern**
 
-|Example in PHP|   |   |   |
+|Pattern|   |   |   |
 |---|---|---|---|
 | [**Builder**](../Builder/README.md) | [C++](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../Csharp/Creational/Builder/README.md) | [Java](../../../Java/Creational/Builder/README.md) |
 
