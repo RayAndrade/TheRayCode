@@ -10,8 +10,6 @@
 
 [Example 1](./BE1/README.md)  
 
-Of course!
-
 **Bridge Design Pattern**:
 The Bridge Design Pattern is a structural pattern that aims to decouple an abstraction from its implementation, allowing the two to evolve independently. In essence, it separates the high-level logic from the low-level operations. The pattern divides the system into two separate hierarchies: the abstraction and its implementation. This ensures that the interface (abstraction) and the actual backend functionality (implementation) are kept separate.
 
