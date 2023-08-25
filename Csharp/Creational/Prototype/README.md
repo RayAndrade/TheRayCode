@@ -2,16 +2,14 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**C# Prototype Design Pattern**
+**C++ Prototype Design Pattern**
 
-|Example in C#|   |   |   |   |
-|---|---|---|---|---|
-|  [**Prototype**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**Java**](../../../Java/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
+|Example in C#|   |   |   |
+|---|---|---|---|
+|  [**Example in C#**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**Java**](../../../Java/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
 
-[Show](./script/page01.md)
-
-<h1>Comming S👀n</h1>
-  
+[Example](Show/README.md)
+ 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
