@@ -4,8 +4,8 @@
 
 **Java Composite Design Pattern**
 
-|Pattern|   |   |   |   |
-|---|---|---|---|---|
+|Pattern|   |   |   |
+|---|---|---|---|
 | [**Composite**](README.md) | [C++](../../../CPP/Structural/Composite/README.md) | [C#](../../../Csharp/Structural/Composite/README.md) | [PHP](../../../PHP/Structural/Composite/README.md) |
 
 **Composite Design Pattern**:
