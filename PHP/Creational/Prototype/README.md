@@ -4,9 +4,9 @@
 
 **PHP Prototype Design Pattern**
 
-|Example in PHP|   |   |   |
+|Pattern|   |   |   |
 |---|---|---|---|
-|  [**Example in PHP**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [**Java**](../../../Java/Creational/Prototype/README.md) |
+|  [**Prototype**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [**Java**](../../../Java/Creational/Prototype/README.md) |
 
 [Example](Show/README.md)
 
