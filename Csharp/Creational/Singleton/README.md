@@ -10,7 +10,7 @@
 
 [Example](Show/README.md)
 
-Certainly! Let's explore the "Singleton Design Pattern" and its importance for C# programmers.
+Let's explore the "Singleton Design Pattern" and its importance for C# programmers.
 
 **Singleton Design Pattern**:
 The Singleton Design Pattern falls under the creational design pattern category. Its primary purpose is to ensure that a class has only one instance and provides a global point of access to that instance. In other words, it restricts the instantiation of a class to just one object.
