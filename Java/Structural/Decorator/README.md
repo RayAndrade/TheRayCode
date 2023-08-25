@@ -33,7 +33,6 @@ Key roles in the Decorator pattern are:
 7. **Real-world Java Usage**: Java's I/O classes, such as `BufferedReader`, `FileInputStream`, and others, use the Decorator pattern, which means Java developers will encounter it in standard library usage.
 
 In conclusion, the Decorator Design Pattern is invaluable for Java programmers aiming to build scalable, maintainable, and flexible systems. Given Java's widespread usage in large-scale applications and its intrinsic object-oriented nature, understanding the Decorator pattern is crucial for developing sophisticated software solutions efficiently.
-
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
