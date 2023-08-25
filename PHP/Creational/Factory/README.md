@@ -4,7 +4,7 @@
 
 **PHP Creational Patterns**
 
-|Example in PHP|   |   |   |
+|Pattern|   |   |   |
 |---|---|---|---|
 | [**Factory**](README.md) | [C++](../../../CPP/Creational/Factory/README.md) | [**C#**](../../../Csharp/Creational/Factory/README.md) | [Java](../../../Java/Creational/Factory/README.md) |
 
