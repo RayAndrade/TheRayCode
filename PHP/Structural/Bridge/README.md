@@ -8,9 +8,6 @@
 |---|---|---|---|
 | [**Bridge**](Bridge/README.md) | [**C++**](../../../CPP/Structural/Bridge/README.md) | [**C#**](../../../CPP/Structural/Bridge/README.md) | [**Java**](../../../Java/Structural/Bridge/README.md) | 
 
-
-**PHP Bridge Pattern**
-
 [Example 1](./BE1/README.md)  [Example 2](./BE2/README.md)  
 
 
