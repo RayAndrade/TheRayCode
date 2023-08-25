@@ -4,7 +4,7 @@
 
 **C++ Prototype Design Pattern**
 
-|Pattern|   |   |   |
+|Example in C++|   |   |   |
 |---|---|---|---|
 |  [**Example in C++**](README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [**Java**](../../../Java/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
 
