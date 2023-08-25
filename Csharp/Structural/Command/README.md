@@ -2,13 +2,11 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**C++ Command Design Pattern**
+**C# Command Design Pattern**
 
 |Pattern|   |   |   |
 |---|---|---|---|
-| [**Command**](Command/README.md) | [**C#**](../../../Csharp/Structural/Command/README.md) | [Java](../../../Java/Structural/Command/README.md) | [PHP](../../../PHP/Structural/Command/README.md) |
-
-**C++ Command Design Pattern**
+| [**Command**](Command/README.md) | [**C++**](../../../CPP/Structural/Command/README.md) | [C#](../../../Csharp/Structural/Command/README.md) | [Java](../../../Java/Structural/Command/README.md) |
 
 The **Command** pattern is not a structural design pattern but rather a behavioral design pattern. It's about encapsulating a request as an object, thus allowing users to parameterize clients with different requests, queue requests, and support operations that can be undone.
 
