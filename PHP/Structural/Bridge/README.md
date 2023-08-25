@@ -2,7 +2,7 @@
 
 **[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](..//README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**Java Bridge Design Pattern**
+**PHP Bridge Design Pattern**
 
 |Pattern|   |   |   |
 |---|---|---|---|
@@ -10,8 +10,6 @@
 
 [Example 1](./BE1/README.md)  [Example 2](./BE2/README.md)  
 
-
-**Bridge Design Pattern**:
 The Bridge Design Pattern is a structural design pattern that decouples an abstraction from its implementation, allowing the two to evolve separately. The idea is to split the major functionalities into separate hierarchies: the abstraction (interface or abstract class) and its actual implementation. This ensures that higher-level logic remains separate from the low-level functionalities or implementations.
 
 The key components of the pattern are:
