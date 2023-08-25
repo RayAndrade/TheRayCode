@@ -4,9 +4,9 @@
 
 **Java Prototype Design Pattern**
 
-|Example in Java|   |   |   |
+|Pattern|   |   |   |
 |---|---|---|---|
-|  [**Example in Java**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
+|  [**Pattern**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
 
 [Example](Show/README.md)
 
