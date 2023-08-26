@@ -6,14 +6,11 @@
 
 |Pattern|   |   |   |   |
 |---|---|---|---|---|
-| **Iterator** | [**C++**](../../../CPP/Behavioral/Iterator/README.md) | [**C#**](../../../Csharp/Behavioral/Iterator/README.md) | [Java](../../../Java/Behavioral/Iterator/README.md) | [PHP](../../../PHP/Behavioral/Iterator/README.md) |
+| [**Iterator**](README.md) | [C++](../../../CPP/Behavioral/Iterator/README.md) | [C#](../../../Csharp/Behavioral/Iterator/README.md) | [Java](../../../Java/Behavioral/Iterator/README.md) |
 
 **PHP Iterator Design Pattern**
 
-[Example 1](./I1/README.md)
-
-[Show](./Show/README.md)
-
+[Example](./I1/README.md)
 
 As a PHP developer, understanding and utilizing the Behavioral pattern Iterator can be highly beneficial in several ways:
 
@@ -50,4 +47,3 @@ It promotes separation of concerns, encapsulation, and flexibility, making your 
 [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
 
 [YouTube](https://www.youtube.com/TheRayCode/)
-
