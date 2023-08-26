@@ -10,7 +10,7 @@
 
 **C# Intepretor Design Pattern**
 
-[script](./script/page01.md)
+comming soon
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
