@@ -1,15 +1,14 @@
+# [TheRayCode](../../../README.md) is AWESOME!!!
 
+**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
-# [TheRayCode](../../README.md) is AWESOME!!! 
-
-**[Creational Patterns](../README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)** | **[Structural Patterns](../../Structural/README.md)**
-
-**PHP Behavioral Patterns**
+**PHP Chain Of Responsibility Design Pattern**
 
 |Pattern|   |   |   |
 |---|---|---|---|
-| [**ChainOfResponsibility**](README.md) | [**C++**](../../../CPP/Behavioral/ChainOfResponsibility/README.md) | [**C#**](../../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../../Java/Behavioral/ChainOfResponsibility/README.md) |
-**PHP Chain Of Responsibility Design Pattern**
+| [**Chain Of Responsibility**](README.md) | [C++](../../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [C#](../../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../../PHP/Behavioral/ChainOfResponsibility/README.md) |
+
+**Chain Of Responsibility Design Pattern**:
 
 [Example](./Show/README.md) [Example 1](./COR1/README.md)
 
