@@ -8,8 +8,6 @@
 |---|---|---|---|
 | [**Command**](README.md) | [**C#**](../../../Csharp/Behavioral/Command/README.md) | [Java](../../../Java/Behavioral/Command/README.md) | [PHP](../../../PHP/Behavioral/Command/README.md) |
 
-**C++ Command Design Pattern**
-
 **Command** is a behavioral design pattern that turns a request into a stand-alone object containing information about the request, such as the method name, the owning object, and method parameters. By doing this, parameters can be passed, stored, and executed at a different time. Essentially, it decouples the object that invokes the command from the object that knows how to execute the command.
 
 Key Characteristics:
