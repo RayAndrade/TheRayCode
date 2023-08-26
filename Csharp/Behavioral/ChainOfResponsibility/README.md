@@ -8,6 +8,8 @@
 |---|---|---|---|
 | [**Chain Of Responsibility**](README.md) | [C++](../../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../../PHP/Behavioral/ChainOfResponsibility/README.md) |
 
+[example](COR1/README.md)
+
 **Chain Of Responsibility Design Pattern**:
 
 The Chain of Responsibility Design Pattern provides a mechanism to decouple senders from receivers by allowing more than one object to handle a request. In this pattern, a request is passed along a chain of potential handler objects until an object handles it or the chain's end is reached. The key idea is that the sender broadcasts a request without knowing which object in the chain will serve the request, ensuring that the sender and receiver remain loosely coupled.
