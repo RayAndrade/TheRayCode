@@ -8,8 +8,6 @@
 |---|---|---|---|
 | [**State**](README.md) | [**C#**](../../../Csharp/Behavioral/State/README.md) | [Java](../../../Java/Behavioral/State/README.md) | [PHP](../../../PHP/Behavioral/State/README.md) |
 
-**C++ State Design Pattern**
-
 **State** is a behavioral design pattern that allows an object to alter its behavior when its internal state changes, making it appear as though the object's class has changed. It is primarily used to encapsulate varying behavior for the same routine based on an object's state.
 
 Key Characteristics:
