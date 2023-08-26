@@ -4,8 +4,8 @@
 
 **C# Statergy Design Pattern**
 
-|Pattern|   |   |   |   |
-|---|---|---|---|---|
+|Pattern|   |   |   |
+|---|---|---|---|
 | [**Statergy**](README.md) | [C++](../../../CPP/Behavioral/Statergy/README.md) | [Java](../../../Java/Behavioral/Statergy/README.md) | [PHP](../../../PHP/Behavioral/Statergy/README.md) |
 
 **C# Statergy Design Pattern**
