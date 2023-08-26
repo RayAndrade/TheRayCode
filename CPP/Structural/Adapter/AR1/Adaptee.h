@@ -1,3 +1,6 @@
+//
+// Created by ray on 8/25/23.
+//
 
 #ifndef ADAPTER_ADAPTEE_H
 #define ADAPTER_ADAPTEE_H
@@ -7,7 +10,7 @@
 class Adaptee {
 public:
     std::string SpecificRequest() const {
-        return "!!!EMOSEWA si edoC yaR ehT";
+        return "The Ray Code is AWESOME!!!";
     }
 };
 

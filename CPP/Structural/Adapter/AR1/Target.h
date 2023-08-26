@@ -1,11 +1,12 @@
+//
+// Created by ray on 8/25/23.
+//
 
 #ifndef ADAPTER_TARGET_H
 #define ADAPTER_TARGET_H
+
 #include <iostream>
 
-/**
- * The Target defines the domain-specific interface used by the client code.
- */
 class Target {
 public:
     virtual ~Target() = default;

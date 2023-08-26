@@ -1,10 +1,14 @@
+//
+// Created by ray on 8/25/23.
+//
 
 #ifndef ADAPTER_ADAPTER_H
 #define ADAPTER_ADAPTER_H
+
 #include <algorithm>
 #include "Adaptee.h"
 
-class Adapter : public Target {
+class Adapter  : public Target{
 private:
     Adaptee *adaptee_;
 
