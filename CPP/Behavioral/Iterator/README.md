@@ -8,6 +8,8 @@
 |---|---|---|---|
 | [**Iterator**](README.md) | [C#](../../../Csharp/Behavioral/Iterator/README.md) | [Java](../../../Java/Behavioral/Iterator/README.md) | [PHP](../../../PHP/Behavioral/Iterator/README.md) |
 
+[Example](I1/README.md)
+
 The Iterator Design Pattern provides a systematic way to access elements of a collection without exposing its underlying representation. It introduces a separate object, known as the iterator, which abstracts the traversal process of the collection. This pattern allows collections to be navigated and manipulated without revealing their internal structures.
 
 **Why C++ Programmers Should Study It**:
