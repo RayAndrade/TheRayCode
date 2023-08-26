@@ -1,33 +1,17 @@
-# TheRayCode is AWESOME!!!
-
-**Memento**
-
-**[Java](../README.md)** 
+# [TheRayCode](../../../README.md) is AWESOME!!!
 
 **[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
-**Java Behavoiral Patterns**
+**Java Memento Design Pattern**
 
-* **[ChainOfResponsibility](../ChainOfResponsibility/README.md)**
-* **[Iterator](../Iterator/README.md)**
-* **[Mediator](../Mediator/README.md)**
-* **[Memento](./README.md)**
-* **[Observer](../Observer/README.md)**
-* **[State](../State/README.md)**
-* **[Strategy](../Strategy/README.md)**
-* **[Template](../Template/README.md)**
-* **[Visitor](../Visitor/README.md)**
+|Pattern|   |   |   |
+|---|---|---|---|
+| [**Memento**](README.md) | [C++](../../../CPP/Behavioral/Memento/README.md) | [C#](../../../Csharp/Behavioral/Memento/README.md) | [PHP](../../../PHP/Behavioral/Memento/README.md) |
 
-**Java Memento section**
-
-[Example 0](./MO0/README.md)
-
-[Example 1](./MO1/)
-
-[Example 2](./MO2/README.md)
-
-[RayAndrade.COM](https://www.RayAndrade.com)
+[Example](MO0/README.md) [Example2](MO2/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
+[RayAndrade.COM](https://www.RayAndrade.com)
+
+[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
