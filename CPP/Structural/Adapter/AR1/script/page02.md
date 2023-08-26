@@ -23,7 +23,7 @@ we add the following code
 ```
 public:
     std::string SpecificRequest() const {
-        return ".eetpadA eht fo roivaheb laicepS";
+        return "!!!EMOSEWA si edoC yaR ehT";
     }
 ```
 
