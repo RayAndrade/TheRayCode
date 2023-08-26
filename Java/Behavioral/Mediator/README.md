@@ -1,29 +1,19 @@
-# TheRayCode is AWESOME!!!
-
-**Mediator**
-
-**[Java](../README.md)**  
+# [TheRayCode](../../../README.md) is AWESOME!!!
 
 **[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
-**Java Behavoiral Patterns**
+**Java Mediator Design Pattern**
 
-* **[ChainOfResponsibility](../ChainOfResponsibility/README.md)**
-* **[Iterator](../Iterator/README.md)**
-* **[Mediator](../Mediator/README.md)**
-* **[Memento](../Memento/README.md)**
-* **[Observer](../Observer/README.md)**
-* **[State](../State/README.md)**
-* **[Strategy](../Strategy/README.md)**
-* **[Template](../Template/README.md)**
-* **[Visitor](../Visitor/README.md)**
+|Pattern|   |   |   |
+|---|---|---|---|
+| [**Mediator**](README.md) | [C++](../../../CPP/Behavioral/Mediator/README.md) | [C#](../../../Csharp/Behavioral/Mediator/README.md) | [PHP](../../../PHP/Behavioral/Mediator/README.md) |
 
-**Java Mediator section**
+[Example](MR0/README.md) [Example2](MR2/README.md) [Example3](MR3/README.md)
 
-[Example 1](./MR1/README.md)
+**Comming Soon** 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
