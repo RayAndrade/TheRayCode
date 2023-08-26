@@ -12,7 +12,23 @@ Target
 ```
 
 ```
-class Target {
+class Target { };
+```
+
+we are going to need
+
+```
+#include <iostream>
+```
+
+we add some code
+
+```
+public:
+    virtual ~Target() = default;
+    virtual std::string Request() const {
+        return "Target: The default target's behavior.";
+    }
 ```
 
 [page 2](./page02.md)
