@@ -6,11 +6,10 @@
 
 |Pattern|   |   |   |   |
 |---|---|---|---|---|
-| Mediator | [**C++**](../../../CPP/Behavioral/Mediator/README.md) | [**C#**](../../../Csharp/Behavioral/Mediator/README.md) | [Java](../../../Java/Behavioral/Mediator/README.md) | [PHP](../../../PHP/Behavioral/Mediator/README.md) |
+| [**Mediator**] | [C#](../../../Csharp/Behavioral/Mediator/README.md) | [Java](../../../Java/Behavioral/Mediator/README.md) | [PHP](../../../PHP/Behavioral/Mediator/README.md) |
 
-**C++ Mediator Design Pattern**
 
-[script](./script/page01.md)
+[Example](MR1/README.md)
 
 **Comming Soon** 
 
