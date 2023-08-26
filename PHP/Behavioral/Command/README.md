@@ -10,9 +10,7 @@
 
 **Chain Of Responsibility Design Pattern**:
 
-[Example 1](./COR1/README.md)
-
-[Show](./Show/README.md)
+[Example 1](./COR1/README.md)  Show](./Show/README.md)
 
 Understanding and utilizing the Behavioral pattern Command can be beneficial for PHP developers in the following ways:
 
