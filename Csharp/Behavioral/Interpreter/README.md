@@ -4,15 +4,9 @@
 
 **C# Intepretor Design Pattern**
 
-|Pattern|   |   |   |   |
-|---|---|---|---|---|
-| Intepretor | [**C++**](../../../CPP/Behavioral/Intepretor/README.md) | [**C#**](../../../Csharp/Behavioral/Intepretor/README.md) | [Java](../../../Java/Behavioral/Intepretor/README.md) | [PHP](../../../PHP/Behavioral/Intepretor/README.md) |
-
-**C# Intepretor Design Pattern**
+**Comming Soon** 
 
 [script](./script/page01.md)
-
-**Comming Soon** 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
