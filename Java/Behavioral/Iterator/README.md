@@ -10,6 +10,8 @@
 
 The Iterator Design Pattern provides a standardized way to sequentially access elements within a collection without divulging its internal workings. By introducing an intermediary object (the iterator), this pattern allows for orderly traversal of collections, abstracting away the specifics of their underlying representation.
 
+[Example](I1/README.md)
+
 **Why Java Programmers Should Study It**:
 
 1. **Java Collections Framework (JCF)**: Java’s core libraries heavily utilize the Iterator pattern, especially within the Java Collections Framework. Familiarity with this pattern allows developers to make the most out of core collections like `List`, `Set`, and `Map`.
