@@ -8,7 +8,7 @@
 |----|---|---|---|
 |**[ChainOfResponsibility](./ChainOfResponsibility/README.md)**  | [C++](../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../PHP/Behavioral/ChainOfResponsibility/README.md) |
 |**[Command](./Command/README.md)**  | [C++](../../CPP/Behavioral/Command/README.md) | [Java](../../Java/Behavioral/Command/README.md) | [PHP](../../PHP/Behavioral/Command/README.md) |
-|**[Intepretor](./Intepretor/README.md)**  | [C++](../../CPP/Behavioral/Intepretor/README.md) | [Java](../../Java/Behavioral/Intepretor/README.md) | [PHP](../../PHP/Behavioral/Intepretor/README.md) |
+|**[Interpreter](./Interpreter/README.md)**  | [C++](../../CPP/Behavioral/Interpreter/README.md) | [Java](../../Java/Behavioral/Interpreter/README.md) | [PHP](../../PHP/Behavioral/Interpreter/README.md) |
 |**[Iterator](./Iterator/README.md)**  | [C++](../../CPP/Behavioral/Iterator/README.md) | [Java](../../Java/Behavioral/Iterator/README.md) | [PHP](../../PHP/Behavioral/Iterator/README.md) |
 |**[Mediator](./Mediator/README.md)**  | [C++](../../CPP/Behavioral/Mediator/README.md) | [Java](../../Java/Behavioral/Mediator/README.md) | [PHP](../../PHP/Behavioral/Mediator/README.md) |
 |**[Memento](./Memento/README.md)**  | [C++](../../CPP/Behavioral/Memento/README.md) | [Java](../../Java/Behavioral/Memento/README.md) | [PHP](../../PHP/Behavioral/Memento/README.md) |
