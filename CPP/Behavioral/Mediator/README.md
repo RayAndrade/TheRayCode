@@ -4,8 +4,8 @@
 
 **C++ Mediator Design Pattern**
 
-|Pattern|   |   |   |   |
-|---|---|---|---|---|
+|Pattern|   |   |   |
+|---|---|---|---|
 | [**Mediator**](README.md) | [C#](../../../Csharp/Behavioral/Mediator/README.md) | [Java](../../../Java/Behavioral/Mediator/README.md) | [PHP](../../../PHP/Behavioral/Mediator/README.md) |
 
 [Example](MR1/README.md)
