@@ -8,9 +8,9 @@
 |---|---|---|---|
 | [**Iterator**](README.md) | [C++](../../../CPP/Behavioral/Iterator/README.md) | [C#](../../../CPP/Behavioral/Iterator/README.md) | [PHP](../../../PHP/Behavioral/Iterator/README.md) |
 
-The Iterator Design Pattern provides a standardized way to sequentially access elements within a collection without divulging its internal workings. By introducing an intermediary object (the iterator), this pattern allows for orderly traversal of collections, abstracting away the specifics of their underlying representation.
-
 [Example](I1/README.md)
+
+The Iterator Design Pattern provides a standardized way to sequentially access elements within a collection without divulging its internal workings. By introducing an intermediary object (the iterator), this pattern allows for orderly traversal of collections, abstracting away the specifics of their underlying representation.
 
 **Why Java Programmers Should Study It**:
 
