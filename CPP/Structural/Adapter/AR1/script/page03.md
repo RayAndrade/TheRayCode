@@ -6,7 +6,7 @@
 next we create the
 
 ```
-Adaptee
+Adapter
 ```
 
 we will nee the flowing include
