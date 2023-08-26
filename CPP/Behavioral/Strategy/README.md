@@ -4,11 +4,11 @@
 
 **C++ Statergy Design Pattern**
 
-|Pattern|   |   |   |   |
-|---|---|---|---|---|
-| Statergy | [**C++**](../../../CPP/Behavioral/Statergy/README.md) | [**C#**](../../../Csharp/Behavioral/Statergy/README.md) | [Java](../../../Java/Behavioral/Statergy/README.md) | [PHP](../../../PHP/Behavioral/Statergy/README.md) |
+|Pattern|   |   |   |
+|---|---|---|---|
+| [**Statergy**](README.md) | [C#](../../../Csharp/Behavioral/Statergy/README.md) | [Java](../../../Java/Behavioral/Statergy/README.md) | [PHP](../../../PHP/Behavioral/Statergy/README.md) |
 
-**C++ Statergy Design Pattern**
+**C#++Statergy Design Pattern**
 
 [Example](SY1/README.md)
 
@@ -18,4 +18,4 @@
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
