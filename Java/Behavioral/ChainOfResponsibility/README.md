@@ -10,7 +10,7 @@
 
 **Chain Of Responsibility Design Pattern**:
 
-[example](COR1/README.md)
+[example](COR1/README.md)  [example1](example1/README.md)
 
 The Chain of Responsibility Design Pattern enables decoupling between senders and receivers by allowing multiple objects to handle a request. The core idea is that a request is passed along a chain of potential handler objects. Each handler decides either to process the request or pass it to the next handler in the chain. The sender of the request is unaware of which object in the chain will ultimately handle the request, ensuring that the sender and receiver operate independently.
 
