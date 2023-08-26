@@ -4,8 +4,8 @@
 
 **PHP Behavioral Patterns**
 
-|Pattern|   |   |   |   |
-|---|---|---|---|---|
+|Pattern|   |   |   |
+|---|---|---|---|
 | [**Iterator**](README.md) | [C++](../../../CPP/Behavioral/Iterator/README.md) | [C#](../../../Csharp/Behavioral/Iterator/README.md) | [Java](../../../Java/Behavioral/Iterator/README.md) |
 
 **PHP Iterator Design Pattern**
