@@ -10,7 +10,7 @@
 
 **C++ Statergy Design Pattern**
 
-[script](./script/page01.md)
+[Example](SY1/README.md)
 
 **Comming Soon** 
 
