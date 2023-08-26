@@ -8,7 +8,7 @@
 |----|---|---|---|
 |**[ChainOfResponsibility](./ChainOfResponsibility/README.md)**  | [C++](../../CPP/Behavioral/ChainOfResponsibility/README.md) | [C#](../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../PHP/Behavioral/ChainOfResponsibility/README.md) |
 |**[Command](./Command/README.md)**  | [C++](../../CPP/Behavioral/Command/README.md) | [C#](../../Csharp/Behavioral/Command/README.md) | [PHP](../../PHP/Behavioral/Command/README.md) |
-|**[Interpreter](./Intepretor/README.md)**  | [C++](../../CPP/Behavioral/Interpreter/README.md) | [C#](../../Csharp/Behavioral/Interpreter/README.md) | [PHP](../../PHP/Behavioral/Interpreter/README.md) |
+|**[Interpreter](./Interpreter/README.md)**  | [C++](../../CPP/Behavioral/Interpreter/README.md) | [C#](../../Csharp/Behavioral/Interpreter/README.md) | [PHP](../../PHP/Behavioral/Interpreter/README.md) |
 |**[Iterator](./Iterator/README.md)**  | [C++](../../CPP/Behavioral/Iterator/README.md) | [C#](../../Csharp/Behavioral/Iterator/README.md) | [PHP](../../PHP/Behavioral/Iterator/README.md) |
 |**[Mediator](./Mediator/README.md)**  | [C++](../../CPP/Behavioral/Mediator/README.md) | [C#](../../Csharp/Behavioral/Mediator/README.md) | [PHP](../../PHP/Behavioral/Mediator/README.md) |
 |**[Memento](./Memento/README.md)**  | [C++](../../Csharp/Behavioral/Memento/README.md) | [C#](../../Csharp/Behavioral/Memento/README.md) | [PHP](../../PHP/Behavioral/Memento/README.md) |
