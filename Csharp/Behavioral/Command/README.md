@@ -8,6 +8,8 @@
 |---|---|---|---|
 | [**Command**](README.md) | [C++](../../../Csharp/Behavioral/Command/README.md) | [Java](../../../Java/Behavioral/Command/README.md) | [PHP](../../../PHP/Behavioral/Command/README.md) |
 
+[example](CD1/README.md)  [example1](CD2/README.md)
+
 **Command Design Pattern**:
 
 The Command Design Pattern involves encapsulating a request as an object, thereby allowing users to parameterize clients with different requests, queue requests, and support undoable operations. In essence, it decouples the object that invokes the command (often termed as the 'Invoker') from the object that knows how to execute the command (the 'Receiver').
