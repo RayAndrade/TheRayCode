@@ -1,30 +1,21 @@
-# TheRayCode is AWESOME!!!
+# [TheRayCode](../../../README.md) is AWESOME!!!
 
-**Statergy**
+**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
-**[Java](../README.md)** 
+**Java Statergy Design Pattern**
 
-**[Creational Patterns](../Creational/README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
+|Pattern|   |   |   |
+|---|---|---|---|
+| [**Statergy**](README.md) | [C++](../../../CPP/Behavioral/Statergy/README.md) | [C#](../../../Csharp/Behavioral/Statergy/README.md) | [PHP](../../../PHP/Behavioral/Statergy/README.md) |
 
-**Java Behavoiral Patterns**
+**Java Statergy Design Pattern**
 
-* **[ChainOfResponsibility](../ChainOfResponsibility/README.md)**
-* **[Iterator](../Iterator/README.md)**
-* **[Mediator](../Mediator/README.md)**
-* **[Memento](../Memento/README.md)**
-* **[Observer](../Observer/README.md)**
-* **[State](../State/README.md)**
-* **[Strategy](./README.md)**
-* **[Template](../Template/README.md)**
-* **[Visitor](../Visitor/README.md)**
+[Example](SY1/README.md)
 
-**Java Statergy section**
-
-[Example 1](./SY1/README.md)
+**Comming Soon** 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
