@@ -1,3 +1,6 @@
+[script](page01.md)
+
+
 ## Advantage
 
 - [ ] It allows two or more previously incompatible objects to interact
