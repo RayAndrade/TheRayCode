@@ -1,9 +1,9 @@
 //
-// Created by ray on 8/7/22.
+// Created by ray on 8/27/23.
 //
 
-#ifndef AR2_LOCALDISPLAY_H
-#define AR2_LOCALDISPLAY_H
+#ifndef ADAPTER_LOCALDISPLAY_H
+#define ADAPTER_LOCALDISPLAY_H
 
 #include <iostream>
 
@@ -18,4 +18,5 @@ public:
     virtual void Message(Color color, std::string message) = 0;
 };
 
-#endif //AR2_LOCALDISPLAY_H
+
+#endif //ADAPTER_LOCALDISPLAY_H

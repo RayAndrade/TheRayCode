@@ -2,6 +2,6 @@
 
 [back](./page05.md)
 
-page06
+and Run
 
 [page 7](./page07.md)

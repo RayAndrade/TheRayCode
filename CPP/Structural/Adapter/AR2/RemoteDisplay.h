@@ -1,19 +1,20 @@
 //
-// Created by ray on 8/7/22.
+// Created by ray on 8/27/23.
 //
 
-#ifndef AR2_REMOTEDISPLAY_H
-#define AR2_REMOTEDISPLAY_H
+#ifndef ADAPTER_REMOTEDISPLAY_H
+#define ADAPTER_REMOTEDISPLAY_H
 
 #include <iostream>
 
 class RemoteDisplay{
 public:
-    void MsgRed(std::string mrssage) const;
-    void MsgBlue(std::string message) const;
-    void MsgGreen(std::string message) const;
-    void MsgYellow(std::string message) const;
+    enum Color{
+        Red = 0,
+        Blue = 1,
+        Green = 2,
+        Yellow = 3
+    };
 };
 
-
-#endif //AR2_REMOTEDISPLAY_H
+#endif //ADAPTER_REMOTEDISPLAY_H

@@ -3,4 +3,6 @@ project(Adapter)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(AR2 main.cpp RemoteDisplay.h LocalDisplay.h DispayAdapter.h)
+add_executable(AR2 main.cpp
+        RemoteDisplay.h
+        LocalDisplay.h)
