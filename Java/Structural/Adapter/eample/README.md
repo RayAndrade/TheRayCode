@@ -1,4 +1,4 @@
-The code you've provided is an example of the Adapter Design Pattern. Here's a brief breakdown of what each class does:
+Here is an example of the Adapter Design Pattern. Here's a brief breakdown of what **each** class does:
 
 1. **RoundPeg class**:
    - Represents pegs that have a round shape.
