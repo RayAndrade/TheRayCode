@@ -3,7 +3,6 @@
 namespace TheRayCode\Adapter;
 
 class Adapter implements Target
-
 {
     private $adaptee;
 

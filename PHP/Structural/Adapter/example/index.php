@@ -3,7 +3,6 @@ require_once 'Target.php';
 require_once 'Adaptee.php';
 require_once 'Adapter.php';
 
-use TheRayCode\Adapter\Adaptee;
 use TheRayCode\Adapter\Adapter;
 
 // The client code can work with any class that follows the Target interface.

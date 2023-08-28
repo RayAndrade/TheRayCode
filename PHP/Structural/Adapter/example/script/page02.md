@@ -2,6 +2,22 @@
 
 [back](./page01.md)
 
-page02
+in "namespace TheRayCode\Adapter"
+
+```
+namespace TheRayCode\Adapter;
+```
+Create **interface**
+```
+Target
+```
+
+add code
+
+
+```
+public function request(): string;
+```
+
 
 [page 3](./page03.md)
