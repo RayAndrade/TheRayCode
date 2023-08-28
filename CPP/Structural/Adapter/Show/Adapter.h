@@ -5,8 +5,7 @@
 #ifndef SHOW_ADAPTER_H
 #define SHOW_ADAPTER_H
 
-#include <algorithm>
-#include "Adaptee.h"
+
 
 class Adapter  : public Target{
 private:
