@@ -1,0 +1,9 @@
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/example/Adapter/Adapter/obj/Debug/Adapter.csproj.AssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/example/Adapter/Adapter/obj/Debug/Adapter.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/example/Adapter/Adapter/bin/Debug/Adapter.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/example/Adapter/Adapter/bin/Debug/Adapter.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/example/Adapter/Adapter/bin/Debug/Newtonsoft.Json.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/example/Adapter/Adapter/bin/Debug/Newtonsoft.Json.xml
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/example/Adapter/Adapter/obj/Debug/Adapter.csproj.CopyComplete
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/example/Adapter/Adapter/obj/Debug/Adapter.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/example/Adapter/Adapter/obj/Debug/Adapter.pdb

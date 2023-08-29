@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 
 namespace Adapter
@@ -12,7 +10,7 @@ namespace Adapter
         {
             ICustomer customer = new CustomerAdapter();
             IEnumerable<CustomerDTO> data = customer.GetCustomers();
-            Console.WriteLine(Json(contactcollection));
+            Console.WriteLine(JsonConvert.SerializeObject(data));
         }
     }
 }
