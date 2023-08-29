@@ -38,6 +38,8 @@ namespace Adapter
 **ThirdPartyAdapter.cs**
 
 ```
+using System.Collections.Generic;
+
 namespace Adapter
 {
     public class ThirdPartyAdapter
