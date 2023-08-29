@@ -8,7 +8,7 @@
 |---|---|---|---|
 | [**Adapter**](README.md) | [**C#**](../../../Csharp/Structural/Adapter/README.md) | [**Java**](../../../Java/Structural/Adapter/README.md) | [**PHP**](../../../PHP/Structural/Adapter/README.md) |
 
-[example](example/README.md) |  [Example3](AR3/README.md) [Example4](AR4/README.md) [Example5](AR1/README.md)
+[example](example/README.md) |  [Example2](example2/README.md) [Example3](example2/README.md) [Example5](AR1/README.md)
 
 The Adapter pattern acts as a bridge between two incompatible interfaces. In essence, it allows for two different classes with incompatible interfaces to work together by converting the interface of one class into an interface that the other class expects. The Adapter pattern can be seen as a "wrapper" that modifies an existing class's interface without altering its underlying code.
 
