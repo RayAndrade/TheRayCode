@@ -109,8 +109,8 @@ Find Ray on:
 
 [facebook](https://www.facebook.com/TheRayCode/)
 
-[youtube](https://www.youtube.com/user/AndradeRay/)
+[youtube](https://www.youtube.com/TheRayCode/)
 
-[The Ray Code](https://www.RayAndrade.com)
+[The Ray Code](https://www.TheRayCode.com)
 
 [Ray Andrade](https://www.RayAndrade.org)
