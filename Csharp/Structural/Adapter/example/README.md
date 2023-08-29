@@ -92,7 +92,14 @@ namespace Adapter
 }
 ```
 
-<<<<<<< HEAD
+5. **CustomerAdapter**:
+    * This is an implementation of the Adapter Pattern. 
+    * `CustomerAdapter` inherits from `CustomerManager` and also implements `ICustomer` interface.
+    * `GetCustomers()` method:
+        - Fetches the serialized customer data using the base class' `GetData()` method.
+        - Deserializes the data into a list of `Customer` objects.
+        - Transforms this list into a list of `CustomerDTO` objects.
+
 **CustomerAdapter**
 
 ```
@@ -119,25 +126,12 @@ namespace Adapter
     }
 }
 ```
-=======
-5. **CustomerAdapter**:
-    * This is an implementation of the Adapter Pattern. 
-    * `CustomerAdapter` inherits from `CustomerManager` and also implements `ICustomer` interface.
-    * `GetCustomers()` method:
-        - Fetches the serialized customer data using the base class' `GetData()` method.
-        - Deserializes the data into a list of `Customer` objects.
-        - Transforms this list into a list of `CustomerDTO` objects.
 
 6. **Program.cs**:
     * This is the main program.
     * Creates an instance of `CustomerAdapter`.
     * Fetches a list of `CustomerDTO` objects using `GetCustomers()` method.
     * Serializes and prints the fetched data to the console.
-
-
->>>>>>> 81bfc7d2 (*)
-
-**Program.cs**
 
 ```
 using System;
@@ -166,26 +160,4 @@ Here's a summary of the overall flow:
 4. The `Program` class uses the `CustomerAdapter` to fetch and display the adapted data.
 
 This is a classic application of the Adapter Design Pattern, where `CustomerAdapter` allows two incompatible interfaces (`CustomerManager` and `ICustomer`) to work together.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
