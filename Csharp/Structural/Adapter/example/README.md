@@ -1,5 +1,11 @@
 
-**Customer.cs**
+1. **Customer.cs**:
+    * `Customer` class represents a simple customer entity.
+    * Properties include:
+        - `Id`: A unique identifier for a customer.
+        - `Name`: The name of the customer.
+        - `Address`: The address of the customer.
+        - `Contact`: The contact details for the customer.
 
 ```
 namespace Adapter
@@ -14,7 +20,8 @@ namespace Adapter
 }
 ```
 
-**ICustomer.cs**
+2. **ICustomer.cs**:
+    * `ICustomer` is an interface that has a method called `GetCustomers()` which returns a list of `CustomerDTO` objects.
 
 ```
 using System.Collections.Generic;
@@ -27,6 +34,14 @@ namespace Adapter
     }
 } 
 ```
+
+3. **CustomerDTO.cs**:
+    * `CustomerDTO` (Data Transfer Object) class represents a simplified or transformed customer data.
+    * Properties include:
+        - `CustomerId`: Represents the unique identifier for a customer.
+        - `FullName`: Represents the full name of the customer.
+        - `AddressDetails`: Represents the address details of the customer.
+        - `Mobile`: Represents the mobile or contact details of the customer.
 
 **CustomerDTO.cs**
 
@@ -44,7 +59,9 @@ namespace Adapter
 }
 ```
 
-**CustomerManager.cs**
+4. **CustomerManager.cs**:
+    * `CustomerManager` class manages a list of `Customer` objects. For the purpose of this example, it initializes with one customer.
+    * `GetData()` method serializes the customer list into a JSON string.
 
 ```
 using System.Collections.Generic;
@@ -75,6 +92,7 @@ namespace Adapter
 }
 ```
 
+<<<<<<< HEAD
 **CustomerAdapter**
 
 ```
@@ -101,6 +119,23 @@ namespace Adapter
     }
 }
 ```
+=======
+5. **CustomerAdapter**:
+    * This is an implementation of the Adapter Pattern. 
+    * `CustomerAdapter` inherits from `CustomerManager` and also implements `ICustomer` interface.
+    * `GetCustomers()` method:
+        - Fetches the serialized customer data using the base class' `GetData()` method.
+        - Deserializes the data into a list of `Customer` objects.
+        - Transforms this list into a list of `CustomerDTO` objects.
+
+6. **Program.cs**:
+    * This is the main program.
+    * Creates an instance of `CustomerAdapter`.
+    * Fetches a list of `CustomerDTO` objects using `GetCustomers()` method.
+    * Serializes and prints the fetched data to the console.
+
+
+>>>>>>> 81bfc7d2 (*)
 
 **Program.cs**
 
@@ -123,6 +158,14 @@ namespace Adapter
 }
 ```
 
+Here's a summary of the overall flow:
+
+1. `CustomerManager` has a method `GetData()` that provides a JSON representation of its customer list.
+2. You want to fetch and work with a different version of this customer data, represented by `CustomerDTO`.
+3. Instead of modifying the `CustomerManager` directly, you introduce an adapter (`CustomerAdapter`) which transforms the data from the format given by `CustomerManager` to the desired `CustomerDTO` format.
+4. The `Program` class uses the `CustomerAdapter` to fetch and display the adapted data.
+
+This is a classic application of the Adapter Design Pattern, where `CustomerAdapter` allows two incompatible interfaces (`CustomerManager` and `ICustomer`) to work together.
 
 
 
