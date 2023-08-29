@@ -1,6 +1,6 @@
 namespace Adapter
 {
-    public class Customer
+    public class 
     {
         public int Id { get; set; }
         public string Name { get; set; }
