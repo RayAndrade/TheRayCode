@@ -1,9 +1,10 @@
 //
-// Created by ray on 9/6/22.
+// Created by ray on 8/29/23.
 //
 
-#ifndef ADAPTER_ADAPTER_H
-#define ADAPTER_ADAPTER_H
+#ifndef EAMPLE3_ADAPTER_H
+#define EAMPLE3_ADAPTER_H
+
 #include "Target.h"
 #include "Adaptee.h"
 
@@ -16,6 +17,4 @@ public:
     void Request() override;
 };
 
-
-
-#endif //ADAPTER_ADAPTER_H
+#endif //EAMPLE3_ADAPTER_H
