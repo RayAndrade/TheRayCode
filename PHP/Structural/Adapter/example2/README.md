@@ -11,10 +11,6 @@ interface Notification
 
 **SlackApi.php**
 
-```
-```
-
-**.php**
 
 ```
 namespace TheRayCode\Adapter;
