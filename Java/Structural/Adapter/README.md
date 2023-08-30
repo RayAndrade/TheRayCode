@@ -8,7 +8,7 @@
 |---|---|---|---|
 | [**Adapter**](README.md) | [**C++**](../../../CPP/Structural/Adapter/README.md) | [**C#**](../../../Csharp/Structural/Adapter/README.md) | [**PHP**](../../../PHP/Structural/Adapter/README.md) |
 
-[Example](./Show/README.md) [Example 2](./AR2/README.md) [Example 3](./AR3/README.md)  [Example 4](./AR4/README.md)
+[Example](example/README.md) | [Example 2](example2/README.md) | [Example 3](example3/README.md)
 
 Certainly! Let's delve into the "Adapter Design Pattern" and its significance for Java programmers.
 
