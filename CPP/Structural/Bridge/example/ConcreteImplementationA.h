@@ -1,9 +1,9 @@
 //
-// Created by ray on 7/24/21.
+// Created by ray on 8/30/23.
 //
 
-#ifndef BRIDGE_CONCRETEIMPLEMENTATIONA_H
-#define BRIDGE_CONCRETEIMPLEMENTATIONA_H
+#ifndef EXAMPLE_CONCRETEIMPLEMENTATIONA_H
+#define EXAMPLE_CONCRETEIMPLEMENTATIONA_H
 
 #include "Implementation.h"
 
@@ -14,4 +14,4 @@ public:
     }
 };
 
-#endif //BRIDGE_CONCRETEIMPLEMENTATIONA_H
+#endif //EXAMPLE_CONCRETEIMPLEMENTATIONA_H

@@ -1,9 +1,9 @@
 //
-// Created by ray on 7/24/21.
+// Created by ray on 8/30/23.
 //
 
-#ifndef BRIDGE_ABSTRACTION_H
-#define BRIDGE_ABSTRACTION_H
+#ifndef EXAMPLE_ABSTRACTION_H
+#define EXAMPLE_ABSTRACTION_H
 
 #include <string>
 #include "Implementation.h"
@@ -22,4 +22,4 @@ public:
     }
 };
 
-#endif //BRIDGE_ABSTRACTION_H
+#endif //EXAMPLE_ABSTRACTION_H

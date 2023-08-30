@@ -1,9 +1,9 @@
 //
-// Created by ray on 7/24/21.
+// Created by ray on 8/30/23.
 //
 
-#ifndef BRIDGE_IMPLEMENTATION_H
-#define BRIDGE_IMPLEMENTATION_H
+#ifndef EXAMPLE_IMPLEMENTATION_H
+#define EXAMPLE_IMPLEMENTATION_H
 
 #include <iostream>
 
@@ -12,4 +12,5 @@ public:
     virtual ~Implementation() {}
     virtual std::string OperationImplementation() const = 0;
 };
-#endif //BRIDGE_IMPLEMENTATION_H
+
+#endif //EXAMPLE_IMPLEMENTATION_H

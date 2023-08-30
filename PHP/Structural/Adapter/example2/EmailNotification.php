@@ -1,12 +1,9 @@
 <?php
 
 namespace TheRayCode\Adapter;
-
 use TheRayCode\Adapter\Notification;
-
 class EmailNotification implements Notification
 {
-
     private $adminEmail;
 
     public function __construct(string $adminEmail)

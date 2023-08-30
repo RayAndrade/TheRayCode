@@ -2,8 +2,6 @@
 
 namespace TheRayCode\Adapter;
 
-use TheRayCode\Adapter\Notification;
-
 class SlackNotification implements Notification
 {
     private $slack;
@@ -14,6 +12,7 @@ class SlackNotification implements Notification
         $this->slack = $slack;
         $this->chatId = $chatId;
     }
+
     public function send(string $title, string $message)
     {
         $slackMessage = "#" . $title . "# " . strip_tags($message);
