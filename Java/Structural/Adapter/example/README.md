@@ -167,7 +167,6 @@ Round peg r5 fits round hole r5.
 Square peg w2 fits round hole r5.
 Square peg w20 does not fit into round hole r5.
 ```
-The Ray Code is AWESOME!!!
 
 [Wikipedia](https://en.wikipedia.org/wiki/Adapter_pattern)
 

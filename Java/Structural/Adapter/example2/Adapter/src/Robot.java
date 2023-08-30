@@ -3,9 +3,7 @@
 // to the right methods defined in EnemyRobot
 
 import java.util.Random;
-
-public class Robot{
-
+public class Robot {
     Random generator = new Random();
 
     public void smashWithHands() {
@@ -21,7 +19,4 @@ public class Robot{
     public void reactToHuman(String driverName) {
         System.out.println("Robot Tramps on " + driverName);
     }
-
-
-
 }

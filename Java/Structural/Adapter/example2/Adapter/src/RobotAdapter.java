@@ -1,4 +1,4 @@
-// The Adapter must provide an alternative action for 
+// The Adapter must provide an alternative action for
 // the the methods that need to be used because
 // EnemyAttacker was implemented.
 
@@ -8,23 +8,23 @@
 // instead to methods used by EnemyRobot
 
 public class RobotAdapter implements Attacker{
-
     Robot theRobot;
 
     public RobotAdapter(Robot newRobot){
         theRobot = newRobot;
     }
-
+    @Override
     public void fireWeapon() {
         theRobot.smashWithHands();
     }
 
+    @Override
     public void driveForward() {
         theRobot.walkForward();
     }
 
+    @Override
     public void assignDriver(String driverName) {
         theRobot.reactToHuman(driverName);
     }
-
 }
