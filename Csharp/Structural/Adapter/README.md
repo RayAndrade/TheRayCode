@@ -8,7 +8,7 @@
 |---|---|---|---|
 | [**Adapter**](README.md) | [**C++**](../../../CPP/Structural/Adapter/README.md) | [**Java**](../../../Java/Structural/Adapter/README.md) | [**PHP**](../../../PHP/Structural/Adapter/README.md) |
 
-[Example](example/README.md) | [Example2](example2/README.md) | | [Example5](example5/README.md) | 
+[Example](example/README.md) | [Example2](example2/README.md) | [Example5](example5/README.md) | [Example5](example3/README.md) | [Example5](example4/README.md) | 
 
 Let's discuss the "Adapter Design Pattern" and its relevance to C# programmers.
 
