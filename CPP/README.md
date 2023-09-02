@@ -1,4 +1,4 @@
-# [TheRayCode](../../README.md) is AWESOME!!!
+# [TheRayCode](README.md) is AWESOME!!!
 
 **[Creational Patterns](./Creational/README.md)** | **[Structural Patterns](./Structural/README.md)** | **[Behavioral Patterns](./Behavioral/README.md)**
 
