@@ -6,4 +6,4 @@ namespace Adapter
     {
         IEnumerable<CustomerDTO> GetCustomers();
     }
-} 
+}

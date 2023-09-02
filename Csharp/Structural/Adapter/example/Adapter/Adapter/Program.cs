@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using Newtonsoft.Json;
 
 namespace Adapter
 {
@@ -8,9 +6,7 @@ namespace Adapter
     {
         public static void Main(string[] args)
         {
-            ICustomer customer = new CustomerAdapter();
-            IEnumerable<CustomerDTO> data = customer.GetCustomers();
-            Console.WriteLine(JsonConvert.SerializeObject(data));
+            Console.WriteLine("The Ray Code is AWESOME!!!");
         }
     }
 }

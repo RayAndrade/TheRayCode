@@ -4,8 +4,9 @@ using Newtonsoft.Json;
 
 namespace Adapter
 {
-    public class CustomerAdapter:CustomerManager, ICustomer
+    public class CustomerAdapter :CustomerManager, ICustomer
     {
+        
         public IEnumerable<CustomerDTO> GetCustomers()
         {
             var data = base.GetData();
@@ -18,5 +19,6 @@ namespace Adapter
                 Mobile = x.Contact
             });
         }
+
     }
 }

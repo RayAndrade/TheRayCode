@@ -17,10 +17,10 @@ namespace Adapter
                 Contact = "(818)457-MATH"
             });
         }
-        
         public string GetData()
         {
             return JsonConvert.SerializeObject(cutomerList);
         }
+
     }
 }
