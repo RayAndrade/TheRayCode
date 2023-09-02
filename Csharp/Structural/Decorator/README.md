@@ -6,7 +6,7 @@
 
 |Pattern|   |   |   |
 |---|---|---|---|
-| [**Decorator**](DREADME.md) | [C++](../../../CPP/Structural/Decorator/README.md) | [Java](../../../Java/Structural/Decorator/README.md) | [PHP](../../../PHP/Structural/Decorator/README.md) |
+| [**Decorator**](README.md) | [C++](../../../CPP/Structural/Decorator/README.md) | [Java](../../../Java/Structural/Decorator/README.md) | [PHP](../../../PHP/Structural/Decorator/README.md) |
 
 **Decorator Design Pattern**:
 The Decorator Design Pattern is a structural pattern that allows you to add new functionalities to existing objects without modifying their structure. It involves a set of decorator classes that are used to wrap concrete components. These decorators mirror the type of the components they decorate but add or override behavior, thus extending the capabilities of the component in a flexible and dynamic manner.
