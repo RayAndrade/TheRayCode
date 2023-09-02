@@ -1,4 +1,4 @@
-# [TheRayCode](REACME.md) 
+# [TheRayCode](/REACME.md) 
 
 <a href="http://theraycode.org" rel="noopener" target="_new">Go to The Ray Code</a>
 
