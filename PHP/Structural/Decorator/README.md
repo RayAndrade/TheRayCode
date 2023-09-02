@@ -8,6 +8,8 @@
 |---|---|---|---|
 | [**Decorator**](README.md) | [C++](../../../CPP/Structural/Decorator/README.md) | [C#](../../../Csharp/Structural/Decorator/README.md) | [Java](../../../Java/Structural/Decorator/README.md) |
 
+[Example](example/README.md)
+
 **Decorator Design Pattern**:
 The Decorator Design Pattern is a structural pattern that permits new functionalities to be added to an existing object dynamically without altering its structure. Instead of extending an object's capabilities through inheritance, the Decorator pattern uses a set of decorator classes that are used to wrap concrete components. These decorators reflect the type of the components they decorate but add or override behavior, thus dynamically extending the component's capabilities.
 
