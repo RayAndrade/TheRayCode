@@ -4,6 +4,8 @@
 |---|---|---|
 |**[C++](./Creational/README.md)** | **[C++](./Structural/README.md)** | **[C++](./Behavioral/README.md)** |
 |**[C#](../Csharp/Creational/README.md)** | **[C#](../Csharp/Structural/README.md)** | **[C#](../Csharp/Behavioral/README.md)** |
+|**[Java](../Java/Creational/README.md)** | **[Java](../Java/Structural/README.md)** | **[Java](../Java/Behavioral/README.md)** |
+|**[PHP](../PHP/Creational/README.md)** | **[PHP](../PHP/Structural/README.md)** | **[PHP](../PHP/Behavioral/README.md)** |
 
 
 **[C++](../README.md)** 
