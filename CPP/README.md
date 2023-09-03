@@ -3,7 +3,7 @@
 |**[Creational Patterns](./Creational/README.md)** | **[Structural Patterns](./Structural/README.md)** | **[Behavioral Patterns](./Behavioral/README.md)** |
 |---|---|---|
 |**[C++](./Creational/README.md)** | **[C++](./Structural/README.md)** | **[C++](./Behavioral/README.md)** |
-|**[C#](../Csharp/Creational/README.md)** | **[C++](./Structural/README.md)** | **[C++](./Behavioral/README.md)** |
+|**[C#](../Csharp/Creational/README.md)** | **[C#](../Csharp/Structural/README.md)** | **[C#](../Csharp/Behavioral/README.md)** |
 
 
 **[C++](../README.md)** 
