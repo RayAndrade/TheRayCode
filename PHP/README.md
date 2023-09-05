@@ -1,12 +1,16 @@
-# [TheRayCode](../../README.md) is AWESOME!!!
+# [TheRayCode](README.md) is AWESOME!!!
 
-**[Creational Patterns](./Creational/README.md)** | **[Structural Patterns](./Structural/README.md)** | **[Behavioral Patterns](./Behavioral/README.md)**
+|**[Creational Patterns](./Creational/README.md)** | **[Structural Patterns](./Structural/README.md)** | **[Behavioral Patterns](./Behavioral/README.md)** |
+|---|---|---|
+|**[C++](../CPP/Creational/README.md)** | **[C++](../CPP/Structural/README.md)** | **[C++](../CPP/Behavioral/README.md)** |
+|**[C#](../Csharp/Creational/README.md)** | **[C#](../Csharp/Structural/README.md)** | **[C#](../Csharp/Behavioral/README.md)** |
+|**[Java](../Java/Creational/README.md)** | **[Java](../PHP/Structural/README.md)** | **[Java](../Java/Behavioral/README.md)** |
 
-**[PHP](../README.md)** 
+**[C#](../README.md)** 
 
 | Creational Patterns | Structural Patterns | Behavioral Patterns |
 |--------------|-----|-----------|
-| [**AbstractFactory**](./Creational/AbstractFactory/README.md) | [**Adapter**](./Structural/Adapter/README.md)         | [**Chain Of Responsibility**](./Behavioral/ChainOfResponsibility/README.md) |
+| [**AbstractFactory**](Creational/AbstractFactory/README.md) | [**Adapter**](./Structural/Adapter/README.md)         | [**Chain Of Responsibility**](./Behavioral/ChainOfResponsibility/README.md) |
 | [**Builder**](./Creational/Builder/README.md)                 | [**Bridge**](./Structural/Bridge/README.md)           | [**Command**](./Behavioral/Command/README.md) |
 | [**Factory**](./Creational/Factory/README.md)                 | [**Composite**](./Structural/Composite/README.md)     | [**Interpreter**](./Behavioral/Interpreter/README.md) |
 | [**Prototype**](./Creational/Prototype/README.md)             | [**Decorator**](./Structural/Decorator/README.md)     | [**Iterator**](./Behavioral/Iterator/README.md) |
@@ -17,6 +21,9 @@
 |                                                               |                                                       | [**Strategy**](./Behavioral/Strategy/README.md)  |
 |                                                               |                                                       | [**Template**](./Behavioral/Template/README.md) |
 |                                                               |                                                       | [**Visitor**](./Behavioral/Visitor/README.md) |
+
+
+**Types of Design Patterns:**
 
 Design patterns represent solutions to common problems that arise in software design. These patterns are not language-specific, so they apply to any object-oriented language, including PHP. Design patterns are typically divided into three primary categories:
 
