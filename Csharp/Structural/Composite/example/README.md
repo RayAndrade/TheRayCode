@@ -1,4 +1,3 @@
-Certainly! Let's break down the code:
 
 **IGraphicElement.cs**
 ```csharp
