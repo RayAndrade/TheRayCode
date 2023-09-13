@@ -10,7 +10,7 @@ In the main method
 ```
 
 ```
- Singleton* s1 = Singleton::getInstance();
+    Singleton* s1 = Singleton::getInstance();
     Singleton* s2 = Singleton::getInstance();
     
     std::cout << "Address of s1: " << s1 << std::endl;
