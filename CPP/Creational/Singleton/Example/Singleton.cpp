@@ -2,8 +2,6 @@
 // Created by ray on 9/12/23.
 //
 
-// Singleton.cpp
-
 #include "Singleton.h"
 #include <iostream>
 

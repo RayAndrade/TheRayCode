@@ -3,7 +3,5 @@ project(Show)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Show main.cpp
-        Singleton.h
-        Singleton.cpp
+add_executable(Show Demo.cpp Singleton.h Singleton.cpp
 )

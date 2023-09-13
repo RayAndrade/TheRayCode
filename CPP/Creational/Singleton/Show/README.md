@@ -1,4 +1,5 @@
-Sure, let's use the Singleton design pattern to design a class called "OnlyOne". The name is witty in the sense that it emphasizes the main characteristic of the Singleton, that there can only be one instance of the class.
+Let's use the Singleton design pattern to design a class called "OnlyOne". 
+The name is witty in the sense that it emphasizes the main characteristic of the Singleton, that there can only be one instance of the class.
 
 Here is the .h file:
 

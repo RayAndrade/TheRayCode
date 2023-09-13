@@ -2,8 +2,8 @@
 // Created by ray on 9/12/23.
 //
 
-#ifndef SINGLETON_SINGLETON_H
-#define SINGLETON_SINGLETON_H
+#ifndef EXAMPLE_SINGLETON_H
+#define EXAMPLE_SINGLETON_H
 
 class Singleton {
 private:
@@ -25,4 +25,4 @@ public:
     void demoMethod();
 };
 
-#endif //SINGLETON_SINGLETON_H
+#endif //EXAMPLE_SINGLETON_H
