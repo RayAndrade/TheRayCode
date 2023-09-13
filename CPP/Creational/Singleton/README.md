@@ -8,8 +8,9 @@
 |---|---|---|---|
 |  [**Singleton**](README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [**Java**](../../../Java/Creational/Singleton/README.md) | [**PHP**](../../../PHP/Creational/Singleton/README.md) |
 
-
 **Singleton Design Pattern**:
+
+[Example](Example/README.md)
 
 The Singleton pattern ensures that a particular class has only one instance throughout the lifetime of an application and provides a global point of access to that instance. This pattern restricts the instantiation of a class to a single object and typically provides a method to get the instance of the class.
 
