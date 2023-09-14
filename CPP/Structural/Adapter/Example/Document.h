@@ -12,7 +12,6 @@ class Document {
 public:
     Document(const std::vector<std::string>& lines);
     const std::vector<std::string>& getLines() const;
-
 private:
     std::vector<std::string> lines;
 };

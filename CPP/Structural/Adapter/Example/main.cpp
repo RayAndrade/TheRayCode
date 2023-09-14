@@ -9,6 +9,5 @@ int main() {
 
     PrinterAdapter adapter(oldPrinter);
     adapter.printDocument(doc);
-
     return 0;
 }

@@ -12,7 +12,6 @@ class PrinterAdapter {
 public:
     PrinterAdapter(OldPrinter& printer);
     void printDocument(const Document& doc);
-
 private:
     OldPrinter& printer;
 };
