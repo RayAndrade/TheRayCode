@@ -14,6 +14,7 @@ int main() {
 
     Adaptee *adaptee = new Adaptee;
     std::cout << "Client: The Adaptee class has a weird interface. See, I don't understand it:\n";
+    std::cout << "-=-=-=-=-=\n";
     std::cout << "Adaptee: " << adaptee->SpecificRequest();
     std::cout << "\n\n";
     return 0;

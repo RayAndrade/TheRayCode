@@ -10,7 +10,7 @@
 class Adaptee {
 public:
     std::string SpecificRequest() const {
-        return "!!!EMOSEWA si edoC yaR ehT";
+        return "!!!EMOSEWA si edoC yaR ehT";}
 };
 
 #endif //EXAMPLE_ADAPTEE_H
