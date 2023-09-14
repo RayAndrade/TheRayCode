@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.26)
-project(example2)
+project(Example2)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(example2 main.cpp
+add_executable(Example2 main.cpp
         Interface1.h
         Interface2.h
         Object1.h
