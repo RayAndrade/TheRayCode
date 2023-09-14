@@ -8,7 +8,9 @@ Next we add the
 Adaptee
 ```
 
-we 
+The Adaptee class is one that has a different interface (SpecificRequest) than what clients might expect based on the Target class. 
+This is a class you might need to adapt in order to make it work seamlessly with existing or new code.
+
 
 ```
 #include "Target.h"

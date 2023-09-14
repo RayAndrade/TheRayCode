@@ -55,6 +55,19 @@ delete adapter;
 
 and run
 
+The following steps take place in the main function:
+
+A default Target object is created and its Request method is called using the ClientCode function.
+An Adaptee object is created and its SpecificRequest method is directly called, demonstrating that its interface is different (and possibly confusing or not directly usable) from the expected Target interface.
+However, it seems there's a part missing in the main function. The creation and demonstration of the Adapter class's functionality aren't shown. You'd typically see the Adapter in use like:
+
+cpp
+Copy code
+std::cout << "Client: But I can work with it via the Adapter:\n";
+Target *adapter = new Adapter(adaptee);
+ClientCode(adapter);
+This would show that, with the Adapter, the Adaptee can be used in places where a Target is expected. The Adapter translates the call to the Adaptee's method and provides a result in line with what's expected from the Target's method.
+
 
 
 [page 5](./page05.md)

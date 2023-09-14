@@ -9,6 +9,8 @@ next we create the
 Adapter
 ```
 
+The Adapter class aims to bridge the gap between the Target interface and the Adaptee interface. It does so by inheriting from Target and taking an Adaptee object as its member. The Request method of the Adapter class then calls SpecificRequest from its Adaptee member, reverses the result, and returns it with an additional prefix.
+
 we will nee the flowing include
 
 ```
