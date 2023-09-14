@@ -3,7 +3,26 @@
 [back](./page02.md)
 
 
-page03
+Create **CLASS(.h)**  
+
+```
+OldPrinter
+```
+
+```
+#include <string>
+```
+
+```
+class OldPrinter { };
+```
+
+add code
+
+```
+public:
+    void printString(const std::string& text);
+```
 
 
 [page 4](./page04.md)

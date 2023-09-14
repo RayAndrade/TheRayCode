@@ -2,6 +2,26 @@
 
 [back](./page05.md)
 
-page06
+**Document.cpp**
+
+```
+Document
+```
+
+```
+#include "Document.h"
+```
+
+```
+Document::Document(const std::vector<std::string>& lines) : lines(lines) {}
+```
+
+and ..
+```
+const std::vector<std::string>& Document::getLines() const {
+    return lines;
+}
+```
+
 
 [page 7](./page07.md)
