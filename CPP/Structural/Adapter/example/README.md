@@ -16,7 +16,7 @@ The `Adaptee` class is one that has a different interface (`SpecificRequest`) th
 
 ```cpp
 std::string SpecificRequest() const {
-    return "!!!EMOSEWA si edoC yaR ehT";
+    return "!!!EMOSEWA si edoC yaR ehT";}
 }
 ```
 
