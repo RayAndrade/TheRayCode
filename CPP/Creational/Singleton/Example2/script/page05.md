@@ -2,6 +2,8 @@
 
 [back](./page04.md)
 
-page05
+```
+std::cout << "Hello, World!" << std::endl;
+```
 
 [page 6](./page06.md)
