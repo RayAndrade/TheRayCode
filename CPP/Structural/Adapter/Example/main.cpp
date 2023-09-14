@@ -1,12 +1,14 @@
-#include <iostream>
-#include "Target.h"
-#include "Adapter.h"
+#include "OldPrinter.h"
+#include "Document.h"
+#include "PrinterAdapter.h"
 
-void Client(Target *pTarget) {
-    pTarget->Request() ;
-}
 
 int main() {
-    Adapter a ;
-    Client(&a) ;
+    OldPrinter oldPrinter;
+    Document doc({"Hello, World!", "Adapter Pattern Demo.", "Enjoy coding!"});
+
+    PrinterAdapter adapter(oldPrinter);
+    adapter.printDocument(doc);
+
+    return 0;
 }
