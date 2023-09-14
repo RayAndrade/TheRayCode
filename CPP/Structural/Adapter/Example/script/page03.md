@@ -3,7 +3,7 @@
 [back](./page02.md)
 
 
-Create **CLASS(.h)**  
+Create **header(.h)**  
 
 ```
 OldPrinter
