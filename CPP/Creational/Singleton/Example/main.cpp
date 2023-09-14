@@ -1,8 +1,9 @@
-#include "Singleton.h"
 #include <iostream>
+#include "Singleton.h"
+
 
 int main() {
-    // Get Singleton instance
+
     Singleton* s1 = Singleton::getInstance();
     Singleton* s2 = Singleton::getInstance();
 
@@ -11,5 +12,8 @@ int main() {
 
     // Demonstrate a method call
     s1->demoMethod();
+
+
+    //std::cout << "TheRayCode is AWESOME!!!" << std::endl;
     return 0;
 }

@@ -3,5 +3,5 @@ project(Example)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Example main.cpp Singleton.h Singleton.cpp
+add_executable(Example main.cpp Singleton.cpp Singleton.h
 )

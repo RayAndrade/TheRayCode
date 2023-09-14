@@ -1,5 +1,5 @@
 //
-// Created by ray on 9/12/23.
+// Created by ray on 9/13/23.
 //
 
 #ifndef EXAMPLE_SINGLETON_H
@@ -24,5 +24,6 @@ public:
     // Some business logic method
     void demoMethod();
 };
+
 
 #endif //EXAMPLE_SINGLETON_H
