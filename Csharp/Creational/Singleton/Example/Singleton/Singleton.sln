@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{B996FC6E-5552-4181-AA17-53CDAD31A510}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{BA5E1E97-D171-4D85-91BD-EF75B3E0BAB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B996FC6E-5552-4181-AA17-53CDAD31A510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B996FC6E-5552-4181-AA17-53CDAD31A510}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B996FC6E-5552-4181-AA17-53CDAD31A510}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B996FC6E-5552-4181-AA17-53CDAD31A510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA5E1E97-D171-4D85-91BD-EF75B3E0BAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA5E1E97-D171-4D85-91BD-EF75B3E0BAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA5E1E97-D171-4D85-91BD-EF75B3E0BAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA5E1E97-D171-4D85-91BD-EF75B3E0BAB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
