@@ -8,7 +8,7 @@
 |---|---|---|---|
 |  [**Singleton**](README.md) | [**C++**](../../../CPP/Creational/Singleton/README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [**PHP**](../../../PHP/Creational/Singleton/README.md) |
 
-[Example](Show/README.md)
+[Example](Example/README.md)
 
 Let's delve into the "Singleton Design Pattern" and its importance for Java programmers.
 
