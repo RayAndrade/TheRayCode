@@ -8,8 +8,7 @@
 |---|---|---|---|
 |  [**Singleton**](README.md) | [**C++**](../../../CPP/Creational/Singleton/README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [**Java**](../../../Java/Creational/Singleton/README.md) |
 
-[Example](Example/README.md)
-
+[Example](Example/README.md) [Example2](Example2/README.md)
 
 Let's delve into the "Singleton Design Pattern" and its significance for PHP programmers.
 
