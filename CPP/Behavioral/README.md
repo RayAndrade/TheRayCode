@@ -18,39 +18,92 @@
 |**[Template](./Template/README.md)**  | [C#](../../Csharp/Behavioral/Template/README.md) | [Java](../../Java/Behavioral/Template/README.md) | [PHP](../../PHP/Behavioral/Template/README.md) |
 |**[Visitor](./Visitor/README.md)**  | [C#](../../Csharp/Behavioral/Visitor/README.md) | [Java](../../Java/Behavioral/Visitor/README.md) | [PHP](../../PHP/Behavioral/Visitor/README.md) |
 
-Behavioral design patterns are focused on communication between objects, how they interact and fulfill their roles within a system. Here are the primary Behavioral design patterns:
+Behavioral Design Patterns focus on algorithms, assignments of responsibilities between objects, and the ways objects communicate. In C++, which is a multiparadigm language with a strong focus on object-oriented programming, these patterns are essential for designing object compositions and the communication between them. 
 
-1. [**Chain of Responsibility**](ChainOfResponsibility/README.md): Decouples request senders from receivers by allowing multiple objects to process the request independently or pass it along the chain.
-2. [**Command**](Command/README.md): Turns a request into a standalone object containing information about the request, making it possible to parameterize objects with different requests, delay request execution, or log them.
-3. [**Intepretor**](Intepretor/README.md): Provides a way to evaluate language grammar or expressions for particular languages.
-4. [**Iterator**](Iterator/README.md): Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
-5. [**Mediator**](Mediator/README.md): Reduces direct communication between objects by introducing a mediator, which centralizes external communications.
-6. [**Memento**](Memento/README.md): Allows for the ability to restore an object to its previous state, which can be beneficial for "undo" capabilities without exposing the essence of its structure.
-7. [**Observer**](Observer/README.md): Lets objects notify each other of changes without knowing who those objects are, promoting loose coupling.
-8. [**State**](State/README.md): Lets an object change its behavior when its state changes.
-9. [**Strategy**](Strategy/README.md): Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
-10. [**Template Method**](Template/README.md): Defines the structure of an algorithm, allowing the steps of this algorithm to be redefined by subclasses.
-11. [**Visitor**](Visitor/README.md): Lets you add further operations to objects without having to modify them.
+Here are the strengths and weaknesses of each of the 11 Behavioral Design Patterns when used in C++:
 
-**How does learning these patterns improve you as a C++ programmer?**
+1. **[Chain of Responsibility](ChainOfResponsibility/README.md)**
+    - **Strengths**:
+        - Decouples the sender from receiver objects, promoting loose coupling.
+        - Simplifies your object because it doesn't need to know the chain's structure.
+    - **Weaknesses**:
+        - Might lead to a performance hit as requests might go unhandled or go through the entire chain unnecessarily.
+        - Complexity can increase with longer chains.
 
-1. **Enhanced Design Skills**: Knowing these patterns provides you with well-established solutions to common problems, so you can avoid "reinventing the wheel." This accelerates the design phase and leads to more efficient and effective solutions.
+2. **[Command](Command/README.md**
+    - **Strengths**:
+        - Decouples classes that invoke operations from classes that perform the actual operations.
+        - Supports undo/redo operations, which can be useful in scenarios like operations in graphical editors.
+    - **Weaknesses**:
+        - Can lead to an increased number of classes, with a class for every individual command.
 
-2. **Clear Communication**: When working in a team, using a commonly known vocabulary of design patterns facilitates clear communication. For instance, saying "Let's use the Observer pattern here" is more concise than explaining the entire concept without naming the pattern.
+3. **[Interpreter](Interpreter/README.md**
+    - **Strengths**:
+        - Offers a way to include language elements in an application to match specific grammar requirements.
+        - Useful for defining operations for specialized languages (e.g., SQL, XML).
+    - **Weaknesses**:
+        - Typically requires a lot of classes, adding to complexity.
+        - For complex grammars, a parser generator might be more appropriate than hand-crafting an interpreter.
 
-3. **Optimized Solutions**: Many of these patterns, when implemented correctly, can lead to optimized solutions in terms of both speed and memory in C++, which is crucial given the language's emphasis on performance.
+4. **[Iterator](Iterator/README.md**
+    - **Strengths**:
+        - Provides a consistent way to sequentially access elements in a collection without exposing its underlying structure.
+        - In C++, the STL (Standard Template Library) heavily utilizes this pattern.
+    - **Weaknesses**:
+        - Care must be taken to manage and maintain the iterator's state, especially with concurrent modifications.
 
-4. **Maintainability**: Patterns often lead to more organized and structured code. Well-structured code is easier to understand, modify, and maintain.
+5. **[Mediator](Mediator/README.md**
+    - **Strengths**:
+        - Centralizes external communications, reducing the number of subclassing.
+        - Helps in defining how objects interact, promoting single responsibility and reducing coupling.
+    - **Weaknesses**:
+        - Can evolve into a monolithic class that's challenging to maintain if not appropriately designed.
 
-5. **Adaptability**: Behavioral patterns, in particular, focus on interactions and roles of individual objects, ensuring that systems can be more adaptable to change. As requirements evolve, systems built using these patterns can often be more easily extended or modified.
+6. **[Memento](Memento/README.md**
+    - **Strengths**:
+        - Offers a way to capture an object's internal state without violating encapsulation.
+        - Useful for providing undo functionality.
+    - **Weaknesses**:
+        - Can be expensive in terms of memory if many states need to be saved.
 
-6. **Avoidance of Anti-patterns**: Recognizing and understanding design patterns can also help you recognize and avoid anti-patterns, which are commonly recurring solutions that appear beneficial but can have negative impacts.
+7. **[Observer](Observer/README.md**
+    - **Strengths**:
+        - Allows for a dynamic relationship between objects; when one object changes state, all its dependents are updated.
+        - Promotes loose coupling as subjects and observers interact, but aren't tightly linked.
+    - **Weaknesses**:
+        - Notification overhead can impact performance.
+        - Care must be taken to prevent infinite loops or cascading updates.
 
-7. **Understanding Advanced Concepts**: As you dive deep into patterns, especially in C++, you'll encounter advanced language features, such as polymorphism, templates, and the importance of object composition. This deepens your understanding of C++ as a language.
+8. **[State](State/README.md**
+    - **Strengths**:
+        - Allows an object to change its behavior when its internal state changes.
+        - Leads to cleaner transitions and state-specific behaviors.
+    - **Weaknesses**:
+        - Can lead to an increased number of classes because each state might require a dedicated class.
 
-8. **Reusability**: Patterns can often be abstracted and reused in different parts of a software system or even across multiple projects, leading to faster development cycles.
+9. **[Strategy](Strategy/README.md**
+    - **Strengths**:
+        - Offers a way to define a family of algorithms, encapsulate them, and make them interchangeable.
+        - Promotes the open/closed principle.
+    - **Weaknesses**:
+        - Clients must be aware of the different strategies to choose one.
 
-In conclusion, learning behavioral design patterns and design patterns, in general, equips a C++ developer with a toolbox of proven solutions to common problems, making them more effective and efficient in their design and implementation phases. It enhances their ability to produce robust, scalable, and maintainable software.
+10. **[Template Method](Template/README.md**
+    - **Strengths**:
+        - Defines the program skeleton in a method in an algorithm but delays some steps to subclasses.
+        - Allows subclasses to redefine certain steps without changing the algorithm's structure.
+    - **Weaknesses**:
+        - Some clients might be forced to implement interfaces they don't use.
+
+11. **[Visitor](Visitor/README.md**
+    - **Strengths**:
+        - Allows adding further operations to objects without modifying them.
+        - Provides a mechanism to use operations across different classes.
+    - **Weaknesses**:
+        - Adding new concrete elements is hard.
+        - Can lead to violation of the open/closed principle as it requires modifying the visitor for every new class.
+
+For C++ developers, the choice of design pattern should be based on the specific problem and the design context. Properly applying behavioral patterns can lead to more maintainable, flexible, and organized code. However, unnecessary use or misuse can add complexity and potential performance issues.
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
