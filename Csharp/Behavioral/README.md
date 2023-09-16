@@ -20,7 +20,7 @@
 
 Behavioral Design Patterns emphasize the duties among objects and how they communicate. C#, as a prominent object-oriented programming language, leverages these patterns effectively. Here are the strengths and weaknesses of each of the 11 Behavioral Design Patterns within a C# context:
 
-1. **Chain of Responsibility**
+1. **[Chain of Responsibility](ChainOfResponsibility/README.md)**
     - **Strengths**:
         - Provides a way to decouple the sender from the receiver by letting multiple objects handle a request.
         - Enhances modularity as handlers can be independently added/removed.
@@ -28,14 +28,14 @@ Behavioral Design Patterns emphasize the duties among objects and how they commu
         - Handling might not be guaranteed; a request might end up unattended.
         - Overly long chains can introduce latency.
 
-2. **Command**
+2. **[Command](Command/README.md)**
     - **Strengths**:
         - Decouples the object making the request from the object executing the request.
         - Allows for command queuing, undo/redo operations.
     - **Weaknesses**:
         - Can lead to an increased number of command classes, potentially bloating the code.
 
-3. **Interpreter**
+3. **[Interpreter](Interpreter/README.md)**
     - **Strengths**:
         - Useful for interpreting domain-specific languages.
         - Allows flexibility in extending and modifying grammar or expressions.
@@ -43,28 +43,28 @@ Behavioral Design Patterns emphasize the duties among objects and how they commu
         - Introducing too many grammar rules can lead to a cumbersome design.
         - Other parsing techniques or tools might be more efficient for complex cases.
 
-4. **Iterator**
+4. **[Iterator](Iterator/README.md)**
     - **Strengths**:
         - Provides a standardized way to traverse a collection without exposing its underlying representation.
         - C# supports this pattern natively with `IEnumerable` and `IEnumerator`.
     - **Weaknesses**:
         - Modifying a collection while iterating through it can introduce issues, which is why C# collections often throw an exception if modified during iteration.
 
-5. **Mediator**
+5. **[Mediator](Mediator/README.md)**
     - **Strengths**:
         - Reduces the coupling between classes by centralizing external communications.
         - Simplifies maintenance by keeping relationships between objects in one place.
     - **Weaknesses**:
         - The mediator class can become overly complex and a maintenance headache.
 
-6. **Memento**
+6. **[Memento](Memento/README.md)**
     - **Strengths**:
         - Enables capturing and restoring an object's internal state without violating encapsulation.
         - Supports undo functionalities in applications.
     - **Weaknesses**:
         - Can consume a significant amount of memory if many states are saved.
 
-7. **Observer**
+7. **[Observer](Observer/README.md)**
     - **Strengths**:
         - Establishes a subscription mechanism to notify multiple objects about any events happening to the object they’re observing.
         - C# has native support through events and delegates.
@@ -72,28 +72,28 @@ Behavioral Design Patterns emphasize the duties among objects and how they commu
         - Overuse can lead to unforeseen complexities and unintended side-effects.
         - Can be challenging to ensure the order of notification for observers.
 
-8. **State**
+8. **[State](State/README.md)**
     - **Strengths**:
         - Enables an object to change its behavior when its state changes.
         - Organizes state-specific logic more cleanly.
     - **Weaknesses**:
         - Can increase the number of classes since each state may require its own class.
 
-9. **Strategy**
+9. **[Strategy](Strategy/README.md)**
     - **Strengths**:
         - Defines a set of algorithms and makes them interchangeable, allowing the algorithm's variation independently from the client.
         - Encourages the use of composition over inheritance.
     - **Weaknesses**:
         - Clients need to be aware of the strategies and their differences.
 
-10. **Template Method**
+10. **[Template Method](Template/README.md)**
     - **Strengths**:
         - Defines the structure of an algorithm, allowing the implementation of individual steps to be changed by subclasses.
         - Promotes code reuse.
     - **Weaknesses**:
         - Can be restrictive and might lead to tight coupling between base and derived classes.
 
-11. **Visitor**
+11. **[Visitor](Visitor/README.md)**
     - **Strengths**:
         - Enables adding new operations to classes without modifying them.
         - Allows gathering related operations into a single class, separating them from data structures.
