@@ -18,23 +18,90 @@
 |**[Template](./Template/README.md)**  | [C++](../../CPP/Behavioral/Template/README.md) | [Java](../../Java/Behavioral/Template/README.md) | [PHP](../../PHP/Behavioral/Template/README.md) |
 |**[Visitor](./Visitor/README.md)**  | [C++](../../CPP/Behavioral/Visitor/README.md) | [Java](../../Java/Behavioral/Visitor/README.md) | [PHP](../../PHP/Behavioral/Visitor/README.md) |
 
-Structural design patterns are design patterns that are concerned with how classes and objects are composed to form larger structures. They help to simplify the structure of code by reducing the complexity of object interactions. As a junior C# programmer, you should be familiar with the following structural design patterns:
+Behavioral Design Patterns emphasize the duties among objects and how they communicate. C#, as a prominent object-oriented programming language, leverages these patterns effectively. Here are the strengths and weaknesses of each of the 11 Behavioral Design Patterns within a C# context:
 
-1. [Adapter](./Adapter/README.md) Pattern: This pattern allows objects with incompatible interfaces to work together by creating an intermediary adapter object that converts the interface of one object so that it can be used by another. In C#, this can be achieved through interface implementation and inheritance.
+1. **Chain of Responsibility**
+    - **Strengths**:
+        - Provides a way to decouple the sender from the receiver by letting multiple objects handle a request.
+        - Enhances modularity as handlers can be independently added/removed.
+    - **Weaknesses**:
+        - Handling might not be guaranteed; a request might end up unattended.
+        - Overly long chains can introduce latency.
 
-2. [Bridge](./Bridge/README.md) Pattern: This pattern decouples an abstraction from its implementation so that the two can vary independently. This allows for more flexible and extensible designs. In C#, this can be achieved through abstract classes and interfaces.
+2. **Command**
+    - **Strengths**:
+        - Decouples the object making the request from the object executing the request.
+        - Allows for command queuing, undo/redo operations.
+    - **Weaknesses**:
+        - Can lead to an increased number of command classes, potentially bloating the code.
 
-3. [Composite](./Composite/README.md) Pattern: This pattern allows you to treat a group of objects as a single object by creating a tree-like structure of objects. This makes it easy to add and remove objects from the structure. In C#, this can be achieved through inheritance and interfaces.
+3. **Interpreter**
+    - **Strengths**:
+        - Useful for interpreting domain-specific languages.
+        - Allows flexibility in extending and modifying grammar or expressions.
+    - **Weaknesses**:
+        - Introducing too many grammar rules can lead to a cumbersome design.
+        - Other parsing techniques or tools might be more efficient for complex cases.
 
-4. [Decorator](./Decorator/README.md) Pattern: This pattern allows you to add behavior to an individual object, without affecting other objects in the same class. This is useful when you want to add new functionality to an existing class. In C#, this can be achieved through inheritance and interfaces.
+4. **Iterator**
+    - **Strengths**:
+        - Provides a standardized way to traverse a collection without exposing its underlying representation.
+        - C# supports this pattern natively with `IEnumerable` and `IEnumerator`.
+    - **Weaknesses**:
+        - Modifying a collection while iterating through it can introduce issues, which is why C# collections often throw an exception if modified during iteration.
 
-5. [Facade](./Facade/README.md) Pattern: This pattern provides a simplified interface to a complex system. It encapsulates a group of classes and provides a simple interface to access their functionality. In C#, this can be achieved through classes and methods.
+5. **Mediator**
+    - **Strengths**:
+        - Reduces the coupling between classes by centralizing external communications.
+        - Simplifies maintenance by keeping relationships between objects in one place.
+    - **Weaknesses**:
+        - The mediator class can become overly complex and a maintenance headache.
 
-6. [Flyweight](./Flyweight/README.md) Pattern: This pattern reduces the memory footprint of a large number of similar objects by sharing common data among them. In C#, this can be achieved through object pooling and caching.
+6. **Memento**
+    - **Strengths**:
+        - Enables capturing and restoring an object's internal state without violating encapsulation.
+        - Supports undo functionalities in applications.
+    - **Weaknesses**:
+        - Can consume a significant amount of memory if many states are saved.
 
-7. [Proxy](./Proxy/README.md) Pattern: This pattern provides a placeholder for an object to control access to it. It can be used to implement security checks, caching, or other types of optimizations. In C#, this can be achieved through interfaces and classes.
+7. **Observer**
+    - **Strengths**:
+        - Establishes a subscription mechanism to notify multiple objects about any events happening to the object they’re observing.
+        - C# has native support through events and delegates.
+    - **Weaknesses**:
+        - Overuse can lead to unforeseen complexities and unintended side-effects.
+        - Can be challenging to ensure the order of notification for observers.
 
-Understanding these design patterns can help you write more efficient and maintainable code in C#. You can start by reading about each pattern and understanding its purpose, advantages, and limitations. Additionally, there are many open-source projects that make use of these design patterns, so studying these projects can provide practical examples of how to implement these patterns in real-world scenarios.
+8. **State**
+    - **Strengths**:
+        - Enables an object to change its behavior when its state changes.
+        - Organizes state-specific logic more cleanly.
+    - **Weaknesses**:
+        - Can increase the number of classes since each state may require its own class.
+
+9. **Strategy**
+    - **Strengths**:
+        - Defines a set of algorithms and makes them interchangeable, allowing the algorithm's variation independently from the client.
+        - Encourages the use of composition over inheritance.
+    - **Weaknesses**:
+        - Clients need to be aware of the strategies and their differences.
+
+10. **Template Method**
+    - **Strengths**:
+        - Defines the structure of an algorithm, allowing the implementation of individual steps to be changed by subclasses.
+        - Promotes code reuse.
+    - **Weaknesses**:
+        - Can be restrictive and might lead to tight coupling between base and derived classes.
+
+11. **Visitor**
+    - **Strengths**:
+        - Enables adding new operations to classes without modifying them.
+        - Allows gathering related operations into a single class, separating them from data structures.
+    - **Weaknesses**:
+        - If there are changes in the elements' classes, the visitor interfaces might need modification, violating the open/closed principle.
+        - Can lead to accumulation of unrelated behaviors in a single visitor class.
+
+Using Behavioral Design Patterns wisely in C# can lead to organized, maintainable, and efficient code. However, they should be employed judiciously, considering the specific requirements and context of the application.
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
