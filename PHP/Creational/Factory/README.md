@@ -8,7 +8,7 @@
 |---|---|---|---|
 | [**Factory**](README.md) | [C++](../../../CPP/Creational/Factory/README.md) | [**C#**](../../../Csharp/Creational/Factory/README.md) | [Java](../../../Java/Creational/Factory/README.md) |
 
-[Example](Show/README.md)
+[Example](Example/README.md)
 
 The Factory Design Pattern is a creational design pattern that provides an interface for creating objects in a superordinate class, while allowing subclasses to alter the type of objects that will be created. It centralizes object creation and encapsulates the instantiation process, promoting flexibility, reusability, and separation of concerns.
 
