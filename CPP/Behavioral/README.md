@@ -30,14 +30,14 @@ Here are the strengths and weaknesses of each of the 11 Behavioral Design Patter
         - Might lead to a performance hit as requests might go unhandled or go through the entire chain unnecessarily.
         - Complexity can increase with longer chains.
 
-2. **[Command](Command/README.md**
+2. **[Command](Command/README.md)**
     - **Strengths**:
         - Decouples classes that invoke operations from classes that perform the actual operations.
         - Supports undo/redo operations, which can be useful in scenarios like operations in graphical editors.
     - **Weaknesses**:
         - Can lead to an increased number of classes, with a class for every individual command.
 
-3. **[Interpreter](Interpreter/README.md**
+3. **[Interpreter](Interpreter/README.md)**
     - **Strengths**:
         - Offers a way to include language elements in an application to match specific grammar requirements.
         - Useful for defining operations for specialized languages (e.g., SQL, XML).
@@ -45,28 +45,28 @@ Here are the strengths and weaknesses of each of the 11 Behavioral Design Patter
         - Typically requires a lot of classes, adding to complexity.
         - For complex grammars, a parser generator might be more appropriate than hand-crafting an interpreter.
 
-4. **[Iterator](Iterator/README.md**
+4. **[Iterator](Iterator/README.md)**
     - **Strengths**:
         - Provides a consistent way to sequentially access elements in a collection without exposing its underlying structure.
         - In C++, the STL (Standard Template Library) heavily utilizes this pattern.
     - **Weaknesses**:
         - Care must be taken to manage and maintain the iterator's state, especially with concurrent modifications.
 
-5. **[Mediator](Mediator/README.md**
+5. **[Mediator](Mediator/README.md)**
     - **Strengths**:
         - Centralizes external communications, reducing the number of subclassing.
         - Helps in defining how objects interact, promoting single responsibility and reducing coupling.
     - **Weaknesses**:
         - Can evolve into a monolithic class that's challenging to maintain if not appropriately designed.
 
-6. **[Memento](Memento/README.md**
+6. **[Memento](Memento/README.md)**
     - **Strengths**:
         - Offers a way to capture an object's internal state without violating encapsulation.
         - Useful for providing undo functionality.
     - **Weaknesses**:
         - Can be expensive in terms of memory if many states need to be saved.
 
-7. **[Observer](Observer/README.md**
+7. **[Observer](Observer/README.md)**
     - **Strengths**:
         - Allows for a dynamic relationship between objects; when one object changes state, all its dependents are updated.
         - Promotes loose coupling as subjects and observers interact, but aren't tightly linked.
@@ -74,28 +74,28 @@ Here are the strengths and weaknesses of each of the 11 Behavioral Design Patter
         - Notification overhead can impact performance.
         - Care must be taken to prevent infinite loops or cascading updates.
 
-8. **[State](State/README.md**
+8. **[State](State/README.md)**
     - **Strengths**:
         - Allows an object to change its behavior when its internal state changes.
         - Leads to cleaner transitions and state-specific behaviors.
     - **Weaknesses**:
         - Can lead to an increased number of classes because each state might require a dedicated class.
 
-9. **[Strategy](Strategy/README.md**
+9. **[Strategy](Strategy/README.md)**
     - **Strengths**:
         - Offers a way to define a family of algorithms, encapsulate them, and make them interchangeable.
         - Promotes the open/closed principle.
     - **Weaknesses**:
         - Clients must be aware of the different strategies to choose one.
 
-10. **[Template Method](Template/README.md**
+10. **[Template Method](Template/README.md)**
     - **Strengths**:
         - Defines the program skeleton in a method in an algorithm but delays some steps to subclasses.
         - Allows subclasses to redefine certain steps without changing the algorithm's structure.
     - **Weaknesses**:
         - Some clients might be forced to implement interfaces they don't use.
 
-11. **[Visitor](Visitor/README.md**
+11. **[Visitor](Visitor/README.md)**
     - **Strengths**:
         - Allows adding further operations to objects without modifying them.
         - Provides a mechanism to use operations across different classes.
