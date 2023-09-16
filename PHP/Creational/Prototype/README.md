@@ -8,7 +8,7 @@
 |---|---|---|---|
 |  [**Prototype**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [**Java**](../../../Java/Creational/Prototype/README.md) |
 
-[Example](Show/README.md)
+[Example](Example/README.md) [Deep](Deep/README.md) [Shallow](Shallow/README.md)
 
 Let's delve into the "Prototype Design Pattern" and its pertinence for PHP programmers.
 
