@@ -2,6 +2,8 @@
 
 **[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
+[top](../README.md)
+
 **PHP Mediator Design Pattern**
 
 |Pattern|   |   |   |
