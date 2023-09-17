@@ -2,6 +2,8 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
+[top](../README.md)
+
 **C++ Prototype Design Pattern**
 
 |Example in C++|   |   |   |
