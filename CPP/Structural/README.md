@@ -69,7 +69,7 @@ Structural Design Patterns focus on simplifying the structure by identifying the
         - Increases complexity due to the division between intrinsic and extrinsic states.
         - Requires careful management of shared and non-shared states.
 
-7. **[Proxy Pattern(Proxy/README.md)]**
+7. **[Proxy Pattern](Proxy/README.md)**
     - **Strengths**: 
         - Provides a placeholder for an object to control access to it.
         - Can add a level of abstraction for object creation, memory management, or other operations.
