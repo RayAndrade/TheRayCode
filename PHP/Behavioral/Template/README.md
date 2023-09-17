@@ -4,13 +4,13 @@
 
 **[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
-**PHP Visitor Design Pattern**
+**PHP Template Design Pattern**
 
 |Pattern|   |   |   |
 |---|---|---|---|
-| [**Visitor**](README.md) | [C++](../../../CPP/Behavioral/Visitor/README.md) | [C#](../../../Csharp/Behavioral/Visitor/README.md) | [Java](../../../Java/Behavioral/Visitor/README.md) |
+| [**Template**](README.md) | [C++](../../../CPP/Behavioral/Template/README.md) | [C#](../../../Csharp/Behavioral/Template/README.md) | [Java](../../../Java/Behavioral/Template/README.md) |
 
-[Example](V1/README.md)
+[Example](T1/README.md)
 
 The Visitor Design Pattern is a behavioral design pattern that allows for adding new operations or functionalities to existing classes without modifying them. Essentially, it's a way to separate algorithms from the objects on which they operate. In this pattern, the logic of operations is encapsulated within "visitor" classes, while the objects or elements that need these operations simply "accept" the visitor to execute these functions.
 
