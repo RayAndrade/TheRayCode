@@ -2,6 +2,8 @@
 
 **[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](..//README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
+[top](../README.md)
+
 **C++ Bridge Design Pattern**
 
 |Pattern|   |   |   |
