@@ -56,7 +56,7 @@ Structural Design Patterns help developers set up relationships between classes 
         - Hides the complexities of the subsystem, which might lead to misuse or misunderstanding.
         - Potential for creating monolithic structures which can become bottlenecks.
 
-6. **[Flyweight Pattern(Flyweight/README.md)]**
+6. **[Flyweight Pattern](Flyweight/README.md)]**
     - **Strengths**: 
         - Reduces memory overhead when dealing with a large number of similar objects.
         - Can be beneficial in applications where performance optimization is critical.
