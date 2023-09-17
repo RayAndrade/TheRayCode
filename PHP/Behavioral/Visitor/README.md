@@ -2,25 +2,13 @@
 
 [top](../README.md)
 
-**Visitior**
+**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
-**[PHP](../README.md)** 
+**PHP Visitor Design Pattern**
 
-**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
-
-**PHP Behavioral Patterns**
-
-* **[ChainOfResponsibility](../ChainOfResponsibility/README.md)**
-* **[Iterator](../Iterator/README.md)**
-* **[Mediator](../Mediator/README.md)**
-* **[Memento](../Memento/README.md)**
-* **[Observer](../Observer/README.md)**
-* **[State](../State/README.md)**
-* **[Strategy](../Strategy/README.md)**
-* **[Template](../Template/README.md)**
-* **[Visitor](./README.md)**
-
-**PHP Visitior Design Pattern**
+|Pattern|   |   |   |
+|---|---|---|---|
+| [**Visitor**](README.md) | [C++](../../../CPP/Behavioral/Visitor/README.md) | [C#](../../../Csharp/Behavioral/Visitor/README.md) | [Java](../../../Java/Behavioral/Visitor/README.md) |
 
 [Example 1](./V1/README.md)
 
@@ -28,4 +16,4 @@
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
