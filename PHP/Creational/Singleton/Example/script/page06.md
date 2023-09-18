@@ -2,6 +2,10 @@
 
 [back](./page05.md)
 
-page06
+when you veiw this ing the browser you get
 
+```
+Both instances are the same!
+Using the Singleton instance within SomeClass!
+```
 [page 7](./page07.md)
