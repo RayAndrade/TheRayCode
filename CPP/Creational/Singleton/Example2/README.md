@@ -1,3 +1,4 @@
+[script](script/page01.md)
 
 ### 1. OnlyOne Class:
 
