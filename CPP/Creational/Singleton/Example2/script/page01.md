@@ -1,4 +1,4 @@
-[home](./page01.md) [up](../README.md)
+[home](./page01.md) [up](../../README.md)
 
 ### 1. OnlyOne Class:
 
