@@ -1,3 +1,5 @@
+[up](../README.md)
+
 Let's implement a Singleton pattern in C#. This pattern ensures a class has only one instance and provides a global point of access to it.
 
 ### Structure:
