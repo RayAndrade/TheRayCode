@@ -1,3 +1,5 @@
+[back](../README.md)
+
 Alright! The Singleton design pattern is a pattern that restricts a class from instantiating multiple objects. Instead, it ensures a class has only one instance and provides a global point to this instance.
 
 Let's implement the Singleton pattern in PHP, splitting the code across several files.
