@@ -4,4 +4,8 @@
 
 END
 
+```
+echo "TheRayCode is AWESOME!!!";
+```
+
 [start over](./page01.md)
