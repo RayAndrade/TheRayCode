@@ -1,4 +1,4 @@
-[script](script/page01.md)
+[script](script/page01.md) [up](../README.md)
 
 ### 1. OnlyOne Class:
 
