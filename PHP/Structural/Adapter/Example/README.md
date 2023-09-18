@@ -1,4 +1,4 @@
-
+[script](script/page01,md)
 
 ### `Target.php`
 - **Interface `Target`:** This represents the interface that the client expects or needs. In the context of the Adapter Pattern, it defines the domain-specific interface that the system (or client) is expecting.
