@@ -1,146 +1,135 @@
-Certainly! The Visitor design pattern is particularly useful when you need to add new operations to existing classes without modifying them. This allows you to separate a set of operations from the objects upon which they operate. 
+Sure, let's create an example of the Visitor design pattern using the example of a document with two types of elements: text elements and image elements. We'll create a visitor that can "render" these elements in different ways.
 
-Let's design a simple example where we have two types of geometric shapes: Circle and Rectangle. We want to implement two operations on these shapes: draw and calculate the area.
+**Order of class creation**:
+1. `Element` (the base element that others will extend)
+2. `TextElement` (a type of element)
+3. `ImageElement` (another type of element)
+4. `Visitor` (the base visitor class)
+5. `RenderVisitor` (a specific type of visitor to render the elements)
 
-1. **Step 1: Create the Visitor interface**
-   - **File**: `Visitor.h`
-
+**1. Element.h**
 ```cpp
-// Visitor.h
-#ifndef VISITOR_H
-#define VISITOR_H
-
-class Circle;
-class Rectangle;
-
-class Visitor {
-public:
-    virtual void visit(Circle& circle) = 0;
-    virtual void visit(Rectangle& rectangle) = 0;
-};
-
-#endif
-```
-
-2. **Step 2: Create the Element interface and concrete elements**
-   - **File**: `Element.h`
- 
-```cpp
-// Element.h
 #ifndef ELEMENT_H
 #define ELEMENT_H
 
-#include "Visitor.h"
+class Visitor;  // Forward declaration
 
 class Element {
 public:
-    virtual void accept(Visitor& visitor) = 0;
+    virtual ~Element() = default;
+    virtual void accept(Visitor& visitor) = 0;  // Accept a visitor
 };
 
-class Circle : public Element {
-public:
-    Circle(double r) : radius(r) {}
-    void accept(Visitor& visitor) override {
-        visitor.visit(*this);
-    }
-    double getRadius() const {
-        return radius;
-    }
-private:
-    double radius;
-};
-
-class Rectangle : public Element {
-public:
-    Rectangle(double w, double h) : width(w), height(h) {}
-    void accept(Visitor& visitor) override {
-        visitor.visit(*this);
-    }
-    double getWidth() const {
-        return width;
-    }
-    double getHeight() const {
-        return height;
-    }
-private:
-    double width;
-    double height;
-};
-
-#endif
+#endif // ELEMENT_H
 ```
 
-3. **Step 3: Create concrete visitors for our operations**
-   
-   - **File**: `ConcreteVisitors.h`
- 
+**2. TextElement.h**
 ```cpp
-// ConcreteVisitors.h
-#ifndef CONCRETE_VISITORS_H
-#define CONCRETE_VISITORS_H
+#ifndef TEXTELEMENT_H
+#define TEXTELEMENT_H
 
-#include <iostream>
-#include <cmath>
+#include "Element.h"
+
+class TextElement : public Element {
+public:
+    TextElement(const std::string& text) : _text(text) {}
+    void accept(Visitor& visitor) override;
+
+    const std::string& getText() const { return _text; }
+
+private:
+    std::string _text;
+};
+
+#endif // TEXTELEMENT_H
+```
+
+**3. ImageElement.h**
+```cpp
+#ifndef IMAGEELEMENT_H
+#define IMAGEELEMENT_H
+
+#include "Element.h"
+
+class ImageElement : public Element {
+public:
+    ImageElement(const std::string& filename) : _filename(filename) {}
+    void accept(Visitor& visitor) override;
+
+    const std::string& getFilename() const { return _filename; }
+
+private:
+    std::string _filename;
+};
+
+#endif // IMAGEELEMENT_H
+```
+
+**4. Visitor.h**
+```cpp
+#ifndef VISITOR_H
+#define VISITOR_H
+
+class TextElement;   // Forward declaration
+class ImageElement;  // Forward declaration
+
+class Visitor {
+public:
+    virtual ~Visitor() = default;
+
+    virtual void visitTextElement(TextElement& element) = 0;
+    virtual void visitImageElement(ImageElement& element) = 0;
+};
+
+#endif // VISITOR_H
+```
+
+**5. RenderVisitor.h**
+```cpp
+#ifndef RENDERVISITOR_H
+#define RENDERVISITOR_H
+
 #include "Visitor.h"
-#include "Element.h"
+#include "TextElement.h"
+#include "ImageElement.h"
+#include <iostream>
 
-class DrawVisitor : public Visitor {
+class RenderVisitor : public Visitor {
 public:
-    void visit(Circle& circle) override {
-        std::cout << "Drawing a circle with radius " << circle.getRadius() << std::endl;
+    void visitTextElement(TextElement& element) override {
+        std::cout << "Rendering text: " << element.getText() << std::endl;
     }
-    void visit(Rectangle& rectangle) override {
-        std::cout << "Drawing a rectangle with width " << rectangle.getWidth() 
-                  << " and height " << rectangle.getHeight() << std::endl;
+
+    void visitImageElement(ImageElement& element) override {
+        std::cout << "Rendering image from: " << element.getFilename() << std::endl;
     }
 };
 
-class AreaVisitor : public Visitor {
-public:
-    void visit(Circle& circle) override {
-        std::cout << "Area of circle: " << 3.14 * circle.getRadius() * circle.getRadius() << std::endl;
-    }
-    void visit(Rectangle& rectangle) override {
-        std::cout << "Area of rectangle: " << rectangle.getWidth() * rectangle.getHeight() << std::endl;
-    }
-};
-
-#endif
+#endif // RENDERVISITOR_H
 ```
 
-4. **Step 4: Demonstrating the pattern**
-   - **File**: `main.cpp`
- 
+**main.cpp**
 ```cpp
-// main.cpp
-#include "Element.h"
-#include "ConcreteVisitors.h"
+#include "TextElement.h"
+#include "ImageElement.h"
+#include "RenderVisitor.h"
 
 int main() {
-    Circle circle(5);
-    Rectangle rectangle(10, 6);
+    TextElement text("Hello, world!");
+    ImageElement image("landscape.jpg");
 
-    DrawVisitor drawVisitor;
-    AreaVisitor areaVisitor;
+    RenderVisitor renderer;
 
-    circle.accept(drawVisitor);
-    rectangle.accept(drawVisitor);
-
-    circle.accept(areaVisitor);
-    rectangle.accept(areaVisitor);
+    text.accept(renderer);
+    image.accept(renderer);
 
     return 0;
 }
 ```
 
-**Explanation:**
+The design works as follows:
+- There are different "elements" (`TextElement`, `ImageElement`).
+- These elements can accept a "visitor" that can perform operations on them.
+- The `RenderVisitor` is a specific type of visitor that knows how to "render" each type of element. 
 
-- `Visitor`: This is an interface for all visitors. Any new operation to be implemented will have its visitor class derived from this.
-
-- `Element`: This is an interface for all elements. Every concrete element like Circle or Rectangle is derived from this. The 'accept' method is used to accept a visitor.
-
-- `ConcreteVisitors`: Here, we've two visitors; one for drawing and the other for calculating the area.
-
-- `main.cpp`: Demonstrates how to use visitors. Each shape accepts the visitor which in turn invokes the correct method for the shape.
-
-When you run `main.cpp`, you'll see the draw operations being executed first, followed by the area calculations.
+This design allows you to add more operations (by adding more visitors) without modifying the element classes. Similarly, you can add more element types without modifying the existing visitors.
