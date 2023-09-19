@@ -1,6 +1,9 @@
+//
+// Created by ray on 9/18/23.
+//
 
-#ifndef VISITOR_COMPONENT_H
-#define VISITOR_COMPONENT_H
+#ifndef EXAMPLE_COMPONENT_H
+#define EXAMPLE_COMPONENT_H
 
 #include "Visitor.h"
 
@@ -10,5 +13,4 @@ public:
     virtual void Accept(Visitor *visitor) const = 0;
 };
 
-
-#endif //VISITOR_COMPONENT_H
+#endif //EXAMPLE_COMPONENT_H

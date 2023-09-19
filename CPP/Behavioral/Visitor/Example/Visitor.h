@@ -1,5 +1,9 @@
-#ifndef VISITOR_VISITOR_H
-#define VISITOR_VISITOR_H
+//
+// Created by ray on 9/18/23.
+//
+
+#ifndef EXAMPLE_VISITOR_H
+#define EXAMPLE_VISITOR_H
 
 class ComponentA;
 class ComponentB;
@@ -10,5 +14,4 @@ public:
     virtual void VisitConcreteComponentB(const ComponentB *element) const = 0;
 };
 
-
-#endif //VISITOR_VISITOR_H
+#endif //EXAMPLE_VISITOR_H

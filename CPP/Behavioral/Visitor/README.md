@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Visitor**](README.md) | [C#](../../../Csharp/Behavioral/Visitor/README.md) | [Java](../../../Java/Behavioral/Visitor/README.md) | [PHP](../../../PHP/Behavioral/Visitor/README.md) |
 
-[Example](V1/README.md)
+[Example](Example/README.md)
 
 **Visitor** is a behavioral design pattern that lets you add further operations to objects without having to modify them. It separates an algorithm from the object structure it operates on, allowing the addition of new operations without altering the structure.
 
