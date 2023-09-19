@@ -1,3 +1,12 @@
+This code demonstrates the use of the **Visitor** design pattern. 
+This design pattern allows for adding new operations to an object structure without modifying the objects themselves.
+
+Here's an outline of what's happening in the code:
+
+1. **Abstract Classes**:
+    - `Visitor`: An abstract class that declares visiting operations for all types of visitable elements. In this case, it declares two virtual functions to handle the `ComponentA` and `ComponentB` objects.
+
+
 **Visitor.h**
 
 ```
@@ -11,7 +20,6 @@ public:
 };
 ```
 
-
 **Component.h**
 
 ```
@@ -23,6 +31,11 @@ public:
     virtual void Accept(Visitor *visitor) const = 0;
 };
 ```
+
+
+2. **Concrete Components**:
+    - `ComponentA` and `ComponentB`: These classes inherit from the `Component` class. They implement the `Accept` method which lets the visitor know the concrete type of the component. Both of these components have special methods that are unique to them (`ExclusiveMethodOfConcreteComponentA` and `SpecialMethodOfConcreteComponentB`).
+
 **ComponentA.h**
 
 ```
@@ -73,6 +86,12 @@ public:
 };
 ```
 
+
+
+3. **Concrete Visitors**:
+    - `Visitor1` and `Visitor2`: These classes implement the `Visitor` interface. They provide concrete implementations for the visit methods (`VisitConcreteComponentA` and `VisitConcreteComponentB`). When a `ComponentA` or `ComponentB` object is visited by these visitors, a specific message is printed to the console, indicating which component and which visitor was involved.
+
+
 **Visitor1.h**
 
 ```
@@ -109,6 +128,12 @@ public:
     }
 };
 ```
+xxxx
+
+
+4. **Client Code**:
+    - The `ClientCode` function receives an array of `Component` objects and a visitor. It then makes each component accept the visitor.
+    - The `main` function showcases how the client code can work with different visitors while using the same object structure.
 
 **main.cpp**
 
@@ -150,6 +175,28 @@ int main() {
     return 0;
 }
 ```
+
+In the `main` function:
+- Two concrete components (`ComponentA` and `ComponentB`) are created and stored in an array.
+- A message is printed, indicating that the client code works with all visitors via the base Visitor interface.
+- An instance of `Visitor1` is created and passed to the `ClientCode` function, making both components accept this visitor and print corresponding messages.
+- A separator is printed.
+- Another message is printed, indicating that the same client code can work with different types of visitors.
+- An instance of `Visitor2` is created and passed to the `ClientCode` function, making both components accept this second visitor and print corresponding messages.
+- Finally, all dynamically allocated memory is released using `delete`.
+
+The output of this code would be:
+```
+The client code works with all visitors via the base Visitor interface:
+A + Visitor1
+B + Visitor1
+
+It allows the same client code to work with different types of visitors:
+A + Visitor2
+B + Visitor2
+```
+
+In essence, the Visitor pattern allows you to extend the functionality of an object structure without changing the objects themselves. In this code, the structure of the components doesn't change, but two different visitors (`Visitor1` and `Visitor2`) perform different operations on them.
 
 
 
