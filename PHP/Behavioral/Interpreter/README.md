@@ -10,6 +10,8 @@
 |---|---|---|---|
 | [**Intepretor**](README.md) | [C++](../../../CPP/Behavioral/Intepretor/README.md) | [C#](../../../Csharp/Behavioral/Intepretor/README.md) | [Java](../../../Java/Behavioral/Intepretor/README.md) |
 
+[Example](Example/README.md) [Example2](Example2/README.md)
+
 The Interpreter Design Pattern is aimed at representing and interpreting a language's grammar. It involves defining expressions for each grammar rule and then creating an interpreter to process these expressions. By breaking down the grammar rules and encapsulating them within distinct expressions, this pattern allows structured text or data to be effectively transformed into a usable programmatic format.
 
 **Why PHP Programmers Should Study It**:
