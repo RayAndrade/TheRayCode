@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Template**](README.md) | [C#](../../../Csharp/Behavioral/Template/README.md) | [Java](../../../Java/Behavioral/Template/README.md) | [PHP](../../../PHP/Behavioral/Template/README.md) |
 
-[Example](T1/README.md)
+[Example](Example/README.md)
 
 **Template Method** is a behavioral design pattern that defines the program skeleton of an algorithm in a method in an algorithmic class, but delays some steps to subclasses. This pattern allows subclasses to redefine certain steps of an algorithm without changing the algorithm's overall structure.
 
