@@ -40,6 +40,12 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="ActionExpression.cs" />
+        <Compile Include="AnimalExpression.cs" />
+        <Compile Include="CommandExpression.cs" />
+        <Compile Include="Context.cs" />
+        <Compile Include="ExpressionParser.cs" />
+        <Compile Include="IExpression.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>

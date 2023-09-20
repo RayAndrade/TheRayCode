@@ -130,3 +130,9 @@ class Program
 ```
 
 In this example, we're interpreting commands made of two words: the animal and the action. The `ExpressionParser` will construct an expression tree from these commands, which is then interpreted to generate the output.
+
+
+```
+cat sleep
+```
+
