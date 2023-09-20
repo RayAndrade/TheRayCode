@@ -1,4 +1,4 @@
-[top](../README,md)
+[top](../README.md)
 
 Certainly! Let's build a simple implementation of the Template Design Pattern in C++.
 
