@@ -104,3 +104,10 @@ public class Demo {
 - `AddExpression` and `SubtractExpression` are non-terminal expressions. They contain two expressions and when `interpret` is called, they perform their respective operations on the results of the `interpret` calls of their contained expressions.
 
 - `Demo` constructs an expression tree and then evaluates it using the `interpret` method. In a real-world scenario, you'd probably have a parser that converts a string representation of an expression into this tree.
+
+
+run code:
+```
+Result of 5 + 3: 8
+Result of 5 - 3: 2
+```
