@@ -1,3 +1,5 @@
+[top](../README,md)
+
 Certainly! Let's build a simple implementation of the Template Design Pattern in C++.
 
 The Template Pattern defines the program skeleton of an algorithm in a method in an algorithm, but delays some steps to subclasses. This allows subclasses to redefine certain steps of an algorithm without changing the algorithm's structure.
