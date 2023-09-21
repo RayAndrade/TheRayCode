@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Memento**](README.md) | [C++](../../../CPP/Behavioral/Memento/README.md) | [Java](../../../Java/Behavioral/Memento/README.md) | [PHP](../../../PHP/Behavioral/Memento/README.md) |
 
-[Example](MO1/README.md)
+[Example](Example/README.md) [Example2](Example2/README.md)
 
 The Memento Design Pattern provides a mechanism to capture an object's internal state so that the object can be restored to that state at a later time. This pattern involves three primary roles: the Originator (the object whose state needs to be saved), the Memento (the object that stores the state of the Originator), and the Caretaker (the object that keeps track of the various states over time).
 
