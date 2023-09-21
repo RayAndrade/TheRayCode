@@ -1,32 +1,23 @@
 #include <iostream>
-#include <string>
-#include "Originator.h"
-#include "Caretaker.h"
-
-
-void ClientCode() {
-    Originator *originator = new Originator("Super-duper-super-puper-super.");
-    Caretaker *caretaker = new Caretaker(originator);
-    caretaker->Backup();
-    originator->DoSomething();
-    caretaker->Backup();
-    originator->DoSomething();
-    caretaker->Backup();
-    originator->DoSomething();
-    std::cout << "\n";
-    caretaker->ShowHistory();
-    std::cout << "\nClient: Now, let's rollback!\n\n";
-    caretaker->Undo();
-    std::cout << "\nClient: Once more!\n\n";
-    caretaker->Undo();
-
-    delete originator;
-    delete caretaker;
-}
+#include "EnchantedBook.h"
+#include "StoryKeeper.h"
 
 int main() {
-    std::srand(static_cast<unsigned int>(std::time(NULL)));
-    ClientCode();
-    std::cout << "The Ray Code is AWESOME!!!" << std::endl;
+    EnchantedBook magicBook;
+    StoryKeeper loreMaster;
+
+    magicBook.tellTale("Once upon a time, in a faraway kingdom...");
+    loreMaster.logTale(magicBook.saveTale());
+
+    magicBook.tellTale("In a dense, mystical forest, there lived a wise old owl...");
+    loreMaster.logTale(magicBook.saveTale());
+
+    magicBook.tellTale("Deep in the mountains, a dragon slept for a thousand years...");
+    loreMaster.logTale(magicBook.saveTale());
+
+    // Recalling tales
+    magicBook.recallTale(loreMaster.getTale(1)); // Should recall the owl story
+    magicBook.recallTale(loreMaster.getTale(0)); // Should recall the kingdom story
+
     return 0;
 }

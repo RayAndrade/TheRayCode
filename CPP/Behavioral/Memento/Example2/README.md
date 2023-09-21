@@ -1,226 +1,137 @@
-# TheRayCode
-## Memento pattern c++
+Alright, let's make this a bit more whimsical!
 
-Memento is a behavioral design pattern that allows making snapshots of an object’s state and restoring it in future.
-The Memento’s principle can be achieved using the serialization, which is quite common in C++.
+Imagine an `EnchantedBook` that remembers the tales it tells. Each tale (or story) it tells is stored as a `FairyTaleMemento`. There's a magical creature named `StoryKeeper` that remembers all the tales the book has told.
 
-We start with createing a class we call the **Memento**
-The **Memento** interface provides a way to retrieve the memento's metadata, such as creation date or name. However, it doesn't expose the Originator's state.
-```c++
-#include <iostream>
+**1. FairyTaleMemento.h:**
 
-class Memento {
-public:
-    virtual std::string GetName() const = 0;
-    virtual std::string date() const = 0;
-    virtual std::string state() const = 0;
+```cpp
+// FairyTaleMemento.h
+#ifndef FAIRY_TALE_MEMENTO_H
+#define FAIRY_TALE_MEMENTO_H
 
-};
-```
+#include <string>
 
-The **SolverMemento**  contains the infrastructure for storing the Originator's * state.
-
-```c++
-#include <ctime>
-#include "Memento.h"
-
-class SolverMemento : public Memento {
+class FairyTaleMemento {
 private:
-    std::string state_;
-    std::string date_;
+    std::string tale;
+
 public:
-    SolverMemento(std::string state) : state_(state) {
-        this->state_ = state;
-        std::time_t now = std::time(0);
-        this->date_ = std::ctime(&now);
-    }
-    std::string state() const override {
-        return this->state_;
-    }
-    std::string GetName() const override {
-        return this->date_ + " / (" + this->state_.substr(0, 9) + "...)";
-    }
-    std::string date() const override {
-        return this->date_;
+    FairyTaleMemento(const std::string &t) : tale(t) {}
+
+    std::string getTale() const {
+        return tale;
     }
 };
+
+#endif // FAIRY_TALE_MEMENTO_H
 ```
 
-The Originator's business logic may affect its internal state. 
-Therefore, the client should backup the state before launching methods of the business logic via the save() method.
-And then **Saves** the current state inside a *memento*.
-It also **Restores** the **Originator**'s state from a memento object.
+**2. EnchantedBook.h:**
 
-```c++
-#include <iostream>
-#include "Memento.h"
-#include "SolverMemento.h"
+```cpp
+// EnchantedBook.h
+#ifndef ENCHANTED_BOOK_H
+#define ENCHANTED_BOOK_H
 
-class Originator {
+#include "FairyTaleMemento.h"
+#include <string>
+
+class EnchantedBook {
 private:
-    std::string state_;
-    std::string GenerateRandomString(int length = 10) {
-        const char alphanum[] =
-                "0123456789"
-                "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-                "abcdefghijklmnopqrstuvwxyz";
-        int stringLength = sizeof(alphanum) - 1;
-        std::string random_string;
-        for (int i = 0; i < length; i++) {
-            random_string += alphanum[std::rand() % stringLength];
-        }
-        return random_string;
-    }
+    std::string currentTale;
+
 public:
-    Originator(std::string state) : state_(state) {
-        std::cout << "Originator: My initial state is: " << this->state_ << "\n";
+    void tellTale(const std::string &t) {
+        currentTale = t;
+        std::cout << "EnchantedBook: Telling tale - " << t << std::endl;
     }
-    void DoSomething() {
-        std::cout << "Originator: I'm doing something important.\n";
-        this->state_ = this->GenerateRandomString(30);
-        std::cout << "Originator: and my state has changed to: " << this->state_ << "\n";
+
+    FairyTaleMemento saveTale() {
+        std::cout << "EnchantedBook: Saving this tale to remember later." << std::endl;
+        return FairyTaleMemento(currentTale);
     }
-    Memento *Save() {
-        return new SolverMemento(this->state_);
-    }
-    /**
-     * Restores the Originator's state from a memento object.
-     */
-    void Restore(Memento *memento) {
-        this->state_ = memento->state();
-        std::cout << "Originator: My state has changed to: " << this->state_ << "\n";
+
+    void recallTale(const FairyTaleMemento &m) {
+        currentTale = m.getTale();
+        std::cout << "EnchantedBook: Recalling the tale - " << currentTale << std::endl;
     }
 };
+
+#endif // ENCHANTED_BOOK_H
 ```
-https://github.com/RayAndrade/TheRayCode/blob/main/UMLs/images/Memento/Memento-1.gif
 
+**3. StoryKeeper.h:**
 
+```cpp
+// StoryKeeper.h
+#ifndef STORY_KEEPER_H
+#define STORY_KEEPER_H
 
-The Caretaker doesn't depend on the Concrete Memento class. Therefore, it doesn't have access to the originator's state, stored inside the memento. 
-It works with all mementos via the base Memento interface.
-
-```c++
-#include <iostream>
-//#include <string>
-#include <ctime>
+#include "FairyTaleMemento.h"
 #include <vector>
-#include "Memento.h"
-#include "Originator.h"
 
-class Caretaker {
+class StoryKeeper {
 private:
-    std::vector<Memento *> mementos_;
-    Originator *originator_;
+    std::vector<FairyTaleMemento> talesLog;
+
 public:
-    Caretaker(Originator *originator) : originator_(originator) {
-        this->originator_ = originator;
+    void logTale(const FairyTaleMemento &m) {
+        talesLog.push_back(m);
     }
-    void Backup() {
-        std::cout << "\nCaretaker: Saving Originator's state...\n";
-        this->mementos_.push_back(this->originator_->Save());
-    }
-    void Undo() {
-        if (!this->mementos_.size()) {
-            return;
-        }
-        Memento *memento = this->mementos_.back();
-        this->mementos_.pop_back();
-        std::cout << "Caretaker: Restoring state to: " << memento->GetName() << "\n";
-        try {
-            this->originator_->Restore(memento);
-        } catch (...) {
-            this->Undo();
-        }
-    }
-    void ShowHistory() const {
-        std::cout << "Caretaker: Here's the list of mementos:\n";
-        for (Memento *memento : this->mementos_) {
-            std::cout << memento->GetName() << "\n";
-        }
+
+    FairyTaleMemento getTale(int index) {
+        return talesLog[index];
     }
 };
-```
-Let's put tis together in the **ClientCode**, afunction we place in the **main.cpp**.
 
-```c++
-void ClientCode() {
-    Originator *originator = new Originator("Super-duper-super-puper-super.");
-    Caretaker *caretaker = new Caretaker(originator);
-    caretaker->Backup();
-    originator->DoSomething();
-    caretaker->Backup();
-    originator->DoSomething();
-    caretaker->Backup();
-    originator->DoSomething();
-    std::cout << "\n";
-    caretaker->ShowHistory();
-    std::cout << "\nClient: Now, let's rollback!\n\n";
-    caretaker->Undo();
-    std::cout << "\nClient: Once more!\n\n";
-    caretaker->Undo();
-
-    delete originator;
-    delete caretaker;
-}
+#endif // STORY_KEEPER_H
 ```
-.. And we execute the function in the **main** method
-```c++
+
+**4. main.cpp:**
+
+```cpp
+// main.cpp
+#include <iostream>
+#include "EnchantedBook.h"
+#include "StoryKeeper.h"
+
 int main() {
-    std::srand(static_cast<unsigned int>(std::time(NULL)));
-    ClientCode();
+    EnchantedBook magicBook;
+    StoryKeeper loreMaster;
+
+    magicBook.tellTale("Once upon a time, in a faraway kingdom...");
+    loreMaster.logTale(magicBook.saveTale());
+
+    magicBook.tellTale("In a dense, mystical forest, there lived a wise old owl...");
+    loreMaster.logTale(magicBook.saveTale());
+
+    magicBook.tellTale("Deep in the mountains, a dragon slept for a thousand years...");
+    loreMaster.logTale(magicBook.saveTale());
+
+    // Recalling tales
+    magicBook.recallTale(loreMaster.getTale(1)); // Should recall the owl story
+    magicBook.recallTale(loreMaster.getTale(0)); // Should recall the kingdom story
+
     return 0;
 }
 ```
 
-When we compile and run we should get:
-```run
-Originator: My initial state is: Super-duper-super-puper-super.
+**Explanations:**
 
-Caretaker: Saving Originator's state...
-Originator: I'm doing something important.
-Originator: and my state has changed to: j01MCvKXlnNu6gpdpQQA0SaNouXfJm
+1. **FairyTaleMemento**:
+   - A memory of a tale told by the `EnchantedBook`.
 
-Caretaker: Saving Originator's state...
-Originator: I'm doing something important.
-Originator: and my state has changed to: h0mhMwceTLQqDWV29KRYSP02nmuIRD
+2. **EnchantedBook**:
+   - `tellTale`: Tells a new tale.
+   - `saveTale`: Saves the current tale as a memento.
+   - `recallTale`: Recalls a tale from a given memento.
 
-Caretaker: Saving Originator's state...
-Originator: I'm doing something important.
-Originator: and my state has changed to: 57BpmVmM8DgY2t4XuCpLkHiiHTUCmu
+3. **StoryKeeper**:
+   - A magical being that keeps track of all the tales told.
+   - `logTale`: Logs a new tale.
+   - `getTale`: Fetches a specific tale from its memory.
 
-Caretaker: Here's the list of mementos:
-Thu May 27 15:19:41 2021
- / (Super-dup...)
-Thu May 27 15:19:41 2021
- / (j01MCvKXl...)
-Thu May 27 15:19:41 2021
- / (h0mhMwceT...)
+4. **main.cpp**:
+   - Demonstrates the book telling different tales, saving them, and then recalling them.
 
-Client: Now, let's rollback!
-
-Caretaker: Restoring state to: Thu May 27 15:19:41 2021
- / (h0mhMwceT...)
-Originator: My state has changed to: h0mhMwceTLQqDWV29KRYSP02nmuIRD
-
-Client: Once more!
-
-Caretaker: Restoring state to: Thu May 27 15:19:41 2021
- / (j01MCvKXl...)
-Originator: My state has changed to: j01MCvKXlnNu6gpdpQQA0SaNouXfJm
-```
-
-The Ray Code is AWESOME!!!
-
-[Wikipedia](https://en.wikipedia.org/wiki/Memento_pattern)
-
-----------------------------------------------------------------------------------------------------
-
-Find Ray on:
-
-[facebook](https://www.facebook.com/TheRayCode/)
-
-[youtube](https://www.youtube.com/user/AndradeRay/)
-
-[The Ray Code](https://www.RayAndrade.com)
-
-[Ray Andrade](https://www.RayAndrade.org)
+When you compile and run the whimsical `main.cpp`, the `EnchantedBook` will share tales and then recall some with the help of the `StoryKeeper`.
