@@ -1,3 +1,6 @@
+[up](../README.md)
+
+
 Alright, let's make this a bit more whimsical!
 
 Imagine an `EnchantedBook` that remembers the tales it tells. Each tale (or story) it tells is stored as a `FairyTaleMemento`. There's a magical creature named `StoryKeeper` that remembers all the tales the book has told.
