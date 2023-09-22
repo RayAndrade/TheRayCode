@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{3FF2C084-0B9C-4463-B517-ECBD74B3AAFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FF2C084-0B9C-4463-B517-ECBD74B3AAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF2C084-0B9C-4463-B517-ECBD74B3AAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF2C084-0B9C-4463-B517-ECBD74B3AAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF2C084-0B9C-4463-B517-ECBD74B3AAFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
