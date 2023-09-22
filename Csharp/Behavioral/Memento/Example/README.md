@@ -1,3 +1,5 @@
+[top](../README.md)
+
 Certainly! The Memento design pattern is all about capturing and storing the current state of an object in a manner that allows it to be restored later on, without breaking the principles of encapsulation.
 
 **1. The Order of Creating Classes:**
