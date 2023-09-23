@@ -10,7 +10,7 @@
 |---|---|---|---|---|
 | [**Composite**](Composite/README.md) | [**C#**](../../../Csharp/Structural/Composite/README.md) | [**Java**](../../../Java/Structural/Composite/README.md) | [**PHP**](../../../PHP/Structural/Composite/README.md) |
 
-[Example](Example/README.md)  [Example2](Example2/README.md)  
+[Example](Example/README.md)  [Example2](Example2/README.md)   [Example3](Example3/README.md)  
 
 The **Composite** pattern is indeed a structural design pattern. It is used to treat individual objects and compositions of objects uniformly. In other words, it allows you to compose objects into tree structures to represent part-whole hierarchies.
 
