@@ -10,7 +10,7 @@
 |---|---|---|---|---|
 | [**Composite**](README.md) | [C++](../../../CPP/Structural/Composite/README.md) | [Java](../../../Java/Structural/Composite/README.md) | [PHP](../../../PHP/Structural/Composite/README.md) |
 
-[Example 1](./example/README.md)  
+[Example 2](./Example2/README.md)  [Example 3](./Example3/README.md)  
 
 **Composite Design Pattern**:
 The Composite Design Pattern is a structural pattern that allows you to compose objects into tree structures to represent part-whole hierarchies. This pattern treats both individual objects and compositions of objects uniformly. In simpler terms, it lets clients treat individual objects and compositions of objects the same way.
