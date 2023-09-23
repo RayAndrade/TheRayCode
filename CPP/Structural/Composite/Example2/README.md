@@ -1,4 +1,6 @@
-Certainly! The Composite pattern allows you to compose objects into tree structures to represent part-whole hierarchies. This way, individual objects and compositions of objects can be treated uniformly. 
+[top](../README.md)
+
+The Composite pattern allows you to compose objects into tree structures to represent part-whole hierarchies. This way, individual objects and compositions of objects can be treated uniformly. 
 
 I'll use a simple example: graphical shapes. Let's say we have simple shapes (like circles) and compound shapes (groups of shapes). Both simple and compound shapes should be treated uniformly (e.g., to draw them).
 
