@@ -1,4 +1,4 @@
-
+[up](../README.md)
 The Composite pattern allows you to compose objects into tree-like structures to represent part-whole hierarchies. This makes it easier to work with individual objects and compositions of objects in a consistent manner.
 
 Here's an example using a common scenario: graphic elements in a graphics editor.
