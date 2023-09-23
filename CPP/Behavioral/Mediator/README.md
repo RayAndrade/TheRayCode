@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Mediator**](README.md) | [C#](../../../Csharp/Behavioral/Mediator/README.md) | [Java](../../../Java/Behavioral/Mediator/README.md) | [PHP](../../../PHP/Behavioral/Mediator/README.md) |
 
-[Example](MR1/README.md)
+[Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)
 
 The Mediator Design Pattern defines an object that encapsulates how a set of objects interact. Instead of objects communicating directly with each other, they instead communicate through the mediator. This decouples the objects, reducing the dependencies between them, and centralizes external communications.
 
