@@ -1,4 +1,6 @@
-Certainly! The Mediator design pattern is used to centralize complex communications and control between related objects, making it easier to decouple them. Here's a simple example using a chat room (Mediator) where users (Colleagues) can send messages to each other:
+[up](../README.md)
+
+The Mediator design pattern is used to centralize complex communications and control between related objects, making it easier to decouple them. Here's a simple example using a chat room (Mediator) where users (Colleagues) can send messages to each other:
 
 ### 1. `Mediator.h`
 This is an abstract class that declares the `sendMessage` method.
