@@ -40,7 +40,7 @@ public:
 #ifndef JUSTICELEAGUEMEDIATOR_H
 #define JUSTICELEAGUEMEDIATOR_H
 
-#include <string>
+#include <iostream>
 
 class Superhero; // forward declaration
 
