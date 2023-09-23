@@ -1,14 +1,5 @@
 <?php
 
-
-namespace TheRayCode\DesignPatterns\Memento;
-
-
-/**
- * The Concrete Memento contains the infrastructure for storing the Originator's
- * state.
- */
-
 class ConcreteMemento implements Memento
 {
     private $state;
@@ -20,10 +11,6 @@ class ConcreteMemento implements Memento
         $this->state = $state;
         $this->date = date('Y-m-d H:i:s');
     }
-
-    /**
-     * The Originator uses this method when restoring its state.
-     */
     public function getState(): string
     {
         return $this->state;

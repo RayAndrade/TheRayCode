@@ -1,16 +1,11 @@
 <?php
 
-namespace TheRayCode\DesignPatterns\Memento;
-
 include_once ('Originator.php');
 include_once ('Memento.php');
 include_once ('ConcreteMemento.php');
 include_once ('Caretaker.php');
+//Client code.
 
-
-/**
- * Client code.
- */
 $originator = new Originator("Super-duper-super-puper-super.");
 $caretaker = new Caretaker($originator);
 
