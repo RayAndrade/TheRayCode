@@ -19,7 +19,6 @@ class Superhero {  };
 ```
 protected:
     JusticeLeagueMediator* mediator;
-    std::string name;
 ```
 
 ```
