@@ -1,4 +1,5 @@
 [up](../README.md)
+
 C++ Mediator section
 
 Mediator is a behavioral design pattern that lets you reduce chaotic dependencies between objects. 
