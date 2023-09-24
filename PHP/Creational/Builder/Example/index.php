@@ -15,5 +15,4 @@ $sandwich = $sandwichBuilder->setBread("whole grain")
 
 echo $sandwich;
 
-echo "The Ray Code is AWESOME!!!";
 
