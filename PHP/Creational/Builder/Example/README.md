@@ -31,3 +31,9 @@ function __toString() {
     return $this->bread . ", " . $this->meat . ", " . $this->cheese . ", " . $this->veggies;
 }
 ```
+
+What you shoud see at the browser
+
+```
+whole grain, turkey, swiss, lettuce, tomato, onions
+```
