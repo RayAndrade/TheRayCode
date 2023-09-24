@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Mediator**](README.md) | [C++](../../../CPP/Behavioral/Mediator/README.md) | [C#](../../../Csharp/Behavioral/Mediator/README.md) | [Java](../../../Java/Behavioral/Mediator/README.md) |
 
-[Example](MR1/README.md) 
+[Example](Example/README.md) 
 
 The Mediator Design Pattern revolves around the concept of having a central object, called the mediator, which handles interactions between various other objects or components in a system. Instead of these components communicating directly with each other, they would communicate through the mediator. This arrangement decouples the components, reducing dependencies and simplifying communications.
 
