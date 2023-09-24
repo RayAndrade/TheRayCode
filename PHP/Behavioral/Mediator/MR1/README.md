@@ -2,17 +2,6 @@
 ## is AWESOME!!!
 C++ Mediator section
 
-[RayAndrade.COM](https://www.RayAndrade.com)
-
-[TheRayCode.ORG](https://www.TheRayCode.org)
-
-[Facebook](https://www.facebook.com/TheRayCode/)
-
-[Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
-
-[YouTube](https://www.youtube.com/AndradeRay/)
-
-
 Mediator is a behavioral design pattern that lets you reduce chaotic dependencies between objects. 
 The pattern restricts direct communications between the objects and forces them to collaborate only via a mediator object.
 
@@ -163,11 +152,11 @@ Find Ray on:
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[TheRayCode.ORG](https://www.TheRayCode.org)
+[TherRayCode.ORG](https://www.TheRayCode.org)
 
 [Facebook](https://www.facebook.com/TheRayCode/)
 
-[Twitter @TheRayCode](https://www.twitter.com/TheRayCode/)
+[X @TheRayCode](https://www.x.com/TheRayCode/)
 
-[YouTube](https://www.youtube.com/AndradeRay/)
+[YouTube](https://www.youtube.com/TheRayCode/)
 
