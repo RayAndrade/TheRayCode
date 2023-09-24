@@ -1,3 +1,5 @@
+[up](../README.md)
+
 Let's build an **AnimalFactory**.
 
 [Script](script/page01.md)
