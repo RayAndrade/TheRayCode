@@ -12,7 +12,7 @@
 
 **Chain Of Responsibility Design Pattern**:
 
-[Example](./Show/README.md) [Example 1](./COR1/README.md)
+[Example](Example/README.md) [Example2](Example2/README.md) [Example3](Example3/README.md)
 
 As a PHP developer, understanding and utilizing the Behavioral pattern Chain of Responsibility can be beneficial for building flexible and extensible code. 
 The Chain of Responsibility pattern allows you to decouple the sender of a request from its receivers, providing a chain of objects that can handle the request. 
