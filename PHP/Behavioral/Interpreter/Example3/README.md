@@ -1,3 +1,5 @@
+[up](../README.md)
+
 Let's redefine the Interpreter design pattern for colors. Let's say we're trying to interpret a combination of primary colors to produce secondary colors. We'll use the basic combinations:
 
 - Red + Blue = Purple
