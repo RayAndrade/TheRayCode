@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Iterator**](README.md) | [C++](../../../CPP/Behavioral/Iterator/README.md) | [C#](../../../Csharp/Behavioral/Iterator/README.md) | [Java](../../../Java/Behavioral/Iterator/README.md) |
 
-[Example](./I1/README.md)
+[Example](./Example/README.md)
 
 As a PHP developer, understanding and utilizing the Behavioral pattern Iterator can be highly beneficial in several ways:
 
