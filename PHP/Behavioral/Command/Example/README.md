@@ -1,8 +1,5 @@
 [up](../README.md)
 
-# TheRayCode
-## Command pattern php
-
 Command is a behavioral design pattern that turns a request in a stand-alone object that contains the information needed for the request. 
 This transformation lets you pass the requests as a method *argument*.
 The request cant be delaied, queued as a request’s execution. 
