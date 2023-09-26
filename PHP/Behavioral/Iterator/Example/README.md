@@ -1,5 +1,4 @@
-# TheRayCode
-## Iterator pattern php
+[up](../README.md)
 
 The Iterator design patterns is a behavioral design pattern that lets you traverse elements of a collection without exposing its underlying representation (list, stack, tree, etc.).
 Concrete Iterators implement various traversal algorithms. 
