@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Command**](README.md) | [C++](../../../Csharp/Behavioral/Command/README.md) | [C#](../../../Csharp/Behavioral/Command/README.md) | [Java](../../../Java/Behavioral/Command/README.md) |
 
-[Example](Example/README.md) 
+[Example](Example/README.md) [Example2](Example2/README.md) [Example3](Example3/README.md) 
 
 **Command Design Pattern**:
 
