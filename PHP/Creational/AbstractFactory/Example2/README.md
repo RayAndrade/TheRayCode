@@ -213,3 +213,16 @@ Rendering Light-themed checkbox
 ```
 
 That's it! This example showcases how to use the Abstract Factory pattern to create families of related or dependent objects without specifying their concrete classes. In this case, the families of objects are GUI elements for different themes.
+
+
+Find Ray on:
+
+[RayAndrade.COM](https://www.RayAndrade.com)
+
+[TherRayCode.ORG](https://www.TheRayCode.org)
+
+[Facebook](https://www.facebook.com/TheRayCode/)
+
+[X @TheRayCode](https://www.x.com/TheRayCode/)
+
+[YouTube](https://www.youtube.com/TheRayCode/)
