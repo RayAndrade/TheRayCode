@@ -185,3 +185,18 @@ Tesla Bike
 - `index.php`: This is the client code where you demonstrate the Abstract Factory pattern. You create cars and bikes using the concrete factories and then display their names.
 
 Remember, the idea behind the Abstract Factory pattern is to abstract the creation of objects. In this example, you're abstracting the creation of vehicles (cars and bikes) and letting the concrete factories handle the creation of specific brands.
+
+
+Find Ray on:
+
+[RayAndrade.COM](https://www.RayAndrade.com)
+
+[TherRayCode.ORG](https://www.TheRayCode.org)
+
+[Facebook](https://www.facebook.com/TheRayCode/)
+
+[X @TheRayCode](https://www.x.com/TheRayCode/)
+
+[YouTube](https://www.youtube.com/TheRayCode/)
+
+
