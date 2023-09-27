@@ -124,4 +124,17 @@ Woof! I'm a good boy!
 Meow! Feed me, hooman!
 Tweet tweet! I'm bird-brained!
 ```
-The Ray Code is AWESOME!!!
+
+Find Ray on:
+
+[RayAndrade.COM](https://www.RayAndrade.com)
+
+[TherRayCode.ORG](https://www.TheRayCode.org)
+
+[Facebook](https://www.facebook.com/TheRayCode/)
+
+[X @TheRayCode](https://www.x.com/TheRayCode/)
+
+[YouTube](https://www.youtube.com/TheRayCode/)
+
+
