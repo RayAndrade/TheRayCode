@@ -111,3 +111,18 @@ $jane->send("Hey John, how are you?");
 **Overall Flow:**
 
 When the `send` method of the `User` class is invoked, it doesn't send the message directly to the other user. Instead, it uses the mediator (`ChatRoom` in this case) to display the message. The mediator is responsible for determining how the message should be presented. This ensures that the individual users are decoupled from one another and only interact with the chatroom, making the system more modular and easier to maintain.
+
+
+Find Ray on:
+
+[RayAndrade.COM](https://www.RayAndrade.com)
+
+[TherRayCode.ORG](https://www.TheRayCode.org)
+
+[Facebook](https://www.facebook.com/TheRayCode/)
+
+[X @TheRayCode](https://www.x.com/TheRayCode/)
+
+[YouTube](https://www.youtube.com/TheRayCode/)
+
+
