@@ -93,7 +93,6 @@ class ChatRoom implements ChatRoomMediator
         - Creates two users (John and Jane) who will use the chatroom to communicate.
         - Users (John and Jane) send messages to each other, but they don't communicate directly; instead, they use the chatroom (mediator) to relay messages.
 
-**index.php**
 
 ```php
 require_once 'User.php';
