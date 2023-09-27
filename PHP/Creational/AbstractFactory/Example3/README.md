@@ -1,4 +1,4 @@
-r[up](../README.md)
+[up](../README.md)
 
 Certainly! The Abstract Factory design pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
