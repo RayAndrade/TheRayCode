@@ -108,6 +108,7 @@ $jane = new User("Jane", $chatroom);
 // Users send messages
 $john->send("Hello Jane!");
 $jane->send("Hey John, how are you?");
+```
 
 **Overall Flow:**
 
