@@ -1,6 +1,22 @@
-This code is supposed to be a php example of “mediator” design pattern. Tell me the purpose and function of class and method of the code listed below,
+[up](../README.md)
 
-**User.php**
+The code you provided demonstrates the **Mediator** design pattern. The Mediator pattern is a behavioral pattern that provides a unified interface for a set of interfaces in a subsystem, thereby promoting loose coupling by preventing objects from referring to each other explicitly.
+
+Let's break down the purpose and function of each class and method:
+
+1. **User.php**
+
+    - **`User` class:**
+        - Represents a user who can send messages to the chatroom.
+        
+    - **Properties:**
+        - `name` (protected): It's the name of the user.
+        - `chatMediator` (protected): It's an instance of `ChatRoomMediator` interface, which provides a way for the user to communicate (send messages) with the chatroom.
+        
+    - **Methods:**
+        - `__construct()`: Constructor function that initializes the `User` with a name and the associated mediator (chatroom).
+        - `getName()`: Getter function to get the name of the user.
+        - `send()`: Allows the user to send a message. The actual showing of the message is deferred to the mediator (chatroom), which is achieved by calling the `showMessage` method of the mediator.
 
 ```php
 class User
@@ -23,7 +39,14 @@ class User
 }
 ```
 
-**ChatRoomMediator.php**
+2. **ChatRoomMediator.php**
+
+    - **`ChatRoomMediator` interface:**
+        - Defines a contract (interface) for how messages should be shown by any mediator.
+        
+    - **Methods:**
+        - `showMessage()`: An abstract method that any class implementing the `ChatRoomMediator` interface must provide an implementation for. It determines how a message should be displayed.
+
 
 ```php
 interface ChatRoomMediator
@@ -33,7 +56,15 @@ interface ChatRoomMediator
 ```
 
 
-**ChatRoom.php**
+
+3. **ChatRoom.php**
+
+    - **`ChatRoom` class:**
+        - Represents a chatroom. Implements the `ChatRoomMediator` interface.
+        - Acts as a mediator between users when they want to send messages.
+        
+    - **Methods:**
+        - `showMessage()`: Implementation of the `showMessage` method from the `ChatRoomMediator` interface. It displays a message with a timestamp and the sender's name.
 
 ```php
 require_once 'ChatRoomMediator.php';
@@ -52,6 +83,16 @@ class ChatRoom implements ChatRoomMediator
 }
 ```
 
+4. **index.php**
+
+    - This is the main entry point to see the mediator pattern in action.
+    
+    - **Steps:**
+        - Requires necessary class files.
+        - Creates a new chatroom (which acts as a mediator).
+        - Creates two users (John and Jane) who will use the chatroom to communicate.
+        - Users (John and Jane) send messages to each other, but they don't communicate directly; instead, they use the chatroom (mediator) to relay messages.
+
 **index.php**
 
 ```php
@@ -68,53 +109,6 @@ $jane = new User("Jane", $chatroom);
 // Users send messages
 $john->send("Hello Jane!");
 $jane->send("Hey John, how are you?");
-```
-
-
-The code you provided demonstrates the **Mediator** design pattern. The Mediator pattern is a behavioral pattern that provides a unified interface for a set of interfaces in a subsystem, thereby promoting loose coupling by preventing objects from referring to each other explicitly.
-
-Let's break down the purpose and function of each class and method:
-
-1. **User.php**
-
-    - **`User` class:**
-        - Represents a user who can send messages to the chatroom.
-        
-    - **Properties:**
-        - `name` (protected): It's the name of the user.
-        - `chatMediator` (protected): It's an instance of `ChatRoomMediator` interface, which provides a way for the user to communicate (send messages) with the chatroom.
-        
-    - **Methods:**
-        - `__construct()`: Constructor function that initializes the `User` with a name and the associated mediator (chatroom).
-        - `getName()`: Getter function to get the name of the user.
-        - `send()`: Allows the user to send a message. The actual showing of the message is deferred to the mediator (chatroom), which is achieved by calling the `showMessage` method of the mediator.
-        
-2. **ChatRoomMediator.php**
-
-    - **`ChatRoomMediator` interface:**
-        - Defines a contract (interface) for how messages should be shown by any mediator.
-        
-    - **Methods:**
-        - `showMessage()`: An abstract method that any class implementing the `ChatRoomMediator` interface must provide an implementation for. It determines how a message should be displayed.
-
-3. **ChatRoom.php**
-
-    - **`ChatRoom` class:**
-        - Represents a chatroom. Implements the `ChatRoomMediator` interface.
-        - Acts as a mediator between users when they want to send messages.
-        
-    - **Methods:**
-        - `showMessage()`: Implementation of the `showMessage` method from the `ChatRoomMediator` interface. It displays a message with a timestamp and the sender's name.
-        
-4. **index.php**
-
-    - This is the main entry point to see the mediator pattern in action.
-    
-    - **Steps:**
-        - Requires necessary class files.
-        - Creates a new chatroom (which acts as a mediator).
-        - Creates two users (John and Jane) who will use the chatroom to communicate.
-        - Users (John and Jane) send messages to each other, but they don't communicate directly; instead, they use the chatroom (mediator) to relay messages.
 
 **Overall Flow:**
 
