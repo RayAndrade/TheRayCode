@@ -125,14 +125,12 @@ ConcreteObserverA: Reacted to the event.
 
 [Wikipedia](https://en.wikipedia.org/wiki/Observer_pattern)
 
-----------------------------------------------------------------------------------------------------
-
 Find Ray on:
 
 [facebook](https://www.facebook.com/TheRayCode/)
 
-[youtube](https://www.youtube.com/user/TheRayCode/)
+[youtube](https://www.youtube.com/TheRayCode/)
 
-[The Ray Code](https://www.TheRayCode.com)
+[The Ray Code](https://www.TheRayCode.org)
 
-[Ray Andrade](https://www.RayAndrade.org)
+[Ray Andrade](https://www.RayAndrade.com)
