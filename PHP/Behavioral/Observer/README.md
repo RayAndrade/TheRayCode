@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Observer**](README.md) | [C++](../../../CPP/Behavioral/Observer/README.md) | [Java](../../../Java/Behavioral/Observer/README.md) | [Java](../../../Java/Behavioral/Observer/README.md) |
 
-[Example](Example/README.mc) [Example2](Example2/README.mc) [Example3](Example3/README.mc)
+[Example](Example/README.md) [Example2](Example2/README.md) [Example3](Example3/README.md)
 
 The Observer Design Pattern is a behavioral pattern that sets up a one-to-many dependency between objects. When the state of a single object (often referred to as the "Subject") changes, all its dependents ("Observers") are notified and updated automatically. Essentially, it's a mechanism for an object to publish changes to its state so that other objects can react accordingly.
 
