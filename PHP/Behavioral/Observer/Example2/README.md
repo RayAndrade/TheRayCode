@@ -1,4 +1,4 @@
-[up](../REDME.md)
+[up](../README.md)
 
 Alright! Let's implement the Observer pattern in PHP. The Observer pattern is a behavioral design pattern where an object, called the subject, maintains a list of its dependents, called observers, and notifies them of any state changes.
 
