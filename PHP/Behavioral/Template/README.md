@@ -9,8 +9,8 @@
 |Pattern|   |   |   |
 |---|---|---|---|
 | [**Template**](README.md) | [C++](../../../CPP/Behavioral/Template/README.md) | [C#](../../../Csharp/Behavioral/Template/README.md) | [Java](../../../Java/Behavioral/Template/README.md) |
-
-[Example](T1/README.md)
+ 
+[Example](Example/README.md) [Example2](Example2/README.md)  [Example3](Example3/README.md)
 
 The Template Method Design Pattern is a behavioral design pattern that defines the program skeleton of an algorithm in a method, but delays some steps to subclasses. It lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
 
