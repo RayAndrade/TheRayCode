@@ -12,7 +12,7 @@
 
 **PHP Statergy Design Pattern**
 
-[Example](SY1/README.md)
+[Example](Example/README.md)
 
 The Strategy Design Pattern is a behavioral design pattern that involves defining a family of algorithms, encapsulating each one, and making them interchangeable. It allows the algorithm's implementation to vary independently of clients that use it. Instead of implementing a single algorithm directly within a class, the pattern uses composition to delegate responsibility to one of several potential algorithms, thus allowing for flexibility in choosing the appropriate algorithm at runtime.
 
