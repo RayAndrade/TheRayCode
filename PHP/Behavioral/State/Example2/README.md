@@ -144,3 +144,15 @@ Stopped
 - Each concrete state (`PlayingState`, `PausedState`, and `StoppedState`) implements the `State` interface and provides the appropriate behavior.
 - The `AudioPlayer` class (context) maintains a reference to the current state and delegates its behavior to the current state object.
 - The `index.php` file demonstrates the behavior of the `AudioPlayer` as it transitions between states.
+- 
+
+
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/TheRayCode/)
+
+[The Ray Code](https://www.TheRayCode.org)
+
+[Ray Andrade](https://www.RayAndrade.com)
+
