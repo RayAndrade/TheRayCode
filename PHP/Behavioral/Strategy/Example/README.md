@@ -1,3 +1,5 @@
+[up](../README.md)
+
 This code provides an implementation of the Strategy design pattern in PHP. The Strategy pattern is a behavioral design pattern that defines a family of algorithms, encapsulates each algorithm, and makes them interchangeable. It lets the algorithm vary independently from clients that use it.
 
 Let's break down each part:
