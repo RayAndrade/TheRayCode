@@ -126,3 +126,14 @@ It's already overcooked!
 - Each concrete state (`RawState`, `CookedState`, and `OvercookedState`) implements the `FoodState` interface and provides the appropriate behavior.
 - The `FoodItem` class (context) maintains a reference to the current state and delegates its behavior to the current state object.
 - The `index.php` file demonstrates the behavior of the `FoodItem` as it transitions between states.
+- 
+
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/TheRayCode/)
+
+[The Ray Code](https://www.TheRayCode.org)
+
+[Ray Andrade](https://www.RayAndrade.com)
+
