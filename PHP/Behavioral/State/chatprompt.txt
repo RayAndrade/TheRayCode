@@ -186,11 +186,3 @@ ConcreteStateB wants to change the state of the context.
 Context: Transition to ConcreteStateA.
 ```
 
-
-[facebook](https://www.facebook.com/TheRayCode/)
-
-[youtube](https://www.youtube.com/TheRayCode/)
-
-[The Ray Code](https://www.TheRayCode.org)
-
-[Ray Andrade](https://www.RayAndrade.com)
