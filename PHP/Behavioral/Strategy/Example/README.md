@@ -105,7 +105,6 @@ The browser view shows the output when the code from `index.php` is run. Initial
 
 To summarize, the Strategy pattern here allows the sorting behavior to be defined separately from the `Context` class and lets you easily swap sorting algorithms without changing the client code.
 
-
 ----------------------------------------------------------------------------------------------------
 
 Find Ray on:
@@ -115,4 +114,5 @@ Find Ray on:
 [RayAndrade.COM](https://www.RayAndrade.com)
 
 [Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+
 
