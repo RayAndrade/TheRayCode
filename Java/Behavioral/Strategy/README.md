@@ -8,6 +8,7 @@
 |---|---|---|---|
 | [**Statergy**](README.md) | [C++](../../../CPP/Behavioral/Statergy/README.md) | [C#](../../../Csharp/Behavioral/Statergy/README.md) | [PHP](../../../PHP/Behavioral/Statergy/README.md) |
 
+[Example](Example/README.md)
 **Java Statergy Design Pattern**
 
 The Strategy Design Pattern is a behavioral pattern that encapsulates a family of algorithms, enabling them to be interchangeable. It enables the behavior of an algorithm to change at runtime, ensuring that a specific function has multiple interchangeable methods (or "strategies") of completion. The key idea is to separate strategies or sets of algorithms into distinct classes, allowing them to be used interchangeably without affecting clients that use them.
