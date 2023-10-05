@@ -43,3 +43,9 @@ In conclusion, for PHP developers, the State Design Pattern offers a structured 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
 [Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/
+
+[![Watch the video](https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg)](https://www.youtube.com/embed/<VIDEO_ID>)
+
+[<img src="https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg" width="600" height="300"
+/>]([https://www.youtube.com/embed/](https://vimeo.com/851120566)<VIDEO_ID>)
+
