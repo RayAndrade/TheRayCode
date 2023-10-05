@@ -111,12 +111,9 @@ To summarize, the Strategy pattern here allows the sorting behavior to be define
 
 Find Ray on:
 
-[facebook](https://www.facebook.com/TheRayCode/)
+[TheRayCode.ORG](https://www.TheRayCode.org)
 
-[youtube](https://www.youtube.com/TheRayCode/)
+[RayAndrade.COM](https://www.RayAndrade.com)
 
-[X](https://twitter.com/TheRayCode)
+[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
 
-[The Ray Code](https://www.TheRayCode.org)
-
-[Ray Andrade](https://www.RayAndrade.com)
