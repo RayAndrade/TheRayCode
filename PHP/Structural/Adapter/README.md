@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Adapter**](README.md) | [**C++**](../../../CPP/Structural/Adapter/README.md) | [**C#**](../../../Csharp/Structural/Adapter/README.md) | [**Java**](../../../Java/Structural/Adapter/README.md) |
 
-[Example](example/README.md) [Example](example2/README.md) 
+[Example](example/README.md) [Example2](example2/README.md) [Example3](example3/README.md) 
 
 Of course! Let's discuss the "Adapter Design Pattern" and its relevance for PHP programmers.
 
