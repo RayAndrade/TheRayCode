@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Visitor**](README.md) | [C++](../../../CPP/Behavioral/Visitor/README.md) | [C#](../../../Csharp/Behavioral/Visitor/README.md) | [Java](../../../Java/Behavioral/Visitor/README.md) |
 
-[Example 1](./V1/README.md)
+[Example](Example/README.md) [Example2](Example2/README.md) [Example3](Example3/README.md)
 
 The Visitor Design Pattern is a behavioral design pattern that allows you to add further operations to objects without having to modify them. Essentially, it represents an operation to be performed on the elements of an object structure. It lets you define a new operation without changing the classes of the elements on which it operates.
 
