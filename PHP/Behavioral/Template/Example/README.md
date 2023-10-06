@@ -145,3 +145,16 @@ ConcreteClass2 says: Implemented Operation2
 AbstractClass says: But I am doing the bulk of the work anyway
 ```
 In conclusion, the Template design pattern allows you to define the skeleton of an algorithm in a base class and let subclasses override specific steps of the algorithm without changing its overall structure.
+
+
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[TheRayCode.ORG](https://www.TheRayCode.org)
+
+[RayAndrade.COM](https://www.RayAndrade.com)
+
+[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+
+
