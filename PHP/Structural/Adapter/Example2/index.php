@@ -1,8 +1,8 @@
 <?php
-require_once 'EmailNotification.php';
-require_once 'Notification.php';
-require_once 'SlackApi.php';
-require_once 'SlackNotification.php';
+include_once 'EmailNotification.php';
+include_once 'Notification.php';
+include_once 'SlackApi.php';
+include_once 'SlackNotification.php';
 function clientCode(Notification $notification)
 {
     // ...

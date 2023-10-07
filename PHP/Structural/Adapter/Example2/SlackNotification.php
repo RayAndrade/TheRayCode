@@ -1,7 +1,5 @@
 <?php
-
-namespace TheRayCode\Adapter;
-
+include_once 'Notification.php';
 class SlackNotification implements Notification
 {
     private $slack;

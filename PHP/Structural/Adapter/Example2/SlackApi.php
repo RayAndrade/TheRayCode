@@ -1,7 +1,4 @@
 <?php
-
-namespace TheRayCode\Adapter;
-
 class SlackApi
 {
     private $login;

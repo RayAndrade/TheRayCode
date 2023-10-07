@@ -1,7 +1,5 @@
 <?php
-
-namespace TheRayCode\Adapter;
-use TheRayCode\Adapter\Notification;
+include_once 'Notification.php';
 class EmailNotification implements Notification
 {
     private $adminEmail;
