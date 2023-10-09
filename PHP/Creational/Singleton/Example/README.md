@@ -1,4 +1,4 @@
-[back](../README.md) [script](script/page01.md)
+[up](../README.md) [script](script/page01.md)
 
 Alright! The Singleton design pattern is a pattern that restricts a class from instantiating multiple objects. Instead, it ensures a class has only one instance and provides a global point to this instance.
 
