@@ -1,3 +1,5 @@
+[up](../README.md)
+
 The Singleton pattern ensures that a class has only one instance and provides a global point to access it. Here's how you can implement the Singleton pattern in PHP, spreading the classes across different files.
 
 1. Create a file named `Singleton.php` that will contain the Singleton class:
