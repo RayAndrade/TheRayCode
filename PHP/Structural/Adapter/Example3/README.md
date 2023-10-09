@@ -1,4 +1,6 @@
-Certainly! The Adapter Design Pattern concept can be likened to a physical adapter used in the electrical domain. Let's illustrate this with a common scenario: converting a 3-prong plug to fit into a 2-prong outlet with ground.
+[up](../README.md)
+
+The Adapter Design Pattern concept can be likened to a physical adapter used in the electrical domain. Let's illustrate this with a common scenario: converting a 3-prong plug to fit into a 2-prong outlet with ground.
 
 ### Scenario
 
