@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Bridge**](README.md) | [**C++**](../../../CPP/Structural/Bridge/README.md) | [**C#**](../../../CPP/Structural/Bridge/README.md) | [**Java**](../../../Java/Structural/Bridge/README.md) | 
 
-[Example 1](./BE1/README.md)  [Example 2](./BE2/README.md)  
+[Example 1](Example/README.md)  [Example 2](./Example2/README.md)  
 
 The Bridge Design Pattern is a structural design pattern that decouples an abstraction from its implementation, allowing the two to evolve separately. The idea is to split the major functionalities into separate hierarchies: the abstraction (interface or abstract class) and its actual implementation. This ensures that higher-level logic remains separate from the low-level functionalities or implementations.
 
