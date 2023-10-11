@@ -1,4 +1,5 @@
-[up](../README.md)   [script](script/page01.md)
+[up](../README.md)  
+[script](script/page01.md)
 
  I'm going to demonstrate this using a simple **Clown** class, which will have one property, a nested catch phrase.
 
