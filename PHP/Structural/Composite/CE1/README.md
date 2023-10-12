@@ -1,5 +1,4 @@
-# TheRayCode
-## Composite pattern php
+[up](../README.md)
 
 This example illustrates the structure of the Composite design pattern and focuses on the following questions:
 
