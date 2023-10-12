@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Composite**](README.md) | [C++](../../../CPP/Structural/Composite/README.md) | [C#](../../../Csharp/Structural/Composite/README.md) | [Java](../../../Java/Structural/Composite/README.md) |
 
-[Example 1](./CE1/README.md)  
+[Example](./Example/README.md)  [Example2](./Example2/README.md)  [Example3](./Example3/README.md)  
 
 **Composite Design Pattern**:
 The Composite Design Pattern is a structural pattern that allows you to build complex structures using individual objects and compositions of those objects in a tree-like hierarchy. This pattern ensures that individual and composite objects can be treated uniformly.
