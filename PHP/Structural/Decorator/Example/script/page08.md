@@ -10,11 +10,6 @@ include 'MilkDecorator.php';
 include 'SugarDecorator.php';
 ```
 
-```
-use TheRayCode\Decorator\ConcreteComponent;
-use TheRayCode\Decorator\MilkDecorator;
-use TheRayCode\Decorator\SugarDecorator;
-```
 
 ```
 $coffee = new ConcreteComponent();
