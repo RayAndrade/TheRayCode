@@ -1,6 +1,6 @@
 <?php
 
-namespace TheRayCode\Decorator;
+require "Decorator.php";
 
 class ConcreteDecoratorA extends Decorator
 {

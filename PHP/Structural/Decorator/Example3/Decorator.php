@@ -1,6 +1,6 @@
 <?php
 
-namespace TheRayCode\Decorator;
+include "Component.php";
 
 class Decorator implements Component
 {

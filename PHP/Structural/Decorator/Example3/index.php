@@ -1,10 +1,11 @@
 <?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 
-include_once ('Component.php');
-include_once ('ConcreteComponent.php');
-include_once ('Decorator.php');
-include_once ('ConcreteDecoratorA.php');
-include_once ('ConcreteDecoratorB.php');
+
+include ('ConcreteComponent.php');
+require('ConcreteDecoratorA.php');
+require ('ConcreteDecoratorB.php');
 
 function clientCode(Component $component)
 {
