@@ -13,8 +13,6 @@ Here's an example illustrating the Decorator pattern using a simple coffee-makin
 <?php
 // Component.php
 
-namespace TheRayCode\Decorator;
-
 interface Component {
     public function operation(): string;
 }
@@ -30,8 +28,6 @@ interface Component {
 ```php
 <?php
 // ConcreteComponent.php
-
-namespace TheRayCode\Decorator;
 
 class ConcreteComponent implements Component {
     public function operation(): string {
@@ -50,8 +46,6 @@ class ConcreteComponent implements Component {
 ```php
 <?php
 // Decorator.php
-
-namespace TheRayCode\Decorator;
 
 abstract class Decorator implements Component {
     protected $component;
@@ -77,8 +71,6 @@ abstract class Decorator implements Component {
 <?php
 // MilkDecorator.php
 
-namespace TheRayCode\Decorator;
-
 class MilkDecorator extends Decorator {
     public function operation(): string {
         return parent::operation() . " + Milk";
@@ -98,15 +90,12 @@ class MilkDecorator extends Decorator {
 <?php
 // SugarDecorator.php
 
-namespace TheRayCode\Decorator;
-
 class SugarDecorator extends Decorator {
     public function operation(): string {
         return parent::operation() . " + Sugar";
     }
 }
 ```
-
 
 6. **`index.php`** - Main Demonstration File
     - **Purpose:** This file demonstrates the use of the Decorator pattern by creating a basic coffee and then decorating it with various ingredients.
@@ -128,10 +117,6 @@ include 'ConcreteComponent.php';
 include 'Decorator.php';
 include 'MilkDecorator.php';
 include 'SugarDecorator.php';
-
-use TheRayCode\Decorator\ConcreteComponent;
-use TheRayCode\Decorator\MilkDecorator;
-use TheRayCode\Decorator\SugarDecorator;
 
 $coffee = new ConcreteComponent();
 echo "Description: " . $coffee->operation() . "<br>";
