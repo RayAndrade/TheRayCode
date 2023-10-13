@@ -20,9 +20,7 @@ It represents the basic object that we'll be decorating. In this case, it's our 
 and we add code
 
 ```
-public function operation(): string {
-    return "Plain Coffee";
-}
+return "Plain Coffee";
 ```
 
  
