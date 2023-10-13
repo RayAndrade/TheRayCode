@@ -1,6 +1,5 @@
 <?php
 
-namespace TheRayCode\Decorator;
 
 class SugarDecorator extends Decorator
 {

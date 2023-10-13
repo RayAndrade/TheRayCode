@@ -1,6 +1,5 @@
 <?php
 
-namespace TheRayCode\Decorator;
 
 class MilkDecorator extends Decorator
 {

@@ -1,7 +1,5 @@
 <?php
 
-namespace TheRayCode\Decorator;
-
 abstract class Decorator implements Component
 {
     protected $component;
