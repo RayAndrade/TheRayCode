@@ -122,8 +122,10 @@ Find Ray on:
 
 [facebook](https://www.facebook.com/TheRayCode/)
 
-[youtube](https://www.youtube.com/user/AndradeRay/)
+[youtube](https://www.youtube.com/TheRayCode/)
 
-[The Ray Code](https://www.RayAndrade.com)
+[X](https://www.x.com/TheRayCode/)
 
-[Ray Andrade](https://www.RayAndrade.org)
+[The Ray Code](https://www.TheRayCode.prg)
+
+[Ray Andrade](https://www.RayAndrade.com)
