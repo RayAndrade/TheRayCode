@@ -24,16 +24,17 @@ abstract
  implements Component
 ```    
 
+**1:3**
 ``` 
 protected $component;
 ```
-
+**1:2**
 ```
 public function __construct(Component $component) {
     $this->component = $component;
 }
 ```
-
+**1:3**
 ```
 public function operation(): string {
     return $this->component->operation();
