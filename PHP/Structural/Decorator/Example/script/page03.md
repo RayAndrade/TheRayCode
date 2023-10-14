@@ -20,7 +20,7 @@ It represents the basic object that we'll be decorating. In this case, it's our 
 and we add code
 
 ```
-return "Plain Coffee";
+return "ConcreteComponent";
 ```
 
  
