@@ -1,4 +1,4 @@
-[up](../README.md)
+[up](../README.md) [script](script/page01.md)
 
 The Decorator pattern allows a user to add new functionality to an existing object without modifying its structure. 
 
