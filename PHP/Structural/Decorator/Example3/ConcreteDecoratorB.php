@@ -1,7 +1,5 @@
 <?php
 
-require "Decorator.php";
-
 class ConcreteDecoratorB extends Decorator
 {
     public function operation(): string

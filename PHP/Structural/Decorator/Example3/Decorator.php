@@ -1,7 +1,5 @@
 <?php
 
-include "Component.php";
-
 class Decorator implements Component
 {
     protected $component;

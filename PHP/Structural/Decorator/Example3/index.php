@@ -4,8 +4,8 @@ error_reporting(E_ALL);
 
 
 include ('ConcreteComponent.php');
-require('ConcreteDecoratorA.php');
-require ('ConcreteDecoratorB.php');
+include('ConcreteDecoratorA.php');
+include ('ConcreteDecoratorB.php');
 
 function clientCode(Component $component)
 {

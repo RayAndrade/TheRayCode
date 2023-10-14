@@ -38,7 +38,18 @@ class Decorator implements Component
 }
 ```
 
-Let's also create a **Concrete Component** and have implemt the **Component**.php class.
+Let's also create a **ConcreteComponent.php** and have implemt the **Component**.php class.
+
+```php
+class ConcreteComponent implements Component
+{
+    public function operation(): string
+    {
+        return "ConcreteComponent";
+    }
+}
+```
+
 We call our compnent **ConcreteDecoratorA**.
 Decorators may call parent implementation of the operation, instead of calling the wrapped object directly. 
 This approach simplifies extension of decorator classes.
