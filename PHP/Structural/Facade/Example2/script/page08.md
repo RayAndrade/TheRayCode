@@ -21,6 +21,10 @@ Use the **Facade** and apply decorators
 ```
 $formattedText = Facade::decorateText($text, [$boldDecorator, $italicDecorator, $underlineDecorator]);
 ```
+text
+```
+$text = "Hello, World!";
+```
 
 Output the formatted text
 ```
