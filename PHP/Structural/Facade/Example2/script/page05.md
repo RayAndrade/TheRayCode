@@ -5,7 +5,7 @@
 Create class **ItalicDecorator.php**
 
 ```
-BoldDecorator
+ItalicDecorator
 ```
 it  implements the TextDecorator also
 ```
