@@ -17,6 +17,7 @@ It initializes instances of **SubsystemA** and **SubsystemB** and provides a sin
 It hides the details of how the subsystems work together, making it easier for clients to use the system.
 ```
 protected $subsystem1;
+protected $subsystem2;
 ```
 **2**
 ```
@@ -29,8 +30,8 @@ protected $subsystem1;
 **3**
 ```
 {
-    $this->subsystem1 = $subsystem1 ?: new SubsystemA;
-    $this->subsystem2 = $subsystemX ?: new Subsystem2;
+    $this->subsystem1 = $subsystem1 ?: new Subsystem1;
+    $this->subsystem2 = $subsystem2 ?: new Subsystem2;
 }
 ```
 
