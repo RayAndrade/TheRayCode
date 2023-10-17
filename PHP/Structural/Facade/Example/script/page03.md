@@ -5,23 +5,23 @@
 
 create **class**
 ```
-SubsystemB
+Subsystem2
 ```
 
 with operations
 ```
-public function operationX(): string
+public function operation1(): string
 {
-    return "SubsystemX: Get ready!<br/>";
+    return "Subsystem1: Get ready!<br/>";
 }
 ```
 
 and
 
 ```
-public function operationY(): string
+public function operationZ(): string
 {
-    return "SubsystemY: Get ready!<br/>";
+    return "Subsystem2: Get ready!<br/>";
 }
 ```
 
