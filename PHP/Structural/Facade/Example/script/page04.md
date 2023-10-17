@@ -43,10 +43,10 @@ add
 ```
 public function operation(): string
 {
-    $result = "Facade initializes subsystems:\n";
+    $result = "Facade initializes subsystems:<br/>\n";
     $result .= $this->subsystem1->operation1();
     $result .= $this->subsystem2->operation1();
-    $result .= "Facade orders subsystems to perform the action:\n";
+    $result .= "Facade orders subsystems to perform the action:<br/>\n";
     $result .= $this->subsystem1->operationN();
      $result .= $this->subsystem2->operationZ();
 
