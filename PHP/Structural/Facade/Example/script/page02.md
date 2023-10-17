@@ -6,7 +6,7 @@
 
 create *class*:
 ```
-SubsystemA
+Subsystem1
 ```
 
 add code:
