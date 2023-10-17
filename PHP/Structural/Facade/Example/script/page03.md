@@ -12,7 +12,7 @@ with operations
 ```
 public function operation1(): string
 {
-    return "Subsystem1: Get ready!<br/>";
+    return "Subsystem2: Get ready!<br/>";
 }
 ```
 
@@ -21,7 +21,7 @@ and
 ```
 public function operationZ(): string
 {
-    return "Subsystem2: Get ready!<br/>";
+    return "Subsystem2: Fire!<br/>";
 }
 ```
 
