@@ -22,7 +22,7 @@ protected $subsystem1;
 ```
  public function __construct(
         Subsystem1 $subsystem1 = null,
-        SubsystemX $subsystem2 = null
+        Subsystem2 $subsystem2 = null
     ) 
 ```
 
@@ -30,7 +30,7 @@ protected $subsystem1;
 ```
 {
     $this->subsystem1 = $subsystem1 ?: new SubsystemA;
-    $this->subsystemX = $subsystemX ?: new SubsystemX;
+    $this->subsystem2 = $subsystemX ?: new Subsystem2;
 }
 ```
 
