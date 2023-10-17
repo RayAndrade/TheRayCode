@@ -4,8 +4,8 @@
 
 ```
 include_once ('Facade.php');
-include_once ('SubsystemA.php');
-include_once ('SubsystemB.php');
+include_once ('Subsystem1.php');
+include_once ('Subsystem2.php');
 ```
 
 The client code may have some of the subsystem's objects already created. In this case, it might be worthwhile to initialize the Facade with these objects instead of letting the Facade create new instances.
@@ -22,9 +22,9 @@ function clientCode(Facade $facade)
 and to demo our code:
 
 ```
-$subsystemA = new SubsystemA;
-$subsystemB = new SubsystemB;
-$facade = new Facade($subsystemA, $subsystemB);
+$subsystemA = new Subsystem1;
+$subsystemB = new Subsystem2;
+$facade = new Facade($subsystem1, $subsystem2);
 clientCode($facade);
 ```
 
