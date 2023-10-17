@@ -2,7 +2,7 @@
 
 [back](./page01.md)
 
-**SubsystemA.php**
+**Subsystem1.php**
 
 create *class*:
 ```
@@ -19,12 +19,12 @@ public function operation1(): string
 
 and
 ```
-public function operation2(): string
+public function operationN(): string
 {
-    return "Subsystem2: Go!<br/>";
+    return "Subsystem1: Go!<br/>";
 }
 ```
 
-for operations **operation1** and **operation2**
+for operation **operation1** 
 
 [page 3](./page03.md)
