@@ -22,8 +22,8 @@ function clientCode(Facade $facade)
 and to demo our code:
 
 ```
-$subsystemA = new Subsystem1;
-$subsystemB = new Subsystem2;
+$subsystem1 = new Subsystem1;
+$subsystem2 = new Subsystem2;
 $facade = new Facade($subsystem1, $subsystem2);
 clientCode($facade);
 ```
