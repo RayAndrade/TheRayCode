@@ -39,6 +39,22 @@ protected $subsystem2;
  
 However, clients get only to a fraction  of a subsystem's capabilities.
 
+add
+```
+public function operation(): string
+{
+    $result = "Facade initializes subsystems:\n";
+    $result .= $this->subsystem1->operation1();
+    $result .= $this->subsystem2->operation1();
+    $result .= "Facade orders subsystems to perform the action:\n";
+    $result .= $this->subsystem1->operationN();
+     $result .= $this->subsystem2->operationZ();
+
+    return $result;
+}
+```
+
+
 let's now goto main/index
 
 [page 5](./page05.md)
