@@ -1,3 +1,5 @@
+[up](../README.md)
+
 The Mediator pattern is used to reduce the complexity of communication between multiple objects or classes. This pattern provides a mediator class that handles all the communications between different classes and supports easy maintenance of the code by loose coupling.
 
 In this example, we'll create a simple chat room (a common use case for the Mediator pattern), where users (participants) can send messages to each other via a central mediator (the chat room itself), without needing direct connections to one another.
