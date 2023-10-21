@@ -1,3 +1,5 @@
+[up](../README.md)
+
 Teaching design patterns is a great way to instill in students the importance of writing maintainable, scalable, and robust code. The Proxy design pattern is particularly useful as it allows for the creation of objects which serve as intermediaries between a client and actual services objects. They can be used for adding security access, logging, or even simplifying the API of complex systems among other things.
 
 In this example, we'll demonstrate the Proxy pattern by creating a simple application that fetches user information. The proxy will be used to control access to this user information, only allowing access if a specific condition is met (e.g., a "secret token" is provided). 
