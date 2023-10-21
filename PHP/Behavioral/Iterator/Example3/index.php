@@ -1,20 +1,15 @@
 <?php
-require_once('FlockOfSheep.php');
 
-// Create a flock and add sheep.
-$flock = new FlockOfSheep();
-$flock->addSheep("Sheep 1");
-$flock->addSheep("Sheep 2");
-$flock->addSheep("Sheep 3");
+require_once 'Sheep.php';
+require_once 'SheepCollection.php';
+require_once 'SheepIterator.php';
 
-// Get iterator and count sheep.
-$iterator = $flock->createIterator();
+$sheepCollection = new SheepCollection();
+$sheepCollection->addSheep(new Sheep("Sheep 1"));
+$sheepCollection->addSheep(new Sheep("Sheep 2"));
+$sheepCollection->addSheep(new Sheep("Sheep 3"));
 
-echo "Counting sheep:<br>";
-$count = 0;
-while ($iterator->valid()) {
-    $count++;
-    echo "Counted " . $iterator->current() . "<br>";
-    $iterator->next();
+echo "Iterating over sheep collection:<br>";
+foreach ($sheepCollection as $sheep) {
+    echo $sheep->getName() . "<br>";
 }
-echo "<br>Total sheep counted: $count";
