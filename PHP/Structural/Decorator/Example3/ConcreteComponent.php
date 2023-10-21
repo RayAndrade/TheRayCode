@@ -1,7 +1,8 @@
 <?php
-
-class ConcreteComponent implements Component
+require_once 'ComponentInterface.php';
+class ConcreteComponent implements ComponentInterface
 {
+
     public function operation(): string
     {
         return "ConcreteComponent";

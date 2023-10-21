@@ -1,6 +1,6 @@
 <?php
 
-interface Component
+interface ComponentInterface
 {
     public function operation(): string;
 }
