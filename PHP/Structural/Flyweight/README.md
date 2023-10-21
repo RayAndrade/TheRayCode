@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Flyweight**](README.md) | [C++](../../../CPP/Structural/Flyweight/README.md) | [C#](../../../CPP/Structural/Flyweight/README.md) | [Java](../../../Java/Structural/Flyweight/README.md) |
 
-[Example](FT1/README.md)
+[Example](Example/README.md) [Example2](Example2/README.md)
 
 **Flyweight Design Pattern**:
 
