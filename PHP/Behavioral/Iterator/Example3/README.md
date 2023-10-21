@@ -1,3 +1,5 @@
+[up](../README.md)
+
 The Iterator design pattern is used to provide a standard way to traverse through a collection of items without needing to understand the underlying structure of the collection. This pattern is particularly useful when you need to provide a standard way to iterate through a collection, exposed to the client code.
 
 In this example, we'll create an application that uses the Iterator pattern to cycle through a collection of sheep, which is a simple and understandable real-world scenario for students. We will create four main files: `Sheep.php`, `SheepCollection.php`, `SheepIterator.php`, and `index.php`.
