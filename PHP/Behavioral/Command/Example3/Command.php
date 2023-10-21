@@ -1,6 +1,6 @@
 <?php
 
-interface CommandInterface
+interface Command
 {
     public function execute();
 }

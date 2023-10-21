@@ -1,22 +1,20 @@
 <?php
-require_once 'CommandInterface.php';
-require_once 'TurnOnTvCommand.php';
-require_once 'TurnOffTvCommand.php';
-require_once 'Television.php';
+require_once 'Light.php';
+require_once 'TurnOnLightCommand.php';
+require_once 'TurnOffLightCommand.php';
 require_once 'RemoteControl.php';
 
-// Create a new Television instance
-$tv = new Television();
+// Create instances
+$light = new Light();
+$turnOn = new TurnOnLightCommand($light);
+$turnOff = new TurnOffLightCommand($light);
 
-// Create commands
-$turnOn = new TurnOnTvCommand($tv);
-$turnOff = new TurnOffTvCommand($tv);
-
-// Create the remote control and set the command to TurnOn
 $remote = new RemoteControl();
+
+// Turn on the light using command pattern
 $remote->setCommand($turnOn);
 $remote->pressButton();
 
-// Set the command to TurnOff
+// Turn off the light using command pattern
 $remote->setCommand($turnOff);
 $remote->pressButton();
