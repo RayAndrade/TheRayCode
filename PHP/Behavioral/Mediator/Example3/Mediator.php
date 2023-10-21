@@ -2,5 +2,6 @@
 
 interface Mediator
 {
-    public function sendMessage($message, $user);
+    public function sendMessage(string $message, User $user): void;
+    // The Mediator interface declares a method used for sending messages between components.
 }

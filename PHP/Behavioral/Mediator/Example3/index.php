@@ -1,14 +1,15 @@
 <?php
-include_once 'ChatRoom.php';
+
+require_once 'ChatRoom.php';
+require_once 'User.php';
 
 $chatroom = new ChatRoom();
 
-$john = new User("John", $chatroom);
-$alice = new User("Alice", $chatroom);
-$bob = new User("Bob", $chatroom);
+$user1 = new User("Alice", $chatroom);
+$user2 = new User("Bob", $chatroom);
 
-$chatroom->addUser($john);
-$chatroom->addUser($alice);
-$chatroom->addUser($bob);
+$chatroom->addUser($user1);
+$chatroom->addUser($user2);
 
-$john->send("Hello, Alice!");
+$user1->send("Hello Bob!");
+$user2->send("Hey Alice!");

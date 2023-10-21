@@ -1,19 +1,22 @@
 <?php
-include_once 'Mediator.php';
-include_once 'User.php';
+require_once 'Mediator.php';
+require_once 'User.php';
 
 class ChatRoom implements Mediator
 {
-    private $users = [];
+    /**
+     * @var User[]
+     */
+    private array $users = [];
 
-    public function addUser(User $user) {
+    public function addUser(User $user): void {
         $this->users[] = $user;
+        // Adds a user to the chat room.
     }
-
-    public function sendMessage($message, $user)
+    public function sendMessage(string $message, User $user): void
     {
         foreach ($this->users as $u) {
-            // Don't send the message back to the sender
+            // Message should not be sent back to the user who sent it, but to all other users (broadcast).
             if ($u !== $user) {
                 $u->receive($message);
             }
