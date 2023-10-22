@@ -25,6 +25,6 @@ int main() {
     delete macButton;
     delete macScrollbar;
     delete factory;
-    std::cout << "The Ray Code is AWESOME!!!" << std::endl;
+    //std::cout << "The Ray Code is AWESOME!!!" << std::endl;
     return 0;
 }
