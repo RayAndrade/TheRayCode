@@ -12,7 +12,7 @@
 
 **Singleton Design Pattern**:
 
-[Example](Example/README.md) .[Example2](Example2/README.md) .[Show](Show/README.md)
+[Example](Example/README.md) .[Example2](Example2/README.md) [Show](Show/README.md)
 
 The Singleton pattern ensures that a particular class has only one instance throughout the lifetime of an application and provides a global point of access to that instance. This pattern restricts the instantiation of a class to a single object and typically provides a method to get the instance of the class.
 
