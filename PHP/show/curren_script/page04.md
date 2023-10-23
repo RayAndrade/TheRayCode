@@ -4,11 +4,16 @@
 
 Create class *Motorcycle*
 
+```
+Motorcycle
+```
+
 it *implements*
 
 ```
-Vehicle
+ implements Vehicle
 ```
+add method
 
 and for drive we have
 
