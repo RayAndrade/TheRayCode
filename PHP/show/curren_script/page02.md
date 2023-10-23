@@ -2,11 +2,6 @@
 
 [back](./page01.md)
 
-in "namespace TheRayCode\Adapter"
-
-```
-namespace TheRayCode\Adapter;
-```
 Create **interface**
 ```
 Target
