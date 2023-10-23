@@ -2,37 +2,25 @@
 
 [back](./page01.md)
 
+We start with the **Phrase** class
 
-The **Clown** class has two properties: name (a string) and catch prase (an instance of the Prase class).
+This class is *part* of the main class we desire to clone..
 
-and **Prase** is part of the **Clown** class
+The Phrase class is straightforward. 
 
-```
-Clown
-```
-
-We also have a magic method **__clone()** for shallow cloning and a **deepClone()** method for deep cloning.
-
-When you clone an object in PHP, by default it does a **shallow copy**. 
+It's a simple class with a phrase type property.
 
 ```
-public $name;
-public $chatchPrase;
+Phrase
 ```
 
 
 ```
-public function __construct($name, Phrase $phrase) {
-    $this->name = $name;
-    $this->chatchPrase = $phrase;
+public $phrase;
+
+public function __construct($phrase) {
+    $this->phrase = $phrase;
 }
 ```
-
-
-
-A *shallow copy* means creating a new object and then copying the non-static fields of the current object to the new object. 
-
-If a field is a reference type, the reference is copied but the referred object is not; hence the original and its clone refer to the same object.
-
 
 [page 3](./page03.md)

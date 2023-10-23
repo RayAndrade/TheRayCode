@@ -2,25 +2,18 @@
 
 [back](./page03.md)
 
-and the we add a **Phrase** class to say clow type of remarks
 
-This class is *part* of the main class we desire to clone..
-
-The Phrase class is straightforward. 
-
-It's a simple class with a phrase type property.
+Deep clone
 
 ```
-Phrase
-```
-
-
-```
-public $phrase;
-
-public function __construct($phrase) {
-    $this->phrase = $phrase;
+public function deepClone() {
+    $cloned = clone $this;
+    $cloned->chatchPrase = clone $this->chatchPrase;  // clone inner object
+    return $cloned;
 }
 ```
+
+Please note that Prase is a prameter that is being passed in..
+
 
 [page 5](./page05.md)
