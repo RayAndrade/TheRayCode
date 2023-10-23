@@ -9,7 +9,7 @@ Dog
 ```
 
 ```
-extends AbstractPet
+ extends AbstractPet
 ```
 
 ```
@@ -23,7 +23,7 @@ Cat
 extend it
 
 ```
-extends AbstractPet
+ extends AbstractPet
 ```
 
 add code:
@@ -38,7 +38,7 @@ Bird
 extend it
 
 ```
-extends AbstractPet
+ extends AbstractPet
 ```
 add code
 ```
