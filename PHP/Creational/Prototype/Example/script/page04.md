@@ -3,17 +3,36 @@
 [back](./page03.md)
 
 
-Deep clone
+The **Clown** class has two properties: name (a string) and catch prase (an instance of the Prase class).
+
+The **Prase** is part of the **Clown** class
 
 ```
-public function deepClone() {
-    $cloned = clone $this;
-    $cloned->chatchPrase = clone $this->chatchPrase;  // clone inner object
-    return $cloned;
+Clown
+```
+
+We also have a magic method **__clone()** for shallow cloning and a **deepClone()** method for deep cloning.
+
+When you clone an object in PHP, by default it does a **shallow copy**. 
+
+```
+public $name;
+public $chatchPrase;
+```
+
+
+```
+public function __construct($name, Phrase $phrase) {
+    $this->name = $name;
+    $this->chatchPrase = $phrase;
 }
 ```
 
-Please note that Prase is a prameter that is being passed in..
+
+
+A *shallow copy* means creating a new object and then copying the non-static fields of the current object to the new object. 
+
+If a field is a reference type, the reference is copied but the referred object is not; hence the original and its clone refer to the same object.
 
 
 [page 5](./page05.md)
