@@ -1,6 +1,6 @@
 <?php
 
-namespace TheRayCode\Adapter;
+//namespace TheRayCode\Adapter;
 
 class Adapter implements Target
 {
@@ -14,5 +14,6 @@ class Adapter implements Target
     public function request(): string
     {
         return "Adapter: " . $this->adaptee->specificRequest();
+
     }
 }

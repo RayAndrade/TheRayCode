@@ -1,6 +1,6 @@
 <?php
 
-namespace TheRayCode\Adapter;
+//namespace TheRayCode\Adapter;
 
 interface Target
 {

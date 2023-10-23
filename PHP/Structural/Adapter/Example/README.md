@@ -80,12 +80,12 @@ function clientCode(Target $target)
     echo $target->request();
 }
 
-echo "Client code with Adaptee:\n";
+echo "Client code with Adaptee:<br/>\n";
 $adaptee = new Adaptee();
 echo $adaptee->specificRequest();
-echo "\n\n";
+echo "<br/>\n<br/>\n";
 
-echo "Client code with Adapter:\n";
+echo "Client code with Adapter:<br/>\n";
 $adapter = new Adapter($adaptee);
 clientCode($adapter);
 ```

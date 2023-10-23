@@ -17,11 +17,16 @@ add method stub
 ```
 public function request(): string
 {
-    // TODO: Implement request() method.
+    return "Adapter: " . $this->adaptee->specificRequest();
 }
 ```
 
-add some more code
+```
+return "Adapter: " . $this->adaptee->specificRequest();
+```
+
+
+add some more code to the top
 ```
 private $adaptee;
 
