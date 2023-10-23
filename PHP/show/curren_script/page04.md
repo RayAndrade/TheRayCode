@@ -2,10 +2,18 @@
 
 [back](./page03.md)
 
-In the browser we get
+Create class *Motorcycle*
+
+it *implements*
 
 ```
-whole grain, turkey, swiss, lettuce, tomato, onions
+Vehicle
+```
+
+and for drive we have
+
+```
+echo "Riding a motorcycle...<br/>";
 ```
 
 [page 5](./page05.md)

@@ -2,6 +2,21 @@
 
 [back](./page04.md)
 
-end
+create class
 
-[start over](./page01.md)
+```
+Bicycle
+```
+
+it too *implements*
+
+```
+Vehicle
+```
+and it's drive function is
+
+```
+echo "Riding a bicycle...<br/>";
+```
+
+[page 6](./page06.md)
