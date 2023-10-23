@@ -24,7 +24,7 @@ our demo
 echo "Client code with Adaptee:<br/>\n";
 $adaptee = new Adaptee();
 echo $adaptee->specificRequest();
-echo "\n\n";
+echo "<br/>\n<br/>\n";
 
 echo "Client code with Adapter:<br/>\n";
 $adapter = new Adapter($adaptee);
