@@ -9,7 +9,7 @@ Dog
 ```
 
 ```
-  extends AbstractPet
+ extends AbstractPet
 ```
 
 ```
@@ -23,6 +23,11 @@ Cat
 extend it
 
 ```
+ extends AbstractPet
+```
+
+add code:
+```
 return "Meow! Feed me, hooman!";
 ```
 
@@ -32,6 +37,10 @@ Bird
 
 extend it
 
+```
+ extends AbstractPet
+```
+add code
 ```
 return "Tweet tweet! I'm bird-brained!";
 ```
