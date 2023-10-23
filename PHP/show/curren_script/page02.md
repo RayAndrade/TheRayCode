@@ -5,7 +5,7 @@
 
 The **Clown** class has two properties: name (a string) and catch prase (an instance of the Prase class).
 
-The **Prase** is part of the **Clown** class
+and **Prase** is part of the **Clown** class
 
 ```
 Clown
