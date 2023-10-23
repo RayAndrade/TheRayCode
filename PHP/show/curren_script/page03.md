@@ -8,11 +8,6 @@ Create **class**
 Adaptee
 ```
 
-use the
-```
-namespace TheRayCode\Adapter;
-```
-
 add code:
 ```
 public function specificRequest(): string
