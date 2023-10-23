@@ -13,14 +13,6 @@ it
  implements Target
 ```
 
-add method stub
-```
-public function request(): string
-{
-    return "Adapter: " . $this->adaptee->specificRequest();
-}
-```
-
 
 add some more code to the top
 ```
@@ -31,7 +23,7 @@ public function __construct(Adaptee $adaptee)
     $this->adaptee = $adaptee;
 }
 ```
-and in **request()** add: 
+and in **auto added request()** add: 
 ```
 return "Adapter: " . $this->adaptee->specificRequest();
 ```
