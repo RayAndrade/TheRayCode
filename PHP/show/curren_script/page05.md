@@ -11,7 +11,7 @@ Bicycle
 it too *implements*
 
 ```
-Vehicle
+ implements Vehicle
 ```
 and it's drive function is
 
