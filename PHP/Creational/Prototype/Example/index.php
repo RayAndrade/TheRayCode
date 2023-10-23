@@ -1,5 +1,5 @@
 <?php
-namespace TheRayCode\Prototype;
+//namespace TheRayCode\Prototype;
 
 include 'Clown.php';
 include 'Phrase.php';

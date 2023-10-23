@@ -1,6 +1,6 @@
 <?php
 
-namespace TheRayCode\Prototype;
+//namespace TheRayCode\Prototype;
 
 class Clown
 {

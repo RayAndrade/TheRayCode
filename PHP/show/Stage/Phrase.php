@@ -13,4 +13,5 @@ class Phrase
         $cloned->chatchPrase = clone $this->chatchPrase;  // clone inner object
         return $cloned;
     }
+
 }
