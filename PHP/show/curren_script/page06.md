@@ -2,24 +2,10 @@
 
 [back](./page05.md)
 
-in the **index.php**
+when you veiw this ing the browser you get
 
 ```
-include 'Clown.php';
-include 'Phrase.php';
-
-$bozoClown = new Clown("Bozo", new Phrase("Merry Christmas"));
-
-$bozoShallowClone = clone $bozoClown;
-$KrampusKlown = $bozoClown->deepClone();
-
-// Let's change the nose color of original bozoClown
-$bozoClown->chatchPrase->phrase = "WHOA NELLY";
-
-echo "Original Bozo Clown chatch Prase: " . $bozoClown->chatchPrase->phrase . "<br/>\n"; // WHOA NELLY
-echo "Shallow Bozo Clone phrase: " . $bozoShallowClone->chatchPrase->phrase . "<br/>\n"; // WHOA NELLY
-echo "Deep Krampus Clone phase: " . $KrampusKlown->chatchPrase->phrase . "<br/>\n"; // Merry Christmas
+Both instances are the same!
+Using the Singleton instance within SomeClass!
 ```
-
-
 [page 7](./page07.md)

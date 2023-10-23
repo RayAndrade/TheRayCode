@@ -2,25 +2,42 @@
 
 [back](./page01.md)
 
-We start with the **Phrase** class
-
-This class **will be a** *part* of the main class we desire to clone..
-
-The Phrase class is straightforward. 
-
-It's a simple class with a phrase type property.
+Create php class
+```
+Singleton
+```
 
 ```
-Phrase
+class Singleton { }
 ```
 
 
 ```
-public $phrase;
+private static $instance = null;
+```
+The constructor is private so that the object can't be instantiated from outside
+add
 
-public function __construct($phrase) {
-    $this->phrase = $phrase;
+```
+private function __construct() { }
+```
+
+Cloning is disabled to ensure the uniqueness of the instance
+
+```
+private function __clone() { }
+```
+
+This method returns the singleton instance of this class
+```
+public static function getInstance() {
+   if (self::$instance === null) {
+       self::$instance = new Singleton();
+    }
+    return self::$instance;
 }
 ```
+
+
 
 [page 3](./page03.md)

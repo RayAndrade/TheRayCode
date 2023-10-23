@@ -2,18 +2,31 @@
 
 [back](./page03.md)
 
+```
+include 'Singleton.php';
+include 'SomeClass.php';
+```
 
-Deep clone
+Trying to get two instances of Singleton
 
 ```
-public function deepClone() {
-    $cloned = clone $this;
-    $cloned->chatchPrase = clone $this->chatchPrase;  // clone inner object
-    return $cloned;
+$instance1 = Singleton::getInstance();
+$instance2 = Singleton::getInstance();
+```
+
+Both instances are the same
+
+```
+if ($instance1 === $instance2) {
+    echo "Both instances are the same!<br>";
 }
 ```
 
-Please note that Prase is a prameter that is being passed in..
+Demonstrating the use of Singleton in another class
+```
+$obj = new SomeClass();
+$obj->doSomething();
+```
 
 
 [page 5](./page05.md)
