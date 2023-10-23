@@ -8,11 +8,6 @@ Singleton
 ```
 
 ```
-class Singleton { }
-```
-
-
-```
 private static $instance = null;
 ```
 The constructor is private so that the object can't be instantiated from outside
