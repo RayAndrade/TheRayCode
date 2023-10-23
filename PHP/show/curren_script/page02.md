@@ -4,7 +4,7 @@
 
 We start with the **Phrase** class
 
-This class is *part* of the main class we desire to clone..
+This class **will be a** *part* of the main class we desire to clone..
 
 The Phrase class is straightforward. 
 
