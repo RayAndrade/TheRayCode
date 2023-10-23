@@ -22,7 +22,7 @@ private $cheese;
 private $veggies;
 ```
 
-**setBread**
+**setBread 1:4**
 
 ```
 function setBread($bread) {
@@ -31,7 +31,7 @@ function setBread($bread) {
 }
 ```
 
-**setMeat**
+**setMeat 2:4**
 
 ```
 function setMeat($meat) {
@@ -40,7 +40,7 @@ function setMeat($meat) {
 }
 ```
 
-**setCheese**
+**setCheese 3:4**
 
 ```
 function setCheese($cheese) {
@@ -49,7 +49,7 @@ function setCheese($cheese) {
 }
 ```
 
-and **setVeggies**
+and **setVeggies 4:4**
 
 ```
 function setVeggies($veggies) {
@@ -57,7 +57,7 @@ function setVeggies($veggies) {
     return $this;
 }
 ```
-
+**Last**
 Now lets build the **Sandwich**
 
 ```
