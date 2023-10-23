@@ -1,6 +1,6 @@
 [home](./page01.md)
 
-[Example](../README.md)
+[Artical](../README.md)
 
 Start ->
 
