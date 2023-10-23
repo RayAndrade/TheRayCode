@@ -9,4 +9,11 @@ class Clown
         $this->name = $name;
         $this->chatchPrase = $phrase;
     }
+
+    public function deepClone() {
+        $cloned = clone $this;
+        $cloned->chatchPrase = clone $this->chatchPrase;  // clone inner object
+        return $cloned;
+    }
+
 }
