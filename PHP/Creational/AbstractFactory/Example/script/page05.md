@@ -9,7 +9,7 @@ DogFactory
 ```
 
 ```
-extends AbstractFactory
+ extends AbstractFactory
 ```
 
 
