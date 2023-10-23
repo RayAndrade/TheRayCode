@@ -13,12 +13,20 @@ it
 implements Target
 ```
 
-add method stub **__construct**
+add method stub
 ```
-$this->adaptee = $adaptee;
+public function request(): string
+{
+    return "Adapter: " . $this->adaptee->specificRequest();
+}
 ```
 
-add some more code
+```
+return "Adapter: " . $this->adaptee->specificRequest();
+```
+
+
+add some more code to the top
 ```
 private $adaptee;
 

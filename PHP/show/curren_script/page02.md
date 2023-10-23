@@ -2,13 +2,13 @@
 
 [back](./page01.md)
 
+
 Create **interface**
 ```
 Target
 ```
 
 add code
-
 
 ```
 public function request(): string;
