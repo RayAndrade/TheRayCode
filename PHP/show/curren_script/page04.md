@@ -2,23 +2,18 @@
 
 [back](./page03.md)
 
-Create class *Motorcycle*
+
+Deep clone
 
 ```
-Motorcycle
+public function deepClone() {
+    $cloned = clone $this;
+    $cloned->chatchPrase = clone $this->chatchPrase;  // clone inner object
+    return $cloned;
+}
 ```
 
-it *implements*
+Please note that Prase is a prameter that is being passed in..
 
-```
- implements Vehicle
-```
-add method
-
-and for drive we have
-
-```
-echo "Riding a motorcycle...<br/>";
-```
 
 [page 5](./page05.md)

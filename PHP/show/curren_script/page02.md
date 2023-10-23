@@ -2,18 +2,25 @@
 
 [back](./page01.md)
 
-*interface*
+We start with the **Phrase** class
+
+This class is *part* of the main class we desire to clone..
+
+The Phrase class is straightforward. 
+
+It's a simple class with a phrase type property.
 
 ```
-Vehicle
-```
-
-Require drive
-
-```
-public function drive();
+Phrase
 ```
 
 
+```
+public $phrase;
+
+public function __construct($phrase) {
+    $this->phrase = $phrase;
+}
+```
 
 [page 3](./page03.md)
