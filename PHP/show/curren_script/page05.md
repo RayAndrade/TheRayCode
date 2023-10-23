@@ -9,7 +9,7 @@ DogFactory
 ```
 
 ```
-extends AbstractFactory
+ extends AbstractFactory
 ```
 
 
@@ -24,6 +24,10 @@ CatFactory
 extend it
 
 ```
+ extends AbstractFactory
+```
+
+```
 return new Cat();
 ```
 
@@ -33,6 +37,9 @@ BirdFactory
 
 extend it
 
+```
+ extends AbstractFactory
+```
 
 ```
 return new Bird();
