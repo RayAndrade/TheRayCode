@@ -10,7 +10,7 @@ Adapter
 
 it 
 ```
-implements Target
+ implements Target
 ```
 
 add method stub
