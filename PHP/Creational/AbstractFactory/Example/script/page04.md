@@ -9,7 +9,7 @@ Dog
 ```
 
 ```
-extends AbstractPet
+  extends AbstractPet
 ```
 
 ```
