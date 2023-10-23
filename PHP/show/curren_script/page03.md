@@ -8,8 +8,10 @@ Create the class *Car*
 it *implements*
 
 ```
-Vehicle
+ implements Vehicle
 ```
+
+add the method stus
 
 and for drive we have
 
