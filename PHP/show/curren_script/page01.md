@@ -1,5 +1,5 @@
 [home](./page01.md)
 
-page 1
+start
 
 [page 2](./page02.md)
