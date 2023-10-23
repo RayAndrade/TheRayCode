@@ -2,10 +2,6 @@
 
 [back](./page06.md)
 
-END
+page07
 
-```
-echo "TheRayCode is AWESOME!!!";
-```
-
-[start over](./page01.md)
+[page 8](./page08.md)

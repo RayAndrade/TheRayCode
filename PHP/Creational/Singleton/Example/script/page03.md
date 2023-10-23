@@ -9,11 +9,6 @@ Create the
 SomeClass
 ```
 
-
-```
-class SomeClass {  }
-```
-
 add
 
 ```

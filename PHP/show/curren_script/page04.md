@@ -2,31 +2,35 @@
 
 [back](./page03.md)
 
-```
-include 'Singleton.php';
-include 'SomeClass.php';
-```
-
-Trying to get two instances of Singleton
+Next we create the **class**
 
 ```
-$instance1 = Singleton::getInstance();
-$instance2 = Singleton::getInstance();
+Adapter
 ```
 
-Both instances are the same
-
+it 
 ```
-if ($instance1 === $instance2) {
-    echo "Both instances are the same!<br>";
+implements Target
+```
+
+add method stub
+```
+public function request(): string
+{
+    // TODO: Implement request() method.
 }
 ```
 
-Demonstrating the use of Singleton in another class
+add some more code
 ```
-$obj = new SomeClass();
-$obj->doSomething();
+private $adaptee;
+
+public function __construct(Adaptee $adaptee)
+{
+    $this->adaptee = $adaptee;
+}
 ```
+
 
 
 [page 5](./page05.md)

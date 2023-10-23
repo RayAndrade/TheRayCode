@@ -2,37 +2,22 @@
 
 [back](./page01.md)
 
-Create php class
-```
-Singleton
-```
+in "namespace TheRayCode\Adapter"
 
 ```
-private static $instance = null;
+namespace TheRayCode\Adapter;
 ```
-The constructor is private so that the object can't be instantiated from outside
-add
-
+Create **interface**
 ```
-private function __construct() { }
+Target
 ```
 
-Cloning is disabled to ensure the uniqueness of the instance
+add code
+
 
 ```
-private function __clone() { }
+public function request(): string;
 ```
-
-This method returns the singleton instance of this class
-```
-public static function getInstance() {
-   if (self::$instance === null) {
-       self::$instance = new Singleton();
-    }
-    return self::$instance;
-}
-```
-
 
 
 [page 3](./page03.md)

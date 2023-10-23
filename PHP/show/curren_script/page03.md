@@ -3,30 +3,23 @@
 [back](./page02.md)
 
 
-Create the 
-
+Create **class** 
 ```
-SomeClass
-```
-
-add
-
-```
-private $singleton;
+Adaptee
 ```
 
+use the
 ```
-public function __construct() {
-    $this->singleton = Singleton::getInstance();
+namespace TheRayCode\Adapter;
+```
+
+add code:
+```
+public function specificRequest(): string
+{
+    return "Specific request from Adaptee.";
 }
 ```
-
-```
-public function doSomething() {
-   echo "Using the Singleton instance within SomeClass!";
-}
-```
-
 
 
 [page 4](./page04.md)
