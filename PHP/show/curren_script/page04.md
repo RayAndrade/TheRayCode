@@ -13,12 +13,9 @@ it
 implements Target
 ```
 
-add method stub
+add method stub **__construct**
 ```
-public function request(): string
-{
-    // TODO: Implement request() method.
-}
+$this->adaptee = $adaptee;
 ```
 
 add some more code
