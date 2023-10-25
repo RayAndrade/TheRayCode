@@ -28,7 +28,7 @@ function clientCode(Component $component)
 $simple = new Leaf();
 echo "Client: I've got a simple component:<br/>";
 clientCode($simple);
-echo "\n\n";
+echo "<br/>";
 ```
 
 **4:6**
@@ -51,7 +51,7 @@ $tree->add($branch1);
 $tree->add($branch2);
 echo "Client: Now I've got a composite tree:<br/>";
 clientCode($tree);
-echo "<br/><br/>";
+echo "<br/>";
 ```
 
 [page 6](./page06.md)

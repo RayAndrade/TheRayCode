@@ -12,6 +12,11 @@ Component
 abstract
 ```
 
+```
+protected $parent;
+```
+
+
 **2:6**
 ```
 public function setParent(Component $parent)

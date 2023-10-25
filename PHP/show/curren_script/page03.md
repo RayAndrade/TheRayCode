@@ -12,6 +12,12 @@ Composite
  extends Component
 ```
 
+**add to the top**
+```
+include_once ('Component.php');
+```
+
+inside the class v
 
 **2:7**
 ```
