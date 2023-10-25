@@ -1,3 +1,5 @@
+![Composite](/UMLs/images/Composite/Composite-php.png)
+
 [up](../README.md)
 
 This example illustrates the structure of the Composite design pattern and focuses on the following questions:
@@ -110,7 +112,7 @@ class Leaf extends Component
     }
 }
 ```
-![Composite](/UMLs/images/Composite/Composite-php.png)
+
 
 The client code works with all of the components via the base interface.
 This way the client code can support the simple leaf components as well as the complex composites.
