@@ -14,10 +14,7 @@ Leaf
 
 
 ```
-public function operation(): string
-{
-    return "Leaf";
-}
+return "Leaf";
 ```
 
 
