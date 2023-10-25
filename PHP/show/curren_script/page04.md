@@ -17,7 +17,7 @@ add method with auto -gen
 
 add code:
 ```
-return "ConcreteImplementationB: Here's the result on the platform B.<br/>";
+return "ConcreteImplementationA: Here's the result on the platform A.<br/>";
 ```
 
 
