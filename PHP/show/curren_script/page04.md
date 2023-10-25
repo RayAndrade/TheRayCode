@@ -2,6 +2,23 @@
 
 [back](./page03.md)
 
-page04
+
+**class**
+```
+Leaf
+```
+
+```
+ extends Component
+```
+
+
+```
+public function operation(): string
+{
+    return "Leaf";
+}
+```
+
 
 [page 5](./page05.md)
