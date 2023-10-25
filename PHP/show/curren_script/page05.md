@@ -2,21 +2,32 @@
 
 [back](./page04.md)
 
-Now we create a **MilkDecorator** class
-
 ```
-MilkDecorator
-```
-
-```
- extends Decorator
+include_once ('Facade.php');
+include_once ('Subsystem1.php');
+include_once ('Subsystem2.php');
 ```
 
+The client code may have some of the subsystem's objects already created. In this case, it might be worthwhile to initialize the Facade with these objects instead of letting the Facade create new instances.
+
+add:
+
 ```
-public function operation(): string {
-    return parent::operation() . " + Milk";
+function clientCode(Facade $facade)
+{
+  echo $facade->operation();
 }
 ```
+
+and to demo our code:
+
+```
+$subsystem1 = new Subsystem1;
+$subsystem2 = new Subsystem2;
+$facade = new Facade($subsystem1, $subsystem2);
+clientCode($facade);
+```
+
 
 
 [page 6](./page06.md)

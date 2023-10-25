@@ -3,22 +3,28 @@
 [back](./page02.md)
 
 
+create **class**
 ```
-ConcreteComponent
-```
-
-It represents the basic object that we'll be decorating. In this case, it's our plain coffee.
-
-```
- implements Component
-```
-and we add code
-
-```
-return "Plain Coffee";
+Subsystem2
 ```
 
- 
+with operations
+```
+public function operation1(): string
+{
+    return "Subsystem2: Get ready!<br/>";
+}
+```
+
+and
+
+```
+public function operationZ(): string
+{
+    return "Subsystem2: Fire!<br/>";
+}
+```
+
 
 
 [page 4](./page04.md)

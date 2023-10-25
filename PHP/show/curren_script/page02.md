@@ -2,26 +2,29 @@
 
 [back](./page01.md)
 
-We start with the Main Component **Interface**
+**Subsystem1.php**
 
-
-name:
+create *class*:
 ```
-Component
-```
-
-add code
-
-```
-public function operation(): string;
+Subsystem1
 ```
 
-- **Key Aspects:**
-      - The `operation` method returns the string "Plain Coffee".
-    - **Role:** This class gives us the primary object which will be wrapped by one or more decorators.
+add code:
+```
+public function operation1(): string
+{
+    return "Subsystem1: Ready!<br/>";
+}
+```
 
-Next we make the *class* **ConcreteComponent**.
+and
+```
+public function operationN(): string
+{
+    return "Subsystem1: Go!<br/>";
+}
+```
 
-
+for operation **operation1** 
 
 [page 3](./page03.md)

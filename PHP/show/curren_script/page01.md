@@ -1,11 +1,7 @@
 [home](./page01.md)
 
-```
-echo "The Ray Code is AWESOME!!!";
-```
+Facade is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes.
 
-The Decorator pattern allows a user to add new functionality to an existing object without modifying its structure.
-
-Here's an example illustrating the Decorator pattern using a simple coffee-making scenario:
+The Facade pattern provides a unified interface in a subsystem. The Facade defines a HIGHER level interface easier to use.
 
 [page 2](./page02.md)
