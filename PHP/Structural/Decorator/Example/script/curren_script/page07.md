@@ -2,6 +2,6 @@
 
 [back](./page06.md)
 
-skip
+page07
 
 [page 8](./page08.md)

@@ -2,60 +2,26 @@
 
 [back](./page01.md)
 
-abstract class **Component**
+We start with the Main Component **Interface**
 
+
+name:
 ```
 Component
 ```
-**1:6**
-```
-abstract
-```
+
+add code
 
 ```
-protected $parent;
+public function operation(): string;
 ```
 
+- **Key Aspects:**
+      - The `operation` method returns the string "Plain Coffee".
+    - **Role:** This class gives us the primary object which will be wrapped by one or more decorators.
 
-**2:6**
-```
-public function setParent(Component $parent)
-{
-    $this->parent = $parent;
-}
+Next we make the *class* **ConcreteComponent**.
 
 
-```
-
-**3:6**
-```
-public function getParent(): Component
-{
-    return $this->parent;
-}
-
-
-```
-
-**4:6**
-```
-public function add(Component $component): void { }
-public function remove(Component $component): void { }
-
-
-```
-
-**5:6**
-```
-public function isComposite(): bool
-{
-    return false;
-}
-```
-
-**6:6**
-```
-abstract public function operation(): string;
-```
 
 [page 3](./page03.md)
