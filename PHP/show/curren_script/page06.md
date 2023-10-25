@@ -11,7 +11,7 @@ ExtendedAbstraction
  extends Abstraction
 ```
 
-auto-gen
+there is no **auto-gen**
 
 add code
 ```
