@@ -2,16 +2,6 @@
 
 [back](./page04.md)
 
-```
-ConcreteImplementationB
-```
-
-```
- implements Implementation
-```
-
-```
-return "ConcreteImplementationB: Here's the result on the platform B.<br/>";
-```
+page05
 
 [page 6](./page06.md)

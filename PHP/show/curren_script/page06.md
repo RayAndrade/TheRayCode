@@ -2,25 +2,6 @@
 
 [back](./page05.md)
 
-Class
-```
-ExtendedAbstraction
-```
-
-```
- extends Abstraction
-```
-
-there is no **auto-gen**
-
-add code
-```
-public function operation(): string
-{
-    return "ExtendedAbstraction: Extended operation with:<br/>" .
-        $this->implementation->operationImplementation();
-}
-```
-
+page06
 
 [page 7](./page07.md)
