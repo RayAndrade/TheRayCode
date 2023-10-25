@@ -2,31 +2,24 @@
 
 [back](./page03.md)
 
-Next we create the **class**
+Now let's create some Concrete Implementations we call ConcreteImplementationA and ConcreteImplementationB. 
+
+Both will implement the Implementation interface/class.
 
 ```
-Adapter
+ConcreteImplementationA
 ```
 
-it 
 ```
- implements Target
+ implements Implementation
+```
+add method with auto -gen
+
+add code:
+```
+return "ConcreteImplementationB: Here's the result on the platform B.<br/>";
 ```
 
-
-add some more code to the top
-```
-private $adaptee;
-
-public function __construct(Adaptee $adaptee)
-{
-    $this->adaptee = $adaptee;
-}
-```
-and in **auto added request()** add: 
-```
-return "Adapter: " . $this->adaptee->specificRequest();
-```
 
 
 

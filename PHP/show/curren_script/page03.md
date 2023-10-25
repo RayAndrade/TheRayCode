@@ -2,19 +2,37 @@
 
 [back](./page02.md)
 
+Make **class**
 
-Create **class** 
 ```
-Adaptee
+Abstraction
 ```
 
-add code:
 ```
-public function specificRequest(): string
+protected $implementation;
+```
+
+
+```
+public function __construct(Implementation $implementation)
 {
-    return "Specific request from Adaptee.";
+    $this->implementation = $implementation;
 }
 ```
+
+
+```
+public function operation(): string
+{
+    return "Abstraction: Base operation with:<br/>" .
+        $this->implementation->operationImplementation();
+}
+```
+
+
+
+
+page03
 
 
 [page 4](./page04.md)

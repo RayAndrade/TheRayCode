@@ -2,16 +2,14 @@
 
 [back](./page01.md)
 
-
 Create **interface**
 ```
-Target
+Implementation
 ```
 
-add code
-
+add
 ```
-public function request(): string;
+public function operationImplementation(): string;
 ```
 
 
