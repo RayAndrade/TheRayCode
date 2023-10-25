@@ -5,7 +5,7 @@
 abstract class **Component**
 
 ```
-  Component
+Component
 ```
 **1:6**
 ```
