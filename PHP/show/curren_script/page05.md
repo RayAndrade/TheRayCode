@@ -2,24 +2,16 @@
 
 [back](./page04.md)
 
-Class
 ```
-ExtendedAbstraction
+ConcreteImplementationB
+```
+
+```
+ implements Implementation
 ```
 
 ```
- extends Abstraction
-```
-
-auto-gen
-
-add code
-```
-public function operation(): string
-{
-    return "ExtendedAbstraction: Extended operation with:<br/>" .
-        $this->implementation->operationImplementation();
-}
+return "ConcreteImplementationB: Here's the result on the platform B.<br/>";
 ```
 
 [page 6](./page06.md)
