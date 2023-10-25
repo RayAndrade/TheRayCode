@@ -10,5 +10,5 @@ ConcreteImplementationA: Here's the result on the platform A.
 
 ExtendedAbstraction: Extended operation with:
 ConcreteImplementationB: Here's the result on the platform B
-
+```
 [page 9](./page09.md)
