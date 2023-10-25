@@ -53,14 +53,11 @@ public function isComposite(): bool
 ```
 **7:7**
 ```
-public function operation(): string
-{
-    $results = [];
-    foreach ($this->children as $child) {
-        $results[] = $child->operation();
-    }
-    return "Branch(" . implode("+", $results) . ")";
+$results = [];
+foreach ($this->children as $child) {
+    $results[] = $child->operation();
 }
+return "Branch(" . implode("+", $results) . ")";
 ```
 
 
