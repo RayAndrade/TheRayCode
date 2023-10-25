@@ -15,8 +15,11 @@ auto-gen
 
 add code
 ```
-return "ExtendedAbstraction: Extended operation with:<br/>" .
-    $this->implementation->operationImplementation();
+public function operation(): string
+{
+    return "ExtendedAbstraction: Extended operation with:<br/>" .
+        $this->implementation->operationImplementation();
+}
 ```
 
 
