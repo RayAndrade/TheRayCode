@@ -19,7 +19,7 @@ It hides the details of how the subsystems work together, making it easier for c
 protected $subsystem1;
 protected $subsystem2;
 ```
-**2**
+**2**part 1
 ```
  public function __construct(
         Subsystem1 $subsystem1 = null,
@@ -27,7 +27,7 @@ protected $subsystem2;
     ) 
 ```
 
-**3**
+**3**pqrt 2
 ```
 {
     $this->subsystem1 = $subsystem1 ?: new Subsystem1;
