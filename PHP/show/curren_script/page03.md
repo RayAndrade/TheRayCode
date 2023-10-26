@@ -3,25 +3,34 @@
 [back](./page02.md)
 
 
-create **class**
+Create **class**
 ```
-Subsystem2
+Tree
 ```
 
-with operations
+Add vars **x, y & TreeType**
 ```
-public function operation1(): string
+private int $x;
+private int $y;
+private TreeType $type;
+```
+
+
+**__construct**
+```
+public function __construct(int $x, int $y, TreeType $type)
 {
-    return "Subsystem2: Get ready!<br/>";
+    $this->x = $x;
+    $this->y = $y;
+    $this->type = $type;
 }
 ```
 
-and
-
+**and**
 ```
-public function operationZ(): string
+public function draw(string $canvas): void
 {
-    return "Subsystem2: Fire!<br/>";
+    $this->type->draw($canvas, $this->x, $this->y);
 }
 ```
 

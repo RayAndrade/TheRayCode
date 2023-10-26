@@ -2,29 +2,39 @@
 
 [back](./page01.md)
 
-**Subsystem1.php**
-
-create *class*:
+Create **class**
 ```
-Subsystem1
+Forest
 ```
 
-add code:
+**1.3**
 ```
-public function operation1(): string
+private array $trees = [];
+```
+
+**2.3**
+```
+public function plantTree(int $x, int $y, string $name, string $color, string $texture): void
 {
-    return "Subsystem1: Ready!<br/>";
+    $type = TreeFactory::getTreeType($name, $color, $texture);
+    $tree = new Tree($x, $y, $type);
+    $this->trees[] = $tree;
 }
 ```
 
-and
+
+**3.3**
 ```
-public function operationN(): string
+public function draw(string $canvas): void
 {
-    return "Subsystem1: Go!<br/>";
+    foreach ($this->trees as $tree) {
+        $tree->draw($canvas);
+    }
 }
 ```
 
-for operation **operation1** 
+
+
+
 
 [page 3](./page03.md)

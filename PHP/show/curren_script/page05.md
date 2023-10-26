@@ -2,32 +2,39 @@
 
 [back](./page04.md)
 
+Let's create the **TreeType**
 ```
-include_once ('Facade.php');
-include_once ('Subsystem1.php');
-include_once ('Subsystem2.php');
+TreeType
 ```
 
-The client code may have some of the subsystem's objects already created. In this case, it might be worthwhile to initialize the Facade with these objects instead of letting the Facade create new instances.
-
-add:
-
+we add the **name color and texture**
 ```
-function clientCode(Facade $facade)
+private string $name;
+private string $color;
+private string $texture;
+```
+
+**__construct**
+```
+public function __construct(string $name, string $color, string $texture)
 {
-  echo $facade->operation();
+    $this->name = $name;
+    $this->color = $color;
+    $this->texture = $texture;
 }
 ```
 
-and to demo our code:
+and draw
+
+Here, you can implement the code to draw the tree on the canvas.
+
+This is a mock implementation of the draw method, which in a real-world scenario would render the tree on the screen.
 
 ```
-$subsystem1 = new Subsystem1;
-$subsystem2 = new Subsystem2;
-$facade = new Facade($subsystem1, $subsystem2);
-clientCode($facade);
+public function draw(string $canvas, int $x, int $y): void
+{
+    echo "TreeType: Draw a '$this->name' tree with color '$this->color' and texture '$this->texture' at ($x, $y) on canvas: $canvas.<br>";
+}
 ```
 
-
-
-[start again](./page01.md)
+[page 6](./page06.md)
