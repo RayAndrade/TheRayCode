@@ -25,11 +25,9 @@ public function __construct() {
 }
 ```
 
-and
+and for the **write function**
 ```
-protected function write($message) {
-    echo "Error Logger: " . $message . "<br>";
-}
+echo "Error Logger: " . $message . "<br>";
 ```
 
 
