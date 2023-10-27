@@ -26,12 +26,10 @@ public function __construct() {
 }
 ```
 
-and
+and to the write function
 
 ```
-protected function write($message) {
-   echo "Info Logger: " . $message . "<br>";
-}
+echo "Info Logger: " . $message . "<br>";
 ```
 
 
