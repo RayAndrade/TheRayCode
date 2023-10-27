@@ -130,7 +130,8 @@ When you open `index.php` in a browser, you should see:
 
 ```
 Info Logger: This is an informational message.
-Debug Logger: This is a debug message.
+Info Logger: This is a debug message.
+Info Logger: This is an error message.
 Error Logger: This is an error message.
 ```
 
