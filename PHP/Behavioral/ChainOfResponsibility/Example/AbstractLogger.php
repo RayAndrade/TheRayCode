@@ -1,7 +1,8 @@
 <?php
+// AbstractLogger.php
 include_once "Logger.php";
-abstract class AbstractLogger implements Logger
-{
+
+abstract class AbstractLogger implements Logger {
     protected $level;
     protected $nextLogger;
 

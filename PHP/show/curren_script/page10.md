@@ -2,6 +2,6 @@
 
 [back](./page09.md)
 
-page10
+the end
 
-[page 11](./page11.md)
+[start over](./page01.md)

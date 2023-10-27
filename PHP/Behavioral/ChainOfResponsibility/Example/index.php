@@ -1,5 +1,4 @@
 <?php
-
 include_once "InfoLogger.php";
 include_once "DebugLogger.php";
 include_once "ErrorLogger.php";
