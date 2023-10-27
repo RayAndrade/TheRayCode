@@ -17,19 +17,17 @@ Extend the **DebugLogger** with
 ```
  extends AbstractLogger
 ```
-add code:
+add __construct:
 ```
 public function __construct() {
     $this->level = 2;
 }
 ```
 
-and
+and to the **write** function
 
 ```
-protected function write($message) {
-    echo "Debug Logger: " . $message . "<br>";
-}
+echo "Debug Logger: " . $message . "<br>";
 ```
 
 
