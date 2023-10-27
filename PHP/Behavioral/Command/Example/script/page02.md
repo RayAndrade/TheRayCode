@@ -15,6 +15,7 @@ SimpleCommand
 ```
   implements Command
 ```
+auto gererate code for **execute**
 
 add code
 
