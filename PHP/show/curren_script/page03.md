@@ -3,7 +3,21 @@
 [back](./page02.md)
 
 
-page03
+Create the **class**:
+```
+RealSubject
+```
+
+which
+```
+ implements Subject
+```
+
+add stub **request** with code
+```
+echo "RealSubject: Handling request.<br/>";
+```
+
 
 
 [page 4](./page04.md)
