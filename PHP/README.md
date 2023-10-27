@@ -1,82 +1,138 @@
-# [TheRayCode](README.md) is AWESOME!!!
+[up](../README.md)
 
-|**[Creational Patterns](./Creational/README.md)** | **[Structural Patterns](./Structural/README.md)** | **[Behavioral Patterns](./Behavioral/README.md)** |
-|---|---|---|
-|**[C++](../CPP/Creational/README.md)** | **[C++](../CPP/Structural/README.md)** | **[C++](../CPP/Behavioral/README.md)** |
-|**[C#](../Csharp/Creational/README.md)** | **[C#](../Csharp/Structural/README.md)** | **[C#](../Csharp/Behavioral/README.md)** |
-|**[Java](../Java/Creational/README.md)** | **[Java](../PHP/Structural/README.md)** | **[Java](../Java/Behavioral/README.md)** |
+**Chain Of Responsibility** Design Pattern:
 
-**[PHP](README.md)** 
+The Chain of Responsibility design pattern decouples the sender from receiver by allowing multiple objects to handle a request. This pattern creates a chain of objects. The request moves along the chain until an object handles it or it reaches the end of the chain.
 
-| Creational Patterns | Structural Patterns | Behavioral Patterns |
-|--------------|-----|-----------|
-| [**AbstractFactory**](Creational/AbstractFactory/README.md) | [**Adapter**](./Structural/Adapter/README.md)         | [**Chain Of Responsibility**](./Behavioral/ChainOfResponsibility/README.md) |
-| [**Builder**](./Creational/Builder/README.md)                 | [**Bridge**](./Structural/Bridge/README.md)           | [**Command**](./Behavioral/Command/README.md) |
-| [**Factory**](./Creational/Factory/README.md)                 | [**Composite**](./Structural/Composite/README.md)     | [**Interpreter**](./Behavioral/Interpreter/README.md) |
-| [**Prototype**](./Creational/Prototype/README.md)             | [**Decorator**](./Structural/Decorator/README.md)     | [**Iterator**](./Behavioral/Iterator/README.md) |
-| [**Singleton**](./Creational/Singleton/README.md)             | [**Facade**](./Structural/Facade/README.md)           | [**Mediator**](./Behavioral/Mediator/README.md) |
-|                                                               | [**Flyweight**](./Structural/Flyweight/README.md)     | [**Memento**](./Behavioral/Memento/README.md)  |
-|                                                               | [**Proxy**](./Structural/Proxy/README.md)             | [**Observer**](./Behavioral/Observer/README.md) |
-|                                                               |                                                       | [**State**](./Behavioral/State/README.md)  |
-|                                                               |                                                       | [**Strategy**](./Behavioral/Strategy/README.md)  |
-|                                                               |                                                       | [**Template**](./Behavioral/Template/README.md) |
-|                                                               |                                                       | [**Visitor**](./Behavioral/Visitor/README.md) |
+Let's implement the Chain of Responsibility pattern with a simple example: Suppose we have an error logging system that has three levels of logging: `INFO`, `DEBUG`, and `ERROR`. We'll use the Chain of Responsibility pattern to handle and display logs based on their level.
 
+### Step 1: Handler Interface (`Logger.php`)
+This is the base interface that defines how log messages should be handled.
 
-**Types of Design Patterns:**
+```php
+<?php
+// Logger.php
 
-Design patterns represent solutions to common problems that arise in software design. These patterns are not language-specific, so they apply to any object-oriented language, including PHP. Design patterns are typically divided into three primary categories:
+interface Logger {
+    public function setNext(Logger $logger);
+    public function logMessage($level, $message);
+}
+?>
+```
 
-1. **[Creational Patterns](./Creational/README.md)**: These patterns deal with object creation mechanisms, aiming to create objects in a manner best suited to the situation. The basic form of object creation could lead to design problems or add unnecessary complexity to the design. Creational patterns solve this problem by controlling the object creation process. Examples include:
-   - [Singleton](./Creational/Singleton/README.md)
-   - [Factory Method](./Creational/Factory/README.md)
-   - [Abstract Factory](./Creational/AbstractFactory/README.md)
-   - [Prototype](./Creational/Prototype/README.md)
-   - [Builder](./Creational/Builder/README.md)
+### Step 2: Concrete Handler (`AbstractLogger.php`)
+This abstract class provides the default implementation for the logMessage and implements chaining behavior.
 
-2. **[Structural Patterns](./Structural/README.md)**: These patterns concern class and object composition. They provide different ways to ensure that structures are established efficiently and that relationships between different components of a system are clear and scalable. Examples include:
-   - [Adapter](./Structural/Adapter/README.md)
-   - [Bridge](./Structural/Bridge/README.md)
-   - [Composite](./Structural/Composite/README.md)
-   - [Decorator](./Structural/Decorator/README.md)
-   - [Facade](./Structural/Facade/README.md)
-   - [Flyweight](./Structural/Flyweight/README.md)
-   - [Proxy](./Structural/Proxy/README.md)
+```php
+<?php
+// AbstractLogger.php
+include_once "Logger.php";
 
-3. **[Behavioral Patterns](./Behavioral/README.md)**: These patterns are specifically concerned with communication between objects. They ensure efficient and clear interactions between objects and responsibilities. Examples include:
-   - [Observer](./Behavioral/Observer/README.md)
-   - [Strategy](./Behavioral/Strategy/README.md)
-   - [Command](./Behavioral/Command/README.md)
-   - [Template Method](./Behavioral/Template/README.md)
-   - [Iterator](./Behavioral/Iterator/README.md)
-   - [State](./Behavioral/State/README.md)
-   - [Chain of Responsibility](./Behavioral/Observer/README.md)
-   - [Mediator](./Behavioral/Mediator/README.md)
-   - [Memento](./Behavioral/Memento/README.md)
-   - [Visitor](./Behavioral/Visitor/README.md)
+abstract class AbstractLogger implements Logger {
+    protected $level;
+    protected $nextLogger;
 
-**Benefits of studying design patterns for a PHP developer**:
+    public function setNext(Logger $logger) {
+        $this->nextLogger = $logger;
+        return $this;
+    }
 
-1. **Problem-Solving**: Design patterns are proven solutions to common problems. By understanding them, you can apply these patterns to tackle similar problems without having to reinvent the wheel.
+    public function logMessage($level, $message) {
+        if($this->level <= $level) {
+            $this->write($message);
+        }
+        if($this->nextLogger != null) {
+            $this->nextLogger->logMessage($level, $message);
+        }
+    }
 
-2. **Efficient Communication**: When you and your colleagues are familiar with design patterns, you can refer to them by name, which can make communication much more concise.
+    protected abstract function write($message);
+}
+?>
+```
 
-3. **Maintainable Code**: Implementing design patterns can lead to more organized, modular, and flexible code. This makes future changes and maintenance easier.
+### Step 3: Concrete Handlers (`InfoLogger.php`, `DebugLogger.php`, `ErrorLogger.php`)
+These classes will implement the actual logging behavior based on their level.
 
-4. **Best Practices**: Understanding design patterns can provide insights into best practices for object-oriented design and software development in general.
+```php
+<?php
+// InfoLogger.php
+include_once "AbstractLogger.php";
 
-5. **Scalable Design**: Design patterns can help in developing systems that are more scalable and adaptable to changes. This means your software can more easily grow and evolve as requirements change.
+class InfoLogger extends AbstractLogger {
+    public function __construct() {
+        $this->level = 1;
+    }
 
-6. **Enhanced Understanding**: Familiarity with design patterns provides a deeper understanding of the principles underlying object-oriented design and programming.
+    protected function write($message) {
+        echo "Info Logger: " . $message . "<br>";
+    }
+}
+?>
 
-For PHP developers, integrating design patterns can elevate the quality of their codebase, making it more robust, flexible, and scalable. Whether you're working on a small project or a large-scale application, design patterns can provide a solid foundation and structure to your code.
+<?php
+// DebugLogger.php
+include_once "AbstractLogger.php";
 
+class DebugLogger extends AbstractLogger {
+    public function __construct() {
+        $this->level = 2;
+    }
 
+    protected function write($message) {
+        echo "Debug Logger: " . $message . "<br>";
+    }
+}
+?>
 
-**[CPP](../CPP/README.md)** | **[CSHARP](../Csharp/README.md)** | **[JAVA](../Java/README.md)**  | **[PHP](../PHP/README.md)** | **[JAVASCRIPT](../JavaScript/README.md)** 
+<?php
+// ErrorLogger.php
+include_once "AbstractLogger.php";
 
-[TheRayCode.ORG](https://www.TheRayCode.ORG)
+class ErrorLogger extends AbstractLogger {
+    public function __construct() {
+        $this->level = 3;
+    }
 
-[RayAndrade.COM](https://www.RayAndrade.com)
+    protected function write($message) {
+        echo "Error Logger: " . $message . "<br>";
+    }
+}
+?>
+```
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+### Step 4: Demo (`index.php`)
+In this file, you will create the chain of loggers and demonstrate how logging works based on different levels.
+
+```php
+<?php
+// index.php
+
+include_once "InfoLogger.php";
+include_once "DebugLogger.php";
+include_once "ErrorLogger.php";
+
+// Create the chain of loggers
+$errorLogger = new ErrorLogger();
+$debugLogger = new DebugLogger();
+$infoLogger = new InfoLogger();
+
+$infoLogger->setNext($debugLogger)->setNext($errorLogger);
+
+// Demonstrate logging
+$infoLogger->logMessage(1, "This is an informational message.");
+$infoLogger->logMessage(2, "This is a debug message.");
+$infoLogger->logMessage(3, "This is an error message.");
+?>
+```
+
+When you open `index.php` in a browser, you should see:
+
+```
+Info Logger: This is an informational message.
+Debug Logger: This is a debug message.
+Error Logger: This is an error message.
+```
+
+The handlers ensure that the messages are passed and handled according to the specified log levels. In the example, since we have started the chain with `InfoLogger`, all log levels (`INFO`, `DEBUG`, and `ERROR`) will be processed and displayed in the browser.
+
