@@ -44,7 +44,7 @@ Here are the 23 GoF design patterns categorized into their respective groups:
 6. **[Adapter](./Structural/Adapter/README.md)**: Allows incompatible interfaces to work together. It involves a wrapper that converts one interface to another.
 7. **[Bridge](./Structural/Bridge/README.md)**: Separates an object’s abstraction from its implementation so that the two can vary independently.
 8. **[Composite](./Structural/Composite/README.md)**: Allows clients to treat individual objects and compositions of objects uniformly.
-9. **[Decorator(./Structural/Decorator/README.md)**: Adds new responsibilities to objects dynamically without altering their structure.
+9. **[Decorator](./Structural/Decorator/README.md)**: Adds new responsibilities to objects dynamically without altering their structure.
 10. **[Facade](./Structural/Facade/README.md)**: Provides a simplified interface to a complex subsystem.
 11. **[Flyweight](./Structural/Flyweight/README.md)**: Reduces the cost of creating and manipulating a large number of similar objects.
 12. **[Proxy](./Structural/Proxy/README.md)**: Provides a surrogate or placeholder for another object to control access to it.
@@ -54,7 +54,7 @@ Here are the 23 GoF design patterns categorized into their respective groups:
 14. **[Command](./Behavioral/Command/README.md)**: Encapsulates a request as an object, thereby allowing for parameterization of clients with queues, requests, and operations.
 15. **[Interpreter](./Behavioral/Interpreter/README.md)**: Implements a specialized language to rapidly solve a specific set of problems.
 16. **[Iterator](./Behavioral/Iterator/README.md)**: Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
-17. **[Mediator(./Behavioral/Mediator/README.md)**: Defines an object that encapsulates how a set of objects interact.
+17. **[Mediator](./Behavioral/Mediator/README.md)**: Defines an object that encapsulates how a set of objects interact.
 18. **[Memento](./Behavioral/Memento/README.md)**: Captures and externalizes an object's internal state so that the object can be restored to this state later.
 19. **[Observer](./Behavioral/Observer/README.md)**: Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 20. **[State](./Behavioral/State/README.md)**: Allows an object to alter its behavior when its internal state changes. The object will appear to change its class.
