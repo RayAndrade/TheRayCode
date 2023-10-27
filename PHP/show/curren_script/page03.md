@@ -17,6 +17,10 @@ add at the top to
 ```
 include_once "Logger.php";
 ```
+and it
+```
+ implements Logger
+```
 
 add local varables:
 ```
