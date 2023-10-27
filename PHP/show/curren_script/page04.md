@@ -2,14 +2,6 @@
 
 [back](./page03.md)
 
-Create **class**
-```
-Proxy
-```
-which 
-```
- implements Subject
-```
-
+page04
 
 [page 5](./page05.md)

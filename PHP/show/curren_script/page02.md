@@ -2,15 +2,6 @@
 
 [back](./page01.md)
 
-Create the **interface**
-```
-Subject
-```
-With the folowing requirement
-```
-public function request(): void;
-```
-
-
+page02
 
 [page 3](./page03.md)
