@@ -32,10 +32,7 @@ public function __construct(string $payload)
 
 and
 ```
-public function execute(): void
-{
-    echo "SimpleCommand: does the request  (" . $this->payload . ")<br/>";
-}
+echo "SimpleCommand: does the request  (" . $this->payload . ")<br/>";
 ```
 
 [page 3](./page03.md)
