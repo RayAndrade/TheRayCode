@@ -34,4 +34,3 @@ and
 echo "SimpleCommand: does the request  (" . $this->payload . ")<br/>";
 ```
 
-[page 3](./page03.md)
