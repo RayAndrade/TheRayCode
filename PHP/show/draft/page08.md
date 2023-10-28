@@ -1,6 +1,4 @@
-[home](./page01.md)
-
-[back](./page07.md)
+[home](./page01.md) | [back](./page07.md) | [next](./page09.md)
 
 page08
 
