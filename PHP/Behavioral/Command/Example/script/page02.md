@@ -1,6 +1,5 @@
-[home](./page01.md)
+[home](./page01.md)  | [back](./page01.md) | [next](./page03.md)
 
-[back](./page01.md)
 
 Some commands can be implement with simple operations on their own. 
 
@@ -15,7 +14,6 @@ SimpleCommand
 ```
   implements Command
 ```
-auto gererate code for **execute**
 
 add code
 
@@ -31,7 +29,7 @@ public function __construct(string $payload)
 }
 ```
 
-and for the TODO:
+and
 ```
 echo "SimpleCommand: does the request  (" . $this->payload . ")<br/>";
 ```

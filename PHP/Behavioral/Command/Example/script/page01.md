@@ -1,4 +1,8 @@
-[home](./page01.md)
+[home](./page01.md)  | [back](./page01.md) | [next](./page02.md)
+
+```
+echo "The Ray Code is AWESOME!!!";
+```
 
 Command is a behavioral design pattern that turns a request in a stand-alone object that contains the information needed for the request. 
 This transformation lets you pass the requests as a method argument. 
@@ -27,4 +31,4 @@ public function execute(): void;
 ```
 
 
-[page 2](./page02.md)
+
