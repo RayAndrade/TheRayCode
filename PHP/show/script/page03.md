@@ -43,16 +43,7 @@ $this->a = $a;
 $this->b = $b;
 ```
 
-and we add
-
-```
-public function execute(): void
-{  }
-```
-
-
-with
-
+and we add code to the **execute** method
 ```
 echo "ComplexCommand: Complex stuff should be done by a receiver object.<br/>";
 $this->receiver->doSomething($this->a);
