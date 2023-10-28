@@ -1,5 +1,9 @@
 [home](./page01.md)
 
+```
+echo "The Ray Code is AWESOME!!!";
+```
+
 Command is a behavioral design pattern that turns a request in a stand-alone object that contains the information needed for the request. 
 This transformation lets you pass the requests as a method argument. 
 The request cant be delaied, queued as a request’s execution. 
