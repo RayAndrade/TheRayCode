@@ -1,33 +1,45 @@
-[home](./page01.md)
+[home](./page01.md)  | [back](./page04.md) | [next](./page06.md)
 
-[back](./page04.md)
-
-he Invoker is associated with one or several commands. 
-
-It will send a request to the command. 
-
-The Invoker does'nt depend on a concrete command or a receiver classes. The Invoker passes a request to a receiver indirectly, by executing it's command.
-
-at the index
-
-At the top we place our includes:
-
+The **Invoker** is associated with one or several commands. 
+crete class:
 ```
-include_once ('Command.php');
-include_once ('SimpleCommand.php');
-include_once ('ComplexCommand.php');
-include_once ('Receiver.php');
-include_once ('Invoker.php');
+Invoker
 ```
 
-The client code can parameterize the invoker with any of the commands.
+add code with **onStart** and **onFinish** as private variales
+```
+private $onStart;
+private $onFinish;
+```
+Initialize commands.
+```
+public function setOnStart(Command $command): void
+{
+    $this->onStart = $command;
+}
+```
 
 ```
-$invoker = new Invoker;
-$invoker->setOnStart(new SimpleCommand("Say Hi!"));
-$receiver = new Receiver;
-$invoker->setOnFinish(new ComplexCommand($receiver, "Send email", "Save report"));
-$invoker->doSomethingImportant();
+public function setOnFinish(Command $command): void
+{
+    $this->onFinish = $command;
+}
 ```
 
-[page 6](./page06.md)
+The Invoker does not depend on concrete command or receiver classes. 
+The Invoker passes a request to a receiver indirectly, by executing a command.
+```
+public function doSomethingImportant(): void
+{
+    echo "Invoker:  Makes a request<br/>";
+    if ($this->onStart instanceof Command) {
+        $this->onStart->execute();
+    }
+
+    echo "Invoker: does the action...<br/>";
+    echo "Invoker: Makes another request<br/>";
+    if ($this->onFinish instanceof Command) {
+        $this->onFinish->execute();
+    }
+}
+```

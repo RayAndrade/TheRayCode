@@ -1,9 +1,7 @@
-[home](./page01.md)
-
-[back](./page02.md)
+[home](./page01.md)  | [back](./page02.md) | [next](./page04.md)
 
 
-Let's create a Complex Command. 
+Let's create a **ComplexCommand**. 
 
 Now, some commands can delegate more complex operations to other objects. 
 
@@ -43,13 +41,23 @@ $this->a = $a;
 $this->b = $b;
 ```
 
+<<<<<<< HEAD
 and we add code to the **execute** method
+=======
+and we add
+
+```
+public function execute(): void
+{  }
+```
+
+
+add the code to it
+
+>>>>>>> e199aa0b (*)
 ```
 echo "ComplexCommand: Complex stuff should be done by a receiver object.<br/>";
 $this->receiver->doSomething($this->a);
 $this->receiver->doSomethingElse($this->b);
 ```
 
-
-
-[page 4](./page04.md)

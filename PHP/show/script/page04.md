@@ -1,6 +1,5 @@
-[home](./page01.md)
+[home](./page01.md)  | [back](./page03.md) | [next](./page05.md)
 
-[back](./page03.md)
 
 The Receiver classes contain some important business logic. 
 They know how to perform all kinds of operations, associated with carrying out a request. 
@@ -26,4 +25,3 @@ public function doSomethingElse(string $b): void
 }
 ```
 
-[page 5](./page05.md)
