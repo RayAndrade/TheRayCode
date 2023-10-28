@@ -34,27 +34,13 @@ public function __construct(Receiver $receiver, string $a, string $b)
 ```
 
 add code
-
 ```
 $this->receiver = $receiver;
 $this->a = $a;
 $this->b = $b;
 ```
 
-<<<<<<< HEAD
-and we add code to the **execute** method
-=======
-and we add
-
-```
-public function execute(): void
-{  }
-```
-
-
-add the code to it
-
->>>>>>> e199aa0b (*)
+And to the **execute** function we add
 ```
 echo "ComplexCommand: Complex stuff should be done by a receiver object.<br/>";
 $this->receiver->doSomething($this->a);
