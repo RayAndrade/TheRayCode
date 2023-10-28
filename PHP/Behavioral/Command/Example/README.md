@@ -13,7 +13,7 @@ This example will illustrate the structure of the Command design pattern and wil
 </ul>
 
 
-The Command interface declares a method for executing the command.
+The **Command** interface declares a method for executing the command.
 ```php
 interface Command
 {
@@ -90,7 +90,39 @@ It will send a request to the command.
 The Invoker does'nt depend on a concrete command or a receiver classes. 
 The Invoker passes a request to a receiver indirectly, by executing it's command.
 
-At the top we place our includes:
+```
+class Invoker
+{
+    private $onStart;
+    private $onFinish;
+
+    public function setOnStart(Command $command): void
+    {
+        $this->onStart = $command;
+    }
+
+    public function setOnFinish(Command $command): void
+    {
+        $this->onFinish = $command;
+    }
+    public function doSomethingImportant(): void
+    {
+        echo "Invoker:  Makes a request<br/>";
+        if ($this->onStart instanceof Command) {
+            $this->onStart->execute();
+        }
+
+        echo "Invoker: does the action...<br/>";
+        echo "Invoker: Makes another request<br/>";
+        if ($this->onFinish instanceof Command) {
+            $this->onFinish->execute();
+        }
+    }
+}
+```
+
+
+Orer at the index At the top we place our includes:
 
 ```php
 include_once ('Command.php');
@@ -129,8 +161,8 @@ Find Ray on:
 
 [facebook](https://www.facebook.com/TheRayCode/)
 
-[youtube](https://www.youtube.com/user/AndradeRay/)
+[youtube](https://www.youtube.com/TheRayCode/)
 
-[The Ray Code](https://www.RayAndrade.com)
+[The Ray Code](https://www.TheRayCode.com)
 
 [Ray Andrade](https://www.RayAndrade.org)
