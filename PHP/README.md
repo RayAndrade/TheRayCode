@@ -8,7 +8,7 @@
 |**[Java](../Java/Creational/README.md)** | **[Java](../Java/Structural/README.md)** | **[Java](../Java/Behavioral/README.md)** |
 |**[PHP](../PHP/Creational/README.md)** | **[PHP](../PHP/Structural/README.md)** | **[PHP](../PHP/Behavioral/README.md)** |
 
-**[C++](../README.md)** 
+**[PHP](../README.md)** 
 
 | Creational Patterns | Structural Patterns | Behavioral Patterns |
 |--------------|-----|-----------|
