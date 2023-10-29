@@ -1,0 +1,14 @@
+[home](./page01.md) | [back](./page01.md) | [next](./page03.md)
+
+**interface Expression.php** 
+
+```
+Expression
+```
+require the following
+```
+public function interpret($context);
+```
+
+
+[page 3](./page03.md)
