@@ -1,114 +1,160 @@
-The Interpreter pattern is used to represent a grammar of a language in an object-oriented fashion and interpret sentences of that language. For this example, let's consider a simple arithmetic expression evaluator that can handle addition and subtraction.
+[up](../README.md)
 
-Here's a step-by-step implementation using PHP:
+Mediator is a behavioral design pattern that lets you reduce chaotic dependencies between objects. 
+The pattern restricts direct communications between the objects and forces them to collaborate only via a mediator object.
 
-1. **Expression.php** - The abstract expression which declares an abstract interpret operation.
+The pure implementation of the Mediator pattern isn’t as common in PHP, as it’s in other languages, especially GUI-targeted like Java or C#. 
+A PHP application may indeed contain dozens of components, but they rarely communicate directly within a single session.
+
+We start by createing the **Mediator** *interface*
+
+The Mediator interface declares a method used by components to notify the mediator about various events. 
+The Mediator may react to these events and pass the execution to other components.
+ 
 ```php
-<?php
-// Expression.php
-interface Expression {
-    public function interpret($context);
+interface Mediator
+{
+    public function notify(object $sender, string $event): void;
 }
-?>
 ```
 
-2. **NumberExpression.php** - Terminal Expression for numbers.
+The Base Component provides the basic functionality of storing a mediator's  instance inside component objects.
 ```php
-<?php
-// NumberExpression.php
-include_once 'Expression.php';
+class BaseComponent
+{
+    protected $mediator;
 
-class NumberExpression implements Expression {
-    private $number;
-
-    public function __construct($number) {
-        $this->number = $number;
+    public function __construct(Mediator $mediator = null)
+    {
+        $this->mediator = $mediator;
     }
-
-    public function interpret($context) {
-        return $this->number;
-    }
-}
-?>
-```
-
-3. **AddExpression.php** - Non-terminal expression to represent Addition.
-```php
-<?php
-// AddExpression.php
-include_once 'Expression.php';
-
-class AddExpression implements Expression {
-    private $leftExpression;
-    private $rightExpression;
-
-    public function __construct(Expression $left, Expression $right) {
-        $this->leftExpression = $left;
-        $this->rightExpression = $right;
-    }
-
-    public function interpret($context) {
-        return $this->leftExpression->interpret($context) + $this->rightExpression->interpret($context);
+    public function setMediator(Mediator $mediator): void
+    {
+        $this->mediator = $mediator;
     }
 }
-?>
 ```
 
-4. **SubtractExpression.php** - Non-terminal expression to represent Subtraction.
+ Solid Mediators implement cooperative behavior by coordinating several  components.
+
+
 ```php
-<?php
-// SubtractExpression.php
-include_once 'Expression.php';
-
-class SubtractExpression implements Expression {
-    private $leftExpression;
-    private $rightExpression;
-
-    public function __construct(Expression $left, Expression $right) {
-        $this->leftExpression = $left;
-        $this->rightExpression = $right;
+class SolidMediator implements Mediator
+{
+    private $componentA;
+    private $componentB;
+    public function __construct(ComponentA $cA, ComponentB $cB)
+    {
+        $this->componentA = $cA;
+        $this->componentA->setMediator($this);
+        $this->componentB = $cB;
+        $this->componentB->setMediator($this);
     }
+    public function notify(object $sender, string $event): void
+    {
+        if ($event == "A") {
+            echo "Mediator reacts on A and triggers following operations:<br/>";
+            $this->componentB->doC();
+        }
 
-    public function interpret($context) {
-        return $this->leftExpression->interpret($context) - $this->rightExpression->interpret($context);
+        if ($event == "D") {
+            echo "Mediator reacts on D and triggers following operations:<br/>";
+            $this->componentA->doB();
+            $this->componentB->doC();
+        }
     }
 }
-?>
 ```
 
-5. **Demo with index.php**:
+Concrete Components implement various functionality. 
+They don't depend on other components. 
+They also don't depend on any concrete mediator classes.
 ```php
-<?php
-// index.php
-include_once 'Expression.php';
-include_once 'NumberExpression.php';
-include_once 'AddExpression.php';
-include_once 'SubtractExpression.php';
-
-$context = "";  // This can be used to provide any contextual data necessary for interpretation.
-
-// Constructing an expression tree: 5 + 3 - 2
-$numberFive = new NumberExpression(5);
-$numberThree = new NumberExpression(3);
-$addition = new AddExpression($numberFive, $numberThree);
-$numberTwo = new NumberExpression(2);
-$resultExpression = new SubtractExpression($addition, $numberTwo);
-
-// Interpreting the expression
-$result = $resultExpression->interpret($context);
-
-echo "Result of 5 + 3 - 2 = $result";  // This should output 6
-?>
+class ComponentA extends BaseComponent
+{
+    public function doA(): void
+    {
+        echo "Component A does A.<br/>";
+        $this->mediator->notify($this, "A");
+    }
+    public function doB(): void
+    {
+        echo "Component B does B.<br/>";
+        $this->mediator->notify($this, "B");
+    }
+}
+```
+Let's create another component we call ComponentB
+```php
+class ComponentB extends BaseComponent
+{
+    public function doC(): void
+    {
+        echo "Component A does C.<br/>";
+        $this->mediator->notify($this, "C");
+    }
+    public function doD(): void
+    {
+        echo "Component B does D.<br/>";
+        $this->mediator->notify($this, "D");
+    }
+}
 ```
 
-Explanation:
+Let's put this altogether in the index.php we first need to have our includes at the top.
 
-- **Expression.php**: This is the interface that every concrete expression class will implement. The `interpret` method is the primary method that will execute the logic to evaluate the expression.
-  
-- **NumberExpression.php**: This class represents numbers in our arithmetic expressions. Its `interpret` method simply returns the number itself.
-  
-- **AddExpression.php & SubtractExpression.php**: These are the non-terminal expressions. They combine other expressions. Their `interpret` methods delegate the interpretation to the encapsulated expressions and then apply the arithmetic operation.
+```php
+include_once ('Mediator.php');
+include_once('SolidMediator.php');
+include_once ('BaseComponent.php');
+include_once('ComponentA.php');
+include_once('ComponentB.php');
+```
 
-- **index.php**: Here, we're creating an expression tree to represent `5 + 3 - 2` and then interpreting it. The result should be `6`.
+Now the rest of the demo
+```php
+$cA = new ComponentA;
+$cB = new ComponentB;
+$mediator = new SolidMediator($cA, $cB);
 
-To ensure this code works as expected, ensure you place each class in its separate file and include them appropriately in the `index.php` as demonstrated.
+echo "Client triggers operation A.<br/>";
+$cA->doA();
+
+echo "<br/>";
+echo "Client triggers operation B.<br/>";
+$cB->doD();
+```
+When we veiw our php code thru a browser we should get
+
+```run
+Client triggers operation A.
+Component A does A.
+Mediator reacts on A and triggers following operations:
+Component A does C.
+
+Client triggers operation B.
+Component B does D.
+Mediator reacts on D and triggers following operations:
+Component B does B.
+Component A does C.
+```
+
+The Ray Code is AWESOME!!!
+
+
+[Wikipedia](https://en.wikipedia.org/wiki/Mediator_pattern)
+
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[RayAndrade.COM](https://www.RayAndrade.com)
+
+[TherRayCode.ORG](https://www.TheRayCode.org)
+
+[Facebook](https://www.facebook.com/TheRayCode/)
+
+[X @TheRayCode](https://www.x.com/TheRayCode/)
+
+[YouTube](https://www.youtube.com/TheRayCode/)
+
