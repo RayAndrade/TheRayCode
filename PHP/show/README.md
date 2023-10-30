@@ -1,130 +1,181 @@
 [up](../README.md)
 
-Mediator is a behavioral design pattern that lets you reduce chaotic dependencies between objects. 
-The pattern restricts direct communications between the objects and forces them to collaborate only via a mediator object.
+The Memento interface provides a way to retrieve the memento's metadata, suchas creation date or name. However, it doesn't expose the Originator's state.
 
-The pure implementation of the Mediator pattern isn’t as common in PHP, as it’s in other languages, especially GUI-targeted like Java or C#. 
-A PHP application may indeed contain dozens of components, but they rarely communicate directly within a single session.
-
-We start by createing the **Mediator** *interface*
-
-The Mediator interface declares a method used by components to notify the mediator about various events. 
-The Mediator may react to these events and pass the execution to other components.
- 
 ```php
-interface Mediator
+interface Memento
 {
-    public function notify(object $sender, string $event): void;
+    public function getName(): string;
+
+    public function getDate(): string;
 }
 ```
 
-The Base Component provides the basic functionality of storing a mediator's  instance inside component objects.
-```php
-class BaseComponent
-{
-    protected $mediator;
+The Originator holds some important state that may change over time. 
+It also defines a method for saving the state inside a memento and another method for restoring the state from it.
 
-    public function __construct(Mediator $mediator = null)
+For the sake of simplicity, the originator's state is stored inside a single variable.
+The Originator's business logic may affect its internal state. 
+Therefore, the client should backup the state before launching methods of the  business logic via the **save()** method.
+The **save()** method Saves the current state inside a memento.
+
+The **restore(Memento $memento)** Restores the Originator's state from a memento object.
+```php
+class Originator
+{
+    private $state;
+    public function __construct(string $state)
     {
-        $this->mediator = $mediator;
+        $this->state = $state;
+        echo "Originator: My initial state is: {$this->state}<br/>";
     }
-    public function setMediator(Mediator $mediator): void
+    public function doSomething(): void
     {
-        $this->mediator = $mediator;
+        echo "Originator: I'm doing something important.<br/>";
+        $this->state = $this->generateRandomString(30);
+        echo "Originator: and my state has changed to: {$this->state}<br/>";
+    }
+
+    private function generateRandomString(int $length = 10): string
+    {
+        return substr(
+            str_shuffle(
+                str_repeat(
+                    $x = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ',
+                    ceil($length / strlen($x))
+                )
+            ),
+            1,
+            $length
+        );
+    }
+
+    public function save(): Memento
+    {
+        return new ConcreteMemento($this->state);
+    }
+    public function restore(Memento $memento): void
+    {
+        $this->state = $memento->getState();
+        echo "Originator: My state has changed to: {$this->state}<br/>";
     }
 }
 ```
 
- Solid Mediators implement cooperative behavior by coordinating several  components.
+![Mediator](/UMLs/images/Mediator/Mediator-4.png)
 
+The Concrete Memento contains the infrastructure for storing the Originator's state.
+
+The Originator uses this method when restoring its state.
 
 ```php
-class SolidMediator implements Mediator
+class ConcreteMemento implements Memento
 {
-    private $componentA;
-    private $componentB;
-    public function __construct(ComponentA $cA, ComponentB $cB)
+    private $state;
+
+    private $date;
+
+    public function __construct(string $state)
     {
-        $this->componentA = $cA;
-        $this->componentA->setMediator($this);
-        $this->componentB = $cB;
-        $this->componentB->setMediator($this);
+        $this->state = $state;
+        $this->date = date('Y-m-d H:i:s');
     }
-    public function notify(object $sender, string $event): void
+    public function getState(): string
     {
-        if ($event == "A") {
-            echo "Mediator reacts on A and triggers following operations:<br/>";
-            $this->componentB->doC();
+        return $this->state;
+    }
+
+    /**
+     * The rest of the methods are used by the Caretaker to display metadata.
+     */
+    public function getName(): string
+    {
+        return $this->date . " / (" . substr($this->state, 0, 9) . "...)";
+    }
+
+    public function getDate(): string
+    {
+        return $this->date;
+    }
+}
+```
+
+The Caretaker doesn't depend on the Concrete Memento class. 
+Therefore, it doesn't have access to the originator's state, stored inside the memento. 
+It works with all mementos via the base Memento interface.
+
+```php
+class Caretaker
+{
+    private $mementos = [];
+    private $originator;
+    public function __construct(Originator $originator)
+    {
+        $this->originator = $originator;
+    }
+    public function backup(): void
+    {
+        echo "\nCaretaker: Saving Originator's state...<br/>";
+        $this->mementos[] = $this->originator->save();
+    }
+    public function undo(): void
+    {
+        if (!count($this->mementos)) {
+            return;
         }
-
-        if ($event == "D") {
-            echo "Mediator reacts on D and triggers following operations:<br/>";
-            $this->componentA->doB();
-            $this->componentB->doC();
+        $memento = array_pop($this->mementos);
+        echo "Caretaker: Restoring state to: " . $memento->getName() . "<br/>";
+        try {
+            $this->originator->restore($memento);
+        } catch (\Exception $e) {
+            $this->undo();
+        }
+    }
+    public function showHistory(): void
+    {
+        echo "Caretaker: Here's the list of mementos:<br/>";
+        foreach ($this->mementos as $memento) {
+            echo $memento->getName() . "<br/>";
         }
     }
 }
 ```
 
-Concrete Components implement various functionality. 
-They don't depend on other components. 
-They also don't depend on any concrete mediator classes.
-```php
-class ComponentA extends BaseComponent
-{
-    public function doA(): void
-    {
-        echo "Component A does A.<br/>";
-        $this->mediator->notify($this, "A");
-    }
-    public function doB(): void
-    {
-        echo "Component B does B.<br/>";
-        $this->mediator->notify($this, "B");
-    }
-}
-```
-Let's create another component we call ComponentB
-```php
-class ComponentB extends BaseComponent
-{
-    public function doC(): void
-    {
-        echo "Component A does C.<br/>";
-        $this->mediator->notify($this, "C");
-    }
-    public function doD(): void
-    {
-        echo "Component B does D.<br/>";
-        $this->mediator->notify($this, "D");
-    }
-}
-```
-
-Let's put this altogether in the index.php we first need to have our includes at the top.
+Let's go to the index.php files and to the the to we add our includes/
 
 ```php
-include_once ('Mediator.php');
-include_once('SolidMediator.php');
-include_once ('BaseComponent.php');
-include_once('ComponentA.php');
-include_once('ComponentB.php');
+include_once ('Originator.php');
+include_once ('Memento.php');
+include_once ('ConcreteMemento.php');
+include_once ('Caretaker.php');
 ```
-
-Now the rest of the demo
+Client code.
 ```php
-$cA = new ComponentA;
-$cB = new ComponentB;
-$mediator = new SolidMediator($cA, $cB);
+$originator = new Originator("Super-duper-super-puper-super.");
+$caretaker = new Caretaker($originator);
 
-echo "Client triggers operation A.<br/>";
-$cA->doA();
+$caretaker->backup();
+$originator->doSomething();
 
-echo "<br/>";
-echo "Client triggers operation B.<br/>";
-$cB->doD();
+$caretaker->backup();
+$originator->doSomething();
+
+$caretaker->backup();
+$originator->doSomething();
+
+echo "\n";
+$caretaker->showHistory();
+
+echo "\nClient: Now, let's rollback!<br/><br/>";
+$caretaker->undo();
+
+echo "\nClient: Once more!<br/><br/>";
+$caretaker->undo();
+
 ```
-When we veiw our php code thru a browser we should get
+
+Now let's view this thru a browser.
+We should have:
 
 ```run
 Client triggers operation A.
@@ -139,22 +190,16 @@ Component B does B.
 Component A does C.
 ```
 
-The Ray Code is AWESOME!!!
-
-
-[Wikipedia](https://en.wikipedia.org/wiki/Mediator_pattern)
+[Wikipedia](https://en.wikipedia.org/wiki/Memento_pattern)
 
 ----------------------------------------------------------------------------------------------------
 
 Find Ray on:
 
-[RayAndrade.COM](https://www.RayAndrade.com)
+[facebook](https://www.facebook.com/TheRayCode/)
 
-[TherRayCode.ORG](https://www.TheRayCode.org)
+[youtube](https://www.youtube.com/user/AndradeRay/)
 
-[Facebook](https://www.facebook.com/TheRayCode/)
+[The Ray Code](https://www.RayAndrade.com)
 
-[X @TheRayCode](https://www.x.com/TheRayCode/)
-
-[YouTube](https://www.youtube.com/TheRayCode/)
-
+[Ray Andrade](https://www.RayAndrade.org)
