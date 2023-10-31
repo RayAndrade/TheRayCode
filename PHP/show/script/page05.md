@@ -1,46 +1,57 @@
 [home](./page01.md) | [back](./page04.md) | [next](./page06.md)
 
-Concrete Components implement various functionality. They don't depend on other components. 
 
-They also don't depend on any concrete mediator classes.
+The Caretaker doesn't depend on the Concrete Memento class. 
+
+Therefore, it doesn't have access to the originator's state, stored inside the memento. 
+
+It works with all mementos via the base Memento interface.
+
+create *class*
+```
+Caretaker
+```
+
+add code
 
 ```
-SolidMediator
-```
+private $mementos = [];
+private $originator;
 
-```
- implements Mediator
-```
-
-add code:
-```
-private $componentA;
-private $componentB;
-```
-and for the **construct** function
-```
-public function __construct(ComponentA $cA, ComponentB $cB)
+public function __construct(Originator $originator)
 {
-    $this->componentA = $cA;
-    $this->componentA->setMediator($this);
-    $this->componentB = $cB;
-    $this->componentB->setMediator($this);
+    $this->originator = $originator;
+}
+
+public function backup(): void
+{
+    echo "\nCaretaker: Saving Originator's state...<br/>";
+    $this->mementos[] = $this->originator->save();
+}
+
+public function undo(): void
+{
+    if (!count($this->mementos)) {
+        return;
+    }
+    $memento = array_pop($this->mementos);
+    echo "Caretaker: Restoring state to: " . $memento->getName() . "<br/>";
+    try {
+        $this->originator->restore($memento);
+    } catch (\Exception $e) {
+        $this->undo();
+    }
+}
+
+public function showHistory(): void
+{
+    echo "Caretaker: Here's the list of mementos:<br/>";
+    foreach ($this->mementos as $memento) {
+        echo $memento->getName() . "<br/>";
+    }
 }
 ```
 
-Let's put some code in the **notify** function
 
-```
-if ($event == "A") {
-    echo "Mediator reacts on A and triggers following operations:<br/>";
-    $this->componentB->doC();
-}
 
-if ($event == "D") {
-    echo "Mediator reacts on D and triggers following operations:<br/>";
-    $this->componentA->doB();
-    $this->componentB->doC();
-}
-```
-    
 [page 6](./page06.md)

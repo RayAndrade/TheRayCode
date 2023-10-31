@@ -1,35 +1,38 @@
 [home](./page01.md) | [back](./page05.md) | [next](./page07.md)
 
-Concrete Components implement various functionality. 
+Let's go to the index.php files and to the the to we add our includes
 
-They don't depend on other components. 
-
-They also don't depend on any concrete mediator classes.
-
-Create class
-```
-ComponentA
-```
+```php
+include_once ('Originator.php');
+include_once ('Memento.php');
+include_once ('ConcreteMemento.php');
+include_once ('Caretaker.php');
 
 ```
- extends BaseComponent
-```
 
-with
-```
-public function doA(): void
-{
-    echo "Component A does A.<br/>";
-    $this->mediator->notify($this, "A");
-}
-```
-and
-```
-public function doB(): void
-{
-    echo "Component B does B.<br/>";
-    $this->mediator->notify($this, "B");
-}
+Client code.
+```php
+$originator = new Originator("Super-duper-super-puper-super.");
+$caretaker = new Caretaker($originator);
+
+$caretaker->backup();
+$originator->doSomething();
+
+$caretaker->backup();
+$originator->doSomething();
+
+$caretaker->backup();
+$originator->doSomething();
+
+echo "\n";
+$caretaker->showHistory();
+
+echo "\nClient: Now, let's rollback!<br/><br/>";
+$caretaker->undo();
+
+echo "\nClient: Once more!<br/><br/>";
+$caretaker->undo();
+
 ```
 
 

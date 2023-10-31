@@ -1,15 +1,16 @@
 [home](./page01.md) | [back](./page01.md) | [next](./page03.md)
 
-Create **interface Mediator**
+create **interface**
 ```
-Mediator
-```
-
-with code:
-```
-public function notify(object $sender, string $event): void;
+Memento
 ```
 
+add **getName** & **getDate**
+```
+public function getName(): string;
+
+public function getDate(): string;
+```
 
 
 [page 3](./page03.md)
