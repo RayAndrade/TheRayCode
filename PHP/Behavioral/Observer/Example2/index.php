@@ -1,18 +1,59 @@
 <?php
-include 'ConcreteSubject.php';
-include 'ConcreteObserver.php';
 
-$subject = new ConcreteSubject();
+/**
+ * PHP has a couple of built-in interfaces related to the Observer pattern.
+ *
+ * Here's what the Subject interface looks like:
+ *
+ * @link http://php.net/manual/en/class.splsubject.php
+ *
+ *     interface SplSubject
+ *     {
+ *         // Attach an observer to the subject.
+ *         public function attach(SplObserver $observer);
+ *
+ *         // Detach an observer from the subject.
+ *         public function detach(SplObserver $observer);
+ *
+ *         // Notify all observers about an event.
+ *         public function notify();
+ *     }
+ *
+ * There's also a built-in interface for Observers:
+ *
+ * @link http://php.net/manual/en/class.splobserver.php
+ *
+ *     interface SplObserver
+ *     {
+ *         public function update(SplSubject $subject);
+ *     }
+ */
 
-// Create observers
-$observer1 = new ConcreteObserver('Observer 1');
-$observer2 = new ConcreteObserver('Observer 2');
-$observer3 = new ConcreteObserver('Observer 3');
+/**
+ * The Subject owns some important state and notifies observers when the state
+ * changes.
+ */
+include_once ('Subject.php');
+include_once ('ConcreteObserverA.php');
+include_once ('ConcreteObserverB.php');
 
-// Attach observers to the subject
-$subject->attach($observer1);
-$subject->attach($observer2);
-$subject->attach($observer3);
 
-// Change state and notify observers
-$subject->setState('New State Set!');
+
+/**
+ * The client code.
+ */
+
+$subject = new Subject;
+
+$o1 = new ConcreteObserverA;
+$subject->attach($o1);
+
+$o2 = new ConcreteObserverB;
+$subject->attach($o2);
+
+$subject->someBusinessLogic();
+$subject->someBusinessLogic();
+
+$subject->detach($o2);
+
+$subject->someBusinessLogic();

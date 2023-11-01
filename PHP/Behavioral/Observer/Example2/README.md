@@ -1,159 +1,136 @@
 [up](../README.md)
 
-Alright! Let's implement the Observer pattern in PHP. The Observer pattern is a behavioral design pattern where an object, called the subject, maintains a list of its dependents, called observers, and notifies them of any state changes.
+The Observer is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
 
-**Order to Create Classes**:
-1. `Observer.php` - The observer interface.
-2. `Subject.php` - The subject interface.
-3. `ConcreteSubject.php` - The concrete implementation of the subject.
-4. `ConcreteObserver.php` - The concrete implementation of the observer.
-5. `index.php` - Demonstrating the pattern in action.
+The object that has some interesting state is often called subject, but since it’s also going to notify other objects about the changes to its state, we’ll call it publisher. 
+All other objects that want to track changes to the publisher’s state are called subscribers.
 
----
+The UserRepository represents a Subject. Various objects are interested in tracking its internal state, whether it's adding a new user or removing one.
 
-**1. Observer.php**:
-This is the observer interface that all concrete observers need to implement.
+PHP has a couple of built-in interfaces related to the Observer pattern.
+The Subject owns some important state and notifies observers when the state changes.
+In real life, the list of subscribers can be stored more comprehensively (categorized by event type, etc.
+The Subject owns some important state and notifies observers when the state changes.
+For the sake of simplicity, the Subject's state, essential to all subscribers, is stored in this variable.
+The subscription management methods the also Trigger an update in each subscriber.
+
+Usually, the subscription logic is only a fraction of what a Subject can really do. Subjects commonly hold some important business logic, that triggers a notification method whenever something important is about to happen (or after it).
 ```php
-<?php
-
-interface Observer {
-    public function update($message);
-}
-
-?>
-```
-
----
-
-**2. Subject.php**:
-This is the subject interface that all concrete subjects need to implement.
-```php
-<?php
-
-interface Subject {
-    public function attach(Observer $observer);
-    public function detach(Observer $observer);
-    public function notify();
-}
-
-?>
-```
-
----
-
-**3. ConcreteSubject.php**:
-A concrete implementation of the `Subject` interface.
-```php
-<?php
-
-include 'Subject.php';
-
-class ConcreteSubject implements Subject {
-    private $observers = [];
-    private $state;
-
-    public function attach(Observer $observer) {
-        $this->observers[] = $observer;
+class Subject implements \SplSubject
+{
+    public $state;
+    private $observers;
+    public function __construct()
+    {
+        $this->observers = new \SplObjectStorage;
     }
 
-    public function detach(Observer $observer) {
-        foreach ($this->observers as $key => $obs) {
-            if ($obs === $observer) {
-                unset($this->observers[$key]);
-            }
-        }
+    public function attach(SplObserver $observer): void
+    {
+        echo "Subject: Attached an observer.<br/>";
+        $this->observers->attach($observer);
     }
-
-    public function notify() {
+    public function detach(SplObserver $observer): void
+    {
+        $this->observers->detach($observer);
+        echo "Subject: Detached an observer.<br/>";
+    }
+    public function notify(): void
+    {
+        echo "Subject: Notifying observers...<br/>";
         foreach ($this->observers as $observer) {
-            $observer->update($this->state);
+            $observer->update($this);
         }
     }
+    public function someBusinessLogic(): void
+    {
+        echo "\nSubject: I'm doing something important.<br/>";
+        $this->state = rand(0, 10);
 
-    public function setState($state) {
-        $this->state = $state;
+        echo "Subject: My state has just changed to: {$this->state}<br/>";
         $this->notify();
     }
 }
-
-?>
 ```
 
----
-
-**4. ConcreteObserver.php**:
-A concrete implementation of the `Observer` interface.
+Concrete Observers react to the updates issued by the Subject they had been attached to.
 ```php
-<?php
-
-include 'Observer.php';
-
-class ConcreteObserver implements Observer {
-    private $name;
-
-    public function __construct($name) {
-        $this->name = $name;
-    }
-
-    public function update($message) {
-        echo "Observer {$this->name} received message: {$message}<br>";
+class ConcreteObserverA implements SplObserver
+{
+    public function update(\SplSubject $subject): void
+    {
+        if ($subject->state < 3) {
+            echo "ConcreteObserverA: Reacted to the event.<br/>";
+        }
     }
 }
-
-?>
 ```
 
----
+![Observer](/UMLs/images/Observer/Observer-4.svg)
 
-**5. index.php**:
-Demonstrating the Observer pattern in action.
+
+Let's also create another concrete observer we call **ConcreteObserverB**.
 ```php
-<?php
-
-include 'ConcreteSubject.php';
-include 'ConcreteObserver.php';
-
-$subject = new ConcreteSubject();
-
-// Create observers
-$observer1 = new ConcreteObserver('Observer 1');
-$observer2 = new ConcreteObserver('Observer 2');
-$observer3 = new ConcreteObserver('Observer 3');
-
-// Attach observers to the subject
-$subject->attach($observer1);
-$subject->attach($observer2);
-$subject->attach($observer3);
-
-// Change state and notify observers
-$subject->setState('New State Set!');
-
-?>
+class ConcreteObserverB implements SplObserver
+{
+    public function update(\SplSubject $subject): void
+    {
+        if ($subject->state == 0 || $subject->state >= 2) {
+            echo "ConcreteObserverB: Reacted to the event.<br/>";
+        }
+    }
+}
 ```
 
----
+Now let put this all together in an index.php file and we have.
 
-**In the Browser**:
-When you visit `index.php` in your browser, you should see:
+```php
+include_once ('Subject.php');
+include_once ('ConcreteObserverA.php');
+include_once ('ConcreteObserverB.php');
+$subject = new Subject;
+
+$o1 = new ConcreteObserverA;
+$subject->attach($o1);
+
+$o2 = new ConcreteObserverB;
+$subject->attach($o2);
+
+$subject->someBusinessLogic();
+$subject->someBusinessLogic();
+
+$subject->detach($o2);
+
+$subject->someBusinessLogic();
 ```
-Observer Observer 1 received message: New State Set!
-Observer Observer 2 received message: New State Set!
-Observer Observer 3 received message: New State Set!
+Now whe view our projext through a browser we have
+
+```
+Subject: Attached an observer.
+Subject: Attached an observer.
+Subject: I'm doing something important.
+Subject: My state has just changed to: 4
+Subject: Notifying observers...
+ConcreteObserverB: Reacted to the event.
+Subject: I'm doing something important.
+Subject: My state has just changed to: 3
+Subject: Notifying observers...
+ConcreteObserverB: Reacted to the event.
+Subject: Detached an observer.
+Subject: I'm doing something important.
+Subject: My state has just changed to: 1
+Subject: Notifying observers...
+ConcreteObserverA: Reacted to the event.
 ```
 
-This indicates that all observers received a notification of the state change in the `ConcreteSubject`.
+[Wikipedia](https://en.wikipedia.org/wiki/Observer_pattern)
 
-**Note**: Always ensure you properly handle includes and paths based on your directory structure. Using `include_once` might be safer in some cases if files might be included multiple times indirectly.
+Find Ray on:
 
+[facebook](https://www.facebook.com/TheRayCode/)
 
+[youtube](https://www.youtube.com/TheRayCode/)
 
-[TheRayCode.ORG](https://www.TheRayCode.org)
+[The Ray Code](https://www.TheRayCode.org)
 
-[RayAndrade.COM](https://www.RayAndrade.com)
-
-[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
-
-
-
-
-
+[Ray Andrade](https://www.RayAndrade.com)
