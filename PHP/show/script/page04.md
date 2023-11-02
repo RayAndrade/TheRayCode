@@ -10,20 +10,16 @@ ConcreteStateA
  extends State
 ```
 
+for **handle1**
 ```
-public function handle1(): void
-{
-    echo "ConcreteStateA handles request1.<br/>";
-    echo "ConcreteStateA wants to change the state of the context.<br/>";
-    $this->context->transitionTo(new ConcreteStateB);
-}
+echo "ConcreteStateA handles request1.<br/>";
+echo "ConcreteStateA wants to change the state of the context.<br/>";
+$this->context->transitionTo(new ConcreteStateB);
 ```
 
+for **handle2**
 ```
-public function handle2(): void
-{
-    echo "ConcreteStateA handles request2.<br/>";
-}
+echo "ConcreteStateA handles request2.<br/>";
 ```
 
 [page 5](./page05.md)
