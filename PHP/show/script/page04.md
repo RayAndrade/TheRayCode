@@ -11,17 +11,11 @@ Class1
 ```
 **requiredOperations1**
 ```
-protected function requiredOperations1(): void
-{
-    echo "ConcreteClass1 says: Implemented Operation1<br/>";
-}
+echo "ConcreteClass1 says: Implemented Operation1<br/>";
 ```
 **requiredOperation2**
 ```
-protected function requiredOperation2(): void
-{
-    echo "ConcreteClass1 says: Implemented Operation2<br/>";
-}
+echo "ConcreteClass1 says: Implemented Operation2<br/>";
 ```
 
 
