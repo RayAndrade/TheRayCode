@@ -1,197 +1,118 @@
 [up](../README.md)
 
-### 1. State.php (The Abstract State)
+This code provides an implementation of the Strategy design pattern in PHP. The Strategy pattern is a behavioral design pattern that defines a family of algorithms, encapsulates each algorithm, and makes them interchangeable. It lets the algorithm vary independently from clients that use it.
 
-**State** is an abstract class that serves as a blueprint for all possible states the context could be in.
+Let's break down each part:
 
-Attributes:
-- `$context`: This attribute holds a reference to the `Context` class. This allows each concrete state to interact and potentially change the current state of the context.
-
-Methods:
-- `setContext(Context $context)`: Allows setting a reference to the `Context` object for a state. This is essential for any concrete state that wishes to transition the context to another state.
-  
-- `handle1()`: An abstract method which defines how this state responds to the `request1` method call on the context. Concrete states will provide their own implementation.
-  
-- `handle2()`: Similarly, an abstract method defining the behavior for the `request2` method call on the context. Again, the concrete states will provide specific implementations.
-
+1. **Strategy.php**
 
 ```php
-abstract class State
+interface Strategy
 {
-    /**
-     * @var Context
-     */
-    protected $context;
-
-    public function setContext(Context $context)
-    {
-        $this->context = $context;
-    }
-
-    abstract public function handle1(): void;
-
-    abstract public function handle2(): void;
+    public function doAlgorithm(array $data): array;
 }
 ```
 
-### 2. Context.php (The Context)
+This is an interface named `Strategy`. It declares a single method `doAlgorithm` which requires an array as an argument and returns an array. Any class that implements this interface will have to provide an actual implementation for this method. This is the core of the Strategy pattern – defining a common interface for all the strategies.
 
-**Context** is the main class in the State pattern. It holds a reference to the current state and allows clients to trigger state transitions and behaviors.
-
-Attributes:
-- `$state`: This holds the current state of the context. It's of type `State`, so it could be an instance of any of the concrete state classes.
-
-Methods:
-- `__construct(State $state)`: The constructor initializes the context with a given state and sets it using the `transitionTo` method.
-  
-- `transitionTo(State $state)`: This method allows the context to change its current state. It sets the new state, updates the state's context reference, and then logs the transition.
-  
-- `request1()` and `request2()`: These methods delegate calls to the current state's respective `handle1` and `handle2` methods. This is where the actual state-based behavior takes place.
-
+2. **Context.php**
 
 ```php
 class Context
 {
-    /**
-     * @var State A reference to the current state of the Context.
-     */
-    private $state;
+    private $strategy;
 
-    public function __construct(State $state)
+    public function __construct(Strategy $strategy)
     {
-        $this->transitionTo($state);
+        $this->strategy = $strategy;
     }
 
-    /**
-     * The Context allows changing the State object at runtime.
-     */
-    public function transitionTo(State $state): void
+    public function setStrategy(Strategy $strategy)
     {
-        echo "Context: Transition to " . get_class($state) . ".<br/>";
-        $this->state = $state;
-        $this->state->setContext($this);
+        $this->strategy = $strategy;
     }
 
-    /**
-     * The Context delegates part of its behavior to the current State object.
-     */
-    public function request1(): void
+    public function doSomeBusinessLogic(): void
     {
-        $this->state->handle1();
-    }
+        echo "Context: Sorting data using the strategy (not sure how it'll do it)<br/>";
 
-    public function request2(): void
-    {
-        $this->state->handle2();
+        $result = $this->strategy->doAlgorithm(["a", "b", "c", "d", "e"]);
+        echo implode(",", $result) . "<br/>";
     }
 }
 ```
 
-### 3. ConcreteStateA.php & ConcreteStateB.php (The Concrete States)
+`Context` is a class that uses a strategy to perform some business logic. It contains:
+- A private variable `$strategy` to hold the current strategy object.
+- A constructor method that accepts a strategy and sets it.
+- A `setStrategy` method that allows changing the strategy at runtime.
+- A `doSomeBusinessLogic` method that uses the strategy to sort an array of characters and then prints out the sorted list. This demonstrates how the `Context` class delegates the sorting operation to the strategy it contains.
 
-These classes represent specific states the context can be in. They extend the abstract `State` class and provide concrete implementations for its abstract methods.
-
-**ConcreteStateA**:
-
-Methods:
-- `handle1()`: Outputs that it's handling request1 and then changes the state of the context to `ConcreteStateB`.
-
-- `handle2()`: Outputs that it's handling request2 but doesn't change the state.
-
-**ConcreteStateB**:
-
-Methods:
-- `handle1()`: Outputs that it's handling request1 but doesn't change the state.
-
-- `handle2()`: Outputs that it's handling request2 and then changes the state of the context back to `ConcreteStateA`.
-
-
-**ConcreteStateA.php**
+3. **ConcreteStrategyA.php**
 
 ```php
-class ConcreteStateA extends State
+class ConcreteStrategyA implements Strategy
 {
-    public function handle1(): void
+    public function doAlgorithm(array $data): array
     {
-        echo "ConcreteStateA handles request1.<br/>";
-        echo "ConcreteStateA wants to change the state of the context.<br/>";
-        $this->context->transitionTo(new ConcreteStateB);
-    }
-
-    public function handle2(): void
-    {
-        echo "ConcreteStateA handles request2.<br/>";
+        sort($data);
+        return $data;
     }
 }
 ```
 
-**ConcreteStateB.php**
+`ConcreteStrategyA` is one of the concrete strategy classes. It implements the `Strategy` interface and provides a specific implementation for the `doAlgorithm` method that sorts the data in ascending order.
+
+4. **ConcreteStrategyB.php**
 
 ```php
-class ConcreteStateB extends State
+class ConcreteStrategyB implements Strategy
 {
-    public function handle1(): void
+    public function doAlgorithm(array $data): array
     {
-        echo "ConcreteStateB handles request1.<br/>";
-    }
-
-    public function handle2(): void
-    {
-        echo "ConcreteStateB handles request2.<br/>";
-        echo "ConcreteStateB wants to change the state of the context.<br/>";
-        $this->context->transitionTo(new ConcreteStateA);
+        rsort($data);
+        return $data;
     }
 }
 ```
 
-### 4. index.php (Client Code)
+`ConcreteStrategyB` is another concrete strategy class. Similar to `ConcreteStrategyA`, it implements the `Strategy` interface, but its implementation for the `doAlgorithm` method sorts the data in descending order.
 
-This script sets everything in motion. It includes all necessary files and then:
-
-- Creates a new `Context` object with an initial state of `ConcreteStateA`.
-  
-- Calls `request1()` on the context, triggering `ConcreteStateA`'s `handle1()` method.
-  
-- Calls `request2()` on the context, which at this point triggers `ConcreteStateB`'s `handle2()` method due to the state transition in the previous step.
-
----
-
-In essence, the design pattern shown here allows the `Context` class to change its behavior when its internal state changes, without modifying the class itself. The behavior for each state is encapsulated in the concrete state classes. The context simply delegates the requests to these state objects.
-
-
-**index.php**
+5. **index.php**
 
 ```php
 include_once ('Context.php');
-include_once ('State.php');
-include_once ('ConcreteStateA.php');
-include_once ('ConcreteStateB.php');
+include_once ('Strategy.php');
+include_once ('ConcreteStrategyA.php');
+include_once ('ConcreteStrategyB.php');
 
-/**
- * The client code.
- */
-$context = new Context(new ConcreteStateA);
-$context->request1();
-$context->request2();
+$context = new Context(new ConcreteStrategyA);
+echo "sorted.<br/>";
+$context->doSomeBusinessLogic();
+
+echo "<br/>";
+
+echo "sorted (reverse).<br/>";
+$context->setStrategy(new ConcreteStrategyB());
+$context->doSomeBusinessLogic();
 ```
 
-what is shown in the browser
+This is the client code. It first includes all the necessary files. It then creates an instance of the `Context` class with `ConcreteStrategyA` as its initial strategy. It does the business logic with this strategy, then changes the strategy to `ConcreteStrategyB` and performs the business logic again.
 
-```run
-Context: Transition to ConcreteStateA.
-ConcreteStateA handles request1.
-ConcreteStateA wants to change the state of the context.
-Context: Transition to ConcreteStateB.
-ConcreteStateB handles request2.
-ConcreteStateB wants to change the state of the context.
-Context: Transition to ConcreteStateA.
-```
+6. **browser view**
+
+The browser view shows the output when the code from `index.php` is run. Initially, the data is sorted in ascending order (`a,b,c,d,e`), and after changing the strategy, it's sorted in descending order (`e,d,c,b,a`).
+
+To summarize, the Strategy pattern here allows the sorting behavior to be defined separately from the `Context` class and lets you easily swap sorting algorithms without changing the client code.
+
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[TheRayCode.COM](https://www.TheRayCode.org)
+
+[RayAndrade.COM](https://www.RayAndrade.com)
+
+[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
 
 
-[facebook](https://www.facebook.com/TheRayCode/)
-
-[youtube](https://www.youtube.com/TheRayCode/)
-
-[The Ray Code](https://www.TheRayCode.org)
-
-[Ray Andrade](https://www.RayAndrade.com)
