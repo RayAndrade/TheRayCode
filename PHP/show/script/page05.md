@@ -19,18 +19,12 @@ This is the second concrete implementation of AbstractClass.
 
 **requiredOperations1**
 ```
-protected function requiredOperations1(): void
-{
-    echo "ConcreteClass2 says: Implemented Operation1<br/>";
-}
+echo "ConcreteClass2 says: Implemented Operation1<br/>";
 ```
 
 **requiredOperation2**
 ```
-protected function requiredOperation2(): void
-{
-    echo "ConcreteClass2 says: Implemented Operation2<br/>";
-}
+echo "ConcreteClass2 says: Implemented Operation2<br/>";
 ```
 
 **hook1**
