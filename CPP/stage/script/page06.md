@@ -10,6 +10,9 @@ Lunch
 ```
 
 ```
+class Lunch {  };
+
+```
 public:
     std::string getName() const override {
         return "Lunch";
