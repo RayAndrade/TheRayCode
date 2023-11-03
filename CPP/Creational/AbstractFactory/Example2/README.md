@@ -72,6 +72,13 @@ public:
     }
 };
 ```
+### MealFactory.h
+This file defines an abstract factory interface with a pure virtual function `createMeal()`. This function is meant to be overridden by concrete factory classes to create specific meal objects.
+
+- `MealFactory`: Abstract factory class, defines a method `createMeal()` which will be implemented by its subclasses to create objects of type `Meal`.
+
+
+
 **MealFactory.h**
 ```cpp
 #include "Meal.h"
@@ -83,11 +90,6 @@ public:
     virtual Meal* createMeal() const = 0; // Creates a meal, to be implemented by concrete factories
 };
 ```
-### MealFactory.h
-This file defines an abstract factory interface with a pure virtual function `createMeal()`. This function is meant to be overridden by concrete factory classes to create specific meal objects.
-
-- `MealFactory`: Abstract factory class, defines a method `createMeal()` which will be implemented by its subclasses to create objects of type `Meal`.
-
 ### BreakfastFactory.h, LunchFactory.h, DinnerFactory.h, DessertFactory.h
 These files each define a concrete factory class that inherits from `MealFactory`. They override the `createMeal()` method to create and return a new instance of their corresponding meal type.
 
