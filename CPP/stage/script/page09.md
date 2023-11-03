@@ -1,34 +1,23 @@
 [home](./page01.md) | [back](./page08.md) | [next](./page10.md)
 
-**BreakfastFactory.h**
+**MealFactory.h**
 
 ```
-BreakfastFactory
-```
-
-
-```
-#include "MealFactory.h"
-#include "Breakfast.h"
-#include "Lunch.h"
-#include "Dinner.h"
-#include "Dessert.h"
-```
-
-
-```
-class BreakfastFactory  {  };
-```
-
-
-```
- : public MealFactory
+MealFactory
 ```
 
 ```
-Meal* createMeal() const override {
-    return new Breakfast();
-}
+#include "Meal.h"
+```
+
+```
+class MealFactory {  };
+```
+
+```
+public:
+    virtual ~MealFactory() {}
+    virtual Meal* createMeal() const = 0; // Creates a meal, to be implemented by concrete factories
 ```
 
 

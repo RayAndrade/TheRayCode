@@ -1,34 +1,32 @@
 [home](./page01.md) | [back](./page12.md) | [next](./page14.md)
 
-at **main.cpp**
+
+**DessertFactory.h**
 ```
-#include <iostream>
-#include "ConcreteMealFactory.h"
-#include "LunchFactory.h"
-#include "DinnerFactory.h"
-#include "DessertFactory.h"
+DessertFactory
 ```
 
 ```
-BreakfastFactory breakfastFactory;
-LunchFactory lunchFactory;
-DinnerFactory dinnerFactory;
-DessertFactory dessertFactory;
+#include "MealFactory.h"
+#include "Breakfast.h"
+#include "Lunch.h"
+#include "Dinner.h"
+#include "Dessert.h"
+```
 
-Meal* breakfast = breakfastFactory.createMeal();
-Meal* lunch = lunchFactory.createMeal();
-Meal* dinner = dinnerFactory.createMeal();
-Meal* dessert = dessertFactory.createMeal();
+```
+class DessertFactory  {  };
+```
 
-std::cout << "1) " << breakfast->getName() << std::endl;
-std::cout << "2) " << lunch->getName() << std::endl;
-std::cout << "3) " << dinner->getName() << std::endl;
-std::cout << "4) " << dessert->getName() << std::endl;
+```
+ : public MealFactory
+```
 
-delete breakfast;
-delete lunch;
-delete dinner;
-delete dessert;
+```
+public:
+    Meal* createMeal() const override {
+        return new Dessert();
+    }
 ```
 
 

@@ -1,10 +1,7 @@
 [home](./page01.md) | [back](./page11.md) | [next](./page13.md)
 
-**DessertFactory.h**
-```
-DessertFactory
-```
 
+**DinnerFactory.h**
 ```
 #include "MealFactory.h"
 #include "Breakfast.h"
@@ -14,17 +11,13 @@ DessertFactory
 ```
 
 ```
-class DessertFactory  {  };
-```
-
-```
- : public MealFactory
+class DinnerFactory {  };
 ```
 
 ```
 public:
     Meal* createMeal() const override {
-        return new Dessert();
+        return new Dinner();
     }
 ```
 

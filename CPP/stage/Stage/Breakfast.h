@@ -2,17 +2,16 @@
 // Created by ray on 11/3/23.
 //
 
-#ifndef BEGINNING_BREAKFAST_H
-#define BEGINNING_BREAKFAST_H
+#ifndef SHOW_BREAKFAST_H
+#define SHOW_BREAKFAST_H
 
 #include "Meal.h"
 
-// Concrete class for Breakfast
-class Breakfast : public Meal {
+class Breakfast {
 public:
-    std::string getName() const override {
+    std::string getName() const  {
         return "Breakfast";
     }
 };
 
-#endif //BEGINNING_BREAKFAST_H
+#endif //SHOW_BREAKFAST_H

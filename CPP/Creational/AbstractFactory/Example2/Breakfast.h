@@ -10,7 +10,7 @@
 // Concrete class for Breakfast
 class Breakfast : public Meal {
 public:
-    std::string getName() const override {
+    std::string getName() const {
         return "Breakfast";
     }
 };

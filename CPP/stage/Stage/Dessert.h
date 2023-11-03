@@ -2,16 +2,16 @@
 // Created by ray on 11/3/23.
 //
 
-#ifndef BEGINNING_DESSERT_H
-#define BEGINNING_DESSERT_H
+#ifndef SHOW_DESSERT_H
+#define SHOW_DESSERT_H
 
 #include "Meal.h"
 
-// Concrete class for Breakfast
-class Dessert : public Meal {
+class Dessert {
 public:
-    std::string getName() const override {
+    std::string getName() const {
         return "Dessert";
     }
 };
-#endif //BEGINNING_DESSERT_H
+
+#endif //SHOW_DESSERT_H
