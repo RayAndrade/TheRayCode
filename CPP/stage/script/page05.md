@@ -11,7 +11,7 @@ class Breakfast {  };
 
 ```
 public:
-    std::string getName() const override {
+    std::string getName() const {
         return "Breakfast";
     }
 ```
