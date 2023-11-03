@@ -1,160 +1,239 @@
-[up](../README.md)
+This C++ code is an implementation of the Abstract Factory design pattern, which is used to create families of related or dependent objects without specifying their concrete classes. Here's a breakdown of each .h (header) file and their roles within this pattern:
 
-This code demonstrates the Template design pattern. Let's break down the classes and functions:
+### Meal.h
+This file declares an abstract base class `Meal`. It has a pure virtual function `getName()` which will be overridden by concrete classes to return the name of the meal.
 
-**AbstractClass.php**:
+- `Meal`: Abstract base class, cannot be instantiated directly. It serves as a contract for subclasses to implement the `getName()` method.
 
-- `AbstractClass`: This is the base class that provides a framework or a blueprint for its subclasses.
-  - `templateMethod()`: This is the main method which dictates the sequence of methods that need to be executed. This is a final method, so it can't be overridden by subclasses.
-  - `baseOperation1()`, `baseOperation2()`, and `baseOperation3()`: These methods provide a default implementation and are not abstract. Hence, they provide the same implementation for all subclasses unless they are overridden.
-  - `requiredOperations1()` and `requiredOperation2()`: These methods are abstract, meaning the subclasses MUST provide an implementation for them.
-  - `hook1()` and `hook2()`: These are hooks that can optionally be overridden by subclasses to provide some customized behavior. By default, they do nothing.
 
-```php
-abstract class AbstractClass
-{
-    final public function templateMethod(): void
-    {
-        $this->baseOperation1();
-        $this->requiredOperations1();
-        $this->baseOperation2();
-        $this->hook1();
-        $this->requiredOperation2();
-        $this->baseOperation3();
-        $this->hook2();
+
+**Meal.h**
+```cpp
+#include <string>
+
+// Abstract base class for a meal
+class Meal {
+public:
+    virtual ~Meal() {}
+    virtual std::string getName() const = 0; // Returns the name of the meal
+};
+```
+### Breakfast.h, Lunch.h, Dinner.h, Dessert.h
+Each of these files declares a concrete class that inherits from `Meal`. They each override the `getName()` method to return the specific name of the meal they represent.
+
+- `Breakfast`, `Lunch`, `Dinner`, `Dessert`: Concrete classes that provide implementations for the `getName()` function inherited from `Meal`, returning the strings "Breakfast", "Lunch", "Dinner", and "Dessert" respectively.
+
+
+**Breakfast.h**
+```cpp
+#include "Meal.h"
+
+// Concrete class for Breakfast
+class Breakfast : public Meal {
+public:
+    std::string getName() const override {
+        return "Breakfast";
     }
+};
+```
+**Lunch.h**
+```cpp
+#include "Meal.h"
 
-    protected function baseOperation1(): void
-    {
-        echo "AbstractClass says: I am doing the bulk of the work<br/>";
+// Concrete class for Breakfast
+class Lunch : public Meal {
+public:
+    std::string getName() const override {
+        return "Lunch";
     }
+};
+```
+**Dinner.h**
+```cpp
+#include "Meal.h"
 
-    protected function baseOperation2(): void
-    {
-        echo "AbstractClass says: But I let subclasses override some operations<br/>";
+// Concrete class for Breakfast
+class Dinner : public Meal {
+public:
+    std::string getName() const override {
+        return "Dinner";
     }
+};
+```
+**Dessert.h**
+```cpp
+#include "Meal.h"
 
-    protected function baseOperation3(): void
-    {
-        echo "AbstractClass says: But I am doing the bulk of the work anyway<br/>";
+// Concrete class for Breakfast
+class Dessert : public Meal {
+public:
+    std::string getName() const override {
+        return "Dessert";
     }
+};
+```
+**MealFactory.h**
+```cpp
+#include "Meal.h"
 
-    abstract protected function requiredOperations1(): void;
+// Abstract Factory for meals
+class MealFactory {
+public:
+    virtual ~MealFactory() {}
+    virtual Meal* createMeal() const = 0; // Creates a meal, to be implemented by concrete factories
+};
+```
+### MealFactory.h
+This file defines an abstract factory interface with a pure virtual function `createMeal()`. This function is meant to be overridden by concrete factory classes to create specific meal objects.
 
-    abstract protected function requiredOperation2(): void;
+- `MealFactory`: Abstract factory class, defines a method `createMeal()` which will be implemented by its subclasses to create objects of type `Meal`.
 
-    protected function hook1(): void { }
+### BreakfastFactory.h, LunchFactory.h, DinnerFactory.h, DessertFactory.h
+These files each define a concrete factory class that inherits from `MealFactory`. They override the `createMeal()` method to create and return a new instance of their corresponding meal type.
 
-    protected function hook2(): void { }
+- `BreakfastFactory`, `LunchFactory`, `DinnerFactory`, `DessertFactory`: Concrete factories that implement the `createMeal()` function, creating and returning a new instance of `Breakfast`, `Lunch`, `Dinner`, and `Dessert`, respectively.
+
+### main.cpp
+This is the main program file where the concrete factories are used to create meal objects. The `main()` function does the following:
+
+1. Creates instances of the concrete factories.
+2. Uses these factories to create meal objects.
+3. Outputs the names of the created meals.
+4. Cleans up by deleting the dynamically allocated meal objects to prevent memory leaks.
+
+The output "1) Breakfast 2) Lunch 3) Dinner 4) Dessert" is produced by calling the `getName()` method on each of the created meal objects.
+
+### Notes on the Implementation
+- The `Meal` class defines an interface for the products that are being created.
+- The `MealFactory` class defines an interface for the factories that create these products.
+- The concrete factory classes (`BreakfastFactory`, `LunchFactory`, `DinnerFactory`, `DessertFactory`) implement the factory interface to create concrete products.
+- In the `main()` function, factory objects are used to create product objects without specifying the exact class of object that will be created.
+
+This code effectively demonstrates the Abstract Factory pattern by decoupling the creation of objects from their implementation, allowing for flexibility and scalability in the codebase. If a new meal type needs to be added, one can simply create a new concrete class for the meal and a corresponding factory without modifying existing code.
+
+
+**ConcreteMealFactory.h**
+```cpp
+#include "MealFactory.h"
+#include "Breakfast.h"
+#include "Lunch.h"
+#include "Dinner.h"
+#include "Dessert.h"
+
+// Concrete factory for Breakfast
+class BreakfastFactory : public MealFactory {
+public:
+    Meal* createMeal() const override {
+        return new Breakfast();
+    }
+};
+```
+**BreakfastFactory.h**
+```cpp
+#include "MealFactory.h"
+#include "Breakfast.h"
+#include "Lunch.h"
+#include "Dinner.h"
+#include "Dessert.h"
+
+// Concrete factory for Breakfast
+class BreakfastFactory : public MealFactory {
+public:
+    Meal* createMeal() const override {
+        return new Breakfast();
+    }
+};
+```
+**LunchFactory.h**
+```cpp
+#include "MealFactory.h"
+#include "Breakfast.h"
+#include "Lunch.h"
+#include "Dinner.h"
+#include "Dessert.h"
+
+// Concrete factory for Breakfast
+class LunchFactory : public MealFactory {
+public:
+    Meal* createMeal() const override {
+        return new Lunch();
+    }
+};
+```
+**DinnerFactory.h**
+```cpp
+#include "MealFactory.h"
+#include "Breakfast.h"
+#include "Lunch.h"
+#include "Dinner.h"
+#include "Dessert.h"
+
+// Concrete factory for Breakfast
+class DinnerFactory : public MealFactory {
+public:
+    Meal* createMeal() const override {
+        return new Dinner();
+    }
+};
+```
+**DessertFactory.h**
+```cpp
+#include "MealFactory.h"
+#include "Breakfast.h"
+#include "Lunch.h"
+#include "Dinner.h"
+#include "Dessert.h"
+
+// Concrete factory for Dessert
+class DessertFactory : public MealFactory {
+public:
+    Meal* createMeal() const override {
+        return new Dessert();
+    }
+};
+```
+**main.cpp**
+```cpp
+#include <iostream>
+#include "ConcreteMealFactory.h"
+#include "LunchFactory.h"
+#include "DinnerFactory.h"
+#include "DessertFactory.h"
+//#include "ConcreteMealFactory.h"
+
+int main() {
+    // Create concrete factories
+    BreakfastFactory breakfastFactory;
+    LunchFactory lunchFactory;
+    DinnerFactory dinnerFactory;
+    DessertFactory dessertFactory;
+
+    // Create meals using the factories
+    Meal* breakfast = breakfastFactory.createMeal();
+    Meal* lunch = lunchFactory.createMeal();
+    Meal* dinner = dinnerFactory.createMeal();
+    Meal* dessert = dessertFactory.createMeal();
+
+    // Output the names of the meals
+    std::cout << "1) " << breakfast->getName() << std::endl;
+    std::cout << "2) " << lunch->getName() << std::endl;
+    std::cout << "3) " << dinner->getName() << std::endl;
+    std::cout << "4) " << dessert->getName() << std::endl;
+
+    // Cleanup
+    delete breakfast;
+    delete lunch;
+    delete dinner;
+    delete dessert;
+    return 0;
 }
 ```
-
-**Class1.php**:
-
-- `Class1`: This is the first concrete implementation of `AbstractClass`.
-  - `requiredOperations1()` and `requiredOperation2()`: This class provides the required implementations for these two abstract methods.
-
-Note: There's an oversight in the code, the name of the class is `Class1` but the echo statements refer to it as `ConcreteClass1`.
-
-```php
-class Class1 extends AbstractClass
-{
-    protected function requiredOperations1(): void
-    {
-        echo "ConcreteClass1 says: Implemented Operation1<br/>";
-    }
-
-    protected function requiredOperation2(): void
-    {
-        echo "ConcreteClass1 says: Implemented Operation2<br/>";
-    }
-}
-```
-**Class2.php**:
-
-- `Class1`: There's an error in the naming here. It should be `Class2` instead of `Class1`. This is the second concrete implementation of `AbstractClass`.
-  - `requiredOperations1()` and `requiredOperation2()`: This class provides the required implementations for these two abstract methods.
-  - `hook1()`: This method overrides the default hook1 method in `AbstractClass` to provide a customized behavior.
-
-```php
-class Class1 extends AbstractClass
-{
-    protected function requiredOperations1(): void
-    {
-        echo "ConcreteClass2 says: Implemented Operation1<br/>";
-    }
-
-    protected function requiredOperation2(): void
-    {
-        echo "ConcreteClass2 says: Implemented Operation2<br/>";
-    }
-
-    protected function hook1(): void
-    {
-        echo "ConcreteClass2 says: Overridden Hook1<br/>";
-    }
-}
-```
-
-**index.php**:
-
-- This is the main file that brings all the classes together and demonstrates the Template design pattern.
-  - `clientCode()`: This function accepts any subclass of `AbstractClass` and calls its `templateMethod()`. It illustrates that the same client code can work with different concrete implementations of an algorithm.
-  - The two calls to `clientCode()` demonstrate how the same client code works with two different subclasses, `Class1` and `Class2`.
-
-```php
-include_once ('AbstractClass.php');
-include_once('Class1.php');
-include_once('Class2.php');
-
-function clientCode(AbstractClass $class)
-{
-    // ...
-    $class->templateMethod();
-    // ...
-}
-
-echo "Same client code can work with different subclasses:<br/>";
-clientCode(new Class1);
-echo "\n";
-
-echo "Same client code can work with different subclasses:<br/>";
-clientCode(new Class2);
-
-```
-
-**Run in The Browser**:
-
-The provided output shows the sequence of method calls that take place when the client code interacts with the two concrete subclasses (`Class1` and `Class2`). 
-
-For `Class1`, it follows the default behavior of `AbstractClass` while providing its own implementations for the required methods. For `Class2`, in addition to providing its own implementations for the required methods, it also overrides `hook1()` to demonstrate a different behavior.
-
+result
 ```run
-Same client code can work with different subclasses:
-AbstractClass says: I am doing the bulk of the work
-ConcreteClass1 says: Implemented Operation1
-AbstractClass says: But I let subclasses override some operations
-ConcreteClass1 says: Implemented Operation2
-AbstractClass says: But I am doing the bulk of the work anyway
-Same client code can work with different subclasses:
-AbstractClass says: I am doing the bulk of the work
-ConcreteClass2 says: Implemented Operation1
-AbstractClass says: But I let subclasses override some operations
-ConcreteClass2 says: Overridden Hook1
-ConcreteClass2 says: Implemented Operation2
-AbstractClass says: But I am doing the bulk of the work anyway
+1) Breakfast
+2) Lunch
+3) Dinner
+4) Dessert
 ```
-In conclusion, the Template design pattern allows you to define the skeleton of an algorithm in a base class and let subclasses override specific steps of the algorithm without changing its overall structure.
-
-
-----------------------------------------------------------------------------------------------------
-
-Find Ray on:
-
-[TheRayCode.ORG](https://www.TheRayCode.org)
-
-[RayAndrade.COM](https://www.RayAndrade.com)
-
-[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
-
+=============================================================================
 

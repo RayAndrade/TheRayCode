@@ -1,27 +1,20 @@
 [home](./page01.md) | [back](./page03.md) | [next](./page05.md)
-
-**ComponentB.php**
+**Meal.h**
 ```
-ComponentB
+Meal
 ```
-**ComponentB**: Similarly to **ComponentA**, it also implements the Component interface. 
-
-Its accept method redirects the call to the visitor's visitComponentB method.
-**specialMethodOfComponentB**(): A unique method to the ComponentB class which returns the string "B".
 
 ```
- implements Component
+#include <string>
 ```
-for **accept**
 ```
-$visitor->visitComponentB($this);
+class Meal { };
 ```
-and we add:
+
 ```
-public function specialMethodOfComponentB(): string
-{
-    return "B";
-}
+public:
+    virtual ~Meal() {}
+    virtual std::string getName() const = 0;
 ```
 
 

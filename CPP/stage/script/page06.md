@@ -1,23 +1,20 @@
 [home](./page01.md) | [back](./page05.md) | [next](./page07.md)
 
-**Visitor1.php**
+**Lunch.h**
 ```
-Visitor1
+Lunch
+```
+
+```
+#include "Meal.h"
 ```
 
 ```
-  implements Visitor
+public:
+    std::string getName() const override {
+        return "Lunch";
+    }
 ```
 
-
-for **visitComponentA**
-```
-echo $element->exclusiveMethodOfComponentA() . " + Visitor1<br/>";
-```
-
-for **visitComponentB**
-```
-echo $element->specialMethodOfComponentB() . " + Visitor1<br/>";
-```
 
 [page 7](./page07.md)

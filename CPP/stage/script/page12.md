@@ -1,9 +1,8 @@
-[home](./page01.md) | [back](./page09.md) | [next](./page11.md)
+[home](./page01.md) | [back](./page11.md) | [next](./page13.md)
 
-**LunchFactory.h**
-
+**DessertFactory.h**
 ```
-LunchFactory
+DessertFactory
 ```
 
 ```
@@ -15,21 +14,19 @@ LunchFactory
 ```
 
 ```
-class LunchFactory {  };
+class DessertFactory  {  };
 ```
 
-
 ```
- : public MealFactory 
+ : public MealFactory
 ```
 
 ```
 public:
     Meal* createMeal() const override {
-        return new Lunch();
+        return new Dessert();
     }
-};
 ```
 
 
-[page11](./page11.md)
+[page13](./page13.md)
