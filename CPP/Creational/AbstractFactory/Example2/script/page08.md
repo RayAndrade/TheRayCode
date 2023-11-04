@@ -1,9 +1,6 @@
-[home](./page01.md)
-
-[back](./page07.md)
+[home](./page01.md) | [back](./page07.md) | [next](./page09.md)
 
 **Dessert.h**
-
 ```
 Dessert
 ```
@@ -17,8 +14,12 @@ class Dessert {  };
 ```
 
 ```
+ : public Meal
+```
+
+```
 public:
-    std::string getName() const override {
+    std::string getName() const {
         return "Dessert";
     }
 ```

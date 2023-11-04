@@ -1,27 +1,28 @@
-[home](./page01.md)
+[home](./page01.md) | [back](./page11.md) | [next](./page13.md)
 
-[back](./page11.md)
 
-**LunchFactory.h**
+**DinnerFactory.h**
+```
+#include "MealFactory.h"
+#include "Dinner.h"
+```
 
 ```
-LunchFactory
-```
-
-```
-class LunchFactory {  };
+class DinnerFactory {  };
 ```
 
 ```
  : public MealFactory
 ```
 
+
+
 ```
 public:
-    Meal* createMeal() const override {
-        return new Lunch();
+    Meal* createMeal() const {
+        return new Dinner();
     }
 ```
 
 
-[page 13](./page13.md)
+[page13](./page13.md)

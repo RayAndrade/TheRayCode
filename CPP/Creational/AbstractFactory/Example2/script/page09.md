@@ -1,6 +1,4 @@
-[home](./page01.md)
-
-[back](./page08.md)
+[home](./page01.md) | [back](./page08.md) | [next](./page10.md)
 
 **MealFactory.h**
 
@@ -19,10 +17,8 @@ class MealFactory {  };
 ```
 public:
     virtual ~MealFactory() {}
-    virtual Meal* createMeal() const = 0; 
+    virtual Meal* createMeal() const = 0; // Creates a meal, to be implemented by concrete factories
 ```
-Creates a meal, to be implemented by concrete factories
 
 
-
-[page 10](./page10.md)
+[page10](./page10.md)
