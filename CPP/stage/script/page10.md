@@ -26,7 +26,7 @@ class BreakfastFactory  {  };
 
 ```
 Meal* createMeal() const override {
-        return reinterpret_cast<Meal *>(new Breakfast());
+        return new Breakfast();
     }
 ```
 
