@@ -17,7 +17,7 @@ class DinnerFactory {  };
 ```
 public:
     Meal* createMeal() const {
-        return reinterpret_cast<Meal *>(new Dinner());
+        return new Dinner();
     }
 ```
 
