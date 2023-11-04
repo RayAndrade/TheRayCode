@@ -1,10 +1,10 @@
 [home](./page01.md) | [back](./page01.md) | [next](./page02.md)
 
 
-**main.cpp**
+**PHP 8.1**
 
 ```
-std::cout << "The Ray Code is AWESOME!!!"<< std::endl;
+echo "The Ray Code is AWESOME!!!";
 ```
 
 
