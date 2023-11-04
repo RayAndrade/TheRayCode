@@ -25,6 +25,7 @@ class BreakfastFactory  {  };
 ```
 
 ```
+public:
 Meal* createMeal() const override {
         return new Breakfast();
     }
