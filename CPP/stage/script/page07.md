@@ -10,6 +10,11 @@ class Dinner {  };
 ```
 
 ```
+ : public Meal
+```
+
+
+```
 public:
     std::string getName() const {
         return "Dinner";
