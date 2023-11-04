@@ -2,8 +2,8 @@
 // Created by ray on 11/3/23.
 //
 
-#ifndef SHOW_DINNER_H
-#define SHOW_DINNER_H
+#ifndef BEGINNING_DINNER_H
+#define BEGINNING_DINNER_H
 
 #include "Meal.h"
 
@@ -14,4 +14,4 @@ public:
     }
 };
 
-#endif //SHOW_DINNER_H
+#endif //BEGINNING_DINNER_H

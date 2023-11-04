@@ -2,16 +2,16 @@
 // Created by ray on 11/3/23.
 //
 
-#ifndef SHOW_BREAKFAST_H
-#define SHOW_BREAKFAST_H
+#ifndef BEGINNING_BREAKFAST_H
+#define BEGINNING_BREAKFAST_H
 
 #include "Meal.h"
 
 class Breakfast {
 public:
-    std::string getName() const  {
+    std::string getName() const {
         return "Breakfast";
     }
 };
 
-#endif //SHOW_BREAKFAST_H
+#endif //BEGINNING_BREAKFAST_H

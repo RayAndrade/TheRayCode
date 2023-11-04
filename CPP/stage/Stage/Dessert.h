@@ -2,8 +2,8 @@
 // Created by ray on 11/3/23.
 //
 
-#ifndef SHOW_DESSERT_H
-#define SHOW_DESSERT_H
+#ifndef BEGINNING_DESSERT_H
+#define BEGINNING_DESSERT_H
 
 #include "Meal.h"
 
@@ -14,4 +14,4 @@ public:
     }
 };
 
-#endif //SHOW_DESSERT_H
+#endif //BEGINNING_DESSERT_H

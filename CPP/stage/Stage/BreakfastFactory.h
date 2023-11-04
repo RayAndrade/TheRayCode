@@ -2,8 +2,8 @@
 // Created by ray on 11/3/23.
 //
 
-#ifndef SHOW_BREAKFASTFACTORY_H
-#define SHOW_BREAKFASTFACTORY_H
+#ifndef BEGINNING_BREAKFASTFACTORY_H
+#define BEGINNING_BREAKFASTFACTORY_H
 
 #include "MealFactory.h"
 #include "Breakfast.h"
@@ -11,4 +11,10 @@
 #include "Dinner.h"
 #include "Dessert.h"
 
-#endif //SHOW_BREAKFASTFACTORY_H
+class BreakfastFactory : public MealFactory  {
+    Meal* createMeal() const override {
+        return reinterpret_cast<Meal *>(new Breakfast());
+    }
+};
+
+#endif //BEGINNING_BREAKFASTFACTORY_H

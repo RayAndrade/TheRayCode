@@ -2,8 +2,8 @@
 // Created by ray on 11/3/23.
 //
 
-#ifndef SHOW_LUNCH_H
-#define SHOW_LUNCH_H
+#ifndef BEGINNING_LUNCH_H
+#define BEGINNING_LUNCH_H
 
 #include "Meal.h"
 
@@ -15,4 +15,4 @@ public:
 };
 
 
-#endif //SHOW_LUNCH_H
+#endif //BEGINNING_LUNCH_H
