@@ -26,9 +26,8 @@ class LunchFactory {  };
 ```
 public:
     Meal* createMeal() const override {
-        return new Lunch();
+        return reinterpret_cast<Meal *>(new Lunch());
     }
-};
 ```
 
  [page12](./page12.md)
