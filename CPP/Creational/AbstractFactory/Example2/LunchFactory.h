@@ -14,7 +14,7 @@
 // Concrete factory for Breakfast
 class LunchFactory : public MealFactory {
 public:
-    Meal* createMeal() const override {
+    Meal* createMeal() const override{
         return new Lunch();
     }
 };
