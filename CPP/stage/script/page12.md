@@ -15,6 +15,12 @@ class DinnerFactory {  };
 ```
 
 ```
+ : public MealFactory
+```
+
+
+
+```
 public:
     Meal* createMeal() const {
         return new Dinner();
