@@ -8,14 +8,20 @@ at **ConcreteMealFactory.h**
 #include "Lunch.h"
 #include "Dinner.h"
 #include "Dessert.h"
+```
 
-// Concrete factory for Breakfast
-class BreakfastFactory : public MealFactory {
+```
+class BreakfastFactory  {  };
+```
+```
+ : public MealFactory
+```
+
+```
 public:
     Meal* createMeal() const override {
-        return new Breakfast();
+        return reinterpret_cast<Meal *>(new Breakfast());
     }
-};
 ```
 
 
