@@ -11,8 +11,12 @@ Lunch
 
 ```
 class Lunch {  };
+```
 
 ```
+ : public Meal
+```
+
 ```
 public:
     std::string getName() const {
