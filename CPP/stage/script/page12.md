@@ -16,8 +16,8 @@ class DinnerFactory {  };
 
 ```
 public:
-    Meal* createMeal() const override {
-        return new Dinner();
+    Meal* createMeal() const {
+        return reinterpret_cast<Meal *>(new Dinner());
     }
 ```
 
