@@ -26,8 +26,8 @@ class BreakfastFactory  {  };
 
 ```
 Meal* createMeal() const override {
-    return new Breakfast();
-}
+        return reinterpret_cast<Meal *>(new Breakfast());
+    }
 ```
 
 [page11](./page11.md)
