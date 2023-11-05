@@ -46,6 +46,7 @@ void display() const {
             std::cout << topping << " ";
         }
         std::cout << std::endl;
+}
 ```
 
 
