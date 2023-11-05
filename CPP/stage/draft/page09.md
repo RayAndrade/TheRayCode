@@ -1,5 +1,5 @@
-[home](./page01.md) | [back](./page08.md) | [next](./page10.md)
+[home](./page01.md) | [back](./page08.md) 
 
-page09
+The End
 
-[page10](./page10.md)
+[Start over](./page01.md)
