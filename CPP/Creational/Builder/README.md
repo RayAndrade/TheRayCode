@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Builder**](../Builder/README.md) | [**C#**](../../../Csharp/Creational/Builder/README.md) | [Java](../../../Java/Creational/Builder/README.md) | [PHP](../../../PHP/Creational/Builder/README.md) |
 
-[Example](../README.md)
+[Example](Example/README.md)
 
 **Builder Design Pattern**:
 
