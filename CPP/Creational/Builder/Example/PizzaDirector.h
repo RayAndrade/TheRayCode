@@ -5,17 +5,28 @@
 #ifndef BEGINNING_PIZZADIRECTOR_H
 #define BEGINNING_PIZZADIRECTOR_H
 
-#include "PizzaBuilder.h"
+#include "Pizza.h"
 
-// Director class that constructs an object using the Builder interface.
-class PizzaDirector {
+// Abstract Builder
+class PizzaBuilder {
+protected:
+    Pizza* pizza;
 public:
-    void construct(PizzaBuilder& builder) {
-        builder.createNewPizzaProduct();
-        builder.buildDough();
-        builder.buildSauce();
-        builder.buildTopping();
+    PizzaBuilder() : pizza(nullptr) {}
+
+    virtual ~PizzaBuilder() {}
+
+    Pizza* getPizza() {
+        return pizza;
     }
+
+    void createNewPizzaProduct() {
+        pizza = new Pizza();
+    }
+
+    virtual void buildDough() = 0;
+    virtual void buildSauce() = 0;
+    virtual void buildTopping() = 0;
 };
 
 #endif //BEGINNING_PIZZADIRECTOR_H

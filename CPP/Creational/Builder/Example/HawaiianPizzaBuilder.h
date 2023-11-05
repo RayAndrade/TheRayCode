@@ -5,7 +5,6 @@
 #ifndef BEGINNING_HAWAIIANPIZZABUILDER_H
 #define BEGINNING_HAWAIIANPIZZABUILDER_H
 
-
 #include "PizzaBuilder.h"
 
 // Concrete Builder for Hawaiian pizza.
