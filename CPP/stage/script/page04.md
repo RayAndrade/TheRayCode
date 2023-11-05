@@ -6,25 +6,6 @@ Now, let's create a concrete builder class that implements the PizzaBuilder inte
 PizzaBuilder
 ```
 
-```
-#include "PizzaBuilder.h"
-```
-
- Director class that constructs an object using the Builder interface.
-```
-class PizzaDirector {  }:
-```
-
-
-```
-public:
-    void construct(PizzaBuilder& builder) {
-        builder.createNewPizzaProduct();
-        builder.buildDough();
-        builder.buildSauce();
-        builder.buildTopping();
-    }
-```
-
+Blank
 
 [page 5](./page05.md)
