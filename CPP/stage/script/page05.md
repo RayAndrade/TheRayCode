@@ -1,24 +1,31 @@
 [home](./page01.md) | [back](./page04.md) | [next](./page06.md)
 
-Now, let's use these classes in our main.cpp.
+Finally, we need a Director class that defines the order of construction steps.
 
+Create *class*
 ```
-#include <iostream>
-#include "Pizza.h"
+PizzaDirector
+```
+
+include the **PizzaBuilder**
+```
 #include "PizzaBuilder.h"
-#include "HawaiianPizzaBuilder.h"
-#include "PizzaDirector.h"
 ```
 
 ```
-PizzaDirector director;
-HawaiianPizzaBuilder hawaiianBuilder;
-
-director.construct(hawaiianBuilder);
-Pizza* pizza = hawaiianBuilder.getPizza();
-pizza->display();
-
-delete pizza; // Don't forget to deallocate memory!
+class PizzaDirector {  };
 ```
+
+```
+public:
+    void construct(PizzaBuilder& builder) {
+        builder.createNewPizzaProduct();
+        builder.buildDough();
+        builder.buildSauce();
+        builder.buildTopping();
+    }
+```
+
+
 
 [page 6](./page06.md)

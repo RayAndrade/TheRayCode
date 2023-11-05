@@ -1,5 +1,8 @@
-[home](./page01.md) | [back](./page06.md) |
+[home](./page01.md) | [back](./page06.md) | [next](./page08.md)
 
-The End
+When you run the code, you should see something like this printed to the console:
+```
+Pizza with cross dough, mild sauce, toppings: ham pineapple 
+```
 
-[start over](./page01.md)
+[page 8](./page08.md)

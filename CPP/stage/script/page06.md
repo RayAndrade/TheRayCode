@@ -1,9 +1,30 @@
 [home](./page01.md) | [back](./page05.md) | [next](./page07.md)
 
-When you run the code, you should see something like this printed to the console:
+Now we go to the **main.cpp**
+
+Let's incude the file we just created:
+```
+#include <iostream>
+#include "Pizza.h"
+#include "PizzaBuilder.h"
+#include "HawaiianPizzaBuilder.h"
+#include "PizzaDirector.h"
+```
+at the **main** methed:
 
 ```
-Pizza with cross dough, mild sauce, toppings: ham pineapple 
+PizzaDirector director;
+HawaiianPizzaBuilder hawaiianBuilder;
+```
+
+```
+director.construct(hawaiianBuilder);
+Pizza* pizza = hawaiianBuilder.getPizza();
+pizza->display();
+```
+
+```
+delete pizza; // Don't forget to deallocate memory!
 ```
 
 

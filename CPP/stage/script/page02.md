@@ -1,54 +1,53 @@
 [home](./page01.md) | [back](./page01.md) | [next](./page03.md)
 
-In our example, let's create a simple Pizza object that requires various ingredients like dough, sauce, and topping. 
-
-We'll have a PizzaBuilder to encapsulate the construction logic for a Pizza object.
-
-First, we'll define the Pizza class that represents the product created by the builder.
-
+Create Class:
 ```
 Pizza
 ```
-
+include string and vector
 ```
 #include <string>
 #include <vector>
 ```
-
+**Pizza** is the complex object that is created by the builder.
 ```
 class Pizza {  };
 ```
-
+private varables
 ```
 private:
     std::string dough;
     std::string sauce;
     std::vector<std::string> toppings;
 ```
-
+public **setDough**
 ```
 public:
     void setDough(const std::string& d) {
         dough = d;
     }
 ```
-
+**setSauce**
+```
+void setSauce(const std::string& s) {
+    sauce = s;
+}
+```
+**addTopping**
 ```
 void addTopping(const std::string& topping) {
-        toppings.push_back(topping);
-    }
+    toppings.push_back(topping);
+}
 ```
-
+for **display**
 ```
 void display() const {
-        std::cout << "Pizza with " << dough << " dough, " << sauce << " sauce, toppings: ";
-        for (const auto& topping : toppings) {
-            std::cout << topping << " ";
-        }
-        std::cout << std::endl;
+    std::cout << "Pizza with " << dough << " dough, " << sauce << " sauce, toppings: ";
+    for (const auto& topping : toppings) {
+        std::cout << topping << " ";
+    }
+    std::cout << std::endl;
+}
 ```
-
-
-
 
 [page 3](./page03.md)
