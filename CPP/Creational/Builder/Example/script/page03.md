@@ -6,6 +6,10 @@ PizzaBuilder
 ```
 
 ```
+#include "Pizza.h"
+```
+
+```
 class PizzaBuilder {  };
 ```
 
