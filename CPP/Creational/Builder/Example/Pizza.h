@@ -1,12 +1,13 @@
 //
-// Created by ray on 11/5/23.
+// Created by ray on 11/9/23.
 //
 
 #ifndef BEGINNING_PIZZA_H
 #define BEGINNING_PIZZA_H
 
-#include <iostream>
+
 #include <vector>
+#include <iostream>
 
 class Pizza {
 private:
@@ -17,6 +18,10 @@ private:
 public:
     void setDough(const std::string& d) {
         dough = d;
+    }
+
+    void setSauce(const std::string& s) {
+        sauce = s;
     }
 
     void addTopping(const std::string& topping) {
@@ -30,7 +35,6 @@ public:
         }
         std::cout << std::endl;
     }
-
 };
 
 #endif //BEGINNING_PIZZA_H

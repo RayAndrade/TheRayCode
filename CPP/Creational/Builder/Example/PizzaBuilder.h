@@ -1,5 +1,5 @@
 //
-// Created by ray on 11/5/23.
+// Created by ray on 11/9/23.
 //
 
 #ifndef BEGINNING_PIZZABUILDER_H
@@ -7,10 +7,10 @@
 
 #include "Pizza.h"
 
+// Abstract Builder
 class PizzaBuilder {
 protected:
     Pizza* pizza;
-
 public:
     PizzaBuilder() : pizza(nullptr) {}
 
@@ -27,8 +27,6 @@ public:
     virtual void buildDough() = 0;
     virtual void buildSauce() = 0;
     virtual void buildTopping() = 0;
-
 };
-
 
 #endif //BEGINNING_PIZZABUILDER_H
