@@ -13,6 +13,5 @@ int main() {
         std::cout << "Created: " << productB->GetName() << std::endl;
         delete productB;
     }
-    std::cout << "Hello, World!" << std::endl;
     return 0;
 }
