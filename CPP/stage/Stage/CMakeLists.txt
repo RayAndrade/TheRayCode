@@ -4,4 +4,6 @@ project(beginning)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(beginning main.cpp
-        Prototype.h)
+        Prototype.h
+        ConcretePrototype.h
+)
