@@ -1,102 +1,101 @@
 [up](../README.md)
 
-The Prototype design pattern is a creational pattern used in software development when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects. This pattern is particularly useful when the cost of creating an object is more expensive or complex than copying an existing instance.
+Creating a C++ example using the Prototype design pattern in the context of a circus clown scenario involves several steps. First, let's outline the structure of the project and the classes we'll use, then dive into the details of each class.
 
-Let's break down a C++ implementation of the Prototype pattern:
+### Project Structure
+1. **Clown.h**: Defines the `Clown` class.
+2. **ClownPrototype.h**: Defines the `ClownPrototype` abstract class (Prototype interface).
+3. **Main.cpp**: Demonstrates the usage of the Prototype pattern.
 
-### 1. Prototype Interface (Prototype.h)
-
-This is an abstract class defining the interface for cloning itself. It typically contains a `clone()` method.
+### ClownPrototype.h
+This abstract class serves as the prototype interface. It declares a pure virtual `clone` method.
 
 ```cpp
-// Prototype.h
-#ifndef PROTOTYPE_H
-#define PROTOTYPE_H
+#ifndef CLOWNPROTOTYPE_H
+#define CLOWNPROTOTYPE_H
 
-class Prototype {
+class ClownPrototype {
 public:
-    virtual ~Prototype() {}
-    virtual Prototype* clone() const = 0;
+    virtual ~ClownPrototype() {}
+    virtual ClownPrototype* clone() = 0;
 };
 
-#endif // PROTOTYPE_H
+#endif
 ```
 
-### 2. Concrete Prototype (ConcretePrototype.h)
-
-This class implements the Prototype interface and defines the concrete object that will be cloned.
-
-```cpp
-// ConcretePrototype.h
-#ifndef CONCRETEPROTOTYPE_H
-#define CONCRETEPROTOTYPE_H
-
-#include "Prototype.h"
-#include <string>
-
-class ConcretePrototype : public Prototype {
-private:
-    std::string data;
-
-public:
-    ConcretePrototype(std::string data) : data(data) {}
-    ConcretePrototype(const ConcretePrototype& other) : data(other.data) {}
-    Prototype* clone() const override {
-        return new ConcretePrototype(*this);
-    }
-
-    std::string getData() const {
-        return data;
-    }
-};
-
-#endif // CONCRETEPROTOTYPE_H
-```
-
-### 3. Main Application (main.cpp)
-
-This is where you demonstrate the use of the Prototype pattern.
+### Clown.h
+The `Clown` class, which inherits from `ClownPrototype`, represents a specific type of clown. It implements the `clone` method.
 
 ```cpp
-// main.cpp
+#ifndef CLOWN_H
+#define CLOWN_H
+
+#include "ClownPrototype.h"
 #include <iostream>
-#include "ConcretePrototype.h"
+
+class Clown : public ClownPrototype {
+private:
+    std::string name;
+public:
+    Clown(std::string name) : name(name) {}
+
+    ClownPrototype* clone() override {
+        return new Clown(*this);
+    }
+
+    void perform() {
+        // Example action
+        std::cout << "Clown " << name << " is performing!" << std::endl;
+    }
+};
+
+#endif
+```
+
+### Main.cpp
+This file demonstrates the use of the Prototype pattern to create a clone of a clown.
+
+```cpp
+#include <iostream>
+#include "Clown.h"
 
 int main() {
-    ConcretePrototype* prototype = new ConcretePrototype("Example");
-    ConcretePrototype* clonedPrototype = dynamic_cast<ConcretePrototype*>(prototype->clone());
+    Clown* originalClown = new Clown("Happy");
+    originalClown->perform();
 
-    std::cout << "Original object data: " << prototype->getData() << std::endl;
-    std::cout << "Cloned object data: " << clonedPrototype->getData() << std::endl;
+    // Cloning the clown
+    Clown* clonedClown = static_cast<Clown*>(originalClown->clone());
+    clonedClown->perform();
 
-    delete prototype;
-    delete clonedPrototype;
-
+    delete originalClown;
+    delete clonedClown;
     return 0;
 }
 ```
 
-### Class Explanation
+### Explanation and Details
+- **ClownPrototype.h**: This abstract class defines the prototype interface with a `clone` method that must be implemented by any class that inherits from it.
+- **Clown.h**: 
+  - The `Clown` class inherits from `ClownPrototype` and represents a specific clown.
+  - It contains a private string `name` to identify the clown.
+  - The `clone` method creates a new `Clown` object by copying the current object (shallow copy).
+  - The `perform` method is an example action that a clown might do.
+- **Main.cpp**: 
+  - Creates an original clown.
+  - Clones the clown using the `clone` method.
+  - Both original and cloned clowns perform an action.
+  - Proper memory management is demonstrated with `delete`.
 
-- **Prototype.h**: This abstract class has a pure virtual `clone()` method, which is overridden by concrete implementations. It's the core of the Prototype pattern.
-  
-- **ConcretePrototype.h**: Inherits from `Prototype` and implements the `clone()` method. It contains specific data that will be cloned.
+### Order of Creation
+1. Define the `ClownPrototype` interface.
+2. Implement the `Clown` class.
+3. Demonstrate the pattern in `main.cpp`.
 
-- **main.cpp**: Creates an instance of `ConcretePrototype`, clones it, and then displays the data of both the original and cloned instances.
-
-### Order of Class Creation
-
-1. **Prototype Interface**: Start by defining the abstract base class (Prototype.h) to establish the cloning interface.
-2. **Concrete Prototype**: Implement the concrete class (ConcretePrototype.h) that will be cloned.
-3. **Main Application**: Finally, use the main.cpp to demonstrate the pattern.
-
-### Output Upon Running the Code
-
-When you run the code, you should see output like this:
-
+### Expected Output When Running the Code
+You should see output indicating that both the original and cloned clowns are performing, something like:
 ```
-Original object data: Example
-Cloned object data: Example
+Clown Happy is performing!
+Clown Happy is performing!
 ```
 
-This output demonstrates that the original object and its clone contain the same data, proving that the Prototype pattern successfully created a copy of the original object.
+This example demonstrates the Prototype pattern, where a new object is created by copying an existing object, rather than creating from scratch. This is particularly useful in scenarios where the cost of creating an object is high.
