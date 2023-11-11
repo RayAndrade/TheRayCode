@@ -1,175 +1,102 @@
 [up](../README.md)
 
-Let's create a `DessertBuilder` using the Builder pattern. In this example, we'll construct a `Dessert` object with various components such as a base (like cake or pastry), a filling (like fruit or cream), and toppings (like chocolate or nuts).
+The Prototype design pattern is a creational pattern used in software development when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects. This pattern is particularly useful when the cost of creating an object is more expensive or complex than copying an existing instance.
 
-First, let's define the `Dessert` class, which will be the product built by the builders.
+Let's break down a C++ implementation of the Prototype pattern:
 
-`Dessert.h`:
+### 1. Prototype Interface (Prototype.h)
+
+This is an abstract class defining the interface for cloning itself. It typically contains a `clone()` method.
+
 ```cpp
-#ifndef DESSERT_H
-#define DESSERT_H
+// Prototype.h
+#ifndef PROTOTYPE_H
+#define PROTOTYPE_H
 
+class Prototype {
+public:
+    virtual ~Prototype() {}
+    virtual Prototype* clone() const = 0;
+};
+
+#endif // PROTOTYPE_H
+```
+
+### 2. Concrete Prototype (ConcretePrototype.h)
+
+This class implements the Prototype interface and defines the concrete object that will be cloned.
+
+```cpp
+// ConcretePrototype.h
+#ifndef CONCRETEPROTOTYPE_H
+#define CONCRETEPROTOTYPE_H
+
+#include "Prototype.h"
 #include <string>
-#include <vector>
-#include <iostream>
 
-class Dessert {
+class ConcretePrototype : public Prototype {
 private:
-    std::string base;
-    std::string filling;
-    std::vector<std::string> toppings;
+    std::string data;
 
 public:
-    void setBase(const std::string& b) {
-        base = b;
+    ConcretePrototype(std::string data) : data(data) {}
+    ConcretePrototype(const ConcretePrototype& other) : data(other.data) {}
+    Prototype* clone() const override {
+        return new ConcretePrototype(*this);
     }
 
-    void setFilling(const std::string& f) {
-        filling = f;
-    }
-
-    void addTopping(const std::string& topping) {
-        toppings.push_back(topping);
-    }
-
-    void display() const {
-        std::cout << "Dessert with " << base << " base and " << filling << " filling. Toppings: ";
-        for (const auto& topping : toppings) {
-            std::cout << topping << " ";
-        }
-        std::cout << std::endl;
+    std::string getData() const {
+        return data;
     }
 };
 
-#endif // DESSERT_H
+#endif // CONCRETEPROTOTYPE_H
 ```
 
-Next, we define the abstract `Builder` class for the dessert.
+### 3. Main Application (main.cpp)
 
-`DessertBuilder.h`:
+This is where you demonstrate the use of the Prototype pattern.
+
 ```cpp
-#ifndef DESSERT_BUILDER_H
-#define DESSERT_BUILDER_H
-
-#include "Dessert.h"
-
-class DessertBuilder {
-protected:
-    Dessert* dessert;
-public:
-    DessertBuilder() : dessert(nullptr) {}
-
-    virtual ~DessertBuilder() {
-        delete dessert;
-    }
-
-    Dessert* getDessert() {
-        return dessert;
-    }
-
-    void createNewDessertProduct() {
-        dessert = new Dessert();
-    }
-
-    virtual void buildBase() = 0;
-    virtual void buildFilling() = 0;
-    virtual void buildToppings() = 0;
-};
-
-#endif // DESSERT_BUILDER_H
-```
-
-Now, let's create a concrete builder class for a specific type of dessert, say a `CakeBuilder`.
-
-`CakeBuilder.h`:
-```cpp
-#ifndef CAKE_BUILDER_H
-#define CAKE_BUILDER_H
-
-#include "DessertBuilder.h"
-
-class CakeBuilder : public DessertBuilder {
-public:
-    virtual ~CakeBuilder() {}
-
-    void buildBase() override {
-        dessert->setBase("sponge cake");
-    }
-
-    void buildFilling() override {
-        dessert->setFilling("vanilla cream");
-    }
-
-    void buildToppings() override {
-        dessert->addTopping("chocolate shavings");
-        dessert->addTopping("strawberries");
-    }
-};
-
-#endif // CAKE_BUILDER_H
-```
-
-And the `Director` class to control the building process:
-
-`DessertDirector.h`:
-```cpp
-#ifndef DESSERT_DIRECTOR_H
-#define DESSERT_DIRECTOR_H
-
-#include "DessertBuilder.h"
-
-class DessertDirector {
-public:
-    void construct(DessertBuilder& builder) {
-        builder.createNewDessertProduct();
-        builder.buildBase();
-        builder.buildFilling();
-        builder.buildToppings();
-    }
-};
-
-#endif // DESSERT_DIRECTOR_H
-```
-
-Finally, we use these classes in `main.cpp` to construct a dessert.
-
-`main.cpp`:
-```cpp
+// main.cpp
 #include <iostream>
-#include "Dessert.h"
-#include "DessertBuilder.h"
-#include "CakeBuilder.h"
-#include "DessertDirector.h"
+#include "ConcretePrototype.h"
 
 int main() {
-    DessertDirector director;
-    CakeBuilder cakeBuilder;
+    ConcretePrototype* prototype = new ConcretePrototype("Example");
+    ConcretePrototype* clonedPrototype = dynamic_cast<ConcretePrototype*>(prototype->clone());
 
-    director.construct(cakeBuilder);
-    Dessert* dessert = cakeBuilder.getDessert();
-    dessert->display();
+    std::cout << "Original object data: " << prototype->getData() << std::endl;
+    std::cout << "Cloned object data: " << clonedPrototype->getData() << std::endl;
 
-    delete dessert; // Clean up the allocated memory
+    delete prototype;
+    delete clonedPrototype;
 
     return 0;
 }
 ```
 
-When you run this code, it will output something like:
+### Class Explanation
+
+- **Prototype.h**: This abstract class has a pure virtual `clone()` method, which is overridden by concrete implementations. It's the core of the Prototype pattern.
+  
+- **ConcretePrototype.h**: Inherits from `Prototype` and implements the `clone()` method. It contains specific data that will be cloned.
+
+- **main.cpp**: Creates an instance of `ConcretePrototype`, clones it, and then displays the data of both the original and cloned instances.
+
+### Order of Class Creation
+
+1. **Prototype Interface**: Start by defining the abstract base class (Prototype.h) to establish the cloning interface.
+2. **Concrete Prototype**: Implement the concrete class (ConcretePrototype.h) that will be cloned.
+3. **Main Application**: Finally, use the main.cpp to demonstrate the pattern.
+
+### Output Upon Running the Code
+
+When you run the code, you should see output like this:
+
 ```
-Dessert with sponge cake base and vanilla cream filling. Toppings: chocolate shavings strawberries 
+Original object data: Example
+Cloned object data: Example
 ```
 
-This demonstrates the construction of a cake using the Builder pattern. The `DessertBuilder` allows for a structured way to construct complex desserts, `CakeBuilder` provides the specific steps for creating a cake, and the `DessertDirector` manages the construction process.
-
-The order of creation in your project should be:
-
-1. Create the product class (`Dessert`).
-2. Define the builder interface (`DessertBuilder`).
-3. Implement concrete builders (like `CakeBuilder`).
-4. Implement the director class (`DessertDirector`).
-5. In `main.cpp`, use the director to construct a dessert with the concrete builder.
-
-Running the `main.cpp` file will demonstrate how the Builder pattern can be used to create complex objects step-by-step, separating the construction process from the
-
- final product's representation.
+This output demonstrates that the original object and its clone contain the same data, proving that the Prototype pattern successfully created a copy of the original object.

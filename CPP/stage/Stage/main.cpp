@@ -10,5 +10,6 @@ int main() {
 
     delete prototype;
     delete clonedPrototype;
+
     return 0;
 }
