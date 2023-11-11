@@ -1,4 +1,4 @@
-[up](../README.md)
+[up](../README.md) [script](script/page01.md)
 
 Creating an example of the Abstract Factory design pattern in C# involves multiple steps. I'll guide you through the process, including the creation of separate `.cs` files for each class, explaining their purpose, and describing the variables and methods used. The Abstract Factory pattern is used to provide an interface for creating families of related or dependent objects without specifying their concrete classes.
 
