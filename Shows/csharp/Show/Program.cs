@@ -6,7 +6,13 @@ namespace Show
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("The Ray Code is AWESOME!!!");
+            ComputerDirector director = new ComputerDirector();
+            ComputerBuilder builder = new GamingComputerBuilder();
+            
+            Computer gamingComputer = director.Build(builder);
+
+            Console.WriteLine("Gaming Computer Specs:");
+            Console.WriteLine(gamingComputer.ToString());
         }
     }
 }

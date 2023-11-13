@@ -1,6 +1,4 @@
-[home](./page01.md)
-
-[back](./page05.md)
+[home](./page01.md) | [back](./page06.md) | [next](./page08.md)
 
 We go to **Program**
 
@@ -14,4 +12,5 @@ Console.WriteLine("Gaming Computer Specs:");
 Console.WriteLine(gamingComputer.ToString());
 ```
 
-[page 7](./page07.md)
+
+[page 8](./page08.md)

@@ -1,21 +1,11 @@
-[home](./page01.md)
+[home](./page01.md) | [back](./page04.md) | [next](./page06.md)
 
-[back](./page03.md)
-
-Next we build the **Concrete Builder**
-
-class
-
+Next we build the **Concrete Builder** *class*
 ```
 GamingComputerBuilder
 ```
 
-```
-```
-
-
 with
-
 ```
  : ComputerBuilder
 ```
@@ -23,31 +13,24 @@ with
 ```
 private Computer _computer = new Computer();
 ```
-
-
-for **AddCPU**
-
+For **cpu**
 ```
 _computer.CPU = cpu;
 ```
-
-for **AddRAM**
-
+for **ram**
 ```
 _computer.RAM = ram;
 ```
-
-
-for **AddHDD**
-
+for **hdd**
 ```
 _computer.HDD = hdd;
 ```
-
-and we
-
+and
 ```
 return _computer;
 ```
 
-[page 5](./page05.md)
+
+
+
+[page 6](./page06.md)
