@@ -1,6 +1,0 @@
-/home/ray/TheRayCode/TheRayCode/Shows/current/csharp/Builder/Builder/bin/Debug/Builder.exe
-/home/ray/TheRayCode/TheRayCode/Shows/current/csharp/Builder/Builder/bin/Debug/Builder.pdb
-/home/ray/TheRayCode/TheRayCode/Shows/current/csharp/Builder/Builder/obj/Debug/Builder.csproj.AssemblyReference.cache
-/home/ray/TheRayCode/TheRayCode/Shows/current/csharp/Builder/Builder/obj/Debug/Builder.csproj.CoreCompileInputs.cache
-/home/ray/TheRayCode/TheRayCode/Shows/current/csharp/Builder/Builder/obj/Debug/Builder.exe
-/home/ray/TheRayCode/TheRayCode/Shows/current/csharp/Builder/Builder/obj/Debug/Builder.pdb
