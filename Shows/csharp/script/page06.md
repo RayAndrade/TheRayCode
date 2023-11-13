@@ -9,7 +9,7 @@ and we add
 public Computer Build(ComputerBuilder builder) {  }
 ```
 
-with
+with as code for this function
 ```
 builder.AddCPU("Intel i9");
 builder.AddRAM("32GB");
