@@ -17,7 +17,8 @@ For **cpu**
 ```
 _computer.CPU = cpu;
 ```
-for **ram*
+for **ram**
+```
 _computer.RAM = ram;
 ```
 for **hdd**
