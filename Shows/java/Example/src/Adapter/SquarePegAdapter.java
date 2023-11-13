@@ -1,8 +1,8 @@
-package TheRayCode.Adapter.adapters;
+package Adapter;
 
-import TheRayCode.Adapter.round.RoundHole;
-import TheRayCode.Adapter.round.RoundPeg;
-import TheRayCode.Adapter.square.SquarePeg;
+import Adapter.round.RoundHole;
+import Adapter.round.RoundPeg;
+import Adapter.square.SquarePeg;
 
 public class SquarePegAdapter extends RoundPeg {
     private SquarePeg peg;

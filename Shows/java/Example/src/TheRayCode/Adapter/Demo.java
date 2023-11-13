@@ -1,9 +1,7 @@
-package TheRayCode.Adapter;
-
-import TheRayCode.Adapter.round.RoundPeg;
-import TheRayCode.Adapter.round.RoundHole;
-import TheRayCode.Adapter.square.SquarePeg;
-import TheRayCode.Adapter.adapters.SquarePegAdapter;
+import Adapter.round.RoundPeg;
+import Adapter.round.RoundHole;
+import Adapter.square.SquarePeg;
+import Adapter.adapters.SquarePegAdapter;
 
 
 public class Demo {
