@@ -10,3 +10,9 @@
 /home/ray/TheRayCode/TheRayCode/Shows/csharp/Show/obj/Debug/Show.csproj.CoreCompileInputs.cache
 /home/ray/TheRayCode/TheRayCode/Shows/csharp/Show/obj/Debug/Example3.exe
 /home/ray/TheRayCode/TheRayCode/Shows/csharp/Show/obj/Debug/Example3.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Creational/Builder/Example3/bin/Debug/Example3.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Creational/Builder/Example3/bin/Debug/Example3.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Creational/Builder/Example3/obj/Debug/Show.csproj.AssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Creational/Builder/Example3/obj/Debug/Show.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Creational/Builder/Example3/obj/Debug/Example3.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Creational/Builder/Example3/obj/Debug/Example3.pdb
