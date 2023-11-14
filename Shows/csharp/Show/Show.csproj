@@ -40,10 +40,6 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Computer.cs" />
-        <Compile Include="ComputerBuilder.cs" />
-        <Compile Include="ComputerDirector.cs" />
-        <Compile Include="GamingComputerBuilder.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
