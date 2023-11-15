@@ -162,3 +162,7 @@ Here's a summary of the overall flow:
 
 This is a classic application of the Adapter Design Pattern, where `CustomerAdapter` allows two incompatible interfaces (`CustomerManager` and `ICustomer`) to work together.
 
+When you compile and run the code you should get:
+```
+[{"CustomerId":1,"FullName":"Cecil","AddressDetails":"USA","Mobile":"(818)457-MATH"}]
+```
