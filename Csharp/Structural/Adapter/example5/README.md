@@ -1,3 +1,5 @@
+[up](../README.md)
+
 Certainly! The Adapter pattern allows two incompatible interfaces to work together. It acts as a bridge between the two interfaces. This pattern involves a single class, which is responsible to join functionalities of independent or incompatible interfaces.
 
 Let’s use a simple real-life example. Suppose you have a legacy system that logs messages to a file. But now, your new system requirement is to log messages to a cloud storage. You cannot change the legacy code, but you can create an adapter that adapts the new logging mechanism to work with the old system.
