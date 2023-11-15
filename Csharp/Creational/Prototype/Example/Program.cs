@@ -38,9 +38,7 @@ namespace Show
             DisplayValues(p2);
             Console.WriteLine("   p3 instance values (everything was kept the same):");
             DisplayValues(p3);
-
         }
-        
         public static void DisplayValues(Person p)
         {
             Console.WriteLine("      Name: {0:s}, Age: {1:d}, BirthDate: {2:MM/dd/yy}",

@@ -21,5 +21,6 @@ namespace Show
             clone.Name = String.Copy(Name);
             return clone;
         }
+
     }
 }
