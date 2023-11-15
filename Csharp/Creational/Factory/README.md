@@ -10,7 +10,7 @@
 |---|---|---|---|
 |  [**Factory**](README.md) | [**C++**](../../../CPP/Creational/Factory/README.md) | [Java](../../../Java/Creational/Factory/README.md) | [PHP](../../../PHP/Creational/Factory/README.md) |
 
-[Example](Example/README.md) | [Example2](Example2/README.md)
+[Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)
 
 A Factory, in software design, refers to a creational design pattern that provides a centralized mechanism for creating objects. It encapsulates the object creation process, hiding the details of instantiation from the client code. The Factory pattern aims to abstract the process of object creation, promoting flexibility, code reusability, and maintenance.
 
