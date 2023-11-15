@@ -10,7 +10,7 @@
 |---|---|---|---|
 |  [**Prototype**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**Java**](../../../Java/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
 
-[Example](Show/README.md)
+[Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)  
 
 Let's dive into the "Prototype Design Pattern" and its importance for C++ programmers.
 
