@@ -10,7 +10,21 @@ This example illustrates the structure of the Prototype design pattern. It focus
 * What roles do these classes play?
 * In what way the elements of the pattern are related?
 
-Let's start with creating a **Person** class.
+Let's create4 another class we call **IdInfo**.
+The code for **IdInfo** will be:
+
+```c#
+public class IdInfo
+{
+    public int IdNumber;
+    public IdInfo(int idNumber)
+    {
+       this.IdNumber = idNumber;
+    }
+}
+```
+
+Then we create a **Person** class.
 ```c#
 public class Person
 {
@@ -33,18 +47,8 @@ public class Person
      }
 }
 ```
-Let's create4 another class we call **IdInfo**.
-The code for **IdInfo** will be:
-```c#
-public class IdInfo
-{
-    public int IdNumber;
-    public IdInfo(int idNumber)
-    {
-       this.IdNumber = idNumber;
-    }
-}
-```
+
+
 Now let's put this all together in a **Program** class.
 ```c#
 class Program
