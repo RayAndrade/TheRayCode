@@ -1,6 +1,6 @@
 [up](../README.md)
 
-Certainly! Design patterns are crucial in software development for solving common problems in a structured and reusable way. The Adapter pattern is a structural design pattern that allows objects with incompatible interfaces to work together. It acts as a bridge between two incompatible interfaces.
+Design patterns are crucial in software development for solving common problems in a structured and reusable way. The Adapter pattern is a structural design pattern that allows objects with incompatible interfaces to work together. It acts as a bridge between two incompatible interfaces.
 
 ### Example of Adapter Pattern in C#
 
