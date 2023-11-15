@@ -1,6 +1,6 @@
 using System;
 
-namespace TheRayCode.DesignPatterns.Prototype
+namespace Show
 {
     public class Person
     {

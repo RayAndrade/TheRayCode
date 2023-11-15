@@ -1,11 +1,10 @@
 ﻿using System;
 
-namespace TheRayCode.DesignPatterns.Prototype
+namespace Show
 {
-    
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Person p1 = new Person();
             p1.Age = 42;
@@ -26,7 +25,6 @@ namespace TheRayCode.DesignPatterns.Prototype
             DisplayValues(p2);
             Console.WriteLine("   p3 instance values:");
             DisplayValues(p3);
-
             // Change the value of p1 properties and display the values of p1,
             // p2 and p3.
             p1.Age = 32;
@@ -41,7 +39,7 @@ namespace TheRayCode.DesignPatterns.Prototype
             Console.WriteLine("   p3 instance values (everything was kept the same):");
             DisplayValues(p3);
         }
-
+        
         public static void DisplayValues(Person p)
         {
             Console.WriteLine("      Name: {0:s}, Age: {1:d}, BirthDate: {2:MM/dd/yy}",
