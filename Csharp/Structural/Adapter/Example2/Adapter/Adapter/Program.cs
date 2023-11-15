@@ -15,7 +15,7 @@ namespace Adapter
                 Console.WriteLine(item);
             }
             Console.ReadKey();
-            Console.WriteLine("The Ray Code is AWESOME!!!");
+            //Console.WriteLine("The Ray Code is AWESOME!!!");
         }
     }
 }
