@@ -107,5 +107,13 @@ namespace Adapter
     }
 }
 ```
+When you compile and run you get:
+```
+Laptop
+Mouse
+Desktop
+keyboard
+Pen Drive
+```
 
 
