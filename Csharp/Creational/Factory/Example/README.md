@@ -53,6 +53,8 @@ public class Motorcycle : IVehicle
 This class is the core of the Factory pattern. It decides which class to instantiate.
 
 ```csharp
+using System;
+
 public static class VehicleFactory
 {
     public static IVehicle GetVehicle(string vehicleType)
