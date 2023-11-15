@@ -6,7 +6,11 @@ namespace Show
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("The Ray Code is AWESOME!!!");
+            IVehicle myCar = VehicleFactory.GetVehicle("Car");
+            myCar.StartEngine();
+
+            IVehicle myMotorcycle = VehicleFactory.GetVehicle("Motorcycle");
+            myMotorcycle.StartEngine();
         }
     }
 }
