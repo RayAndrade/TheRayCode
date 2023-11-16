@@ -1,36 +1,15 @@
-[home](./page01.md)
+[home](./page01.md) | [back](./page03.md) | [next](./page03.md)
 
-[back](./page03.md)
-
-Let's create a
+clreate class **CustomerDTO**
 ```
-CustomerManager
+CustomerDTO
 ```
-
-we add
+with
 ```
-private List<Customer> cutomerList = new List<Customer>();
-```
-and
-```
-public CustomerManager()
-{
-    cutomerList.Add(new Customer
-    {
-        Id = 1,
-        Name = "Cecil",
-        Address = "USA",
-        Contact = "(818)457-MATH"
-    });
- }
-```
-
-and
-```
-public string GetData()
-{
-    return JsonConvert.SerializeObject(cutomerList);
-}
+public int CustomerId { get; set; }
+public string FullName { get; set; }
+public string AddressDetails { get; set; }
+public string Mobile { get; set; } 
 ```
 
 

@@ -1,15 +1,13 @@
-[home](./page01.md)
-
-we start with the  
-```
-ICustomer
-```
-interface
-
-and we add the requirment
+[home](./page01.md) | [next](./page02.md)
 
 ```
-IEnumerable<CustomerDTO> GetCustomers();
+using System;
 ```
+
+
+```
+Console.WriteLine("The Ray Code is AWESOME!!!");
+```
+
 
 [page 2](./page02.md)
