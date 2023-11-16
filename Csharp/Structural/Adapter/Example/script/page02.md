@@ -1,16 +1,14 @@
 [home](./page01.md) | [back](./page01.md) [next](./page03.md)
 
+Order of Creation:
+**ITarget.cs**
 
-Create *class* **Customer**
-```
-Customer
-```
-with
-```
-public int Id { get; set; }
-public string Name { get; set; }
-public string Address { get; set; }
-public string Contact { get; set; }
-```
+**Adaptee.cs**
+
+**Adapter.cs**
+
+**Client.cs**
+
+**Program.cs**
 
 [page 3](./page03.md)

@@ -1,12 +1,11 @@
 [home](./page01.md) | [back](./page06.md) | [next](./page08.md)
 
-at **Program.cs**
-
-
+You should see:
 ```
-ICustomer customer = new CustomerAdapter();
-IEnumerable<CustomerDTO> data = customer.GetCustomers();
-Console.WriteLine(JsonConvert.SerializeObject(data));
+Adaptee interface is incompatible with the client.
+But with adapter client can call it's method.
+This is 'Specific request.'
 ```
+
 
 [page 8](./page08.md)

@@ -1,35 +1,20 @@
 [home](./page01.md) | [back](./page04.md) | [next](./page06.md)
 
-**CustomerManager**
-class
+Public class **Client.cs**
+
 ```
-CustomerManager
-```
-with code
-```
-private List<Customer> cutomerList = new List<Customer>();
-```
-and:
-```   
-public CustomerManager()
+public void Main()
 {
-    cutomerList.Add(new Customer
-    {
-        Id = 1,
-        Name = "Cecil",
-        Address = "USA",
-        Contact = "(818)457-MATH"
-    });
-}
-```
-and:
-```        
-public string GetData()
-{
-    return JsonConvert.SerializeObject(cutomerList);
-}
+    Adaptee adaptee = new Adaptee();
+    ITarget target = new Adapter(adaptee);
+
+    Console.WriteLine("Adaptee interface is incompatible with the client.");
+    Console.WriteLine("But with adapter client can call it's method.");
+
+    Console.WriteLine(target.GetRequest());
 }
 ```
 
+Explanation: Client is a class that depends on the ITarget interface. It's unaware of Adaptee and Adapter.
 
 [page 6](./page06.md)
