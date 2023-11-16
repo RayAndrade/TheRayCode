@@ -9,13 +9,7 @@ with the requirement:
 string GetRequest();
 ```
 
-<<<<<<< HEAD
-```
-using System.Collections.Generic;
-```
-=======
 Explanation: ITarget is the interface **expected by the Client**. 
->>>>>>> ea941ae2 (*)
 
 It defines the domain-specific interface that Client uses.
 
