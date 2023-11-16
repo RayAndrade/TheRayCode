@@ -17,7 +17,10 @@ public Adapter(Adaptee adaptee)
     _adaptee = adaptee;
 }
 ```
-
+for **GetRequest** replace *throw new System.NotImplementedException();* with:
+```
+return $"This is '{_adaptee.GetSpecificRequest()}'";
+```
 Explanation: Adapter makes Adaptee's interface compatible with the ITarget interface.
 
 
