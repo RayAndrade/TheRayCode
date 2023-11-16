@@ -9,6 +9,9 @@ with
 IEnumerable<CustomerDTO> GetCustomers();
 ```
 
+```
+using System.Collections.Generic;
+```
 
 
 [page 4](./page04.md)
