@@ -1,10 +1,10 @@
 [home](./page01.md) | [back](./page06.md) | [next](./page08.md)
 
-You should see:
+at **Program.cs**
+
+use:
 ```
-Adaptee interface is incompatible with the client.
-But with adapter client can call it's method.
-This is 'Specific request.'
+new Client().Main();
 ```
 
 
