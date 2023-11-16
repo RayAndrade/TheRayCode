@@ -4,24 +4,13 @@ The **Adaptee** *class*
 ```
 Adaptee
 ```
-which uses the *inteface* **ITarget**
+with code:
 ```
-: ITarget
-```
-Add the required method **GetRequest()** add at the top:
-```
-private readonly Adaptee _adaptee;
-
-public Adapter(Adaptee adaptee)
+public string GetSpecificRequest()
 {
-    _adaptee = adaptee;
+    return "Specific request.";
 }
 ```
-for **GetRequest** replace *throw new System.NotImplementedException();* with:
-```
-return $"This is '{_adaptee.GetSpecificRequest()}'";
-```
-Explanation: Adapter makes Adaptee's interface compatible with the ITarget interface.
 
 
 
