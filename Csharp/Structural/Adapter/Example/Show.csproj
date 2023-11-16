@@ -5,11 +5,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{917A932B-47E6-4CE7-AEF1-CED2358852B8}</ProjectGuid>
+        <ProjectGuid>{302707B9-FFA9-47CC-AD4C-9086D245F38C}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Adapter</RootNamespace>
-        <AssemblyName>Adapter</AssemblyName>
+        <RootNamespace>Example3</RootNamespace>
+        <AssemblyName>Example3</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,25 +34,14 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
-        <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-          <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
-        </Reference>
         <Reference Include="System"/>
         <Reference Include="System.Core"/>
         <Reference Include="System.Data"/>
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Customer.cs" />
-        <Compile Include="CustomerAdapter.cs" />
-        <Compile Include="CustomerDTO.cs" />
-        <Compile Include="CustomerManager.cs" />
-        <Compile Include="ICustomer.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
-    </ItemGroup>
-    <ItemGroup>
-      <None Include="packages.config" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
