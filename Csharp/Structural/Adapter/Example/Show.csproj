@@ -5,11 +5,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{22BA570F-CDD3-420C-A388-3ABCDEA6E796}</ProjectGuid>
+        <ProjectGuid>{302707B9-FFA9-47CC-AD4C-9086D245F38C}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>example3</RootNamespace>
-        <AssemblyName>example3</AssemblyName>
+        <RootNamespace>Example3</RootNamespace>
+        <AssemblyName>Example3</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -40,10 +40,10 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="EmployeeAdaptee.cs" />
-        <Compile Include="EmployeeData.cs" />
-        <Compile Include="IData.cs" />
-        <Compile Include="ManagersData.cs" />
+        <Compile Include="Adaptee.cs" />
+        <Compile Include="Adapter.cs" />
+        <Compile Include="Client.cs" />
+        <Compile Include="ITarget.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
