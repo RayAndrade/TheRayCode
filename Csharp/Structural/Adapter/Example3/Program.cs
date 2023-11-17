@@ -6,7 +6,11 @@ namespace Show
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("The Ray Code is AWESOME!!!");
+            LightningPhone lightningPhone = new LightningPhone();
+            IMicroUSBPhone adapter = new LightningToMicroUSBAdapter(lightningPhone);
+
+            adapter.UseMicroUSB();
+            adapter.Recharge();
         }
     }
 }

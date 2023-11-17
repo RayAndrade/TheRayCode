@@ -40,6 +40,10 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="IMicroUSBPhone.cs" />
+        <Compile Include="LightningPhone.cs" />
+        <Compile Include="LightningToMicroUSBAdapter.cs" />
+        <Compile Include="MicroUSBCharger.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
