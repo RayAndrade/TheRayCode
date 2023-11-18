@@ -1,71 +1,93 @@
 [up](../README.md)
 
-For a different theme utilizing the Bridge design pattern in C#, let's consider a theme of rendering shapes. The abstraction will be different types of shapes (like Circle, Rectangle), and the implementation will be the rendering mechanism (like Drawing API 1, Drawing API 2).
+Creating a C# example for the Bridge design pattern in the context of shapes like Circle and Rectangle involves several steps. Let's break it down:
 
-### Structure
+### Explanation of the Bridge Pattern
+The Bridge pattern is a structural design pattern that separates the abstraction from its implementation so that the two can vary independently. This pattern involves an interface which acts as a bridge between the abstraction and implementation classes.
 
-1. **`Shape.cs`** - An abstract class representing shapes.
-2. **`Circle.cs` and `Rectangle.cs`** - Implementations of the `Shape` class.
-3. **`IDrawingAPI.cs`** - An interface for different drawing APIs.
-4. **`DrawingAPI1.cs` and `DrawingAPI2.cs`** - Implementations of the `IDrawingAPI` interface.
-5. **`Program.cs`** - Main entry point to demonstrate the Bridge pattern.
+### Structure for Bridge Pattern with Circle and Rectangle
+1. **Implementor Interface (IDrawAPI.cs):**
+   - This interface defines the implementation interface for drawing operations.
+   - Methods: `DrawCircle`, `DrawRectangle`
 
-### Explanation
+2. **Concrete Implementors (RedDrawAPI.cs, BlueDrawAPI.cs):**
+   - These classes implement the `IDrawAPI` interface, providing specific implementations for the drawing methods.
 
-#### `IDrawingAPI.cs`
+3. **Abstraction (Shape.cs):**
+   - This class maintains a reference to the `IDrawAPI` implementor.
+   - Methods: Constructor, `Draw`
+
+4. **Refined Abstraction (Circle.cs, Rectangle.cs):**
+   - These classes extend the `Shape` class and provide specific implementations for drawing themselves using the `IDrawAPI`.
+
+5. **Client Code (Program.cs):**
+   - This file contains the main method to demonstrate the usage of the pattern.
+
+### Example Code
+
+#### 1. IDrawAPI.cs
 ```csharp
-public interface IDrawingAPI
+public interface IDrawAPI
 {
-    void DrawCircle(double x, double y, double radius);
-    void DrawRectangle(double x, double y, double width, double height);
+    void DrawCircle(int radius, int x, int y);
+    void DrawRectangle(int width, int height, int x, int y);
 }
 ```
-- **Purpose**: Interface for drawing APIs.
-- **Methods**: Define methods for drawing basic shapes.
 
-#### `DrawingAPI1.cs` and `DrawingAPI2.cs`
+#### 2. RedDrawAPI.cs
 ```csharp
-public class DrawingAPI1 : IDrawingAPI
+public class RedDrawAPI : IDrawAPI
 {
-    public void DrawCircle(double x, double y, double radius) 
+    public void DrawCircle(int radius, int x, int y)
     {
-        Console.WriteLine($"API1 drawing a circle at ({x},{y}) with radius {radius}");
+        Console.WriteLine($"Drawing Circle[Color: red, radius: {radius}, x: {x}, y: {y}]");
     }
 
-    // Implement DrawRectangle similarly
-}
-
-public class DrawingAPI2 : IDrawingAPI
-{
-    // Similar implementation with different styling or technique
+    public void DrawRectangle(int width, int height, int x, int y)
+    {
+        Console.WriteLine($"Drawing Rectangle[Color: red, width: {width}, height: {height}, x: {x}, y: {y}]");
+    }
 }
 ```
-- **Purpose**: Concrete implementations of the drawing API, each with a unique drawing style.
 
-#### `Shape.cs`
+#### 3. BlueDrawAPI.cs
+```csharp
+public class BlueDrawAPI : IDrawAPI
+{
+    public void DrawCircle(int radius, int x, int y)
+    {
+        Console.WriteLine($"Drawing Circle[Color: blue, radius: {radius}, x: {x}, y: {y}]");
+    }
+
+    public void DrawRectangle(int width, int height, int x, int y)
+    {
+        Console.WriteLine($"Drawing Rectangle[Color: blue, width: {width}, height: {height}, x: {x}, y: {y}]");
+    }
+}
+```
+
+#### 4. Shape.cs
 ```csharp
 public abstract class Shape
 {
-    protected IDrawingAPI drawingAPI;
+    protected IDrawAPI drawAPI;
 
-    protected Shape(IDrawingAPI drawingAPI)
+    protected Shape(IDrawAPI drawAPI)
     {
-        this.drawingAPI = drawingAPI;
+        this.drawAPI = drawAPI;
     }
 
     public abstract void Draw();
 }
 ```
-- **Purpose**: Abstract class for shapes.
-- **Details**: Holds a reference to the `IDrawingAPI`.
 
-#### `Circle.cs` and `Rectangle.cs`
+#### 5. Circle.cs
 ```csharp
 public class Circle : Shape
 {
-    private double x, y, radius;
+    private int x, y, radius;
 
-    public Circle(double x, double y, double radius, IDrawingAPI drawingAPI) : base(drawingAPI)
+    public Circle(int x, int y, int radius, IDrawAPI drawAPI) : base(drawAPI)
     {
         this.x = x;
         this.y = y;
@@ -74,45 +96,60 @@ public class Circle : Shape
 
     public override void Draw()
     {
-        drawingAPI.DrawCircle(x, y, radius);
+        drawAPI.DrawCircle(radius, x, y);
     }
 }
-
-// Similar implementation for Rectangle
 ```
-- **Purpose**: Concrete shapes using the drawing API.
-- **Details**: Each shape uses the `IDrawingAPI` to render itself.
 
-#### `Program.cs`
+#### 6. Rectangle.cs
+```csharp
+public class Rectangle : Shape
+{
+    private int width, height, x, y;
+
+    public Rectangle(int width, int height, int x, int y, IDrawAPI drawAPI) : base(drawAPI)
+    {
+        this.width = width;
+        this.height = height;
+        this.x = x;
+        this.y = y;
+    }
+
+    public override void Draw()
+    {
+        drawAPI.DrawRectangle(width, height, x, y);
+    }
+}
+```
+
+#### 7. Program.cs
 ```csharp
 class Program
 {
     static void Main(string[] args)
     {
-        Shape[] shapes = new Shape[2];
-        shapes[0] = new Circle(1, 2, 3, new DrawingAPI1());
-        shapes[1] = new Rectangle(5, 7, 10, 5, new DrawingAPI2());
+        Shape redCircle = new Circle(100, 100, 10, new RedDrawAPI());
+        Shape blueRectangle = new Rectangle(50, 60, 10, 20, new BlueDrawAPI());
 
-        foreach (var shape in shapes)
-        {
-            shape.Draw();
-        }
+        redCircle.Draw();
+        blueRectangle.Draw();
     }
 }
 ```
-- **Purpose**: Demonstrates the Bridge pattern with different shapes and rendering APIs.
-- **Expected Output**: 
-  ```
-  API1 drawing a circle at (1,2) with radius 3
-  API2 drawing a rectangle at (5,7) with width 10 and height 5
-  ```
 
 ### Order of Creation
+1. Create `IDrawAPI` interface.
+2. Implement `RedDrawAPI` and `BlueDrawAPI`.
+3. Define the abstract `Shape` class.
+4. Create `Circle` and `Rectangle` classes.
+5. Demonstrate in `Program.cs`.
 
-1. **Create `IDrawingAPI` Interface** - The core of the implementation side.
-2. **Implement `DrawingAPI1` and `DrawingAPI2`** - Different rendering mechanisms.
-3. **Create Abstract `Shape` Class** - The abstraction which uses `IDrawingAPI`.
-4. **Implement `Circle` and `Rectangle`** - Concrete shapes using the drawing APIs.
-5. **Implement `Program.cs`** - To demonstrate the usage.
+### Expected Output When Running the Program
+```
+Drawing Circle[Color: red, radius: 10, x: 100, y: 100]
+Drawing Rectangle[Color: blue, width: 50, height: 60,
 
-This approach encapsulates the rendering mechanism and the shape representation separately, allowing for greater flexibility and easier maintenance.
+ x: 10, y: 20]
+```
+
+Each class and method is designed to clearly demonstrate the Bridge pattern, allowing for the abstraction (Shape) to be separated from its implementation (IDrawAPI), and enabling the flexibility to combine different shapes with different drawing APIs.
