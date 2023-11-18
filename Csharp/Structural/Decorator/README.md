@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Decorator**](README.md) | [C++](../../../CPP/Structural/Decorator/README.md) | [Java](../../../Java/Structural/Decorator/README.md) | [PHP](../../../PHP/Structural/Decorator/README.md) |
 
-[Example](Example/README.md)
+[Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)
 
 
 **Decorator Design Pattern**:
