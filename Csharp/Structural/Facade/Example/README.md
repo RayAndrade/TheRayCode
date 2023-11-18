@@ -106,11 +106,8 @@ The Ray Code is AWESOME!!!
 
 Find Ray on:
 
-[facebook](https://www.facebook.com/TheRayCode/)
+[TheRayCode.ORG](https://www.TheRayCode.org)
 
-[youtube](https://www.youtube.com/TheRayCode/)
+[RayAndrade.COM](https://www.RayAndrade.com)
 
-[The Ray Code](https://www.TheRAyCode.com)
-
-[Ray Andrade](https://www.RayAndrade.org)
-
+[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
