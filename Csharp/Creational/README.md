@@ -66,6 +66,7 @@ Creational design patterns focus on handling object creation in a manner that is
      - For simpler objects, it might seem like over-engineering.
 
 In C#, understanding these patterns is crucial. While the language offers features like properties, indexers, and events, which might change how certain patterns are implemented compared to other languages, the core concepts remain invaluable. As with any design pattern, C# developers should apply them judiciously, considering the problem at hand and avoiding over-complication.
+
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
