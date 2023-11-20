@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Flyweight**](README.md) | [C#](../../../Csharp/Structural/Flyweight/README.md) | [Java](../../../Java/Structural/Flyweight/README.md) | [PHP](../../../PHP/Structural/Flyweight/README.md) |
 
-[Example](FT1/README.md)
+[Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)
 
 **Flyweight Design Pattern**:
 The Flyweight Design Pattern is a structural pattern focused on efficient use of memory by sharing as much data as possible with similar objects. It's particularly useful when dealing with a large number of objects that share many common states, allowing these states to be shared instead of stored in each individual object. Essentially, the Flyweight pattern segregates the intrinsic shared state from the extrinsic unique state, allowing the former to be reused.
