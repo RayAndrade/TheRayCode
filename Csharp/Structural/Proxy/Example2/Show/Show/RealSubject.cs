@@ -1,13 +1,12 @@
 using System;
 
-namespace TheRayCode.Proxy
+namespace Show
 {
-    class RealSubject : Subject
+    public class RealSubject : Subject
     {
         public void Request()
         {
             Console.WriteLine("Handling Request.");
         }
     }
-
 }

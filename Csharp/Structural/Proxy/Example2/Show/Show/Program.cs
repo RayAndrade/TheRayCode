@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace TheRayCode.Proxy
+namespace Show
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Client client = new Client();
-
+            
             Console.WriteLine("Executing the client code with a real subject:");
             RealSubject realSubject = new RealSubject();
             client.ClientCode(realSubject);

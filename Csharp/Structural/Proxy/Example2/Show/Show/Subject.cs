@@ -1,8 +1,7 @@
-namespace TheRayCode.Proxy
+namespace Show
 {
     public interface Subject
     {
         void Request();
     }
-
 }
