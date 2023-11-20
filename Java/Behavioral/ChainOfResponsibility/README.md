@@ -16,7 +16,7 @@
 
 The Chain of Responsibility Design Pattern enables decoupling between senders and receivers by allowing multiple objects to handle a request. The core idea is that a request is passed along a chain of potential handler objects. Each handler decides either to process the request or pass it to the next handler in the chain. The sender of the request is unaware of which object in the chain will ultimately handle the request, ensuring that the sender and receiver operate independently.
 
-**Why Java Programmers Should Study the Chain Of Responsibility pattern**:
+**Why Java Programmers Should Study the Chain Of Responsibility design pattern**:
 
 1. **Decoupling**: The Chain of Responsibility reduces the coupling between sending and receiving objects, promoting a cleaner and more maintainable codebase. For Java, which is commonly used in large enterprise systems, such decoupling can be invaluable.
 
