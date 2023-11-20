@@ -16,7 +16,7 @@
 
 The Command Design Pattern encapsulates a request as an object, thereby decoupling the sender (which requests the operation) from the receiver (which performs the operation). This pattern involves wrapping a command request as an object and passing it to an invoker, which then looks for the appropriate object to handle and execute the request. It primarily emphasizes separation of concerns by isolating the action (the command) from its triggering mechanism.
 
-**Why Java Programmers Should Study It**:
+**Why Java Programmers Should Study The Command Design Pattern**:
 
 1. **Decoupling**: The Command pattern introduces a clear separation between objects that invoke operations and objects that perform these operations. This ensures modularity and allows Java developers to build systems where changes in either component won't impact the other.
 
