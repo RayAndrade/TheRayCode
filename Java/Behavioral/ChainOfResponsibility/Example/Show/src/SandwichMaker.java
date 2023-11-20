@@ -6,5 +6,4 @@ public abstract class SandwichMaker {
     }
 
     public abstract void addIngredient(String ingredient);
-
 }

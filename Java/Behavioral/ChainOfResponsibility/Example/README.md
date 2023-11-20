@@ -1,4 +1,6 @@
-Sure thing! Welcome to the quirky world of sandwich artists! Imagine a chain of sandwich makers. Each maker specializes in adding one specific ingredient. If they don't have that ingredient, they pass the sandwich down the line to the next expert!
+[up](../README.md)
+
+Imagine a chain of sandwich makers. Each maker specializes in adding one specific ingredient. If they don't have that ingredient, they pass the sandwich down the line to the next expert!
 
 **SandwichMaker.java**
 ```java
