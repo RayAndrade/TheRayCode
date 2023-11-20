@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Proxy**](README.md) | [C++](../../../CPP/Structural/Flyweight/README.md) | [Java](../../../Java/Structural/Flyweight/README.md) | [PHP](../../../PHP/Structural/Flyweight/README.md) |
 
-[Example](Example/README.md)
+[Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md) | 
 
 **Proxy Design Pattern**:
 
