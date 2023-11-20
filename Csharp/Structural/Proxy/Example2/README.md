@@ -1,5 +1,5 @@
-# TheRayCode
-## Proxy pattern c#
+
+[up](../README.md)
 
 Proxy is a structural design pattern that lets you provide a substitute/placeholder for another object. 
 The proxy controls access to the original object, allowing you to perform work before or after the request to the original object.
