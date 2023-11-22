@@ -19,6 +19,8 @@ The **Decorator** pattern is a structural design pattern that allows you to add 
 3. **Decorator**: An abstract class which inherits from Component, and contains a reference to a Component. It lays the foundation for concrete decorators.
 4. **ConcreteDecorator**: A subclass of Decorator. It extends the core functionality of the ConcreteComponent by adding state or adding behavior.
 
+![This is an image](https://i0.wp.com/rayandrade.com/wp-content/uploads/2021/12/abstract-_factory03.jpeg?resize=1536%2C1024&ssl=1)
+
 ### Why It's Important for a C++ Developer:
 
 1. **Extendibility**: One of the main advantages of the Decorator pattern is that it allows functionalities to be added to objects at runtime rather than during compilation. This dynamic nature provides a more flexible approach than inheritance.
