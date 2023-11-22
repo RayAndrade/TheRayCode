@@ -19,7 +19,7 @@ The **Decorator** pattern is a structural design pattern that allows you to add 
 3. **Decorator**: An abstract class which inherits from Component, and contains a reference to a Component. It lays the foundation for concrete decorators.
 4. **ConcreteDecorator**: A subclass of Decorator. It extends the core functionality of the ConcreteComponent by adding state or adding behavior.
 
-![This is an image](https://i0.wp.com/rayandrade.com/wp-content/uploads/2021/12/abstract-_factory03.jpeg?resize=1536%2C1024&ssl=1)
+![This is an image](../UMLs/Structural/Decorator/Decorator177.dia)
 
 ### Why It's Important for a C++ Developer:
 
