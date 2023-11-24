@@ -24,7 +24,7 @@ The Proxy Design Pattern provides a surrogate or placeholder for another object 
 
 4. **Smart Proxy**: Adds additional actions when an object is accessed. This can be logging, reference counting, etc.
 
-![This is an image](../../../UMLs/images/Proxy/Proxy-1.jpg)
+![This is an image](../../../UMLs/images/Proxy/Proxy-1.png)
 
 **Why PHP Programmers Should Study It**:
 
