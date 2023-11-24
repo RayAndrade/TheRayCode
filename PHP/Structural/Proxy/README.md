@@ -24,6 +24,8 @@ The Proxy Design Pattern provides a surrogate or placeholder for another object 
 
 4. **Smart Proxy**: Adds additional actions when an object is accessed. This can be logging, reference counting, etc.
 
+![This is an image](../../../UMLs/images/Proxy/Proxy-1.jpg)
+
 **Why PHP Programmers Should Study It**:
 
 1. **Performance Optimization**: The Proxy pattern, especially the Virtual Proxy, can enhance performance by delaying the instantiation of heavy objects until they're truly needed. This is particularly helpful in web applications where speedy server responses are crucial.
