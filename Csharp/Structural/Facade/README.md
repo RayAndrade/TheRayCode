@@ -19,7 +19,7 @@ Key roles in the Facade pattern are:
 1. **Facade**: This is the main class that provides a simplified interface to the complex subsystem.
 2. **Subsystem Classes**: These classes perform the actual functionalities but might be complex or unwieldy to use directly.
 
-![This is an image](../../../UMLs/images/Facade/Facade-1.png)
+![This is an image](../../../UMLs/images/Facade/Facade-1.jng)
 
 **Why C# Programmers Should Study the Facade Design Pattern**:
 1. **Simplification**: When building applications in C#, developers often have to interact with intricate systems, be it legacy code, third-party libraries, or complicated APIs. The Facade pattern helps in providing a streamlined interface to these systems, making them easier to work with.
