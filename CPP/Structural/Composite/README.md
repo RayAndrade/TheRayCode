@@ -14,8 +14,6 @@
 
 The **Composite** pattern is indeed a structural design pattern. It is used to treat individual objects and compositions of objects uniformly. In other words, it allows you to compose objects into tree structures to represent part-whole hierarchies.
 
-![This is an image](../../../UMLs/images/Composite/Composite.jpg)
-
 ### Components:
 1. **Component**: An abstract class or interface that defines the operations that can be performed on both primitive (individual) objects and composite objects.
 2. **Leaf**: Represents the primitive objects in the composition. These are the basic building blocks of the composite structure.
