@@ -20,6 +20,8 @@ The primary roles in the Composite pattern are:
 2. **Leaf**: This is the individual object that doesn’t have any sub-elements and implements the Component interface.
 3. **Composite**: A container which may contain leaves or other smaller composites, building up the tree structure. It also implements the Component interface and manages the child components.
 
+![This is an image](../../../UMLs/images/Composite/Composite.jpg)
+
 **Why PHP Programmers Should Study the Composite Design Pattern**:
 1. **Hierarchical Data Structures**: Many web applications built using PHP require the management of hierarchical data structures, like menu systems, organizational charts, or file/folder hierarchies. The Composite pattern is well-suited for such representations.
 
