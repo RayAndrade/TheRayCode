@@ -22,6 +22,8 @@ The Flyweight Design Pattern is a structural pattern that aims to reduce memory 
 
 For example, consider a word processing program. Each character in the document could be an object. Instead of having a separate object for each character instance in the document, a flyweight approach might have an object for each unique character, and the position (or other extrinsic data) for each instance would be stored separately. Thus, for a document with many repetitions of the same characters, there's significant memory savings.
 
+![This is an image](../../../UMLs/images/Flyweight/Flyweight-1.jpg)
+
 **Why Java Programmers Should Study It**:
 
 1. **Memory Efficiency**: Java applications, especially enterprise-level or mobile applications, might need to handle a large number of objects. Managing this many objects can be a memory-intensive task. Understanding the Flyweight pattern can help developers reduce the memory footprint of their applications.
