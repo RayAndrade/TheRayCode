@@ -21,6 +21,8 @@ The pattern consists of:
 3. **Implementor**: This is the interface for the concrete implementations.
 4. **ConcreteImplementor**: This provides specific implementations of the Implementor interface.
 
+![This is an image](../../../UMLs/images/Bridge/Bridge-1.png)
+
 **Why Java Programmers Should Study the Bridge Design Pattern**:
 1. **Platform Independence**: Java's mantra is "Write Once, Run Anywhere". When developing software that needs to run on multiple platforms or environments, the Bridge pattern can help in isolating platform-specific code, aligning with Java's philosophy.
 
