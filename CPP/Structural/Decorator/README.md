@@ -21,7 +21,7 @@ The **Decorator** pattern is a structural design pattern that allows you to add 
 
 ![This is an image](../../../UMLs/images/Decorator/Decorator-1.jpg)
 
-### Why It's Important for a C++ Developer:
+### Why the Decorator design pattern is Important for a C++ Developer:
 
 1. **Extendibility**: One of the main advantages of the Decorator pattern is that it allows functionalities to be added to objects at runtime rather than during compilation. This dynamic nature provides a more flexible approach than inheritance.
 
