@@ -9,13 +9,15 @@
 |Pattern|   |   |   |
 |---|---|---|---|
 | [**Adapter**](README.md) | [**C++**](../../../CPP/Structural/Adapter/README.md) | [**Java**](../../../Java/Structural/Adapter/README.md) | [**PHP**](../../../PHP/Structural/Adapter/README.md) |
-
+https://github.com/RayAndrade/TheRayCode/blob/main/Csharp/Structural/Adapter/README.md
 [Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)  
 
 Let's discuss the "Adapter Design Pattern" and its relevance to C# programmers.
 
 **Adapter Design Pattern**:
 The Adapter Design Pattern, often known as the Wrapper, falls under the structural design pattern category. Its primary intent is to bridge the gap between two incompatible interfaces. Essentially, this pattern involves creating a new interface (the adapter) that allows an existing class to work with other classes without modifying its source code. It serves as an intermediary to translate requests from one interface to another.
+
+![This is an image](../../../UMLs/images/Adapter/Adapter141.png)
 
 **Why should C# programmers study the Adapter Design Pattern?**
 
