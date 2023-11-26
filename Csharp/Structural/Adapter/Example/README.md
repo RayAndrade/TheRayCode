@@ -1,4 +1,4 @@
-[up](../README.md)
+[up](../README.md) | [script](script/page01.md)
 
 Creating an example of the Adapter pattern in C# involves several components. The Adapter pattern is a structural design pattern that allows objects with incompatible interfaces to collaborate. It involves at least three roles: the `Client`, the `Target`, and the `Adapter`. Sometimes, there's also an `Adaptee` - the class that is being adapted to the `Target` interface.
 
