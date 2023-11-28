@@ -4,7 +4,7 @@
 
 **[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
-**Java Intepretor Design Pattern**
+**Java Interpreter Design Pattern**
 
 |Pattern|   |   |   |
 |---|---|---|---|
