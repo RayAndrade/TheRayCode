@@ -8,7 +8,7 @@
 
 |Pattern|   |   |   |
 |---|---|---|---|
-| [**Intepretor**](README.md) | [C++](../../../CPP/Behavioral/Intepretor/README.md) | [C#](../../../Csharp/Behavioral/Intepretor/README.md) | [PHP](../../../PHP/Behavioral/Intepretor/README.md) |
+| [**Interpreter**](README.md) | [C++](../../../CPP/Behavioral/Interpreter/README.md) | [C#](../../../Csharp/Behavioral/Interpreter/README.md) | [PHP](../../../PHP/Behavioral/Interpreter/README.md) |
 
 [Example](Example/README.md)  [Example2](Example2/README.md)
 
