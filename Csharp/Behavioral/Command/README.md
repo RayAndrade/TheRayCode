@@ -16,7 +16,7 @@
 
 The Command Design Pattern involves encapsulating a request as an object, thereby allowing users to parameterize clients with different requests, queue requests, and support undoable operations. In essence, it decouples the object that invokes the command (often termed as the 'Invoker') from the object that knows how to execute the command (the 'Receiver').
 
-**Why should C# Programmers Should Study the Command Design Pattern.**:
+**Why should C# Programmers Study the Command Design Pattern.**:
 
 1. **Decoupling**: One of the primary benefits of the Command pattern is the separation it introduces between the sender (Invoker) and the receiver (Receiver). This separation ensures that changes in either component do not impact the other, leading to more maintainable and modular C# code.
 
