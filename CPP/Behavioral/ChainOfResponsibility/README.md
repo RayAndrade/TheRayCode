@@ -16,7 +16,7 @@
 
 The Chain of Responsibility Design Pattern allows an object to pass a request along a chain of potential handlers until an object handles it or the end of the chain is reached. In essence, it decouples the sender from the receiver by letting more than one object handle the request. The pattern consists of a series of processing objects where each object contains logic that defines the types of command objects that it can handle, and how to pass off the rest to the next object in the chain.
 
-**Why C++ Programmers Should Study It**:
+**Why Should C++ Programmers Study the Chain of Responsibility design pattern?**:
 
 1. **Decoupling Senders and Receivers**: One of the most significant benefits of this pattern is the reduced coupling between the sender of a request and its potential receivers. C++ developers can maintain and modify senders and handlers independently.
 
