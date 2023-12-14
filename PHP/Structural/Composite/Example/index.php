@@ -1,3 +1,4 @@
+<h1>TheRayCode is AWESOME!!!</h1>
 <?php
 include_once ('Composite.php');
 include_once ('Leaf.php');
