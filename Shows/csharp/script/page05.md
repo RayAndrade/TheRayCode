@@ -1,9 +1,32 @@
 [home](./page01.md) | [back](./page04.md) | [next](./page06.md)
 
-and place the code
+Let's create a **class**
 ```
-new Client().Main();
+Client
 ```
-*Explanation*: This is the entry point of the program, creating and running the client's main method.
+with
+1
+```
+public void Main()
+{ }
+```
+and we add
+1.a
+```
+Adaptee adaptee = new Adaptee();
+ITarget target = new Adapter(adaptee);
+```
+1.b
+```
+Console.WriteLine("Adaptee interface is incompatible with the client.");
+Console.WriteLine("But with adapter client can call it's method.");
+```
+1.c
+```
+Console.WriteLine(target.GetRequest());
+```
+
+
+
 
 [page 6](./page06.md)
