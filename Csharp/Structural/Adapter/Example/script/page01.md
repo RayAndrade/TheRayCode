@@ -3,6 +3,10 @@
 Use JetBreains Rider
 
 ```
+/home/ray/TheRayCode/TheRayCode/Shows/csharp/Show
+```
+
+```
 using System;
 ```
 

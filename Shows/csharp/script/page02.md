@@ -1,20 +1,17 @@
 [home](./page01.md) | [back](./page01.md) [next](./page03.md)
 
-Create *interface* **Device**
-```
-Device
-```
-with the following method requierments:
+ public **interface** 
 
 ```
-bool IsEnabled();
-void Enable();
-void Disable();
-int GetVolume();
-void SetVolume(int percent);
+ITarget
+```
+add code:
+
+```
+string GetRequest();
 ```
 
-Purpose: Defines the interface for different devices.
-Methods: Basic operations like **Enable, Disable, GetVolume, SetVolume**.
+*Explanation*: `ITarget` is the interface expected by the `Client`. It defines the domain-specific interface that `Client` uses.
+
 
 [page 3](./page03.md)
