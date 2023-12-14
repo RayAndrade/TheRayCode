@@ -1,4 +1,4 @@
-[up](./README.md)
+[up](../README.md)
 
 
 The Bridge design pattern is a structural pattern used to decouple an abstraction from its implementation so that the two can vary independently. This pattern involves an interface which acts as a bridge between the abstraction and its implementation classes. It's particularly useful for scenarios where an abstraction can have multiple implementations.
