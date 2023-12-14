@@ -9,23 +9,9 @@ Adaptee
 add code:
 1.
 ```
-private readonly Adaptee _adaptee;
-```
-
-2.
-```
-public Adapter(Adaptee adaptee)
+public string GetSpecificRequest()
 {
-    _adaptee = adaptee;
-}
-```
-
-3.
-
-```
-public string GetRequest()
-{
-    return $"This is '{_adaptee.GetSpecificRequest()}'";
+    return "Specific request.";
 }
 ```
 
