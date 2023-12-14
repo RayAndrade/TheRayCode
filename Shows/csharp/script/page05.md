@@ -16,6 +16,13 @@ and we add
 Adaptee adaptee = new Adaptee();
 ITarget target = new Adapter(adaptee);
 ```
+**sub** we need
+```
+using System;
+```
+for the write to console method
+
+
 1.b
 ```
 Console.WriteLine("Adaptee interface is incompatible with the client.");
