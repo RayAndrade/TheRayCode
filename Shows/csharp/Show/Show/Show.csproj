@@ -40,6 +40,10 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Adaptee.cs" />
+        <Compile Include="Adapter.cs" />
+        <Compile Include="Client.cs" />
+        <Compile Include="ITarget.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
