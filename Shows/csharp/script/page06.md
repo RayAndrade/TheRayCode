@@ -7,5 +7,10 @@ new Client().Main();
 
 and view our result
 
+```
+Adaptee interface is incompatible with the client.
+But with adapter client can call it's method.
+This is 'Specific request.'
+```
 
 [page 7](./page07.md)
