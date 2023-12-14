@@ -1,5 +1,7 @@
 [home](./page01.md) | [next](./page02.md)
 
+Use JetBreains Rider
+
 ```
 using System;
 ```
