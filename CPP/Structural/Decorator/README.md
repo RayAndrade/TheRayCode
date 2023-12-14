@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Decorator**](README.md) | [C#](../../../Csharp/Structural/Decorator/README.md) | [Java](../../../Java/Structural/Decorator/README.md) | [PHP](../../../PHP/Structural/Decorator/README.md) |
 
-[Example](Example/README.md) | [Example22](Example2/README.md)
+[Example](Example/README.md) | [Example2](Example2/README.md)
 
 The **Decorator** pattern is a structural design pattern that allows you to add new responsibilities to an object dynamically without altering its structure. This pattern involves a set of decorator classes that are used to wrap concrete components. Decorator classes mirror the type of the components they aim to enhance, but add or override behavior.
 
