@@ -1,17 +1,14 @@
-//
-// Created by ray on 12/13/23.
-//
-
-#ifndef EXAMPLE2_CONCRETECOMPONENT_H
-#define EXAMPLE2_CONCRETECOMPONENT_H
+#ifndef DECORATOR_CONCRETECOMPONENT_H
+#define DECORATOR_CONCRETECOMPONENT_H
 
 #include "Component.h"
 
 class ConcreteComponent : public Component {
 public:
-    void operation() override {
-        // Implementation of base behavior
+    std::string Operation() const override {
+        return "ConcreteComponent";
     }
 };
 
-#endif //EXAMPLE2_CONCRETECOMPONENT_H
+
+#endif //DECORATOR_CONCRETECOMPONENT_H

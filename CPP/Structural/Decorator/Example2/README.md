@@ -1,134 +1,151 @@
-[up](../README.md)
+# TheRayCode
+## Decorator pattern c++
 
-Creating a C++ example using the Decorator design pattern involves several steps. I'll outline the structure of the project, including the necessary classes and their respective `.h` files, explain each class, method, and variable, and then describe the order of creation and expected output.
+Decorator is a structural pattern that allows adding new behaviors to objects dynamically by placing them inside special wrapper objects.
 
-### Project Structure
+This example illustrates the structure of the Decorator design pattern. It focuses on answering these questions:
+<ol>
+<li>What classes does it consist of?</li>
+<li>What roles do these classes play?</li>
+<li>In what way the elements of the pattern are related?</li>
+</ol>
 
-1. **Component.h** - Abstract base class
-2. **ConcreteComponent.h** - Inherits from Component
-3. **Decorator.h** - Abstract class inheriting from Component
-4. **ConcreteDecoratorA.h** - Inherits from Decorator
-5. **ConcreteDecoratorB.h** - Inherits from Decorator
-6. **main.cpp** - Demonstration of the pattern
+The base Component interface defines operations that can be altered by decorators.
 
-### Component.h
-
-This is an abstract class defining the interface for objects that can have responsibilities added to them dynamically.
 
 ```cpp
+#include <iostream>
+
 class Component {
 public:
     virtual ~Component() {}
-    virtual void operation() = 0;
+    virtual std::string Operation() const = 0;
 };
 ```
-
-### ConcreteComponent.h
-
-A concrete implementation of `Component`. This is the object to which additional responsibilities can be attached.
+Concrete Components provide default implementations of the operations. 
+There might be several variations of these classes.
 
 ```cpp
 #include "Component.h"
 
 class ConcreteComponent : public Component {
 public:
-    void operation() override {
-        // Implementation of base behavior
+    std::string Operation() const override {
+        return "ConcreteComponent";
     }
 };
 ```
 
-### Decorator.h
-
-An abstract decorator class that extends `Component` to add functionalities.
-
+The base Decorator class follows the same interface as the other components.
+The primary purpose of this class is to define the wrapping interface for all concrete decorators. 
+The default implementation of the wrapping code might include a field for storing a wrapped component and the means to initialize it.
+The Decorator delegates all work to the wrapped component.
 ```cpp
 #include "Component.h"
 
 class Decorator : public Component {
 protected:
-    Component* component;
+    Component* component_;
 
 public:
-    Decorator(Component* c) : component(c) {}
-    void operation() override {
-        if (component) {
-            component->operation();
-        }
+    Decorator(Component* component) : component_(component) {
+    }
+
+    std::string Operation() const override {
+        return this->component_->Operation();
     }
 };
 ```
+![Decorator](/UMLs/images/Decorator/Decorator-1.jpg)
 
-### ConcreteDecoratorA.h
-
-A concrete decorator class adding specific responsibilities.
-
+Decorators may call parent implementation of the operation, instead of calling the wrapped object directly. 
+This approach simplifies extension of decorator classes.
+Let's create a decorator called **ConcreteDecoratorA**
 ```cpp
 #include "Decorator.h"
 
 class ConcreteDecoratorA : public Decorator {
 public:
-    ConcreteDecoratorA(Component* c) : Decorator(c) {}
-
-    void operation() override {
-        Decorator::operation();
-        // Additional behavior or state
+    ConcreteDecoratorA(Component* component) : Decorator(component) {
+    }
+    std::string Operation() const override {
+        return "ConcreteDecoratorA(" + Decorator::Operation() + ")";
     }
 };
 ```
-
-### ConcreteDecoratorB.h
-
-Another concrete decorator class adding different responsibilities.
-
+Let's create another decorator called **ConcreteDecoratorB**.
+Decorators can execute their behavior either before or after the call to a wrapped object.
 ```cpp
 #include "Decorator.h"
 
 class ConcreteDecoratorB : public Decorator {
 public:
-    ConcreteDecoratorB(Component* c) : Decorator(c) {}
+    ConcreteDecoratorB(Component* component) : Decorator(component) {
+    }
 
-    void operation() override {
-        Decorator::operation();
-        // Different additional behavior or state
+    std::string Operation() const override {
+        return "ConcreteDecoratorB(" + Decorator::Operation() + ")";
     }
 };
 ```
+This way the client code can support both simple components as well as decorated ones.
 
-### main.cpp
+The client code works with all objects using the Component interface. 
+This way it can stay independent of the concrete classes of components it works with.
 
-Demonstration of how decorators add behavior to the component.
-
+Note how decorators can wrap not only simple components but the other decorators as well.
 ```cpp
 #include "ConcreteComponent.h"
 #include "ConcreteDecoratorA.h"
 #include "ConcreteDecoratorB.h"
 
-int main() {
-    Component* simple = new ConcreteComponent();
-    Component* decoratorA = new ConcreteDecoratorA(simple);
-    Component* decoratorB = new ConcreteDecoratorB(decoratorA);
+void ClientCode(Component* component) {
+    // ...
+    std::cout << "RESULT: " << component->Operation();
+    // ...
+}
 
-    decoratorB->operation();
+int main() {
+
+    Component* simple = new ConcreteComponent;
+    std::cout << "Client: I've got a simple component:\n";
+    ClientCode(simple);
+    std::cout << "\n\n";
+    
+    Component* decorator1 = new ConcreteDecoratorA(simple);
+    Component* decorator2 = new ConcreteDecoratorB(decorator1);
+    std::cout << "Client: Now I've got a decorated component:\n";
+    ClientCode(decorator2);
+    std::cout << "\n";
 
     delete simple;
-    delete decoratorA;
-    delete decoratorB;
+    delete decorator1;
+    delete decorator2;
 
     return 0;
 }
 ```
+Now let's compile and run, we should get:
+```run
+Client: I've got a simple component:
+RESULT: ConcreteComponent
 
-### Creation Order
+Client: Now I've got a decorated component:
+RESULT: ConcreteDecoratorB(ConcreteDecoratorA(ConcreteComponent))
+```
 
-1. Create `Component.h`.
-2. Create `ConcreteComponent.h`.
-3. Create `Decorator.h`.
-4. Create `ConcreteDecoratorA.h` and `ConcreteDecoratorB.h`.
-5. Implement the `main.cpp`.
+The Ray Code is AWESOME!!!
 
-### Expected Output
+[Wikipedia](https://en.wikipedia.org/wiki/Decorator_pattern)
 
-When you run `main.cpp`, it will execute the `operation()` method of `ConcreteDecoratorB`, which in turn calls the `operation()` of `ConcreteDecoratorA`, and finally the base behavior in `ConcreteComponent`. The output will depend on the specific implementations in the `operation()` methods of these classes.
+----------------------------------------------------------------------------------------------------
 
-Remember, this is a basic structure. The actual implementation can vary based on specific requirements and enhancements you wish to make.
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
+
+[The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)

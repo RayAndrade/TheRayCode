@@ -1,23 +1,25 @@
-//
-// Created by ray on 12/13/23.
-//
-
-#ifndef EXAMPLE2_DECORATOR_H
-#define EXAMPLE2_DECORATOR_H
+#ifndef DECORATOR_DECORATOR_H
+#define DECORATOR_DECORATOR_H
 
 #include "Component.h"
 
 class Decorator : public Component {
+    /**
+     * @var Component
+     */
 protected:
-    Component* component;
+    Component* component_;
 
 public:
-    Decorator(Component* c) : component(c) {}
-    void operation() override {
-        if (component) {
-            component->operation();
-        }
+    Decorator(Component* component) : component_(component) {
+    }
+    /**
+     * The Decorator delegates all work to the wrapped component.
+     */
+    std::string Operation() const override {
+        return this->component_->Operation();
     }
 };
 
-#endif //EXAMPLE2_DECORATOR_H
+
+#endif //DECORATOR_DECORATOR_H

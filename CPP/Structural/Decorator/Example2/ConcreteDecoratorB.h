@@ -1,20 +1,17 @@
-//
-// Created by ray on 12/13/23.
-//
 
-#ifndef EXAMPLE2_CONCRETEDECORATORB_H
-#define EXAMPLE2_CONCRETEDECORATORB_H
-
+#ifndef DECORATOR_CONCRETEDECORATORB_H
+#define DECORATOR_CONCRETEDECORATORB_H
 #include "Decorator.h"
 
 class ConcreteDecoratorB : public Decorator {
 public:
-    ConcreteDecoratorB(Component* c) : Decorator(c) {}
+    ConcreteDecoratorB(Component* component) : Decorator(component) {
+    }
 
-    void operation() override {
-        Decorator::operation();
-        // Different additional behavior or state
+    std::string Operation() const override {
+        return "ConcreteDecoratorB(" + Decorator::Operation() + ")";
     }
 };
 
-#endif //EXAMPLE2_CONCRETEDECORATORB_H
+
+#endif //DECORATOR_CONCRETEDECORATORB_H

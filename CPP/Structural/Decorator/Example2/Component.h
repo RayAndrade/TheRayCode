@@ -1,14 +1,12 @@
-//
-// Created by ray on 12/13/23.
-//
-
-#ifndef EXAMPLE2_COMPONENT_H
-#define EXAMPLE2_COMPONENT_H
+#ifndef DECORATOR_COMPONENT_H
+#define DECORATOR_COMPONENT_H
+#include <iostream>
 
 class Component {
 public:
     virtual ~Component() {}
-    virtual void operation() = 0;
+    virtual std::string Operation() const = 0;
 };
 
-#endif //EXAMPLE2_COMPONENT_H
+
+#endif //DECORATOR_COMPONENT_H

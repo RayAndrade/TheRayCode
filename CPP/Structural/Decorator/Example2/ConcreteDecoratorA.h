@@ -1,20 +1,20 @@
-//
-// Created by ray on 12/13/23.
-//
-
-#ifndef EXAMPLE2_CONCRETEDECORATORA_H
-#define EXAMPLE2_CONCRETEDECORATORA_H
-
+#ifndef DECORATOR_CONCRETEDECORATORA_H
+#define DECORATOR_CONCRETEDECORATORA_H
 #include "Decorator.h"
 
 class ConcreteDecoratorA : public Decorator {
+    /**
+     * Decorators may call parent implementation of the operation, instead of
+     * calling the wrapped object directly. This approach simplifies extension of
+     * decorator classes.
+     */
 public:
-    ConcreteDecoratorA(Component* c) : Decorator(c) {}
-
-    void operation() override {
-        Decorator::operation();
-        // Additional behavior or state
+    ConcreteDecoratorA(Component* component) : Decorator(component) {
+    }
+    std::string Operation() const override {
+        return "ConcreteDecoratorA(" + Decorator::Operation() + ")";
     }
 };
 
-#endif //EXAMPLE2_CONCRETEDECORATORA_H
+
+#endif //DECORATOR_CONCRETEDECORATORA_H

@@ -1,12 +1,6 @@
-cmake_minimum_required(VERSION 3.27)
-project(Example2)
+cmake_minimum_required(VERSION 3.17)
+project(Decorator)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Example2 main.cpp
-        Component.h
-        ConcreteComponent.h
-        Decorator.h
-        ConcreteDecoratorA.h
-        ConcreteDecoratorB.h
-)
+add_executable(Decorator main.cpp Component.h ConcreteComponent.h Decorator.h ConcreteDecoratorA.h ConcreteDecoratorB.h)
