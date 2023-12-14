@@ -1,6 +1,6 @@
-![Composite](/UMLs/images/Composite/Composite-php.png)
-
 [up](../README.md)
+
+![Composite](/UMLs/images/Composite/Composite-php.png)
 
 This example illustrates the structure of the Composite design pattern and focuses on the following questions:
 
