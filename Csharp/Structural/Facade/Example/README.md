@@ -1,4 +1,4 @@
-[up](../README.md)
+[up](../README.md) [show](./script/page01.md)
 
 Creating a C# example using the Facade design pattern involves several steps. The Facade pattern is a structural design pattern that provides a simplified interface to a complex subsystem. In this case, we'll create a humorous, simple application that simulates a "Robot" performing various complex tasks like cooking, cleaning, and entertainment, but the user will interact with a simple interface.
 
