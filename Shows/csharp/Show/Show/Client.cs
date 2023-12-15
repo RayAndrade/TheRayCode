@@ -1,7 +1,6 @@
-using System;
-
 namespace Show
 {
+    using System;
     public class Client
     {
         public void Main()

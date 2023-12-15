@@ -8,7 +8,6 @@ namespace Show
         {
             _adaptee = adaptee;
         }
-        
         public string GetRequest()
         {
             return $"This is '{_adaptee.GetSpecificRequest()}'";
