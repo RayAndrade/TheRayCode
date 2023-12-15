@@ -1,24 +1,8 @@
 <?php
-include_once ('Subject.php');
-include_once ('RealSubject.php');
-include_once ('Proxy.php');
+include_once 'Proxy.php';
 
+$proxy = new Proxy();
 
-function clientCode(Subject $subject)
-{
-    // ...
-
-    $subject->request();
-
-    // ...
-}
-
-echo "Client: Executing the client code with a real subject:<br/>";
-$realSubject = new RealSubject;
-clientCode($realSubject);
-
-echo "<br/>";
-
-echo "Client: Executing the same client code with a proxy:<br/>";
-$proxy = new Proxy($realSubject);
-clientCode($proxy);
+// The client code may or may not know about the RealSubject's existence.
+// In this case, we're just interacting through the proxy.
+echo $proxy->request();
