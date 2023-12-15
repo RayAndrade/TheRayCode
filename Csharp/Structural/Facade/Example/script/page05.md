@@ -11,6 +11,7 @@ public void PlayMorningMusic()
     Console.WriteLine("Playing the best morning tunes to start your day right!");
 }
 ```
+Import System
 
 Additional entertainment methods...
 
