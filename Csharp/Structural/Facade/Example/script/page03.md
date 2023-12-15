@@ -11,6 +11,8 @@ public void MakeCoffee()
     Console.WriteLine("Brewing the perfect cup of coffee!");
 }
 ```
+Import System
+
 Additional cooking methods...
 
 
