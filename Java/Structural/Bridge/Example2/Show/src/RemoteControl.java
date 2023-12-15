@@ -1,11 +1,12 @@
 public abstract class RemoteControl {
-    protected TV tv;
+    protected Device device;
 
-    public RemoteControl(TV tv) {
-        this.tv = tv;
+    public RemoteControl(Device device) {
+        this.device = device;
     }
 
-    public abstract void turnOn();
-    public abstract void turnOff();
-    public abstract void setChannel(int channel);
+    public abstract void togglePower();
+    public abstract void volumeUp();
+    public abstract void volumeDown();
+
 }

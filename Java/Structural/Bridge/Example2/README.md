@@ -1,146 +1,190 @@
-[up](../README.md)
+[top](../README.md)
 
 
-The Bridge design pattern is a structural pattern used to decouple an abstraction from its implementation so that the two can vary independently. This pattern involves an interface which acts as a bridge between the abstraction and its implementation classes. It's particularly useful for scenarios where an abstraction can have multiple implementations.
 
-To demonstrate the Bridge pattern in Java, let's consider a simple example of a TV remote control (the abstraction) and different types of TVs (the implementations). We'll create a hierarchy where the remote control can work with any TV type without being tightly coupled to a specific TV implementation.
+The Bridge design pattern is a structural pattern used to decouple an abstraction from its implementation so that the two can vary independently. This pattern involves an interface which acts as a bridge between the abstraction and its implementation classes.
 
-Here's how you can structure the classes:
+In this example, we'll create a simple scenario where we have different types of devices (like a TV and a Radio) and different types of remote controls. The Bridge pattern will allow us to use any remote control with any device without binding them permanently in the code.
 
-1. **`RemoteControl.java`**: An abstract class representing the abstraction. It contains a reference to a `TV` interface.
+Here's how we can structure our example:
 
-2. **`TV.java`**: An interface representing the implementer. This will be implemented by different types of TVs.
+1. **Device Interface (`Device.java`)**: This interface declares the common operations for all devices.
 
-3. **`SonyTV.java`** and **`SamsungTV.java`**: Concrete implementations of the `TV` interface.
+2. **Concrete Device Classes (`TV.java`, `Radio.java`)**: These classes implement the `Device` interface.
 
-4. **`Main.java`**: Contains the main method to demonstrate the use of the Bridge pattern.
+3. **Remote Control Interface (`RemoteControl.java`)**: This is an abstraction that will use a `Device`.
 
-### Step-by-Step Implementation
+4. **Concrete Remote Control Classes (`BasicRemote.java`, `AdvancedRemote.java`)**: These classes implement the `RemoteControl` interface.
 
-#### 1. `TV.java` (Interface)
-This interface declares methods that will be implemented by concrete TV classes.
+5. **Main Class (`Main.java`)**: To demonstrate the usage of the pattern.
+
+### 1. Device Interface (`Device.java`)
 
 ```java
-public interface TV {
-    void on();
-    void off();
-    void tuneChannel(int channel);
+public interface Device {
+    void turnOn();
+    void turnOff();
+    void setVolume(int percent);
+    // Other device-specific methods can be added here
 }
 ```
 
-#### 2. `SonyTV.java` (Concrete Implementation)
-Implements the `TV` interface, representing a specific type of TV.
+### 2. Concrete Device Classes
+
+#### `TV.java`
 
 ```java
-public class SonyTV implements TV {
-    public void on() {
-        System.out.println("Sony TV: ON");
+public class TV implements Device {
+    private int volume;
+
+    @Override
+    public void turnOn() {
+        System.out.println("TV turned on.");
     }
 
-    public void off() {
-        System.out.println("Sony TV: OFF");
+    @Override
+    public void turnOff() {
+        System.out.println("TV turned off.");
     }
 
-    public void tuneChannel(int channel) {
-        System.out.println("Sony TV: Tuned to channel " + channel);
+    @Override
+    public void setVolume(int percent) {
+        this.volume = percent;
+        System.out.println("TV volume set to " + this.volume + "%");
     }
+
+    // Additional TV-specific methods can be added here
 }
 ```
 
-#### 3. `SamsungTV.java` (Concrete Implementation)
-Another implementation of the `TV` interface.
+#### `Radio.java`
 
 ```java
-public class SamsungTV implements TV {
-    public void on() {
-        System.out.println("Samsung TV: ON");
+public class Radio implements Device {
+    private int volume;
+
+    @Override
+    public void turnOn() {
+        System.out.println("Radio turned on.");
     }
 
-    public void off() {
-        System.out.println("Samsung TV: OFF");
+    @Override
+    public void turnOff() {
+        System.out.println("Radio turned off.");
     }
 
-    public void tuneChannel(int channel) {
-        System.out.println("Samsung TV: Tuned to channel " + channel);
+    @Override
+    public void setVolume(int percent) {
+        this.volume = percent;
+        System.out.println("Radio volume set to " + this.volume + "%");
     }
+
+    // Additional Radio-specific methods can be added here
 }
 ```
 
-#### 4. `RemoteControl.java` (Abstraction)
-This abstract class represents a generic remote control. It holds a reference to a `TV` object and delegates the TV-related operations to it.
+### 3. Remote Control Interface (`RemoteControl.java`)
 
 ```java
 public abstract class RemoteControl {
-    protected TV tv;
+    protected Device device;
 
-    public RemoteControl(TV tv) {
-        this.tv = tv;
+    public RemoteControl(Device device) {
+        this.device = device;
     }
 
-    public abstract void turnOn();
-    public abstract void turnOff();
-    public abstract void setChannel(int channel);
+    public abstract void togglePower();
+    public abstract void volumeUp();
+    public abstract void volumeDown();
 }
 ```
 
-#### 5. `Main.java` (Demonstration)
-This class demonstrates the use of the Bridge pattern.
+### 4. Concrete Remote Control Classes
+
+#### `BasicRemote.java`
+
+```java
+public class BasicRemote extends RemoteControl {
+
+    public BasicRemote(Device device) {
+        super(device);
+    }
+
+    @Override
+    public void togglePower() {
+        System.out.println("Basic remote: power toggle");
+        // Implementation code for power toggle
+    }
+
+    @Override
+    public void volumeUp() {
+        System.out.println("Basic remote: volume up");
+        // Implementation code for volume up
+    }
+
+    @Override
+    public void volumeDown() {
+        System.out.println("Basic remote: volume down");
+        // Implementation code for volume down
+    }
+}
+```
+
+#### `AdvancedRemote.java`
+
+```java
+public class AdvancedRemote extends RemoteControl {
+
+    public AdvancedRemote(Device device) {
+        super(device);
+    }
+
+    @Override
+    public void togglePower() {
+        System.out.println("Advanced remote: power toggle");
+        // Implementation code for power toggle
+    }
+
+    @Override
+    public void volumeUp() {
+        System.out.println("Advanced remote: volume up");
+        // Implementation code for volume up
+    }
+
+    @Override
+    public void volumeDown() {
+        System.out.println("Advanced remote: volume down");
+        // Implementation code for volume down
+    }
+
+    // Additional methods specific to the advanced remote can be added here
+}
+```
+
+### 5. Main Class (`Main.java`)
 
 ```java
 public class Main {
     public static void main(String[] args) {
-        TV sonyTv = new SonyTV();
-        RemoteControl sonyRemote = new ConcreteRemote(sonyTv);
+        Device tv = new TV();
+        RemoteControl basicRemote = new BasicRemote(tv);
+        basicRemote.togglePower();
 
-        sonyRemote.turnOn();
-        sonyRemote.setChannel(9);
-        sonyRemote.turnOff();
-
-        TV samsungTv = new SamsungTV();
-        RemoteControl samsungRemote = new ConcreteRemote(samsungTv);
-
-        samsungRemote.turnOn();
-        samsungRemote.setChannel(5);
-        samsungRemote.turnOff();
-    }
-}
-
-class ConcreteRemote extends RemoteControl {
-    public ConcreteRemote(TV tv) {
-        super(tv);
-    }
-
-    public void turnOn() {
-        tv.on();
-    }
-
-    public void turnOff() {
-        tv.off();
-    }
-
-    public void setChannel(int channel) {
-        tv.tuneChannel(channel);
+        Device radio = new Radio();
+        RemoteControl advancedRemote = new AdvancedRemote(radio);
+        advancedRemote.togglePower();
     }
 }
 ```
 
 ### Order of Creation
-1. Create the `TV` interface.
-2. Implement the `TV` interface in `SonyTV` and `SamsungTV`.
-3. Create the `RemoteControl` abstract class.
-4. Implement a concrete remote control in `ConcreteRemote`.
-5. Use the `Main` class to demonstrate the pattern.
 
-### Output When Running the Code
-When you run the `Main.java`, you should see output demonstrating the interaction between the remote controls and their respective TVs:
+1. Start with the `Device` interface since it defines the core functionality for devices.
+2. Create the concrete device classes `TV` and `Radio`.
+3. Define the `RemoteControl` abstract class as it represents the abstraction layer.
+4. Implement the concrete remote control classes `BasicRemote` and `AdvancedRemote`.
+5. Finally, use the `Main` class to demonstrate the Bridge pattern.
 
-```
-Sony TV: ON
-Sony TV: Tuned to channel 9
-Sony TV: OFF
-Samsung TV: ON
-Samsung TV: Tuned to channel 5
-Samsung TV: OFF
-```
+### Expected Output
 
-This output shows how the Bridge pattern allows different types of TVs to be controlled by a generic remote control without tightly coupling the remote control class to specific TV classes.
+When you run the `Main.java`, you should see console output indicating the interactions between the remotes and their respective devices, like turning on the TV and the radio. The exact output will depend on the implementation details in the `togglePower`, `volumeUp`, and `volumeDown` methods of the remote classes.
