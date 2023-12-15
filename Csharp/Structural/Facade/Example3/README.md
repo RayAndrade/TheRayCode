@@ -1,106 +1,113 @@
 [up](../README.md)
 
-Creating a C# example using the Facade design pattern involves several steps. The Facade pattern is a structural design pattern that provides a simplified interface to a complex subsystem. In this case, we'll create a humorous, simple application that simulates a "Robot" performing various complex tasks like cooking, cleaning, and entertainment, but the user will interact with a simple interface.
+## Facade pattern c#
 
-### Project Structure
-1. **RobotFacade.cs**: This is the Facade class providing a simplified interface.
-2. **CookingSubsystem.cs**: A subsystem class for cooking-related tasks.
-3. **CleaningSubsystem.cs**: A subsystem class for cleaning activities.
-4. **EntertainmentSubsystem.cs**: A subsystem for entertainment activities.
-5. **Program.cs**: The main entry point that uses `RobotFacade`.
-
-### RobotFacade.cs
-```csharp
-public class RobotFacade
+The Subsystem can accept requests either from the facade or client directly. 
+In any case, to the Subsystem, the Facade is yet another client, and it's not a part of the Subsystem.
+```c#
+public class SubsystemA
 {
-    private CookingSubsystem _cookingSubsystem;
-    private CleaningSubsystem _cleaningSubsystem;
-    private EntertainmentSubsystem _entertainmentSubsystem;
-
-    public RobotFacade()
+    public string operation1()
     {
-        _cookingSubsystem = new CookingSubsystem();
-        _cleaningSubsystem = new CleaningSubsystem();
-        _entertainmentSubsystem = new EntertainmentSubsystem();
+        return "SubsystemA: Ready!\n";
     }
-
-    public void PerformMorningRoutine()
+    public string operationN()
     {
-        _cookingSubsystem.MakeCoffee();
-        _cleaningSubsystem.DoDusting();
-        _entertainmentSubsystem.PlayMorningMusic();
+        return "SubsystemA: Go!\n";
     }
+}
+```
+Some facades can work with multiple subsystems at the same time.
+```c#
+public class SubsystemB
+{
+    public string operation2()
+    {
+        return "SubsystemB: Get ready!\n";
+    }
+    public string operationZ()
+    {
+        return "SubsystemB: Fire!\n";
+    }
+}
+```
+![Factory](/UMLs/images/Facade/Facade-3.png)
+The Facade class provides a simple interface to the complex logic of one or several subsystems. 
+The Facade delegates the client requests to the appropriate objects within the subsystem. 
+The Facade is also responsible for managing their lifecycle. 
+All of this shields the client from the undesired complexity of the subsystem.
 
-    // Additional methods for different routines...
+The Facade's methods are convenient shortcuts to the sophisticated functionality of the subsystems. 
+However, clients get only to a fraction of a subsystem's capabilities.
+
+```c#
+public class Facade
+{
+    protected SubsystemA SubsystemA;
+    
+    protected SubsystemB SubsystemB;
+    public Facade(SubsystemA subsystemA, SubsystemB subsystemB)
+    {
+        this.SubsystemA = subsystemA;
+        this.SubsystemB = subsystemB;
+    }
+    public string Operation()
+    {
+        string result = "Facade initializes subsystems:\n";
+        result += this.SubsystemA.operation1();
+        result += this.SubsystemB.operation2();
+        result += "Facade orders subsystems to perform the action:\n";
+        result += this.SubsystemA.operationN();
+        result += this.SubsystemB.operationZ();
+        return result;
+    }
 }
 ```
 
-### CookingSubsystem.cs
-```csharp
-public class CookingSubsystem
+The client code works with complex subsystems through a simple interface provided by the Facade. 
+When a facade manages the lifecycle of the subsystem, the client might not even know about the existence of the subsystem. 
+This approach lets you keep the complexity under control.
+```c#
+class Client
 {
-    public void MakeCoffee()
+    public static void ClientCode(Facade facade)
     {
-        Console.WriteLine("Brewing the perfect cup of coffee!");
-    }
-
-    // Additional cooking methods...
-}
-```
-
-### CleaningSubsystem.cs
-```csharp
-public class CleaningSubsystem
-{
-    public void DoDusting()
-    {
-        Console.WriteLine("Dusting around the house, no dust bunny is safe!");
-    }
-
-    // Additional cleaning methods...
-}
-```
-
-### EntertainmentSubsystem.cs
-```csharp
-public class EntertainmentSubsystem
-{
-    public void PlayMorningMusic()
-    {
-        Console.WriteLine("Playing the best morning tunes to start your day right!");
-    }
-
-    // Additional entertainment methods...
-}
-```
-
-### Program.cs
-```csharp
-class Program
-{
-    static void Main(string[] args)
-    {
-        var robot = new RobotFacade();
-        robot.PerformMorningRoutine();
-
-        Console.WriteLine("All tasks completed with a smile (if I had a face)!");
+        Console.Write(facade.Operation());
     }
 }
-
+```
+The client code may have some of the subsystem's objects already created. 
+In this case, it might be worthwhile to initialize the Facade with these objects instead of letting the Facade create new instances.
+```C#
+static void Main(string[] args)
+{
+    SubsystemA subsystemA = new SubsystemA();
+    SubsystemB subsystemB = new SubsystemB();
+    Facade facade = new Facade(subsystemA, subsystemB);
+    Client.ClientCode(facade);
+}
+```
+Now let's compile and run.
+We should get:
+```run
+Facade initializes subsystems:
+SubsystemA: Ready!
+SubsystemB: Get ready!
+Facade orders subsystems to perform the action:
+SubsystemA: Go!
+SubsystemB: Fire!
 ```
 
-### Class Creation Order
-1. Create subsystems: `CookingSubsystem.cs`, `CleaningSubsystem.cs`, `EntertainmentSubsystem.cs`.
-2. Create `RobotFacade.cs` to encapsulate subsystems.
-3. Implement `Program.cs` to demonstrate usage.
+The Ray Code is AWESOME!!!
 
-### Expected Output
-When you run the program, you should see:
-```
-Brewing the perfect cup of coffee!
-Dusting around the house, no dust bunny is safe!
-Playing the best morning tunes to start your day right!
-All tasks completed with a smile (if I had a face)!
-```
+[Wikipedia](https://en.wikipedia.org/wiki/Facade_pattern)
 
-This output humorously suggests that the robot successfully performed its morning routine tasks with a touch of personality.
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[TheRayCode.ORG](https://www.TheRayCode.org)
+
+[RayAndrade.COM](https://www.RayAndrade.com)
+
+[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
