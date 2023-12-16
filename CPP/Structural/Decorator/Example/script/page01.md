@@ -14,6 +14,11 @@ add_executable(beginning main.cpp
 **main.cpp**
 
 ```
+std::cout << "The Ray Code is AWESOME!!!\n";
+```
+
+
+```
 std::cout << "The Ray Code is AWESOME!!!" << std::endl;
 ```
 
