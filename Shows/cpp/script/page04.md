@@ -24,11 +24,10 @@ Component* component;
 next for
 ```
 public:
-```
-we have
-```
 Decorator(Component* c) : component(c) {}
-
+```
+AND
+```
 void operation() override {
 if (component)
 component->operation();
