@@ -24,6 +24,7 @@ decorated->operation();
 ```
 
 and to clean up
+
 **5**
 ```
 delete simple;
