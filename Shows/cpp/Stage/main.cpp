@@ -13,5 +13,6 @@ int main() {
 
     delete simple;
     delete decorated;
+
     return 0;
 }

@@ -2,13 +2,13 @@
 // Created by ray on 12/15/23.
 //
 
-#ifndef BEGINNING_CONCRETEDECORATORA_H
-#define BEGINNING_CONCRETEDECORATORA_H
+#ifndef STAGE_CONCRETEDECORATORA_H
+#define STAGE_CONCRETEDECORATORA_H
 
 #include "Decorator.h"
 #include <iostream>
 
-class ConcreteDecoratorA: public Decorator {
+class ConcreteDecoratorA  : public Decorator{
 public:
     ConcreteDecoratorA(Component* c) : Decorator(c) {}
 
@@ -16,6 +16,7 @@ public:
         Decorator::operation();
         addedBehavior();
     }
+
 private:
     void addedBehavior() {
         std::cout << "Added behavior A.\n";
@@ -23,4 +24,4 @@ private:
 };
 
 
-#endif //BEGINNING_CONCRETEDECORATORA_H
+#endif //STAGE_CONCRETEDECORATORA_H

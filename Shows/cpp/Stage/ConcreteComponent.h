@@ -2,13 +2,13 @@
 // Created by ray on 12/15/23.
 //
 
-#ifndef BEGINNING_CONCRETECOMPONENT_H
-#define BEGINNING_CONCRETECOMPONENT_H
+#ifndef STAGE_CONCRETECOMPONENT_H
+#define STAGE_CONCRETECOMPONENT_H
 
 #include "Component.h"
 #include <iostream>
 
-class ConcreteComponent : public Component {
+class ConcreteComponent : public Component  {
 public:
     void operation() override {
         std::cout << "Basic functionality.\n";
@@ -17,4 +17,4 @@ public:
 };
 
 
-#endif //BEGINNING_CONCRETECOMPONENT_H
+#endif //STAGE_CONCRETECOMPONENT_H
