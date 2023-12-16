@@ -14,7 +14,7 @@ add_executable(beginning main.cpp
 **main.cpp**
 
 ```
-std::cout << "Added behavior A.\n";
+#include <iostream>
 ```
 
 ```
