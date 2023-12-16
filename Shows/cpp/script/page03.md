@@ -22,9 +22,6 @@ extend with
 code
 ```
 public:
-```
-and
-```
 void operation() override {
 std::cout << "Basic functionality.\n";
 }
