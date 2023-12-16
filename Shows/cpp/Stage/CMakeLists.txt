@@ -5,4 +5,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(beginning main.cpp
         ClownPrototype.h
-        Clown.h)
+        Clown.h
+        Component.h
+        ConcreteComponent.h
+        Decorator.h
+        ConcreteDecoratorA.h)
