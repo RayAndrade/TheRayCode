@@ -4,6 +4,7 @@ Create header file
 ```
 Component
 ```
+ is abstract base class declaring the common interface
 
 ```
 class Component {  };
@@ -11,13 +12,7 @@ class Component {  };
 
 ```
 public:
-```
-
-```
 virtual ~Component() {}
-```
-
-```
 virtual void operation() = 0;
 ```
 
