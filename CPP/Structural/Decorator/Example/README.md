@@ -1,4 +1,4 @@
-[up](../README.md)
+[up](../README.md) [script](script/page01.md)
 
 Creating a C++ example using the Decorator Design Pattern involves several steps. This design pattern is used to add new functionalities to objects dynamically without altering their structure. Here's how you can structure your C++ project using this pattern:
 
