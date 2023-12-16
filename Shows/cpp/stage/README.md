@@ -1,101 +1,142 @@
 [up](../README.md)
 
-Creating a C++ example using the Prototype design pattern in the context of a circus clown scenario involves several steps. First, let's outline the structure of the project and the classes we'll use, then dive into the details of each class.
+Creating a C++ example using the Decorator Design Pattern involves several steps. This design pattern is used to add new functionalities to objects dynamically without altering their structure. Here's how you can structure your C++ project using this pattern:
 
 ### Project Structure
-1. **Clown.h**: Defines the `Clown` class.
-2. **ClownPrototype.h**: Defines the `ClownPrototype` abstract class (Prototype interface).
-3. **Main.cpp**: Demonstrates the usage of the Prototype pattern.
+1. **Component.h** - Abstract base class declaring the common interface.
+2. **ConcreteComponent.h** - Class implementing the `Component` interface.
+3. **Decorator.h** - Abstract class inheriting from `Component`, used as a base for concrete decorators.
+4. **ConcreteDecoratorA.h**, **ConcreteDecoratorB.h**, etc. - Concrete classes extending `Decorator` with additional functionalities.
+5. **main.cpp** - The main program to demonstrate the usage.
 
-### ClownPrototype.h
-This abstract class serves as the prototype interface. It declares a pure virtual `clone` method.
+### Explanation of Each File
 
+#### Component.h
 ```cpp
-#ifndef CLOWNPROTOTYPE_H
-#define CLOWNPROTOTYPE_H
+// Component.h
+#ifndef COMPONENT_H
+#define COMPONENT_H
 
-class ClownPrototype {
+// Abstract base class representing the primary interface
+class Component {
 public:
-    virtual ~ClownPrototype() {}
-    virtual ClownPrototype* clone() = 0;
+    virtual ~Component() {}
+    virtual void operation() = 0;
 };
 
 #endif
 ```
 
-### Clown.h
-The `Clown` class, which inherits from `ClownPrototype`, represents a specific type of clown. It implements the `clone` method.
-
+#### ConcreteComponent.h
 ```cpp
-#ifndef CLOWN_H
-#define CLOWN_H
+// ConcreteComponent.h
+#ifndef CONCRETECOMPONENT_H
+#define CONCRETECOMPONENT_H
 
-#include "ClownPrototype.h"
+#include "Component.h"
 #include <iostream>
 
-class Clown : public ClownPrototype {
+// Concrete implementation of Component
+class ConcreteComponent : public Component {
+public:
+    void operation() override {
+        std::cout << "Basic functionality.\n";
+    }
+};
+
+#endif
+```
+
+#### Decorator.h
+```cpp
+// Decorator.h
+#ifndef DECORATOR_H
+#define DECORATOR_H
+
+#include "Component.h"
+
+// Base decorator class
+class Decorator : public Component {
+protected:
+    Component* component;
+
+public:
+    Decorator(Component* c) : component(c) {}
+    void operation() override {
+        if (component)
+            component->operation();
+    }
+};
+
+#endif
+```
+
+#### ConcreteDecoratorA.h
+```cpp
+// ConcreteDecoratorA.h
+#ifndef CONCRETEDECORATORA_H
+#define CONCRETEDECORATORA_H
+
+#include "Decorator.h"
+#include <iostream>
+
+// A concrete decorator adding extra features
+class ConcreteDecoratorA : public Decorator {
+public:
+    ConcreteDecoratorA(Component* c) : Decorator(c) {}
+
+    void operation() override {
+        Decorator::operation();
+        addedBehavior();
+    }
+
 private:
-    std::string name;
-public:
-    Clown(std::string name) : name(name) {}
-
-    ClownPrototype* clone() override {
-        return new Clown(*this);
-    }
-
-    void perform() {
-        // Example action
-        std::cout << "Clown " << name << " is performing!" << std::endl;
+    void addedBehavior() {
+        std::cout << "Added behavior A.\n";
     }
 };
 
 #endif
 ```
 
-### Main.cpp
-This file demonstrates the use of the Prototype pattern to create a clone of a clown.
-
+#### main.cpp
 ```cpp
-#include <iostream>
-#include "Clown.h"
+// main.cpp
+#include "ConcreteComponent.h"
+#include "ConcreteDecoratorA.h"
 
 int main() {
-    Clown* originalClown = new Clown("Happy");
-    originalClown->perform();
+    Component* simple = new ConcreteComponent();
+    Component* decorated = new ConcreteDecoratorA(simple);
 
-    // Cloning the clown
-    Clown* clonedClown = static_cast<Clown*>(originalClown->clone());
-    clonedClown->perform();
+    std::cout << "Running basic component:\n";
+    simple->operation();
 
-    delete originalClown;
-    delete clonedClown;
+    std::cout << "\nRunning decorated component:\n";
+    decorated->operation();
+
+    delete simple;
+    delete decorated;
     return 0;
 }
 ```
 
-### Explanation and Details
-- **ClownPrototype.h**: This abstract class defines the prototype interface with a `clone` method that must be implemented by any class that inherits from it.
-- **Clown.h**: 
-  - The `Clown` class inherits from `ClownPrototype` and represents a specific clown.
-  - It contains a private string `name` to identify the clown.
-  - The `clone` method creates a new `Clown` object by copying the current object (shallow copy).
-  - The `perform` method is an example action that a clown might do.
-- **Main.cpp**: 
-  - Creates an original clown.
-  - Clones the clown using the `clone` method.
-  - Both original and cloned clowns perform an action.
-  - Proper memory management is demonstrated with `delete`.
-
 ### Order of Creation
-1. Define the `ClownPrototype` interface.
-2. Implement the `Clown` class.
-3. Demonstrate the pattern in `main.cpp`.
+1. **Component.h**: Define the base interface.
+2. **ConcreteComponent.h**: Implement the basic functionality.
+3. **Decorator.h**: Create the base decorator.
+4. **ConcreteDecoratorA.h**: Add specific functionalities.
+5. **main.cpp**: Demonstrate the pattern.
 
-### Expected Output When Running the Code
-You should see output indicating that both the original and cloned clowns are performing, something like:
+### Expected Output in Terminal
+When you run `main.cpp`, you should see the following output:
 ```
-Clown Happy is performing!
-Clown Happy is performing!
+Running basic component:
+Basic functionality.
+
+Running decorated component:
+Basic functionality.
+Added behavior A.
 ```
 
-This example demonstrates the Prototype pattern, where a new object is created by copying an existing object, rather than creating from scratch. This is particularly useful in scenarios where the cost of creating an object is high.
+This project demonstrates the Decorator Pattern in C++ where `ConcreteDecoratorA` adds additional behavior to `ConcreteComponent` dynamically.
