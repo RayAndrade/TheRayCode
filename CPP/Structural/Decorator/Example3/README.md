@@ -1,142 +1,106 @@
 [up](../README.md)
 
-Creating a C++ example using the Decorator Design Pattern involves several steps. This design pattern is used to add new functionalities to objects dynamically without altering their structure. Here's how you can structure your C++ project using this pattern:
+Certainly! I'll guide you through a C++ example of the Decorator Design Pattern, which is a structural design pattern. This pattern allows behavior to be added to individual objects, either statically or dynamically, without affecting the behavior of other objects from the same class.
 
-### Project Structure
-1. **Component.h** - Abstract base class declaring the common interface.
-2. **ConcreteComponent.h** - Class implementing the `Component` interface.
-3. **Decorator.h** - Abstract class inheriting from `Component`, used as a base for concrete decorators.
-4. **ConcreteDecoratorA.h**, **ConcreteDecoratorB.h**, etc. - Concrete classes extending `Decorator` with additional functionalities.
-5. **main.cpp** - The main program to demonstrate the usage.
+We'll create a simple example with a `Component` interface, a `ConcreteComponent` class, and a `Decorator` class. Each class will be in its own header file. I'll also provide a `main.cpp` file to demonstrate usage. Let's break it down:
 
-### Explanation of Each File
-
-#### Component.h
+### 1. Component Interface: Component.h
 ```cpp
 // Component.h
 #ifndef COMPONENT_H
 #define COMPONENT_H
 
-// Abstract base class representing the primary interface
+#include <string>
+
 class Component {
 public:
     virtual ~Component() {}
-    virtual void operation() = 0;
+    virtual std::string operation() const = 0;
 };
 
-#endif
+#endif // COMPONENT_H
 ```
+**Explanation:** 
+- `Component`: An abstract base class (interface) that defines an interface for objects that can have responsibilities added to them dynamically.
 
-#### ConcreteComponent.h
+### 2. Concrete Component: ConcreteComponent.h
 ```cpp
 // ConcreteComponent.h
 #ifndef CONCRETECOMPONENT_H
 #define CONCRETECOMPONENT_H
 
 #include "Component.h"
-#include <iostream>
 
-// Concrete implementation of Component
 class ConcreteComponent : public Component {
 public:
-    void operation() override {
-        std::cout << "Basic functionality.\n";
+    std::string operation() const override {
+        return "ConcreteComponent";
     }
 };
 
-#endif
+#endif // CONCRETECOMPONENT_H
 ```
+**Explanation:** 
+- `ConcreteComponent`: A class that implements the `Component` interface. It's the basic object to which additional responsibilities can be attached.
 
-#### Decorator.h
+### 3. Decorator: Decorator.h
 ```cpp
 // Decorator.h
 #ifndef DECORATOR_H
 #define DECORATOR_H
 
 #include "Component.h"
+#include <memory>
 
-// Base decorator class
 class Decorator : public Component {
 protected:
-    Component* component;
-
+    std::shared_ptr<Component> component;
 public:
-    Decorator(Component* c) : component(c) {}
-    void operation() override {
-        if (component)
-            component->operation();
+    Decorator(std::shared_ptr<Component> c) : component(c) {}
+
+    std::string operation() const override {
+        return component->operation();
     }
 };
 
-#endif
+#endif // DECORATOR_H
 ```
+**Explanation:** 
+- `Decorator`: A class that 'wraps' a `Component` object, thereby providing a means to add responsibilities to individual objects dynamically.
 
-#### ConcreteDecoratorA.h
-```cpp
-// ConcreteDecoratorA.h
-#ifndef CONCRETEDECORATORA_H
-#define CONCRETEDECORATORA_H
+### 4. Concrete Decorators: (Optional, if you want to extend functionality)
+You can create classes like `ConcreteDecoratorA` and `ConcreteDecoratorB` that extend `Decorator` and add additional behavior.
 
-#include "Decorator.h"
-#include <iostream>
-
-// A concrete decorator adding extra features
-class ConcreteDecoratorA : public Decorator {
-public:
-    ConcreteDecoratorA(Component* c) : Decorator(c) {}
-
-    void operation() override {
-        Decorator::operation();
-        addedBehavior();
-    }
-
-private:
-    void addedBehavior() {
-        std::cout << "Added behavior A.\n";
-    }
-};
-
-#endif
-```
-
-#### main.cpp
+### 5. main.cpp
 ```cpp
 // main.cpp
+#include <iostream>
 #include "ConcreteComponent.h"
-#include "ConcreteDecoratorA.h"
+#include "Decorator.h"
 
 int main() {
-    Component* simple = new ConcreteComponent();
-    Component* decorated = new ConcreteDecoratorA(simple);
+    std::shared_ptr<Component> component = std::make_shared<ConcreteComponent>();
+    std::shared_ptr<Component> decoratedComponent = std::make_shared<Decorator>(component);
 
-    std::cout << "Running basic component:\n";
-    simple->operation();
-
-    std::cout << "\nRunning decorated component:\n";
-    decorated->operation();
-
-    delete simple;
-    delete decorated;
+    std::cout << "Result: " << decoratedComponent->operation() << std::endl;
+    
     return 0;
 }
 ```
+**Explanation:** 
+- `main.cpp`: Demonstrates the usage of the Decorator pattern. It creates a `ConcreteComponent` and then decorates it using the `Decorator`.
 
 ### Order of Creation
-1. **Component.h**: Define the base interface.
-2. **ConcreteComponent.h**: Implement the basic functionality.
-3. **Decorator.h**: Create the base decorator.
-4. **ConcreteDecoratorA.h**: Add specific functionalities.
-5. **main.cpp**: Demonstrate the pattern.
+1. **Component Interface**: Start with the `Component` interface as it defines the common interface for concrete components and decorators.
+2. **Concrete Component**: Next, implement the `ConcreteComponent` class.
+3. **Decorator**: Then, create the `Decorator` class, which needs the `Component` interface.
+4. **Concrete Decorators**: Optionally, implement any concrete decorators.
+5. **Main Function**: Finally, write the `main.cpp` to demonstrate the usage.
 
-### Expected Output in Terminal
-When you run `main.cpp`, you should see the following output:
+### Expected Output
+When you run the code, you should see:
 ```
-Running basic component:
-Basic functionality.
-
-Running decorated component:
-Basic functionality.
-Added behavior A.
+Result: ConcreteComponent
 ```
 
-This project demonstrates the Decorator Pattern in C++ where `ConcreteDecoratorA` adds additional behavior to `ConcreteComponent` dynamically.
+This indicates that the `ConcreteComponent` has been successfully wrapped by the `Decorator`, and its operation is being invoked.

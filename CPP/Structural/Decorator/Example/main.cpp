@@ -1,13 +1,18 @@
 // main.cpp
-#include <iostream>
 #include "ConcreteComponent.h"
-#include "Decorator.h"
+#include "ConcreteDecoratorA.h"
 
 int main() {
-    std::shared_ptr<Component> component = std::make_shared<ConcreteComponent>();
-    std::shared_ptr<Component> decoratedComponent = std::make_shared<Decorator>(component);
+    Component* simple = new ConcreteComponent();
+    Component* decorated = new ConcreteDecoratorA(simple);
 
-    std::cout << "Result: " << decoratedComponent->operation() << std::endl;
+    std::cout << "Running basic component:\n";
+    simple->operation();
 
+    std::cout << "\nRunning decorated component:\n";
+    decorated->operation();
+
+    delete simple;
+    delete decorated;
     return 0;
 }

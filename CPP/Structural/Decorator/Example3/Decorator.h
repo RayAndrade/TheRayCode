@@ -2,23 +2,21 @@
 // Created by ray on 12/13/23.
 //
 
-#ifndef EXAMPLE3_DECORATOR_H
-#define EXAMPLE3_DECORATOR_H
-
+#ifndef EXAMPLE_DECORATOR_H
+#define EXAMPLE_DECORATOR_H
 
 #include "Component.h"
+#include <memory>
 
-// Base decorator class
 class Decorator : public Component {
 protected:
-    Component* component;
-
+    std::shared_ptr<Component> component;
 public:
-    Decorator(Component* c) : component(c) {}
-    void operation() override {
-        if (component)
-            component->operation();
+    Decorator(std::shared_ptr<Component> c) : component(c) {}
+
+    std::string operation() const override {
+        return component->operation();
     }
 };
 
-#endif //EXAMPLE3_DECORATOR_H
+#endif //EXAMPLE_DECORATOR_H

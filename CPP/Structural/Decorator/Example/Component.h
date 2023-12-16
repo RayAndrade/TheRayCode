@@ -2,15 +2,14 @@
 // Created by ray on 12/13/23.
 //
 
-#ifndef EXAMPLE_COMPONENT_H
-#define EXAMPLE_COMPONENT_H
+#ifndef EXAMPLE3_COMPONENT_H
+#define EXAMPLE3_COMPONENT_H
 
-#include <string>
-
+// Abstract base class representing the primary interface
 class Component {
 public:
     virtual ~Component() {}
-    virtual std::string operation() const = 0;
+    virtual void operation() = 0;
 };
 
-#endif //EXAMPLE_COMPONENT_H
+#endif //EXAMPLE3_COMPONENT_H
