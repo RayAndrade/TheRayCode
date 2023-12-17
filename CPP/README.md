@@ -1,3 +1,8 @@
+<style>
+red { color: red }
+yellow { color: yellow }
+</style>
+
 # [TheRayCode](README.md) is AWESOME!!!
 
 <red> red color markdown text</red>
