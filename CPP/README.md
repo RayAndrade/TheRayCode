@@ -1,6 +1,7 @@
 $`\textcolor{red}{\text{your text}}`$ 
-
-# [TheRayCode](README.md) is AWESOME!!!
+$`\textcolor{red}{\text{your text}}`$ 
+$`\textcolor{blue}{\text{your text}}`$ 
+$`\textcolor{green}{\text{your text}}`$ 
 
 [top](../README.md)
 
