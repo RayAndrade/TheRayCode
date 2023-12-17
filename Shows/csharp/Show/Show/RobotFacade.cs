@@ -11,7 +11,6 @@ namespace Show
             _cookingSubsystem = new CookingSubsystem();
             _cleaningSubsystem = new CleaningSubsystem();
             _entertainmentSubsystem = new EntertainmentSubsystem();
-            
         }
         
         public void PerformMorningRoutine()
