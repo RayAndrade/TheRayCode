@@ -1,5 +1,7 @@
 # [TheRayCode](README.md) is AWESOME!!!
 
+<red> red color markdown text</red>
+
 [top](../README.md)
 
 |**[Creational Patterns](./Creational/README.md)** | **[Structural Patterns](./Structural/README.md)** | **[Behavioral Patterns](./Behavioral/README.md)** |
