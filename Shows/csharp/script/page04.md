@@ -8,6 +8,8 @@ which is of type **ITarget**
 ```
 : ITarget
 ```
+we use **ITarget** to make the **AdaptER** compatable to the **AdaptEE** 
+
 at the top we add code:
 ```
 private readonly Adaptee _adaptee;
