@@ -1,5 +1,7 @@
 [home](./page01.md) | [next](./page02.md)
 
+In this show I will be covering the **Adapter** design pattern using **C#**
+
 Solution name:
 ```
 Show
