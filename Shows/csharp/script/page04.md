@@ -8,7 +8,7 @@ which is of type **ITarget**
 ```
 : ITarget
 ```
-we use **ITarget** to make the **AdaptER** compatable to the **AdaptEE** 
+we use **ITarget** to make the **AdaptER** compatable with the **AdaptEE** 
 
 at the top we add code:
 ```
