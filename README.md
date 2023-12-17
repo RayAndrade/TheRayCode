@@ -1,5 +1,12 @@
 # [TheRayCode](README.md) 
 
+$`\textcolor{red}{\text{your text}}`$ 
+$`\textcolor{red}{\text{your text}}`$ 
+$`\textcolor{blue}{\text{your text}}`$ 
+$`\textcolor{green}{\text{your text}}`$ 
+
+
+
 <a href="http://theraycode.org" rel="noopener" target="_new">Go to The Ray Code</a>
 
 **[C++](./CPP/README.md)** | **[C#](./Csharp/README.md)** | **[Java](./Java/README.md)**  | **[PHP](./PHP/README.md)** | **[JavaScript](./JavaScript/README.md)**  
