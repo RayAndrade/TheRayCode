@@ -16,12 +16,14 @@ and we add
 Adaptee adaptee = new Adaptee();
 ITarget target = new Adapter(adaptee);
 ```
+We create the **AdaptEE** object
 **sub** we need
 ```
 using System;
 ```
 for the write to console method
 
+we give some cpntext to the user
 
 1.b
 ```
