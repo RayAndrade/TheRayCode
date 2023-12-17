@@ -1,7 +1,3 @@
-$`\textcolor{red}{\text{your text}}`$ 
-$`\textcolor{red}{\text{your text}}`$ 
-$`\textcolor{blue}{\text{your text}}`$ 
-$`\textcolor{green}{\text{your text}}`$ 
 
 [top](../README.md)
 
