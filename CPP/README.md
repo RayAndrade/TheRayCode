@@ -1,11 +1,6 @@
-<style>
-red { color: red }
-yellow { color: yellow }
-</style>
+$`\textcolor{red}{\text{your text}}`$ 
 
 # [TheRayCode](README.md) is AWESOME!!!
-
-<red> red color markdown text</red>
 
 [top](../README.md)
 
