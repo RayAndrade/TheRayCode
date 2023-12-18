@@ -1,17 +1,37 @@
 [home](./page01.md) | [back](./page01.md) [next](./page03.md)
 
- public **interface** 
+Create **class**
+```
+RobotFacade
+```
 
-```
-ITarget
-```
 add code:
-
+**1**
 ```
-string GetRequest();
+private CookingSubsystem _cookingSubsystem;
+private CleaningSubsystem _cleaningSubsystem;
+private EntertainmentSubsystem _entertainmentSubsystem;
+```
+**2**
+```
+public RobotFacade()
+{
+    _cookingSubsystem = new CookingSubsystem();
+    _cleaningSubsystem = new CleaningSubsystem();
+    _entertainmentSubsystem = new EntertainmentSubsystem();
+}
+```
+**3**
+```
+public void PerformMorningRoutine()
+{
+    _cookingSubsystem.MakeCoffee();
+    _cleaningSubsystem.DoDusting();
+    _entertainmentSubsystem.PlayMorningMusic();
+}
 ```
 
-**Explanation***: `ITarget` is the interface expected by the `Client`. It defines the domain-specific interface that `Client` uses.
+Additional methods for different routines...
 
 
 [page 3](./page03.md)

@@ -1,19 +1,20 @@
 [home](./page01.md) | [back](./page02.md) | [next](./page04.md)
 
-create **class**
-
+Create class
 ```
-Adaptee
+CookingSubsystem
 ```
-
-add code:
-1.
+add code :
 ```
-public string GetSpecificRequest()
+public void MakeCoffee()
 {
-    return "Specific request.";
+    Console.WriteLine("Brewing the perfect cup of coffee!");
 }
 ```
+Import System
+
+Additional cooking methods...
+
 
 
 [page 4](./page04.md)

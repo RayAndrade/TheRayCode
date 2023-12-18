@@ -1,115 +1,106 @@
-[up](../README.md)
+[up](../README.md) [show](./script/page01.md)
 
-To demonstrate the Bridge design pattern in C#, I'll provide an example where we have an abstraction (e.g., `Device`) and its implementation (e.g., `RemoteControl`). This pattern helps in separating an object’s abstraction from its implementation so that the two can vary independently.
+Creating a C# example using the Facade design pattern involves several steps. The Facade pattern is a structural design pattern that provides a simplified interface to a complex subsystem. In this case, we'll create a humorous, simple application that simulates a "Robot" performing various complex tasks like cooking, cleaning, and entertainment, but the user will interact with a simple interface.
 
-### Structure
+### Project Structure
+1. **RobotFacade.cs**: This is the Facade class providing a simplified interface.
+2. **CookingSubsystem.cs**: A subsystem class for cooking-related tasks.
+3. **CleaningSubsystem.cs**: A subsystem class for cleaning activities.
+4. **EntertainmentSubsystem.cs**: A subsystem for entertainment activities.
+5. **Program.cs**: The main entry point that uses `RobotFacade`.
 
-1. **`Device.cs`** - An interface representing the device that will be controlled (e.g., TV, Radio).
-2. **`TV.cs` and `Radio.cs`** - Implementations of the `Device` interface.
-3. **`RemoteControl.cs`** - An abstraction that represents the remote control.
-4. **`Program.cs`** - The main entry point of the application demonstrating the use of the Bridge pattern.
-
-### Explanation
-
-#### `Device.cs`
+### RobotFacade.cs
 ```csharp
-public interface Device
+public class RobotFacade
 {
-    bool IsEnabled();
-    void Enable();
-    void Disable();
-    int GetVolume();
-    void SetVolume(int percent);
-}
-```
-- **Purpose**: Defines the interface for different devices.
-- **Methods**: Basic operations like `Enable`, `Disable`, `GetVolume`, `SetVolume`.
+    private CookingSubsystem _cookingSubsystem;
+    private CleaningSubsystem _cleaningSubsystem;
+    private EntertainmentSubsystem _entertainmentSubsystem;
 
-#### `TV.cs`
-```csharp
-public class TV : Device
-{
-    private bool on = false;
-    private int volume = 10;
-
-    public bool IsEnabled() => on;
-
-    public void Enable() => on = true;
-
-    public void Disable() => on = false;
-
-    public int GetVolume() => volume;
-
-    public void SetVolume(int percent) => volume = percent;
-}
-```
-- **Purpose**: Specific implementation of a `Device`, a TV in this case.
-- **Details**: Contains state and behavior relevant to a TV.
-
-#### `Radio.cs`
-```csharp
-// Similar to TV.cs but with its own unique implementation
-```
-
-#### `RemoteControl.cs`
-```csharp
-public class RemoteControl
-{
-    protected Device device;
-
-    public RemoteControl(Device device)
+    public RobotFacade()
     {
-        this.device = device;
+        _cookingSubsystem = new CookingSubsystem();
+        _cleaningSubsystem = new CleaningSubsystem();
+        _entertainmentSubsystem = new EntertainmentSubsystem();
     }
 
-    public void TogglePower()
+    public void PerformMorningRoutine()
     {
-        if (device.IsEnabled())
-            device.Disable();
-        else
-            device.Enable();
+        _cookingSubsystem.MakeCoffee();
+        _cleaningSubsystem.DoDusting();
+        _entertainmentSubsystem.PlayMorningMusic();
     }
 
-    public void VolumeUp()
-    {
-        device.SetVolume(device.GetVolume() + 10);
-    }
-
-    // Additional methods for control
+    // Additional methods for different routines...
 }
 ```
-- **Purpose**: Acts as a bridge between the `Device` interface and its concrete implementations.
-- **Details**: Contains logic to manipulate the device, like turning on/off, adjusting volume.
 
-#### `Program.cs`
+### CookingSubsystem.cs
+```csharp
+public class CookingSubsystem
+{
+    public void MakeCoffee()
+    {
+        Console.WriteLine("Brewing the perfect cup of coffee!");
+    }
+
+    // Additional cooking methods...
+}
+```
+
+### CleaningSubsystem.cs
+```csharp
+public class CleaningSubsystem
+{
+    public void DoDusting()
+    {
+        Console.WriteLine("Dusting around the house, no dust bunny is safe!");
+    }
+
+    // Additional cleaning methods...
+}
+```
+
+### EntertainmentSubsystem.cs
+```csharp
+public class EntertainmentSubsystem
+{
+    public void PlayMorningMusic()
+    {
+        Console.WriteLine("Playing the best morning tunes to start your day right!");
+    }
+
+    // Additional entertainment methods...
+}
+```
+
+### Program.cs
 ```csharp
 class Program
 {
     static void Main(string[] args)
     {
-        Device tv = new TV();
-        RemoteControl remote = new RemoteControl(tv);
+        var robot = new RobotFacade();
+        robot.PerformMorningRoutine();
 
-        remote.TogglePower(); // Turns TV on
-        remote.VolumeUp(); // Increases volume
-
-        Console.WriteLine("TV Status: " + (tv.IsEnabled() ? "On" : "Off"));
-        Console.WriteLine("TV Volume: " + tv.GetVolume());
+        Console.WriteLine("All tasks completed with a smile (if I had a face)!");
     }
 }
+
 ```
-- **Purpose**: Demonstrates the usage of the Bridge pattern.
-- **Expected Output**: 
-  ```
-  TV Status: On
-  TV Volume: 20
-  ```
 
-### Order of Creation
+### Class Creation Order
+1. Create subsystems: `CookingSubsystem.cs`, `CleaningSubsystem.cs`, `EntertainmentSubsystem.cs`.
+2. Create `RobotFacade.cs` to encapsulate subsystems.
+3. Implement `Program.cs` to demonstrate usage.
 
-1. **Create `Device` Interface** - The foundation of the pattern, defining the operations.
-2. **Implement `Device` in `TV` and `Radio`** - Concrete implementations of the interface.
-3. **Create `RemoteControl` Class** - The abstraction that uses the `Device` interface.
-4. **Implement `Program.cs`** - To demonstrate the working of the pattern.
+### Expected Output
+When you run the program, you should see:
+```
+Brewing the perfect cup of coffee!
+Dusting around the house, no dust bunny is safe!
+Playing the best morning tunes to start your day right!
+All tasks completed with a smile (if I had a face)!
+```
 
-This structure allows for additional devices or remote controls to be added without altering existing code, showcasing the flexibility and scalability of the Bridge design pattern.
+This output humorously suggests that the robot successfully performed its morning routine tasks with a touch of personality.

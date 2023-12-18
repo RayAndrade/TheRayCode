@@ -1,28 +1,14 @@
 [home](./page01.md) | [next](./page02.md)
 
-In this show I will be covering the **Adapter** design pattern using **C#**
-
-Solution name:
-```
-Show
-```
-Framework
-4.8
-Language: C#
-
-```
-/home/ray/TheRayCode/TheRayCode/Shows/csharp
-```
-
-Always add to gethub
+Let's create an example of the **Facade** pattern using **C#**
 
 Find 
 
 ```
 <RootNamespace>Example3</RootNamespace>
-<AssemblyName>Show</AssemblyName>
+<AssemblyName>Example3</AssemblyName>
 ```
-and change **Example3** to your spcific name.
+and change **Example** to your spcific name.
 ```
 using System;
 ```

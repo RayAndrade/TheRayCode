@@ -1,31 +1,19 @@
 [home](./page01.md) | [back](./page03.md) | [next](./page03.md)
 
-Create **class**
+Create class
 ```
-Adapter
+CleaningSubsystem
 ```
-which is of type **ITarget**
+And add code:
 ```
-: ITarget
-```
-we use **ITarget** interface to make the **AdaptER** compatable with the **AdaptEE** 
-
-at the top we add code:
-```
-private readonly Adaptee _adaptee;
-
-public Adapter(Adaptee adaptee)
+public void DoDusting()
 {
-    _adaptee = adaptee;
+    Console.WriteLine("Dusting around the house, no dust bunny is safe!");
 }
 ```
-to setup our Adapter and to
-```
-return $"This is '{_adaptee.GetSpecificRequest()}'";
-```
+Import System
 
-
-
+Additional cleaning methods..
 
 
 [page 5](./page05.md)

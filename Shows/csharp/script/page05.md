@@ -1,41 +1,19 @@
 [home](./page01.md) | [back](./page04.md) | [next](./page06.md)
 
-Let's create a **class**
+Create **class**
 ```
-Client
+EntertainmentSubsystem
 ```
-with
-1
+And add code:
 ```
-public void Main()
-{ }
+public void PlayMorningMusic()
+{
+    Console.WriteLine("Playing the best morning tunes to start your day right!");
+}
 ```
-and we add
-1.a
-```
-Adaptee adaptee = new Adaptee();
-ITarget target = new Adapter(adaptee);
-```
-We create the **AdaptEE** object
-**sub** we need
-```
-using System;
-```
-for the write to console method
+Import System
 
-we give some cpntext to the user
-
-1.b
-```
-Console.WriteLine("Adaptee interface is incompatible with the client.");
-Console.WriteLine("But with adapter client can call it's method.");
-```
-1.c
-```
-Console.WriteLine(target.GetRequest());
-```
-
-
+Additional entertainment methods...
 
 
 [page 6](./page06.md)
