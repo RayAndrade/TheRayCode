@@ -1,6 +1,9 @@
 [home](./page01.md) | [back](./page06.md) | [next](./page08.md)
 
 Then to main we add:
+
+Remove **static**
+
 **1.**
 ```
 TV sonyTv = new SonyTV();
