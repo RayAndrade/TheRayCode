@@ -2,18 +2,18 @@
 
 Create class
 ```
-CookingSubsystem
+CleaningSubsystem
 ```
-add code :
+And add code:
 ```
-public void MakeCoffee()
+public void DoDusting()
 {
-    Console.WriteLine("Brewing the perfect cup of coffee!");
+    Console.WriteLine("Dusting around the house, no dust bunny is safe!");
 }
 ```
 Import System
 
-Additional cooking methods...
+Additional cleaning methods..
 
 
 
