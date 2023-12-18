@@ -5,7 +5,7 @@ Now we go to the **Main**
 **first we add a function to the BOTTOM**
 
 ```
-class ConcreteRemote extends RemoteControl {  }
+static class ConcreteRemote extends RemoteControl {  }
 ```
 inside this funtion we add
 **1**
