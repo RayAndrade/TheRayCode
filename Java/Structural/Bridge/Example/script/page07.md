@@ -2,8 +2,6 @@
 
 Then to main we add:
 
-Remove **static**
-
 **1.**
 ```
 TV sonyTv = new SonyTV();
