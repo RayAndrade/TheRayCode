@@ -8,8 +8,8 @@ namespace Show
         {
             var robot = new RobotFacade();
             robot.PerformMorningRoutine();
-            
             Console.WriteLine("All tasks completed with a smile (if I had a face)!");
+            
         }
     }
 }
