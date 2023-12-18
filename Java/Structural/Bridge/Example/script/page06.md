@@ -14,25 +14,19 @@ public ConcreteRemote(TV tv) {
    super(tv);
 }
 ```
-**2**
+ Auto generate : **2** and add code to each
 ```
-public void turnOn() {
-    tv.on();
-}
+tv.on();
 ```
 
 **3**
 ```
-public void turnOff() {
-    tv.off();
-}
+tv.off();
 ```
 
 **4**
 ```
-public void setChannel(int channel) {
-    tv.tuneChannel(channel);
-}
+tv.tuneChannel(channel);
 ```
 
 [page 7](./page07.md)
