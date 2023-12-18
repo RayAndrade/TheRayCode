@@ -1,44 +1,14 @@
 <?php
+include_once 'Subject.php';
+include_once 'RealSubject.php';
 class Proxy implements Subject
 {
-    /**
-     * @var RealSubject
-     */
-    private $realSubject;
-
-    /**
-     * The Proxy maintains a reference to an object of the RealSubject class. It
-     * can be either lazy-loaded or passed to the Proxy by the client.
-     */
-    public function __construct(RealSubject $realSubject)
+    private ?RealSubject $realSubject = null;
+    public function request(): string
     {
-        $this->realSubject = $realSubject;
-    }
-
-    /**
-     * The most common applications of the Proxy pattern are lazy loading,
-     * caching, controlling the access, logging, etc. A Proxy can perform one of
-     * these things and then, depending on the result, pass the execution to the
-     * same method in a linked RealSubject object.
-     */
-    public function request(): void
-    {
-        if ($this->checkAccess()) {
-            $this->realSubject->request();
-            $this->logAccess();
+        if ($this->realSubject === null) {
+            $this->realSubject = new RealSubject();
         }
-    }
-
-    private function checkAccess(): bool
-    {
-        // Some real checks should go here.
-        echo "Proxy: Checking access prior to firing a real request.<br/>";
-
-        return true;
-    }
-
-    private function logAccess(): void
-    {
-        echo "Proxy: Logging the time of request.<br/>";
+        return $this->realSubject->request();
     }
 }

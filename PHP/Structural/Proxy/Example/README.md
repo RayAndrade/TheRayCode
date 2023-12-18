@@ -1,110 +1,110 @@
 [up](../README.md)
 
-### Proxy Design Pattern:
-The Proxy Design Pattern provides a surrogate or placeholder for another object to control access to it. This is useful in various scenarios, such as:
-1. **Remote Proxy**: Represents an object in a different address space.
-2. **Virtual Proxy**: Creates expensive objects on demand.
-3. **Protection Proxy**: Controls access to the original object.
+## Proxy pattern php
 
-For this example, I'll use the **Virtual Proxy** scenario, where the Proxy class will delay the instantiation of an expensive object until it's actually required.
+Create interface **Subject** add code:
 
-### Step 1: Define the Subject Interface
-This defines the common methods both the RealObject and Proxy will implement.
-
-**Subject.php**
 ```php
-<?php
+public function request(): void;
+```
+create class **RealSubject** implements **Subject**
+implement missing method repace TODO with
 
-interface Subject {
-    public function request(): string;
+```php
+echo "RealSubject: Handling request.<br/>";
+```
+create **Proxy** and have it **implements** **Subject** and add code to **request** function:
+
+The most common applications of the Proxy pattern are lazy loading, caching, controlling the access, logging, etc. A Proxy can perform one of these things and then, depending on the result, pass it to the execution to the same method in a linked **RealSubject** object.
+
+```php
+if ($this->checkAccess()) {
+    $this->realSubject->request();
+    $this->logAccess();
 }
 
-?>
+
 ```
+The Proxy maintains a reference to the object of the **RealSubject** class. It can be either lazy-loaded or passed to the **Proxy** by the client. 
+We then add code
 
-### Step 2: Create the RealSubject Class
-This is the actual class that performs the core operations. In our case, it simulates an "expensive" operation.
-
-**RealSubject.php**
 ```php
-<?php
+private $realSubject;
 
-include_once 'Subject.php';
-
-class RealSubject implements Subject {
-    public function __construct() {
-        // Simulate an expensive creation operation
-        sleep(2);  // Delay for 2 seconds
-    }
-
-    public function request(): string {
-        return "RealSubject: Handling request.";
-    }
+public function __construct(RealSubject $realSubject)
+{
+    $this->realSubject = $realSubject;
+}
+```
+at the bottom we add:
+```php
+private function checkAccess(): bool
+{
+    // Some real checks should go here.
+    echo "Proxy: Checking access prior to firing a real request.<br/>";
+     return true;
 }
 
-?>
-```
-
-### Step 3: Create the Proxy Class
-This class will have a reference to the RealSubject and will instantiate it only when required.
-
-**Proxy.php**
-```php
-<?php
-
-include_once 'Subject.php';
-include_once 'RealSubject.php';
-
-class Proxy implements Subject {
-    private ?RealSubject $realSubject = null;
-
-    public function request(): string {
-        if ($this->realSubject === null) {
-            $this->realSubject = new RealSubject();
-        }
-        return $this->realSubject->request();
-    }
+private function logAccess(): void
+{
+    echo "Proxy: Logging the time of request.<br/>";
 }
-
-?>
 ```
-
-### Step 4: Create the index.php for Demonstration
-
-**index.php**
+last step is to go to **index** and add the following includes
 ```php
-<?php
-
-include_once 'Proxy.php';
-
-$proxy = new Proxy();
-
-// The client code may or may not know about the RealSubject's existence.
-// In this case, we're just interacting through the proxy.
-echo $proxy->request();
-
-?>
+include_once ('Subject.php');
+include_once ('RealSubject.php');
+include_once ('Proxy.php');
+```
+we also add the function
+```php
+function clientCode(Subject $subject)
+{
+    // ...
+    $subject->request();
+    // ...
+}
 ```
 
-### Order of Creating Classes:
+and to run our demo we add:
+```php
+echo "Client: Executing the client code with a real subject:<br/>";
+$realSubject = new RealSubject;
+clientCode($realSubject);
 
-1. `Subject.php`: Define the interface which will be implemented by the Proxy and the RealSubject.
-2. `RealSubject.php`: The actual class performing the core logic.
-3. `Proxy.php`: Contains a reference to the RealSubject and instantiates it when necessary.
-4. `index.php`: The client code, which interacts with the RealSubject through the Proxy.
+echo "<br/>";
 
-### Expected Output on Browser:
-
-When you access `index.php`, there will be a delay of 2 seconds (because of our artificial delay in `RealSubject`), after which you should see:
+echo "Client: Executing the same client code with a proxy:<br/>";
+$proxy = new Proxy($realSubject);
+clientCode($proxy);
 
 ```
+**RUN**
+```php
+Client: Executing the client code with a real subject:
 RealSubject: Handling request.
+
+Client: Executing the same client code with a proxy:
+Proxy: Checking access prior to firing a real request.
+RealSubject: Handling request.
+Proxy: Logging the time of request.
 ```
 
-### Explanation:
 
-- **Subject (interface)**: This represents the common interface for both the RealSubject and Proxy so that they can be used interchangeably.
-- **RealSubject (class)**: This is the actual class that does the heavy lifting (our example simulates it with a sleep).
-- **Proxy (class)**: This class serves as an intermediary which, upon receiving a request, creates the RealSubject if it hasn't been instantiated and then delegates the request to it.
 
-The proxy pattern allows you to delay or control the instantiation and access to certain objects, which is especially useful when working with resources that are expensive in terms of time or computation.
+
+[Wikipedia](https://en.wikipedia.org/wiki/Proxy_pattern)
+
+----------------------------------------------------------------------------------------------------
+
+Find Ray on:
+
+[facebook](https://www.facebook.com/TheRayCode/)
+
+[youtube](https://www.youtube.com/user/AndradeRay/)
+
+[The Ray Code](https://www.RayAndrade.com)
+
+[Ray Andrade](https://www.RayAndrade.org)
+
+

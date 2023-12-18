@@ -1,7 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
-        
+        Kitchen kitchen = new Kitchen();
+        BillingSystem billing = new BillingSystem();
+
+        RestaurantFacade restaurant = new RestaurantFacade(kitchen, billing);
+        restaurant.orderFood("Pizza Margherita");
     }
 }

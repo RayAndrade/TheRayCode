@@ -1,5 +1,6 @@
 <?php
+
 interface Subject
 {
-    public function request(): void;
+    public function request(): string;
 }
