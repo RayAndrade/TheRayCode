@@ -1,37 +1,20 @@
 [home](./page01.md) | [back](./page01.md) [next](./page03.md)
 
-Create **class**
+Create class
 ```
-RobotFacade
+CookingSubsystem
 ```
-
-add code:
-**1**
+add code :
 ```
-private CookingSubsystem _cookingSubsystem;
-private CleaningSubsystem _cleaningSubsystem;
-private EntertainmentSubsystem _entertainmentSubsystem;
-```
-**2**
-```
-public RobotFacade()
+public void MakeCoffee()
 {
-    _cookingSubsystem = new CookingSubsystem();
-    _cleaningSubsystem = new CleaningSubsystem();
-    _entertainmentSubsystem = new EntertainmentSubsystem();
+    Console.WriteLine("Brewing the perfect cup of coffee!");
 }
 ```
-**3**
-```
-public void PerformMorningRoutine()
-{
-    _cookingSubsystem.MakeCoffee();
-    _cleaningSubsystem.DoDusting();
-    _entertainmentSubsystem.PlayMorningMusic();
-}
-```
+Import System
 
-Additional methods for different routines...
+Additional cooking methods...
+
 
 
 [page 3](./page03.md)
