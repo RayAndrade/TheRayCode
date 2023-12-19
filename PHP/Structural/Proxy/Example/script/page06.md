@@ -20,7 +20,7 @@ function clientCode(Subject $subject)
     // ...
 }
 ```
-
+**Executing the client code with a real subjec**
 ```
 echo "Client: Executing the client code with a real subject:<br/>";
 $realSubject = new RealSubject;
@@ -33,6 +33,7 @@ echo "<br/>";
 ```
 
 and
+**Client: Executing the same client code with a proxy**
 ```
 echo "Client: Executing the same client code with a proxy:<br/>";
 $proxy = new Proxy($realSubject);
