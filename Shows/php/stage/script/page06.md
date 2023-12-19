@@ -1,23 +1,43 @@
-[home](./page01.md) | [back](./page05.md) | [next](./page07.md)
+[home](./page01.md)
 
-**Visitor1.php**
-```
-Visitor1
-```
+[back](./page05.md)
+
+At the **index.php**
 
 ```
-  implements Visitor
-```
-
-
-for **visitComponentA**
-```
-echo $element->exclusiveMethodOfComponentA() . " + Visitor1<br/>";
+include_once ('Subject.php');
+include_once ('RealSubject.php');
+include_once ('Proxy.php');
 ```
 
-for **visitComponentB**
+Add a function for **clientCode**
+
 ```
-echo $element->specialMethodOfComponentB() . " + Visitor1<br/>";
+function clientCode(Subject $subject)
+{
+    // ...
+    $subject->request();
+    // ...
+}
 ```
+
+```
+echo "Client: Executing the client code with a real subject:<br/>";
+$realSubject = new RealSubject;
+clientCode($realSubject);
+```
+
+to seperate
+```
+echo "<br/>";
+```
+
+and
+```
+echo "Client: Executing the same client code with a proxy:<br/>";
+$proxy = new Proxy($realSubject);
+clientCode($proxy);
+```
+
 
 [page 7](./page07.md)

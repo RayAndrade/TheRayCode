@@ -1,15 +1,16 @@
-[home](./page01.md) | [back](./page01.md) | [next](./page03.md)
+[home](./page01.md)
 
-Cretate **interface Component**
+[back](./page01.md)
 
+Create the **interface**
 ```
-Component
+Subject
+```
+With the folowing requirement
+```
+public function request(): void;
 ```
 
-add the requierment of the **accept** function
-```
-public function accept(Visitor $visitor): void;
-```
 
 
 [page 3](./page03.md)

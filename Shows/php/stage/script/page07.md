@@ -1,22 +1,16 @@
-[home](./page01.md) | [back](./page06.md) | [next](./page08.md)
+[home](./page01.md)
 
-**Visitor2.php**
-```
-Visitor2
-```
+[back](./page06.md)
 
+The result should be:
 ```
- implements Visitor
-```
+Client: Executing the client code with a real subject:
+RealSubject: Handling request.
 
-for **visitComponentA**
+Client: Executing the same client code with a proxy:
+Proxy: Checking access prior to firing a real request.
+RealSubject: Handling request.
+Proxy: Logging the time of request.
 ```
-echo $element->exclusiveMethodOfComponentA() . " + Visitor2<br/>";
-```
-for **visitComponentB**
-```
-echo $element->specialMethodOfComponentB() . " + Visitor2<br/>";
-```
-
 
 [page 8](./page08.md)

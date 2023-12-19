@@ -1,27 +1,14 @@
-[home](./page01.md) | [back](./page03.md) | [next](./page05.md)
+[home](./page01.md)
 
-**ComponentB.php**
-```
-ComponentB
-```
-**ComponentB**: Similarly to **ComponentA**, it also implements the Component interface. 
+[back](./page03.md)
 
-Its accept method redirects the call to the visitor's visitComponentB method.
-**specialMethodOfComponentB**(): A unique method to the ComponentB class which returns the string "B".
-
+Create **class**
 ```
- implements Component
+Proxy
 ```
-for **accept**
+which 
 ```
-$visitor->visitComponentB($this);
-```
-and we add:
-```
-public function specialMethodOfComponentB(): string
-{
-    return "B";
-}
+ implements Subject
 ```
 
 
