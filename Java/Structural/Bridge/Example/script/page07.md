@@ -10,7 +10,7 @@ RemoteControl sonyRemote = new ConcreteRemote(sonyTv);
 
 At this point we add code to the bottem
 ```
-class ConcreteRemote extends RemoteControl {
+static class ConcreteRemote extends RemoteControl {
     public ConcreteRemote(TV tv) {
         super(tv);
     }
