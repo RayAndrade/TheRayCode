@@ -7,6 +7,31 @@ Then to main we add:
 TV sonyTv = new SonyTV();
 RemoteControl sonyRemote = new ConcreteRemote(sonyTv);
 ```
+
+At this point we add code to the bottem
+```
+class ConcreteRemote extends RemoteControl {
+    public ConcreteRemote(TV tv) {
+        super(tv);
+    }
+
+    public void turnOn() {
+        tv.on();
+    }
+
+    public void turnOff() {
+        tv.off();
+    }
+
+    public void setChannel(int channel) {
+        tv.tuneChannel(channel);
+    }
+}
+```
+
+
+
+
 **2.**
 ```
 sonyRemote.turnOn();
