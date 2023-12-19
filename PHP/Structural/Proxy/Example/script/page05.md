@@ -3,7 +3,6 @@
 [back](./page04.md)
 
 $`\textcolor{red}{\text{**1**}}`$ 
-**1**
 ```
 private $realSubject;
 ```
@@ -11,6 +10,7 @@ private $realSubject;
 The Proxy maintains a reference to an object of the RealSubject class. 
 
 It can be either lazy-loaded or passed to the Proxy by the client.
+$`\textcolor{red}{\text{**2**}}`$ 
 ```
 public function __construct(RealSubject $realSubject)
 {
@@ -23,7 +23,8 @@ The most common applications of the Proxy pattern are lazy loading, caching, con
 
 A Proxy can perform one of these things and then, depending on the result, pass the execution to the same method in a linked RealSubject object.
 
-In the request method
+**In the request method**
+$`\textcolor{red}{\text{**3**}}`$ 
 ```
 if ($this->checkAccess()) {
     $this->realSubject->request();
@@ -32,7 +33,7 @@ if ($this->checkAccess()) {
 ```
 
 add the **checkAccess** the **bool**
-
+$`\textcolor{red}{\text{**4**}}`$ 
 ```
 private function checkAccess(): bool
 {
@@ -44,7 +45,7 @@ private function checkAccess(): bool
 
 
 And **log** the action
-
+$`\textcolor{red}{\text{**5**}}`$ 
 ```
 private function logAccess(): void
 {
