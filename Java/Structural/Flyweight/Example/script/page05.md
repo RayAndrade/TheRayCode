@@ -15,6 +15,13 @@ circle2.setX(20);
 circle2.setY(30);
 circle2.draw();
 ```
+**3**
+```
+Circle circle3 = new Circle(ShapeFactory.getColor("Red"));
+circle3.setX(30);
+circle3.setY(40);
+circle3.draw();
+```
 
 
 [page 6](./page06.md)
