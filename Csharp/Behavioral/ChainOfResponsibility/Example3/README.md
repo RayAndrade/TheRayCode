@@ -1,3 +1,5 @@
+[up](../README.md)
+
 Alright, brace yourself! We're heading into haunted territory.
 
 Imagine a chain of haunted artifacts in a cursed museum. Each artifact possesses a certain evil spirit. When someone touches an artifact, the spirit might either curse the person or pass the curse onto a more malevolent spirit in the chain.
