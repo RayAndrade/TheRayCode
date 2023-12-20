@@ -1,4 +1,4 @@
-[exampl code](Interpreter/Interpreter/)
+[up](../README.md)
 
 Let's break down the Interpreter design pattern in C# and structure it into individual .cs files.
 
