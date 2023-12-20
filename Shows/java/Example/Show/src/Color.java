@@ -1,4 +1,5 @@
 public class Color {
+
     private final String color;
 
     public Color(String color) {
@@ -8,4 +9,5 @@ public class Color {
     public String getColor() {
         return color;
     }
+
 }

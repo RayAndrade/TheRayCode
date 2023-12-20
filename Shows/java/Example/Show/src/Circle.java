@@ -1,4 +1,5 @@
 public class Circle  implements Shape{
+
     private Color color; // Intrinsic state shared
     private int x, y;    // Extrinsic state unique to each circle
 
@@ -13,7 +14,6 @@ public class Circle  implements Shape{
     public void setY(int y) {
         this.y = y;
     }
-
 
 
     @Override

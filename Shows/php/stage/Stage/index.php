@@ -1,20 +1,31 @@
 <?php
-include_once ('Subject.php');
-include_once ('RealSubject.php');
-include_once ('Proxy.php');
+include_once ('Composite.php');
+include_once ('Leaf.php');
 
-function clientCode(Subject $subject)
+function clientCode(Component $component)
 {
     // ...
-    $subject->request();
+
+    echo "RESULT: " . $component->operation();
+
     // ...
 }
-echo "Client: Executing the client code with a real subject:<br/>";
-$realSubject = new RealSubject;
-clientCode($realSubject);
 
+$simple = new Leaf();
+echo "Client: I've got a simple component:<br/>";
+clientCode($simple);
 echo "<br/>";
 
-echo "Client: Executing the same client code with a proxy:<br/>";
-$proxy = new Proxy($realSubject);
-clientCode($proxy);
+$tree = new Composite();
+$branch1 = new Composite();
+
+$branch1->add(new Leaf());
+$branch1->add(new Leaf());
+$branch2 = new Composite();
+$branch2->add(new Leaf());
+
+$tree->add($branch1);
+$tree->add($branch2);
+echo "Client: Now I've got a composite tree:<br/>";
+clientCode($tree);
+echo "<br/>";

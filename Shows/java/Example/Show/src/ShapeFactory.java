@@ -1,6 +1,5 @@
 import java.util.HashMap;
 import java.util.Map;
-
 public class ShapeFactory {
     private static final Map<String, Color> colorMap = new HashMap<>();
 
@@ -8,4 +7,5 @@ public class ShapeFactory {
         colorMap.putIfAbsent(color, new Color(color));
         return colorMap.get(color);
     }
+
 }
