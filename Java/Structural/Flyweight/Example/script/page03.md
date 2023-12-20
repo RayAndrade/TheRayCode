@@ -6,9 +6,7 @@ Shape
 ```
 add code
 ```
-public interface Shape {
-    void draw();
-}
+void draw();
 ```
 
 
