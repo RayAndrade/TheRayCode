@@ -34,11 +34,9 @@ public void setY(int y) {
     this.y = y;
 }
 ```
-**5 of 5**
+**5 of 5** add code to **draw**
 ```
-public void draw() {
-    System.out.println("Drawing a " + color.getColor() + " circle at (" + x + "," + y + ")");
-}
+System.out.println("Drawing a " + color.getColor() + " circle at (" + x + "," + y + ")");
 ```
 
 
