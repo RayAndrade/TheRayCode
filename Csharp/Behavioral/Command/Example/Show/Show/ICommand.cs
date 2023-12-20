@@ -1,4 +1,4 @@
-namespace Command
+namespace Show
 {
     public interface ICommand
     {
