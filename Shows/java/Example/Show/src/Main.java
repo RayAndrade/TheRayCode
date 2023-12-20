@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         Circle circle1 = new Circle(ShapeFactory.getColor("Red"));
         circle1.setX(10);
         circle1.setY(20);
@@ -14,5 +15,6 @@ public class Main {
         circle3.setX(30);
         circle3.setY(40);
         circle3.draw();
+
     }
 }

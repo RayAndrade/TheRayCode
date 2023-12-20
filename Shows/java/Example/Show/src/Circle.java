@@ -1,6 +1,4 @@
-
-
-public class Circle  implements Shape {
+public class Circle  implements Shape{
     private Color color; // Intrinsic state shared
     private int x, y;    // Extrinsic state unique to each circle
 
@@ -16,6 +14,9 @@ public class Circle  implements Shape {
         this.y = y;
     }
 
+
+
+    @Override
     public void draw() {
         System.out.println("Drawing a " + color.getColor() + " circle at (" + x + "," + y + ")");
     }
