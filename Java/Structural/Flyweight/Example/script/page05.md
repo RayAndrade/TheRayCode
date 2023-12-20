@@ -1,26 +1,17 @@
 [home](./page01.md) | [back](./page04.md) | [next](./page06.md)
 
-At main:
-**1**
+Create class
 ```
-Circle circle1 = new Circle(ShapeFactory.getColor("Red"));
-circle1.setX(10);
-circle1.setY(20);
-circle1.draw();
+ShapeFactory
 ```
-**2**
+with code:
 ```
-Circle circle2 = new Circle(ShapeFactory.getColor("Blue"));
-circle2.setX(20);
-circle2.setY(30);
-circle2.draw();
-```
-**3**
-```
-Circle circle3 = new Circle(ShapeFactory.getColor("Red"));
-circle3.setX(30);
-circle3.setY(40);
-circle3.draw();
+private static final Map<String, Color> colorMap = new HashMap<>();
+
+public static Color getColor(String color) {
+   colorMap.putIfAbsent(color, new Color(color));
+   return colorMap.get(color);
+}
 ```
 
 
