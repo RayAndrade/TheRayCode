@@ -8,6 +8,8 @@ and extend it
 ```
  implements Shape
 ```
+Generate code and
+
 add code:
 **1 of 5**
 ```
