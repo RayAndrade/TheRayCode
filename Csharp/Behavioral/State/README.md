@@ -8,7 +8,7 @@
 |---|---|---|---|
 | [**State**](README.md) | [C++](../../../CPP/Behavioral/State/README.md) | [Java](../../../Java/Behavioral/State/README.md) | [PHP](../../../PHP/Behavioral/State/README.md) |
 
-[Example](Example/README.md)
+[Example](Example/README.md) | [Example2](Example2/README.md)
 
 The State Design Pattern is a behavioral design pattern that allows an object to change its behavior when its internal state changes, making it appear as if the object changed its class. In this pattern, the functionality of an object is encapsulated within various state objects, and the context object contains a reference to the current state object, delegating state-specific behavior to it.
 
