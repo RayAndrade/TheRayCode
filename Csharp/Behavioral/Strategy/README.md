@@ -12,7 +12,7 @@
 
 **C# Statergy Design Pattern**
 
-[Example](SY1/README.md)
+[Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)
 
 The Strategy Design Pattern is a behavioral design pattern that defines a family of algorithms, encapsulates each one of them, and makes them interchangeable. It allows the algorithm to vary independently of the clients that use it. Essentially, it involves creating a set of strategies that perform a specific task in different ways, and then using these strategies interchangeably in the context they're needed.
 
