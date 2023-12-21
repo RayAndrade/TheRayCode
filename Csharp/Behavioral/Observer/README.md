@@ -10,6 +10,8 @@
 |---|---|---|---|
 | [**Observer**](README.md) | [C++](../../../CPP/Behavioral/Observer/README.md) | [Java](../../../Java/Behavioral/Observer/README.md) | [PHP](../../../PHP/Behavioral/Observer/README.md) |
 
+[Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)
+
 The Observer Design Pattern establishes a one-to-many dependency between objects. When one object (the "Subject") alters its state, all the dependent objects ("Observers") are notified and can update themselves accordingly. The Subject maintains a list of its Observers and provides methods to attach, detach, or notify them.
 
 **Why C# Programmers Should Study It**:
