@@ -5,11 +5,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{FCEFAFA3-C84A-4122-B54F-10D550661C4E}</ProjectGuid>
+        <ProjectGuid>{69A86F26-4AE0-4C6B-8273-A75FAAF0EAB0}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Obserserver</RootNamespace>
-        <AssemblyName>Obserserver</AssemblyName>
+        <RootNamespace>Show</RootNamespace>
+        <AssemblyName>Show</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -40,8 +40,12 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="CurrentConditionsDisplay.cs" />
+        <Compile Include="IWeatherObserver.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="StatisticsDisplay.cs" />
+        <Compile Include="WeatherStation.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
