@@ -23,28 +23,6 @@ static class ConcreteRemote extends RemoteControl {
     }
 }
 
-//static class ConcreteRemote extends RemoteControl {  }
-```
-inside this funtion we add
-**1**
-```
-public ConcreteRemote(TV tv) {
-   super(tv);
-}
-```
- Auto generate : **2** and add code to each
-```
-tv.on();
-```
-
-**3**
-```
-tv.off();
-```
-
-**4**
-```
-tv.tuneChannel(channel);
 ```
 
 [page 7](./page07.md)
