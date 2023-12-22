@@ -12,11 +12,11 @@
 
 | Creational Patterns | Structural Patterns | Behavioral Patterns |
 |--------------|-----|-----------|
-| [**AbstractFactory**](Creational/AbstractFactory/README.md) | [**Adapter**](./Structural/Adapter/README.md)         | [**Chain Of Responsibility**](./Behavioral/ChainOfResponsibility/README.md) |
+| [**AbstractFactory**](Creational/AbstractFactory/README.md) | [**+Adapter**](./Structural/Adapter/README.md)         | [**Chain Of Responsibility**](./Behavioral/ChainOfResponsibility/README.md) |
 | [**Builder**](./Creational/Builder/README.md)                 | [**Bridge**](./Structural/Bridge/README.md)           | [**Command**](./Behavioral/Command/README.md) |
 | [**Factory**](./Creational/Factory/README.md)                 | [**Composite**](./Structural/Composite/README.md)     | [**Interpreter**](./Behavioral/Interpreter/README.md) |
 | [**Prototype**](./Creational/Prototype/README.md)             | [**Decorator**](./Structural/Decorator/README.md)     | [**Iterator**](./Behavioral/Iterator/README.md) |
-| [**Singleton**](./Creational/Singleton/README.md)             | [**Facade**](./Structural/Facade/README.md)           | [**Mediator**](./Behavioral/Mediator/README.md) |
+| [**Singleton**](./Creational/Singleton/README.md)             | [**+Facade**](./Structural/Facade/README.md)           | [**Mediator**](./Behavioral/Mediator/README.md) |
 |                                                               | [**Flyweight**](./Structural/Flyweight/README.md)     | [**Memento**](./Behavioral/Memento/README.md)  |
 |                                                               | [**Proxy**](./Structural/Proxy/README.md)             | [**Observer**](./Behavioral/Observer/README.md) |
 |                                                               |                                                       | [**State**](./Behavioral/State/README.md)  |
@@ -47,11 +47,11 @@ Design patterns can be broadly categorized into three types:
 
 *Structural Patterns (7)*:
 
-1. [**Adapter**](./Structural/Adapter/README.md)
+1. [**+Adapter**](./Structural/Adapter/README.md)
 2. [**Bridge**](./Structural/Bridge/README.md)
 3. [**Composite**](./Structural/Composite/README.md)
 4. [**Decorator**](./Structural/Decorator/README.md)
-5. [**Facade**](./Structural/Facade/README.md)
+5. [**+Facade**](./Structural/Facade/README.md)
 6. [**Flyweight**](./Structural/Flyweight/README.md)
 7. [**Proxy**](./Structural/Proxy/README.md)
 
