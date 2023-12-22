@@ -1,4 +1,4 @@
-[up](../README.md)
+[up](../README.md) [script](script/page01.md)
 
 The Flyweight design pattern is a structural pattern used in software development to minimize memory usage or computational expenses by sharing as much as possible with similar objects. It's particularly useful in situations where the number of objects with similar states is high.
 
