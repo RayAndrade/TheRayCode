@@ -1,4 +1,5 @@
 <?php
+
 include_once ('Composite.php');
 include_once ('Leaf.php');
 

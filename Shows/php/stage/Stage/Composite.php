@@ -1,4 +1,5 @@
 <?php
+include('Component.php');
 
 class Composite extends Component
 {

@@ -1,20 +1,38 @@
 public class Main {
     public static void main(String[] args) {
 
-        Circle circle1 = new Circle(ShapeFactory.getColor("Red"));
-        circle1.setX(10);
-        circle1.setY(20);
-        circle1.draw();
+        TV sonyTv = new SonyTV();
+        RemoteControl sonyRemote = new ConcreteRemote(sonyTv);
 
-        Circle circle2 = new Circle(ShapeFactory.getColor("Blue"));
-        circle2.setX(20);
-        circle2.setY(30);
-        circle2.draw();
+        sonyRemote.turnOn();
+        sonyRemote.setChannel(9);
+        sonyRemote.turnOff();
 
-        Circle circle3 = new Circle(ShapeFactory.getColor("Red"));
-        circle3.setX(30);
-        circle3.setY(40);
-        circle3.draw();
 
+        TV samsungTv = new SamsungTV();
+        RemoteControl samsungRemote = new ConcreteRemote(samsungTv);
+
+        samsungRemote.turnOn();
+        samsungRemote.setChannel(5);
+        samsungRemote.turnOff();
     }
+
+    static class ConcreteRemote extends RemoteControl {
+        public ConcreteRemote(TV tv) {
+            super(tv);
+        }
+
+        public void turnOn() {
+            tv.on();
+        }
+
+        public void turnOff() {
+            tv.off();
+        }
+
+        public void setChannel(int channel) {
+            tv.tuneChannel(channel);
+        }
+    }
+
 }
