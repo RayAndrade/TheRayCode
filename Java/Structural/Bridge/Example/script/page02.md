@@ -1,6 +1,6 @@
 [home](./page01.md) | [back](./page01.md) | [next](./page03.md)
 
-Create **interface**:
+We start be createing **interface** to make out two remotes, Sony and Samsung, the same type:
 ```
 TV
 ```
