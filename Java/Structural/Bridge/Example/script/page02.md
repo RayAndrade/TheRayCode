@@ -4,7 +4,7 @@ We start be createing **interface** to make out two remotes, Sony and Samsung, t
 ```
 TV
 ```
-with code
+we require users of this interface to have the following methinds
 ```
 void on();
 void off();
