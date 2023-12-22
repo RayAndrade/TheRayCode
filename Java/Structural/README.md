@@ -9,11 +9,11 @@
 | examples using Java | | | |
 |----|---|---|---|
 |**[Adapter](./Adapter/README.md)**  | [C++](../../CPP/Structural/Adapter/README.md) | [C#](../../Csharp/Structural/Adapter/README.md) | [PHP](../../PHP/Structural/Adapter/README.md) |
-|**[Bridge](./Bridge/README.md)**  | [C++](../../CPP/Structural/Bridge/README.md) | [C#](../../Csharp/Structural/Bridge/README.md) | [PHP](../../PHP/Structural/Bridge/README.md) |
+|**[+Bridge](./Bridge/README.md)**  | [C++](../../CPP/Structural/Bridge/README.md) | [C#](../../Csharp/Structural/Bridge/README.md) | [PHP](../../PHP/Structural/Bridge/README.md) |
 |**[Composite](./Composite/README.md)**  | [C++](../../CPP/Structural/Composite/README.md) | [C#](../../Csharp/Structural/Composite/README.md) | [PHP](../../PHP/Structural/Composite/README.md) |
 |**[Decorator](./Decorator/README.md)**  | [C++](../../CPP/Structural/Decorator/README.md) | [C#](../../Csharp/Structural/Decorator/README.md) | [PHP](../../PHP/Structural/Decorator/README.md) |
 |**[Facade](./Facade/README.md)**  | [C++](../../CPP/Structural/Facade/README.md) | [C#](../../Csharp/Structural/Facade/README.md) | [PHP](../../PHP/Structural/Facade/README.md) |
-|**[Flyweight](./Flyweight/README.md)**  | [C++](../../CPP/Structural/Flyweight/README.md) | [C#](../../Csharp/Structural/Flyweight/README.md) | [PHP](../../PHP/Structural/Flyweight/README.md) |
+|**[+Flyweight](./Flyweight/README.md)**  | [C++](../../CPP/Structural/Flyweight/README.md) | [C#](../../Csharp/Structural/Flyweight/README.md) | [PHP](../../PHP/Structural/Flyweight/README.md) |
 |**[Proxy](./Proxy/README.md)**  | [C++](../../CPP/Structural/Proxy/README.md) | [C#](../../Csharp/Structural/Proxy/README.md) | [PHP](../../PHP/Structural/Proxy/README.md) |
 
 Structural Design Patterns define ways to compose objects to ensure flexible and efficient structures. When it comes to Java, the language's object-oriented nature makes it well-suited to implement these patterns. Here are the strengths and weaknesses of each of the seven Structural Design Patterns in the context of Java development:
@@ -26,7 +26,7 @@ Structural Design Patterns define ways to compose objects to ensure flexible and
         - Introduces extra layers which can complicate the code and increase the learning curve.
         - Not a direct solution to the root problem, but rather a workaround.
 
-2. **[Bridge Pattern](Bridge/README.md)**
+2. **[+Bridge Pattern](Bridge/README.md)**
     - **Strengths**: 
         - Decouples abstraction from implementation, allowing the two to vary independently.
         - Enhances extensibility by enabling addition of new abstractions or implementations without affecting the existing code.
@@ -58,7 +58,7 @@ Structural Design Patterns define ways to compose objects to ensure flexible and
         - While it abstracts complexities, over-reliance can lead to complications when changes or deeper understanding of the subsystem is required.
         - Can become a monolithic structure, leading to potential bottlenecks.
 
-6. **[Flyweight Pattern](Flyweight/README.md)**
+6. **[+Flyweight Pattern](Flyweight/README.md)**
     - **Strengths**: 
         - Efficiently manages shared objects, reducing memory overhead, especially useful in resource-constrained applications or when dealing with a large number of objects.
         - Java's `Integer.valueOf(int)` uses this pattern, caching instances of `Integer`.
