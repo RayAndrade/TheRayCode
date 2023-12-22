@@ -8,29 +8,6 @@ TV sonyTv = new SonyTV();
 RemoteControl sonyRemote = new ConcreteRemote(sonyTv);
 ```
 
-At this point we add code to the bottem
-```
-static class ConcreteRemote extends RemoteControl {
-    public ConcreteRemote(TV tv) {
-        super(tv);
-    }
-
-    public void turnOn() {
-        tv.on();
-    }
-
-    public void turnOff() {
-        tv.off();
-    }
-
-    public void setChannel(int channel) {
-        tv.tuneChannel(channel);
-    }
-}
-```
-
-
-
 
 **2.**
 ```
