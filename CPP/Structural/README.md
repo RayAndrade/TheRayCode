@@ -45,7 +45,7 @@ Structural Design Patterns focus on simplifying the structure by identifying the
         - Can make the design overly generalized.
         - It might be difficult to restrict components of the tree to only particular types.
 
-4. **[Decorator Pattern](Decorator/README.md)**
+4. **[+Decorator Pattern](Decorator/README.md)**
     - **Strengths**: 
         - More flexible alternative to subclassing for extending functionality.
         - Allows for dynamically adding responsibilities to objects.
