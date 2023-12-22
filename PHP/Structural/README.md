@@ -10,11 +10,11 @@
 |----|---|---|---|
 |**[Adapter](./Adapter/README.md)** | [C++](../../CPP/Structural/Adapter/README.md) | [C#](../../Csharp/Structural/Adapter/README.md) | [Java](../../Java/Structural/Adapter/README.md) |
 |**[Bridge](./Bridge/README.md)** |[C++](../../CPP/Structural/Bridge/README.md) | [C#](../../Csharp/Structural/Bridge/README.md) | [Java](../../Java/Structural/Bridge/README.md) |
-|**[Composite](./Composite/README.md)**  | [C++](../../CPP/Structural/Composite/README.md) | [C#](../../Csharp/Structural/Composite/README.md) | [Java](../../Java/Structural/Composite/README.md) |
+|**[+Composite](./Composite/README.md)**  | [C++](../../CPP/Structural/Composite/README.md) | [C#](../../Csharp/Structural/Composite/README.md) | [Java](../../Java/Structural/Composite/README.md) |
 |**[Decorator](./Decorator/README.md)** | [C++](../../CPP/Structural/Decorator/README.md) | [C#](../../Csharp/Structural/Decorator/README.md) | [Java](../../Java/Structural/Decorator/README.md) |
 |**[Facade](./Facade/README.md)** | [C++](../../CPP/Structural/Facade/README.md) | [C#](../../Csharp/Structural/Facade/README.md) | [Java](../../Java/Structural/Facade/README.md) |
 |**[Flyweight](./Flyweight/README.md)**  | [C++](../../CPP/Structural/Flyweight/README.md) | [C#](../../Csharp/Structural/Flyweight/README.md) | [Java](../../Java/Structural/Flyweight/README.md) |
-|**[Proxy](./Proxy/README.md)**  | [C++](../../CPP/Structural/Proxy/README.md) | [C#](../../Csharp/Structural/Proxy/README.md) | [Java](../../Java/Structural/Proxy/README.md) |
+|**[+Proxy](./Proxy/README.md)**  | [C++](../../CPP/Structural/Proxy/README.md) | [C#](../../Csharp/Structural/Proxy/README.md) | [Java](../../Java/Structural/Proxy/README.md) |
 
 Structural Design Patterns help developers set up relationships between classes or objects in a way that promotes efficiency and flexibility. For PHP developers, these patterns can be useful as PHP supports both procedural and object-oriented programming. Let's break down the strengths and weaknesses of each pattern in the context of PHP development:
 
@@ -34,7 +34,7 @@ Structural Design Patterns help developers set up relationships between classes 
         - Introduces complexity due to increased class hierarchies.
         - Might be an overkill for simple projects.
 
-3. **[Composite Pattern](Composite/README.md)**
+3. **[+Composite Pattern](Composite/README.md)**
     - **Strengths**: 
         - Simplifies handling and manipulation of tree-like structures by treating both composite and individual objects uniformly.
         - Can be useful in content management systems (CMS) developed using PHP.
@@ -66,7 +66,7 @@ Structural Design Patterns help developers set up relationships between classes 
         - Complexity can increase by distinguishing intrinsic and extrinsic states.
         - Not always straightforward to implement, especially when states have mixed concerns.
 
-7. **[Proxy Pattern](Proxy/README.md)**
+7. **[+Proxy Pattern](Proxy/README.md)**
     - **Strengths**: 
         - Provides a layer of control before accessing the real object, useful for lazy instantiation, access control, or logging.
         - Can help in managing resources like database connections in PHP applications.
