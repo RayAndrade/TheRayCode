@@ -3,6 +3,9 @@
 
 **ItellaJ IDE**
 
+This Will be an example of the Bridge design pattern using java
+
+
 ```
 System.out.println("The Ray Code is AWESOME!!!");
 ```
