@@ -8,17 +8,17 @@
 
 | examples using C# | | | |
 |----|---|---|---|
-|**[Adapter](./Adapter/README.md)**  | [C++](../../CPP/Structural/Adapter/README.md) | [Java](../../Java/Structural/Adapter/README.md) | [PHP](../../PHP/Structural/Adapter/README.md) |
+|**[+Adapter](./Adapter/README.md)**  | [C++](../../CPP/Structural/Adapter/README.md) | [Java](../../Java/Structural/Adapter/README.md) | [PHP](../../PHP/Structural/Adapter/README.md) |
 |**[Bridge](./Bridge/README.md)**  | [C++](../../CPP/Structural/Bridge/README.md) | [Java](../../Java/Structural/Bridge/README.md) | [PHP](../../PHP/Structural/Bridge/README.md) |
 |**[Composite](./Composite/README.md)**  | [C++](../../CPP/Structural/Composite/README.md) | [Java](../../Java/Structural/Composite/README.md) | [PHP](../../PHP/Structural/Composite/README.md) |
 |**[Decorator](./Decorator/README.md)**  | [C++](../../CPP/Structural/Decorator/README.md) | [Java](../../Java/Structural/Decorator/README.md) | [PHP](../../PHP/Structural/Decorator/README.md) |
-|**[Facade](./Facade/README.md)**  | [C++](../../CPP/Structural/Facade/README.md) | [Java](../../Java/Structural/Facade/README.md) | [PHP](../../PHP/Structural/Facade/README.md) |
+|**[+Facade](./Facade/README.md)**  | [C++](../../CPP/Structural/Facade/README.md) | [Java](../../Java/Structural/Facade/README.md) | [PHP](../../PHP/Structural/Facade/README.md) |
 |**[Flyweight](./Flyweight/README.md)**  | [C++](../../CPP/Structural/Flyweight/README.md) | [Java](../../Java/Structural/Flyweight/README.md) | [PHP](../../PHP/Structural/Flyweight/README.md) |
 |**[Proxy](./Proxy/README.md)**  | [C++](../../CPP/Structural/Proxy/README.md) | [Java](../../Java/Structural/Proxy/README.md) | [PHP](../../PHP/Structural/Proxy/README.md) |
 
 Structural Design Patterns provide guidance for creating relationships between classes or objects. While the core intent of these patterns remains consistent across languages, their strengths and weaknesses can vary slightly in the context of specific languages like C#. Here's a breakdown for C# developers:
 
-1. **[Adapter Pattern](Adapter/README.md)**
+1. **[+Adapter Pattern](Adapter/README.md)**
     - **Strengths**: 
         - Allows for the interoperability of classes that wouldn't work together otherwise due to incompatible interfaces.
         - Promotes reusability of existing code in a new context without modifying the original code.
@@ -51,7 +51,7 @@ Structural Design Patterns provide guidance for creating relationships between c
         - Can lead to a proliferation of small, focused classes, making the codebase more challenging to navigate.
         - Understanding the decorators and their interactions might become complicated.
 
-5. **[Facade Pattern](Facade/README.md)**
+5. **[+Facade Pattern](Facade/README.md)**
     - **Strengths**: 
         - Helps simplify complex subsystems by providing a single, unified point of entry.
         - Reduces dependencies of outside code on the inner workings of a subsystem, providing a clear separation.
