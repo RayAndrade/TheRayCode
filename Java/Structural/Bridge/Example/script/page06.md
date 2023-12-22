@@ -5,7 +5,25 @@ Now we go to the **Main**
 **first we add a function to the BOTTOM**
 
 ```
-static class ConcreteRemote extends RemoteControl {  }
+static class ConcreteRemote extends RemoteControl {
+    public ConcreteRemote(TV tv) {
+        super(tv);
+    }
+
+    public void turnOn() {
+        tv.on();
+    }
+
+    public void turnOff() {
+        tv.off();
+    }
+
+    public void setChannel(int channel) {
+        tv.tuneChannel(channel);
+    }
+}
+
+//static class ConcreteRemote extends RemoteControl {  }
 ```
 inside this funtion we add
 **1**
