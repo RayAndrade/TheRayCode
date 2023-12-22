@@ -13,11 +13,11 @@
 | Creational Patterns | Structural Patterns | Behavioral Patterns |
 |--------------|-----|-----------|
 | [**AbstractFactory**](Creational/AbstractFactory/README.md) | [**Adapter**](./Structural/Adapter/README.md)         | [**Chain Of Responsibility**](./Behavioral/ChainOfResponsibility/README.md) |
-| [**Builder**](./Creational/Builder/README.md)                 | [**Bridge**](./Structural/Bridge/README.md)           | [**Command**](./Behavioral/Command/README.md) |
+| [**Builder**](./Creational/Builder/README.md)                 | [**+Bridge**](./Structural/Bridge/README.md)           | [**Command**](./Behavioral/Command/README.md) |
 | [**Factory**](./Creational/Factory/README.md)                 | [**Composite**](./Structural/Composite/README.md)     | [**Interpreter**](./Behavioral/Interpreter/README.md) |
 | [**Prototype**](./Creational/Prototype/README.md)             | [**Decorator**](./Structural/Decorator/README.md)     | [**Iterator**](./Behavioral/Iterator/README.md) |
 | [**Singleton**](./Creational/Singleton/README.md)             | [**Facade**](./Structural/Facade/README.md)           | [**Mediator**](./Behavioral/Mediator/README.md) |
-|                                                               | [**Flyweight**](./Structural/Flyweight/README.md)     | [**Memento**](./Behavioral/Memento/README.md)  |
+|                                                               | [**+Flyweight**](./Structural/Flyweight/README.md)     | [**Memento**](./Behavioral/Memento/README.md)  |
 |                                                               | [**Proxy**](./Structural/Proxy/README.md)             | [**Observer**](./Behavioral/Observer/README.md) |
 |                                                               |                                                       | [**State**](./Behavioral/State/README.md)  |
 |                                                               |                                                       | [**Strategy**](./Behavioral/Strategy/README.md)  |
@@ -38,11 +38,11 @@ Design patterns offer best practices to solve common problems in software design
 2. [**Structural Patterns**](./Structural/README.md): These concern class and object composition. They provide different ways to ensure that structures in the system are robust and flexible. Some common Structural patterns are:
 
     - [**Adapter**](./Structural/Adapter/README.md): Matches interfaces of different classes.
-    - [**Bridge**](./Structural/Bridge/README.md): Separates an object’s abstraction from its implementation.
+    - [**+Bridge**](./Structural/Bridge/README.md): Separates an object’s abstraction from its implementation.
     - [**Composite**](./Structural/Composite/README.md): A tree structure of simple and composite objects.
     - [**Decorator**](./Structural/Decorator/README.md): Adds responsibilities to objects dynamically.
     - [**Facade**](./Structural/Facade/README.md): A single class that represents an entire subsystem.
-    - [**Flyweight**](./Structural/Flyweight/README.md): Minimizes memory usage by sharing as much data as possible with other similar objects.
+    - [**+Flyweight**](./Structural/Flyweight/README.md): Minimizes memory usage by sharing as much data as possible with other similar objects.
     - [**Proxy**](./Structural/Proxy/README.md): Represents another object and controls access to it.
 
 3. [**Behavioral Patterns**](./Behavioral/README.md): These are concerned with algorithms and the assignment of responsibilities between objects. Behavioral patterns describe not just patterns of objects or classes but also the patterns of communication between them. Some common Behavioral patterns include:
