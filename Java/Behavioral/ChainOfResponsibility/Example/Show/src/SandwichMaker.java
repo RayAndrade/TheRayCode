@@ -1,4 +1,5 @@
 public abstract class SandwichMaker {
+
     protected SandwichMaker nextMaker;
 
     public void setNextMaker(SandwichMaker nextMaker) {
@@ -6,4 +7,5 @@ public abstract class SandwichMaker {
     }
 
     public abstract void addIngredient(String ingredient);
+
 }

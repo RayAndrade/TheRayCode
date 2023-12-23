@@ -1,4 +1,4 @@
-public class BreadMaker extends SandwichMaker {
+public class LettuceAdder  extends SandwichMaker{
     @Override
     public void addIngredient(String ingredient) {
         if (ingredient.equals("lettuce")) {

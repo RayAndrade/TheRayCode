@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-
         SandwichMaker breadMaker = new BreadMaker();
         SandwichMaker lettuceAdder = new LettuceAdder();
         SandwichMaker cheeseSpreader = new CheeseSpreader();
@@ -16,6 +15,5 @@ public class Main {
 
         System.out.println("\nMaking a sandwich with pickles:\n");
         breadMaker.addIngredient("pickles");
-    
     }
 }
