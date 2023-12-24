@@ -31,10 +31,7 @@ clientCode($simple);
 echo "<br/>";
 ```
 
-**4:6**
-```
-
-Added
+**4:6** Added
 ```
 $simple = new Leaf();
 echo "Client: I've got a simple component:<br/>";
