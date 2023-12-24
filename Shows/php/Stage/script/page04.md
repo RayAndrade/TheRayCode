@@ -2,13 +2,19 @@
 
 [back](./page03.md)
 
-Create **class**
+
+**class**
 ```
-Proxy
+Leaf
 ```
-which 
+
 ```
- implements Subject
+ extends Component
+```
+
+
+```
+return "Leaf";
 ```
 
 
