@@ -1,6 +1,6 @@
 [home](./page01.md) | [back](./page03.md)
 
-# Step 3: Create Composite Objects
+# Step 3: Create DirectoryComposite Object
 
 
 The Leaf class represents end objects of a composition. 
