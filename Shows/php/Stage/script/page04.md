@@ -4,9 +4,7 @@
 
 # Step 3: Create Composite Objects
 
-```
-require_once 'FileComponent.php';
-```
+
 The Leaf class represents end objects of a composition. 
 A leaf can't have any children. 
 Typically, Leaf objects do the actual work, while Composite  objects only delegate to their sub-components.
@@ -14,6 +12,10 @@ Typically, Leaf objects do the actual work, while Composite  objects only delega
 Create **class**:
 ```
 FileLeaf
+```
+at the top
+```
+require_once 'FileComponent.php';
 ```
 and it
 ```
