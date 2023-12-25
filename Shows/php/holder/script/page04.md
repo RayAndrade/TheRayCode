@@ -18,7 +18,7 @@ require_once 'DirectoryComposite.php';
 ```
 and it
 ```
-implements FileComponent
+ implements FileComponent
 ```
 add the methods required
 
