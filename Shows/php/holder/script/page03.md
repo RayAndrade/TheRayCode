@@ -9,11 +9,11 @@ Create **class**:
 ```
 FileLeaf
 ```
-At the top
+**At the top**
 ```
 require_once 'FileComponent.php';
 ```
-and it
+and at the class it
 ```
  implements FileComponent
 ```
@@ -29,7 +29,7 @@ public function __construct($name, $size) {
     $this->size = $size;
 }
 ```
-for **getSize*** and 
+for **getSize** and 
 ```
 return $this->size;
 ```

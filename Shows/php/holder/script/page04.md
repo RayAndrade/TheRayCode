@@ -11,7 +11,7 @@ Typically, Leaf objects do the actual work, while Composite  objects only delega
 
 Create **class**:
 ```
-FileLeaf
+DirectoryComposite
 ```
 at the top
 ```
@@ -26,7 +26,7 @@ add the methods required
 at the  top we have the varables
 ```
 private $name;
-private $size;
+private $children;
 ```
 add the *constructer*
 ```
@@ -35,9 +35,21 @@ public function __construct($name, $size) {
     $this->size = $size;
 }
 ```
+
+Create an **add** function
+```
+public function add(FileComponent $component) {
+    $this->children[] = $component;
+}
+```
+
 for **getSize** we have
 ```
-return $this->size;
+$totalSize = 0;
+foreach ($this->children as $child) {
+    $totalSize += $child->getSize();
+}
+return $totalSize;
 ```
 and for **getName** we have
 ```
