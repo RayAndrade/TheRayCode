@@ -11,7 +11,11 @@ Create **class**:
 ```
 FileLeaf
 ```
-it
+At the top
+```
+require_once 'FileComponent.php';
+```
+and it
 ```
  implements FileComponent
 ```
