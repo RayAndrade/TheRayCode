@@ -27,15 +27,13 @@ public function __construct($name, $size) {
     $this->size = $size;
 }
 ```
-for *getSize*** and **getName**
+for **getSize*** and 
 ```
 return $this->size;
 ```
-and
+and for **getName**
 ```
 return $this->name;
 ```
-
-
 
 [page 4](./page04.md)
