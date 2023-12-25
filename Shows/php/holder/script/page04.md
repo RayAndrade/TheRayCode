@@ -14,7 +14,6 @@ DirectoryComposite
 at the top
 ```
 require_once 'FileComponent.php';
-require_once 'DirectoryComposite.php';
 ```
 and it
 ```
