@@ -1,6 +1,4 @@
-[home](./page01.md)
-
-[back](./page02.md)
+[home](./page01.md) | [back](./page02.md)
 
 # Step 2: Create Leaf Objects
 The Leaf class represents end objects of a composition. 
