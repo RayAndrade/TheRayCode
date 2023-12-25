@@ -1,6 +1,4 @@
-[home](./page01.md)
-
-[back](./page03.md)
+[home](./page01.md) | [back](./page03.md)
 
 # Step 3: Create Composite Objects
 
