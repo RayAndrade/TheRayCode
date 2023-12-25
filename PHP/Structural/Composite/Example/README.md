@@ -1,195 +1,134 @@
-[up](../README.md) [script](script/page01.md)
+[up](../README.md)
 
-![Composite](/UMLs/images/Composite/Composite-php.png)
 
-This example illustrates the structure of the Composite design pattern and focuses on the following questions:
+Teaching the Composite design pattern in PHP is a great way to introduce students to both advanced object-oriented programming concepts and design patterns. The Composite pattern is particularly useful for treating individual objects and compositions of objects uniformly.
 
-What roles do these classes play?
-In what way the elements of the pattern are related?
-<ol>
-<li>What classes does it consist of?</li>
-<li>What roles do these classes play?</li>
-<li>In what way the elements of the pattern are related?</li>
-</ol>
+In the Composite pattern, you typically have a component interface, leaf objects, and composite objects. The component interface defines default behavior for all objects, leaf objects perform actual operations, and composite objects store child components (which can be leaf or composite objects).
 
-The base Component can declare an interface for setting and accessing a parent of the component in a tree structure. 
-It can also provide some default implementation for these methods.
+Let's create a simple example: a file system with directories and files. Directories can contain files or other directories.
 
-In some cases, it would be beneficial to define the child-management operations right in the base Component class. 
-This way, you won't need to expose any concrete component classes to the client code, even during the object tree assembly. 
-The downside is that these methods will be empty for the leaf-level components.
+### Step 1: Define the Component Interface
 
-You can provide a method that lets the client code figure out whether a component can bear children.
-The base Component may implement some default behavior or leave it to concrete classes (by declaring the method containing the behavior as"abstract").
-
+**FileComponent.php**
 ```php
-abstract class Component
-{
-    protected $parent;
+<?php
 
-    public function setParent(Component $parent)
-    {
-        $this->parent = $parent;
-    }
-
-    public function getParent(): Component
-    {
-        return $this->parent;
-    }
-
-    public function add(Component $component): void { }
-    public function remove(Component $component): void { }
-
-    public function isComposite(): bool
-    {
-        return false;
-    }
-
-    abstract public function operation(): string;
+// The component interface declares common operations for both simple and
+// complex objects of a composition.
+interface FileComponent {
+    public function getSize();
+    public function getName();
 }
 ```
 
-The Composite class represents the complex components that may have children.
-Usually, the Composite objects delegate the actual work to their children and then "sum-up" the result.
+### Step 2: Create Leaf Objects
 
- A composite object can add or remove other components (both simple or complex) to or from its child list.
- 
- The Composite executes its primary logic in a particular way. 
- It traverses recursively through all its children, collecting and summing their results. 
- Since the composite's children pass these calls to their children and so forth, the whole object tree is traversed as a result.
-     
+**FileLeaf.php**
 ```php
-include_once ('Component.php');
+<?php
 
-class Composite extends Component
-{
-    protected $children;
+require_once 'FileComponent.php';
 
-    public function __construct()
-    {
-        $this->children = new \SplObjectStorage();
+// The Leaf class represents end objects of a composition. A leaf can't have
+// any children. Typically, Leaf objects do the actual work, while Composite
+// objects only delegate to their sub-components.
+class FileLeaf implements FileComponent {
+    private $name;
+    private $size;
+
+    public function __construct($name, $size) {
+        $this->name = $name;
+        $this->size = $size;
     }
 
-    public function add(Component $component): void
-    {
-        $this->children->attach($component);
-        $component->setParent($this);
+    public function getSize() {
+        return $this->size;
     }
 
-    public function remove(Component $component): void
-    {
-        $this->children->detach($component);
-        $component->setParent(null);
+    public function getName() {
+        return $this->name;
     }
-    public function isComposite(): bool
-    {
-        return true;
+}
+```
+
+### Step 3: Create Composite Objects
+
+**DirectoryComposite.php**
+```php
+<?php
+
+require_once 'FileComponent.php';
+
+// The Composite class represents complex components that may have children.
+// Composite objects usually delegate the actual work to their children and
+// "sum-up" the result.
+class DirectoryComposite implements FileComponent {
+    private $name;
+    private $children;
+
+    public function __construct($name) {
+        $this->name = $name;
+        $this->children = [];
     }
 
-    public function operation(): string
-    {
-        $results = [];
+    public function add(FileComponent $component) {
+        $this->children[] = $component;
+    }
+
+    public function getSize() {
+        $totalSize = 0;
         foreach ($this->children as $child) {
-            $results[] = $child->operation();
+            $totalSize += $child->getSize();
         }
+        return $totalSize;
+    }
 
-        return "Branch(" . implode("+", $results) . ")";
+    public function getName() {
+        return $this->name;
     }
 }
 ```
 
-The Leaf class represents the end objects of a composition. 
-A leaf can't have any children.
+### Step 4: Demonstrate the Composite Pattern
 
-Usually, it's the Leaf objects that do the actual work, whereas Composite objects only delegate to their sub-components.
-
+**index.php**
 ```php
-class Leaf extends Component
-{
-    public function operation(): string
-    {
-        return "Leaf";
-    }
-}
+<?php
+
+require_once 'FileLeaf.php';
+require_once 'DirectoryComposite.php';
+
+// Create files
+$file1 = new FileLeaf("File1.txt", 210);
+$file2 = new FileLeaf("File2.txt", 310);
+
+// Create a directory and add files
+$directory = new DirectoryComposite("Directory");
+$directory->add($file1);
+$directory->add($file2);
+
+// Create a subdirectory and add it to the directory
+$subdirectory = new DirectoryComposite("Subdirectory");
+$subdirectory->add(new FileLeaf("SubFile1.txt", 110));
+$directory->add($subdirectory);
+
+// Display the size of the directory
+echo "Total Size of '" . $directory->getName() . "': " . $directory->getSize() . " bytes";
 ```
 
+### Order of Creation
 
-The client code works with all of the components via the base interface.
-This way the client code can support the simple leaf components as well as the complex composites.
+1. **FileComponent.php**: Define the component interface.
+2. **FileLeaf.php**: Implement the leaf objects.
+3. **DirectoryComposite.php**: Implement the composite objects.
+4. **index.php**: Demonstrate the usage of the Composite pattern.
 
-```php
-include_once ('Composite.php');
-include_once ('Leaf.php');
+### Expected Output
 
-function clientCode(Component $component)
-{
-    // ...
-
-    echo "RESULT: " . $component->operation();
-
-    // ...
-}
-
-$simple = new Leaf();
-echo "Client: I've got a simple component:<br/>";
-clientCode($simple);
-echo "\n\n";
-
-$tree = new Composite();
-$branch1 = new Composite();
-$branch1->add(new Leaf());
-$branch1->add(new Leaf());
-$branch2 = new Composite();
-$branch2->add(new Leaf());
-$tree->add($branch1);
-$tree->add($branch2);
-echo "Client: Now I've got a composite tree:<br/>";
-clientCode($tree);
-echo "<br/><br/>";
+When you run `index.php`, you should see the total size of the directory, which includes the sizes of all files in it and its subdirectories. The output will be:
 
 ```
-Thanks to the fact that the child-management operations are declared in the  base Component class, the client code can work with any component, simple or complex, without depending on their concrete classes.
-
-
-```php
-function clientCode2(Component $component1, Component $component2)
-{
-    // ...
-
-    if ($component1->isComposite()) {
-        $component1->add($component2);
-    }
-    echo "RESULT: " . $component1->operation();
-
-    // ...
-}
-
-echo "Client: I don't need to check the components classes even when managing the tree:\n";
-clientCode2($tree, $simple);
+Total Size of 'Directory': 630 bytes
 ```
 
-Now let's run this in a browser and we whould get:
-
-```php
-Client: I've got a simple component:
-RESULT: Leaf Client: Now I've got a composite tree:
-RESULT: Branch(Branch(Leaf+Leaf)+Branch(Leaf))
-
-Client: I don't need to check the components classes even when managing the tree: RESULT: Branch(Branch(Leaf+Leaf)+Branch(Leaf)+Leaf)
-```
-
-[Wikipedia](https://en.wikipedia.org/wiki/Composite_pattern)
-
-----------------------------------------------------------------------------------------------------
-
-Find Ray on:
-
-[facebook](https://www.facebook.com/TheRayCode/)
-
-[youtube](https://www.youtube.com/TheRayCode/)
-
-[X@TheRayCode](https://www.x.com/TheRayCode/)
-
-[The Ray Code](https://www.TheRayCode.org)
-
-[Ray Andrade](https://www.RayAndrade.com)
+This example demonstrates how the Composite pattern can be used to work with tree-like structures. Students can see how both individual files and directories (which can contain other files or directories) are treated uniformly through the `FileComponent` interface.
