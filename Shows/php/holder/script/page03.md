@@ -11,7 +11,7 @@ FileLeaf
 ```
 **At the top**
 ```
-require_once 'FileComponent.php';
+ require_once 'FileComponent.php';
 ```
 and at the class it
 ```
