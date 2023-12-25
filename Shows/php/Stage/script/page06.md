@@ -10,7 +10,7 @@ require_once 'DirectoryComposite.php';
 ```
 
 Create files
-````
+```
 $file1 = new FileLeaf("File1.txt", 210);
 $file2 = new FileLeaf("File2.txt", 310);
 ```
