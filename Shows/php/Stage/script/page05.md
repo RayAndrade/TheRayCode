@@ -19,7 +19,7 @@ DirectoryComposite
 ```
 add
 ```
- implements FileComponen
+ implements FileComponent
 ```
 add methods **getSize** & **getName** att the top
 
