@@ -1,2 +1,3 @@
 <?php
- echo "The Ray Code is AWESOME!!!";
+
+echo "The Ray Code is AWESOME!!!";
