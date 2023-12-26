@@ -1,4 +1,4 @@
-[home](/page01.md) | [next page](/page03.md) | [back](/page01.md)
+[home](page01.md) | [next page](page03.md) | [back](page01.md)
 
 In the Composite pattern, you typically have a component interface, leaf objects, and composite objects. 
 The component interface defines default behavior for all objects, leaf objects perform actual operations, 
