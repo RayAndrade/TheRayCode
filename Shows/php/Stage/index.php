@@ -1,21 +1,26 @@
 <?php
 
-require_once 'FileLeaf.php';
-require_once 'DirectoryComposite.php';
+require_once('Leaf.php');
+require_once('Composite.php');
 
-// Create files
-$file1 = new FileLeaf("File1.txt", 210);
-$file2 = new FileLeaf("File2.txt", 310);
+// Create leaves
+$leaf1 = new Leaf("1");
+$leaf2 = new Leaf("2");
 
-// Create a directory and add files
-$directory = new DirectoryComposite("Directory");
-$directory->add($file1);
-$directory->add($file2);
+// Create composite
+$composite = new Composite("Comp1");
+$composite->add($leaf1);
+$composite->add($leaf2);
 
-// Create a subdirectory and add it to the directory
-$subdirectory = new DirectoryComposite("Subdirectory");
-$subdirectory->add(new FileLeaf("SubFile1.txt", 110));
-$directory->add($subdirectory);
+// Add leaf to composite
+$leaf3 = new Leaf("3");
+$composite->add($leaf3);
 
-// Display the size of the directory
-echo "Total Size of '" . $directory->getName() . "': " . $directory->getSize() . " bytes";
+echo $composite->operation();
+
+// Remove a leaf
+$composite->remove($leaf2);
+
+echo "<br/>After removing leaf 2:<br/>";
+echo $composite->operation();
+
