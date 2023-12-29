@@ -19,7 +19,7 @@ Create a directory and add files
 ```
 $directory = new DirectoryComposite("Directory");
 $directory->add($file1);
-$directory->add($file2)
+$directory->add($file2);
 ```
 ### 3
 Create a subdirectory and add it to the directory
