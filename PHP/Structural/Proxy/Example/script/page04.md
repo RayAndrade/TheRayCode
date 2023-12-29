@@ -8,6 +8,17 @@ which
 ```
  implements Subject
 ```
+add the **required** **request** method and for code
+
+```
+if ($this->checkAccess()) {
+    $this->realSubject->request();
+    $this->logAccess();
+}
+```
+
+
+
 
 
 [page 5](./page05.md)
