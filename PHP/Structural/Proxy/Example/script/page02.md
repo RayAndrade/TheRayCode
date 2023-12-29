@@ -1,6 +1,4 @@
-[home](./page01.md)
-
-[back](./page01.md)
+[home](./page01.md) | [back](./page01.md)
 
 Create the **interface**
 ```
@@ -11,6 +9,3 @@ With the folowing requirement
 public function request();
 ```
 
-
-
-[page 3](./page03.md)
