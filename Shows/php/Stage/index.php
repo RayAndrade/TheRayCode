@@ -1,8 +1,4 @@
 <?php
 
-echo "The Ray Code is AWESOME!!!<br/>";
-
-
-
-
+echo "The Ray Code is <b>AWESOME!!!</b>";
 
