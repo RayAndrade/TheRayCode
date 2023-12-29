@@ -1,4 +1,4 @@
-[strart](/page01.md) | [back](/page03.md) | [next](/page05.md)
+[strart](./page01.md) | [back](./page03.md) | [next](./page05.md)
 
 ## Create Composite Objects
 The Leaf class represents end objects of a composition. 
