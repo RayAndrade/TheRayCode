@@ -1,11 +1,5 @@
-[home](./page01.md)
-
-PHP Language level 8.1
-
-Also Interpreter 8.1
+[strart](/page01.md) | [next](/page02.md)
 
 ```
-echo "The Ray Code is AWESOME!!!";
+echo "The Ray Code is <b>AWESOME!!!</b>";
 ```
-
-[page 2](./page02.md)

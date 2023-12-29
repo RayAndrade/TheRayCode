@@ -1,40 +1,16 @@
-[home](./page01.md)
+[strart](/page01.md) | [back](/page01.md) | [next](/page03.md)
 
-Create class
-```
-Component
-```
-make it
-```
-abstract
-```
-add code:
-## 1
-```
-protected $name;
+In the Composite pattern, you typically have a component interface, leaf objects, and composite objects. 
 
-public function __construct($name) {
-    $this->name = $name;
-}
-```
-## 2
-```
-public abstract function operation();
-```
-## 3
+The component interface defines default behavior for all objects, leaf objects perform actual operations, and composite objects store child components (which can be leaf or composite objects).
 
+Let's start with an **interface**
 ```
-    /**
-     * @throws Exception
-     */
-public function add(Component $component) {
-    throw new Exception("Unsupported operation");
-}
+FileComponent
+```
+with the following requirements
+```
+public function getSize();
+public function getName();
 ```
 
-## 4
-```
-```
-
-
-[page 3](./page03.md)
