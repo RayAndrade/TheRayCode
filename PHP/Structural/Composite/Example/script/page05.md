@@ -1,6 +1,11 @@
 [strart](./page01.md) | [back](./page04.md) | [next](./page06.md)
 
 ## Demonstrate in the index
+add to the top
+```
+require_once 'FileLeaf.php';
+require_once 'DirectoryComposite.php';
+```
 
 ### 1
 Create files
