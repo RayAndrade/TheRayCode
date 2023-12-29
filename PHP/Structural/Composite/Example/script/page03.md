@@ -1,54 +1,47 @@
 [strart](./page01.md) | [back](./page02.md) | [next](./page04.md)
 
-## Step 2:  Create Leaf Objects**
-
-The Leaf class represents end objects of a composition. 
-
-A leaf can't have  any children. 
-
-Typically, Leaf objects do the actual work, while Composite objects only delegate to their sub-components.
-
+## Step 3: Create Composite Objects
 Create **class**
 ```
-FileLeaf
+DirectoryComposite
 ```
 have it
 ```
 require_once 'FileComponent.php';
 ```
-at the top
-
-it
+so it can
 ```
  implements FileComponent
 ```
+add the required methods
 
-The Leaf class represents end objects of a composition. 
-
-A leaf can't have any children. 
-
-Typically, Leaf objects do the actual work, while Composite objects only delegate to their sub-components.
-
-For **getSize** & **getName** we need the privite variables
+at the top **private varables for name & children**
 ```
- private $name;
- private $size;
+private $name;
+private $children;
 ```
-for
+for **construct**
 ```
-public function __construct($name, $size) {
+public function __construct($name) {
     $this->name = $name;
-    $this->size = $size;
+    $this->children = [];
 }
 ```
-
-
-so for **getSize**
+to **add** chidren
 ```
-return $this->size;
+public function add(FileComponent $component) {
+   $this->children[] = $component;
+}
+```
+for **getSize**
+```
+$totalSize = 0;
+foreach ($this->children as $child) {
+    $totalSize += $child->getSize();
+}
+return $totalSize;
 ```
 and for **getName**
 ```
 return $this->name;
 ```
-
