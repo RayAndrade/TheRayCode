@@ -3,7 +3,7 @@
 $`\textcolor{red}{\text{TheRayCode}}`$ 
 
 
-<a href="http://theraycode.org" rel="noopener" target="_new">Go to The Ray Code</a>
+<a href="http://theraycode.org" rel="noopener" target="_new">Go to $`\textcolor{red}{\text{TheRayCode}}`$ </a>
 
 **[C++](./CPP/README.md)** | **[C#](./Csharp/README.md)** | **[Java](./Java/README.md)**  | **[PHP](./PHP/README.md)** | **[JavaScript](./JavaScript/README.md)**  
 
