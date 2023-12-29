@@ -1,4 +1,4 @@
-[strart](/page01.md) | [back](/page01.md) | [next](/page03.md)
+[strart](./page01.md) | [back](./page01.md) | [next](./page03.md)
 
 In the Composite pattern, you typically have a component interface, leaf objects, and composite objects. 
 
