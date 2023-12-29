@@ -1,16 +1,42 @@
 [strart](./page01.md) | [back](./page01.md) | [next](./page03.md)
-
-In the Composite pattern, you typically have a component interface, leaf objects, and composite objects. 
-
-The component interface defines default behavior for all objects, leaf objects perform actual operations, and composite objects store child components (which can be leaf or composite objects).
-
-Let's start with an **interface**
+## Create FileLeaf.php
+### 1.
 ```
-FileComponent
+FileLeaf
 ```
-with the following requirements
+and it
+### 2
 ```
-public function getSize();
-public function getName();
+require_once 'FileComponent.php';
+```
+so we can
+### 3
+```
+ implements FileComponent
+```
+The Leaf class represents end objects of a composition. 
+
+A leaf can't have any children. 
+
+Typically, Leaf objects do the actual work, while Composite objects only delegate to their sub-components.
+### 4
+```
+private $name;
+private $size;
+```
+### 5
+```
+public function __construct($name, $size) {
+    $this->name = $name;
+    $this->size = $size;
+}
+```
+### 6.
+```
+return $this->size;
+```
+and
+```
+return $this->name;
 ```
 
