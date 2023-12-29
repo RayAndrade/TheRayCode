@@ -8,7 +8,7 @@ Subject
 ```
 With the folowing requirement
 ```
-public function request(): void;
+public function request();
 ```
 
 
