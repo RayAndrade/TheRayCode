@@ -8,10 +8,8 @@
 #include <iostream>
 
 class Handler {
-
 public:
     virtual std::string Handle(std::string request) = 0;
-
     virtual Handler *SetNext(Handler *handler) = 0;
 };
 
