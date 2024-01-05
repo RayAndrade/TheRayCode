@@ -1,4 +1,4 @@
-[up](../README.md) | [script](/sript/page01.md)
+[up](../README.md) | [script](sript/page01.md)
 
 
 Teaching the Composite design pattern in PHP is a great way to introduce students to both advanced object-oriented programming concepts and design patterns. The Composite pattern is particularly useful for treating individual objects and compositions of objects uniformly.
