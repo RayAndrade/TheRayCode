@@ -24,9 +24,6 @@ Component* component;
 next for
 ```
 public:
-```
-we have
-```
 Decorator(Component* c) : component(c) {}
 
 void operation() override {
