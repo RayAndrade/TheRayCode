@@ -3,40 +3,21 @@
 
 create **Concrete Component** 
 ```
-ConcreteDecoratorA
+ConcreteComponent
 ```
-Which will be a Concrete implementation of Component.
+At the top we add:
 ```
-Component
-```
-include the **Decorator** and the IO stream
-```
-#include "Decorator.h"
+#include "Component.h"
 #include <iostream>
 ```
-create the class
+So we can extend it with
 ```
-class ConcreteDecoratorA {  };
+ : public Component
 ```
-and extend it with
-```
- : public Decorator
-```
-puplic code
+and add code:
 ```
 public:
-ConcreteDecoratorA(Component* c) : Decorator(c) {}
-
 void operation() override {
-    Decorator::operation();
-    addedBehavior();
+    std::cout << "Basic functionality.\n";
 }
 ```
-and **private**
-```
-private:
-void addedBehavior() {
-    std::cout << "Added behavior A.\n";
-}
-```
-
