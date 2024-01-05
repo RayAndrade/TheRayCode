@@ -9,7 +9,7 @@ Let's create the **interface** **File Component**
 ```
 FileComponent
 ```
-with
+with a requierment to have a **get Size and getName** method
 ```
 public function getSize();
 public function getName();
