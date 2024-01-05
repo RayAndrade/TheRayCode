@@ -1,15 +1,15 @@
 [home](./page01.md) | [back](./page02.md) | [next](./page04.md)
 
 
-create **Concrete implementation/Component** 
+create **Concrete Decorator A** 
 ```
-ConcreteComponent
+ConcreteDecoratorA
 ```
 Which will be a Concrete implementation of Component.
 ```
 Component
 ```
-include the **Component** and the IO stream
+include the **Decorator** and the IO stream
 ```
 #include "Decorator.h"
 #include <iostream>
@@ -20,12 +20,23 @@ class ConcreteDecoratorA {  };
 ```
 and extend it with
 ```
- : public Component
+ : public Decorator
 ```
 puplic code
 ```
 public:
+ConcreteDecoratorA(Component* c) : Decorator(c) {}
+
 void operation() override {
-    std::cout << "Basic functionality.\n";
+    Decorator::operation();
+    addedBehavior();
 }
 ```
+and **private**
+```
+private:
+void addedBehavior() {
+    std::cout << "Added behavior A.\n";
+}
+```
+
