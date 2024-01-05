@@ -4,6 +4,11 @@ create a header file called
 ```
 ConcreteDecoratorA
 ```
+for class
+```
+class ConcreteDecoratorA { };
+```
+
 at the top
 ```
 #include "Decorator.h"
