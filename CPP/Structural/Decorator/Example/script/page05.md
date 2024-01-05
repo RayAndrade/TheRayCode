@@ -4,6 +4,8 @@ create a header file called
 ```
 ConcreteDecoratorA
 ```
+ Concrete ConcreteDecoratorA ans B extending Decorator with **additional functionalities**.
+ 
 for class
 ```
 class ConcreteDecoratorA { };
