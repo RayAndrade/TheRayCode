@@ -1,10 +1,8 @@
-cmake_minimum_required(VERSION 3.27)
-project(Stage)
+cmake_minimum_required(VERSION 3.26)
+project(beginning)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Stage main.cpp
-        Component.h
-        ConcreteComponent.h
-        Decorator.h
-        ConcreteDecoratorA.h)
+add_executable(beginning main.cpp
+        ClownPrototype.h
+        Clown.h)
