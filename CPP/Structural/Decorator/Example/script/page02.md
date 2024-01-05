@@ -1,7 +1,12 @@
 [home](./page01.md) | [back](./page01.md) [next](./page03.md)
 
-Let's create a **Component** Abstract class to use as a common base interface
+Creating a C++ example using the Decorator Design Pattern involves several steps. 
 
+This design pattern is used to add new functionalities to objects dynamically without altering their structure. 
+
+Here's how you can structure your C++ project using this pattern:
+
+Let's create a **Component** Abstract class to use as a common base interface
 ```
 Component
 ```
