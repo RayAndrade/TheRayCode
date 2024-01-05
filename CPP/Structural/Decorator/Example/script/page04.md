@@ -16,12 +16,12 @@ extend it with the
 ```
  : public Component
 ```
-we have a protected **component** object
+we have a protected **component** object for **protected**
 ```
 protected:
 Component* component;
 ```
-next for
+and for **public**
 ```
 public:
 Decorator(Component* c) : component(c) {}
@@ -31,7 +31,7 @@ if (component)
 component->operation();
 }
 ```
-
+we pass in the **Component** and overide the **operation** operation with a if check
 
 
 
