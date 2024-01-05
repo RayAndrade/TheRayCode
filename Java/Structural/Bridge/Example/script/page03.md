@@ -1,6 +1,6 @@
 [home](./page01.md) | [back](./page02.md) | [next](./page04.md)
 
-Now let's Create the **class**
+Now let's Create the **Concrete class**
 ```
 SonyTV
 ```
