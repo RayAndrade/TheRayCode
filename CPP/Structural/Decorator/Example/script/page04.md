@@ -4,6 +4,11 @@ create the **Decorator class**
 ```
 Decorator
 ```
+
+```
+class Decorator { };
+```
+
 and extend it with
 ```
  : public Component
