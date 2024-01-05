@@ -1,6 +1,6 @@
 [home](./page01.md) | [back](./page03.md) | [next](./page03.md)
 
-create header file
+Create the **base decorator**
 ```
 Decorator
 ```
