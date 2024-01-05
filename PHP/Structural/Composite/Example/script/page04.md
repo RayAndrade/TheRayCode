@@ -1,16 +1,19 @@
 [strart](./page01.md) | [back](./page03.md) | [next](./page05.md)
 
+Mow we create a **Directory Composite**
 
 ## Step 3: Create Composite Objects
+
+
 Create **class**
 ```
 DirectoryComposite
 ```
-have it
+at the top we require **File Component**
 ```
 require_once 'FileComponent.php';
 ```
-so it can
+and implement it
 ```
  implements FileComponent
 ```
@@ -28,13 +31,13 @@ public function __construct($name) {
     $this->children = [];
 }
 ```
-to **add** chidren
+now to to **add** chidren we create a add method
 ```
 public function add(FileComponent $component) {
    $this->children[] = $component;
 }
 ```
-for **getSize**
+to **get Size** we sum up the number of children
 ```
 $totalSize = 0;
 foreach ($this->children as $child) {
@@ -42,7 +45,7 @@ foreach ($this->children as $child) {
 }
 return $totalSize;
 ```
-and for **getName**
+and for **get Name**
 ```
 return $this->name;
 ```
