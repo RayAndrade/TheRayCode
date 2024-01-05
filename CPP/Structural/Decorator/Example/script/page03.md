@@ -20,23 +20,12 @@ class ConcreteDecoratorA {  };
 ```
 and extend it with
 ```
- : public Decorator
+ : public Component
 ```
 puplic code
 ```
 public:
-ConcreteDecoratorA(Component* c) : Decorator(c) {}
-
 void operation() override {
-    Decorator::operation();
-    addedBehavior();
+    std::cout << "Basic functionality.\n";
 }
 ```
-and **privite Added behavior**
-```
-private:
-void addedBehavior() {
-    std::cout << "Added behavior A.\n";
-}
-```
-
