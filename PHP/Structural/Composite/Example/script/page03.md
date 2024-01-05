@@ -31,18 +31,18 @@ Typically, Leaf objects do the actual work, while Composite objects only delegat
 private $name;
 private $size;
 ```
-### 5
+### 5 we construct the Leaf object
 ```
 public function __construct($name, $size) {
     $this->name = $name;
     $this->size = $size;
 }
 ```
-### 6.
+### 6. return size
 ```
 return $this->size;
 ```
-and
+and name
 ```
 return $this->name;
 ```
