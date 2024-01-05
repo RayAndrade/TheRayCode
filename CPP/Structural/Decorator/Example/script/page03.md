@@ -1,7 +1,7 @@
 [home](./page01.md) | [back](./page02.md) | [next](./page04.md)
 
 
-create **Concrete Decorator A** 
+create **Concrete Component** 
 ```
 ConcreteDecoratorA
 ```
