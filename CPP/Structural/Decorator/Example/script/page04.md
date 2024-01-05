@@ -1,29 +1,29 @@
 [home](./page01.md) | [back](./page03.md) | [next](./page03.md)
 
-At main:
-
-At the top
+create the **Decorator class**
 ```
-#include "ConcreteComponent.h"
-#include "ConcreteDecoratorA.h"
+Decorator
 ```
-in the main method **1**
+and extend it with
 ```
-Component* simple = new ConcreteComponent();
-Component* decorated = new ConcreteDecoratorA(simple);
+ : public Component
 ```
-**2** Running basic component
+which means we need to
 ```
-std::cout << "Running basic component:\n";
-simple->operation();
+#include "Component.h"
 ```
-**3**Running **decorated** component
+we add **protected** code
 ```
-std::cout << "\nRunning decorated component:\n";
-decorated->operation();
+protected:
+Component* component;
 ```
-**4**clean up
+and for **public**
 ```
-delete simple;
-delete decorated;
+public:
+Decorator(Component* c) : component(c) {}
+void operation() override {
+    if (component)
+        component->operation();
+}
 ```
+with a **if** check for **operation** override
