@@ -5,17 +5,19 @@ create
 ```
 ConcreteComponent
 ```
-header file
 
+Which will be a Concrete implementation of Component.
+
+include the **Component** and the IO stream
 ```
 #include "Component.h"
 #include <iostream>
 ```
-create
+create the class
 ```
 class ConcreteComponent {  };
 ```
-extend with
+and extend it with
 ```
  : public Component 
 ```
@@ -27,5 +29,3 @@ std::cout << "Basic functionality.\n";
 }
 ```
 
-
-[page 4](./page04.md)
