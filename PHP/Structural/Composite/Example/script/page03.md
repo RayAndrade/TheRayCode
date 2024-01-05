@@ -1,5 +1,12 @@
 [strart](./page01.md) | [back](./page02.md) | [next](./page04.md)
 ## Create FileLeaf.php
+
+The Leaf class represents end objects of a composition. 
+
+A leaf can't have any children.
+
+Typically, Leaf objects do the actual work, while Composite objects only delegate to their sub-components.
+
 ### 1.
 ```
 FileLeaf
