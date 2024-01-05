@@ -1,5 +1,6 @@
 [home](./page01.md) | [back](./page02.md) | [next](./page04.md)
 
+ Implement the basic functionality with
 
 create **Concrete Component** 
 ```
