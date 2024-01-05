@@ -1,5 +1,5 @@
 //
-// Created by ray on 12/16/23.
+// Created by ray on 1/5/24.
 //
 
 #ifndef STAGE_CONCRETEDECORATORA_H
@@ -8,7 +8,7 @@
 #include "Decorator.h"
 #include <iostream>
 
-class ConcreteDecoratorA : public Decorator {
+class ConcreteDecoratorA  : public Decorator{
 public:
     ConcreteDecoratorA(Component* c) : Decorator(c) {}
 

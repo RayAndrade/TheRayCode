@@ -1,5 +1,5 @@
 //
-// Created by ray on 12/16/23.
+// Created by ray on 1/5/24.
 //
 
 #ifndef STAGE_DECORATOR_H
@@ -10,8 +10,10 @@
 class Decorator : public Component {
 protected:
     Component* component;
+
 public:
     Decorator(Component* c) : component(c) {}
+
     void operation() override {
         if (component)
             component->operation();

@@ -7,5 +7,4 @@ add_executable(Stage main.cpp
         Component.h
         ConcreteComponent.h
         Decorator.h
-        ConcreteDecoratorA.h
-)
+        ConcreteDecoratorA.h)
