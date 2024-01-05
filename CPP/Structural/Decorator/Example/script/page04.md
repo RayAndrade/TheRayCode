@@ -4,7 +4,7 @@ create the **Decorator class**
 ```
 Decorator
 ```
-
+Abstract class inheriting from Component, used as a base for concrete decorator
 ```
 class Decorator { };
 ```
