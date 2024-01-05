@@ -11,13 +11,7 @@ class Component {  };
 
 ```
 public:
-```
-
-```
 virtual ~Component() {}
-```
-
-```
 virtual void operation() = 0;
 ```
 
