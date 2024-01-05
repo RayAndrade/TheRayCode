@@ -25,16 +25,18 @@ and extend it with
 code
 ```
 public:
-    ConcreteDecoratorA(Component* c) : Decorator(c) {}
+ConcreteDecoratorA(Component* c) : Decorator(c) {}
 
-    void operation() override {
-        Decorator::operation();
-        addedBehavior();
-    }
-
+void operation() override {
+    Decorator::operation();
+    addedBehavior();
+ }
+```
+and for **private**
+```
 private:
-    void addedBehavior() {
-        std::cout << "Added behavior A.\n";
-    }
+ void addedBehavior() {
+    std::cout << "Added behavior A.\n";
+ }
 ```
 
