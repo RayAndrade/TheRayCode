@@ -11,7 +11,9 @@ At the top we add:
 #include <iostream>
 ```
 for class
+```
 class ConcreteComponent { };
+```
 So we can extend it with
 ```
  : public Component
