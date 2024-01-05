@@ -4,7 +4,7 @@
 ```
 RemoteControl
 ```
-class and make it
+class and make it **ABSTRACT**
 ```
 abstract
 ```
