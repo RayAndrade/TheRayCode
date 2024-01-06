@@ -37,7 +37,7 @@ public function add(FileComponent $component) {
    $this->children[] = $component;
 }
 ```
-to **get Size** we sum up the number of children
+for **get Size** we need to sum up the number of children
 ```
 $totalSize = 0;
 foreach ($this->children as $child) {
