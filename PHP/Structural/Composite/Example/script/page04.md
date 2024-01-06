@@ -2,10 +2,7 @@
 
 Mow we create a **Directory Composite**
 
-## Step 3: Create Composite Objects
-
-
-Create **class**
+**3** Create composite object **DirectoryComposite**
 ```
 DirectoryComposite
 ```
@@ -31,13 +28,13 @@ public function __construct($name) {
     $this->children = [];
 }
 ```
-now to to **add** chidren we create a add method
+now to to **add** chidren we create a add method to the **ARRAY**
 ```
 public function add(FileComponent $component) {
    $this->children[] = $component;
 }
 ```
-for **get Size** we need to sum up the number of children
+for **get Size** we need to sum up the number of children in the array
 ```
 $totalSize = 0;
 foreach ($this->children as $child) {
