@@ -1,6 +1,6 @@
 [strart](./page01.md) | [back](./page01.md) | [next](./page03.md)
 
-In the Composite pattern, you typically have a component interface, leaf objects, and composite objects. 
+In the Composite pattern, you typically have a **component interface**, **leaf** objects, and **composite** objects. 
 
 Create The interface for the leafs we call **File Component**
 
