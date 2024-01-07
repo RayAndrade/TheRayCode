@@ -1,4 +1,4 @@
-[up](../README.md) | [script](page01.md)
+[up](../README.md) | [script](./script/page01.md)
 
 ## Facade pattern c#
 
