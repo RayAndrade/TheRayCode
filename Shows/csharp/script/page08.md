@@ -1,5 +1,14 @@
-[home](./page01.md) | [back](./page07.md) | [next](./page09.md)
+[home](./page01.md) | [back](./page07.md) 
 
-page08
+you should get
+```
+Facade initializes subsystems:
+SubsystemA: Ready!
+SubsystemB: Get ready!
+Facade orders subsystems to perform the action:
+SubsystemA: Go!
+SubsystemB: Fire!
+```
 
-[page 9](./page09.md)
+
+[start over](./page01.md)
