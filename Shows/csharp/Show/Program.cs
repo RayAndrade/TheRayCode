@@ -6,10 +6,7 @@ namespace Show
     {
         public static void Main(string[] args)
         {
-            var robot = new RobotFacade();
-            robot.PerformMorningRoutine();
-            Console.WriteLine("All tasks completed with a smile (if I had a face)!");
-            
+            Console.WriteLine("The Ray Code is AWESOME!!!");
         }
     }
 }

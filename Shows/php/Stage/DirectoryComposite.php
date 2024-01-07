@@ -1,5 +1,7 @@
 <?php
+
 require_once 'FileComponent.php';
+
 class DirectoryComposite implements FileComponent
 {
     private $name;
@@ -13,6 +15,7 @@ class DirectoryComposite implements FileComponent
     public function add(FileComponent $component) {
         $this->children[] = $component;
     }
+
     public function getSize()
     {
         $totalSize = 0;

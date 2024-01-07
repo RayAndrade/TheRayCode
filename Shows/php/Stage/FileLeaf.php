@@ -1,6 +1,7 @@
 <?php
 
 require_once 'FileComponent.php';
+
 class FileLeaf implements FileComponent
 {
     private $name;

@@ -1,6 +1,19 @@
-#include <iostream>
+#include "ConcreteComponent.h"
+#include "ConcreteDecoratorA.h"
 
 int main() {
-    std::cout << "The Ray Code is AWESOME!!!" << std::endl;
+    Component* simple = new ConcreteComponent();
+    Component* decorated = new ConcreteDecoratorA(simple);
+
+    std::cout << "Running basic component:\n";
+    simple->operation();
+
+    std::cout << "\nRunning decorated component:\n";
+    decorated->operation();
+
+
+    delete simple;
+    delete decorated;
+
     return 0;
 }
