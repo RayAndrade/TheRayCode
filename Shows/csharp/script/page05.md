@@ -7,6 +7,7 @@ Facade
 
 add code **1 of 3**
 ```
+protected SubsystemA SubsystemA;
 protected SubsystemB SubsystemB;
 ```
 **2 of 3**
