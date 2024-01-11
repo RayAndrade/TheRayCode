@@ -4,6 +4,8 @@ Create class
 ```
 Color
 ```
+This class represents the Flyweight in our example. It encapsulates the intrinsic state, which is shared across multiple objects. In our case, this **state** would be the color.
+
 add code:
 ```
 private final String color;
