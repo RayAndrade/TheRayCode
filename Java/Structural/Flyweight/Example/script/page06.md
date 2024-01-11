@@ -1,5 +1,9 @@
 [home](./page01.md) | [back](./page05.md) | [next](./page07.md)
 
+**Main.java**: This will be the client code that uses the Flyweight objects. It will create several circles with different or same colors and demonstrate the Flyweight pattern in action.
+
+
+
 At main:
 **1**
 ```
