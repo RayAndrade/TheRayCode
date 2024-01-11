@@ -4,6 +4,8 @@ Create class
 ```
 Circle
 ```
+ Implements the **Shape interface** and represents a concrete Flyweight. This class will use the Color object to set its color.
+
 and extend it
 ```
  implements Shape
