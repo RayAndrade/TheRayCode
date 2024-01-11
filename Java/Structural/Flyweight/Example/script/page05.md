@@ -4,6 +4,8 @@ Create class
 ```
 ShapeFactory
 ```
+ This factory class is responsible for creating and managing the Flyweight objects (Color instances, in this case). It ensures that identical objects are shared and not recreated.
+
 with code:
 ```
 private static final Map<String, Color> colorMap = new HashMap<>();
