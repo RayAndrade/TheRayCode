@@ -3,7 +3,6 @@ include_once 'Subject.php';
 include_once 'RealSubject.php';
 class Proxy implements Subject
 {
-
     private ?RealSubject $realSubject = null;
     public function request(): string
     {
