@@ -1,4 +1,5 @@
 [home](./page01.md) | [back](./page01.md) | [next](./page03.md)
+
 We create **class** User
 ```
 User
