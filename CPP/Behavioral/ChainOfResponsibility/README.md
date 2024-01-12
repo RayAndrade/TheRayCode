@@ -1,6 +1,6 @@
 # [TheRayCode](../../../README.md) is AWESOME!!!
 
-[top](../README.md)
+[top](../README.md) | [script](script/page01.md)
 
 **[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
