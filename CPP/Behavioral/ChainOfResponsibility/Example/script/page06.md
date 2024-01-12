@@ -1,31 +1,27 @@
 [home](./page01.md) | [back](./page05.md) | [next](./page07.md)
 
-create class
+Now let's create a display in main
+
 ```
-MouseHandler
+#include "Teenager.h"
+#include "Parent.h"
+#include "Robot.h"
 ```
-at the top
+add to main:
 ```
-#include "AbstractHandler.h"
+auto teen = std::make_shared<Teenager>();
+auto parent = std::make_shared<Parent>();
+auto robot = std::make_shared<Robot>();
+
+teen->setNext(parent);
+parent->setNext(robot);
+
+std::cout << "Attempting to wash a Plate:\n";
+teen->washDishes("Plate");
+
+std::cout << "\nAttempting to wash a Glass:\n";
+teen->washDishes("Glass");
 ```
-create **class**
-```
-class MouseHandler { };
-```
-extend it
-```
-: public AbstractHandler
-```
-add code:
-```
-public:
-    std::string Handle(std::string request)  {
-        if (request == "Cheese") {
-            return "Mouse: I'll eat the " + request + ".\n";
-        } else {
-            return AbstractHandler::Handle(request);
-        }
-    }
-```
+
 
 [page 7](./page07.md)

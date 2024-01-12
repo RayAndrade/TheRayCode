@@ -1,49 +1,14 @@
 [home](./page01.md) | [back](./page06.md) | [next](./page08.md)
 
+In this funny example, when you try to wash a plate, the teenager reluctantly agrees. 
 
-at **main.cpp**
+But if it's anything else, they pass it on. 
 
-at the top 
-```
-#include <vector>
+The parent only washes pots, and if it's anything else, they pass it on. The robot, being the last in the chain (and the most responsible one), washes anything that reaches it! 
 
-#include "Handler.h"
-#include "MouseHandler.h"
-#include "CatHandler.h"
-#include "DogHandler.h"
 ```
-Add some client code
 ```
-void ClientCode(Handler &handler) {
-    std::vector<std::string> food = {"Catnip", "Cheese","Bone", "Cup of coffee"};
-    for (const std::string &f : food) {
-        std::cout << "Client: Who wants a " << f << "?\n";
-        const std::string result = handler.Handle(f);
-        if (!result.empty()) {
-            std::cout << "  " << result;
-        } else {
-            std::cout << "  " << f << " was left untouched.\n";
-        }
-    }
-}
-```
-in main
-```
-MouseHandler *mouse = new MouseHandler;
-CatHandler *cat = new CatHandler;
-DogHandler *dog = new DogHandler;
-mouse->SetNext(cat)->SetNext(dog);
 
-std::cout << "Chain: Cat > Mouse > Dog\n\n";
-ClientCode(*mouse);
-std::cout << "\n";
-std::cout << "Subchain: Cat > Dog\n\n";
-ClientCode(*cat);
-
-delete mouse;
-delete cat;
-delete dog;
-```
 
 
 [page 8](./page08.md)

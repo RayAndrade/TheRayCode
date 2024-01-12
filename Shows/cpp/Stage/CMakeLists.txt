@@ -4,8 +4,5 @@ project(beginning)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(beginning main.cpp
-        Component.h
-        ConcreteComponent.h
-        Decorator.h
-        ConcreteDecoratorA.h
+        DishWasher.h
 )

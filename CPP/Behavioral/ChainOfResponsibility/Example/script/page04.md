@@ -1,32 +1,27 @@
 [home](./page01.md) | [back](./page03.md) | [next](./page03.md)
 
-create **class**
+Next create the **Parent.h**
+
+with **include**
+
 ```
-CatHandler
+#include "DishWasher.h"
 ```
-add
+So we can have
 ```
-#include "AbstractHandler.h"
+class Parent : public DishWasher {  };
 ```
-create class
-```
-class CatHandler  { };
-```
-extend the class
-```
-: public AbstractHandler
-```
-add code
+with code
 ```
 public:
-    std::string Handle(std::string request)  {
-        if (request == "Catnip") {
-            return "Cat: I'll eat the " + request + ".\n";
-        } else {
-            return AbstractHandler::Handle(request);
-        }
+void washDishes(const std::string& dishType) override {
+    if (dishType == "Pot") {
+        std::cout << "Parent: Alright, I'll wash the pot.\n";
+    } else {
+        std::cout << "Parent: Not my responsibility! Passing it on...\n";
+        if (nextWasher) nextWasher->washDishes(dishType);
     }
+}
 ```
-
 
 [page 5](./page05.md)

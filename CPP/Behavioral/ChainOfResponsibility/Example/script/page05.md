@@ -1,32 +1,21 @@
 [home](./page01.md) | [back](./page04.md) | [next](./page06.md)
 
-clreate **class**
+Create our saviur the **Robot.h**
 ```
-DogHandler
+#include "DishWasher.h"
 ```
-at the top
+and
 ```
-#include "AbstractHandler.h"
+class Robot : public DishWasher {  };
 ```
-create class
-```
-class DogHandler  { };
-```
-extend the class
-```
-: public AbstractHandler
-```
-add code
+with code
 ```
 public:
-    std::string Handle(std::string request)  {
-        if (request == "Bone") {
-            return "Dog: I'll eat the " + request + ".\n";
-        } else {
-            return AbstractHandler::Handle(request);
-        }
-    }
+void washDishes(const std::string& dishType) override {
+   std::cout << "Robot: Fine humans, I'll wash the " << dishType << ".\n";
+}
 ```
+
 
 
 [page 6](./page06.md)

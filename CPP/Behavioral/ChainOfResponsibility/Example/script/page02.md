@@ -1,27 +1,28 @@
 [home](./page01.md) | [back](./page01.md) [next](./page03.md)
 
-Create class
+Create **DishWasher.h**
 ```
-Handler
+DishWasher
 ```
-add to the top
+add:
 ```
 #include <iostream>
+#include <memory>
 ```
-create class/interface
+and for the class structure:
 ```
-class Handler { };
+class DishWasher {  };
 ```
-add code
+and then add:
 ```
 public:
-virtual std::string Handle(std::string request) = 0;
-virtual Handler *SetNext(Handler *handler) = 0;
+    virtual ~DishWasher() = default;
+    void setNext(std::shared_ptr<DishWasher> nextWasher) { this->nextWasher = nextWasher; }
+    virtual void washDishes(const std::string& dishType) = 0;
+
+protected:
+    std::shared_ptr<DishWasher> nextWasher;
 ```
-
-
-
-
 
 
 [page 3](./page03.md)

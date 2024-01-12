@@ -1,33 +1,29 @@
 [home](./page01.md) | [back](./page02.md) | [next](./page04.md)
 
-Create class
+Create **Teenager.h**
 ```
-MouseHandler
+Teenager
 ```
-at the top add
+and have it
 ```
-#include "AbstractHandler.h"
+#include "DishWasher.h"
 ```
-create **class**
+so you can
 ```
-class MouseHandler { };
+class Teenager : public DishWasher {  };
 ```
-extend the class
-```
-: public AbstractHandler
-```
-add code
+with code:
 ```
 public:
-    std::string Handle(std::string request)  {
-        if (request == "Cheese") {
-            return "Mouse: I'll eat the " + request + ".\n";
-        } else {
-            return AbstractHandler::Handle(request);
-        }
+void washDishes(const std::string& dishType) override {
+    if (dishType == "Plate") {
+        std::cout << "Teenager: Fine! I'll wash the plate.\n";
+    } else {
+        std::cout << "Teenager: Not my job! Passing it on...\n";
+        if (nextWasher) nextWasher->washDishes(dishType);
     }
+}
 ```
-
 
 
 [page 4](./page04.md)
