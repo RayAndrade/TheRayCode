@@ -1,4 +1,3 @@
-<h1>TheRayCode is AWESOME!!!</h1>
 <?php
 require_once 'SecureUserFetcherProxy.php';
 
