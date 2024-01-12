@@ -1,19 +1,12 @@
 [home](./page01.md) | [back](./page02.md) | [next](./page04.md)
 
-Create **class**
+Create **interface**
 ```
-SubsystemA
+Shape
 ```
-add **operation1** and **operationN**
+add code
 ```
-public string operation1()
-{
-    return "SubsystemA: Ready!\n";
-}
-public string operationN()
-{
-    return "SubsystemA: Go!\n";
-}
+void draw();
 ```
 
 

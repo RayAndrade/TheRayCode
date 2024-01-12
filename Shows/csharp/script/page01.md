@@ -1,22 +1,13 @@
-[home](./page01.md) | [next](./page02.md)
+[home](./page01.md) | [back](./page01.md) | [next](./page02.md)
 
-Let's create an example of the **Facade** pattern using **C#**
+In the show I will be covering the **Flyweight** pattern using **Java**
 
-Find 
-
-```
-<RootNamespace>Example3</RootNamespace>
-<AssemblyName>Example3</AssemblyName>
-```
-and change **Example** to your spcific name.
-```
-using System;
-```
-
+**ItellaJ IDE**
 
 ```
-Console.WriteLine("The Ray Code is AWESOME!!!");
+System.out.println("The Ray Code is AWESOME!!!");
 ```
+
 
 
 [page 2](./page02.md)

@@ -1,13 +1,13 @@
-[home](./page01.md) | [back](./page06.md) | [next](./page08.md)
+[home](./page01.md) | [back](./page06.md) 
 
-In the **Program.cs** file at main
-
+Expected result:
 ```
-SubsystemA subsystemA = new SubsystemA();
-SubsystemB subsystemB = new SubsystemB();
-Facade facade = new Facade(subsystemA, subsystemB);
-Client.ClientCode(facade);
+Drawing a Red circle at (10,20)
+Drawing a Blue circle at (20,30)
+Drawing a Red circle at (30,40)
 ```
 
 
-[page 8](./page08.md)
+**The End**
+
+[Start over](./page01.md)

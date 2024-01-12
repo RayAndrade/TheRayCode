@@ -1,35 +1,24 @@
 [home](./page01.md) | [back](./page04.md) | [next](./page06.md)
 
-Create **class**
+Create class
 ```
-Facade
+ShapeFactory
 ```
-
-add code **1 of 3**
+with code:
 ```
-protected SubsystemA SubsystemA;
-protected SubsystemB SubsystemB;
+private static final Map<String, Color> colorMap = new HashMap<>();
 ```
-**2 of 3**
+import
 ```
-public Facade(SubsystemA subsystemA, SubsystemB subsystemB)
-{
-    this.SubsystemA = subsystemA;
-    this.SubsystemB = subsystemB;
+import java.util.HashMap;
+import java.util.Map;
+```
+add code:
+```
+public static Color getColor(String color) {
+   colorMap.putIfAbsent(color, new Color(color));
+   return colorMap.get(color);
 }
-```
-**3 of 3**
-```
- public string Operation()
- {
-    string result = "Facade initializes subsystems:\n";
-    result += this.SubsystemA.operation1();
-    result += this.SubsystemB.operation2();
-    result += "Facade orders subsystems to perform the action:\n";
-    result += this.SubsystemA.operationN();
-    result += this.SubsystemB.operationZ();
-    return result;
- }
 ```
 
 
