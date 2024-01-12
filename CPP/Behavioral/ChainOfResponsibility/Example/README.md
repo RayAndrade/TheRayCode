@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 [top](../README.md)  | [script](script/page01.md)
+=======
+[top](../README.md) | [script](page01.md)
+>>>>>>> cc9996c9 (*)
 
 Alright, imagine for a moment that you have a series of people in a room. Each person is trying to avoid doing a specific task, so they keep passing it on to the next person saying, "Not my job!". That's essentially the Chain of Responsibility pattern! The idea is to decouple the sender from the receiver by allowing multiple objects to handle the request.
 
