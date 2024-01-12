@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Chain Of Responsibility**](README.md) | [C#](../../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../../PHP/Behavioral/ChainOfResponsibility/README.md) |
 
-[Example](Example/README.md)
+[Example](Example/README.md) | [Example2](Example2README.md)
 
 **Chain Of Responsibility Design Pattern**:
 
