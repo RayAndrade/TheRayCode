@@ -1,4 +1,4 @@
-[up](../README.md)
+[up](../README.md) | [script](script/page01.md)
 
 Teaching design patterns is a great way to instill in students the importance of writing maintainable, scalable, and robust code. The Proxy design pattern is particularly useful as it allows for the creation of objects which serve as intermediaries between a client and actual services objects. They can be used for adding security access, logging, or even simplifying the API of complex systems among other things.
 
