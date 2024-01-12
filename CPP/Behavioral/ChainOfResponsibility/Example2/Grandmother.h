@@ -4,6 +4,7 @@
 
 #ifndef EXAMPLE2_GRANDMOTHER_H
 #define EXAMPLE2_GRANDMOTHER_H
+#include "Listener.h"
 
 class Grandmother : public Listener {
 public:
