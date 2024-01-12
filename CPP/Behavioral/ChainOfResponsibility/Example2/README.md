@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 [up](../README.md)  | [script](script/page01.md)
-=======
-[up](../README.md) | [script](page01.md)
->>>>>>> cc9996c9 (*)
-
 
 **Listener.h**
 ```
