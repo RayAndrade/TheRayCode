@@ -1,3 +1,7 @@
 <?php
 
-echo "Total Size of  bytes";
+include_once 'Proxy.php';
+
+$proxy = new Proxy();
+
+echo $proxy->request();

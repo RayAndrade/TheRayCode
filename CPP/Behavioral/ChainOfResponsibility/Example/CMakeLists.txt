@@ -4,6 +4,8 @@ project(Example)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Example main.cpp
-        Handler.h
-        MouseHandler.h
+        DishWasher.h
+        Teenager.h
+        Parent.h
+        Robot.h
 )
