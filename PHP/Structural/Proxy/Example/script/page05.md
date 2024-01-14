@@ -15,7 +15,7 @@ function clientCode(Subject $subject)
     // ...
 }
 ```
-demo
+with some demo code:
 
 ```
 echo "Client: Executing the client code with a real subject:<br/>";
