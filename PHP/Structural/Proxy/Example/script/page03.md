@@ -25,7 +25,7 @@ The most common applications of the Proxy pattern are lazy loading, caching, con
  
 A Proxy can perform one of  these things and then, depending on the result, pass the execution to the same method in a linked RealSubject object.
 
-For the **request** function we add **GO PUTSIDE**
+For the **request** function we add 
 ```
 if ($this->checkAccess()) {
     $this->realSubject->request();
@@ -33,7 +33,7 @@ if ($this->checkAccess()) {
  }
 ```
 
-So let's add these functions:
+**GO PUTSIDE** So let's add these functions:
 ```
 private function checkAccess(): bool
 {
