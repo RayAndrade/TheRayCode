@@ -5,7 +5,7 @@ Create **RealSubject.php**
 ```
 RealSubject
 ```
-which
+which **just**
 ```
  implements Subject```
 ```
