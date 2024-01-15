@@ -1,5 +1,5 @@
 //
-// Created by ray on 1/12/24.
+// Created by ray on 1/15/24.
 //
 
 #ifndef EXAMPLE3_ABSTRACTHANDLER_H
@@ -8,9 +8,9 @@
 #include "Handler.h"
 
 class AbstractHandler : public Handler {
-
 private:
     Handler *next_handler_;
+
 public:
     AbstractHandler() : next_handler_(nullptr) {
     }

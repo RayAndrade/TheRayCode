@@ -1,8 +1,11 @@
 #include <iostream>
 #include <vector>
+
+#include "Handler.h"
 #include "MouseHandler.h"
 #include "CatHandler.h"
 #include "DogHandler.h"
+
 
 void ClientCode(Handler &handler) {
     std::vector<std::string> food = {"Catnip", "Cheese","Bone", "Cup of coffee"};

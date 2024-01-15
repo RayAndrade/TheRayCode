@@ -8,4 +8,5 @@ add_executable(Example3 main.cpp
         AbstractHandler.h
         MouseHandler.h
         CatHandler.h
-        DogHandler.h)
+        DogHandler.h
+)
