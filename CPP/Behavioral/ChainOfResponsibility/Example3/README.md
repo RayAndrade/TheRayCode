@@ -1,4 +1,4 @@
-[up](../README.md) | [script](./page01.md)
+[up](../README.md) | [script](../page01.md)
 
 ## Chain-of-responsibility pattern c++
 
