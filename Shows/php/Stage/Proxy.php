@@ -1,14 +1,31 @@
 <?php
-include_once 'Subject.php';
-include_once 'RealSubject.php';
+
 class Proxy implements Subject
 {
-    private ?RealSubject $realSubject = null;
-    public function request(): string
+
+    private $realSubject;
+
+    public function __construct(RealSubject $realSubject)
     {
-        if ($this->realSubject === null) {
-            $this->realSubject = new RealSubject();
+        $this->realSubject = $realSubject;
+    }
+
+    public function request(): void
+    {
+        if ($this->checkAccess()) {
+            $this->realSubject->request();
+            $this->logAccess();
         }
-        return $this->realSubject->request();
+    }
+
+    private function checkAccess(): bool
+    {
+        // Some real checks should go here.
+        echo "Proxy: Checking access prior to firing a real request.<br/>";
+        return true;
+    }
+    private function logAccess(): void
+    {
+        echo "Proxy: Logging the time of request.<br/>";
     }
 }

@@ -3,13 +3,8 @@
 class RealSubject implements Subject
 {
 
-    public function __construct() {
-        // Simulate an expensive creation operation
-        sleep(2);  // Delay for 2 seconds
-    }
-
-    public function request(): string
+    public function request(): void
     {
-        return "RealSubject: Handling request.";
+        echo "RealSubject: Handling request.<br/>";
     }
 }
