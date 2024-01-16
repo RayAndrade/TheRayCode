@@ -1,6 +1,6 @@
 [home](./page01.md) | [back](./page03.md) | [next](./page03.md)
 
-For turning th light on
+For turning the light on
 ```
 LightOffCommand
 ```
