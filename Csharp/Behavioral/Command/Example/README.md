@@ -1,4 +1,4 @@
-[up](../README.md)
+[up](../README.md) | [script](script/page01.md)
 
 The Command design pattern is a behavioral pattern used in software design to encapsulate a request as an object, thereby allowing users to parameterize clients with queues, requests, and operations. It also allows for the support of undoable operations. In the context of C#, implementing this pattern typically involves creating a command interface, concrete command classes, a client, an invoker, and a receiver.
 
