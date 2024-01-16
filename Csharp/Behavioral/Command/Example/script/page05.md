@@ -1,8 +1,8 @@
 [home](./page01.md) | [back](./page04.md) | [next](./page06.md)
 
- for turing the lighte off **LightOffCommand**
+ for turing the lighte off **LightOnCommand**
 ```
-LightOffCommand
+LightOnCommand
 ```
 and it implements the
 ```
@@ -15,16 +15,16 @@ At the top
 ```
 private Light _light;
 
-public LightOffCommand(Light light)
+public LightOnCommand(Light light)
 {
     _light = light;
 }
 ```
-to make **Lights OFF**
+to make **Lights ON**
 
 and to **Execute**
 ```
-_light.TurnOff();
+_light.TurnOn();
 ```
 
 
