@@ -1,26 +1,28 @@
 [home](./page01.md) | [back](./page03.md) | [next](./page05.md)
 
-Next we create the
+
+Create **class**
 ```
-AndExpression
+CleanRoomExpression
 ```
-**class** and it
+it **implements**
 ```
  implements Expression
 ```
+add the **interpret** method
+
 at the top we add
 ```
-private Expression expr1;
-private Expression expr2;
+private String action;
 
-public AndExpression(Expression expr1, Expression expr2) {
-    this.expr1 = expr1;
-    this.expr2 = expr2;
+public CleanRoomExpression(String action) {
+    this.action = action;
 }
 ```
-And for **interpret** we have
+for **interpret** we add
 ```
-return expr1.interpret(context) && expr2.interpret(context);
+return context.getTranslation(action).equals("CLEAN_ROOM");
 ```
+
 
 [page 5](./page05.md)

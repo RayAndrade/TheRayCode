@@ -1,27 +1,30 @@
 [home](./page01.md) | [back](./page02.md) | [next](./page04.md)
 
-Create **class**
+So take care of the error we creat the missing class
 ```
-CleanRoomExpression
+InterpreterContext
 ```
-it **implements**
+we add to the the top, we are going to need
 ```
- implements Expression
+import java.util.HashMap;
+import java.util.Map;
 ```
-add the **interpret** method
+the code for **InterpreterContext** is
 
-at the top we add
 ```
-private String action;
+ private Map<String, String> translationMap;
 
-public CleanRoomExpression(String action) {
-    this.action = action;
+public InterpreterContext() {
+    translationMap = new HashMap<>();
+    translationMap.put("clean your room", "CLEAN_ROOM");
+    // Add more translations as needed
+}
+
+public String getTranslation(String input) {
+    return translationMap.getOrDefault(input.toLowerCase(), "UNKNOWN");
 }
 ```
-for **interpret** we add
-```
-return context.getTranslation(action).equals("CLEAN_ROOM");
-```
+
 
 
 [page 4](./page04.md)
