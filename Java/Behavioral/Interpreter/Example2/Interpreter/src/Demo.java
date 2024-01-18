@@ -1,9 +1,9 @@
 public class Demo {
     public static void main(String[] args) {
-        ColorExpression red = new BaseColorExpression("Red");
-        ColorExpression blue = new BaseColorExpression("Blue");
+        Expression addExpression = new AddExpression(new NumberExpression(5), new NumberExpression(3));
+        System.out.println("Result of 5 + 3: " + addExpression.interpret());
 
-        ColorExpression purple = new MixColorExpression(red, blue);
-        System.out.println(purple.interpret()); // Outputs: Mix of Red and Blue
+        Expression subtractExpression = new SubtractExpression(new NumberExpression(5), new NumberExpression(3));
+        System.out.println("Result of 5 - 3: " + subtractExpression.interpret());
     }
 }
