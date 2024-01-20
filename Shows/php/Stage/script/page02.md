@@ -1,16 +1,15 @@
-[strart](/page01.md) | [back](/page01.md) | [next](/page03.md)
+[home](./page01.md) | [back](./page01.md) | [next](./page03.md)
 
-In the Composite pattern, you typically have a component interface, leaf objects, and composite objects. 
+The component interface declares common operations for both simple andcomplex objects of a composition.
 
-The component interface defines default behavior for all objects, leaf objects perform actual operations, and composite objects store child components (which can be leaf or composite objects).
-
-Let's start with an **interface**
+create **interface**
 ```
 FileComponent
 ```
-with the following requirements
+add requirements: **getSize** and **getName**
 ```
 public function getSize();
 public function getName();
 ```
 
+[page 3](./page03.md)

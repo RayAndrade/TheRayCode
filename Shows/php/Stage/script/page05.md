@@ -1,50 +1,38 @@
-[strart](/page01.md) | [back](/page04.md) | [next](/page06.md)
-## Step 3: Create Composite Objects
+[home](./page01.md)  | [back](./page04.md) | [next](./page06.md)
 
-create php **class**
+now for the demo at **index.php**
+**1**
 ```
-DirectoryComposite
-```
-have it
-```
-require_once 'FileComponent.php';
-```
-then it
-```
- implements FileComponent
-```
-add required methods
-
-at the top:
-```
-private $name;
-private $children;
-```
-then
-```
-public function __construct($name) {
-   $this->name = $name;
-   $this->children = [];
-}
-```
-create an **add** function for nodes we want to add
-```
-public function add(FileComponent $component) {
-   $this->children[] = $component;
-}
-```
-for **getSize**
-```
-$totalSize = 0;
-foreach ($this->children as $child) {
-    $totalSize += $child->getSize();
-}
-return $totalSize;
-```
-and **getName**
-```
-return $this->name;
+require_once 'FileLeaf.php';
+require_once 'DirectoryComposite.php';
 ```
 
+ Create files
+**2**
+```
+$file1 = new FileLeaf("File1.txt", 210);
+$file2 = new FileLeaf("File2.txt", 310);
+```
 
+Create a directory **and** add files
+**3**
+```
+$directory = new DirectoryComposite("Directory");
+$directory->add($file1);
+$directory->add($file2);
+```
 
+Create a subdirectory and add it to the directory
+**4**
+```
+$subdirectory = new DirectoryComposite("Subdirectory");
+$subdirectory->add(new FileLeaf("SubFile1.txt", 110));
+$directory->add($subdirectory);
+```
+Display the size of the directory
+**5**
+```
+echo "Total Size of '" . $directory->getName() . "': " . $directory->getSize() . " bytes";
+```
+
+[next](./page06.md)
