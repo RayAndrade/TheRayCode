@@ -17,7 +17,7 @@ $bookList->addBook(new Book("The Great Gatsby"));
 $iterator = new BookListIterator($bookList);
 while ($iterator->hasNext()) {
     $book = $iterator->next();
-    echo $book->getTitle() . "\n";
+    echo $book->getTitle() . "<br/>";
 }
 ```
 
