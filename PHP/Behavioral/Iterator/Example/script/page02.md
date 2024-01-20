@@ -11,37 +11,15 @@ Book
 This class represents a single book. It's a simple class with a constructor and a getter method for the book's title.
 
 ```
-private $books = [];
-private $currentIndex = 0;
+private $title;
 
-public function addBook(Book $book) {
-    $this->books[] = $book;
+public function __construct($title) {
+    $this->title = $title;
 }
 
-public function removeBook(Book $book) {
-    foreach ($this->books as $key => $b) {
-        if ($b->getTitle() === $book->getTitle()) {
-            unset($this->books[$key]);
-        }
-    }
-    $this->books = array_values($this->books);
-}
-
-public function count() {
-    return count($this->books);
-}
-
-public function getBook($index) {
-   if (isset($this->books[$index])) {
-       return $this->books[$index];
-    }
-    return null;
+public function getTitle() {
+    return $this->title;
 }
 ```
-We create:<br/>
-addBook<br/>
-removeBook<br/>
-count<br/>
-getBook
 
 [page 3](./page03.md)
