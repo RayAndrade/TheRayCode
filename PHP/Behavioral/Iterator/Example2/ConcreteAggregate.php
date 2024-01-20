@@ -5,7 +5,7 @@ require_once('ConcreteIterator.php');
 
 class ConcreteAggregate implements Aggregate
 {
-    private $items = array();
+   private $items = array();
 
     public function addItem($item) {
         $this->items[] = $item;

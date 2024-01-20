@@ -1,5 +1,9 @@
-<?php
+[home](./page01.md)  | [back](./page04.md) | [next](./page06.md)
 
+at **intex.php**
+
+
+```
 require_once('ConcreteAggregate.php');
 
 // Create aggregate and add items.
@@ -16,3 +20,5 @@ while ($iterator->valid()) {
     echo $iterator->current() . "<br>";
     $iterator->next();
 }
+```
+
