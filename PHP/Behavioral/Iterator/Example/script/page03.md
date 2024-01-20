@@ -1,31 +1,40 @@
 [home](./page01.md) | [back](./page02.md) | [next](./page04.md)
 
-Create **class**
+Create **BookList.php**
 ```
-BookListIterator
+BookList
 ```
-This class implements the iterator for `BookList`. It allows traversing over the `BookList` collection.
+This class represents a collection of Book objects. It stores books and provides methods to add or remove a book from the list.
 
-add code:
+with code:
 ```
-private $bookList;
-private $currentBook = 0;
+private $books = [];
+private $currentIndex = 0;
 
-public function __construct(BookList $bookList) {
-    $this->bookList = $bookList;
+public function addBook(Book $book) {
+    $this->books[] = $book;
 }
 
-public function hasNext() {
-    return $this->currentBook < $this->bookList->count();
+public function removeBook(Book $book) {
+    foreach ($this->books as $key => $b) {
+        if ($b->getTitle() === $book->getTitle()) {
+            unset($this->books[$key]);
+        }
+    }
+    $this->books = array_values($this->books);
 }
 
-public function next() {
-    return $this->bookList->getBook($this->currentBook++);
+public function count() {
+    return count($this->books);
+}
+
+public function getBook($index) {
+    if (isset($this->books[$index])) {
+        return $this->books[$index];
+    }
+    return null;
 }
 ```
-for<br/>
-construct<br/>
-Next<br/>
-hasNext
+
 
 [page 4](./page04.md)

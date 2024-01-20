@@ -1,24 +1,13 @@
 [home](./page01.md)  | [back](./page05.md) | [next](./page07.md)
 
-at index
+Running the Code
 
+When you run index.php, you should see the titles of the books printed one after the other:
 ```
-require_once 'Book.php';
-require_once 'BookList.php';
-require_once 'BookListIterator.php';
-
-// Create book list and add books
-$bookList = new BookList();
-$bookList->addBook(new Book("1984"));
-$bookList->addBook(new Book("To Kill a Mockingbird"));
-$bookList->addBook(new Book("The Great Gatsby"));
-
-// Iterate over book list
-$iterator = new BookListIterator($bookList);
-while ($iterator->hasNext()) {
-    $book = $iterator->next();
-    echo $book->getTitle() . "\n";
-}
+1984
+To Kill a Mockingbird
+The Great Gatsby
 ```
+This output demonstrates the Iterator pattern in action, allowing you to sequentially access elements of the BookList without exposing its internal structure.
 
  [next](./page07.md)
