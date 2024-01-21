@@ -3,5 +3,5 @@ project(Mediator)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled main.cpp
+add_executable(Example main.cpp
 )

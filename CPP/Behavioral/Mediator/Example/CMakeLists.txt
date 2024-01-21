@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.17)
-project(Mediator)
+cmake_minimum_required(VERSION 3.27)
+project(Example)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Mediator main.cpp BaseComponent.h Mediator.h FirstComponent.h SecondComponent.h ConcreteMediator.h)
+add_executable(Example main.cpp)
