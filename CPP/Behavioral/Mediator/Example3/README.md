@@ -22,13 +22,13 @@ For our superhero theme, let's consider a `JusticeLeagueMediator` that manages c
 class Superhero {
 protected:
     JusticeLeagueMediator* mediator;
-    std::string name;
 
 public:
     Superhero(JusticeLeagueMediator* m, const std::string& n) : mediator(m), name(n) {}
     virtual ~Superhero() {}
     virtual void send(const std::string& message) = 0;
     virtual void receive(const std::string& from, const std::string& message) = 0;
+    std::string name;
 };
 
 #endif // SUPERHERO_H
