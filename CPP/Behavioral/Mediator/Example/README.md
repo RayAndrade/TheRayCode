@@ -3,144 +3,155 @@
 # TheRayCode
 ## Mediator pattern c++
 
-The most popular usage of the Mediator pattern in C++ code is facilitating communications between GUI components of an app. The synonym of the Mediator is the Controller part of MVC pattern.
 
-We create a class we call the **Mediator**.
-The Mediator interface declares a method used by components to notify the mediator about various events. 
-The Mediator may react to these events and  pass the execution to other components.
-```c++
+The Mediator design pattern is used to centralize communication between objects, reducing their dependencies on each other. In this example, we'll create a simple superhero team where superheroes can communicate through a Mediator to coordinate their actions.
+
+Here's the order in which we'll create the classes:
+
+1. `Mediator.h` and `Mediator.cpp`: The Mediator class will manage communication between superheroes.
+2. `Superhero.h` and `Superhero.cpp`: The Superhero class represents individual superheroes with a name and abilities.
+3. `SuperheroTeam.h` and `SuperheroTeam.cpp`: The SuperheroTeam class will be a concrete implementation of the Mediator and will manage the superheroes in the team.
+
+Let's start with the code:
+
+### Mediator.h
+```cpp
+#pragma once
 #include <string>
 
-class BaseComponent;
+class Superhero;
+
 class Mediator {
 public:
-    virtual void Notify(BaseComponent *sender, std::string event) const = 0;
+    virtual void sendMessage(const Superhero* sender, const std::string& message) = 0;
 };
 ```
 
-So let's create our **BaseComponent**
-```c+
+### Mediator.cpp
+```cpp
+#include "Mediator.h"
+
+// Empty implementation for base Mediator class
+```
+
+### Superhero.h
+```cpp
+#pragma once
 #include <string>
 
-class BaseComponent;
-class Mediator {
+class Mediator;
+
+class Superhero {
 public:
-    virtual void Notify(BaseComponent *sender, std::string event) const = 0;
-};
-```
+    Superhero(const std::string& name, Mediator* mediator);
+    
+    void sendMessage(const std::string& message);
+    void receiveMessage(const std::string& message);
+    
+    const std::string& getName() const;
 
-Concrete Components implement various functionality. 
-They don't depend on other components. 
-They also don't depend on any concrete mediator classes.
-
-Let's create a couple of Components. 
-We will name the **FirstComponent** and **SecondComponent**.
-Let's start with the **FirstComponent**.
-
-```c++
-#include <iostream>
-#include "BaseComponent.h"
-
-class FirstComponent : public BaseComponent {
-public:
-    void DoAction() {
-        std::cout << "The First Component does Action.\n";
-        this->mediator_->Notify(this, "Action");
-    }
-    void DoB() {
-        std::cout << "The First Component does B.\n";
-        this->mediator_->Notify(this, "B");
-    }
-};
-```
-![Mediator](/UMLs/images/Mediator/Mediator-1.gif)
-
-Let create the **SecondComponent**.
-It's code will be:
-```c++
-#include <iostream>
-#include "BaseComponent.h"
-
-class SecondComponent : public BaseComponent  {
-public:
-    void DoC() {
-        std::cout << "The Second Component does C.\n";
-        this->mediator_->Notify(this, "C");
-    }
-    void DoD() {
-        std::cout << "The Second Component does Deed.\n";
-        this->mediator_->Notify(this, "D");
-    }
-};
-```
-We also need a **ConcreteMediator**.
-
-```c++
-#include "FirstComponent.h"
-#include "SecondComponent.h"
-class ConcreteMediator : public Mediator   {
 private:
-    FirstComponent *component1_;
-    SecondComponent *component2_;
-public:
-    ConcreteMediator(FirstComponent *c1, SecondComponent *c2) : component1_(c1), component2_(c2) {
-        this->component1_->set_mediator(this);
-        this->component2_->set_mediator(this);
-    }
-    void Notify(BaseComponent *sender, std::string event) const override {
-        if (event == "A") {
-            std::cout << "Mediator reacts on A and triggers following operations:\n";
-            this->component2_->DoC();
-        }
-        if (event == "D") {
-            std::cout << "Mediator reacts on the Deed and triggers following operations:\n";
-            this->component1_->DoB();
-            this->component2_->DoC();
-        }
-    }
+    std::string name;
+    Mediator* mediator;
 };
 ```
 
-and lasly we go to the main.cpp and add some client code.
+### Superhero.cpp
+```cpp
+#include "Superhero.h"
+#include "Mediator.h"
+#include <iostream>
 
-```c++
-#include "ConcreteMediator.h"
+Superhero::Superhero(const std::string& name, Mediator* mediator)
+    : name(name), mediator(mediator) {
+}
 
-void ClientCode() {
-    FirstComponent *c1 = new FirstComponent;
-    SecondComponent *c2 = new SecondComponent;
-    ConcreteMediator *mediator = new ConcreteMediator(c1, c2);
-    std::cout << "Client triggers operation A.\n";
-    c1->DoAction();
-    std::cout << "\n";
-    std::cout << "Client triggers operation D.\n";
-    c2->DoD();
+void Superhero::sendMessage(const std::string& message) {
+    std::cout << name << " sends message: " << message << std::endl;
+    mediator->sendMessage(this, message);
+}
 
-    delete c1;
-    delete c2;
-    delete mediator;
+void Superhero::receiveMessage(const std::string& message) {
+    std::cout << name << " receives message: " << message << std::endl;
+}
+
+const std::string& Superhero::getName() const {
+    return name;
 }
 ```
-Lastly we put the **ClientCode** in the main method...
 
-```c++
+
+
+![Mediator](/UMLs/images/Mediator/Mediator-1.gif)
+
+### SuperheroTeam.h
+```cpp
+#pragma once
+#include "Mediator.h"
+#include <vector>
+
+class Superhero;
+
+class SuperheroTeam : public Mediator {
+public:
+    void addSuperhero(Superhero* superhero);
+    void sendMessage(const Superhero* sender, const std::string& message) override;
+
+private:
+    std::vector<Superhero*> superheroes;
+};
+```
+
+### SuperheroTeam.cpp
+```cpp
+#include "SuperheroTeam.h"
+#include "Superhero.h"
+
+void SuperheroTeam::addSuperhero(Superhero* superhero) {
+    superheroes.push_back(superhero);
+}
+
+void SuperheroTeam::sendMessage(const Superhero* sender, const std::string& message) {
+    for (Superhero* superhero : superheroes) {
+        if (superhero != sender) {
+            superhero->receiveMessage(message);
+        }
+    }
+}
+```
+
+### main.cpp
+```cpp
+#include "Superhero.h"
+#include "SuperheroTeam.h"
+
 int main() {
-    ClientCode();
+    // Create a Mediator (SuperheroTeam)
+    SuperheroTeam team;
+
+    // Create superheroes and add them to the team
+    Superhero superman("Superman", &team);
+    Superhero batman("Batman", &team);
+    Superhero wonderWoman("Wonder Woman", &team);
+
+    team.addSuperhero(&superman);
+    team.addSuperhero(&batman);
+    team.addSuperhero(&wonderWoman);
+
+    // Send messages between superheroes
+    superman.sendMessage("I need backup!");
+    batman.sendMessage("On my way!");
+    wonderWoman.sendMessage("I'm here to help!");
+
     return 0;
 }
 ```
 
-Whe compile and run we should get:
-```run
-Client triggers operation A.
-The First Component does Action.
+In this code, we have defined a Mediator (`SuperheroTeam`) that allows superheroes (`Superhero`) to send and receive messages through it. The `main` function demonstrates how superheroes in the team communicate with each other through the Mediator.
 
-Client triggers operation D.
-The Second Component does Deed.
-Mediator reacts on the Deed and triggers following operations:
-The First Component does B.
-The Second Component does C.
-```
+When you run this code, it will display the messages sent and received by the superheroes, demonstrating the Mediator design pattern in action.
+
+
 The Ray Code is AWESOME!!!
  
 [Wikipedia](https://en.wikipedia.org/wiki/Mediator_pattern)
@@ -151,8 +162,8 @@ Find Ray on:
 
 [facebook](https://www.facebook.com/TheRayCode/)
 
-[youtube](https://www.youtube.com/user/AndradeRay/)
+[youtube](https://www.youtube.com/@TheRayCode/featured)
 
-[The Ray Code](https://www.RayAndrade.com)
+[The Ray Code](https://www.TheRayCode.org)
 
-[Ray Andrade](https://www.RayAndrade.org)
+[Ray Andrade](https://www.RayAndrade.com)

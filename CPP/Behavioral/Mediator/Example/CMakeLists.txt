@@ -3,4 +3,11 @@ project(Example)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Example main.cpp)
+add_executable(Example main.cpp
+        Mediator.h
+        Mediator.cpp
+        Superhero.h
+        Superhero.cpp
+        SuperheroTeam.h
+        SuperheroTeam.cpp
+)
