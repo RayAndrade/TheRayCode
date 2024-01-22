@@ -21,9 +21,7 @@
 |**[Visitor](./Visitor/README.md)**  | [C++](../../CPP/Behavioral/Visitor/README.md) | [Java](../../Java/Behavioral/Visitor/README.md) | [PHP](../../PHP/Behavioral/Visitor/README.md) |
 
 Behavioral Design Patterns emphasize the duties among objects and how they communicate. C#, as a prominent object-oriented programming language, leverages these patterns effectively. Here are the strengths and weaknesses of each of the 11 Behavioral Design Patterns within a C# context:
-
-1. $`\textcolor{red}{\**[Chain of Responsibility](ChainOfResponsibility/README.md)**}}`$ 
-    - **Strengths**:
+1.    - **Strengths**:
         - Provides a way to decouple the sender from the receiver by letting multiple objects handle a request.
         - Enhances modularity as handlers can be independently added/removed.
     - **Weaknesses**:
