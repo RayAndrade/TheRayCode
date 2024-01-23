@@ -2,10 +2,9 @@
 // Created by ray on 1/22/24.
 //
 
-#ifndef TEMP_MEDIATOR_H
-#define TEMP_MEDIATOR_H
+#ifndef EXAMPLE2_MEDIATOR_H
+#define EXAMPLE2_MEDIATOR_H
 
-#pragma once
 #include <string>
 
 class Superhero;
@@ -15,6 +14,4 @@ public:
     virtual void sendMessage(const Superhero* sender, const std::string& message) = 0;
 };
 
-
-
-#endif //TEMP_MEDIATOR_H
+#endif //EXAMPLE2_MEDIATOR_H

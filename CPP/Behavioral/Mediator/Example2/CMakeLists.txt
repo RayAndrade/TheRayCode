@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.27)
-project(temp)
+project(Example2)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(temp main.cpp
+add_executable(Example2 main.cpp
         Mediator.h
         Mediator.cpp
         Superhero.h
