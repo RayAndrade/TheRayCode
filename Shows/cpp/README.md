@@ -1,142 +1,136 @@
 [up](../README.md)
 
-Creating a C++ example using the Decorator Design Pattern involves several steps. This design pattern is used to add new functionalities to objects dynamically without altering their structure. Here's how you can structure your C++ project using this pattern:
+The Mediator design pattern is used to centralize complex communications and control between related objects, making it easier to decouple them. Here's a simple example using a chat room (Mediator) where users (Colleagues) can send messages to each other:
 
-### Project Structure
-1. **Component.h** - Abstract base class declaring the common interface.
-2. **ConcreteComponent.h** - Class implementing the `Component` interface.
-3. **Decorator.h** - Abstract class inheriting from `Component`, used as a base for concrete decorators.
-4. **ConcreteDecoratorA.h**, **ConcreteDecoratorB.h**, etc. - Concrete classes extending `Decorator` with additional functionalities.
-5. **main.cpp** - The main program to demonstrate the usage.
+### 1. `Mediator.h`
+This is an abstract class that declares the `sendMessage` method.
 
-### Explanation of Each File
-
-#### Component.h
 ```cpp
-// Component.h
-#ifndef COMPONENT_H
-#define COMPONENT_H
+// Mediator.h
+#pragma once
 
-// Abstract base class representing the primary interface
-class Component {
+#include <string>
+
+class User;
+
+class Mediator {
 public:
-    virtual ~Component() {}
-    virtual void operation() = 0;
+    virtual void sendMessage(const std::string& message, User* user) = 0;
 };
-
-#endif
 ```
 
-#### ConcreteComponent.h
-```cpp
-// ConcreteComponent.h
-#ifndef CONCRETECOMPONENT_H
-#define CONCRETECOMPONENT_H
+### 2. `User.h`
+This represents a colleague class. Each user knows about the mediator and can send messages.
 
-#include "Component.h"
+```cpp
+// User.h
+#pragma once
+
+#include "Mediator.h"
 #include <iostream>
 
-// Concrete implementation of Component
-class ConcreteComponent : public Component {
-public:
-    void operation() override {
-        std::cout << "Basic functionality.\n";
-    }
-};
-
-#endif
-```
-
-#### Decorator.h
-```cpp
-// Decorator.h
-#ifndef DECORATOR_H
-#define DECORATOR_H
-
-#include "Component.h"
-
-// Base decorator class
-class Decorator : public Component {
+class User {
 protected:
-    Component* component;
+    Mediator* _mediator;
+    std::string _name;
 
 public:
-    Decorator(Component* c) : component(c) {}
-    void operation() override {
-        if (component)
-            component->operation();
-    }
-};
+    User(Mediator* mediator, const std::string& name) : _mediator(mediator), _name(name) {}
+    virtual ~User() {}
 
-#endif
+    void sendMessage(const std::string& message) {
+        _mediator->sendMessage(message, this);
+    }
+
+    virtual void receiveMessage(const std::string& message) {
+        std::cout << _name << " received: " << message << std::endl;
+    }
+
+    const std::string& getName() const { return _name; }
+};
 ```
 
-#### ConcreteDecoratorA.h
+### 3. `ChatRoom.h`
+This concrete mediator allows users to send messages to each other.
+
 ```cpp
-// ConcreteDecoratorA.h
-#ifndef CONCRETEDECORATORA_H
-#define CONCRETEDECORATORA_H
+// ChatRoom.h
+#pragma once
 
-#include "Decorator.h"
-#include <iostream>
+#include "Mediator.h"
+#include "User.h"
+#include <vector>
 
-// A concrete decorator adding extra features
-class ConcreteDecoratorA : public Decorator {
+class ChatRoom : public Mediator {
+private:
+    std::vector<User*> _users;
+
 public:
-    ConcreteDecoratorA(Component* c) : Decorator(c) {}
-
-    void operation() override {
-        Decorator::operation();
-        addedBehavior();
+    void addUser(User* user) {
+        _users.push_back(user);
     }
 
-private:
-    void addedBehavior() {
-        std::cout << "Added behavior A.\n";
+    void sendMessage(const std::string& message, User* user) override {
+        for (User* u : _users) {
+            // Don't send the message back to the sender
+            if (u != user) {
+                u->receiveMessage(user->getName() + ": " + message);
+            }
+        }
     }
 };
-
-#endif
 ```
 
-#### main.cpp
+### 4. `main.cpp`
+This is a simple demo using the classes.
+
 ```cpp
 // main.cpp
-#include "ConcreteComponent.h"
-#include "ConcreteDecoratorA.h"
+#include "ChatRoom.h"
 
 int main() {
-    Component* simple = new ConcreteComponent();
-    Component* decorated = new ConcreteDecoratorA(simple);
+    ChatRoom chatRoom;
 
-    std::cout << "Running basic component:\n";
-    simple->operation();
+    User* alice = new User(&chatRoom, "Alice");
+    User* bob = new User(&chatRoom, "Bob");
 
-    std::cout << "\nRunning decorated component:\n";
-    decorated->operation();
+    chatRoom.addUser(alice);
+    chatRoom.addUser(bob);
 
-    delete simple;
-    delete decorated;
+    alice->sendMessage("Hi Bob!");
+    bob->sendMessage("Hello Alice!");
+
+    delete alice;
+    delete bob;
+
     return 0;
 }
 ```
 
-### Order of Creation
-1. **Component.h**: Define the base interface.
-2. **ConcreteComponent.h**: Implement the basic functionality.
-3. **Decorator.h**: Create the base decorator.
-4. **ConcreteDecoratorA.h**: Add specific functionalities.
-5. **main.cpp**: Demonstrate the pattern.
-
-### Expected Output in Terminal
-When you run `main.cpp`, you should see the following output:
+When you run this, you will get:
 ```
-Running basic component:
-Basic functionality.
-
-Running decorated component:
-Basic functionality.
-Added behavior A.
+Bob received: Alice: Hi Bob!
+Alice received: Bob: Hello Alice!
 ```
 
-This project demonstrates the Decorator Pattern in C++ where `ConcreteDecoratorA` adds additional behavior to `ConcreteComponent` dynamically.
+### `CMakeLists.txt`
+Here's a basic CMakeLists.txt for the above setup.
+
+```cmake
+cmake_minimum_required(VERSION 3.10)
+
+project(MediatorPatternDemo)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(MediatorPatternDemo main.cpp)
+```
+
+### Explanation:
+
+1. `Mediator`: Abstract class to define the contract for concrete mediators. 
+2. `User`: Represents the colleagues that will communicate using the Mediator.
+3. `ChatRoom`: Concrete mediator that allows `User` instances to communicate with each other.
+4. `main.cpp`: Demonstrates the usage of the pattern.
+
+The idea is that a `User` doesn't communicate with other users directly. Instead, they use the `ChatRoom` (mediator) to pass messages. The mediator then decides how to propagate that message, allowing for easy modification of behavior without changing the `User` classes.
