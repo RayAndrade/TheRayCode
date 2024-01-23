@@ -19,7 +19,7 @@ namespace Memento
         }
         private string GenerateRandomString(int length = 10)
         {
-            string allowedSymbols = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            string allowedSymbols = "The Ray Code is AWESOME";
             string result = string.Empty;
             while (length > 0)
             {
