@@ -1,9 +1,9 @@
 //
-// Created by ray on 1/20/24.
+// Created by ray on 1/22/24.
 //
 
-#ifndef EXAMPLE_SUPERHEROTEAM_H
-#define EXAMPLE_SUPERHEROTEAM_H
+#ifndef TEMP_SUPERHEROTEAM_H
+#define TEMP_SUPERHEROTEAM_H
 
 #include "Mediator.h"
 #include <vector>
@@ -19,4 +19,4 @@ private:
     std::vector<Superhero*> superheroes;
 };
 
-#endif //EXAMPLE_SUPERHEROTEAM_H
+#endif //TEMP_SUPERHEROTEAM_H

@@ -4,4 +4,10 @@ project(Mediator)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Example main.cpp
+        Superhero.h
+        JusticeLeagueMediator.h
+        Batman.h
+        Superman.h
+        WonderWoman.h
+        JusticeLeagueMediatorImpl.h
 )

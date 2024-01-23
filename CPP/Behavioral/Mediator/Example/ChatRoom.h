@@ -1,9 +1,9 @@
 //
-// Created by ray on 9/23/23.
+// Created by ray on 1/22/24.
 //
 
-#ifndef EXAMPLE2_CHATROOM_H
-#define EXAMPLE2_CHATROOM_H
+#ifndef EXAMPLE_CHATROOM_H
+#define EXAMPLE_CHATROOM_H
 
 #include "Mediator.h"
 #include "User.h"
@@ -28,4 +28,4 @@ public:
     }
 };
 
-#endif //EXAMPLE2_CHATROOM_H
+#endif //EXAMPLE_CHATROOM_H

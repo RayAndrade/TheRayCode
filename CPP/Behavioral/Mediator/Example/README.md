@@ -1,169 +1,136 @@
 [up](../README.md)
 
-# TheRayCode
-## Mediator pattern c++
+The Mediator design pattern is used to centralize complex communications and control between related objects, making it easier to decouple them. Here's a simple example using a chat room (Mediator) where users (Colleagues) can send messages to each other:
 
+### 1. `Mediator.h`
+This is an abstract class that declares the `sendMessage` method.
 
-The Mediator design pattern is used to centralize communication between objects, reducing their dependencies on each other. In this example, we'll create a simple superhero team where superheroes can communicate through a Mediator to coordinate their actions.
-
-Here's the order in which we'll create the classes:
-
-1. `Mediator.h` and `Mediator.cpp`: The Mediator class will manage communication between superheroes.
-2. `Superhero.h` and `Superhero.cpp`: The Superhero class represents individual superheroes with a name and abilities.
-3. `SuperheroTeam.h` and `SuperheroTeam.cpp`: The SuperheroTeam class will be a concrete implementation of the Mediator and will manage the superheroes in the team.
-
-Let's start with the code:
-
-### Mediator.h
 ```cpp
+// Mediator.h
 #pragma once
+
 #include <string>
 
-class Superhero;
+class User;
 
 class Mediator {
 public:
-    virtual void sendMessage(const Superhero* sender, const std::string& message) = 0;
+    virtual void sendMessage(const std::string& message, User* user) = 0;
 };
 ```
 
-### Mediator.cpp
-```cpp
-#include "Mediator.h"
+### 2. `User.h`
+This represents a colleague class. Each user knows about the mediator and can send messages.
 
-// Empty implementation for base Mediator class
-```
-
-### Superhero.h
 ```cpp
+// User.h
 #pragma once
-#include <string>
 
-class Mediator;
-
-class Superhero {
-public:
-    Superhero(const std::string& name, Mediator* mediator);
-    
-    void sendMessage(const std::string& message);
-    void receiveMessage(const std::string& message);
-    
-    const std::string& getName() const;
-
-private:
-    std::string name;
-    Mediator* mediator;
-};
-```
-
-### Superhero.cpp
-```cpp
-#include "Superhero.h"
 #include "Mediator.h"
 #include <iostream>
 
-Superhero::Superhero(const std::string& name, Mediator* mediator)
-    : name(name), mediator(mediator) {
-}
+class User {
+protected:
+    Mediator* _mediator;
+    std::string _name;
 
-void Superhero::sendMessage(const std::string& message) {
-    std::cout << name << " sends message: " << message << std::endl;
-    mediator->sendMessage(this, message);
-}
-
-void Superhero::receiveMessage(const std::string& message) {
-    std::cout << name << " receives message: " << message << std::endl;
-}
-
-const std::string& Superhero::getName() const {
-    return name;
-}
-```
-
-
-
-![Mediator](/UMLs/images/Mediator/Mediator-1.gif)
-
-### SuperheroTeam.h
-```cpp
-#pragma once
-#include "Mediator.h"
-#include <vector>
-
-class Superhero;
-
-class SuperheroTeam : public Mediator {
 public:
-    void addSuperhero(Superhero* superhero);
-    void sendMessage(const Superhero* sender, const std::string& message) override;
+    User(Mediator* mediator, const std::string& name) : _mediator(mediator), _name(name) {}
+    virtual ~User() {}
 
-private:
-    std::vector<Superhero*> superheroes;
+    void sendMessage(const std::string& message) {
+        _mediator->sendMessage(message, this);
+    }
+
+    virtual void receiveMessage(const std::string& message) {
+        std::cout << _name << " received: " << message << std::endl;
+    }
+
+    const std::string& getName() const { return _name; }
 };
 ```
 
-### SuperheroTeam.cpp
+### 3. `ChatRoom.h`
+This concrete mediator allows users to send messages to each other.
+
 ```cpp
-#include "SuperheroTeam.h"
-#include "Superhero.h"
+// ChatRoom.h
+#pragma once
 
-void SuperheroTeam::addSuperhero(Superhero* superhero) {
-    superheroes.push_back(superhero);
-}
+#include "Mediator.h"
+#include "User.h"
+#include <vector>
 
-void SuperheroTeam::sendMessage(const Superhero* sender, const std::string& message) {
-    for (Superhero* superhero : superheroes) {
-        if (superhero != sender) {
-            superhero->receiveMessage(message);
+class ChatRoom : public Mediator {
+private:
+    std::vector<User*> _users;
+
+public:
+    void addUser(User* user) {
+        _users.push_back(user);
+    }
+
+    void sendMessage(const std::string& message, User* user) override {
+        for (User* u : _users) {
+            // Don't send the message back to the sender
+            if (u != user) {
+                u->receiveMessage(user->getName() + ": " + message);
+            }
         }
     }
-}
+};
 ```
 
-### main.cpp
+### 4. `main.cpp`
+This is a simple demo using the classes.
+
 ```cpp
-#include "Superhero.h"
-#include "SuperheroTeam.h"
+// main.cpp
+#include "ChatRoom.h"
 
 int main() {
-    // Create a Mediator (SuperheroTeam)
-    SuperheroTeam team;
+    ChatRoom chatRoom;
 
-    // Create superheroes and add them to the team
-    Superhero superman("Superman", &team);
-    Superhero batman("Batman", &team);
-    Superhero wonderWoman("Wonder Woman", &team);
+    User* alice = new User(&chatRoom, "Alice");
+    User* bob = new User(&chatRoom, "Bob");
 
-    team.addSuperhero(&superman);
-    team.addSuperhero(&batman);
-    team.addSuperhero(&wonderWoman);
+    chatRoom.addUser(alice);
+    chatRoom.addUser(bob);
 
-    // Send messages between superheroes
-    superman.sendMessage("I need backup!");
-    batman.sendMessage("On my way!");
-    wonderWoman.sendMessage("I'm here to help!");
+    alice->sendMessage("Hi Bob!");
+    bob->sendMessage("Hello Alice!");
+
+    delete alice;
+    delete bob;
 
     return 0;
 }
 ```
 
-In this code, we have defined a Mediator (`SuperheroTeam`) that allows superheroes (`Superhero`) to send and receive messages through it. The `main` function demonstrates how superheroes in the team communicate with each other through the Mediator.
+When you run this, you will get:
+```
+Bob received: Alice: Hi Bob!
+Alice received: Bob: Hello Alice!
+```
 
-When you run this code, it will display the messages sent and received by the superheroes, demonstrating the Mediator design pattern in action.
+### `CMakeLists.txt`
+Here's a basic CMakeLists.txt for the above setup.
 
+```cmake
+cmake_minimum_required(VERSION 3.10)
 
-The Ray Code is AWESOME!!!
- 
-[Wikipedia](https://en.wikipedia.org/wiki/Mediator_pattern)
+project(MediatorPatternDemo)
 
-----------------------------------------------------------------------------------------------------
+set(CMAKE_CXX_STANDARD 17)
 
-Find Ray on:
+add_executable(MediatorPatternDemo main.cpp)
+```
 
-[facebook](https://www.facebook.com/TheRayCode/)
+### Explanation:
 
-[youtube](https://www.youtube.com/@TheRayCode/featured)
+1. `Mediator`: Abstract class to define the contract for concrete mediators. 
+2. `User`: Represents the colleagues that will communicate using the Mediator.
+3. `ChatRoom`: Concrete mediator that allows `User` instances to communicate with each other.
+4. `main.cpp`: Demonstrates the usage of the pattern.
 
-[The Ray Code](https://www.TheRayCode.org)
-
-[Ray Andrade](https://www.RayAndrade.com)
+The idea is that a `User` doesn't communicate with other users directly. Instead, they use the `ChatRoom` (mediator) to pass messages. The mediator then decides how to propagate that message, allowing for easy modification of behavior without changing the `User` classes.

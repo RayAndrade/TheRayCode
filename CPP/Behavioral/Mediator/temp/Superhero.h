@@ -1,9 +1,9 @@
 //
-// Created by ray on 1/20/24.
+// Created by ray on 1/22/24.
 //
 
-#ifndef EXAMPLE_SUPERHERO_H
-#define EXAMPLE_SUPERHERO_H
+#ifndef TEMP_SUPERHERO_H
+#define TEMP_SUPERHERO_H
 
 #include <string>
 
@@ -23,4 +23,4 @@ private:
     Mediator* mediator;
 };
 
-#endif //EXAMPLE_SUPERHERO_H
+#endif //TEMP_SUPERHERO_H

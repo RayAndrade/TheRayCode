@@ -4,10 +4,6 @@ project(Example)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Example main.cpp
+        User.h
         Mediator.h
-        Mediator.cpp
-        Superhero.h
-        Superhero.cpp
-        SuperheroTeam.h
-        SuperheroTeam.cpp
-)
+        ChatRoom.h)

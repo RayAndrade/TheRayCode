@@ -1,13 +1,12 @@
 //
-// Created by ray on 9/23/23.
+// Created by ray on 1/22/24.
 //
 
-#ifndef EXAMPLE2_USER_H
-#define EXAMPLE2_USER_H
+#ifndef EXAMPLE_USER_H
+#define EXAMPLE_USER_H
 
 #include "Mediator.h"
 #include <iostream>
-
 
 class User {
 protected:
@@ -29,4 +28,4 @@ public:
     const std::string& getName() const { return _name; }
 };
 
-#endif //EXAMPLE2_USER_H
+#endif //EXAMPLE_USER_H

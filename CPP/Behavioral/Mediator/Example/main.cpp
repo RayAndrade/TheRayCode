@@ -1,22 +1,19 @@
-#include "Superhero.h"
-#include "SuperheroTeam.h"
+#include <iostream>
+#include "ChatRoom.h"
 
 int main() {
-    // Create a Mediator (SuperheroTeam)
-    SuperheroTeam team;
+    ChatRoom chatRoom;
 
-    // Create superheroes and add them to the team
-    Superhero superman("Superman", &team);
-    Superhero batman("Batman", &team);
-    Superhero wonderWoman("Wonder Woman", &team);
+    User* alice = new User(&chatRoom, "Alice");
+    User* bob = new User(&chatRoom, "Bob");
 
-    team.addSuperhero(&superman);
-    team.addSuperhero(&batman);
-    team.addSuperhero(&wonderWoman);
+    chatRoom.addUser(alice);
+    chatRoom.addUser(bob);
 
-    // Send messages between superheroes
-    superman.sendMessage("I need backup!");
-    batman.sendMessage("On my way!");
-    wonderWoman.sendMessage("I'm here to help!");
+    alice->sendMessage("Hi Bob!");
+    bob->sendMessage("Hello Alice!");
+
+    delete alice;
+    delete bob;
     return 0;
 }
