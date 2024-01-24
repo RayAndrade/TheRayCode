@@ -17,7 +17,7 @@ class User;
 ```
 We will create the class **User** after we finish this class
 ```
-class User {  };
+Mediator User {  };
 ```
 add code
 ```
