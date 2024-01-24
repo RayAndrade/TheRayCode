@@ -3,11 +3,11 @@
 **CMakeLists.txt**
 ```
 cmake_minimum_required(VERSION 3.26)
-project(beginning)
+project(Example)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(beginning main.cpp
+add_executable(Example main.cpp
 )
 ```
 
