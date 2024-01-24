@@ -21,18 +21,8 @@ class Mediator {  };
 ```
 add code
 ```
-User(Mediator* mediator, const std::string& name) : _mediator(mediator), _name(name) {}
-virtual ~User() {}
-
-void sendMessage(const std::string& message) {
-    _mediator->sendMessage(message, this);
-}
-
-virtual void receiveMessage(const std::string& message) {
-    std::cout << _name << " received: " << message << std::endl;
-}
-
-const std::string& getName() const { return _name; }
+public:
+virtual void sendMessage(const std::string& message, User* user) = 0;
 ```
 
 
