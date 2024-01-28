@@ -2,6 +2,8 @@
 
 [top](../README.md)
 
+[Example](Example/README.md)
+
 **[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
 **Java Observer Design Pattern**
