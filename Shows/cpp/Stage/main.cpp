@@ -1,6 +1,18 @@
-#include <iostream>
+#include "ChatRoom.h"
 
 int main() {
-    std::cout << "The Ray Code is AWESOME!!!" << std::endl;
+    ChatRoom chatRoom;
+
+    User* alice = new User(&chatRoom, "Alice");
+    User* bob = new User(&chatRoom, "Bob");
+
+    chatRoom.addUser(alice);
+    chatRoom.addUser(bob);
+
+    alice->sendMessage("Hi Bob!");
+    bob->sendMessage("Hello Alice!");
+
+    delete alice;
+    delete bob;
     return 0;
 }
