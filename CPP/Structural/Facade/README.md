@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Facade**](README.md) | [**C#**](../../../Csharp/Structural/Facade/README.md) | [**Java**](../../../Java/Structural/Facade/README.md) | [**PHP**](../../../PHP/Structural/Facade/README.md) |
 
-[Example](Example/README.md)
+[Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)
 
 The **Facade** pattern is a structural design pattern that provides a unified interface to a set of interfaces in a subsystem. This pattern defines a higher-level interface that makes the subsystem easier to use by wrapping complex operations into simpler ones.
 
