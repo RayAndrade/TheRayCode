@@ -1,4 +1,4 @@
-[top}(./README.md)
+[top](./README.md)
 
 We start with the **Implementation** *class*.
 
