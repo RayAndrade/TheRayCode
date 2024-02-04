@@ -4,6 +4,8 @@
 
 **[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
+[Example](Example/README.md) [Example2](Example2/README.md) [Example3](Example3/README.md)
+
 **C++ Interpreter Design Pattern**
 
 |Pattern|   |   |   |
