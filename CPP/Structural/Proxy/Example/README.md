@@ -1,5 +1,4 @@
-# TheRayCode
-## Proxy pattern c++
+[up](../README.md)
 
 The **Proxy** pattern is a structural design pattern that provides an object that acts as a *substitute* for a real service object used by the client. 
 The *Proxy* receives client requests, does some work and then passes the request to a service object.
