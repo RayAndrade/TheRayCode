@@ -1,3 +1,2 @@
-public interface Observer {
-    void update();
+public class Observer {
 }
