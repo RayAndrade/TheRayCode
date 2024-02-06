@@ -25,7 +25,6 @@ originator.GetStateFromMemento(caretaker.Get(0));
 Console.WriteLine("First saved State: " + originator.GetState());
 originator.GetStateFromMemento(caretaker.Get(1));
 Console.WriteLine("Second saved State: " + originator.GetState());
-}
 ```
 
 [page 6](./page06.md)
