@@ -1,11 +1,11 @@
 [home](./page01.md) | [back](./page01.md) | [next](./page02.md)
 
-In the show I will be covering the **Flyweight** pattern using **Java**
+In the show I will be covering the **Memento** pattern using **C++**
 
-**ItellaJ IDE**
+**Ryder**
 
 ```
-System.out.println("The Ray Code is AWESOME!!!");
+Console.WriteLine("The Ray Code is AWESOME!!!");
 ```
 
 
