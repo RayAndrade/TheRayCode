@@ -12,6 +12,10 @@ void addObserver(Observer observer);
 void removeObserver(Observer observer);
 void notifyObservers();
 ```
-
+at the top add:
+```
+import java.util.ArrayList;
+import java.util.List;
+```
 
 [page 3](./page03.md)
