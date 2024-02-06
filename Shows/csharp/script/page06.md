@@ -2,6 +2,9 @@
 
 When I run it I get
 ```
+Current State: State #4
+First saved State: State #1
+Second saved State: State #2
 ```
 
 
