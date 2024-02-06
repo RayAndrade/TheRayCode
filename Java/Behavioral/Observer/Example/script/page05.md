@@ -1,13 +1,29 @@
 [home](./page01.md) | [back](./page04.md) | [next](./page06.md)
 
-at main
+Create class
 ```
-ConcreteSubject subject = new ConcreteSubject();
-ConcreteObserver observer1 = new ConcreteObserver("Observer 1", subject);
-ConcreteObserver observer2 = new ConcreteObserver("Observer 2", subject);
+ConcreteObserver
+```
+which 
+```
+ implements Observer
+```
 
-subject.setState(10);
-subject.setState(20);
+we add the code to the top
+```
+private String name;
+private ConcreteSubject subject;
+
+public ConcreteObserver(String name, ConcreteSubject subject) {
+    this.name = name;
+    this.subject = subject;
+    subject.addObserver(this);
+}
+```
+for **update**
+```
+int newState = subject.getState();
+System.out.println(name + " received an update: State is now " + newState);
 ```
 
 
