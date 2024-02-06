@@ -5,11 +5,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{302707B9-FFA9-47CC-AD4C-9086D245F38C}</ProjectGuid>
+        <ProjectGuid>{392EA5C2-FBF8-418F-AEBB-9A93E90376A1}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Example3</RootNamespace>
-        <AssemblyName>Example3</AssemblyName>
+        <RootNamespace>Show</RootNamespace>
+        <AssemblyName>Show</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -40,13 +40,8 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="ICommand.cs" />
-        <Compile Include="Light.cs" />
-        <Compile Include="LightOffCommand.cs" />
-        <Compile Include="LightOnCommand.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
-        <Compile Include="RemoteControl.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
