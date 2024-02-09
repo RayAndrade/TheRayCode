@@ -1,6 +1,6 @@
 [up](../README.md)
 
-Sure, I can help you create a Java code example of the Observer design pattern with some humor added to it. The Observer pattern is used when you have a subject (observable) and multiple observers that are interested in the subject's state changes. When the subject's state changes, all its observers are notified and updated automatically.
+SThe Observer pattern is used when you have a subject (observable) and multiple observers that are interested in the subject's state changes. When the subject's state changes, all its observers are notified and updated automatically.
 
 Let's create a humorous scenario with a weather forecasting system where a weather station (the subject) broadcasts weather updates to multiple display units (observers).
 
