@@ -10,16 +10,16 @@ public class Main {
         weatherStation.addObserver(display2);
         weatherStation.addObserver(display3);
 
-        weatherStation.setTemperature(25); // Simulate a temperature change
+        weatherStation.setTemperature(77); // Simulate a temperature change
 
         // Some humorous output
         System.out.println("God of Weather: The weather has changed!");
-        weatherStation.setTemperature(30);
+        weatherStation.setTemperature(78);
 
         weatherStation.removeObserver(display2);
 
         System.out.println("Meteorologist: Display in the Bedroom is malfunctioning!");
-        weatherStation.setTemperature(28);
+        weatherStation.setTemperature(72);
 
     }
 }
