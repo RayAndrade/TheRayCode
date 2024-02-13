@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Mediator**](README.md) | [C++](../../../CPP/Behavioral/Mediator/README.md) | [Java](../../../Java/Behavioral/Mediator/README.md) | [PHP](../../../PHP/Behavioral/Mediator/README.md) |
 
-[Example](MR1/README.md)
+[Example](Example/README.md) | [Example2](Example2/README.md) | [Example2](Example3/README.md) | 
 
 The Mediator Design Pattern introduces an intermediary object, known as the mediator, that facilitates communication between multiple objects or components. By doing so, it aims to reduce the coupling between these components, ensuring that they don't interact or reference each other directly, but rather through the mediator.
 
