@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Template**](README.md) | [C++](../../../CPP/Behavioral/Template/README.md) | [Java](../../../Java/Behavioral/Template/README.md) | [PHP](../../../PHP/Behavioral/Template/README.md) |
 
-[Example](Example/README.md) [Example2](Example2/README.md) [Example3](Example3/README.md)
+[Example](./Example/README.md) [Example2](Example2/README.md) [Example3](Example3/README.md)
 
 The Template Design Pattern is a behavioral design pattern that defines the program skeleton of an algorithm in an algorithm class but delays some steps to subclasses. It allows subclasses to redefine certain steps of an algorithm without changing the algorithm's structure. Essentially, it provides a template for how something should be done, with certain steps being concrete (defined in the base class) and others being abstract (to be defined by subclasses).
 
