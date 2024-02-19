@@ -1,6 +1,0 @@
-/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Template/Exmple/Exmple/bin/Debug/Exmple.exe
-/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Template/Exmple/Exmple/bin/Debug/Exmple.pdb
-/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Template/Exmple/Exmple/obj/Debug/Exmple.csproj.AssemblyReference.cache
-/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Template/Exmple/Exmple/obj/Debug/Exmple.csproj.CoreCompileInputs.cache
-/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Template/Exmple/Exmple/obj/Debug/Exmple.exe
-/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Template/Exmple/Exmple/obj/Debug/Exmple.pdb
