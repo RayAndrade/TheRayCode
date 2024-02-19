@@ -1,4 +1,4 @@
-[up](README.md)
+[up](..README.md)
 
 For teaching the Template Method pattern using C#, it's great to align with the terminology and examples similar to those found in "Design Patterns" by the Gang of Four (GoF). The Template Method pattern defines the skeleton of an algorithm in a method, deferring some steps to subclasses. This allows subclasses to redefine certain steps of an algorithm without changing the algorithm's structure.
 
