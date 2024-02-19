@@ -15,6 +15,11 @@ for **RequiredOperations**
 Console.WriteLine("ConcreteClassA: Implemented RequiredOperations.");
 ```
 
+for **OptionalHook**
+```
+Console.WriteLine("ConcreteClassA: Overridden OptionalHook.");
+```
+
 
 
 [page 4](./page04.md)
