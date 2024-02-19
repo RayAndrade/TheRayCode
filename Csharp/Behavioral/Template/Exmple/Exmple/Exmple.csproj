@@ -40,6 +40,9 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="CsvDataProcessor.cs" />
+        <Compile Include="DataProcessor.cs" />
+        <Compile Include="JsonDataProcessor.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
