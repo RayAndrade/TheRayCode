@@ -6,7 +6,13 @@ namespace Show
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("The Ray Code is AWESOME!!!");
+            AbstractClass a = new ConcreteClassA();
+            a.TemplateMethod();
+
+            Console.WriteLine();
+
+            AbstractClass b = new ConcreteClassB();
+            b.TemplateMethod();
         }
     }
 }
