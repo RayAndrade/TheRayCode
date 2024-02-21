@@ -1,4 +1,4 @@
-[up](../README.md)  [show](./Show/script/page01.md)
+[up](../README.md)  [show](./script/page01.md)
 
 Certainly! I can provide you with a Java code example of the Observer design pattern. In this pattern, there are mainly four classes: `Subject`, `ConcreteSubject`, `Observer`, and `ConcreteObserver`. Each class serves a specific role in implementing the pattern.
 
