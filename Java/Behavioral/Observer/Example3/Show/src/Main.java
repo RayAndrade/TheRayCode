@@ -1,25 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        WeatherStation weatherStation = new WeatherStation();
+        ConcreteSubject subject = new ConcreteSubject();
+        ConcreteObserver observer1 = new ConcreteObserver("Observer 1", subject);
+        ConcreteObserver observer2 = new ConcreteObserver("Observer 2", subject);
 
-        DisplayUnit display1 = new DisplayUnit("Living Room");
-        DisplayUnit display2 = new DisplayUnit("Bedroom");
-        DisplayUnit display3 = new DisplayUnit("Kitchen");
-
-        weatherStation.addObserver(display1);
-        weatherStation.addObserver(display2);
-        weatherStation.addObserver(display3);
-
-        weatherStation.setTemperature(77); // Simulate a temperature change
-
-        // Some humorous output
-        System.out.println("God of Weather: The weather has changed!");
-        weatherStation.setTemperature(78);
-
-        weatherStation.removeObserver(display2);
-
-        System.out.println("Meteorologist: Display in the Bedroom is malfunctioning!");
-        weatherStation.setTemperature(72);
-
+        subject.setState(10);
+        subject.setState(20);
     }
 }
