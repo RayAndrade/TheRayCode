@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Iterator**](README.md) | [C++](../../../CPP/Behavioral/Iterator/README.md) | [C#](../../../CPP/Behavioral/Iterator/README.md) | [PHP](../../../PHP/Behavioral/Iterator/README.md) |
 
-[Example](I1/README.md)
+[Example](Example/README.md)
 
 The Iterator Design Pattern provides a standardized way to sequentially access elements within a collection without divulging its internal workings. By introducing an intermediary object (the iterator), this pattern allows for orderly traversal of collections, abstracting away the specifics of their underlying representation.
 
