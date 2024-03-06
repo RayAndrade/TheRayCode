@@ -1,16 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        InterpreterContext context = new InterpreterContext();
-        InterpreterClient client = new InterpreterClient(context);
+        ConcreteSubject subject = new ConcreteSubject();
+        ConcreteObserver observer1 = new ConcreteObserver("Observer 1", subject);
+        ConcreteObserver observer2 = new ConcreteObserver("Observer 2", subject);
 
-        String instruction = "clean your room";
-        boolean result = client.interpret(instruction);
-
-        if (result) {
-            System.out.println("The child understood: Time to clean the room!");
-        } else {
-            System.out.println("The child did not understand the instruction.");
-        }
+        subject.setState(10);
+        subject.setState(20);
     }
  }
