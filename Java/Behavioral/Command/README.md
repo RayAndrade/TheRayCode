@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Command**](README.md) | [C++](../../../Csharp/Behavioral/Command/README.md) | [C#](../../../Csharp/Behavioral/Command/README.md) | [PHP](../../../PHP/Behavioral/Command/README.md) |
 
-[example](CD0/README.md) [example1](CD1/README.md) [example2](CD2/README.md) [example3](CD3/README.md) [example4](CD4/README.md) 
+[Example](Example/README.md) [Example2](Example2/README.md) [Example3](Example3/README.md) 
 
 **Command Design Pattern**:
 
