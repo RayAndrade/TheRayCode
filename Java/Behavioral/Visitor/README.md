@@ -10,7 +10,8 @@
 |---|---|---|---|
 | [**Visitor**](README.md) | [C++](../../../CPP/Behavioral/Visitor/README.md) | [C#](../../../Csharp/Behavioral/Visitor/README.md) | [PHP](../../../PHP/Behavioral/Visitor/README.md) |
 
-[Example](Example/README.md)
+[Example](Example/README.md) [Example2](Example2/README.md)
+
 
 The Visitor Design Pattern is a behavioral design pattern that allows for adding new virtual functions to a class without modifying it. This is achieved by creating a separate visitor class that implements all the appropriate specializations of the virtual function. The visitor takes the instance reference as input and implements the goal through double dispatch.
 
