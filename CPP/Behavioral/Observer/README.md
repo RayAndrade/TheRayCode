@@ -11,6 +11,7 @@
 | [**Observer**](README.md) | [**C#**](../../../Csharp/Behavioral/Observer/README.md) | [Java](../../../Java/Behavioral/Observer/README.md) | [PHP](../../../PHP/Behavioral/Observer/README.md) |
 
 **C++ Observer Design Pattern**
+
 [Example](Example/README.md)
 
 **Observer** is a behavioral design pattern that defines a one-to-many dependency between objects so that when one object (the subject or observable) changes state, all its dependents (observers) are notified and updated automatically. The pattern promotes a loose coupling between the subject and its observers, as the subject doesn't need to know anything specific about its observers.
