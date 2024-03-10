@@ -1,5 +1,4 @@
 public class ConcreteObserver  implements Observer{
-
     private String name;
     private ConcreteSubject subject;
 

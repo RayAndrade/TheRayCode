@@ -8,4 +8,4 @@ public class Main {
         subject.setState(10);
         subject.setState(20);
     }
- }
+}

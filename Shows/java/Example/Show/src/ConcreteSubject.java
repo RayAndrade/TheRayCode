@@ -1,12 +1,9 @@
+
 import java.util.ArrayList;
 import java.util.List;
-
-public class ConcreteSubject  implements Subject{
-
+public class ConcreteSubject  implements Subject {
     private List<Observer> observers = new ArrayList<>();
-
     private int state;
-
     public int getState() {
         return state;
     }
@@ -15,7 +12,6 @@ public class ConcreteSubject  implements Subject{
         this.state = state;
         notifyObservers();
     }
-
     @Override
     public void addObserver(Observer observer) {
         observers.add(observer);
