@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Statergy**](README.md) | [C#](../../../Csharp/Behavioral/Statergy/README.md) | [Java](../../../Java/Behavioral/Statergy/README.md) | [PHP](../../../PHP/Behavioral/Statergy/README.md) |
 
-[Example](SY1/README.md)
+[Example](Example/README.md) [Example2](Example2/README.md)
 
 The Strategy Design Pattern is a behavioral design pattern that enables selecting an algorithm's implementation at runtime. Instead of implementing a single algorithm directly, a class can be designed to use multiple algorithms interchangeably. The Strategy pattern encapsulates each algorithm inside a separate class, known as a strategy class, allowing them to be switched in and out as required. This design aids in decoupling the algorithm's definition from its usage.
 
