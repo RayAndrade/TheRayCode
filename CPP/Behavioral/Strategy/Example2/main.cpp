@@ -1,18 +1,19 @@
 #include <iostream>
-#include "Strategy.h"
-#include "Context.h"
+#include "MazeNavigator.h"
+#include "LeftHandRuleStrategy.h"
+#include "RandomWalkStrategy.h"
 
 int main() {
-    // Create strategies
-    ConcreteStrategyA strategyA;
-    ConcreteStrategyB strategyB;
+    MazeNavigator navigator;
 
-    // Create context with strategy A
-    Context context(&strategyA);
-    context.executeStrategy();
+    // Use the left-hand rule strategy
+    navigator.setStrategy(new LeftHandRuleStrategy());
+    std::cout << "Using LeftHandRuleStrategy: ";
+    navigator.navigateMaze();
 
-    // Change strategy to B
-    context.setStrategy(&strategyB);
-    context.executeStrategy();
+    // Switch to the random walk strategy
+    navigator.setStrategy(new RandomWalkStrategy());
+    std::cout << "Switching to RandomWalkStrategy: ";
+    navigator.navigateMaze();
     return 0;
 }

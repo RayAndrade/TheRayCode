@@ -1,34 +1,17 @@
 //
-// Created by ray on 3/12/24.
+// Created by ray on 3/20/24.
 //
 
 #ifndef EXAMPLE2_STRATEGY_H
 #define EXAMPLE2_STRATEGY_H
 
 #include <iostream>
-// Strategy interface
+
+// Abstract strategy for maze navigation.
 class Strategy {
 public:
     virtual ~Strategy() {}
-    virtual void execute() const = 0;
-};
-
-// Concrete Strategy A
-class ConcreteStrategyA : public Strategy {
-public:
-    void execute() const override {
-        // Implement algorithm A
-        std::cout << "Executing algorithm A" << std::endl;
-    }
-};
-
-// Concrete Strategy B
-class ConcreteStrategyB : public Strategy {
-public:
-    void execute() const override {
-        // Implement algorithm B
-        std::cout << "Executing algorithm B" << std::endl;
-    }
+    virtual std::string navigate() const = 0;
 };
 
 #endif //EXAMPLE2_STRATEGY_H
