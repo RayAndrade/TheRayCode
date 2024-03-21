@@ -2,15 +2,15 @@
 
 **step 5**
 
-Foe **ConcreteStrategyA.cpp** motice **cpp**
+For **ConcreteStrategyA.cpp** motice **cpp**
 
 ```
 #include <iostream>
 #include "ConcreteStrategyA.h"
 
 void ConcreteStrategyA::execute() {
-    std::cout << "Executing Concrete Strategy B\n";
-    // Implementation of strategy B
+    std::cout << "Executing Concrete Strategy A\n";
+    // Implementation of strategy A
 }
 ```
 
