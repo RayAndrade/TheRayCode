@@ -1,4 +1,6 @@
 [home](./page01.md) | [back](./page03.md) | [next](./page03.md)
+**step 3**
+
 **ConcreteStrategyB.h**
 ```
 ConcreteStrategyB
