@@ -2,6 +2,18 @@
 
 **step 6**
 
-We create
+We create ConcreteStrategyB.**css**
+
+code
+```
+#include <iostream>
+#include "ConcreteStrategyB.h"
+
+void ConcreteStrategyB::execute() {
+    std::cout << "Executing Concrete Strategy B\n";
+    // Implementation of strategy B
+}
+```
+
 
 [page 8](./page08.md)
