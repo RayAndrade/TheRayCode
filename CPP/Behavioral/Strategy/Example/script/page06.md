@@ -2,7 +2,7 @@
 
 **step 5**
 
-For **ConcreteStrategyA.cpp** motice **cpp**
+For **ConcreteStrategyA.cpp** notice **cpp**
 
 ```
 #include <iostream>
