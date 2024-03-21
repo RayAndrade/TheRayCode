@@ -1,4 +1,4 @@
-[up](../README.md)
+[up](../README.md) [script](script/page01.md)
 
 Sure, here's an example of the Strategy design pattern implemented in C++. We'll create three classes: `Strategy`, `ConcreteStrategyA`, and `ConcreteStrategyB`. The `Strategy` class is an interface defining a family of algorithms, while `ConcreteStrategyA` and `ConcreteStrategyB` are concrete implementations of these algorithms. 
 
