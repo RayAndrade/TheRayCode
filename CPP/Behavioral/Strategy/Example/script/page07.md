@@ -14,6 +14,11 @@ void Context::setStrategy(Strategy* strategy) {
     strategy_ = strategy;
 }
 ```
+at the top
+```
+#include "Context.h"
+```
+
 and
 ```
 void Context::executeStrategy() {
