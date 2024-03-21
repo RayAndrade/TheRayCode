@@ -4,6 +4,12 @@ We ctreate **Context.cpp**
 ```
 Context
 ```
+at the top
+```
+#include "Context.h"
+```
+
+
 
 ```
 Context::Context(Strategy* strategy) : strategy_(strategy) {}
@@ -14,10 +20,7 @@ void Context::setStrategy(Strategy* strategy) {
     strategy_ = strategy;
 }
 ```
-at the top
-```
-#include "Context.h"
-```
+
 
 and
 ```
