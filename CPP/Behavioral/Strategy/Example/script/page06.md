@@ -1,4 +1,7 @@
 [home](./page01.md) | [back](./page05.md) | [next](./page07.md)
+
+**step 5**
+
 Foe **ConcreteStrategyA.cpp** motice **cpp**
 
 ```
