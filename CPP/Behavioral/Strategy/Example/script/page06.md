@@ -3,9 +3,9 @@ Foe **ConcreteStrategyA.cpp** motice **cpp**
 
 ```
 #include <iostream>
-#include "ConcreteStrategyB.h"
+#include "ConcreteStrategyA.h"
 
-void ConcreteStrategyB::execute() {
+void ConcreteStrategyA::execute() {
     std::cout << "Executing Concrete Strategy B\n";
     // Implementation of strategy B
 }
