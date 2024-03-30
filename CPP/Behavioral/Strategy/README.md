@@ -4,7 +4,7 @@
 
 **[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../README.md)**
 
-**C++ Statergy Design Pattern**
+**C++ Strategy Design Pattern**
 
 |Pattern|   |   |   |
 |---|---|---|---|
