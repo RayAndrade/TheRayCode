@@ -34,6 +34,6 @@ In conclusion, for C# programmers, understanding the Template Design Pattern is 
 
 [TheRayCode.ORG](https://www.TheRayCode.org) | [RayAndrade.ORG](https://www.RayAndrade.ORG)
 
-[RayAndrade.COM](https://www.RayAndrade.com)
+[RayAndrade.COM](https://www.RayAndrade.com) | [TheRayCode.COM](https://www.TheRayCode.com)
 
 [Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
