@@ -1,5 +1,5 @@
 //
-// Created by ray on 3/21/24.
+// Created by ray on 3/22/24.
 //
 
 #ifndef SHOW_CONTEXT_H
@@ -12,7 +12,6 @@ public:
     Context(Strategy* strategy);
     void setStrategy(Strategy* strategy);
     void executeStrategy();
-
 private:
     Strategy* strategy_;
 };

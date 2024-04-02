@@ -8,7 +8,7 @@ add_executable(Show main.cpp
         ConcreteStrategyA.h
         ConcreteStrategyB.h
         Context.h
-        ConcreteStrategyA.h.cpp
+        ConcreteStrategyA.cpp
         ConcreteStrategyB.cpp
         Context.cpp
 )
