@@ -6,9 +6,9 @@ It's worth mentioning that you can add some colour in a README using a placehold
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
 Produces:
 
-#f03c15 #f03c15
-#c5f015 #c5f015
-#1589F0 #1589F0
+#f03c15 color #f03c15
+#c5f015 color #c5f015
+#1589F0 color #1589F0
 
 
 
