@@ -1,5 +1,9 @@
 [home](./page01.md) | [back](./page01.md) [next](./page03.md)
 
+
+<p>Some Markdown text with <span style="color:blue">some <em>blue</em> text</span>.</p>
+
+
 The Template Method pattern is a fundamental design pattern in object-oriented programming that defines the program skeleton of an algorithm in a method, deferring some steps to subclasses. 
 
 It allows subclasses to redefine certain steps of an algorithm without changing the algorithm's structure.
