@@ -7,6 +7,11 @@ AbstractClass
 ```
 **AbstractClass** defines the template method and declares abstract methods  that the concrete subclasses must implement.
 
+change **public** to
+```csharp
+abstract
+```
+
 The template method defines the skeleton of the algorithm. 
 It calls the abstract methods, which are implemented by subclasses
 ```csharp
