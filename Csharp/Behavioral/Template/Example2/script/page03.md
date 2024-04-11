@@ -1,29 +1,12 @@
 [home](./page01.md) | [back](./page02.md) | [next](./page04.md)
 
-We start with the **Abstract Class** **AbstractClass**
 
-```csharp
-AbstractClass
-```
-we make it **Abstract**
+To implement the Template design pattern in C#, we'll create several classes:
 
-The template method defines the skeleton of an algorithm.
-```csharp
-public void TemplateMethod()
-{
-    PrimitiveOperation1();
-    PrimitiveOperation2();
-    Console.WriteLine("");
-}
-```
-These operations have to be implemented in subclasses.
+**AbstractClass**: This class defines abstract methods that will be implemented by concrete subclasses. It also provides a template method that defines the skeleton of the algorithm.
 
-**PrimitiveOperation1** and **PrimitiveOperation2**
+**ConcreteClass1 and ConcreteClass2**: These are subclasses of AbstractClass. They implement the abstract methods defined in AbstractClass.
 
-```csharp
-protected abstract void PrimitiveOperation1();
-protected abstract void PrimitiveOperation2();
-```
-next
+**Program**: This class contains the Main method where we'll demonstrate the usage of our Template design pattern implementation.
 
 [page 4](./page04.md)

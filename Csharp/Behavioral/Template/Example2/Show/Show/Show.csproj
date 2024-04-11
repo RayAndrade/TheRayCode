@@ -5,7 +5,7 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{84EAF76E-9F41-4D2A-BBCC-9C11B78F39B7}</ProjectGuid>
+        <ProjectGuid>{9FED6F7A-FBBC-4B0F-9815-A126523D2B0B}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
         <RootNamespace>Show</RootNamespace>
@@ -40,9 +40,6 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="AbstractClass.cs" />
-        <Compile Include="ConcreteClassA.cs" />
-        <Compile Include="ConcreteClassB.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>

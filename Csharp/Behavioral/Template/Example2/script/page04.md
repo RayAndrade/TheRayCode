@@ -1,29 +1,30 @@
 [home](./page01.md) | [back](./page03.md) | [next](./page03.md)
 
-Next we create **ConcreteClassA**
-```charp
-ConcreteClassA
+Let's start with the **AbstractClass.cs**
+
 ```
-We extend it with
+AbstractClass
+```
+**AbstractClass** defines the template method and declares abstract methods  that the concrete subclasses must implement.
+
+The template method defines the skeleton of the algorithm. 
+It calls the abstract methods, which are implemented by subclasses
 ```csharp
-: AbstractClass
+public void TemplateMethod()
+{
+    Console.WriteLine("AbstractClass: TemplateMethod - Step 1");
+    PrimitiveOperation1();
+    Console.WriteLine("AbstractClass: TemplateMethod - Step 3");
+    PrimitiveOperation2();
+    Console.WriteLine("AbstractClass: TemplateMethod - Step 5");
+}
 ```
-So we have to add the required methods
 
-For **PrimitiveOperation1**
-```
-Console.WriteLine("ConcreteClassA.PrimitiveOperation1()");
-```
-we need to incude **System**
+Some Abstract methods **to be** implemented by concrete subclasses.
+
+**PrimitiveOperation1** and **PrimitiveOperation2**
 ```csharp
-using System;
+protected abstract void PrimitiveOperation1();
+protected abstract void PrimitiveOperation2();
 ```
-
-and for **PrimitiveOperation2**
-```csharp
-Console.WriteLine("ConcreteClassA.PrimitiveOperation2()");
-```
-
-Next
-
 [page 5](./page05.md)

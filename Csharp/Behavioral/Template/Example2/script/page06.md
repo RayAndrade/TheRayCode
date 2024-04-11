@@ -1,19 +1,29 @@
 [home](./page01.md) | [back](./page05.md) | [next](./page07.md)
 
+And for **ConcreteClass2.cs**
 ```csharp
-AbstractClass a = new ConcreteClassA();
-AbstractClass b = new ConcreteClassB();
+ConcreteClass2
 ```
 
-And to call the template
-
-The template method is called.
+Extend it
 ```csharp
-a.TemplateMethod();
-b.TemplateMethod();
+: AbstractClass
+```
+generate missing methods
+
+for **PrimitiveOperation1**
+```csharp
+Console.WriteLine("ConcreteClass2: PrimitiveOperation1");
+```
+add
+```
+using System;
+```
+and for **PrimitiveOperation2**
+```csharp
+Console.WriteLine("ConcreteClass2: PrimitiveOperation2");
 ```
 
 
-Compile and run
 
 [page 7](./page07.md)
