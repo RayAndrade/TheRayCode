@@ -4,6 +4,8 @@ For **ConcreteClass1**
 ```charp
 ConcreteClass1
 ```
+which is a **public class**
+
 which needs to
 ```csharp
 : AbstractClass
