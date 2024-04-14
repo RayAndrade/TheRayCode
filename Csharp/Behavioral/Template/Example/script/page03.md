@@ -17,7 +17,10 @@ Console.WriteLine("ConcreteClassA: Implemented RequiredOperations.");
 
 for **OptionalHook**
 ```
-Console.WriteLine("ConcreteClassA: Overridden OptionalHook.");
+protected override void OptionalHook()
+{
+    Console.WriteLine("ConcreteClassA: Overridden OptionalHook.");
+}
 ```
 
 
