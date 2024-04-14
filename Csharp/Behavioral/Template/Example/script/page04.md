@@ -17,5 +17,9 @@ and
 using System;
 ```
 
+```
+// OptionalHook is not overridden, so it will use the default implementation from AbstractClass
+```
+
 
 [page 5](./page05.md)
