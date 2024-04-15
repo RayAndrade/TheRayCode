@@ -1,139 +1,127 @@
-To implement the Template design pattern in C#, we'll create several classes:
+[top](../README.md)
 
-1. **AbstractClass**: This class defines abstract methods that will be implemented by concrete subclasses. It also provides a template method that defines the skeleton of the algorithm.
-2. **ConcreteClass1 and ConcreteClass2**: These are subclasses of AbstractClass. They implement the abstract methods defined in AbstractClass.
-3. **Program**: This class contains the Main method where we'll demonstrate the usage of our Template design pattern implementation.
+For your C# teaching module on the Template design pattern, I'll provide a straightforward example that aligns with the descriptions from the "Design Patterns: Elements of Reusable Object-Oriented Software" by the Gang of Four (GoF). The Template design pattern is a behavioral pattern that defines the program skeleton of an algorithm in an operation, deferring some steps to subclasses. It lets one redefine certain steps of an algorithm without changing the algorithm's structure.
 
-Let's start with the `AbstractClass.cs`:
+Here's how you can structure the example in C#:
 
+### Project Structure
+- **AbstractClass.cs**: Base class with a template method and abstract operations.
+- **ConcreteClassA.cs**: Subclass that implements the abstract operations.
+- **ConcreteClassB.cs**: Another subclass with its own implementation of the abstract operations.
+- **Program.cs**: Main entry point to demonstrate the template method pattern.
+
+### 1. AbstractClass.cs
 ```csharp
-// AbstractClass.cs
-
 using System;
 
-namespace TemplateDesignPattern
+public abstract class AbstractClass
 {
-    // AbstractClass defines the template method and declares abstract methods
-    // that the concrete subclasses must implement.
-    abstract class AbstractClass
+    // The 'TemplateMethod' is the skeleton of an algorithm.
+    // It is made final to prevent its structure from being altered.
+    public void TemplateMethod()
     {
-        // The template method defines the skeleton of the algorithm.
-        // It calls the abstract methods, which are implemented by subclasses.
-        public void TemplateMethod()
-        {
-            Console.WriteLine("AbstractClass: TemplateMethod - Step 1");
-            PrimitiveOperation1();
-            Console.WriteLine("AbstractClass: TemplateMethod - Step 3");
-            PrimitiveOperation2();
-            Console.WriteLine("AbstractClass: TemplateMethod - Step 5");
-        }
+        BaseOperation();
+        RequiredOperations1();
+        RequiredOperation2();
+        Hook1();
+    }
 
-        // Abstract methods to be implemented by concrete subclasses.
-        protected abstract void PrimitiveOperation1();
-        protected abstract void PrimitiveOperation2();
+    // A common operation used by the template method.
+    void BaseOperation()
+    {
+        Console.WriteLine("BaseOperation: Common operation for all subclasses");
+    }
+
+    // These operations have to be implemented in subclasses.
+    protected abstract void RequiredOperations1();
+    protected abstract void RequiredOperation2();
+
+    // Hooks provide additional extension points in some parts of the algorithm.
+    protected virtual void Hook1() { }
+}
+```
+
+### 2. ConcreteClassA.cs
+```csharp
+using System;
+
+public class ConcreteClassA : AbstractClass
+{
+    protected override void RequiredOperations1()
+    {
+        Console.WriteLine("ConcreteClassA: Implemented RequiredOperations1");
+    }
+
+    protected override void RequiredOperation2()
+    {
+        Console.WriteLine("ConcreteClassA: Implemented RequiredOperation2");
+    }
+
+    protected override void Hook1()
+    {
+        Console.WriteLine("ConcreteClassA: Overridden Hook1");
     }
 }
 ```
 
-Next, let's implement the concrete subclasses `ConcreteClass1.cs` and `ConcreteClass2.cs`:
-
+### 3. ConcreteClassB.cs
 ```csharp
-// ConcreteClass1.cs
-
 using System;
 
-namespace TemplateDesignPattern
+public class ConcreteClassB : AbstractClass
 {
-    // ConcreteClass1 implements the abstract methods of AbstractClass.
-    class ConcreteClass1 : AbstractClass
+    protected override void RequiredOperations1()
     {
-        protected override void PrimitiveOperation1()
-        {
-            Console.WriteLine("ConcreteClass1: PrimitiveOperation1");
-        }
+        Console.WriteLine("ConcreteClassB: Implemented RequiredOperations1");
+    }
 
-        protected override void PrimitiveOperation2()
-        {
-            Console.WriteLine("ConcreteClass1: PrimitiveOperation2");
-        }
+    protected override void RequiredOperation2()
+    {
+        Console.WriteLine("ConcreteClassB: Implemented RequiredOperation2");
+    }
+
+    // Hook1 is not overridden here, so it will do nothing.
+}
+```
+
+### 4. Program.cs
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Testing ConcreteClassA:");
+        AbstractClass classA = new ConcreteClassA();
+        classA.TemplateMethod();
+
+        Console.WriteLine("\nTesting ConcreteClassB:");
+        AbstractClass classB = new ConcreteClassB();
+        classB.TemplateMethod();
     }
 }
 ```
 
-```csharp
-// ConcreteClass2.cs
+### Order of Creating Classes
+1. **AbstractClass.cs**: Define the template and the overall structure of the algorithm.
+2. **ConcreteClassA.cs and ConcreteClassB.cs**: Implement the specific steps required by the algorithm.
+3. **Program.cs**: Test and demonstrate the usage of the template method with different subclasses.
 
-using System;
-
-namespace TemplateDesignPattern
-{
-    // ConcreteClass2 implements the abstract methods of AbstractClass.
-    class ConcreteClass2 : AbstractClass
-    {
-        protected override void PrimitiveOperation1()
-        {
-            Console.WriteLine("ConcreteClass2: PrimitiveOperation1");
-        }
-
-        protected override void PrimitiveOperation2()
-        {
-            Console.WriteLine("ConcreteClass2: PrimitiveOperation2");
-        }
-    }
-}
-```
-
-Now, let's create the `Program.cs` to demonstrate the usage:
-
-```csharp
-// Program.cs
-
-using System;
-
-namespace TemplateDesignPattern
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Creating instances of concrete subclasses
-            AbstractClass template1 = new ConcreteClass1();
-            AbstractClass template2 = new ConcreteClass2();
-
-            // Calling the template method
-            Console.WriteLine("Demonstrating Template Pattern with ConcreteClass1:");
-            template1.TemplateMethod();
-            Console.WriteLine();
-
-            Console.WriteLine("Demonstrating Template Pattern with ConcreteClass2:");
-            template2.TemplateMethod();
-        }
-    }
-}
-```
-
-To determine the order of creation for each class:
-
-1. Create `AbstractClass.cs`.
-2. Create `ConcreteClass1.cs` and `ConcreteClass2.cs`.
-3. Create `Program.cs`.
-
-When you run the code, you should see the following output:
+### Expected Output When Running the Program
+When you run the `Program.cs`, you should expect the following output:
 
 ```
-Demonstrating Template Pattern with ConcreteClass1:
-AbstractClass: TemplateMethod - Step 1
-ConcreteClass1: PrimitiveOperation1
-AbstractClass: TemplateMethod - Step 3
-ConcreteClass1: PrimitiveOperation2
-AbstractClass: TemplateMethod - Step 5
+Testing ConcreteClassA:
+BaseOperation: Common operation for all subclasses
+ConcreteClassA: Implemented RequiredOperations1
+ConcreteClassA: Implemented RequiredOperation2
+ConcreteClassA: Overridden Hook1
 
-Demonstrating Template Pattern with ConcreteClass2:
-AbstractClass: TemplateMethod - Step 1
-ConcreteClass2: PrimitiveOperation1
-AbstractClass: TemplateMethod - Step 3
-ConcreteClass2: PrimitiveOperation2
-AbstractClass: TemplateMethod - Step 5
+Testing ConcreteClassB:
+BaseOperation: Common operation for all subclasses
+ConcreteClassB: Implemented RequiredOperations1
+ConcreteClassB: Implemented RequiredOperation2
 ```
 
-This output demonstrates that the template method `TemplateMethod()` of `AbstractClass` is being executed in the same sequence for both `ConcreteClass1` and `ConcreteClass2`, but the implementation of the primitive operations (`PrimitiveOperation1()` and `PrimitiveOperation2()`) differs according to the concrete subclass being used.
+This example provides a clear demonstration of how the Template design pattern allows for the algorithm's structure to remain unchanged while the specific steps can vary between different subclasses.
