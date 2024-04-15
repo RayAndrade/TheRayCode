@@ -1,4 +1,4 @@
-[top](../README.md)
+[top](../README.md) [script](script/page01.md)
 
 For your C# teaching module on the Template design pattern, I'll provide a straightforward example that aligns with the descriptions from the "Design Patterns: Elements of Reusable Object-Oriented Software" by the Gang of Four (GoF). The Template design pattern is a behavioral pattern that defines the program skeleton of an algorithm in an operation, deferring some steps to subclasses. It lets one redefine certain steps of an algorithm without changing the algorithm's structure.
 
