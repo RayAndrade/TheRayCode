@@ -16,7 +16,7 @@ Console.WriteLine("ConcreteClassB: Implemented RequiredOperations1");
 ```
 for **RequiredOperation2**
 ```
-Console.WriteLine("ConcreteClassB: Implemented RequiredOperation2")
+Console.WriteLine("ConcreteClassB: Implemented RequiredOperation2");
 ```
 Hook1 is not overridden here, so it will do nothing.
 ```
