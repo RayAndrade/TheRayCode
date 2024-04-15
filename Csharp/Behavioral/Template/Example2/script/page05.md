@@ -1,30 +1,26 @@
 [home](./page01.md) | [back](./page04.md) | [next](./page06.md)
 
-For **ConcreteClass1**
-```charp
-ConcreteClass1
+Now create class
 ```
-which is a **public class**
-
-which needs to
-```csharp
+ConcreteClassB
+```
+and extend it with
+```
 : AbstractClass
 ```
-Let's create the missing operations
+add the required methods
 
-**PrimitiveOperation1**
-```charp
-Console.WriteLine("ConcreteClass1: PrimitiveOperation1");
+for **RequiredOperations1**
 ```
-Let's include **System** by 
-```charp
-using System;
+Console.WriteLine("ConcreteClassB: Implemented RequiredOperations1");
 ```
-for **PrimitiveOperation2**
-```csharp
-Console.WriteLine("ConcreteClass1: PrimitiveOperation2");
+for **RequiredOperation2**
 ```
-
-
+Console.WriteLine("ConcreteClassB: Implemented RequiredOperation2")
+```
+Hook1 is not overridden here, so it will do nothing.
+```
+// Hook1 is not overridden here, so it will do nothing.
+```
 
 [page 6](./page06.md)

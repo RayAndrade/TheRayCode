@@ -1,12 +1,41 @@
 [home](./page01.md) | [back](./page02.md) | [next](./page04.md)
 
+Create **AbstractClass** class
+```
+AbstractClass
+```
+The 'TemplateMethod' is the skeleton of an algorithm.
 
-To implement the Template design pattern in C#, we'll create several classes:
+It is made final to prevent its structure from being **altered**.
 
-**AbstractClass**: This class defines abstract methods that will be implemented by concrete subclasses. It also provides a template method that defines the skeleton of the algorithm.
+```
+public void TemplateMethod()
+{
+    BaseOperation();
+    RequiredOperations1();
+    RequiredOperation2();
+    Hook1();
+}
+```
+A common operation used by the template method.
+```
+    // A common operation used by the template method.
+void BaseOperation()
+{
+    Console.WriteLine("BaseOperation: Common operation for all subclasses");
+}
+```
+These operations have to be implemented in subclasses.
+```
+protected abstract void RequiredOperations1();
+protected abstract void RequiredOperation2();
+```
 
-**ConcreteClass1 and ConcreteClass2**: These are subclasses of AbstractClass. They implement the abstract methods defined in AbstractClass.
+Hooks provide additional extension points in some parts of the algorithm.
+```
+    // Hooks provide additional extension points in some parts of the algorithm.
+protected virtual void Hook1() { }
+```
 
-**Program**: This class contains the Main method where we'll demonstrate the usage of our Template design pattern implementation.
 
 [page 4](./page04.md)

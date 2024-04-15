@@ -1,23 +1,22 @@
-[home](./page01.md) | [back](./page06.md) | [next](./page08.md)
+[home](./page01.md) | [back](./page06.md) | [start over](./page01.md)
 
-Now we go to **Main**
+### Expected Output When Running the Program
+When you run the `Program.cs`, you should expect the following output:
 
-Creating instances of concrete subclasses
 ```
-AbstractClass template1 = new ConcreteClass1();
-AbstractClass template2 = new ConcreteClass2();
-```
-Calling the template method
-```
-Console.WriteLine("Demonstrating Template Pattern with ConcreteClass1:");
-template1.TemplateMethod();
- Console.WriteLine();
-```
-And for **template2**
-```
-Console.WriteLine("Demonstrating Template Pattern with ConcreteClass2:");
-template2.TemplateMethod();
+Testing ConcreteClassA:
+BaseOperation: Common operation for all subclasses
+ConcreteClassA: Implemented RequiredOperations1
+ConcreteClassA: Implemented RequiredOperation2
+ConcreteClassA: Overridden Hook1
+
+Testing ConcreteClassB:
+BaseOperation: Common operation for all subclasses
+ConcreteClassB: Implemented RequiredOperations1
+ConcreteClassB: Implemented RequiredOperation2
 ```
 
+This example provides a clear demonstration of how the Template design pattern allows for the algorithm's structure to remain unchanged while the specific steps can vary between different subclasses.
 
-[page 8](./page08.md)
+
+[start over](./page01.md)
