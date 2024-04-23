@@ -1,6 +1,6 @@
 [up](../README.md) [script](script/page01.md)
 
-Sure, here's an example of the Strategy design pattern implemented in C++. We'll create three classes: `Strategy`, `ConcreteStrategyA`, and `ConcreteStrategyB`. The `Strategy` class is an interface defining a family of algorithms, while `ConcreteStrategyA` and `ConcreteStrategyB` are concrete implementations of these algorithms. 
+The Strategy design pattern implemented in C++. We'll create three classes: `Strategy`, `ConcreteStrategyA`, and `ConcreteStrategyB`. The `Strategy` class is an interface defining a family of algorithms, while `ConcreteStrategyA` and `ConcreteStrategyB` are concrete implementations of these algorithms. 
 
 We'll also create a `Context` class which maintains a reference to a `Strategy` object and allows the client to switch between different strategies dynamically.
 
