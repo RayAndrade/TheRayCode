@@ -1,16 +1,4 @@
 [home](./page01.md) | [back](./page01.md) [next](./page03.md)
-It's worth mentioning that you can add some colour in a README using a placeholder image service. For example if you wanted to provide a list of colours for reference:
-
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
-Produces:
-
-#f03c15 #f03c15
-#c5f015 #c5f015
-#1589F0 #1589F0
-
-
 
 **The Template Method** pattern is a fundamental design pattern in object-oriented programming that defines the program skeleton of an algorithm in a method, deferring some steps to subclasses. 
 
