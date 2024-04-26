@@ -52,6 +52,7 @@ A hook operation with a default implementation. Subclasses may override this.
 protected virtual void OptionalHook()
 {
     // Default implementation
+    Console.WriteLine("Default This method is OPTIONAL.");
 }
 ```
 
