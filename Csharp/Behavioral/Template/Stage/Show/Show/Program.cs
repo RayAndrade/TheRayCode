@@ -6,13 +6,13 @@ namespace Show
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Testing ConcreteClassA:");
-            AbstractClass classA = new ConcreteClassA();
-            classA.TemplateMethod();
+            AbstractClass a = new ConcreteClassA();
+            a.TemplateMethod();
 
-            Console.WriteLine("\nTesting ConcreteClassB:");
-            AbstractClass classB = new ConcreteClassB();
-            classB.TemplateMethod();
+            Console.WriteLine();
+
+            AbstractClass b = new ConcreteClassB();
+            b.TemplateMethod();
         }
     }
 }

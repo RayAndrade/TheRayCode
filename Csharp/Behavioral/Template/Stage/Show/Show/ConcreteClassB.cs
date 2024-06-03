@@ -4,16 +4,11 @@ namespace Show
 {
     public class ConcreteClassB: AbstractClass
     {
-        protected override void RequiredOperations1()
+        protected override void RequiredOperations()
         {
-            Console.WriteLine("ConcreteClassB: Implemented RequiredOperations1");
-        }
-
-        protected override void RequiredOperation2()
-        {
-            Console.WriteLine("ConcreteClassB: Implemented RequiredOperation2");
+            Console.WriteLine("ConcreteClassB: Implemented RequiredOperations.");
         }
         
-        // Hook1 is not overridden here, so it will do nothing.
+        // OptionalHook is not overridden, so it will use the default implementation from AbstractClass
     }
 }

@@ -4,19 +4,14 @@ namespace Show
 {
     public class ConcreteClassA: AbstractClass
     {
-        protected override void RequiredOperations1()
+        protected override void RequiredOperations()
         {
-            Console.WriteLine("ConcreteClassA: Implemented RequiredOperations1");
-        }
-
-        protected override void RequiredOperation2()
-        {
-            Console.WriteLine("ConcreteClassA: Implemented RequiredOperation2");
+            Console.WriteLine("ConcreteClassA: Implemented RequiredOperations.");
         }
         
-        protected override void Hook1()
+        protected override void OptionalHook()
         {
-            Console.WriteLine("ConcreteClassA: Overridden Hook1");
+            Console.WriteLine("ConcreteClassA: Overridden OptionalHook.");
         }
     }
 }

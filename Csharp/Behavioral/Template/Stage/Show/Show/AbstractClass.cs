@@ -7,20 +7,21 @@ namespace Show
         public void TemplateMethod()
         {
             BaseOperation();
-            RequiredOperations1();
-            RequiredOperation2();
-            Hook1();
+            RequiredOperations();
+            OptionalHook();
         }
-        // A common operation used by the template method.
-        void BaseOperation()
+        
+        protected void BaseOperation()
         {
-            Console.WriteLine("BaseOperation: Common operation for all subclasses");
+            Console.WriteLine("Base Operation: Common to all classes.");
         }
         
-        protected abstract void RequiredOperations1();
-        protected abstract void RequiredOperation2();
+        protected abstract void RequiredOperations();
         
-        // Hooks provide additional extension points in some parts of the algorithm.
-        protected virtual void Hook1() { }
+        protected virtual void OptionalHook()
+        {
+            // Default implementation
+            Console.WriteLine("Default This method is OPTIONAL.");
+        }
     }
 }
