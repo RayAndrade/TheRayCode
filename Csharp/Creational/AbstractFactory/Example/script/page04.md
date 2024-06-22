@@ -1,6 +1,6 @@
 [home](./page01.md) | [back](./page03.md) | [next](./page03.md)
 
-Concrete Product Classes:
+Let consider to **IProductA** and Concrete Product Classes:
 
 ```
 ConcreteProductA1
