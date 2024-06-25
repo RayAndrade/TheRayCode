@@ -17,4 +17,4 @@ return new ProductB1();
 ```
 
 
-[next](./page12.md) ***
+[next](./page12.md) 
