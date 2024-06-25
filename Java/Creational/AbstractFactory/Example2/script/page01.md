@@ -1,6 +1,6 @@
 [home](./page01.md) | [back](./page01.md) | [next](./page02.md)
 
-In the show I will be covering the **[patteren name]** pattern using **Java**
+In the show I will be covering the **Abstract Factory** pattern using **Java**
 
 **ItellaJ IDE**
 
