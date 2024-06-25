@@ -1,6 +1,6 @@
 namespace Show
 {
-    public class ConcreteProductA2: IProductA
+    public class ConcreteProductA2 : IProductA
     {
         public string FunctionA()
         {

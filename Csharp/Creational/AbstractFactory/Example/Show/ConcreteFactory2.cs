@@ -1,6 +1,6 @@
 namespace Show
 {
-    public class ConcreteFactory2 : IAbstractFactory
+    public class ConcreteFactory2: IAbstractFactory
     {
         public IProductA CreateProductA()
         {
