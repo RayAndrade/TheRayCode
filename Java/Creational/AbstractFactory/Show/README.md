@@ -57,7 +57,7 @@ class Parrot implements Animal {
     }
     @Override
     public String makeSound() {
-        return "Chirps";
+        return "Poly wanna cracker";
     }
 }
 ```
