@@ -12,7 +12,7 @@ To avoid dependency issues, create classes in the following order:
 
 **ConcreteFactory1.java** and **ConcreteFactory2.java**
 
-**Client.java**
+**Main.java**
 
 **Main.java**
 

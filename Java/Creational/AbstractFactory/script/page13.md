@@ -1,7 +1,7 @@
 [home](./page01.md) | [back](./page12.md) | [next](./page14.md)
 Create class
 ```
-Client
+Main
 ```
 with code
 
@@ -11,7 +11,7 @@ private AbstractProductB productB;
 ```
 and
 ```    
-public Client(AbstractFactory factory) {
+public Main(AbstractFactory factory) {
    productA = factory.createProductA();
    productB = factory.createProductB();
 }
