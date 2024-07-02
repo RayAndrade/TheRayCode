@@ -81,11 +81,13 @@ public interface AbstractFactory {
 ```
 
 #### ConcreteFactory1.java
+
 ```java
-public class ConcreteFactory1 implements AbstractFactory {
+public class ConcreteFactory1 {
     public AbstractProductA createProductA() {
         return new ProductA1();
     }
+
     public AbstractProductB createProductB() {
         return new ProductB1();
     }
@@ -93,11 +95,13 @@ public class ConcreteFactory1 implements AbstractFactory {
 ```
 
 #### ConcreteFactory2.java
+
 ```java
-public class ConcreteFactory2 implements AbstractFactory {
+public class ConcreteFactory2 {
     public AbstractProductA createProductA() {
         return new ProductA2();
     }
+
     public AbstractProductB createProductB() {
         return new ProductB2();
     }
