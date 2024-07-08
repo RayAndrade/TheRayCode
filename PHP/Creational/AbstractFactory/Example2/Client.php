@@ -1,6 +1,5 @@
 <?php
 require_once 'AbstractFactory.php';
-
 class Client
 {
     private AbstractProductA $productA;
@@ -15,5 +14,4 @@ class Client
         echo $this->productB->usefulFunctionB() . "\n";
         echo $this->productB->anotherUsefulFunctionB($this->productA) . "\n";
     }
-
 }
