@@ -1,15 +1,15 @@
 namespace Example
 {
-    public class ConcreteFactory2: IAbstractFactory
+    public class ConcreteFactory2 : AbstractFactory
     {
-        public IProductA CreateProductA()
+        public override AbstractProductA CreateProductA()
         {
-            return new ConcreteProductA2();
+            return new ProductA2();
         }
 
-        public IProductB CreateProductB()
+        public override AbstractProductB CreateProductB()
         {
-            return new ConcreteProductB2();
+            return new ProductB2();
         }
     }
 }

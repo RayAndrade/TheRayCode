@@ -40,15 +40,16 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="AbstractFactory.cs" />
+        <Compile Include="AbstractProductA.cs" />
+        <Compile Include="AbstractProductB.cs" />
+        <Compile Include="Client.cs" />
         <Compile Include="ConcreteFactory1.cs" />
         <Compile Include="ConcreteFactory2.cs" />
-        <Compile Include="ConcreteProductA1.cs" />
-        <Compile Include="ConcreteProductA2.cs" />
-        <Compile Include="ConcreteProductB1.cs" />
-        <Compile Include="ConcreteProductB2.cs" />
-        <Compile Include="IAbstractFactory.cs" />
-        <Compile Include="IProductA.cs" />
-        <Compile Include="IProductB.cs" />
+        <Compile Include="ProductA1.cs" />
+        <Compile Include="ProductA2.cs" />
+        <Compile Include="ProductB1.cs" />
+        <Compile Include="ProductB2.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
