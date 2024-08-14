@@ -11,7 +11,7 @@ class Client
     }
 
     public function run(): void {
-        echo $this->productB->usefulFunctionB() . "\n";
-        echo $this->productB->anotherUsefulFunctionB($this->productA) . "\n";
+        echo $this->productB->usefulFunctionB() . "<br/>\n";
+        echo $this->productB->anotherUsefulFunctionB($this->productA) . "<br/>\n";
     }
 }
