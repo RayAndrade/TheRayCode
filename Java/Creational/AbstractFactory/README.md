@@ -34,7 +34,8 @@ Java programmers should study the Abstract Factory Design Pattern for several re
 7. **Learning Design Principles:** Studying the Abstract Factory pattern introduces Java programmers to essential design principles, including abstraction, encapsulation, and separation of concerns. These principles have broader applicability beyond the pattern itself and contribute to better software design skills.
 
 **S.W.O.T.** Analysis of the Creational Pattern, Abstract Factory Design Pattern in Java
-Strengths
+
+**Strengths**
 
 **Encapsulation of Object Creation:** The Abstract Factory pattern encapsulates the creation logic of related objects, promoting a clean separation of concerns between object creation and business logic. This leads to more modular and maintainable code.
 
