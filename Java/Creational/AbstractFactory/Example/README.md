@@ -1,128 +1,199 @@
 
 [script](./script/page01.md)
 
-Here is a brief explanation of each class, abstract class and *interface* in the example:
+To implement the Abstract Factory Design Pattern in Java using OpenJDK-20, we’ll create a simple example involving a family of products: `Chair` and `Table` with different types (e.g., `Modern` and `Victorian`). The example follows the structure from the “Design Patterns” book by the Gang of Four.
 
-**Animal** (interface): This is the Abstract Product interface. All the animals (dogs, cats, birds) implement this interface. They have a species name and a way to make sound.
+The pattern will include:
+1. Abstract product interfaces for `Chair` and `Table`.
+2. Concrete product classes for different types of chairs and tables (e.g., `ModernChair`, `VictorianChair`, `ModernTable`, and `VictorianTable`).
+3. An abstract factory interface called `FurnitureFactory` and concrete factories for creating the products.
+4. A `Main` class to demonstrate the pattern.
 
-**Labrador**, **PersianCat**, **Parrot** (classes): These are the Concrete Products, which implement the Animal interface. They provide specific implementations for the getSpecies and makeSound methods.
+### Class Creation Order
 
-**AnimalFactory** (*interface*): This is the Abstract Factory interface. It has a method createAnimal that returns an Animal object.
+1. **Chair.java** - Interface for chairs.
+2. **Table.java** - Interface for tables.
+3. **ModernChair.java** - Concrete implementation of `Chair`.
+4. **VictorianChair.java** - Concrete implementation of `Chair`.
+5. **ModernTable.java** - Concrete implementation of `Table`.
+6. **VictorianTable.java** - Concrete implementation of `Table`.
+7. **FurnitureFactory.java** - Interface for the abstract factory.
+8. **ModernFurnitureFactory.java** - Concrete factory for creating modern furniture.
+9. **VictorianFurnitureFactory.java** - Concrete factory for creating Victorian furniture.
+10. **Main.java** - Demonstrates the pattern.
 
-**DogFactory**, **CatFactory**, **BirdFactory** (classes): These are the Concrete Factories, which implement the AnimalFactory interface. They provide a specific implementation for the createAnimal method, creating and returning an instance of a particular type of animal.
+### 1. Chair.java
 
-
-package AbstractFactory;
-
-// Abstract product
-```
-interface Animal {
-    String getSpecies();
-    String makeSound();
+```java
+// Chair.java
+public interface Chair {
+    void sitOn();
 }
 ```
 
-// Concrete product - Dog family
-```
-class Labrador implements Animal {
-    @Override
-    public String getSpecies() {
-        return "Labrador";
-    }
-    @Override
-    public String makeSound() {
-        return "Barks";
-    }
+**Explanation:**  
+- This interface defines a common method `sitOn()` for all chair types.
+
+### 2. Table.java
+
+```java
+// Table.java
+public interface Table {
+    void placeItems();
 }
 ```
-// Concrete product - Cat family
-```
-class PersianCat implements Animal {
+
+**Explanation:**  
+- This interface defines a common method `placeItems()` for all table types.
+
+### 3. ModernChair.java
+
+```java
+// ModernChair.java
+public class ModernChair implements Chair {
     @Override
-    public String getSpecies() {
-        return "Persian Cat";
-    }
-    @Override
-    public String makeSound() {
-        return "Meows";
-    }
-}
-```
-// Concrete product - Bird family
-```
-class Parrot implements Animal {
-    @Override
-    public String getSpecies() {
-        return "Parrot";
-    }
-    @Override
-    public String makeSound() {
-        return "Poly wanna cracker";
+    public void sitOn() {
+        System.out.println("Sitting on a modern chair.");
     }
 }
 ```
 
-// Abstract Factory
-```
-interface AnimalFactory {
-    Animal createAnimal();
-}
-```
+**Explanation:**  
+- This class implements the `Chair` interface and provides behavior specific to a modern chair.
 
-// Concrete Factory - Dog family
-```
-class DogFactory implements AnimalFactory {
+### 4. VictorianChair.java
+
+```java
+// VictorianChair.java
+public class VictorianChair implements Chair {
     @Override
-    public Animal createAnimal() {
-        return new Labrador();
-    }
-}
-```
-// Concrete Factory - Cat family
-```
-class CatFactory implements AnimalFactory {
-    @Override
-    public Animal createAnimal() {
-        return new PersianCat();
-    }
-}
-```
-// Concrete Factory - Bird family
-```
-class BirdFactory implements AnimalFactory {
-    @Override
-    public Animal createAnimal() {
-        return new Parrot();
+    public void sitOn() {
+        System.out.println("Sitting on a Victorian chair.");
     }
 }
 ```
 
-Interfaces
+**Explanation:**  
+- This class implements the `Chair` interface and provides behavior specific to a Victorian chair.
 
-Animal: This interface is the abstract definition of what all "animals" should be able to do -- every animal should have a species and should be able to make a sound. This is a contract that all classes implementing this interface must fulfill.
-Concrete Classes
+### 5. ModernTable.java
 
-**Labrador**, **PersianCat**, **Parrot**: These are concrete classes that implement the **Animal interface**. They provide the specific behaviors for the abstract methods defined in the interface.
+```java
+// ModernTable.java
+public class ModernTable implements Table {
+    @Override
+    public void placeItems() {
+        System.out.println("Placing items on a modern table.");
+    }
+}
+```
 
-**Labrador** is a type of dog and hence it implements the Animal interface and defines the getSpecies method to return "Labrador" and makeSound method to return "Barks".
+**Explanation:**  
+- This class implements the `Table` interface and provides behavior specific to a modern table.
 
-**PersianCat** is a type of cat and hence it also implements the Animal interface, but in this case, getSpecies returns "Persian Cat" and makeSound returns "Meows".
+### 6. VictorianTable.java
 
-**Parrot** is a bird and it too implements the Animal interface. For this class, getSpecies returns "Parrot" and makeSound returns "Chirps".
+```java
+// VictorianTable.java
+public class VictorianTable implements Table {
+    @Override
+    public void placeItems() {
+        System.out.println("Placing items on a Victorian table.");
+    }
+}
+```
 
-**Abstract Factory** Interface
+**Explanation:**  
+- This class implements the `Table` interface and provides behavior specific to a Victorian table.
 
-**AnimalFactory**: This is an interface for the factories that produce animals. It provides an abstract createAnimal method, which should be implemented by any class that intends to be an "animal factory".
+### 7. FurnitureFactory.java
 
-*Concrete* Factory Classes
+```java
+// FurnitureFactory.java
+public interface FurnitureFactory {
+    Chair createChair();
+    Table createTable();
+}
+```
 
-**DogFactory**, **CatFactory**, **BirdFactory**: These are concrete implementations of the AnimalFactory interface.
+**Explanation:**  
+- This interface defines the methods `createChair()` and `createTable()` for creating products.
 
-**DogFactory** implements the createAnimal method from AnimalFactory to create an instance of Labrador.
+### 8. ModernFurnitureFactory.java
 
-**CatFactory** also implements the createAnimal method but in this case, it creates an instance of PersianCat.
+```java
+// ModernFurnitureFactory.java
+public class ModernFurnitureFactory implements FurnitureFactory {
+    @Override
+    public Chair createChair() {
+        return new ModernChair();
+    }
 
-**BirdFactory** is another concrete factory that implements createAnimal to create an instance of Parrot.
+    @Override
+    public Table createTable() {
+        return new ModernTable();
+    }
+}
+```
 
-These factories encapsulate the creation of specific animals, and client code interacts with the factories to create animals, rather than creating them directly. This follows the principle of programming to an interface, not an implementation, allowing the client code to remain decoupled from the specific animal classes, which provides flexibility in adding new animal types in the future without modifying existing client code.
+**Explanation:**  
+- This concrete factory implements the `FurnitureFactory` interface and creates modern versions of `Chair` and `Table`.
 
+### 9. VictorianFurnitureFactory.java
+
+```java
+// VictorianFurnitureFactory.java
+public class VictorianFurnitureFactory implements FurnitureFactory {
+    @Override
+    public Chair createChair() {
+        return new VictorianChair();
+    }
+
+    @Override
+    public Table createTable() {
+        return new VictorianTable();
+    }
+}
+```
+
+**Explanation:**  
+- This concrete factory implements the `FurnitureFactory` interface and creates Victorian versions of `Chair` and `Table`.
+
+### 10. Main.java
+
+```java
+// Main.java
+public class Main {
+    public static void main(String[] args) {
+        FurnitureFactory modernFactory = new ModernFurnitureFactory();
+        FurnitureFactory victorianFactory = new VictorianFurnitureFactory();
+
+        Chair modernChair = modernFactory.createChair();
+        Table modernTable = modernFactory.createTable();
+        Chair victorianChair = victorianFactory.createChair();
+        Table victorianTable = victorianFactory.createTable();
+
+        modernChair.sitOn();
+        modernTable.placeItems();
+        victorianChair.sitOn();
+        victorianTable.placeItems();
+    }
+}
+```
+
+**Explanation:**  
+- This class demonstrates the Abstract Factory Pattern by creating instances of `ModernFurnitureFactory` and `VictorianFurnitureFactory`.
+- It then uses these factories to create different types of chairs and tables and calls their methods.
+
+### Running the Code
+
+When you run the code, you should see the following output:
+
+```
+Sitting on a modern chair.
+Placing items on a modern table.
+Sitting on a Victorian chair.
+Placing items on a Victorian table.
+```
+
+This output verifies that the abstract factories are correctly creating the different types of products according to the specified type (`Modern` or `Victorian`). Each product’s behavior is implemented separately, and the factory classes manage the creation process, keeping client code (`Main`) simple and decoupled from specific product implementations.
