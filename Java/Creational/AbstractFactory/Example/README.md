@@ -1,6 +1,8 @@
 
 [script](./script/page01.md)
 
+Target net8.0 from SDK 8.0
+
 To implement the Abstract Factory Design Pattern in Java using OpenJDK-20, we’ll create a simple example involving a family of products: `Chair` and `Table` with different types (e.g., `Modern` and `Victorian`). The example follows the structure from the “Design Patterns” book by the Gang of Four.
 
 The pattern will include:
