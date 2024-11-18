@@ -14,7 +14,7 @@
 
 
 ### **What is the Builder Pattern?**
-The Builder Pattern is a **Creational Design Pattern** that constructs complex objects step-by-step, separating the construction process from the object’s representation. It’s widely applicable in object-oriented programming languages like C#, Java, and PHP.
+The Builder Pattern is a **Creational Design Pattern** that constructs complex objects step-by-step, separating the construction process from the object’s representation. It’s widely applicable in object-oriented programming languages like C#P.
 
 ---
 
