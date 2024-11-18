@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class IndianMealFactory implements MainCourse {
 
-public class IndianMealFactory {
+    @Override
+    public void serve() {
+
+    }
 }

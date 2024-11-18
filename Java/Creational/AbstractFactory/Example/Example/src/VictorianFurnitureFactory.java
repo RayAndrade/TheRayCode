@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class VictorianFurnitureFactory  implements FurnitureFactory {
+    @Override
+    public Chair createChair() {
+        return new VictorianChair();
+    }
 
-public class VictorianFurnitureFactory {
+    @Override
+    public Table createTable() {
+        return new VictorianTable();
+    }
 }

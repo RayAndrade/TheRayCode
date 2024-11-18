@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class ModernFurnitureFactory implements FurnitureFactory {
+    @Override
+    public Chair createChair() {
+        return new ModernChair();
+    }
 
-public class ModernFurnitureFactory {
+    @Override
+    public Table createTable() {
+        return new ModernTable();
+    }
 }

@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
-public class ItalianDessert {
+public class ItalianDessert implements Dessert {
+    @Override
+    public void serve() {
+        System.out.println("Serving an Italian tiramisu dessert.");
+    }
 }

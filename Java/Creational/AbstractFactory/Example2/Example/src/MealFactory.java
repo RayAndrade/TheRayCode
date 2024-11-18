@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
-public class MealFactory {
+public interface MealFactory {
+    MainCourse createMainCourse();
+    Dessert createDessert();
 }

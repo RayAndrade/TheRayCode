@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
 public interface FurnitureFactory {
+    Chair createChair();
+    Table createTable();
 }

@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class ItalianMealFactory implements MealFactory  {
+    @Override
+    public MainCourse createMainCourse() {
+        return new ItalianMainCourse();
+    }
 
-public class ItalianMealFactory {
+    @Override
+    public Dessert createDessert() {
+        return new ItalianDessert();
+    }
 }

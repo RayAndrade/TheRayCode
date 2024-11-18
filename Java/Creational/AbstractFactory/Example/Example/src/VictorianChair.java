@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
-public class VictorianChair {
+public class VictorianChair implements Chair {
+    @Override
+    public void sitOn() {
+        System.out.println("Sitting on a modern chair.");
+    }
 }
