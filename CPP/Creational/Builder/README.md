@@ -70,7 +70,7 @@ In conclusion, the Builder pattern offers a structured approach to constructing 
 
 This analysis highlights both practical and educational aspects of the Builder pattern in C++.
 
-TheRayCode.ORG](https://www.TheRayCode.org)
+[TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
