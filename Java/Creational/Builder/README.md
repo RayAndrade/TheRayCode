@@ -12,7 +12,7 @@
 
 **Java Builder Design Pattern**
 
-[**Example1**](Example1/README.md)
+[**Example1**](Example1/README.md) [**Example2**](Example2/README.md)
 
 
 ### **What is the Builder Pattern?**
