@@ -37,8 +37,7 @@ The Singleton Design Pattern falls under the creational design pattern category.
 
 Given C#'s robust object-oriented capabilities and its extensive use in enterprise-level applications, understanding the Singleton Design Pattern can help developers ensure consistency, optimize resources, and create more maintainable software. Familiarity with this pattern allows C# developers to tackle common software challenges more effectively.
 
-
-### **S.W.O.T. Analysis of the Proxy Pattern in C#**
+### **S.W.O.T. Analysis of the Singleton Pattern in C#**
 
 **Strengths**  
 1. **Global Access**: Ensures a single instance of a class, providing global access to it.  
