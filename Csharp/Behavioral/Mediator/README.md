@@ -39,7 +39,7 @@ The Mediator Design Pattern introduces an intermediary object, known as the medi
 In conclusion, for C# developers, the Mediator Design Pattern is a valuable tool, especially when building complex systems where numerous components need to interact. It provides a systematic approach to handle these interactions, ensuring that the software remains modular, extendable, and maintainable. Given C#'s wide application spectrum, from web services to desktop applications, the Mediator pattern offers a strategy to build scalable and organized solutions efficiently.
 
 
-### **S.W.O.T. Analysis of the Mediator Pattern in C#**
+### **S.W.O.T. Analysis of the Mediator Design Pattern in C#**
 
 **Strengths**  
 1. **Centralized Communication**: Simplifies interactions between multiple objects by centralizing communication logic.  
