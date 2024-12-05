@@ -39,7 +39,7 @@ The Memento Design Pattern provides a mechanism to capture an object's internal 
 In conclusion, the Memento Design Pattern is a valuable tool in a C# developer's arsenal. Given the diverse application landscape of C# ranging from desktop applications to games to enterprise-level software, state management is a recurrent theme. Understanding and applying the Memento pattern ensures C# developers approach such problems with an efficient, consistent, and structured methodology.
 
 
-### **S.W.O.T. Analysis of the Memento Pattern in C#**
+### **S.W.O.T. Analysis of the Memento Design Pattern in C#**
 
 **Strengths**  
 1. **State Preservation**: Facilitates undo/redo operations by saving object states without violating encapsulation.  
