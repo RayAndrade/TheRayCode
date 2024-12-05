@@ -38,7 +38,7 @@ The Iterator Design Pattern offers a mechanism to access the elements of a colle
 
 In conclusion, the Iterator Design Pattern is foundational for C# programmers due to its deep integration within the .NET ecosystem. As C# is widely used for diverse applications, from web development to desktop software, understanding the Iterator pattern equips developers with a robust tool to handle collections efficiently. It provides a harmonized way to access data, ensuring that software remains adaptable, maintainable, and in line with best practices.
 
-### **S.W.O.T. Analysis of the Iterator Pattern in C#**
+### **S.W.O.T. Analysis of the Iterator Design Pattern in C#**
 
 **Strengths**  
 1. **Unified Access**: Provides a consistent way to iterate over collections without exposing internal structure.  
