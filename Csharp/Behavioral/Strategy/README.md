@@ -41,7 +41,7 @@ The Strategy Design Pattern is a behavioral design pattern that defines a family
 In summation, for C# developers, understanding the Strategy Design Pattern is pivotal. It offers a blueprint for designing more modular, flexible, and testable applications. Whether building desktop applications with WPF, web applications with ASP.NET, or any other kind of software with C#, the Strategy pattern provides a robust approach to manage and encapsulate varying behaviors. Familiarity with this pattern can significantly enhance a developer's toolkit, enabling the crafting of elegant and adaptable C# applications.
 
 
-### **S.W.O.T. Analysis of the Strategy Pattern in C#**
+### **S.W.O.T. Analysis of the Strategy Design Pattern in C#**
 
 **Strengths**  
 1. **Behavior Isolation**: Encapsulates algorithms, making them interchangeable without affecting clients.  
