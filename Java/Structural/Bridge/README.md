@@ -44,7 +44,6 @@ In summary, for Java developers, understanding and applying the Bridge Design Pa
 
 ### **Structural Patterns**
 
-#### **7. Bridge**
 **Strengths**  
 1. **Decoupling**: Decouples abstraction from implementation, allowing independent evolution of both.  
 2. **Extensibility**: Adding new abstractions or implementations is straightforward without modifying existing code.  
