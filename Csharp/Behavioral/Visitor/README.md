@@ -39,7 +39,7 @@ The Visitor Design Pattern is a behavioral design pattern that lets you add furt
 In conclusion, the Visitor Design Pattern offers a way for C# programmers to structure their applications in a manner that facilitates easier extension, maintenance, and separation of concerns. Given C#'s object-oriented nature and its widespread use in enterprise-level applications, understanding and utilizing the Visitor pattern can greatly benefit the design and organization of software projects.
 
 
-### **S.W.O.T. Analysis of the Visitor Pattern in C#**
+### **S.W.O.T. Analysis of the Visitor Design Pattern in C#**
 
 
 **Strengths**  
