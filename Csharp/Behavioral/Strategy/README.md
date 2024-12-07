@@ -59,9 +59,7 @@ In summation, for C# developers, understanding the Strategy Design Pattern is pi
 3. **Plug-in Frameworks**: Ideal for extending plug-in-based architectures.
 
 **Threats**  
-1. **Overuse**: Misapplied in systems with limited algorithm
-
-ic variations.  
+1. **Overuse**: Misapplied in systems with limited algorithmic variations.  
 2. **Mismanagement**: Improper organization can lead to hard-to-navigate codebases.  
 3. **Simpler Options**: Factory or Template Method might address certain use cases.
 
