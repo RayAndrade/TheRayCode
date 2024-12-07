@@ -38,6 +38,31 @@ The Memento Design Pattern is about capturing and storing the current state of a
 
 In essence, for Java programmers, the Memento Design Pattern offers a systematic approach to a common problem - managing object states. Given Java's widespread use across various types of applications, from enterprise software to Android apps, understanding the Memento pattern equips developers with a valuable tool to address state management challenges efficiently and consistently. It's an integral part of the repertoire for a seasoned Java developer aiming for scalable and maintainable solutions.
 
+### **S.W.O.T. Analysis of the Memento Design Pattern in Java**
+
+**Strengths**  
+1. **State Preservation**: Stores snapshots of object states for later restoration.  
+2. **Encapsulation**: Maintains state integrity without exposing implementation details.  
+3. **Undo/Redo**: Facilitates undo/redo operations in Java applications.
+
+**Weaknesses**  
+1. **Memory Usage**: Storing multiple mementos for complex objects can consume significant memory.  
+2. **Serialization Complexity**: Managing deep object hierarchies adds complexity.  
+3. **Limited Applicability**: Primarily useful for stateful systems requiring rollback features.
+
+**Opportunities**  
+1. **Gaming Checkpoints**: Commonly used in games to save progress or states.  
+2. **Transaction Systems**: Helps in restoring states after failed transactions.  
+3. **GUI Applications**: Useful for undo/redo functionality in UI systems.
+
+**Threats**  
+1. **Overhead**: Excessive memento storage can degrade performance.  
+2. **Alternative Techniques**: Java serialization or versioning might suffice for state management.  
+3. **Misuse**: Applying mementos where unnecessary may lead to inefficient designs.
+
+---
+
+
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
