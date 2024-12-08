@@ -33,7 +33,6 @@ In summary, the Flyweight pattern is a tool that can significantly optimize the 
 
 ### **S.W.O.T. Analysis of the Flyweight Design Pattern for C++**
 
-#### **11. Flyweight**
 **Strengths**  
 1. **Memory Efficiency**: Shares common intrinsic data between objects, significantly reducing memory usage in C++ systems.  
 2. **Centralized State**: Promotes centralized management of shared data, ensuring consistency across objects.  
