@@ -37,6 +37,30 @@ However, it's essential to recognize potential pitfalls. If not used judiciously
 
 In conclusion, the Memento pattern offers a structured way to capture and restore object states without breaking encapsulation. For a C++ developer, understanding this pattern can be essential when designing systems where state restoration, like undo/redo functionality, is a requirement. It allows for this capability in a manner that maintains the integrity and design principles of the object-oriented paradigm.
 
+### **S.W.O.T. Analysis of the Memento Design Pattern for C++**
+
+**Strengths**  
+1. **State Preservation**: Saves object states for rollback, undo, or state restoration without exposing internal details.  
+2. **Encapsulation**: Ensures that only the originator can access and manipulate its mementos.  
+3. **Undo/Redo Capability**: Supports advanced features like undo and redo in user interfaces or workflows.
+
+**Weaknesses**  
+1. **Memory Overhead**: Storing multiple mementos for large or complex objects can consume significant memory.  
+2. **Serialization Complexity**: Requires additional effort for deep copies or nested object hierarchies.  
+3. **Limited Applicability**: Primarily useful for stateful systems needing explicit rollback functionality.
+
+**Opportunities**  
+1. **Gaming Systems**: Saves checkpoints or progress in games developed using C++.  
+2. **Transactional Systems**: Facilitates rollback in database or file transactions.  
+3. **Version Control**: Implements lightweight version control mechanisms for user-generated content.
+
+**Threats**  
+1. **Resource Constraints**: Excessive state storage may degrade performance in memory-constrained environments.  
+2. **Simpler Alternatives**: Serialization or snapshots might offer simpler solutions for some scenarios.  
+3. **State Management Issues**: Mismanagement of mementos may lead to inconsistent behavior.
+
+---
+
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
