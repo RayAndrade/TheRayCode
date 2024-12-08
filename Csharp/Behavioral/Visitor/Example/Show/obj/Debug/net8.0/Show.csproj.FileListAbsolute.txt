@@ -1,0 +1,15 @@
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Visitor/Example/Show/bin/Debug/net8.0/Show
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Visitor/Example/Show/bin/Debug/net8.0/Show.deps.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Visitor/Example/Show/bin/Debug/net8.0/Show.runtimeconfig.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Visitor/Example/Show/bin/Debug/net8.0/Show.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Visitor/Example/Show/bin/Debug/net8.0/Show.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Visitor/Example/Show/obj/Debug/net8.0/Show.GeneratedMSBuildEditorConfig.editorconfig
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Visitor/Example/Show/obj/Debug/net8.0/Show.AssemblyInfoInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Visitor/Example/Show/obj/Debug/net8.0/Show.AssemblyInfo.cs
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Visitor/Example/Show/obj/Debug/net8.0/Show.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Visitor/Example/Show/obj/Debug/net8.0/Show.sourcelink.json
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Visitor/Example/Show/obj/Debug/net8.0/Show.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Visitor/Example/Show/obj/Debug/net8.0/refint/Show.dll
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Visitor/Example/Show/obj/Debug/net8.0/Show.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Visitor/Example/Show/obj/Debug/net8.0/Show.genruntimeconfig.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Visitor/Example/Show/obj/Debug/net8.0/ref/Show.dll

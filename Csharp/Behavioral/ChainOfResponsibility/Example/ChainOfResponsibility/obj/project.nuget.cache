@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "tbjg0AGTbxv4/tI5PKQLgpbfEw37evT10jDSlpn2X20AL8HxcOq4IrdvhV4xJt4pzlSH5si4LfL+IID6gT6SEw==",
+  "dgSpecHash": "yLVD947e/lE=",
   "success": true,
-  "projectFilePath": "/home/ray/TheRayCode/TheRayCode/Csharp/ChainOfResponsibility/ChainOfResponsibility/ChainOfResponsibility.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/ChainOfResponsibility/Example/ChainOfResponsibility/ChainOfResponsibility.csproj",
+  "expectedPackageFiles": [
+    "/home/ray/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0/microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
+    "/home/ray/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "/home/ray/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/ray/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/home/ray/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.32/microsoft.netcore.app.host.linux-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }

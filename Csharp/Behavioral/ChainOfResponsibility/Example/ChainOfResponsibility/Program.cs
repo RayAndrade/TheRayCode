@@ -8,7 +8,6 @@ namespace ChainOfResponsibility
         static void Main(string[] args)
         {
             Console.WriteLine("Subchain: Dog > Cat\n");
-            Client.ClientCode(cat);
         }
     }
 }
