@@ -44,8 +44,8 @@ The Proxy Design Pattern provides a surrogate or placeholder for another object 
 
 In conclusion, the Proxy Design Pattern provides PHP developers with a robust tool to control and manage access to objects in an efficient and modular way. While not every application will require its use, understanding the Proxy pattern can offer insights and strategies for a multitude of common programming challenges. Being equipped with this knowledge can significantly enhance the versatility and problem-solving capabilities of a PHP developer.
 
+### **S.W.O.T. Analysis of Flyweight Design Patterns for PHP**
 
-#### **12. Proxy**
 **Strengths**  
 1. **Access Control**: Restricts access to sensitive resources, enhancing security in PHP applications.  
 2. **Lazy Loading**: Optimizes performance by deferring resource-heavy initializations until absolutely necessary.  
