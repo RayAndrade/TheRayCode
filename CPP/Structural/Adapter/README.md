@@ -40,7 +40,6 @@ In summary, understanding the Adapter design pattern equips a C++ developer with
 
 ### **S.W.O.T. Analysis of the Adapter Design Patterns for C++**
 
-#### **6. Adapter**
 **Strengths**  
 1. **Compatibility**: Makes incompatible interfaces work together, enabling seamless integration with legacy systems in C++.  
 2. **Code Reuse**: Leverages existing implementations without modifying their internal structure.  
