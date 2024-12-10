@@ -39,3 +39,42 @@ What you shoud see at the browser
 ```
 whole grain, turkey, swiss, lettuce, tomato, onions
 ```
+
+
+Now let's create the **SandwichBuilder**
+
+```
+class SandwichBuilder
+{
+    private $bread;
+    private $meat;
+    private $cheese;
+    private $veggies;
+
+    function setBread($bread) {
+        $this->bread = $bread;
+        return $this;
+    }
+
+    function setMeat($meat) {
+        $this->meat = $meat;
+        return $this;
+    }
+
+    function setCheese($cheese) {
+        $this->cheese = $cheese;
+        return $this;
+    }
+
+    function setVeggies($veggies) {
+        $this->veggies = $veggies;
+        return $this;
+    }
+
+    function build() {
+        return new Sandwich($this->bread, $this->meat, $this->cheese, $this->veggies);
+    }
+
+}
+```
+
