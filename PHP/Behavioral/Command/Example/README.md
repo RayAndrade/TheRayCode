@@ -153,6 +153,8 @@ Receiver: Working on (Send email.)
 Receiver: Also working on (Save report.)
 ```
 The Ray Code is AWESOME!!!
+
+
 [Wikipedia](https://en.wikipedia.org/wiki/Command_pattern)
 
 ----------------------------------------------------------------------------------------------------
