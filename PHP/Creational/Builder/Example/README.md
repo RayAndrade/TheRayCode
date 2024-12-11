@@ -15,7 +15,7 @@ private $meat;
 private $cheese;
 private $veggies;
 ```
-add the **function __construct**er
+add the **function __construct**
 
 ```
 function __construct($bread, $meat, $cheese, $veggies) {
