@@ -12,31 +12,11 @@
 
 [Example](Example/README.md) [Deep](Deep/README.md) [Shallow](Shallow/README.md) [Example2](Example2/README.md) 
 
-<<<<<<< HEAD
 ### **What is the Prototype design pattern?**
 The Prototype design pattern is a creational pattern that allows you to clone objects, creating new ones based on an existing instance. In PHP, this involves implementing the `__clone()` method, enabling efficient object duplication without relying on class constructors.
 
-Seven Reasons why a PHP devepler should study the Prototype design pattern:
-=======
-**What is the Prototype design pattern in Java?**
+### **Reasons why a PHP devepler should study the Prototype design pattern:**
 
-The Prototype design pattern is a creational pattern that allows you to clone objects, creating new ones based on an existing instance. In PHP, this involves implementing the `__clone()` method, enabling efficient object duplication without relying on class constructors.
->>>>>>> 34b6b006 (*)
-
-1. **Object Cloning Simplified**: The Prototype pattern simplifies object creation by duplicating existing objects, avoiding the complexity of initializing through constructors.
-
-<<<<<<< HEAD
-2. **Performance Optimization**: By cloning prototypes, you reduce overhead in creating complex objects, which is beneficial in PHP for improving runtime performance.
-
-3. **Dynamic Object Configurations**: It allows for creating multiple object configurations efficiently, ideal for scenarios like theme systems or dynamic templates in PHP.
-
-4. **Decouples Class Hierarchies**: Using prototypes reduces dependency on subclass hierarchies, offering more flexibility in extending or modifying object behavior.
-
-5. **Reduces Code Duplication**: PHP developers can reuse existing objects as prototypes, minimizing repetitive instantiation logic and streamlining codebases.
-
-6. **Easy Integration**: PHP’s built-in `__clone()` method supports the Prototype pattern, making it easy to implement without requiring additional libraries or frameworks.
-
-=======
 1. **Object Cloning Simplified**: The Prototype pattern simplifies object creation by duplicating existing objects, avoiding the complexity of initializing through constructors.
 
 2. **Performance Optimization**: By cloning prototypes, you reduce overhead in creating complex objects, which is beneficial in PHP for improving runtime performance.
@@ -49,7 +29,6 @@ The Prototype design pattern is a creational pattern that allows you to clone ob
 
 6. **Easy Integration**: PHP’s built-in `__clone()` method supports the Prototype pattern, making it easy to implement without requiring additional libraries or frameworks.
 
->>>>>>> 34b6b006 (*)
 7. **Supports Prototype Registries**: Developers can use a prototype registry to store and retrieve pre-configured objects, boosting efficiency in repetitive tasks like form element generation.
 
 ### **S.W.O.T. Analysis of Prototype Design Patterns for PHP**
