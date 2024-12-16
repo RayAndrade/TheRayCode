@@ -12,8 +12,7 @@
 
 [Example](Example/README.md) [Deep](Deep/README.md) [Shallow](Shallow/README.md) [Example2](Example2/README.md) 
 
-
-### **What is the design pattern call Prototype?**
+### **What is the Prototype design pattern?**
 The Prototype design pattern is a creational pattern that allows you to clone objects, creating new ones based on an existing instance. In PHP, this involves implementing the `__clone()` method, enabling efficient object duplication without relying on class constructors.
 
 Seven Reasons why a PHP devepler should study the Prototype design pattern:
