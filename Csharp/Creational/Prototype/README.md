@@ -10,7 +10,7 @@
 |---|---|---|---|
 |  [**Prototype**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**Java**](../../../Java/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
 
-[Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)  
+[Example2](Example2/README.md) | [Example3](Example3/README.md)  
 
 The "Prototype design pattern" is a creational design pattern used in software development when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects. This pattern is particularly useful in scenarios where the cost of creating an object is significant and there is a need for an efficient way of creating multiple instances of a class.
 
