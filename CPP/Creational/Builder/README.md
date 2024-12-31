@@ -34,6 +34,38 @@ Here are seven reasons why a C++ programmer would benefit from learning and stud
 
 In conclusion, the Builder pattern offers a structured approach to constructing complex objects. For a C++ developer, understanding this pattern can lead to cleaner, more readable, and maintainable code, especially when dealing with intricate object creation scenarios.
 
+## Structrue
+
+**Builder** specifies an abstract interface fir creating parts of a **Product** object.
+
+**ConcreteBuilder** conatructs and assembles parts of the product by implementing the **Builder**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### **S.W.O.T. Analysis of the Builder Design Pattern in C++**
