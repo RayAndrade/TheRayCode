@@ -39,8 +39,10 @@ In conclusion, the Builder pattern offers a structured approach to constructing 
 **Builder** specifies an abstract interface fir creating parts of a **Product** object.
 
 **ConcreteBuilder** conatructs and assembles parts of the product by implementing the **Builder** interface.
-Defines and Keeps track of the representation it creates.
-Provides an interface for retriving the product.
+
+* Defines and Keeps track of the representation it creates.
+
+* Provides an interface for retriving the product.
 
 
 
