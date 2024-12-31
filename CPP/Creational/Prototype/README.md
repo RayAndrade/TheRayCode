@@ -40,42 +40,15 @@ In summary, the Prototype design pattern provides C++ developers with a mechanis
 **Prototype** 
 * Declares an interface for *cloning* itself.
 
+**ConcretePrototype**
+* Implements an operation for cloning itself. 
 
+**Client**
+* Creates a new object by asking a prototype to clone itself.
 
+## Collaborations
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+A **Client** asks a prototype to clone itself.
 
 ### **S.W.O.T. Analysis of the Prototype Design Patterns for C++**
 
