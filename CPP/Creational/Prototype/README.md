@@ -35,6 +35,48 @@ The essence of the Prototype pattern is to avoid the overhead of creating an obj
 
 In summary, the Prototype design pattern provides C++ developers with a mechanism to optimize object creation, manage memory efficiently, and introduce dynamic instantiation, leading to more flexible and efficient applications. Understanding this pattern is beneficial when dealing with situations where repeated and efficient object instantiation is paramount.
 
+## Structure
+
+**Prototype** 
+* Declares an interface for *cloning* itself.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### **S.W.O.T. Analysis of the Prototype Design Patterns for C++**
 
 **Strengths**  
