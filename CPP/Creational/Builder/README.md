@@ -52,34 +52,10 @@ In conclusion, the Builder pattern offers a structured approach to constructing 
 * Includes classes including interfaces that define the consitituent parts into the final result.
 
 ## Collaborations
-* The Client creates the Director and configures it with the desired Builder object
-* Director notifies the Builder whenever the product is built
-* The client retrives the Product from the Builder
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* The **Client** creates the **Director** and configures it with the desired **Builder** object
+* **Director** notifies the **Builder** whenever the product should be built.
+* **Builder** handles requests from the **Director** and adds pards tothe **Product**.
+* The **Client** retrives the **Product** from the **Builder**
 
 ### **S.W.O.T. Analysis of the Builder Design Pattern in C++**
 
