@@ -36,6 +36,41 @@ The primary intention behind the Singleton pattern is to maintain a single insta
 
 In conclusion, for C++ developers, the Singleton design pattern provides a structured methodology to ensure a single instance of a class, which can be critical for resource management, maintaining global state, and optimizing performance. Understanding this pattern is beneficial when there's a need to centrally manage resources or state across different parts of an application.
 
+## Structure
+
+**Singleton**
+* Defines an Instance that lets clients access its unique instance. Instance is a class operation.
+
+## Collaborations
+
+Clients access a Singleton instance soley
+cLIETS ACCESS A sINGLETON INSTANCE SOLEY THOUGH sINGLTON'S iNSTANCE OPERATION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### **S.W.O.T. Analysis of the Singleton Design Patterns for C++**
 
 **Strengths**  
