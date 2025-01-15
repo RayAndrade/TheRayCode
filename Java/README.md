@@ -102,43 +102,43 @@ Structural patterns deal with object and class composition, enabling flexible an
 #### *Definition:*  
 Behavioral patterns focus on communication and interactions between objects, enabling dynamic and scalable systems.
 
-1. **Chain of Responsibility**  
+1. **[Chain of Responsibility](./Behavioral/ChainOfResponsibility/README.md)**  
    Passes requests along a chain of handlers until one handles it. Java’s `Servlet` filters and logging frameworks like Log4j implement this pattern. Ideal for flexible processing pipelines.
 
-2. **Command**  
+2. **[Command](./Behavioral/Command/README.md)**  
    Encapsulates a request as an object, enabling parameterization and queuing. Java’s `Runnable` interface and thread management tools are classic examples. Useful for undo/redo operations.
 
-3. **Interpreter**  
+3. **[Interpreter](./Behavioral/Interpreter/README.md)**  
    Defines a grammar and interprets sentences. Java’s `Pattern` class and regular expression libraries implement this concept. Ideal for creating mini-languages or DSLs.
 
-4. **Iterator**  
+4. **[Iterator](./Behavioral/Iterator/README.md)**  
    Provides a standard way to traverse collections without exposing their internal details. Java’s `Iterator` interface is the quintessential example. Commonly used in `java.util` collections.
 
-5. **Mediator**  
+5. **[Mediator](./Behavioral/Mediator/README.md)**  
    Centralizes communication between objects. Java’s event-driven programming model, such as in JavaFX, naturally applies this pattern. Useful in chatroom implementations or UI coordination.
 
-6. **Memento**  
+6. **[Memento](./Behavioral/Memento/README.md)**  
    Captures and restores an object’s state. Java’s `Serializable` interface can be used to implement this pattern. Ideal for undo systems or state management.
 
-7. **Observer**  
+7. **[Observer](./Behavioral/Observer/README.md)**  
    Establishes a one-to-many dependency between objects so that when one changes, all are notified. Java’s `Observer` interface (deprecated but illustrative) and event listeners exemplify this pattern.
 
-8. **State**  
+8. **[State](./Behavioral/State/README.md)**  
    Allows an object to alter its behavior when its internal state changes. Java’s `javax.swing` components use this pattern for stateful rendering. Perfect for state machines or mode-dependent behavior.
 
-9. **Strategy**  
+9. **[Strategy](./Behavioral/Strategy/README.md)**  
    Defines a family of interchangeable algorithms. Java’s `Comparator` interface and sorting methods (`Collections.sort()`) are prime examples. Ideal for creating modular and extendable algorithms.
 
-10. **Template Method**  
+10. **[ Method](./Behavioral/Template/README.md)**  
     Defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Java’s `AbstractList` and `HttpServlet` classes showcase this pattern.
 
-11. **Visitor**  
+11. **[Visitor](./Behavioral/Visitor/README.md)**  
     Represents an operation to perform on elements of an object structure. Java’s reflection API or syntax tree traversals benefit from this approach. Useful in compiler design or reporting tools.
 
 #### *How They Relate:*  
-- **Observer** pairs naturally with **Mediator** to decouple notification systems.
-- **Command**, **Memento**, and **Chain of Responsibility** collaborate effectively in workflows or task processing systems.
-- **State** and **Strategy** are closely related but focus on stateful behavior versus algorithm interchangeability.
+- **[Observer](./Behavioral/Observer/README.md)** pairs naturally with **[Mediator](./Behavioral/Mediator/README.md)** to decouple notification systems.
+- **[Command](./Behavioral/Command/README.md)**, **[Memento](./Behavioral/Memento/README.md)**, and **[Chain of Responsibility](./Behavioral/ChainOfResponsibility/README.md)** collaborate effectively in workflows or task processing systems.
+- **[State](./Behavioral/State/README.md)** and **[Strategy](./Behavioral/Strategy/README.md)** are closely related but focus on stateful behavior versus algorithm interchangeability.
 
 ---
 
