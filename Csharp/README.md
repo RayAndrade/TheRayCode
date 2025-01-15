@@ -60,9 +60,9 @@ Creational patterns deal with object creation mechanisms. They ensure your code 
    Creates new objects by cloning an existing object. Perfect for scenarios where object creation is costly, such as game character templates.
 
 #### *How They Relate:*  
-- The **Factory Method** can be seen as a subset of the **Abstract Factory** for single-object creation.
-- **Builder** complements **Abstract Factory** by focusing on step-by-step construction of complex products.
-- **Prototype** and **Singleton** simplify creation but focus on specific needs like cloning or singularity.
+- The **[Factory Method](./Creational/Factory/README.md)** can be seen as a subset of the **[Abstract Factory](./Creational/AbstractFactory/README.md)** for single-object creation.
+- **[Builder](./Creational/Builder/README.md)** complements **[Abstract Factory](./Creational/AbstractFactory/README.md)** by focusing on step-by-step construction of complex products.
+- **[Prototype](./Creational/Prototype/README.md)** and **[Singleton](./Creational/Singleton/README.md)** simplify creation but focus on specific needs like cloning or singularity.
 
 ---
 
@@ -151,17 +151,13 @@ Behavioral patterns are concerned with communication between objects and the del
 
 ### **Who Should Join?**
 If you are:
-- A high school student with a passion for programming,
+- A student with a passion for programming,
 - Familiar with C# and eager to improve your skills,
 - Excited to solve problems and build better software…
 
 This course is for you!
 
 Sign up today to unlock the power of design patterns and become a C# programming master.
-
-
-
-
 
 [TheRayCode.ORG](https://www.TheRayCode.ORG)
 
