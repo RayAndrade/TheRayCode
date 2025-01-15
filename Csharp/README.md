@@ -73,28 +73,28 @@ Structural patterns focus on how objects and classes are composed to form larger
 1. **[Adapter](./Structural/Adapter/README.md)**  
    Converts the interface of a class into another interface that clients expect. Think of using legacy code with modern systems.
 
-2. **[Bridge]**  
+2. **[Bridge](./Structural/Bridge/README.md)**  
    Decouples an abstraction from its implementation so they can vary independently. Useful for UI frameworks where functionality and appearance can evolve separately.
 
-3. **[Composite]**  
+3. **[Composite](./Structural/Composite/README.md)**  
    Composes objects into tree structures to represent part-whole hierarchies. Ideal for implementing menus or file systems.
 
-4. **[Decorator]**  
+4. **[Decorator](./Structural/Decorator/README.md)**  
    Adds new behaviors to an object dynamically without altering its structure. Useful for adding responsibilities like encryption or compression.
 
-5. **[Facade]**  
+5. **[Facade](./Structural/Facade/README.md)**  
    Provides a simplified interface to a larger body of code, making a subsystem easier to use. Think of simplifying complex APIs for external users.
 
-6. **[Flyweight]**  
+6. **[Flyweight](./Structural/Flyweight/README.md)**  
    Reduces memory usage by sharing as much data as possible with similar objects. Used for managing large sets of fine-grained objects like icons or tiles in a game.
 
-7. **[Proxy]**  
+7. **[Proxy(./Structural/Proxy/README.md)]**  
    Provides a placeholder or surrogate for another object to control access to it. Often used in scenarios like lazy initialization or security proxies.
 
 #### *How They Relate:*  
-- **[Adapter]**, **[Bridge]**, and **[Facade]** simplify access to or compatibility with external systems.
-- **[Composite]** works seamlessly with **[Decorator]**, allowing for dynamic behavior in hierarchical systems.
-- **[Flyweight]** often pairs with **[Proxy]** for optimizing object-heavy systems.
+- **[Adapter](./Structural/Adapter/README.md)**, **[Bridge](./Structural/Bridge/README.md)**, and **[Facade](./Structural/Facade/README.md)** simplify access to or compatibility with external systems.
+- **[Composite](./Structural/Composite/README.md)** works seamlessly with **[Decorator](./Structural/Decorator/README.md)**, allowing for dynamic behavior in hierarchical systems.
+- **[Flyweight](./Structural/Flyweight/README.md)** often pairs with **[Proxy](./Structural/Proxy/README.md)** for optimizing object-heavy systems.
 
 ---
 
