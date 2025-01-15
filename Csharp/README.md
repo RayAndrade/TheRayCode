@@ -26,7 +26,7 @@
 
 ### **Mastering Design Patterns in C# - A Practical Guide**
 
-Welcome to *Mastering Design Patterns in C#*, a comprehensive class designed to introduce programmers to the essential software design patterns defined by the Gang of Four. This class is crafted for aspiring developers who want to deepen their understanding of robust, maintainable, and scalable software development techniques. Through hands-on examples, clear explanations, and engaging exercises, you’ll explore the 23 foundational design patterns divided into three core categories: **[Creational](./Creational/README.md)**, **[Structural](./Structural/README.md)**, and **[Behavioral(./Behavioral/README.md)**.
+Welcome to *Mastering Design Patterns in C#*, a comprehensive class designed to introduce programmers to the essential software design patterns defined by the Gang of Four. This class is crafted for aspiring developers who want to deepen their understanding of robust, maintainable, and scalable software development techniques. Through hands-on examples, clear explanations, and engaging exercises, you’ll explore the 23 foundational design patterns divided into three core categories: **[Creational](./Creational/README.md)**, **[Structural](./Structural/README.md)**, and **[Behavioral](./Behavioral/README.md)**.
 
 ---
 
