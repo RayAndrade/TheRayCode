@@ -88,7 +88,7 @@ Structural patterns focus on how objects and classes are composed to form larger
 6. **[Flyweight](./Structural/Flyweight/README.md)**  
    Reduces memory usage by sharing as much data as possible with similar objects. Used for managing large sets of fine-grained objects like icons or tiles in a game.
 
-7. **[Proxy(./Structural/Proxy/README.md)]**  
+7. **[Proxy](./Structural/Proxy/README.md)**  
    Provides a placeholder or surrogate for another object to control access to it. Often used in scenarios like lazy initialization or security proxies.
 
 #### *How They Relate:*  
