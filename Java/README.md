@@ -92,9 +92,9 @@ Structural patterns deal with object and class composition, enabling flexible an
    Acts as a surrogate or placeholder for another object to control access. Java’s dynamic proxies (`java.lang.reflect.Proxy`) and `RMI` technology leverage this pattern. Common in security, lazy initialization, and remote object access.
 
 #### *How They Relate:*  
-- **[Adapter]**, **[Bridge]**, and **[Facade]** simplify compatibility and integration challenges.
-- **[Composite]** and **[Decorator]** complement each other in systems requiring hierarchical structures with dynamic behavior.
-- **[Flyweight]** often pairs with **[Proxy]** to optimize performance in large-scale systems.
+- **[Adapter](./Structural/Adapter/README.md)**, **[Bridge](./Structural/Bridge/README.md)**, and **[Facade](./Structural/Facade/README.md)** simplify compatibility and integration challenges.
+- **[Composite](./Structural/Composite/README.md)** and **[Decorator](./Structural/Decorator/README.md)** complement each other in systems requiring hierarchical structures with dynamic behavior.
+- **[Flyweight](./Structural/Flyweight/README.md)** often pairs with **[Proxy](./Structural/Proxy/README.md)** to optimize performance in large-scale systems.
 
 ---
 
