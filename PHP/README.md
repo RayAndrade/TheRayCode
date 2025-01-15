@@ -98,47 +98,47 @@ Structural patterns focus on object composition, simplifying how classes and obj
 
 ---
 
-### **3. Behavioral Patterns**
+### **[3. Behavioral Patterns](./Behavioral/README.md)**
 #### *Definition:*  
 Behavioral patterns manage object collaboration and communication, ensuring dynamic and flexible interactions in your application.
 
-1. **[Chain of Responsibility]**  
+1. **[Chain of Responsibility](./Behavioral/ChainOfResponsibility/README.md)**  
    Passes requests along a chain of handlers until one handles it. PHP’s middleware pipelines, like those in Laravel, make this pattern a natural fit for request processing.
 
-2. **[Command]**  
+2. **[Command](./Behavioral/Command/README.md)**  
    Encapsulates a request as an object, allowing parameterization and queuing. PHP’s ability to serialize objects and execute closures makes this pattern ideal for task queues and job handling.
 
-3. **[Interpreter]**  
+3. **[Interpreter](./Behavioral/Interpreter/README.md)**  
    Defines a grammar and interprets sentences. PHP is often used for creating mini-languages in templating systems like Twig, making this pattern highly relevant.
 
-4. **[Iterator]**  
+4. **[Iterator](./Behavioral/Iterator/README.md)**  
    Provides a standard way to traverse collections without exposing their underlying details. PHP’s `Iterator` interface and SPL (Standard PHP Library) make implementing this pattern straightforward.
 
-5. **[Mediator]**  
+5. **[Mediator](./Behavioral/Mediator/README.md)**  
    Centralizes communication between objects. PHP is often used for event-driven systems or central coordination, as seen in observer implementations.
 
-6. **[Memento]**  
+6. **[Memento](./Behavioral/Flyweight/README.md)**  
    Captures and restores an object’s state. PHP can use serialization to save and restore object states, making it effective for undo systems.
 
-7. **[Observer]**  
+7. **[Observer](./Behavioral/Flyweight/README.md)**  
    Defines a one-to-many dependency between objects so that when one changes state, all dependents are notified. PHP's event dispatchers, such as those in Symfony, provide built-in support for this pattern.
 
-8. **[State]**  
+8. **[State](./Behavioral/State/README.md)**  
    Allows an object to alter its behavior when its internal state changes. PHP’s dynamic typing and object-oriented features make implementing state machines efficient.
 
-9. **[Strategy]**  
+9. **[Strategy](./Behavioral/Strategy/README.md)**  
    Encapsulates algorithms to make them interchangeable. PHP excels here with its support for closures, interfaces, and dependency injection, as seen in payment gateways or sorting algorithms.
 
-10. **[Template Method]**  
+10. **[Template Method](./Behavioral/Template/README.md)**  
     Defines the skeleton of an algorithm in a method, deferring some steps to subclasses. PHP’s abstract classes and inheritance make this pattern a natural choice for defining workflows.
 
-11. **[Visitor]**  
+11. **[Visitor](./Behavioral/Visitor/README.md)**  
     Encapsulates an operation to be performed on elements of an object structure without modifying the elements. PHP’s support for dynamic method calls enables flexible visitor implementations.
 
 #### *How They Relate:*  
-- **[Observer]** complements **[Mediator]** for managing communication between objects.
-- **[Command]**, **[Memento]**, and **[Chain of Responsibility]** work well together for task and workflow management.
-- **[State]** and **[Strategy]** share similarities but differ in their focus on stateful behavior versus algorithmic interchangeability.
+- **[Observer](./Behavioral/Observer/README.md)** complements **[Mediator](./Behavioral/Mediator/README.md)** for managing communication between objects.
+- **[Command](./Behavioral/Command/README.md)**, **[Memento](./Behavioral/Memento/README.md)**, and **[Chain of Responsibility](./Behavioral/ChainOfResponsibility/README.md)** work well together for task and workflow management.
+- **[State](./Behavioral/State/README.md)** and **[Strategy](./Behavioral/Strategy/README.md)** share similarities but differ in their focus on stateful behavior versus algorithmic interchangeability.
 
 ---
 
