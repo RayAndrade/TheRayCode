@@ -62,7 +62,7 @@ Creational patterns simplify object creation, ensuring flexibility and decouplin
 #### *How They Relate:*  
 - **[Factory Method](./Creational/Factory/README.md)** is a simpler version of the **[Abstract Factory](./Creational/AbstractFactory/README.md)** for single-product creation.
 - **[Builder](./Creational/Builder/README.md)** complements **[Abstract Factory](./Creational/AbstractFactory/README.md)** by focusing on the stepwise construction of complex objects.
-- **[Prototype](./Creational/Prototype/README.md)** is especially useful for creating objects where **[Builder](./Creational/Builder/README.md** or **Factory(./Creational/Factory/README.md** patterns might be too rigid.
+- **[Prototype](./Creational/Prototype/README.md)** is especially useful for creating objects where **[Builder](./Creational/Builder/README.md)** or **[Factory](./Creational/Factory/README.md** patterns might be too rigid.
 
 ---
 
