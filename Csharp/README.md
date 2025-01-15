@@ -70,31 +70,31 @@ Creational patterns deal with object creation mechanisms. They ensure your code 
 #### *Definition:*  
 Structural patterns focus on how objects and classes are composed to form larger structures. They ensure systems are scalable and maintainable by improving organization.
 
-1. **Adapter**  
+1. **[Adapter](./Structural/Adapter/README.md)**  
    Converts the interface of a class into another interface that clients expect. Think of using legacy code with modern systems.
 
-2. **Bridge**  
+2. **[Bridge]**  
    Decouples an abstraction from its implementation so they can vary independently. Useful for UI frameworks where functionality and appearance can evolve separately.
 
-3. **Composite**  
+3. **[Composite]**  
    Composes objects into tree structures to represent part-whole hierarchies. Ideal for implementing menus or file systems.
 
-4. **Decorator**  
+4. **[Decorator]**  
    Adds new behaviors to an object dynamically without altering its structure. Useful for adding responsibilities like encryption or compression.
 
-5. **Facade**  
+5. **[Facade]**  
    Provides a simplified interface to a larger body of code, making a subsystem easier to use. Think of simplifying complex APIs for external users.
 
-6. **Flyweight**  
+6. **[Flyweight]**  
    Reduces memory usage by sharing as much data as possible with similar objects. Used for managing large sets of fine-grained objects like icons or tiles in a game.
 
-7. **Proxy**  
+7. **[Proxy]**  
    Provides a placeholder or surrogate for another object to control access to it. Often used in scenarios like lazy initialization or security proxies.
 
 #### *How They Relate:*  
-- **Adapter**, **Bridge**, and **Facade** simplify access to or compatibility with external systems.
-- **Composite** works seamlessly with **Decorator**, allowing for dynamic behavior in hierarchical systems.
-- **Flyweight** often pairs with **Proxy** for optimizing object-heavy systems.
+- **[Adapter]**, **[Bridge]**, and **[Facade]** simplify access to or compatibility with external systems.
+- **[Composite]** works seamlessly with **[Decorator]**, allowing for dynamic behavior in hierarchical systems.
+- **[Flyweight]** often pairs with **[Proxy]** for optimizing object-heavy systems.
 
 ---
 
