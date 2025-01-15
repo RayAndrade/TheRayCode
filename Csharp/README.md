@@ -105,40 +105,40 @@ Behavioral patterns are concerned with communication between objects and the del
 1. **[Chain of Responsibility](./Behavioral/ChainOfResponsibility/README.md)**  
    Passes requests along a chain of handlers until one handles it. Common in logging frameworks and permission checks.
 
-2. **[Command**  
+2. **[Command](./Behavioral/Command/README.md)**  
    Encapsulates a request as an object, allowing parameterization and queuing of requests. Great for implementing undo/redo functionality.
 
-3. **[Interpreter**  
+3. **[Interpreter](./Behavioral/Interpreter/README.md)**  
    Defines a grammar for a language and interprets sentences. Used in scenarios like scripting languages or regular expressions.
 
-4. **[Iterator**  
+4. **[Iterator](./Behavioral/Iterator/README.md)**  
    Provides a way to access elements of an aggregate object sequentially without exposing its underlying representation. Built into .NET collections.
 
-5. **[Mediator**  
+5. **[Mediator](./Behavioral/Mediator/README.md)**  
    Centralizes communication between objects to avoid tightly coupled relationships. Useful in chatroom or UI component management.
 
-6. **[Memento**  
+6. **[Memento](./Behavioral/Memento/README.md)**  
    Captures an object's state so it can be restored later. Frequently used for save points in applications or games.
 
-7. **[Observer**  
+7. **[Observer](./Behavioral/Observer/README.md)**  
    Defines a one-to-many dependency so that when one object changes state, all dependents are notified. Ideal for event-driven systems.
 
-8. **[State**  
+8. **[State](./Behavioral/State/README.md)**  
    Allows an object to alter its behavior when its internal state changes. Common in state machines like vending machines.
 
-9. **[Strategy**  
+9. **[Strategy](./Behavioral/Strategy/README.md)**  
    Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Perfect for sorting or payment algorithms.
 
-10. **[Template Method**  
+10. **[Template Method](./Behavioral/Template/README.md)**  
     Defines the skeleton of an algorithm, deferring some steps to subclasses. Excellent for workflow processes.
 
-11. **[Visitor**  
+11. **[Visitor](./Behavioral/Visitor/README.md)**  
     Represents an operation to be performed on elements of an object structure without modifying the structures themselves. Useful in scenarios like syntax trees.
 
 #### *How They Relate:*  
-- **[Observer** complements **[Mediator** by enabling loose coupling but can become unwieldy without central coordination.
-- **[Command**, **[Memento**, and **[Chain of Responsibility** often work together in workflows or undo systems.
-- **[Strategy** and **[State[** share similar concepts but differ in purpose—algorithms versus object states.
+- **[Observe](./Behavioral/Observe/README.md)r** complements **[Mediator](./Behavioral/Mediator/README.md)** by enabling loose coupling but can become unwieldy without central coordination.
+- **[Command](./Behavioral/Command/README.md)**, **[Memento](./Behavioral/Memento/README.md)**, and **[Chain of Responsibility](./Behavioral/ChainOfResponsibility/README.md)** often work together in workflows or undo systems.
+- **[Strategy](./Behavioral/Strategy/README.md)** and **[State](./Behavioral/State/README.md)** share similar concepts but differ in purpose—algorithms versus object states.
 
 ---
 
