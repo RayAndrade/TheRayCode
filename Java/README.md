@@ -70,31 +70,31 @@ Creational patterns simplify object creation, ensuring flexibility and decouplin
 #### *Definition:*  
 Structural patterns deal with object and class composition, enabling flexible and efficient system architecture.
 
-1. **Adapter**  
+1. **[Adapter](./Structural/Adapter/README.md)**  
    Converts the interface of a class into one that a client expects. Java’s `java.util.function.Function` and `Wrapper` classes make adapting interfaces straightforward. Useful for integrating legacy code.
 
-2. **Bridge**  
+2. **[Bridge](./Structural/Bridge/README.md)**  
    Decouples an abstraction from its implementation, allowing them to evolve independently. Java’s `DriverManager` and `JDBC` APIs are great examples. Ideal for systems with multiple variations of functionality and implementation.
 
-3. **Composite**  
+3. **[Composite](./Structural/Composite/README.md)**  
    Composes objects into tree structures to represent part-whole hierarchies. Java’s `java.awt.Container` and GUI libraries naturally implement this pattern. Perfect for building UIs with nested components.
 
-4. **Decorator**  
+4. **[Decorator](./Structural/Decorator/README.md)**  
    Adds new behavior to objects dynamically. Java’s `BufferedReader` and `InputStream` classes showcase this pattern in action. Great for scenarios requiring modular extension of functionality.
 
-5. **Facade**  
+5. **[Facade](./Structural/Facade/README.md)**  
    Provides a simplified interface to a larger system. Java’s `javax.faces` package (used in Java EE) demonstrates this pattern by streamlining access to complex libraries. Useful for hiding complexity from clients.
 
-6. **Flyweight**  
+6. **[Flyweight](./Structural/Flyweight/README.md)**  
    Reduces memory usage by sharing common data among multiple objects. Java’s `Integer` value caching and `String.intern()` method are practical implementations. Ideal for managing large datasets efficiently.
 
-7. **Proxy**  
+7. **[Proxy](./Structural/Proxy/README.md)**  
    Acts as a surrogate or placeholder for another object to control access. Java’s dynamic proxies (`java.lang.reflect.Proxy`) and `RMI` technology leverage this pattern. Common in security, lazy initialization, and remote object access.
 
 #### *How They Relate:*  
-- **Adapter**, **Bridge**, and **Facade** simplify compatibility and integration challenges.
-- **Composite** and **Decorator** complement each other in systems requiring hierarchical structures with dynamic behavior.
-- **Flyweight** often pairs with **Proxy** to optimize performance in large-scale systems.
+- **[Adapter]**, **[Bridge]**, and **[Facade]** simplify compatibility and integration challenges.
+- **[Composite]** and **[Decorator]** complement each other in systems requiring hierarchical structures with dynamic behavior.
+- **[Flyweight]** often pairs with **[Proxy]** to optimize performance in large-scale systems.
 
 ---
 
