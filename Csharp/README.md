@@ -102,7 +102,7 @@ Structural patterns focus on how objects and classes are composed to form larger
 #### *Definition:*  
 Behavioral patterns are concerned with communication between objects and the delegation of responsibilities, ensuring the system is dynamic and extensible.
 
-1. **[Chain of Responsibility](./Behavioral/ChainOfResponsibilit/README.md)**  
+1. **[Chain of Responsibility](./Behavioral/ChainOfResponsibility/README.md)**  
    Passes requests along a chain of handlers until one handles it. Common in logging frameworks and permission checks.
 
 2. **[Command**  
