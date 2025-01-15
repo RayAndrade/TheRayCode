@@ -40,7 +40,7 @@ Welcome to *Mastering Design Patterns in Java*, a class tailored for students ea
 
 ---
 
-### **1. Creational Patterns**
+### **[1. Creational Patterns](./Creational/README.md)**
 #### *Definition:*  
 Creational patterns simplify object creation, ensuring flexibility and decoupling your code from specific implementations.
 
@@ -66,7 +66,7 @@ Creational patterns simplify object creation, ensuring flexibility and decouplin
 
 ---
 
-### **2. Structural Patterns**
+### **[2. Structural Patterns](./Structural/README.md)**
 #### *Definition:*  
 Structural patterns deal with object and class composition, enabling flexible and efficient system architecture.
 
@@ -98,7 +98,7 @@ Structural patterns deal with object and class composition, enabling flexible an
 
 ---
 
-### **3. Behavioral Patterns**
+### **[3. Behavioral Patterns](./Behavioral/README.md)**
 #### *Definition:*  
 Behavioral patterns focus on communication and interactions between objects, enabling dynamic and scalable systems.
 
