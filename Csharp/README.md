@@ -44,7 +44,7 @@ Welcome to *Mastering Design Patterns in C#*, a comprehensive class designed to 
 #### *Definition:*  
 Creational patterns deal with object creation mechanisms. They ensure your code is flexible, reusable, and not tightly coupled to specific classes.
 
-1. **Singleton**  
+1. **[Singleton](./Creational/Singleton/README.md)**  
    Ensures a class has only one instance and provides a global point of access to it. Common in configuration and logging classes.
 
 2. **Factory Method**  
