@@ -92,10 +92,10 @@ The Prototype pattern reduces the cost of object creation by reusing existing ob
 ---
 
 ### **Key Differences and Relations Within the Category:**
-- **Singleton** ensures a single instance, while **Prototype** allows multiple instances based on a template.
-- **Factory Method** and **Abstract Factory** abstract the creation process, focusing on object families in the case of **Abstract Factory**.
-- **Builder** handles the step-by-step construction of complex objects, often complementing **Abstract Factory** by focusing on the internal composition of products.
-- **Prototype** provides an alternative to **Factory** patterns by enabling object cloning instead of instantiation.
+- **[Singleton](./Singleton/README.md)** ensures a single instance, while **[Prototype](./Prototype/README.md)** allows multiple instances based on a template.
+- **[Factory Method](./Factory/README.md)** and **[Abstract Factory](./AbstractFactory/README.md)** abstract the creation process, focusing on object families in the case of **Abstract Factory(./AbstractFactory/README.md)**.
+- **Builder(./Builder/README.md)** handles the step-by-step construction of complex objects, often complementing **[Abstract Factory](./AbstractFactory/README.md)** by focusing on the internal composition of products.
+- **[Prototype](./Prototype/README.md)** provides an alternative to **[Factory](./Factory/README.md)** patterns by enabling object cloning instead of instantiation.
 
 ---
 
