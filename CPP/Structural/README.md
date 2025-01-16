@@ -36,7 +36,7 @@ The Adapter pattern bridges incompatible interfaces, allowing classes with diffe
 
 ---
 
-### **[2. Bridge Pattern]**
+### **[2. Bridge Pattern](./Bridge/README.md)**
 #### *Definition:*  
 Decouples an abstraction from its implementation so that the two can vary independently.
 
@@ -50,7 +50,7 @@ The Bridge pattern separates abstraction and implementation into distinct hierar
 
 ---
 
-### **[3. Composite Pattern]**
+### **[3. Composite Pattern](./Composite/README.md)**
 #### *Definition:*  
 Composes objects into tree structures to represent part-whole hierarchies.
 
@@ -64,7 +64,7 @@ The Composite pattern allows you to treat individual objects and groups of objec
 
 ---
 
-### **[4. Decorator Pattern]**
+### **[4. Decorator Pattern](./Decorator/README.md)**
 #### *Definition:*  
 Adds new responsibilities to an object dynamically without altering its structure.
 
@@ -78,7 +78,7 @@ The Decorator pattern enhances functionality by wrapping objects. In C++, this i
 
 ---
 
-### **[5. Facade Pattern]**
+### **[5. Facade Pattern](./Facade/README.md)**
 #### *Definition:*  
 Provides a simplified interface to a complex subsystem.
 
@@ -92,7 +92,7 @@ The Facade pattern abstracts the complexity of subsystems by providing a single 
 
 ---
 
-### **[6. Flyweight Pattern]**
+### **[6. Flyweight Pattern](./Flyweight/README.md)**
 #### *Definition:*  
 Reduces memory usage by sharing common data between similar objects.
 
@@ -106,7 +106,7 @@ The Flyweight pattern optimizes resource usage by minimizing object duplication.
 
 ---
 
-### **[7. Proxy Pattern]**
+### **[7. Proxy Pattern](./Proxy/README.md)**
 #### *Definition:*  
 Provides a surrogate or placeholder for another object to control access to it.
 
@@ -121,10 +121,10 @@ The Proxy pattern controls access, adds security, or enables lazy initialization
 ---
 
 ### **Key Differences and Relations Within the Category:**
-- **[Adapter]** converts interfaces, while **[Bridge]** decouples abstraction and implementation.
-- **[Composite]** works well with **[Decorator]**, allowing hierarchical structures with dynamic behavior.
-- **[Flyweight]** optimizes memory usage, often complementing **[Proxy]** to manage access to shared resources.
-- **[Facade]** simplifies subsystem usage, while **[Adapter]** ensures compatibility between mismatched interfaces.
+- **[Adapter](./Adapter/README.md)** converts interfaces, while **[Bridge](./Bridge/README.md)** decouples abstraction and implementation.
+- **[Composite](./Composite/README.md)** works well with **[Decorator](./Decorator/README.md)**, allowing hierarchical structures with dynamic behavior.
+- **[Flyweight](./Flyweight/README.md)** optimizes memory usage, often complementing **[Proxy](./Proxy/README.md)** to manage access to shared resources.
+- **[Facade](./Facade/README.md)** simplifies subsystem usage, while **[Adapter](./Adapter/README.md)** ensures compatibility between mismatched interfaces.
 
 ---
 
@@ -147,7 +147,6 @@ The Proxy pattern controls access, adds security, or enables lazy initialization
 ---
 
 By mastering these structural patterns in C++, developers can build scalable, maintainable, and efficient systems. The language’s object-oriented features, low-level control, and powerful standard libraries provide a strong foundation for implementing these patterns.
-
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
