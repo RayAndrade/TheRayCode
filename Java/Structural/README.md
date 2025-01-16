@@ -22,7 +22,7 @@ Structural design patterns focus on how classes and objects are organized and co
 
 ---
 
-### **1. Adapter Pattern**
+### **[1. Adapter Pattern](./Adapter/README.md)**
 #### *Definition:*  
 Converts the interface of a class into another interface clients expect.
 
@@ -36,7 +36,7 @@ The Adapter pattern bridges incompatible interfaces, enabling previously incompa
 
 ---
 
-### **2. Bridge Pattern**
+### **[2. Bridge Pattern](./Bridge/README.md)**
 #### *Definition:*  
 Decouples an abstraction from its implementation so that the two can vary independently.
 
@@ -50,7 +50,7 @@ The Bridge pattern separates abstraction and implementation into different hiera
 
 ---
 
-### **3. Composite Pattern**
+### **[3. Composite Pattern](./Composite/README.md)**
 #### *Definition:*  
 Composes objects into tree structures to represent part-whole hierarchies.
 
@@ -64,7 +64,7 @@ The Composite pattern allows individual objects and groups of objects to be trea
 
 ---
 
-### **4. Decorator Pattern**
+### **[4. Decorator Pattern](./Decorator/README.md)**
 #### *Definition:*  
 Dynamically adds responsibilities to an object without altering its structure.
 
@@ -78,7 +78,7 @@ The Decorator pattern allows you to extend functionality dynamically by wrapping
 
 ---
 
-### **5. Facade Pattern**
+### **[5. Facade Pattern](./Facade/README.md)**
 #### *Definition:*  
 Provides a simplified interface to a complex subsystem.
 
@@ -92,7 +92,7 @@ The Facade pattern abstracts the complexity of multiple subsystems by exposing a
 
 ---
 
-### **6. Flyweight Pattern**
+### **[6. Flyweight Pattern](./Flyweight/README.md)**
 #### *Definition:*  
 Reduces memory usage by sharing common data between similar objects.
 
@@ -106,7 +106,7 @@ The Flyweight pattern optimizes resource usage by minimizing object duplication.
 
 ---
 
-### **7. Proxy Pattern**
+### **[7. Proxy Pattern](./Proxy/README.md)**
 #### *Definition:*  
 Provides a surrogate or placeholder for another object to control access to it.
 
@@ -121,10 +121,10 @@ The Proxy pattern adds control, security, or lazy initialization to object acces
 ---
 
 ### **Key Differences and Relations Within the Category:**
-- **Adapter** focuses on interface compatibility, while **Bridge** separates abstraction and implementation.
-- **Composite** works well with **Decorator** to add dynamic behavior to hierarchical structures.
-- **Flyweight** optimizes memory, often complementing **Proxy** to manage resource-intensive operations.
-- **Facade** simplifies subsystem access, whereas **Adapter** ensures compatibility between mismatched interfaces.
+- **[Adapter](./Adapter/README.md)** focuses on interface compatibility, while **[Bridge](./Bridge/README.md)** separates abstraction and implementation.
+- **[Composite](./Composite/README.md)** works well with **[Decorator](./Decorator/README.md)** to add dynamic behavior to hierarchical structures.
+- **[Flyweight](./Flyweight/README.md)** optimizes memory, often complementing **[Proxy](./Proxy/README.md)** to manage resource-intensive operations.
+- **[Facade](./Facade/README.md)** simplifies subsystem access, whereas **[Adapter](./Adapter/README.md)** ensures compatibility between mismatched interfaces.
 
 ---
 
