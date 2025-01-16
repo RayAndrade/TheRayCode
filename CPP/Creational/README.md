@@ -20,7 +20,7 @@ Creational patterns focus on the mechanisms of object creation. They abstract th
 
 ---
 
-### **1. Singleton Pattern**
+### **[1. Singleton Pattern](./Singleton/README.md)**
 #### *Definition:*  
 Ensures a class has only one instance and provides a global point of access to it.
 
