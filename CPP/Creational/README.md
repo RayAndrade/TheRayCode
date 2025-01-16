@@ -63,7 +63,7 @@ Abstract Factory extends the Factory Method to handle groups of objects. It deco
 
 ---
 
-### *[*4. Builder Pattern](./Builder/README.md)**
+### **[4. Builder Pattern](./Builder/README.md)**
 #### *Definition:*  
 Separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
 
