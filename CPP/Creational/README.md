@@ -35,7 +35,7 @@ The Singleton pattern controls the instantiation of a class by ensuring only one
 
 ---
 
-### **2. Factory Method Pattern**
+### **[2. Factory Method Pattern](./Factory/README.md)**
 #### *Definition:*  
 Provides an interface for creating objects while allowing subclasses to decide the type of object to instantiate.
 
@@ -49,7 +49,7 @@ The Factory Method abstracts the instantiation process, enabling the creation of
 
 ---
 
-### **3. Abstract Factory Pattern**
+### **[3. Abstract Factory Pattern]**
 #### *Definition:*  
 Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
