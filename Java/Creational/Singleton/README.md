@@ -14,7 +14,7 @@
 
 Let's delve into the "Singleton Design Pattern" and its importance for Java programmers.
 
-### **5 Reasons Studying the Creational Singleton Pattern is Beneficial for Java Developers**
+### **5 Reasons to Study the Creational design patten Singleton for Java Developers**
 
 1. **Resource Management** – Using the Singleton pattern ensures controlled access to shared resources like database connections, reducing unnecessary memory consumption and improving performance.  
 
