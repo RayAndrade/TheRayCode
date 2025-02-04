@@ -1,94 +1,180 @@
 [up](../README.md)
 
-Let's implement a Singleton pattern in C#. This pattern ensures a class has only one instance and provides a global point of access to it.
+Here is the **C# implementation** of the **Singleton Design Pattern** along with a **PlainClass** to demonstrate the difference in object creation. This follows **best practices in C#**, ensuring a **thread-safe Singleton** implementation.
 
-### Structure:
+---
 
-1. `Singleton.cs`: This contains the Singleton class which ensures only one instance is created.
-2. `Program.cs`: This is the main driver class that demonstrates the Singleton pattern.
+## 📁 **File Structure**
+```
+/ProjectFolder
+│── Singleton.cs
+│── PlainClass.cs
+│── Program.cs (Main file)
+```
 
-### Step 1: Create Singleton class (`Singleton.cs`)
+---
 
+## **1. `Singleton.cs` (Singleton Class)**
 ```csharp
-// Singleton.cs
 using System;
 
-namespace SingletonExample
+public class Singleton
 {
-    public sealed class Singleton
+    // Private static instance (lazy initialization)
+    private static Singleton? _instance;
+
+    // Lock object for thread safety
+    private static readonly object _lock = new object();
+
+    // Private constructor prevents direct instantiation
+    private Singleton()
     {
-        // Static variable which holds the single instance of the class
-        private static readonly Singleton instance = new Singleton();
+        Console.WriteLine("Singleton instance created.");
+    }
 
-        // Private constructor to prevent instance creation from outside
-        private Singleton() 
+    // Public static method to get the single instance
+    public static Singleton Instance()
+    {
+        if (_instance == null)  // First check (without lock)
         {
-            Console.WriteLine("Singleton instance created!");
-        }
-
-        // Public method to provide access to the instance
-        public static Singleton Instance
-        {
-            get 
+            lock (_lock)  // Ensure thread safety
             {
-                return instance;
+                if (_instance == null)  // Second check (inside lock)
+                {
+                    _instance = new Singleton();
+                }
             }
         }
+        return _instance;
+    }
 
-        public void LogMessage(string message)
+    // Example method
+    public void ShowMessage()
+    {
+        Console.WriteLine("Hello from Singleton!");
+    }
+}
+```
+
+---
+
+## **2. `PlainClass.cs` (Regular Class)**
+```csharp
+using System;
+
+public class PlainClass
+{
+    public PlainClass()
+    {
+        Console.WriteLine("PlainClass instance created.");
+    }
+
+    public void ShowMessage()
+    {
+        Console.WriteLine("Hello from PlainClass!");
+    }
+}
+```
+
+---
+
+## **3. `Program.cs` (Main Program)**
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Get the first instance of Singleton
+        Singleton singleton1 = Singleton.Instance();
+        singleton1.ShowMessage();
+
+        // Get another instance of Singleton
+        Singleton singleton2 = Singleton.Instance();
+
+        // Verify that both Singleton instances are the same
+        if (singleton1 == singleton2)
         {
-            Console.WriteLine("Singleton instance says: " + message);
+            Console.WriteLine("Both Singleton instances are the SAME object.");
+        }
+        else
+        {
+            Console.WriteLine("ERROR: Singleton instances are different! (This should not happen)");
+        }
+
+        Console.WriteLine("\n--- Creating PlainClass instances ---");
+
+        // Create two separate instances of PlainClass
+        PlainClass plain1 = new PlainClass();
+        PlainClass plain2 = new PlainClass();
+
+        // Verify that they are different objects
+        if (plain1 == plain2)
+        {
+            Console.WriteLine("ERROR: PlainClass instances are the same! (This should not happen)");
+        }
+        else
+        {
+            Console.WriteLine("PlainClass instances are DIFFERENT objects.");
         }
     }
 }
 ```
 
-**Explanation:**
-- The `sealed` keyword ensures that the class cannot be inherited.
-- The class maintains a static instance of itself which is lazily instantiated (in this case, we used eager initialization). 
-- The private constructor ensures that the class cannot be instantiated from outside.
-- The `Instance` property provides a global point of access.
+---
 
-### Step 2: Create the Program class to demonstrate Singleton (`Program.cs`)
+## 🛠 **How It Works**
+1. **Singleton Class**:
+   - Uses **lazy initialization** for the `_instance` variable.
+   - Implements **thread safety** using `lock (_lock)`.
+   - The constructor is **private** to prevent external instantiation.
+   - The `Instance()` method ensures **only one instance exists**.
 
-```csharp
-// Program.cs
-using System;
+2. **PlainClass**:
+   - Allows multiple instances.
+   - Each `new PlainClass()` creates **a separate object**.
 
-namespace SingletonExample
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Trying to get instances of Singleton class
-            Singleton singleton1 = Singleton.Instance;
-            Singleton singleton2 = Singleton.Instance;
+3. **Main Program (`Program.cs`)**:
+   - Calls `Singleton.Instance()` twice, verifying that the same instance is returned.
+   - Creates two `PlainClass` instances and verifies that they are **different objects**.
 
-            singleton1.LogMessage("Hello from the first instance!");
+---
 
-            // Verifying that both instances are indeed the same
-            if (ReferenceEquals(singleton1, singleton2))
-            {
-                Console.WriteLine("Both instances are the same!");
-            }
-            else
-            {
-                Console.WriteLine("Different instances exist!");
-            }
-        }
-    }
-}
+## **🎯 Expected Output**
+```
+Singleton instance created.
+Hello from Singleton!
+Both Singleton instances are the SAME object.
+
+--- Creating PlainClass instances ---
+PlainClass instance created.
+PlainClass instance created.
+PlainClass instances are DIFFERENT objects.
 ```
 
-**Explanation:**
-- We obtain the singleton instance using the `Instance` property.
-- We call a method (`LogMessage`) from the singleton to verify that it works.
-- We then compare two instances of the singleton to confirm that they are indeed the same.
+---
 
-### Order:
+## 🔧 **How to Run in C#**
+### Using .NET CLI:
+1. Open a terminal and navigate to your project folder.
+2. Compile and run using:
+   ```sh
+   dotnet run
+   ```
 
-1. `Singleton.cs`: This forms the backbone of the pattern. It contains the actual singleton logic.
-2. `Program.cs`: After having the singleton class ready, you'd need a client (or driver) code to test and demonstrate it.
+### Using Visual Studio:
+1. Open **Visual Studio**.
+2. Create a **Console App** project.
+3. Add the `Singleton.cs`, `PlainClass.cs`, and `Program.cs` files.
+4. Click **Run** (▶).
 
-When you run `Program.cs`, you should get an output that the Singleton instance was created only once and both `singleton1` and `singleton2` are the same instances.
+---
+
+## 🎯 **Key Takeaways**
+✅ **Singleton enforces a single instance** using **lazy initialization & thread safety**.  
+✅ **PlainClass allows multiple objects** using `new`.  
+✅ **Encapsulation & Separation of Concerns** by organizing files properly.  
+
+This C# version follows **best practices** for **performance and thread safety**. 🚀  
+Let me know if you need modifications! 😊
