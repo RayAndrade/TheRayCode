@@ -1,6 +1,0 @@
-/home/ray/TheRayCode/TheRayCode/Csharp/Creational/Singleton/Example/Singleton/Singleton/bin/Debug/Singleton.exe
-/home/ray/TheRayCode/TheRayCode/Csharp/Creational/Singleton/Example/Singleton/Singleton/bin/Debug/Singleton.pdb
-/home/ray/TheRayCode/TheRayCode/Csharp/Creational/Singleton/Example/Singleton/Singleton/obj/Debug/Singleton.csproj.AssemblyReference.cache
-/home/ray/TheRayCode/TheRayCode/Csharp/Creational/Singleton/Example/Singleton/Singleton/obj/Debug/Singleton.csproj.CoreCompileInputs.cache
-/home/ray/TheRayCode/TheRayCode/Csharp/Creational/Singleton/Example/Singleton/Singleton/obj/Debug/Singleton.exe
-/home/ray/TheRayCode/TheRayCode/Csharp/Creational/Singleton/Example/Singleton/Singleton/obj/Debug/Singleton.pdb
