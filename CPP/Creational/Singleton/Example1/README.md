@@ -1,5 +1,3 @@
-Here’s the **correct file structure** with `.h` header files for `Singleton` and `PlainClass`, and a separate `.cpp` file for `main()`. This adheres to best practices for **separating declarations and implementations**.
-
 ---
 
 ### **1. `Singleton.h` (Singleton Class Header)**
@@ -185,4 +183,3 @@ This setup follows **proper C++ best practices**:
 ✅ **Singleton Works Correctly**: It returns the **same instance**.  
 ✅ **PlainClass Works Correctly**: Each `new` creates **distinct instances**.  
 
-This should now work exactly as expected! 🚀 Let me know if you need any modifications. 😊
