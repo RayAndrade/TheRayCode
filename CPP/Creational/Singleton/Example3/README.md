@@ -1,4 +1,3 @@
-Here's a step-by-step explanation and implementation of the Singleton design pattern using C++.
 
 [Script](script/page01.md)   [up](../README.md)
 
