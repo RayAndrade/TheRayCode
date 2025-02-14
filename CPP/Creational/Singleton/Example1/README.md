@@ -1,5 +1,3 @@
-[up](../README.md)
-
 Here’s the **correct file structure** with `.h` header files for `Singleton` and `PlainClass`, and a separate `.cpp` file for `main()`. This adheres to best practices for **separating declarations and implementations**.
 
 ---
