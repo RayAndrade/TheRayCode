@@ -15,7 +15,11 @@
 |**[Singleton](./Singleton/README.md)**  | [C#](../../Csharp/Creational/Singleton/README.md) | [Java](../../Java/Creational/Singleton/README.md) | [PHP](../../PHP/Creational/Singleton/README.md) |
 
 
+<<<<<<< HEAD
 ![alt text](../pictures/cover.png)
+=======
+![alt text](../pictures/creational.png)
+>>>>>>> 5343d4aa (*)
 
 ### **Outline for Creational Patterns in C++**
 
