@@ -23,6 +23,11 @@
 |                                                               |                                                       | [**Template**](./Behavioral/Template/README.md) |
 |                                                               |                                                       | [**Visitor**](./Behavioral/Visitor/README.md) |
 
+
+![alt text](pictures/cover.webp)
+
+
+
 ### **Promotional Outline: Mastering Design Patterns in C++**
 
 Welcome to *Mastering Design Patterns in C++*, a course designed for students passionate about programming and eager to refine their skills in one of the most powerful programming languages. This course explores the 23 essential design patterns from the Gang of Four and demonstrates how C++'s object-oriented features, templates, and memory management capabilities make it an excellent choice for implementing these patterns. Through real-world examples, practical exercises, and in-depth discussions, you'll learn to build robust, efficient, and scalable software systems.
