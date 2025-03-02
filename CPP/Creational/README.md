@@ -2,7 +2,6 @@
 
 [top](../README.md)
 
-![alt text](../pictures/creational.png)
 
 **[Creational Patterns](./README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
@@ -21,6 +20,9 @@
 Creational patterns focus on the mechanisms of object creation. They abstract the instantiation process to make systems more flexible, reusable, and decoupled from specific implementations. In C++, these patterns leverage the language’s features like polymorphism, static functions, memory management, and templates to provide efficient solutions.
 
 ---
+
+![alt text](../pictures/creational.png)
+
 
 ### **[1. Singleton Pattern](./Singleton/README.md)**
 #### *Definition:*  
