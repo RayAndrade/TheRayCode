@@ -14,12 +14,7 @@
 |**[Prototype](./Prototype/README.md)**  | [C#](../../Csharp/Creational/Prototype/README.md) | [Java](../../Java/Creational/Prototype/README.md) | [PHP](../../PHP/Creational/Prototype/README.md) |
 |**[Singleton](./Singleton/README.md)**  | [C#](../../Csharp/Creational/Singleton/README.md) | [Java](../../Java/Creational/Singleton/README.md) | [PHP](../../PHP/Creational/Singleton/README.md) |
 
-
-<<<<<<< HEAD
-![alt text](../pictures/cover.png)
-=======
 ![alt text](../pictures/creational.png)
->>>>>>> 5343d4aa (*)
 
 ### **Outline for Creational Patterns in C++**
 
