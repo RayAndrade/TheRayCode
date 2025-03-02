@@ -24,7 +24,7 @@
 |                                                               |                                                       | [**Visitor**](./Behavioral/Visitor/README.md) |
 
 
-![alt text](pictures/cover.webp)
+![alt text](pictures/cover.png)
 
 
 
