@@ -2,6 +2,8 @@
 
 [top](../README.md)
 
+![alt text](../pictures/creational.png)
+
 **[Creational Patterns](./README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
 **C++ Creational Patterns**
@@ -13,8 +15,6 @@
 |**[Factory](./Factory/README.md)**  | [C#](../../Csharp/Creational/Factory/README.md) | [Java](../../Java/Creational/Factory/README.md) | [PHP](../../PHP/Creational/Factory/README.md) |
 |**[Prototype](./Prototype/README.md)**  | [C#](../../Csharp/Creational/Prototype/README.md) | [Java](../../Java/Creational/Prototype/README.md) | [PHP](../../PHP/Creational/Prototype/README.md) |
 |**[Singleton](./Singleton/README.md)**  | [C#](../../Csharp/Creational/Singleton/README.md) | [Java](../../Java/Creational/Singleton/README.md) | [PHP](../../PHP/Creational/Singleton/README.md) |
-
-![alt text](../pictures/creational.png)
 
 ### **Outline for Creational Patterns in C++**
 
