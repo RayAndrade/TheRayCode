@@ -23,10 +23,7 @@
 |                                                               |                                                       | [**Template**](./Behavioral/Template/README.md) |
 |                                                               |                                                       | [**Visitor**](./Behavioral/Visitor/README.md) |
 
-
 ![alt text](pictures/cover.png)
-
-
 
 ### **Promotional Outline: Mastering Design Patterns in C++**
 
