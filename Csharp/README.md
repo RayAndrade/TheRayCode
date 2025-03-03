@@ -25,7 +25,7 @@
 |                                                               |                                                       | [**Visitor**](./Behavioral/Visitor/README.md) |
 
 
-![alt text](../pictures/cover.png)
+![alt text](pictures/cover.png)
 
 ### **Mastering Design Patterns in C# - A Practical Guide**
 
