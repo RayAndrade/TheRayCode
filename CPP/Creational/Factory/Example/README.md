@@ -1,3 +1,5 @@
+[up](../README.md)
+
 In our example of the factory design pattern using different header files and an index.cpp file to demonstrate it. 
 For simplicity, we will create two types of products: ProductA and ProductB.
 
