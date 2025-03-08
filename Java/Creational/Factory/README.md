@@ -10,7 +10,7 @@
 |---|---|---|---|
 |  [**Factory**](README.md) | [**C++**](../../../CPP/Creational/Factory/README.md) | [**C#**](../../../Csharp/Creational/Factory/README.md) | [PHP](../../../PHP/Creational/Factory/README.md) |
 
-[Example](./Show/README.md)
+[Example1](./Example1/README.md) [Example2](./Example2/README.md)
 
 
 ### **5 Reasons Studying the Factory Pattern is Beneficial for a Java Developer**  
