@@ -1,115 +1,182 @@
-[up](../README.md)
+Below is a **C#** implementation of the **Factory Method** design pattern (a **Creational** pattern), following the **Gang of Four (GoF)** structure. Each class is placed in a separate file and created in an order that avoids dependency errors.
 
-The Factory design pattern is a creational pattern used in object-oriented programming to create objects without specifying the exact class of object that will be created. This is achieved by creating a separate "factory" class that is responsible for the creation of objects. The main advantage of this pattern is that it promotes loose coupling and scalability.
+---
 
-Let's design a simple example in C# using the Factory pattern. We'll create an application that uses a `VehicleFactory` to create different types of vehicles.
+### **Class Creation Order**
+1. **Product (Abstract Product Interface)**
+2. **ConcreteProduct (Concrete Implementations)**
+3. **Creator (Abstract Factory Class)**
+4. **ConcreteCreator (Factory Implementations)**
+5. **Client Code (Program.cs)**
 
-### 1. `Vehicle.cs` - The Product Interface
+---
 
-This interface defines the contract that all concrete products must follow. In our case, every vehicle should have a `StartEngine` method.
-
-```csharp
-public interface IVehicle
-{
-    void StartEngine();
-}
-```
-
-### 2. `Car.cs` - A Concrete Product
-
-This class implements the `IVehicle` interface. It's one of the types of vehicles our factory can create.
+## **1. `IProduct.cs` (Abstract Product Interface)**
 
 ```csharp
-using System;
-
-public class Car : IVehicle
+namespace FactoryMethodPattern
 {
-    public void StartEngine()
+    // Abstract Product Interface
+    public interface IProduct
     {
-        Console.WriteLine("The car engine starts. Vroom!");
+        void Use();
     }
 }
 ```
 
-### 3. `Motorcycle.cs` - Another Concrete Product
+### **Explanation**
+- Declares an interface `IProduct`, which all concrete products will implement.
+- The method `Use()` will be defined by concrete classes.
 
-Another implementation of the `IVehicle` interface.
+---
 
+## **2. `ConcreteProductA.cs` & `ConcreteProductB.cs` (Concrete Products)**
+
+### **`ConcreteProductA.cs`**
 ```csharp
 using System;
 
-public class Motorcycle : IVehicle
+namespace FactoryMethodPattern
 {
-    public void StartEngine()
+    // Concrete Product A
+    public class ConcreteProductA : IProduct
     {
-        Console.WriteLine("The motorcycle engine starts. Vroom Vroom!");
-    }
-}
-
-```
-
-### 4. `VehicleFactory.cs` - The Factory
-
-This class is the core of the Factory pattern. It decides which class to instantiate.
-
-```csharp
-using System;
-
-public static class VehicleFactory
-{
-    public static IVehicle GetVehicle(string vehicleType)
-    {
-        switch (vehicleType)
+        public void Use()
         {
-            case "Car":
-                return new Car();
-            case "Motorcycle":
-                return new Motorcycle();
-            default:
-                throw new ArgumentException("Invalid vehicle type");
+            Console.WriteLine("Using ConcreteProductA");
         }
     }
 }
 ```
 
-### 5. `Program.cs` - The Client
-
-This is the entry point of the application, where we use the factory to create objects.
-
+### **`ConcreteProductB.cs`**
 ```csharp
-class Program
-{
-    static void Main(string[] args)
-    {
-        IVehicle myCar = VehicleFactory.GetVehicle("Car");
-        myCar.StartEngine();
+using System;
 
-        IVehicle myMotorcycle = VehicleFactory.GetVehicle("Motorcycle");
-        myMotorcycle.StartEngine();
+namespace FactoryMethodPattern
+{
+    // Concrete Product B
+    public class ConcreteProductB : IProduct
+    {
+        public void Use()
+        {
+            Console.WriteLine("Using ConcreteProductB");
+        }
     }
 }
 ```
 
-### Order of Creation
+### **Explanation**
+- **ConcreteProductA** and **ConcreteProductB** implement `IProduct`.
+- Each class provides a specific implementation of the `Use()` method.
 
-1. Start with the `IVehicle` interface.
-2. Create the concrete classes `Car` and `Motorcycle`.
-3. Implement the `VehicleFactory`.
-4. Finally, use the factory in the `Program.cs`.
+---
 
-### Expected Output
+## **3. `Creator.cs` (Abstract Factory Class)**
 
-When you run the program, you should see:
-
+```csharp
+namespace FactoryMethodPattern
+{
+    // Abstract Creator
+    public abstract class Creator
+    {
+        // Factory Method: Must be implemented by concrete creators
+        public abstract IProduct FactoryMethod();
+    }
+}
 ```
-The car engine starts. Vroom!
-The motorcycle engine starts. Vroom Vroom!
+
+### **Explanation**
+- Declares the abstract `FactoryMethod()`, which returns an instance of `IProduct`.
+- The **Factory Method Pattern** ensures concrete creators decide which product to instantiate.
+
+---
+
+## **4. `ConcreteCreatorA.cs` & `ConcreteCreatorB.cs` (Factory Implementations)**
+
+### **`ConcreteCreatorA.cs`**
+```csharp
+namespace FactoryMethodPattern
+{
+    // Concrete Creator A
+    public class ConcreteCreatorA : Creator
+    {
+        public override IProduct FactoryMethod()
+        {
+            return new ConcreteProductA();
+        }
+    }
+}
 ```
 
-### How This Is An Example of the Factory Design Pattern
+### **`ConcreteCreatorB.cs`**
+```csharp
+namespace FactoryMethodPattern
+{
+    // Concrete Creator B
+    public class ConcreteCreatorB : Creator
+    {
+        public override IProduct FactoryMethod()
+        {
+            return new ConcreteProductB();
+        }
+    }
+}
+```
 
-- **Abstraction in Creation**: The client (`Program.cs`) is abstracted from the instantiation process of `Car` and `Motorcycle`. It only knows about the `IVehicle` interface.
-- **Loose Coupling**: The client is loosely coupled with the concrete classes. If we need to add a new vehicle type, we don’t need to change the client code.
-- **Scalability**: New vehicle types can be added easily by just extending the `VehicleFactory`.
+### **Explanation**
+- `ConcreteCreatorA` and `ConcreteCreatorB` override `FactoryMethod()`.
+- They instantiate `ConcreteProductA` and `ConcreteProductB`, respectively.
 
-This code provides a clear example of the Factory design pattern by separating object creation logic into a different class (`VehicleFactory`), thus promoting loose coupling and scalability.
+---
+
+## **5. `Program.cs` (Client Code)**
+```csharp
+using System;
+
+namespace FactoryMethodPattern
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Create a factory for ProductA
+            Creator creatorA = new ConcreteCreatorA();
+            IProduct productA = creatorA.FactoryMethod();
+            productA.Use(); // Output: Using ConcreteProductA
+
+            // Create a factory for ProductB
+            Creator creatorB = new ConcreteCreatorB();
+            IProduct productB = creatorB.FactoryMethod();
+            productB.Use(); // Output: Using ConcreteProductB
+        }
+    }
+}
+```
+
+---
+
+## **Final Explanation**
+1. **`IProduct` (Abstract Product Interface)**
+   - Defines the `Use()` method to be implemented by all concrete products.
+
+2. **`ConcreteProductA` & `ConcreteProductB`**
+   - Implement `IProduct` and provide concrete behavior.
+
+3. **`Creator` (Abstract Factory)**
+   - Defines the abstract `FactoryMethod()`.
+
+4. **`ConcreteCreatorA` & `ConcreteCreatorB`**
+   - Implement `FactoryMethod()` to create specific products.
+
+5. **`Program.cs` (Client Code)**
+   - Uses factories without depending on concrete classes.
+
+---
+
+## **Key Takeaways**
+✅ **Encapsulation**: The client does not know which concrete product it gets.  
+✅ **Scalability**: Easily add new products and factories.  
+✅ **Decoupling**: The factory method isolates the creation logic.  
+
+Would you like to extend this with **Factory Parameters** or **Singleton Factories**? 🚀

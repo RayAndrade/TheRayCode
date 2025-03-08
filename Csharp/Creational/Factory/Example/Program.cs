@@ -1,16 +1,16 @@
-﻿using System;
+﻿namespace Progam;
+using System;
 
-namespace Show
+class Program
 {
-    internal class Program
+    static void Main()
     {
-        public static void Main(string[] args)
-        {
-            IVehicle myCar = VehicleFactory.GetVehicle("Car");
-            myCar.StartEngine();
-
-            IVehicle myMotorcycle = VehicleFactory.GetVehicle("Motorcycle");
-            myMotorcycle.StartEngine();
-        }
+        Creator creatorA = new ConcreteCreatorA();
+        IProduct productA = creatorA.FactoryMethod();
+        productA.Use(); // Output: Using ConcreteProductA
+        
+        Creator creatorB = new ConcreteCreatorB();
+        IProduct productB = creatorB.FactoryMethod();
+        productB.Use(); // Output: Using ConcreteProductB
     }
 }
