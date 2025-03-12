@@ -12,7 +12,7 @@
 
 [Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)
 
-[demo]: http://vimeo.com/1065235844 "demo"
+Demo [demo]: http://vimeo.com/1065235844 "demo"
 
 The Factory design pattern deals with the problem of creating objects without specifying the exact class of object that will be created. Instead of calling a constructor directly to create an object, a factory method is employed to create the object. This factory method is typically defined in an interface, which is implemented by concrete classes. The pattern is thus about delegating the responsibility of object instantiation to specialized methods, rather than directly instantiating objects with constructors.
 
