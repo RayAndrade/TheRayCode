@@ -47,30 +47,6 @@ Clients access a Singleton instance soley
 cLIETS ACCESS A sINGLETON INSTANCE SOLEY THOUGH sINGLTON'S iNSTANCE OPERATION
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### **S.W.O.T. Analysis of the Singleton Design Patterns for C++**
 
 **Strengths**  
