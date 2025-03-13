@@ -38,6 +38,8 @@ In summary, for C++ developers, understanding the Factory design pattern provide
 
 ### **S.W.O.T. Analysis of the Factory Method Design Patterns for C++**
 
+https://vimeo.com/1065235757
+
 **Strengths**  
 1. **Encapsulation**: Hides object creation logic, reducing dependencies on concrete classes in C++.  
 2. **Extensibility**: Adding new object types requires extending the factory without modifying client code.  
