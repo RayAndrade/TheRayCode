@@ -156,8 +156,7 @@ Product* ConcreteCreatorB::factoryMethod() {
 - They instantiate **ConcreteProductA** and **ConcreteProductB** respectively.
 
 ---
-video:
-https://vimeo.com/1065235844
+
 ### **5. `main.cpp` (Client Code)**
 Now, let's use the factory in our client code.
 
