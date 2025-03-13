@@ -1,18 +1,16 @@
 //
-// Created by ray on 6/7/23.
+// Created by ray on 2/23/25.
 //
 
-#ifndef SHOWCPP_PRODUCT_H
-#define SHOWCPP_PRODUCT_H
+#ifndef CODE_PRODUCT_H
+#define CODE_PRODUCT_H
 
-
-#include <string>
+#include <iostream>
 
 class Product {
 public:
-    virtual ~Product() {};
-    virtual std::string GetName() = 0;
+    virtual void use() = 0;
+    virtual ~Product() {}
 };
 
-
-#endif //SHOWCPP_PRODUCT_H
+#endif //CODE_PRODUCT_H
