@@ -21,6 +21,8 @@ Let's delve into the "Singleton Design Pattern" and its significance for PHP pro
 
 ### **5 Reasons Why Studying the Singleton Pattern is Beneficial for a PHP Developer**  
 
+https://vimeo.com/1065217429
+
 1. **Resource Efficiency** – Ensures that only one instance of a class is created, reducing memory consumption and improving application performance in PHP projects.  
 
 2. **Global Access** – Provides a centralized access point to shared resources, such as database connections, making management of system-wide settings easier in PHP applications.  
@@ -34,6 +36,8 @@ Let's delve into the "Singleton Design Pattern" and its significance for PHP pro
 ---  
 
 ### **S.W.O.T. Analysis of Using the Singleton Pattern in PHP Projects**  
+
+https://vimeo.com/1065217759
 
 #### **Strengths:**  
 1. **Efficient Resource Management** – Limits object instantiation, saving memory and improving performance in resource-intensive PHP applications like CMS and e-commerce platforms.  
