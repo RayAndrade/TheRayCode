@@ -12,6 +12,11 @@
 
 [Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)
 
+[Example1](Example1/README.md) [Example2](Example2/README.md) [Example3](Example3/README.md)
+
+![UML](s_00000.png)
+
+
 Let's explore the "Singleton Design Pattern" and its importance for C# programmers.
 
 **Singleton Design Pattern**:
