@@ -16,6 +16,11 @@
 
 ![UML](s_00000.png)
 
+https://vimeo.com/1065171503
+
+
+why? https://vimeo.com/1065171461
+
 The Singleton pattern ensures that a particular class has only one instance throughout the lifetime of an application and provides a global point of access to that instance. This pattern restricts the instantiation of a class to a single object and typically provides a method to get the instance of the class.
 
 The primary intention behind the Singleton pattern is to maintain a single instance of a class across the application which can act as a centralized source of truth or a shared resource.
