@@ -56,6 +56,9 @@ cLIETS ACCESS A sINGLETON INSTANCE SOLEY THOUGH sINGLTON'S iNSTANCE OPERATION
 
 ### **S.W.O.T. Analysis of the Singleton Design Patterns for C++**
 
+https://vimeo.com/1065171573
+
+
 **Strengths**  
 1. **Global Access**: Provides a single instance of a class globally, ensuring controlled access to shared resources in C++.  
 2. **Thread Safety**: Can be made thread-safe using C++11 features like `std::call_once`.  
