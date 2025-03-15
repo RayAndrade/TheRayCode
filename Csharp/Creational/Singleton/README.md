@@ -16,6 +16,9 @@
 
 ![UML](s_00000.png)
 
+https://vimeo.com/1065190569
+
+
 
 Let's explore the "Singleton Design Pattern" and its importance for C# programmers.
 
