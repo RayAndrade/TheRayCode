@@ -12,6 +12,8 @@
 
 [Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)
 
+![UML](s_00000.png)
+
 https://vimeo.com/1065236128
 
 The Factory design pattern deals with the problem of creating objects without specifying the exact class of object that will be created. Instead of calling a constructor directly to create an object, a factory method is employed to create the object. This factory method is typically defined in an interface, which is implemented by concrete classes. The pattern is thus about delegating the responsibility of object instantiation to specialized methods, rather than directly instantiating objects with constructors.
@@ -19,6 +21,8 @@ The Factory design pattern deals with the problem of creating objects without sp
 There are variations of this pattern such as Simple Factory, Factory Method, and Abstract Factory (which we discussed earlier). But at its core, the Factory pattern revolves around the idea of using a method to produce instances, abstracting away the instantiation logic.
 
 **Importance for a C++ Developer**:
+
+https://vimeo.com/1065236128
 
 1. **Decoupling**: The Factory pattern allows for a decoupling of the client code (which needs the object) from the code that instantiates the object. This decoupling means changes in one area (like adding new object types) are less likely to impact other areas of the code.
 
