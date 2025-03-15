@@ -12,13 +12,9 @@
 
 [Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)
 
-[Example1](Example1/README.md) [Example2](Example2/README.md) [Example3](Example3/README.md)
-
 ![UML](s_00000.png)
 
 https://vimeo.com/1065190569
-
-
 
 Let's explore the "Singleton Design Pattern" and its importance for C# programmers.
 
@@ -26,6 +22,8 @@ Let's explore the "Singleton Design Pattern" and its importance for C# programme
 The Singleton Design Pattern falls under the creational design pattern category. Its primary purpose is to ensure that a class has only one instance and provides a global point of access to that instance. In other words, it restricts the instantiation of a class to just one object.
 
 **Why should C# programmers study the Singleton Design Pattern?**
+
+https://vimeo.com/1065190655
 
 1. **Global Point of Access**: Often, systems require a central point of control, like a configuration manager or a logging service. The Singleton pattern provides a globally accessible instance, ensuring every part of the codebase accesses the same instance.
 
@@ -46,6 +44,8 @@ The Singleton Design Pattern falls under the creational design pattern category.
 Given C#'s robust object-oriented capabilities and its extensive use in enterprise-level applications, understanding the Singleton Design Pattern can help developers ensure consistency, optimize resources, and create more maintainable software. Familiarity with this pattern allows C# developers to tackle common software challenges more effectively.
 
 ### **S.W.O.T. Analysis of the Singleton Pattern in C#**
+
+https://vimeo.com/1065190484
 
 **Strengths**  
 1. **Global Access**: Ensures a single instance of a class, providing global access to it.  
