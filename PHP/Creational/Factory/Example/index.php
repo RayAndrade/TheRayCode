@@ -1,20 +1,18 @@
 <?php
+require_once "ConcreteCreatorA.php";
+require_once "ConcreteCreatorB.php";
 
-namespace TheRayCode\Factory;
+function clientCode(Creator $creator)
+{
+    echo "Client: I'm working with " . get_class($creator) . "<br>";
+    $product = $creator->factoryMethod();
+    echo "Product says: " . $product->operation() . "<br><br>";
+}
 
-include('Vehicle.php');
-include('Car.php');
-include('Motorcycle.php');
-include('Bicycle.php');
-include('VehicleFactory.php');
+echo "<h2>Factory Method Pattern in PHP</h2>";
 
-$vehicleFactory = new VehicleFactory();
-$car = $vehicleFactory->createVehicle('car');
-$motorcycle = $vehicleFactory->createVehicle('motorcycle');
-$bicycle = $vehicleFactory->createVehicle('bicycle');
+echo "<h3>Using ConcreteCreatorA:</h3>";
+clientCode(new ConcreteCreatorA());
 
-
-$car->drive();          // Output: Driving a car...
-$motorcycle->drive();   // Output: Riding a motorcycle...
-$bicycle->drive();      // Output: Riding a bicycle...
-//echo "The Ray Code is AWESOME!!!";
+echo "<h3>Using ConcreteCreatorB:</h3>";
+clientCode(new ConcreteCreatorB());
