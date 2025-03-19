@@ -26,6 +26,8 @@ Here are some reasons why studying the Abstract Factory design pattern can be be
 
 By studying the Abstract Factory pattern in C++, developers can learn how to structure their code to accommodate changes and extensions more gracefully, resulting in more robust and adaptable software systems.
 
+https://vimeo.com/1067479477
+
 ### S.W.O.T. Analysis 
 
 #### Strengths
