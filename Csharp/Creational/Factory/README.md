@@ -12,7 +12,7 @@
 
 [Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)
 
-https://vimeo.com/1065247572
+https://vimeo.com/1065247572?share=copy
 
 A Factory, in software design, refers to a creational design pattern that provides a centralized mechanism for creating objects. It encapsulates the object creation process, hiding the details of instantiation from the client code. The Factory pattern aims to abstract the process of object creation, promoting flexibility, code reusability, and maintenance.
 
