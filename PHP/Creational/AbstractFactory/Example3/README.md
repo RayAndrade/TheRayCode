@@ -265,4 +265,3 @@ Scrolling with a Windows style ScrollBar
 | `Client` | Uses factories to produce products |
 | `index.php` | Demonstrates the usage |
 
-Let me know if you’d like a ZIP archive with the files or a GitHub-style layout for students!
