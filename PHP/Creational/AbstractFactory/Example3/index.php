@@ -1,18 +1,15 @@
 <?php
 
-require_once 'BMWFactory.php';
-require_once 'TeslaFactory.php';
+include 'MotifWidgetFactory.php';
+include 'WindowsWidgetFactory.php';
+include 'Client.php';
 
-$bmwFactory = new BMWFactory();
-$teslaFactory = new TeslaFactory();
+echo "Using Motif Theme:<hr/>\n";
+$motifFactory = new MotifWidgetFactory();
+$client1 = new Client($motifFactory);
+$client1->renderUI();
 
-$bmwCar = $bmwFactory->createCar();
-$bmwBike = $bmwFactory->createBike();
-
-$teslaCar = $teslaFactory->createCar();
-$teslaBike = $teslaFactory->createBike();
-
-echo $bmwCar->getName() . "<br/>";
-echo $bmwBike->getName() . "<br/>";
-echo $teslaCar->getName() . "<br/>";
-echo $teslaBike->getName();
+echo "\nUsing Windows Theme:<hr/>\n";
+$windowsFactory = new WindowsWidgetFactory();
+$client2 = new Client($windowsFactory);
+$client2->renderUI();

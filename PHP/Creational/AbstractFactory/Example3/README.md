@@ -1,202 +1,268 @@
-[up](../README.md)
+Here’s a full PHP example of the **Abstract Factory**, a **Creational** design pattern from the Gang of Four’s *Design Patterns: Elements of Reusable Object-Oriented Software*. Each class/interface is placed in its own file, and I've ordered them to prevent dependency issues.
 
-Certainly! The Abstract Factory design pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+---
 
-For this example, I'll create an abstract factory for vehicles, where each vehicle can be a car or a bike, and these vehicles can belong to different brands.
+# 🏗️ Abstract Factory Pattern in PHP
 
-1. **File Structure**:
-```
-- index.php
-- AbstractVehicleFactory.php
-- BMWFactory.php
-- TeslaFactory.php
-- Car.php
-- Bike.php
-- BMWCar.php
-- BMWBike.php
-- TeslaCar.php
-- TeslaBike.php
-```
+## 📚 Context
 
-2. **Order of Creation**:
-- Create the main abstract factory: `AbstractVehicleFactory.php`
-- Create concrete factories: `BMWFactory.php` and `TeslaFactory.php`
-- Define product abstracts: `Car.php` and `Bike.php`
-- Implement concrete products: `BMWCar.php`, `BMWBike.php`, `TeslaCar.php`, and `TeslaBike.php`
-- Finally, demonstrate in `index.php`.
+The **Abstract Factory** pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
-3. **Implementations**:
+In this example, we simulate UI widget creation for different operating systems (Motif and Windows). The `AbstractFactory` declares creation methods for families of widgets, and concrete factories implement them.
 
-**AbstractVehicleFactory.php**:
+---
+
+## 🧱 Class Creation Order
+
+1. `WidgetFactory.php` – Abstract Factory Interface
+2. `Window.php`, `ScrollBar.php` – Abstract Product Interfaces
+3. `MotifWindow.php`, `MotifScrollBar.php` – Concrete Products (Motif)
+4. `WindowsWindow.php`, `WindowsScrollBar.php` – Concrete Products (Windows)
+5. `MotifWidgetFactory.php`, `WindowsWidgetFactory.php` – Concrete Factories
+6. `Client.php` – Uses factories to create products
+7. `index.php` – Demo runner
+
+---
+
+## 📄 File: `WidgetFactory.php`
+
 ```php
 <?php
-
-abstract class AbstractVehicleFactory {
-    abstract function createCar();
-    abstract function createBike();
+// Abstract Factory Interface
+interface WidgetFactory {
+    public function createWindow(): Window;
+    public function createScrollBar(): ScrollBar;
 }
+?>
 ```
 
-**BMWFactory.php**:
+**Explanation**:
+- `WidgetFactory` defines two methods for creating abstract product types: `Window` and `ScrollBar`.
+
+---
+
+## 📄 File: `Window.php`
+
 ```php
 <?php
-
-require_once 'AbstractVehicleFactory.php';
-require_once 'BMWCar.php';
-require_once 'BMWBike.php';
-
-class BMWFactory extends AbstractVehicleFactory {
-    public function createCar() {
-        return new BMWCar();
-    }
-
-    public function createBike() {
-        return new BMWBike();
-    }
+// Abstract Product Interface
+interface Window {
+    public function render(): void;
 }
+?>
 ```
 
-**TeslaFactory.php**:
+**Explanation**:
+- `Window` is an abstract product with a `render()` method, which must be implemented by concrete windows.
+
+---
+
+## 📄 File: `ScrollBar.php`
+
 ```php
 <?php
-
-require_once 'AbstractVehicleFactory.php';
-require_once 'TeslaCar.php';
-require_once 'TeslaBike.php';
-
-class TeslaFactory extends AbstractVehicleFactory {
-    public function createCar() {
-        return new TeslaCar();
-    }
-
-    public function createBike() {
-        return new TeslaBike();
-    }
+// Abstract Product Interface
+interface ScrollBar {
+    public function scroll(): void;
 }
+?>
 ```
 
-**Car.php**:
+**Explanation**:
+- `ScrollBar` declares the `scroll()` behavior, implemented by concrete scrollbars.
+
+---
+
+## 📄 File: `MotifWindow.php`
+
 ```php
 <?php
+include 'Window.php';
 
-abstract class Car {
-    abstract function getName();
-}
-```
-
-**Bike.php**:
-```php
-<?php
-
-abstract class Bike {
-    abstract function getName();
-}
-```
-
-**BMWCar.php**:
-```php
-<?php
-
-require_once 'Car.php';
-
-class BMWCar extends Car {
-    public function getName() {
-        return "BMW Car";
+// Concrete Product
+class MotifWindow implements Window {
+    public function render(): void {
+        echo "Rendering a Motif style Window\n";
     }
 }
+?>
 ```
 
-**BMWBike.php**:
+---
+
+## 📄 File: `MotifScrollBar.php`
+
 ```php
 <?php
+include 'ScrollBar.php';
 
-require_once 'Bike.php';
-
-class BMWBike extends Bike {
-    public function getName() {
-        return "BMW Bike";
+// Concrete Product
+class MotifScrollBar implements ScrollBar {
+    public function scroll(): void {
+        echo "Scrolling with a Motif style ScrollBar\n";
     }
 }
+?>
 ```
 
-**TeslaCar.php**:
+---
+
+## 📄 File: `WindowsWindow.php`
+
 ```php
 <?php
+include 'Window.php';
 
-require_once 'Car.php';
-
-class TeslaCar extends Car {
-    public function getName() {
-        return "Tesla Car";
+// Concrete Product
+class WindowsWindow implements Window {
+    public function render(): void {
+        echo "Rendering a Windows style Window\n";
     }
 }
+?>
 ```
 
-**TeslaBike.php**:
+---
+
+## 📄 File: `WindowsScrollBar.php`
+
 ```php
 <?php
+include 'ScrollBar.php';
 
-require_once 'Bike.php';
-
-class TeslaBike extends Bike {
-    public function getName() {
-        return "Tesla Bike";
+// Concrete Product
+class WindowsScrollBar implements ScrollBar {
+    public function scroll(): void {
+        echo "Scrolling with a Windows style ScrollBar\n";
     }
 }
+?>
 ```
 
-**index.php**:
+---
+
+## 📄 File: `MotifWidgetFactory.php`
+
 ```php
 <?php
+include 'WidgetFactory.php';
+include 'MotifWindow.php';
+include 'MotifScrollBar.php';
 
-require_once 'BMWFactory.php';
-require_once 'TeslaFactory.php';
+// Concrete Factory
+class MotifWidgetFactory implements WidgetFactory {
+    public function createWindow(): Window {
+        return new MotifWindow();
+    }
 
-$bmwFactory = new BMWFactory();
-$teslaFactory = new TeslaFactory();
-
-$bmwCar = $bmwFactory->createCar();
-$bmwBike = $bmwFactory->createBike();
-
-$teslaCar = $teslaFactory->createCar();
-$teslaBike = $teslaFactory->createBike();
-
-echo $bmwCar->getName() . "<br/>";
-echo $bmwBike->getName() . "<br/>";
-echo $teslaCar->getName() . "<br/>";
-echo $teslaBike->getName();
+    public function createScrollBar(): ScrollBar {
+        return new MotifScrollBar();
+    }
+}
+?>
 ```
 
-4. **Browser Output**:
+---
 
-When you run `index.php`, you should see:
+## 📄 File: `WindowsWidgetFactory.php`
+
+```php
+<?php
+include 'WidgetFactory.php';
+include 'WindowsWindow.php';
+include 'WindowsScrollBar.php';
+
+// Concrete Factory
+class WindowsWidgetFactory implements WidgetFactory {
+    public function createWindow(): Window {
+        return new WindowsWindow();
+    }
+
+    public function createScrollBar(): ScrollBar {
+        return new WindowsScrollBar();
+    }
+}
+?>
 ```
-BMW Car
-BMW Bike
-Tesla Car
-Tesla Bike
+
+---
+
+## 📄 File: `Client.php`
+
+```php
+<?php
+include 'WidgetFactory.php';
+include 'Window.php';
+include 'ScrollBar.php';
+
+// Client Class
+class Client {
+    private Window $window;
+    private ScrollBar $scrollBar;
+
+    public function __construct(WidgetFactory $factory) {
+        // Use factory to create UI components
+        $this->window = $factory->createWindow();
+        $this->scrollBar = $factory->createScrollBar();
+    }
+
+    public function renderUI(): void {
+        $this->window->render();
+        $this->scrollBar->scroll();
+    }
+}
+?>
 ```
 
-5. **Explanation**:
-- `AbstractVehicleFactory`: It's an abstract factory with methods to create cars and bikes.
-- `BMWFactory` and `TeslaFactory`: Concrete factories that inherit from the abstract factory. They provide implementation for creating BMW and Tesla vehicles respectively.
-- `Car` and `Bike`: Abstract products that have methods to get the name of the vehicle.
-- `BMWCar`, `BMWBike`, `TeslaCar`, and `TeslaBike`: Concrete products. They represent specific vehicles and provide an implementation for the `getName` method.
-- `index.php`: This is the client code where you demonstrate the Abstract Factory pattern. You create cars and bikes using the concrete factories and then display their names.
+**Explanation**:
+- The `Client` class receives a factory object and uses it to create products.
+- It doesn’t know the concrete classes, just the interfaces.
 
-Remember, the idea behind the Abstract Factory pattern is to abstract the creation of objects. In this example, you're abstracting the creation of vehicles (cars and bikes) and letting the concrete factories handle the creation of specific brands.
+---
 
+## 📄 File: `index.php`
 
-Find Ray on:
+```php
+<?php
+include 'MotifWidgetFactory.php';
+include 'WindowsWidgetFactory.php';
+include 'Client.php';
 
-[RayAndrade.COM](https://www.RayAndrade.com)
+echo "Using Motif Theme:\n";
+$motifFactory = new MotifWidgetFactory();
+$client1 = new Client($motifFactory);
+$client1->renderUI();
 
-[TherRayCode.ORG](https://www.TheRayCode.org)
+echo "\nUsing Windows Theme:\n";
+$windowsFactory = new WindowsWidgetFactory();
+$client2 = new Client($windowsFactory);
+$client2->renderUI();
+?>
+```
 
-[Facebook](https://www.facebook.com/TheRayCode/)
+**Output**:
+```
+Using Motif Theme:
+Rendering a Motif style Window
+Scrolling with a Motif style ScrollBar
 
-[X @TheRayCode](https://www.x.com/TheRayCode/)
+Using Windows Theme:
+Rendering a Windows style Window
+Scrolling with a Windows style ScrollBar
+```
 
-[YouTube](https://www.youtube.com/TheRayCode/)
+---
 
+## ✅ Summary
 
+| Class | Role |
+|-------|------|
+| `WidgetFactory` | Abstract Factory |
+| `Window`, `ScrollBar` | Abstract Products |
+| `MotifWindow`, `MotifScrollBar` | Concrete Products |
+| `WindowsWindow`, `WindowsScrollBar` | Concrete Products |
+| `MotifWidgetFactory`, `WindowsWidgetFactory` | Concrete Factories |
+| `Client` | Uses factories to produce products |
+| `index.php` | Demonstrates the usage |
+
+Let me know if you’d like a ZIP archive with the files or a GitHub-style layout for students!
