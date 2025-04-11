@@ -48,7 +48,7 @@ Remember, though, while design patterns like the Abstract Factory pattern can be
 
 **Threats**
 1. **Overengineering:** Risk of overengineering in simple PHP projects where a straightforward solution might be sufficient.
-2. **Performance Impact:** May introduce a performance impact due to the extra layers of abstraction in PHP applications.Competitive Patterns**: Builder and Factory Method patterns can sometimes address similar issues with less complexity.
+2. **Performance Impact:** May introduce a performance impact due to the extra layers of abstraction in PHP applications.Competitive Patterns: Builder and Factory Method patterns can sometimes address similar issues with less complexity.
 
 ---
 
