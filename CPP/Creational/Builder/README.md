@@ -34,32 +34,7 @@ Here are seven reasons why a C++ programmer would benefit from learning and stud
 
 In conclusion, the Builder pattern offers a structured approach to constructing complex objects. For a C++ developer, understanding this pattern can lead to cleaner, more readable, and maintainable code, especially when dealing with intricate object creation scenarios.
 
-## Structrue
-
-**Builder** 
-* Specifies an abstract interface for creating parts of a **Product** object.
-
-**ConcreteBuilder** 
-* Constructs and assembles parts of the product by implementing the **Builder** interface.
-* Defines and Keeps track of the representation it creates.
-* Provides an interface for retriving the product.
-
-**Director**
-* Constructs an object using the **Builder** interface.
-
-**Product**
-* Represents the complex object under construction. **ConcreteBuilder** buildsthe productut's internal representation and defines the process by which it's assembled.
-* Includes classes including interfaces that define the consitituent parts into the final result.
-
-## Collaborations
-* The **Client** creates the **Director** and configures it with the desired **Builder** object
-* **Director** notifies the **Builder** whenever the product should be built.
-* **Builder** handles requests from the **Director** and adds pards tothe **Product**.
-* The **Client** retrives the **Product** from the **Builder**
-
 ### **S.W.O.T. Analysis of the Builder Design Pattern in C++**
-
----
 
 #### **S: Strengths**
 1. **Flexibility**: Simplifies object construction by allowing the same code to create varied, complex representations.  
