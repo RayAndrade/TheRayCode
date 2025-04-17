@@ -41,7 +41,6 @@ By studying the Builder Pattern, developers in C#, Java, and PHP can **simplify 
 
 ### **S.W.O.T. Analysis of Builder Design Patterns for PHP**
 
-#### **2. Builder**
 **Strengths**  
 1. **Handles Complex Objects**: Efficiently manages the creation of objects with numerous attributes, particularly in PHP configurations and data structures.  
 2. **Fluent Interfaces**: PHP's support for method chaining enhances the readability and usability of Builder pattern implementations.  
