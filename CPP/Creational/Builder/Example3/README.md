@@ -1,31 +1,33 @@
-[up](../README.md)
+[up](../README.md) [script](script/page01.md)
 
-Let's create a `DessertBuilder` using the Builder pattern. In this example, we'll construct a `Dessert` object with various components such as a base (like cake or pastry), a filling (like fruit or cream), and toppings (like chocolate or nuts).
+Certainly! The Builder pattern is a creational design pattern that allows the construction of complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
 
-First, let's define the `Dessert` class, which will be the product built by the builders.
+In our example, let's create a simple `Pizza` object that requires various ingredients like dough, sauce, and topping. We'll have a `PizzaBuilder` to encapsulate the construction logic for a `Pizza` object.
 
-`Dessert.h`:
+First, we'll define the `Pizza` class that represents the product created by the builder.
+
+`Pizza.h`:
 ```cpp
-#ifndef DESSERT_H
-#define DESSERT_H
+#ifndef PIZZA_H
+#define PIZZA_H
 
 #include <string>
 #include <vector>
-#include <iostream>
 
-class Dessert {
+// Pizza is the complex object that is created by the builder.
+class Pizza {
 private:
-    std::string base;
-    std::string filling;
+    std::string dough;
+    std::string sauce;
     std::vector<std::string> toppings;
 
 public:
-    void setBase(const std::string& b) {
-        base = b;
+    void setDough(const std::string& d) {
+        dough = d;
     }
 
-    void setFilling(const std::string& f) {
-        filling = f;
+    void setSauce(const std::string& s) {
+        sauce = s;
     }
 
     void addTopping(const std::string& topping) {
@@ -33,7 +35,7 @@ public:
     }
 
     void display() const {
-        std::cout << "Dessert with " << base << " base and " << filling << " filling. Toppings: ";
+        std::cout << "Pizza with " << dough << " dough, " << sauce << " sauce, toppings: ";
         for (const auto& topping : toppings) {
             std::cout << topping << " ";
         }
@@ -41,135 +43,128 @@ public:
     }
 };
 
-#endif // DESSERT_H
+#endif // PIZZA_H
 ```
 
-Next, we define the abstract `Builder` class for the dessert.
+Next, we define the abstract `Builder` class, which declares the building steps.
 
-`DessertBuilder.h`:
+`PizzaBuilder.h`:
 ```cpp
-#ifndef DESSERT_BUILDER_H
-#define DESSERT_BUILDER_H
+#ifndef PIZZA_BUILDER_H
+#define PIZZA_BUILDER_H
 
-#include "Dessert.h"
+#include "Pizza.h"
 
-class DessertBuilder {
+// Abstract Builder
+class PizzaBuilder {
 protected:
-    Dessert* dessert;
+    Pizza* pizza;
 public:
-    DessertBuilder() : dessert(nullptr) {}
+    PizzaBuilder() : pizza(nullptr) {}
 
-    virtual ~DessertBuilder() {
-        delete dessert;
+    virtual ~PizzaBuilder() {}
+
+    Pizza* getPizza() {
+        return pizza;
     }
 
-    Dessert* getDessert() {
-        return dessert;
+    void createNewPizzaProduct() {
+        pizza = new Pizza();
     }
 
-    void createNewDessertProduct() {
-        dessert = new Dessert();
-    }
-
-    virtual void buildBase() = 0;
-    virtual void buildFilling() = 0;
-    virtual void buildToppings() = 0;
+    virtual void buildDough() = 0;
+    virtual void buildSauce() = 0;
+    virtual void buildTopping() = 0;
 };
 
-#endif // DESSERT_BUILDER_H
+#endif // PIZZA_BUILDER_H
 ```
 
-Now, let's create a concrete builder class for a specific type of dessert, say a `CakeBuilder`.
+Now, let's create a concrete builder class that implements the `PizzaBuilder` interface.
 
-`CakeBuilder.h`:
+`HawaiianPizzaBuilder.h`:
 ```cpp
-#ifndef CAKE_BUILDER_H
-#define CAKE_BUILDER_H
+#ifndef HAWAIIAN_PIZZA_BUILDER_H
+#define HAWAIIAN_PIZZA_BUILDER_H
 
-#include "DessertBuilder.h"
+#include "PizzaBuilder.h"
 
-class CakeBuilder : public DessertBuilder {
+// Concrete Builder for Hawaiian pizza.
+class HawaiianPizzaBuilder : public PizzaBuilder {
 public:
-    virtual ~CakeBuilder() {}
+    virtual ~HawaiianPizzaBuilder() {}
 
-    void buildBase() override {
-        dessert->setBase("sponge cake");
+    void buildDough() override {
+        pizza->setDough("cross");
     }
 
-    void buildFilling() override {
-        dessert->setFilling("vanilla cream");
+    void buildSauce() override {
+        pizza->setSauce("mild");
     }
 
-    void buildToppings() override {
-        dessert->addTopping("chocolate shavings");
-        dessert->addTopping("strawberries");
+    void buildTopping() override {
+        pizza->addTopping("ham");
+        pizza->addTopping("pineapple");
     }
 };
 
-#endif // CAKE_BUILDER_H
+#endif // HAWAIIAN_PIZZA_BUILDER_H
 ```
 
-And the `Director` class to control the building process:
+Finally, we need a `Director` class that defines the order of construction steps.
 
-`DessertDirector.h`:
+`PizzaDirector.h`:
 ```cpp
-#ifndef DESSERT_DIRECTOR_H
-#define DESSERT_DIRECTOR_H
+#ifndef PIZZA_DIRECTOR_H
+#define PIZZA_DIRECTOR_H
 
-#include "DessertBuilder.h"
+#include "PizzaBuilder.h"
 
-class DessertDirector {
+// Director class that constructs an object using the Builder interface.
+class PizzaDirector {
 public:
-    void construct(DessertBuilder& builder) {
-        builder.createNewDessertProduct();
-        builder.buildBase();
-        builder.buildFilling();
-        builder.buildToppings();
+    void construct(PizzaBuilder& builder) {
+        builder.createNewPizzaProduct();
+        builder.buildDough();
+        builder.buildSauce();
+        builder.buildTopping();
     }
 };
 
-#endif // DESSERT_DIRECTOR_H
+#endif // PIZZA_DIRECTOR_H
 ```
 
-Finally, we use these classes in `main.cpp` to construct a dessert.
+Now, let's use these classes in our `main.cpp`.
 
 `main.cpp`:
 ```cpp
 #include <iostream>
-#include "Dessert.h"
-#include "DessertBuilder.h"
-#include "CakeBuilder.h"
-#include "DessertDirector.h"
+#include "Pizza.h"
+#include "PizzaBuilder.h"
+#include "HawaiianPizzaBuilder.h"
+#include "PizzaDirector.h"
 
 int main() {
-    DessertDirector director;
-    CakeBuilder cakeBuilder;
+    PizzaDirector director;
+    HawaiianPizzaBuilder hawaiianBuilder;
 
-    director.construct(cakeBuilder);
-    Dessert* dessert = cakeBuilder.getDessert();
-    dessert->display();
+    director.construct(hawaiianBuilder);
+    Pizza* pizza = hawaiianBuilder.getPizza();
+    pizza->display();
 
-    delete dessert; // Clean up the allocated memory
+    delete pizza; // Don't forget to deallocate memory!
 
     return 0;
 }
 ```
 
-When you run this code, it will output something like:
+When you run the code, you should see something like this printed to the console:
 ```
-Dessert with sponge cake base and vanilla cream filling. Toppings: chocolate shavings strawberries 
+Pizza with cross dough, mild sauce, toppings: ham pineapple 
 ```
 
-This demonstrates the construction of a cake using the Builder pattern. The `DessertBuilder` allows for a structured way to construct complex desserts, `CakeBuilder` provides the specific steps for creating a cake, and the `DessertDirector` manages the construction process.
+This demonstrates the building of a Hawaiian Pizza with the defined steps. When teaching this pattern, make sure your students understand that the `Builder` pattern helps in constructing complex objects by separating the construction process from the representation. It gives greater control over the construction process and supports building objects with a lot of optional parameters in a more readable manner.
 
-The order of creation in your project should be:
+Regarding the order of creation in your project, you typically start with the product class (`Pizza`), then define the builder interface (`PizzaBuilder`), followed by the concrete builders (`HawaiianPizzaBuilder`), and finally the director (`PizzaDirector`). You might
 
-1. Create the product class (`Dessert`).
-2. Define the builder interface (`DessertBuilder`).
-3. Implement concrete builders (like `CakeBuilder`).
-4. Implement the director class (`DessertDirector`).
-5. In `main.cpp`, use the director to construct a dessert with the concrete builder.
-
-Running the `main.cpp` file will demonstrate how the Builder pattern can be used to create complex objects step-by-step, separating the construction process from the
-
- final product's representation.
+ then test the building process in the `main` function, as shown above.

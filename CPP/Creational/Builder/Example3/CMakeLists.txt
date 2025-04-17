@@ -4,7 +4,8 @@ project(beginning)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(beginning main.cpp
-        Dessert.h
-        DessertBuilder.h
-        CakeBuilder.h
-        DessertDirector.h)
+        Pizza.h
+        PizzaBuilder.h
+        HawaiianPizzaBuilder.h
+        PizzaDirector.h
+)

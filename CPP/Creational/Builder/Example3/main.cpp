@@ -1,19 +1,18 @@
 #include <iostream>
-#include "Dessert.h"
-#include "DessertBuilder.h"
-#include "CakeBuilder.h"
-#include "DessertDirector.h"
-
-
+#include "Pizza.h"
+#include "PizzaBuilder.h"
+#include "HawaiianPizzaBuilder.h"
+#include "PizzaDirector.h"
 
 int main() {
-    DessertDirector director;
-    CakeBuilder cakeBuilder;
+    PizzaDirector director;
+    HawaiianPizzaBuilder hawaiianBuilder;
 
-    director.construct(cakeBuilder);
-    Dessert* dessert = cakeBuilder.getDessert();
-    dessert->display();
+    director.construct(hawaiianBuilder);
+    Pizza* pizza = hawaiianBuilder.getPizza();
+    pizza->display();
 
-    delete dessert; // Clean up the allocated memory
+    delete pizza; // Don't forget to deallocate memory!
+
     return 0;
 }
