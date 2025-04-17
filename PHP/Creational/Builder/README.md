@@ -16,7 +16,7 @@
 
 
 ### **What is the Builder Pattern?**
-The Builder Pattern is a **Creational Design Pattern** that constructs complex objects step-by-step, separating the construction process from the object’s representation. I
+The Builder Pattern is a **Creational Design Pattern** that constructs complex objects step-by-step, separating the construction process from the object’s representation.
 
 ### **Why PHP Developers Should Study the Builder Pattern**
 
