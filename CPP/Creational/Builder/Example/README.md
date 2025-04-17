@@ -1,175 +1,206 @@
-[up](../README.md)
+Great! Below is a **C++** implementation of the **Builder** design pattern, a **Creational** pattern, following the **Gang of Four (GoF)** structure. Each class is placed in its own `.h` and `.cpp` files, with the order of creation designed to avoid dependency issues.
 
-Let's create a `DessertBuilder` using the Builder pattern. In this example, we'll construct a `Dessert` object with various components such as a base (like cake or pastry), a filling (like fruit or cream), and toppings (like chocolate or nuts).
+---
 
-First, let's define the `Dessert` class, which will be the product built by the builders.
+## ✅ Class Creation Order (to avoid dependency errors)
+1. **Product (The complex object being built)**
+2. **Builder (Abstract builder interface)**
+3. **ConcreteBuilder (Implements construction steps)**
+4. **Director (Orchestrates the building process)**
+5. **Client Code (`main.cpp`)**
 
-`Dessert.h`:
+---
+
+## 🔧 1. `Product.h`
+
 ```cpp
-#ifndef DESSERT_H
-#define DESSERT_H
+#ifndef PRODUCT_H
+#define PRODUCT_H
 
 #include <string>
 #include <vector>
-#include <iostream>
 
-class Dessert {
+class Product {
 private:
-    std::string base;
-    std::string filling;
-    std::vector<std::string> toppings;
+    std::vector<std::string> parts;
 
 public:
-    void setBase(const std::string& b) {
-        base = b;
-    }
-
-    void setFilling(const std::string& f) {
-        filling = f;
-    }
-
-    void addTopping(const std::string& topping) {
-        toppings.push_back(topping);
-    }
-
-    void display() const {
-        std::cout << "Dessert with " << base << " base and " << filling << " filling. Toppings: ";
-        for (const auto& topping : toppings) {
-            std::cout << topping << " ";
-        }
-        std::cout << std::endl;
-    }
+    void addPart(const std::string& part);
+    void show() const;
 };
 
-#endif // DESSERT_H
+#endif // PRODUCT_H
 ```
 
-Next, we define the abstract `Builder` class for the dessert.
+---
 
-`DessertBuilder.h`:
+## 🔧 `Product.cpp`
+
 ```cpp
-#ifndef DESSERT_BUILDER_H
-#define DESSERT_BUILDER_H
+#include "Product.h"
+#include <iostream>
 
-#include "Dessert.h"
+void Product::addPart(const std::string& part) {
+    parts.push_back(part);
+}
 
-class DessertBuilder {
-protected:
-    Dessert* dessert;
-public:
-    DessertBuilder() : dessert(nullptr) {}
-
-    virtual ~DessertBuilder() {
-        delete dessert;
+void Product::show() const {
+    std::cout << "Product parts: ";
+    for (const auto& part : parts) {
+        std::cout << part << " ";
     }
-
-    Dessert* getDessert() {
-        return dessert;
-    }
-
-    void createNewDessertProduct() {
-        dessert = new Dessert();
-    }
-
-    virtual void buildBase() = 0;
-    virtual void buildFilling() = 0;
-    virtual void buildToppings() = 0;
-};
-
-#endif // DESSERT_BUILDER_H
+    std::cout << std::endl;
+}
 ```
 
-Now, let's create a concrete builder class for a specific type of dessert, say a `CakeBuilder`.
+---
 
-`CakeBuilder.h`:
+## 🧱 2. `Builder.h`
+
 ```cpp
-#ifndef CAKE_BUILDER_H
-#define CAKE_BUILDER_H
+#ifndef BUILDER_H
+#define BUILDER_H
 
-#include "DessertBuilder.h"
+#include "Product.h"
 
-class CakeBuilder : public DessertBuilder {
+// Abstract Builder
+class Builder {
 public:
-    virtual ~CakeBuilder() {}
-
-    void buildBase() override {
-        dessert->setBase("sponge cake");
-    }
-
-    void buildFilling() override {
-        dessert->setFilling("vanilla cream");
-    }
-
-    void buildToppings() override {
-        dessert->addTopping("chocolate shavings");
-        dessert->addTopping("strawberries");
-    }
+    virtual void buildPartA() = 0;
+    virtual void buildPartB() = 0;
+    virtual Product* getResult() = 0;
+    virtual ~Builder() {}
 };
 
-#endif // CAKE_BUILDER_H
+#endif // BUILDER_H
 ```
 
-And the `Director` class to control the building process:
+---
 
-`DessertDirector.h`:
+## 🧱 3. `ConcreteBuilder.h`
+
 ```cpp
-#ifndef DESSERT_DIRECTOR_H
-#define DESSERT_DIRECTOR_H
+#ifndef CONCRETEBUILDER_H
+#define CONCRETEBUILDER_H
 
-#include "DessertBuilder.h"
+#include "Builder.h"
 
-class DessertDirector {
+// Concrete Builder
+class ConcreteBuilder : public Builder {
+private:
+    Product* product;
+
 public:
-    void construct(DessertBuilder& builder) {
-        builder.createNewDessertProduct();
-        builder.buildBase();
-        builder.buildFilling();
-        builder.buildToppings();
-    }
+    ConcreteBuilder();
+    ~ConcreteBuilder();
+
+    void buildPartA() override;
+    void buildPartB() override;
+    Product* getResult() override;
 };
 
-#endif // DESSERT_DIRECTOR_H
+#endif // CONCRETEBUILDER_H
 ```
 
-Finally, we use these classes in `main.cpp` to construct a dessert.
+---
 
-`main.cpp`:
+## 🧱 `ConcreteBuilder.cpp`
+
+```cpp
+#include "ConcreteBuilder.h"
+
+ConcreteBuilder::ConcreteBuilder() {
+    product = new Product();
+}
+
+ConcreteBuilder::~ConcreteBuilder() {
+    delete product;
+}
+
+void ConcreteBuilder::buildPartA() {
+    product->addPart("PartA");
+}
+
+void ConcreteBuilder::buildPartB() {
+    product->addPart("PartB");
+}
+
+Product* ConcreteBuilder::getResult() {
+    return product;
+}
+```
+
+---
+
+## 🎯 4. `Director.h`
+
+```cpp
+#ifndef DIRECTOR_H
+#define DIRECTOR_H
+
+#include "Builder.h"
+
+// Director
+class Director {
+public:
+    void construct(Builder* builder);
+};
+
+#endif // DIRECTOR_H
+```
+
+---
+
+## 🎯 `Director.cpp`
+
+```cpp
+#include "Director.h"
+
+void Director::construct(Builder* builder) {
+    builder->buildPartA();
+    builder->buildPartB();
+}
+```
+
+---
+
+## 👨‍💻 5. `main.cpp`
+
 ```cpp
 #include <iostream>
-#include "Dessert.h"
-#include "DessertBuilder.h"
-#include "CakeBuilder.h"
-#include "DessertDirector.h"
+#include "Director.h"
+#include "ConcreteBuilder.h"
 
 int main() {
-    DessertDirector director;
-    CakeBuilder cakeBuilder;
+    Director director;
+    ConcreteBuilder builder;
 
-    director.construct(cakeBuilder);
-    Dessert* dessert = cakeBuilder.getDessert();
-    dessert->display();
+    director.construct(&builder);
+    Product* product = builder.getResult();
 
-    delete dessert; // Clean up the allocated memory
+    product->show();
 
     return 0;
 }
 ```
 
-When you run this code, it will output something like:
-```
-Dessert with sponge cake base and vanilla cream filling. Toppings: chocolate shavings strawberries 
-```
+---
 
-This demonstrates the construction of a cake using the Builder pattern. The `DessertBuilder` allows for a structured way to construct complex desserts, `CakeBuilder` provides the specific steps for creating a cake, and the `DessertDirector` manages the construction process.
+## 🧠 Summary & Explanation
 
-The order of creation in your project should be:
+| Class/File        | Role                                                                 |
+|------------------|----------------------------------------------------------------------|
+| `Product`         | The complex object that is built step by step.                       |
+| `Builder`         | Abstract interface that defines methods for building the parts.      |
+| `ConcreteBuilder` | Implements the building steps and returns the final product.         |
+| `Director`        | Controls the order of building steps, using a `Builder`.             |
+| `main.cpp`        | The client code that puts it all together.                           |
 
-1. Create the product class (`Dessert`).
-2. Define the builder interface (`DessertBuilder`).
-3. Implement concrete builders (like `CakeBuilder`).
-4. Implement the director class (`DessertDirector`).
-5. In `main.cpp`, use the director to construct a dessert with the concrete builder.
+---
 
-Running the `main.cpp` file will demonstrate how the Builder pattern can be used to create complex objects step-by-step, separating the construction process from the
+## ✅ Benefits of the Builder Pattern in C++
+- Encapsulates complex construction logic.
+- Supports multiple representations of a product.
+- Promotes separation of concerns (product vs. construction steps).
 
- final product's representation.
+Would you like a version that builds **different product variants**, or one that returns **unique_ptr<Product>** for better memory management?

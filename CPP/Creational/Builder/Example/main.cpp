@@ -1,19 +1,17 @@
 #include <iostream>
-#include "Dessert.h"
-#include "DessertBuilder.h"
-#include "CakeBuilder.h"
-#include "DessertDirector.h"
+#include "Director.h"
+#include "ConcreteBuilder.h"
 
 
-
+// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
-    DessertDirector director;
-    CakeBuilder cakeBuilder;
+    Director director;
+    ConcreteBuilder builder;
 
-    director.construct(cakeBuilder);
-    Dessert* dessert = cakeBuilder.getDessert();
-    dessert->display();
+    director.construct(&builder);
+    Product* product = builder.getResult();
 
-    delete dessert; // Clean up the allocated memory
+    product->show();
+
     return 0;
 }
