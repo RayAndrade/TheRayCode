@@ -15,9 +15,9 @@
 [**Example1**](Example1/README.md) [**Example2**](Example2/README.md)
 
 
-The Builder Pattern is a Creational Design Pattern that constructs complex objects step-by-step, separating the construction process from the object’s representation.
+The Builder Design Pattern is a Creational Pattern that constructs complex objects step-by-step, separating the construction process from the object’s representation.
 
-Here are some reasons why a Java programmer should learn and study the Builder design pattern:
+Here are some reasons why a Java programmer should study the Builder design pattern:
 
 1. **Simplified Construction**: Allows creating complex objects step-by-step without writing multiple constructors for different configurations.
 
