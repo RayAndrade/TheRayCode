@@ -37,7 +37,7 @@ Simplifies construction of data objects in REST APIs or microservices, which is 
 
 ---
 
-By studying the Builder Pattern, developers in C#, Java, and PHP can **simplify object construction**, **enhance code modularity**, and **align with modern development practices**.
+By studying the Builder design Pattern, developers in PHP can **simplify object construction**, **enhance code modularity**, and **align with modern development practices**.
 
 ### **S.W.O.T. Analysis of Builder Design Patterns for PHP**
 
