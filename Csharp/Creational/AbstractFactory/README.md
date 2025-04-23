@@ -17,6 +17,9 @@
 
 [**UML** https://vimeo.com/1070513815
 
+<a href="https://vimeo.com/1070513815" target="_blank">Open in new window</a>
+
+
 https://vimeo.com/1070513901
 
 ### Definition of the Abstract Factory Pattern:
