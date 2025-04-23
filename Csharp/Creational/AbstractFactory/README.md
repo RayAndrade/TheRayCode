@@ -17,13 +17,10 @@
 
 [**UML** https://vimeo.com/1070513815
 
-<a href="https://vimeo.com/1070513815" target="_blank">Open in new window</a>
-
-
-https://vimeo.com/1070513901
-
 ### Definition of the Abstract Factory Pattern:
 The **Abstract Factory** pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes. It allows a system to be independent of how its objects are created, composed, and represented.
+
+https://vimeo.com/1070513901
 
 ### 5 Reasons Studying the Abstract Factory Pattern is Beneficial for the C# Developer:
 1. **Improved Flexibility**  
