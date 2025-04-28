@@ -1,152 +1,116 @@
-[up](../README.md) | [script](script/page01.md)
+Here is a **C# implementation of the Builder Design Pattern**, a **Creational** design pattern, based on the structure provided in the *Gang of Four* book. Each class is presented in its own file, and all lines of code are commented to help your students understand each part.
 
-**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
+---
 
+### 🔧 Class Creation Order
 
-The Builder design pattern is used to construct a complex object step by step, and the final step will return the object. The process of constructing an object should be independent of the parts that make up the object.
+1. **Product.cs** – The complex object that is to be built.
+2. **Builder.cs** – The abstract interface for creating parts of a Product.
+3. **ConcreteBuilder.cs** – Implements the Builder interface and assembles the parts.
+4. **Director.cs** – Constructs an object using the Builder interface.
+5. **Program.cs** – Demonstrates usage.
 
-Here's a simple example of the Builder pattern in C# with an application that helps in building a `Computer`.
+---
 
-**1. Product (Computer.cs)**
-
-This class represents the complex object under construction. 
-
+## `Product.cs`
 ```csharp
-// Computer.cs
-
-namespace Show
+// Represents the complex object being built
+public class Product
 {
-    public class Computer
-    {
-        public string CPU { get; set; }
-        public string RAM { get; set; }
-        public string HDD { get; set; }
+    private List<string> _parts = new List<string>(); // List to store product parts
 
-        public override string ToString()
+    // Adds a part to the product
+    public void Add(string part)
+    {
+        _parts.Add(part);
+    }
+
+    // Display all parts of the product
+    public void Show()
+    {
+        Console.WriteLine("Product Parts:");
+        foreach (string part in _parts)
         {
-            return $"CPU: {CPU}, RAM: {RAM}, HDD: {HDD}";
+            Console.WriteLine("- " + part);
         }
     }
 }
 ```
 
-**2. Builder Interface (ComputerBuilder.cs)**
+---
 
-This abstract interface declares the step-by-step creation methods.
-
+## `Builder.cs`
 ```csharp
-// ComputerBuilder.cs
-
-namespace Show
+// The Builder interface specifies methods for building the parts of a Product
+public abstract class Builder
 {
-    public interface ComputerBuilder
+    public abstract void BuildPartA(); // Step to build Part A
+    public abstract void BuildPartB(); // Step to build Part B
+    public abstract Product GetResult(); // Returns the final product
+}
+```
+
+---
+
+## `ConcreteBuilder.cs`
+```csharp
+// ConcreteBuilder constructs and assembles parts of the product
+public class ConcreteBuilder : Builder
+{
+    private Product _product = new Product(); // The product instance being built
+
+    public override void BuildPartA()
     {
-        void AddCPU(string cpu);
-        void AddRAM(string ram);
-        void AddHDD(string hdd);
-        Computer GetComputer();
+        _product.Add("PartA"); // Adds PartA to the product
+    }
+
+    public override void BuildPartB()
+    {
+        _product.Add("PartB"); // Adds PartB to the product
+    }
+
+    public override Product GetResult()
+    {
+        return _product; // Returns the fully built product
     }
 }
 ```
 
-**3. Concrete Builder (GamingComputerBuilder.cs)**
+---
 
-This class implements the `ComputerBuilder` interface to create and assemble the `Computer` object.
-
+## `Director.cs`
 ```csharp
-// GamingComputerBuilder.cs
-
-namespace Show
+// The Director is responsible for constructing the product using the builder
+public class Director
 {
-    public class GamingComputerBuilder : ComputerBuilder
+    public void Construct(Builder builder)
     {
-        private Computer _computer = new Computer();
-
-        public void AddCPU(string cpu)
-        {
-            _computer.CPU = cpu;
-        }
-
-        public void AddRAM(string ram)
-        {
-            _computer.RAM = ram;
-        }
-
-        public void AddHDD(string hdd)
-        {
-            _computer.HDD = hdd;
-        }
-
-        public Computer GetComputer()
-        {
-            return _computer;
-        }
+        builder.BuildPartA(); // Instruct builder to build Part A
+        builder.BuildPartB(); // Instruct builder to build Part B
     }
 }
 ```
 
-**4. Director (ComputerDirector.cs)**
+---
 
-This class is responsible for constructing the product using the Builder interface.
-
+## `Program.cs`
 ```csharp
-// ComputerDirector.cs
-
-namespace Show
+// Client code demonstrating how to use the Builder pattern
+class Program
 {
-    public class ComputerDirector
+    static void Main(string[] args)
     {
-        public Computer Build(ComputerBuilder builder)
-        {
-            builder.AddCPU("Intel i9");
-            builder.AddRAM("32GB");
-            builder.AddHDD("1TB SSD");
-            return builder.GetComputer();
-        }
+        Director director = new Director(); // Initializes the director
+        Builder builder = new ConcreteBuilder(); // Initializes a concrete builder
+
+        director.Construct(builder); // Directs the builder to build the product
+
+        Product product = builder.GetResult(); // Retrieves the final product
+        product.Show(); // Displays the product parts
     }
 }
 ```
 
-**5. Program (Program.cs)**
+---
 
-This is the main program where you'll see how the Builder pattern is used.
-
-```csharp
-// Program.cs
-using System;
-
-namespace Show
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            ComputerDirector director = new ComputerDirector();
-            ComputerBuilder builder = new GamingComputerBuilder();
-            
-            Computer gamingComputer = director.Build(builder);
-
-            Console.WriteLine("Gaming Computer Specs:");
-            Console.WriteLine(gamingComputer.ToString());
-        }
-    }
-}
-```
-
-In this example:
-
-- `Computer` is the product to be constructed.
-- `ComputerBuilder` is the abstract builder interface that declares the construction steps.
-- `GamingComputerBuilder` is a concrete builder that implements the construction steps to build the `Computer`.
-- `ComputerDirector` uses the `ComputerBuilder` to construct the `Computer`.
-- In the `Program` class, we create a `ComputerDirector`, a `GamingComputerBuilder`, and then use the director to construct a gaming computer.
-
-
-[TheRayCode.ORG](https://www.TheRayCode.org)
-
-[RayAndrade.COM](https://www.RayAndrade.com)
-
-[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
-
-
-The Builder design pattern decouples the construction of a complex object from its representation, allowing the same construction process to create different representations.
+Would you like a ZIP-ready folder structure or a `README.md` to accompany this for students to reference?
