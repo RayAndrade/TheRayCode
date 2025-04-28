@@ -1,18 +1,20 @@
 <?php
 
-namespace TheRayCode\Builder;
+include_once 'Director.php';
+include_once 'ConcreteBuilder.php';
 
-include 'Sandwich.php';
-include 'SandwichBuilder.php';
+// Create Director and Builder objects
+$director = new Director();
+$builder = new ConcreteBuilder();
 
-$sandwichBuilder = new SandwichBuilder();
+// Tell the Director which builder to use
+$director->setBuilder($builder);
 
-$sandwich = $sandwichBuilder->setBread("whole grain")
-    ->setMeat("turkey")
-    ->setCheese("swiss")
-    ->setVeggies("lettuce, tomato, onions")
-    ->build();
+// Director constructs the product
+$director->construct();
 
-echo $sandwich;
+// Get the final product from the builder
+$product = $builder->getResult();
 
-
+// Display the built product
+$product->show();
