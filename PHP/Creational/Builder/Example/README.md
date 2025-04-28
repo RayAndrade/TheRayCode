@@ -1,16 +1,5 @@
 [up](../README.md)
 
-Of course! I'll create the Builder Pattern in **PHP 8.1**, using **the same class names, variable names, and structure** based on the **Gang of Four** (GoF) book and their UML diagram.
-
-✅ I'll:
-- Place **each class/interface in its own PHP file**.
-- Include proper **`include` statements at the top** of each file to avoid dependency issues.
-- Have the **demo** (client code) in `index.php`.
-- **Comment** the PHP code.
-- **Explain** everything in a **README.md** format using triple backticks (```).
-
----
-
 # 📄 README.md
 
 # Builder Design Pattern in PHP 8.1
