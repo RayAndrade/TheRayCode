@@ -1,80 +1,210 @@
 [up](../README.md)
 
-[Script](script/page01.md)
+Of course! I'll create the Builder Pattern in **PHP 8.1**, using **the same class names, variable names, and structure** based on the **Gang of Four** (GoF) book and their UML diagram.
 
-In PHP, you might create a Sandwich class as follows in a file named **Sandwich.php**:
+✅ I'll:
+- Place **each class/interface in its own PHP file**.
+- Include proper **`include` statements at the top** of each file to avoid dependency issues.
+- Have the **demo** (client code) in `index.php`.
+- **Comment** the PHP code.
+- **Explain** everything in a **README.md** format using triple backticks (```).
 
-```
-class Sandwich {
-```
-Add varables that are needed
+---
 
-```
-private $bread;
-private $meat;
-private $cheese;
-private $veggies;
-```
-add the **function __construct**
+# 📄 README.md
 
-```
-function __construct($bread, $meat, $cheese, $veggies) {
-    $this->bread = $bread;
-    $this->meat = $meat;
-    $this->cheese = $cheese;
-    $this->veggies = $veggies;
-}
-```
+# Builder Design Pattern in PHP 8.1
 
-Let's format our **toString** function
+## 🧩 Overview
+The **Builder Pattern** separates the construction of a complex object from its representation so that the same construction process can create different representations.
 
-```
-function __toString() {
-    return $this->bread . ", " . $this->meat . ", " . $this->cheese . ", " . $this->veggies;
-}
-```
+---
 
-What you shoud see at the browser
+## 📚 Class Creation Order
 
-```
-whole grain, turkey, swiss, lettuce, tomato, onions
-```
+1. **Product.php** (Product being built)
+2. **Builder.php** (Abstract Builder)
+3. **ConcreteBuilder.php** (Concrete implementation of Builder)
+4. **Director.php** (Director that orchestrates the building)
+5. **index.php** (Client code)
 
+---
 
-Now let's create the **SandwichBuilder**
+## 📁 Files
 
-```
-class SandwichBuilder
+---
+
+### 🔹 1. `Product.php`
+```php
+<?php
+// Product.php
+
+// Product class defines the complex object to be built
+class Product
 {
-    private $bread;
-    private $meat;
-    private $cheese;
-    private $veggies;
+    private array $parts = [];
 
-    function setBread($bread) {
-        $this->bread = $bread;
-        return $this;
+    // Add a part to the product
+    public function addPart(string $part): void
+    {
+        $this->parts[] = $part;
     }
 
-    function setMeat($meat) {
-        $this->meat = $meat;
-        return $this;
+    // Show the parts that have been added to the product
+    public function show(): void
+    {
+        echo "Product Parts:\n";
+        foreach ($this->parts as $part) {
+            echo "- $part\n";
+        }
     }
-
-    function setCheese($cheese) {
-        $this->cheese = $cheese;
-        return $this;
-    }
-
-    function setVeggies($veggies) {
-        $this->veggies = $veggies;
-        return $this;
-    }
-
-    function build() {
-        return new Sandwich($this->bread, $this->meat, $this->cheese, $this->veggies);
-    }
-
 }
+?>
 ```
+
+---
+
+### 🔹 2. `Builder.php`
+```php
+<?php
+// Builder.php
+
+// Builder interface declares building steps
+interface Builder
+{
+    public function buildPartA(): void;
+    public function buildPartB(): void;
+    public function getResult(): Product;
+}
+?>
+```
+
+---
+
+### 🔹 3. `ConcreteBuilder.php`
+```php
+<?php
+// ConcreteBuilder.php
+
+include_once 'Product.php';
+include_once 'Builder.php';
+
+// ConcreteBuilder implements the Builder interface
+class ConcreteBuilder implements Builder
+{
+    private Product $product;
+
+    public function __construct()
+    {
+        $this->product = new Product();
+    }
+
+    // Build part A
+    public function buildPartA(): void
+    {
+        $this->product->addPart("PartA");
+    }
+
+    // Build part B
+    public function buildPartB(): void
+    {
+        $this->product->addPart("PartB");
+    }
+
+    // Return the final built product
+    public function getResult(): Product
+    {
+        return $this->product;
+    }
+}
+?>
+```
+
+---
+
+### 🔹 4. `Director.php`
+```php
+<?php
+// Director.php
+
+include_once 'Builder.php';
+
+// Director is responsible for executing the building steps
+class Director
+{
+    private Builder $builder;
+
+    // Set the builder to use
+    public function setBuilder(Builder $builder): void
+    {
+        $this->builder = $builder;
+    }
+
+    // Construct the product step by step
+    public function construct(): void
+    {
+        $this->builder->buildPartA();
+        $this->builder->buildPartB();
+    }
+}
+?>
+```
+
+---
+
+### 🔹 5. `index.php` (Demo file)
+```php
+<?php
+// index.php
+
+include_once 'Director.php';
+include_once 'ConcreteBuilder.php';
+
+// Create Director and Builder objects
+$director = new Director();
+$builder = new ConcreteBuilder();
+
+// Tell the Director which builder to use
+$director->setBuilder($builder);
+
+// Director constructs the product
+$director->construct();
+
+// Get the final product from the builder
+$product = $builder->getResult();
+
+// Display the built product
+$product->show();
+?>
+```
+
+---
+
+## 🔥 How to Run
+
+Simply place these files in the same directory (example: `/builder-pattern/`) and run `index.php` with PHP 8.1:
+
+```bash
+php index.php
+```
+
+Expected output:
+
+```
+Product Parts:
+- PartA
+- PartB
+```
+
+---
+
+## ✏️ Code Summary
+
+- **Product**: The complex object under construction.
+- **Builder**: Abstract interface defining how to build parts.
+- **ConcreteBuilder**: Implements the construction of parts and assembles the final object.
+- **Director**: Orchestrates building steps using the builder interface.
+- **Client (index.php)**: Tells the director to build a product.
+
+---
 
