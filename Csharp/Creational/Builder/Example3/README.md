@@ -1,6 +1,6 @@
 [up](../README.md)
 
-Certainly! Let's apply the Builder design pattern to a toy-building scenario. We will design a system to build different types of toys, such as a toy car and a toy robot, each with various components.
+Let's apply the Builder design pattern to a toy-building scenario. We will design a system to build different types of toys, such as a toy car and a toy robot, each with various components.
 
 ### Example Scenario: Building a Toy
 
