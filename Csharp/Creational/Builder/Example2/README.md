@@ -1,6 +1,6 @@
 [up](../README.md)
 
-Sure, let's adapt the Builder design pattern example to a meal-building scenario. We'll create a system to build different types of meals, such as a standard meal and a vegetarian meal.
+Let's adapt the Builder design pattern example to a meal-building scenario. We'll create a system to build different types of meals, such as a standard meal and a vegetarian meal.
 
 ### Example Scenario: Building a Meal
 
