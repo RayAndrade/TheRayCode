@@ -158,6 +158,14 @@ public class index {
     }
 }
 ```
+When we compile and run we get:
+```
+Product Parts:
+PartA: PartA built by ConcreteBuilder
+PartB: PartB built by ConcreteBuilder
+PartC: PartC built by ConcreteBuilder
+```
+
 
 ---
 
