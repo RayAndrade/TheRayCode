@@ -174,7 +174,3 @@ PartC: PartC built by ConcreteBuilder
 javac *.java
 java index
 ```
-
----
-
-Would you like me to convert this into a `.zip` project structure or prepare a formatted `.html` page for publishing?
