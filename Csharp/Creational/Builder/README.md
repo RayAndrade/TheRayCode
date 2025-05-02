@@ -16,7 +16,7 @@
 ### **What is the Builder Pattern?**
 The Builder Pattern is a **Creational Design Pattern** that constructs complex objects step-by-step, separating the construction process from the object’s representation. It’s widely applicable in object-oriented programming languages like C#.
 
----
+why https://vimeo.com/1080708995
 
 Here are some reasons why a C# programmer should study the **Builder** design pattern:
 
@@ -35,11 +35,11 @@ Facilitates building multiple variations of an object without duplicating constr
 5. **Decoupled Creation Logic**  
 Decouples object creation from its representation, promoting the Single Responsibility Principle and clean architecture.
 
----
+swot https://vimeo.com/1080708945
 
 By studying the Builder Pattern, developers in C# can **simplify object construction**, **enhance code modularity**, and **align with modern development practices**.
 
----
+
 ### S.W.O.T. Analysis of the Builder Design Pattern in C#
 
 #### **Strengths**
