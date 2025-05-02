@@ -1,9 +1,5 @@
 [top](../README.md)
 
-Absolutely! Below is the updated **README.md**-style explanation of the Builder Design Pattern in Java, now with **detailed descriptions outside the code blocks** for each **class** and **method**. This will help your students better understand the structure and purpose of each component **before reading the code** itself.
-
----
-
 # 🧱 Builder Design Pattern – Java Implementation (Gang of Four)
 
 ---
