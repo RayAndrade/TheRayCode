@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 [top](../README.md)
 
 # 🧱 Builder Design Pattern – Java Implementation (Gang of Four)
