@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [top](../README.md)
 
 # 🧱 Builder Design Pattern – Java Implementation (Gang of Four)
@@ -24,15 +25,37 @@ The **Builder pattern** is a *creational* design pattern that separates the **co
 - `show()`: Outputs the current state of the product.
 
 ```java
-public class Product {
-    private String partA;
-    private String partB;
-    private String partC;
+=======
+Here's a complete **Java** implementation of the **Builder** design pattern, a **Creational** pattern, using the same class and method names found in the **Gang of Four (GoF)** book: *"Design Patterns: Elements of Reusable Object-Oriented Software"*. This version puts each class in its own `.java` file and structures them in an order that prevents dependency issues.
 
-    public void setPartA(String partA) {
-        this.partA = partA;
+---
+
+## ✅ Class Creation Order
+
+1. `Product.java` – The complex object being built
+2. `Builder.java` – Abstract builder interface
+3. `ConcreteBuilder.java` – Implements the construction steps
+4. `Director.java` – Directs the build process
+5. `Main.java` – Client code for demonstration
+
+---
+
+## 🔨 1. `Product.java`
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+// The complex object to be built
+>>>>>>> 167bfb7a (*)
+public class Product {
+    private List<String> parts = new ArrayList<>();
+
+    public void add(String part) {
+        parts.add(part);
     }
 
+<<<<<<< HEAD
     public void setPartB(String partB) {
         this.partB = partB;
     }
@@ -46,12 +69,20 @@ public class Product {
         System.out.println("PartA: " + partA);
         System.out.println("PartB: " + partB);
         System.out.println("PartC: " + partC);
+=======
+    public void show() {
+        System.out.println("Product parts:");
+        for (String part : parts) {
+            System.out.println("- " + part);
+        }
+>>>>>>> 167bfb7a (*)
     }
 }
 ```
 
 ---
 
+<<<<<<< HEAD
 ### 2. `Builder.java`  
 **Purpose**: This is an **interface** that defines the abstract steps needed to build the product. It ensures a consistent process across different builders.
 
@@ -67,11 +98,22 @@ public interface Builder {
     void buildPartB();
     void buildPartC();
     Product getResult();
+=======
+## 🧱 2. `Builder.java`
+
+```java
+// Abstract builder interface
+public abstract class Builder {
+    public abstract void buildPartA();
+    public abstract void buildPartB();
+    public abstract Product getResult();
+>>>>>>> 167bfb7a (*)
 }
 ```
 
 ---
 
+<<<<<<< HEAD
 ### 3. `ConcreteBuilder.java`  
 **Purpose**: Implements the `Builder` interface. It contains logic to assemble the parts of the product step-by-step and maintains an internal reference to the `Product` being constructed.
 
@@ -83,21 +125,36 @@ public interface Builder {
 
 ```java
 public class ConcreteBuilder implements Builder {
+=======
+## 🧱 3. `ConcreteBuilder.java`
+
+```java
+// Concrete builder implementation
+public class ConcreteBuilder extends/implements Builder {
+>>>>>>> 167bfb7a (*)
     private Product product = new Product();
 
     @Override
     public void buildPartA() {
+<<<<<<< HEAD
         product.setPartA("PartA built by ConcreteBuilder");
+=======
+        product.add("PartA");
+>>>>>>> 167bfb7a (*)
     }
 
     @Override
     public void buildPartB() {
+<<<<<<< HEAD
         product.setPartB("PartB built by ConcreteBuilder");
     }
 
     @Override
     public void buildPartC() {
         product.setPartC("PartC built by ConcreteBuilder");
+=======
+        product.add("PartB");
+>>>>>>> 167bfb7a (*)
     }
 
     @Override
@@ -109,6 +166,7 @@ public class ConcreteBuilder implements Builder {
 
 ---
 
+<<<<<<< HEAD
 ### 4. `Director.java`  
 **Purpose**: The `Director` class defines the **order in which the building steps are executed**. It uses a `Builder` to perform the steps and produce a `Product`.
 
@@ -116,23 +174,27 @@ public class ConcreteBuilder implements Builder {
 - `construct()`: Calls `buildPartA()`, `buildPartB()`, and `buildPartC()` on the builder to assemble the product.
 
 ```java
+=======
+## 🎯 4. `Director.java`
+
+```java
+// Director that defines the order of building
+>>>>>>> 167bfb7a (*)
 public class Director {
-    private Builder builder;
-
-    public Director(Builder builder) {
-        this.builder = builder;
-    }
-
-    public void construct() {
+    public void construct(Builder builder) {
         builder.buildPartA();
         builder.buildPartB();
+<<<<<<< HEAD
         builder.buildPartC();
+=======
+>>>>>>> 167bfb7a (*)
     }
 }
 ```
 
 ---
 
+<<<<<<< HEAD
 ### 5. `index.java`  
 **Purpose**: This is the **client** class. It demonstrates how to use the `Builder`, `Director`, and `Product` to create a complete object.
 
@@ -174,3 +236,44 @@ PartC: PartC built by ConcreteBuilder
 javac *.java
 java index
 ```
+=======
+## 🚀 5. `Main.java`
+
+```java
+// Client code demonstrating usage of the Builder pattern
+public class Main {
+    public static void main(String[] args) {
+        Director director = new Director();
+        Builder builder = new ConcreteBuilder();
+
+        director.construct(builder);
+        Product product = builder.getResult();
+
+        product.show(); // Output: Product parts: PartA, PartB
+    }
+}
+```
+
+---
+
+## 💡 Summary
+
+| Class             | Responsibility                                    |
+| ----------------- | ------------------------------------------------- |
+| `Product`         | Complex object that gets constructed              |
+| `Builder`         | Abstract interface for building parts             |
+| `ConcreteBuilder` | Builds and assembles the product step-by-step     |
+| `Director`        | Controls the construction process using a builder |
+| `Main`            | Demonstrates how to use the Builder pattern       |
+
+---
+
+## ⚙️ Key Characteristics of Builder in Java
+
+* Builds **complex objects** in **step-by-step** fashion.
+* Separates the **construction** and **representation**.
+* Can reuse the same construction process to build **different representations**.
+
+Would you like an example of a second `ConcreteBuilder` for a different product variant?
+
+>>>>>>> 167bfb7a (*)

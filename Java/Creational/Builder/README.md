@@ -12,7 +12,7 @@
 
 **Java Builder Design Pattern**
 
-[**Example1**](Example1/README.md) [**Example2**](Example2/README.md)
+[**Example1**](Example1/README.md) | [**Example2**](Example2/README.md) | [**Example3**](Example3/README.md)
 
 
 The Builder Design Pattern is a Creational Pattern that constructs complex objects step-by-step, separating the construction process from the object’s representation.
