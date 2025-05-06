@@ -209,7 +209,3 @@ result:
 | `Director`            | Controls construction sequence              |
 | `Main`                | Client code that triggers the build process |
 
----
-
-Would you like this in HTML as well for documentation or embedding on a webpage?
-
