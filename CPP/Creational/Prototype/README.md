@@ -57,4 +57,4 @@
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com@TheRayCode/) | [YouTube@TheRayCode](https://www.youtube.com@TheRayCode/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com@TheRayCode/) | [YouTube@TheRayCode](https://www.youtube.com/TheRayCode/)
