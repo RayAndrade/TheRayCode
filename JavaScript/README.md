@@ -7,9 +7,6 @@
 
 **[CPP](../CPP/README.md)** | **[CSHARP](../Csharp/README.md)** | **[JAVA](../Java/README.md)**  | **[PHP](../PHP/README.md)** | **[JAVASCRIPT](../JavaScript/README.md)**
 
-Here's a rewritten version of your course description tailored for a **junior JavaScript developer**, formatted as a `README.md`:
-
----
 
 ````markdown
 # Mastering Design Patterns in JavaScript
