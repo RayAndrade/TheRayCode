@@ -6,7 +6,7 @@
 |**[C#](../Csharp/Creational/README.md)** | **[C#](../Csharp/Structural/README.md)** | **[C#](../Csharp/Behavioral/README.md)** |
 |**[PHP](../PHP/Creational/README.md)** | **[PHP](../PHP/Structural/README.md)** | **[PHP](../PHP/Behavioral/README.md)** |
 
-**[Java](../README.md)** 
+**[JavaScript](../README.md)** 
 
 | Creational Patterns | Structural Patterns | Behavioral Patterns |
 |--------------|-----|-----------|
