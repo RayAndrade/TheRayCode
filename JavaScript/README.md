@@ -35,7 +35,7 @@
  * **[Structural](./Structural/README.md)**
  * **[Behavioral](./Behavioral/README.md)**
 
-**[CPP](../CPP/README.md)** | **[CSHARP](../Csharp/README.md)** | **[JAVA](../Java/README.md)**  | **[PHP](../PHP/README.md)** | **[JAVASCRIPT](../JavaScript/README.md)**
+**[C++](../CPP/README.md)** | **[C#](../Csharp/README.md)** | **[Java](../Java/README.md)**  | **[PHP](../PHP/README.md)** | **[JavaScript](../JavaScript/README.md)**
 
 # Mastering Design Patterns in JavaScript
 
