@@ -57,17 +57,17 @@ JavaScript is powerful for building both front-end and back-end apps. Using desi
 
 These patterns focus on **how objects are created**, giving you more flexibility and control over your code.
 
-- **[Singleton](./Creational/Singleton/README.md)**: Ensures a class has only one instance and provides a global access point. Useful for settings, logging, or authentication.
-- **Factory Method**: Lets you create objects without knowing exactly which class to use.
-- **Abstract Factory**: Creates families of related objects without specifying their exact classes.
-- **Builder**: Helps build complex objects step-by-step with different configurations.
-- **Prototype**: Clones objects instead of creating them from scratch, saving time and resources.
+- [**Singleton**](./Creational/Singleton/README.md): Ensures a class has only one instance and provides a global access point. Useful for settings, logging, or authentication.
+- [**Factory**](./Creational/Factory/README.md): Lets you create objects without knowing exactly which class to use.
+- [**AbstractFactory**](Creational/AbstractFactory/README.md): Creates families of related objects without specifying their exact classes.
+- [**Builder**](./Creational/Builder/README.md) : Helps build complex objects step-by-step with different configurations.
+- [**Prototype**](./Creational/Prototype/README.md): Clones objects instead of creating them from scratch, saving time and resources.
 
 **How They Relate**:
-- Factory is a simplified Abstract Factory.
-- Builder focuses on step-by-step construction.
-- Singleton ensures only one instance.
-- Prototype is about copying existing objects.
+-  [**Factory**](./Creational/Factory/README.md) is a simplified Abstract Factory.
+-  [**Builder**](./Creational/Builder/README.md) focuses on step-by-step construction.
+-  [**Singleton**](./Creational/Singleton/README.md) ensures only one instance.
+- [**Prototype**](./Creational/Prototype/README.md) is about copying existing objects.
 
 ---
 
