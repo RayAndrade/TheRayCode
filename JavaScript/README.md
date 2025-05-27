@@ -57,7 +57,7 @@ JavaScript is powerful for building both front-end and back-end apps. Using desi
 
 These patterns focus on **how objects are created**, giving you more flexibility and control over your code.
 
-- **Singleton**: Ensures a class has only one instance and provides a global access point. Useful for settings, logging, or authentication.
+- **[Singleton](./Creational/Singleton/README.md)**: Ensures a class has only one instance and provides a global access point. Useful for settings, logging, or authentication.
 - **Factory Method**: Lets you create objects without knowing exactly which class to use.
 - **Abstract Factory**: Creates families of related objects without specifying their exact classes.
 - **Builder**: Helps build complex objects step-by-step with different configurations.
