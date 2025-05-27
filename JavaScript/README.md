@@ -1,4 +1,7 @@
+# TheRayCode is AWESOME!!!
+
 [top](../README.md)
+
 
 |**[Creational Patterns](./Creational/README.md)** | **[Structural Patterns](./Structural/README.md)** | **[Behavioral Patterns](./Behavioral/README.md)** |
 |---|---|---|
@@ -6,8 +9,6 @@
 |**[C#](../Csharp/Creational/README.md)** | **[C#](../Csharp/Structural/README.md)** | **[C#](../Csharp/Behavioral/README.md)** |
 |**[Java](../Java/Creational/README.md)** | **[Java](../Java/Structural/README.md)** | **[Java](../Java/Behavioral/README.md)** |
 |**[PHP](../PHP/Creational/README.md)** | **[PHP](../PHP/Structural/README.md)** | **[PHP](../PHP/Behavioral/README.md)** |
-
-
 
 **[JavaScript](../README.md)** 
 
@@ -26,9 +27,6 @@
 |                                                               |                                                       | [**Visitor**](./Behavioral/Visitor/README.md) |
 
 
-
-
-# TheRayCode is AWESOME!!!
 **JavaScript section**
 
  * **[Creational](./Creational/README.md)**
