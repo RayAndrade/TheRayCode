@@ -18,7 +18,7 @@ Rather than instantiating objects directly with `new`, these patterns **abstract
 
 Here are the five most common **creational patterns** from the **Gang of Four (GoF)** that every junior JavaScript developer should learn:
 
-### 1. **Singleton**
+### 1.  [**Singleton**](./Singleton/README.md) 
 
 * ✅ Ensures a class has only **one instance**.
 * 🛠 Useful for shared services like a **logger**, **config manager**, or **API handler**.
