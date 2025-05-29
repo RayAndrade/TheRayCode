@@ -2,17 +2,7 @@
 
 [top](../README.md)
 
-**[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
-
-**JavaScript Singleton Design Pattern**
-
-|Pattern|   |   |   |
-|---|---|---|---|
-|  [**Singleton**](README.md) | [**C++**](../../../CPP/Creational/Singleton/README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [**C#**](../../../Java/Creational/Singleton/README.md) | [**PHP**](../../../PHP/Creational/Singleton/README.md) |
-
-[Example1](Example1/README.md)  [Example2](Example2/README.md) [Example3](Example/README.md) 
-
-Great question! For a **junior JavaScript programmer**, *Creational design patterns* can seem abstract at first, but they’re incredibly helpful for writing **organized, flexible, and maintainable code**.
+ *Creational design patterns* can seem abstract at first, but they’re incredibly helpful for writing **organized, flexible, and maintainable code**.
 
 ---
 
