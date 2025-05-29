@@ -6,10 +6,10 @@
 
 JavaScript **Singleton** Design Pattern
 
- * [Example 1](./Example1/README.md)
-Great! Here's a focused **S.W\.O.T. analysis** for the **Singleton Design Pattern** from the perspective of a **junior JavaScript developer**.
+ * [Example 1](./Example1/README.md)* [Example 2](./Example2/README.md)* [Example 3](./Example3/README.md)
 
----
+
+Here's a focused **S.W\.O.T. analysis** for the **Singleton Design Pattern** from the perspective of a **junior JavaScript developer**.
 
 ## 🧠 **S.W\.O.T. Analysis: Singleton Pattern for JavaScript Developers**
 
