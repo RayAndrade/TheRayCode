@@ -158,9 +158,6 @@ For a junior JavaScript developer:
 * **Threats**: Misuse due to misunderstanding or lack of context.
 
 
-
-  
-
 [TheRayCode.ORG](https://www.TheRayCode.org)  
 
 [RayAndrade.COM](https://www.RayAndrade.com)
