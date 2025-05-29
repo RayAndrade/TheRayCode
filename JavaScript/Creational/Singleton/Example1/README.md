@@ -132,11 +132,7 @@ Singleton ensures consistency, saves memory, and controls access—all without n
 
 ---
 
-✍️ *Written by \[Your Name]*
+✍️ *Written by \Ray Andrade TheRayCode*
 📅 *Date: May 2025*
 
-```
-
-Would you like this Markdown converted into an HTML page next?
-```
 
