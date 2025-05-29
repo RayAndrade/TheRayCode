@@ -1,7 +1,3 @@
-Absolutely! Here's the **Singleton pattern blog article** rewritten in clean, GitHub-flavored **Markdown** – perfect for a `README.md` file:
-
----
-
 ````markdown
 # 🧠 Understanding the Singleton Design Pattern in JavaScript (Node-Compatible)
 
