@@ -10,7 +10,7 @@
 |---|---|---|---|
 |  [**Prototype**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [**Java**](../../../Java/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
 
-[Example1](Example1/) | [Example2](Example2/)
+[Example1](Example1/README.md) | [Example2](Example2/README.md)
 
 
 ### Why Should JavaScript Developers Study the Prototype Design Pattern?
