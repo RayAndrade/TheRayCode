@@ -37,7 +37,7 @@ class Singleton {
 
 ---
 
-### 2. **Factory Method**
+### 2.  [**Factory**](./Factory/README.md) 
 
 * ✅ Lets subclasses decide which class to instantiate.
 * 🛠 Used to delegate the instantiation logic to child classes or functions.
