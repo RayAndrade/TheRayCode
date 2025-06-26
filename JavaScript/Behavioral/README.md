@@ -24,21 +24,21 @@
 
 They help make complex workflows and interactions **more manageable, maintainable, and decoupled**.
 
-### 🔸 13. **Chain of Responsibility**
+### 🔸 **Chain of Responsibility**
 
 > Passes a request along a chain of handlers until one handles it.
 
 * Decouples sender from receiver.
 * Used in logging frameworks, middleware chains.
 
-### 🔸 14. **Command**
+### 🔸 **Command**
 
 > Encapsulates a request as an object, allowing parameterization, queuing, and undoable operations.
 
 * Ideal for implementing action queues or undo/redo.
 * Separates command execution from the object that invokes it.
 
-### 🔸 15. **Interpreter**
+### 🔸 **Interpreter**
 
 > Defines a grammar and interprets sentences in the language.
 
@@ -52,7 +52,7 @@ They help make complex workflows and interactions **more manageable, maintainabl
 * Common in collections and custom data structures.
 * Helps separate traversal logic from container logic.
 
-### 🔸 17. **Mediator**
+### 🔸 **Mediator**
 
 > Defines an object that centralizes communication between a set of objects.
 
