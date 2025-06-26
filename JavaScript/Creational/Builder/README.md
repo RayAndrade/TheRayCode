@@ -121,5 +121,5 @@ The **Builder** lets you define **how to assemble** those parts, and the **Direc
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [X@TheRayCode](https://www.x.com@TheRayCode/) | [YouTube](https://www.youtube.com@TheRayCode/)
 
