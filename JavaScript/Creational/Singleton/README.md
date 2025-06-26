@@ -76,6 +76,39 @@ So be careful — use them for **truly unique shared resources** like:
 | **Why**   | Saves resources and enforces consistency     |
 | **Bonus** | Provides global access to a single object    |
 
+## 🧍‍♂️ S.W\.O.T. Analysis — Singleton Pattern
+
+### ✅ **Strengths**
+
+1. Guarantees that only one instance of a class exists in the application.
+2. Provides a global access point to shared resources or configurations.
+3. Simplifies management of centralized services like logging or caching.
+
+---
+
+### ❌ **Weaknesses**
+
+1. Can hide dependencies and make testing or mocking difficult.
+2. Acts like a global variable, which can lead to tight coupling and poor design.
+3. Makes lazy loading or dependency injection more complex in larger systems.
+
+---
+
+### 🌱 **Opportunities**
+
+1. Helps juniors understand global state management and object lifecycle.
+2. Provides a practical pattern for managing configuration, logging, or state.
+3. Prepares developers for working with system-wide services in real-world apps.
+
+---
+
+### ⚠️ **Threats**
+
+1. Overuse can lead to anti-patterns and poor separation of concerns.
+2. May introduce concurrency issues in multi-threaded environments (less common in JS).
+3. Can lead to hidden, hard-to-diagnose bugs when shared state is mutated unexpectedly.
+
+
 [TheRayCode.ORG](https://www.TheRayCode.org)  
 
 [RayAndrade.COM](https://www.RayAndrade.com)
