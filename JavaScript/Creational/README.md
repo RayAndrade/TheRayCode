@@ -23,7 +23,7 @@ Each pattern is implemented using modern JavaScript (`ES6+`) syntax and explaine
 
 These patterns help manage complexity by **controlling which objects are created, when, and how**.
 
-### 🔹 1. **Abstract Factory**
+### 🔹 1. **[Abstract Factory](./AbstractFactory/README.md)**
 
 > Provides an interface for creating **families of related objects** without specifying their concrete classes.
 
