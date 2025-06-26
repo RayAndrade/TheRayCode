@@ -84,8 +84,42 @@ The **Builder** lets you define **how to assemble** those parts, and the **Direc
 | **Bonus** | Avoids “constructor telescoping” (tons of parameters in constructors) |
 
 
+## 🧱 S.W\.O.T. Analysis — Builder Pattern
+
+### ✅ **Strengths**
+
+1. Simplifies the construction of complex objects by breaking it into manageable steps.
+2. Allows different variations of an object to be built using the same process.
+3. Improves readability by clearly separating what is being built from how it's built.
+
+---
+
+### ❌ **Weaknesses**
+
+1. Introduces extra classes and methods that may seem unnecessary for small objects.
+2. Can be misunderstood if the roles of the Director and Builder aren’t clearly explained.
+3. May add complexity when only a simple object with few parameters is needed.
+
+---
+
+### 🌱 **Opportunities**
+
+1. Teaches clean object creation techniques for situations with optional or nested parameters.
+2. Encourages juniors to think about reusability and object configuration.
+3. Prepares developers to work with real-world builders used in frameworks and libraries.
+
+---
+
+### ⚠️ **Threats**
+
+1. Overuse can lead to bloated architecture with too many moving parts.
+2. Can mask poor design decisions if used to "hide" messy constructors.
+3. Misuse may result in tightly coupled Director–Builder relationships.
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
+
+[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+
