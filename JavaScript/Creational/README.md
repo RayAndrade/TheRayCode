@@ -9,7 +9,7 @@ The **Gang of Four (GoF)** book *“Design Patterns: Elements of Reusable Object
 
 This repository demonstrates **all 23 GoF patterns implemented in JavaScript**, categorized into:
 
-* [Creational Patterns]
+* Creational Patterns
 * [Structural Patterns](../Structural/README.md)
 * [Behavioral Patterns](#behavioral-patterns)
 
