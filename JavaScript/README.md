@@ -247,12 +247,6 @@ They help make complex workflows and interactions **more manageable, maintainabl
 
 This repository provides examples for each of these patterns using **modern JavaScript modules**, with each pattern placed in its own folder. Each folder contains:
 
-* A `.js` implementation file
-* Inline comments
-* A `README.md` with explanations and UML
-
-Hello World
-
 
 
 [TheRayCode.ORG](https://www.TheRayCode.ORG)
