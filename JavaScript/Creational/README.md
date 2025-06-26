@@ -11,7 +11,7 @@ This repository demonstrates **all 23 GoF patterns implemented in JavaScript**, 
 
 * Creational Patterns
 * [Structural Patterns](../Structural/README.md)
-* [Behavioral Patterns](#behavioral-patterns)
+* [Behavioral Patterns](../Behavioral/README.md)
 
 Each pattern is implemented using modern JavaScript (`ES6+`) syntax and explained with detailed comments and examples.
 
@@ -57,7 +57,6 @@ These patterns help manage complexity by **controlling which objects are created
 
 * Controls access to shared resources (e.g., logging, configuration).
 * Restricts instantiation to one object only.
-
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org) 
