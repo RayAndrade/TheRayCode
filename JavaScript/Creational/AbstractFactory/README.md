@@ -16,7 +16,7 @@
 
 JavaScript **Abstract Factory** Design Pattern
 
-* [Example 1](./Example1/README.md) | [Example 2](./Example2/README.md)
+[Example 1](./Example1/README.md) | [Example 2](./Example2/README.md)
 
 
 Sure! Here's a **clear, beginner-friendly explanation** of the **Abstract Factory** design pattern, tailored for a **junior JavaScript developer**:
@@ -71,11 +71,6 @@ Each style has its **own factory**. And each factory knows how to build its **ow
 | **Purpose**          | To produce related objects that should be used together               |
 | **Benefit**          | Keeps object creation consistent and clean                            |
 | **Client code**      | Doesn’t care about the exact classes, just uses the factory           |
-
----
-
-Let me know if you'd like this broken down **even further** with visual diagrams or a separate `README.md` version for GitHub.
-
 
 
 
