@@ -251,6 +251,9 @@ This repository provides examples for each of these patterns using **modern Java
 * Inline comments
 * A `README.md` with explanations and UML
 
+Hello World
+
+
 
 [TheRayCode.ORG](https://www.TheRayCode.ORG)
 
