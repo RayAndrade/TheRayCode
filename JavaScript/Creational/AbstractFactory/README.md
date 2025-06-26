@@ -4,7 +4,7 @@
 
 **[JavaScript](../README.md)** 
 
-**[Creational Patterns](../README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
+**[Creational Patterns](../README.md)**|**[Structural Patterns](../../Structural/README.md)**|**[Behavioral Patterns](../../Behavioral/README.md)**
 
 **JavaScript Creational Patterns**
 
@@ -16,7 +16,7 @@
 
 JavaScript **Abstract Factory** Design Pattern
 
-* [Example 1](./Example1/README.md) * [Example 2](./Example2/README.md)
+* [Example 1](./Example1/README.md) | [Example 2](./Example2/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
