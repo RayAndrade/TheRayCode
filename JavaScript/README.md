@@ -103,49 +103,49 @@ These patterns help manage complexity by **controlling which objects are created
 
 These patterns are about **how classes and objects are composed** to build complex but maintainable systems.
 
-### 🔸 6. **[Adapter](./Structural/Adapter/README.md)**
+### 🔸 **[Adapter](./Structural/Adapter/README.md)**
 
 > Converts the interface of a class into another interface the client expects.
 
 * Used when integrating incompatible interfaces (e.g., wrapping legacy APIs).
 * Also known as a **wrapper**.
 
-### 🔸 7. **Bridge**
+### 🔸 **[Bridge](./Structural/Adapter/README.md)**
 
 > Decouples an abstraction from its implementation so the two can vary independently.
 
 * Separates high-level logic from platform-specific code.
 * Useful in UI frameworks where abstraction (e.g., Shape) and implementation (e.g., SVG, Canvas) are separated.
 
-### 🔸 8. **Composite**
+### 🔸 **[Composite](./Structural/Composite/README.md)**
 
 > Composes objects into tree structures to represent part-whole hierarchies.
 
 * Treats individual objects and compositions uniformly.
 * Ideal for recursive structures like menus or file systems.
 
-### 🔸 9. **Decorator**
+### 🔸 **[Decorator](./Structural/Adapter/README.md)**
 
 > Attaches additional responsibilities to an object dynamically.
 
 * An alternative to subclassing for extending functionality.
 * Enables flexible feature addition without altering code.
 
-### 🔸 10. **Facade**
+### 🔸 **[Facade](./Structural/Facade/README.md)**
 
 > Provides a unified interface to a set of interfaces in a subsystem.
 
 * Simplifies complex APIs (e.g., hiding multiple subsystems behind one simple interface).
 * Useful when clients need a simple entry point.
 
-### 🔸 11. **Flyweight**
+### 🔸 **[Flyweight](./Structural/Flyweight/README.md)**
 
 > Reduces memory usage by sharing as much data as possible with similar objects.
 
 * Used when many small objects share common data (e.g., game tiles, characters).
 * Separates intrinsic from extrinsic data.
 
-### 🔸 12. **Proxy**
+### 🔸 *[*Proxy](./Structural/Proxy/README.md)**
 
 > Provides a surrogate or placeholder for another object to control access to it.
 
