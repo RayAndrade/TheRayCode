@@ -35,6 +35,8 @@
 
 **[C++](../CPP/README.md)** | **[C#](../Csharp/README.md)** | **[Java](../Java/README.md)**  | **[PHP](../PHP/README.md)** | **[JavaScript](../JavaScript/README.md)**
 
+
+
 ## 🎓 Introduction to the Gang of Four Design Patterns in JavaScript
 
 The **Gang of Four (GoF)** book *“Design Patterns: Elements of Reusable Object-Oriented Software”* defines 23 classic software design patterns. These patterns offer proven solutions to common design challenges in object-oriented systems.
@@ -65,7 +67,7 @@ These patterns help manage complexity by **controlling which objects are created
 * Used when you need to enforce a set of related products (e.g., GUI kits for MacOS vs Windows).
 * It encapsulates multiple factories.
 
-### 🔹 **[Builder](./Creational/AbstractFactory/README.md)**
+### 🔹 **[Builder](./Creational/Builder/README.md)**
 
 > Separates the construction of a complex object from its representation so the same construction process can create different representations.
 
@@ -101,7 +103,7 @@ These patterns help manage complexity by **controlling which objects are created
 
 These patterns are about **how classes and objects are composed** to build complex but maintainable systems.
 
-### 🔸 6. **Adapter**
+### 🔸 6. **[Adapter](./Structural/Adapter/README.md)**
 
 > Converts the interface of a class into another interface the client expects.
 
