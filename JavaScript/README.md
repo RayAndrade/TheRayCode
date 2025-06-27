@@ -145,7 +145,7 @@ These patterns are about **how classes and objects are composed** to build compl
 * Used when many small objects share common data (e.g., game tiles, characters).
 * Separates intrinsic from extrinsic data.
 
-### 🔸 *[*Proxy](./Structural/Proxy/README.md)**
+### 🔸 **[Proxy](./Structural/Proxy/README.md)**
 
 > Provides a surrogate or placeholder for another object to control access to it.
 
