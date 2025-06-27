@@ -19,7 +19,7 @@ JavaScript **Bridge** Design Pattern
  * **[Flyweight](../Flyweight/README.md)**
  * **[Proxy](../Proxy/README.md)**
 
-[Example 1](./Example/README.md)  
+[Example 1](./Example1/README.md)  
 
 ## 🌉 What Is the Bridge Design Pattern?
 
