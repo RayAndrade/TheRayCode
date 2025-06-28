@@ -10,7 +10,7 @@
 
 JavaScript **Decorator** Design Pattern
 
-[Example 1](./D1/README.md)  
+[Example 1](./Example1/README.md)  
 
  * **[Adapter](../Adapter/README.md)**
  * **[Bridge](../Bridge/README.md)**
