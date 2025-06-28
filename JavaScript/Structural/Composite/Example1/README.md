@@ -217,7 +217,4 @@ Composite(root) [ Leaf: A | Leaf: B | Composite(branch) [ Leaf: C1 | Leaf: C2 ] 
 ✅ The **Client** uses only the `Component` interface, which provides true transparency
 ✅ Try extending the `operation()` to draw a file tree or a DOM tree in future exercises
 
----
-
-If you want, I can next show how to implement a **transparent vs. safe** composite, or even add types with TypeScript — just let me know! 🚀
 
