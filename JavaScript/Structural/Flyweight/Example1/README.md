@@ -1,25 +1,3 @@
-# TheRayCode is AWESOME!!!
-
-**Flyweight**
-
-**[JavaScript](../README.md)**
-
-**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](./README.md)** * **[Behavioral Patterns](../../Behavioral/README.md)**
-
-**JavaScript Structural Patterns**
-
- * **[Adapter](../Adapter/README.md)**
- * **[Bridge](../Bridge/README.md)**
- * **[Command](../Command/README.md)**
- * **[Composite](../Composite/README.md)**
- * **[Decorator](../Decorator/README.md)**
- * **[Facade](../Facade/README.md)**
- * **[Flyweight](./README.md)**
- * **[Proxy](../Proxy/README.md)**
-
-JavaScript **Flyweight** section
-
-[Example 1](./Example2/README.md)  
 
 # 🪶 Flyweight Design Pattern in JavaScript
 
@@ -260,49 +238,5 @@ UnsharedConcreteFlyweight: state=unique, extrinsic=context3
 ✅ Practice measuring performance/memory with thousands of flyweights
 ✅ Challenge students to adapt this to a GUI element renderer
 
----
-
-If you’d like, I can help you expand this to a **canvas drawing** example or a memory-heavy gaming example — just say the word! 🚀
-
-```
-
----
-
-✅ Ready to copy straight into your GitHub repo! If you’d like, I can build another pattern next — just name it!
-```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[TheRayCode.ORG](https://www.TheRayCode.org)
-
-[RayAndrade.COM](https://www.RayAndrade.com)
-
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
