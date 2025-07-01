@@ -19,7 +19,7 @@
 
 JavaScript **Facade** Design Pattern
 
-[Example 1](./Example1/README.md)  (./Example2/README.md)  
+[Example 1](./Example1/README.md)  [Example 2](./Example2/README.md)
 
 
 ## 🏠 What Is the Facade Design Pattern?
