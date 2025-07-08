@@ -1,46 +1,25 @@
 <?php
+// Invoker.php
+
+require_once 'Command.php';
+
+// Invoker holds the command and triggers execution
 class Invoker
 {
-    /**
-     * @var Command
-     */
-    private $onStart;
+    private $command;
 
-    /**
-     * @var Command
-     */
-    private $onFinish;
-
-    /**
-     * Initialize commands.
-     */
-    public function setOnStart(Command $command): void
+    public function setCommand(Command $command)
     {
-        $this->onStart = $command;
+        $this->command = $command; // Store the command
     }
 
-    public function setOnFinish(Command $command): void
+    public function executeCommand()
     {
-        $this->onFinish = $command;
-    }
-
-    /**
-     * The Invoker does not depend on concrete command or receiver classes. The
-     * Invoker passes a request to a receiver indirectly, by executing a
-     * command.
-     */
-    public function doSomethingImportant(): void
-    {
-        echo "Invoker:  Makes a request<br/>";
-        if ($this->onStart instanceof Command) {
-            $this->onStart->execute();
-        }
-
-        echo "Invoker: does the action...<br/>";
-
-        echo "Invoker: Makes another request<br/>";
-        if ($this->onFinish instanceof Command) {
-            $this->onFinish->execute();
+        if ($this->command) {
+            echo "Invoker: Executing stored command...\n";
+            $this->command->execute(); // Trigger execution
+        } else {
+            echo "Invoker: No command set.\n";
         }
     }
 }

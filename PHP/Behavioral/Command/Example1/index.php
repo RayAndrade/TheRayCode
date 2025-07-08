@@ -1,16 +1,19 @@
 <?php
-include_once ('Command.php');
-include_once ('SimpleCommand.php');
-include_once ('ComplexCommand.php');
-include_once ('Receiver.php');
-include_once ('Invoker.php');
+// index.php
 
-/**
- * The client code can parameterize an invoker with any commands.
- */
-$invoker = new Invoker;
-$invoker->setOnStart(new SimpleCommand("Do Some Command"));
-$receiver = new Receiver;
-$invoker->setOnFinish(new ComplexCommand($receiver, "Do one request", "Do the next request"));
+require_once 'Invoker.php';
+require_once 'ConcreteCommand.php';
+require_once 'Receiver.php';
 
-$invoker->doSomethingImportant();
+// Step 1: Create the receiver (knows how to do the work)
+$receiver = new Receiver();
+
+// Step 2: Create the command and associate it with the receiver
+$command = new ConcreteCommand($receiver);
+
+// Step 3: Create the invoker and assign the command
+$invoker = new Invoker();
+$invoker->setCommand($command);
+
+// Step 4: Ask the invoker to execute the command
+$invoker->executeCommand();
