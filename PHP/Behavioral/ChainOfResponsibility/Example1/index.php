@@ -1,16 +1,23 @@
 <?php
-include_once "InfoLogger.php";
-include_once "DebugLogger.php";
-include_once "ErrorLogger.php";
+// index.php
 
-// Create the chain of loggers
-$errorLogger = new ErrorLogger();
-$debugLogger = new DebugLogger();
-$infoLogger = new InfoLogger();
+require_once 'ConcreteHandlerA.php';
+require_once 'ConcreteHandlerB.php';
+require_once 'ConcreteHandlerC.php';
 
-$infoLogger->setNext($debugLogger)->setNext($errorLogger);
+// Create handler instances
+$a = new ConcreteHandlerA();
+$b = new ConcreteHandlerB();
+$c = new ConcreteHandlerC();
 
-// Demonstrate logging
-$infoLogger->logMessage(1, "This is an informational message.");
-$infoLogger->logMessage(2, "This is a debug message.");
-$infoLogger->logMessage(3, "This is an error message.");
+// Link the chain: A ➡️ B ➡️ C
+$a->setNext($b)->setNext($c);
+
+// Test various requests
+$requests = ["A", "B", "C", "D"];
+
+foreach ($requests as $req) {
+    echo "Client: Sending request '$req'\n";
+    echo $a->handle($req) . "\n";
+    echo str_repeat("-", 40) . "\n";
+}

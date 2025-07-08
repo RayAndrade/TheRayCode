@@ -1,138 +1,223 @@
 [up](../README.md)
 
-**Chain Of Responsibility** Design Pattern:
+Let's focus on the **Chain of Responsibility** pattern using **PHP 8.2**.
 
-The Chain of Responsibility design pattern decouples the sender from receiver by allowing multiple objects to handle a request. This pattern creates a chain of objects. The request moves along the chain until an object handles it or it reaches the end of the chain.
+This pattern allows a request to pass along a chain of handlers. Each handler decides either to process the request or pass it to the next handler in the chain.
 
-Let's implement the Chain of Responsibility pattern with a simple example: Suppose we have an error logging system that has three levels of logging: `INFO`, `DEBUG`, and `ERROR`. We'll use the Chain of Responsibility pattern to handle and display logs based on their level.
+### 📚 UML Participants (GoF Book p.223)
 
-### Step 1: Handler Interface (`Logger.php`)
-This is the base interface that defines how log messages should be handled.
+* **Handler**: defines interface for handling requests and links to the next handler.
+* **ConcreteHandler**: processes request or forwards it.
+* **Client**: initiates the request.
+
+---
+
+## 🧩 Class-by-Class Explanation
+
+---
+
+### 🔹 `Handler.php`
+
+**Purpose**:
+Defines the interface for all handlers. Declares a method `handle()` and a method `setNext()` to link the chain.
 
 ```php
 <?php
-// Logger.php
+// Handler.php
 
-interface Logger {
-    public function setNext(Logger $logger);
-    public function logMessage($level, $message);
+// Handler declares interface for handling requests and chaining handlers
+interface Handler
+{
+    public function setNext(Handler $handler): Handler; // link to the next handler
+
+    public function handle(string $request): ?string; // process or forward the request
 }
-?>
 ```
 
-### Step 2: Concrete Handler (`AbstractLogger.php`)
-This abstract class provides the default implementation for the logMessage and implements chaining behavior.
+---
+
+### 🔹 `AbstractHandler.php`
+
+**Purpose**:
+Provides default chaining behavior. Concrete handlers can extend this and override `handle()`.
 
 ```php
 <?php
-// AbstractLogger.php
-include_once "Logger.php";
+// AbstractHandler.php
 
-abstract class AbstractLogger implements Logger {
-    protected $level;
-    protected $nextLogger;
+require_once 'Handler.php';
 
-    public function setNext(Logger $logger) {
-        $this->nextLogger = $logger;
-        return $this;
+// AbstractHandler implements chaining logic
+abstract class AbstractHandler implements Handler
+{
+    protected ?Handler $nextHandler = null; // stores next handler in the chain
+
+    // Set the next handler and return it for chaining
+    public function setNext(Handler $handler): Handler
+    {
+        $this->nextHandler = $handler;
+        return $handler;
     }
 
-    public function logMessage($level, $message) {
-        if($this->level <= $level) {
-            $this->write($message);
+    // Default handle method: if can't handle, pass to next
+    public function handle(string $request): ?string
+    {
+        if ($this->nextHandler) {
+            return $this->nextHandler->handle($request); // pass to next
         }
-        if($this->nextLogger != null) {
-            $this->nextLogger->logMessage($level, $message);
-        }
-    }
 
-    protected abstract function write($message);
+        return null; // no handler could process the request
+    }
 }
-?>
 ```
 
-### Step 3: Concrete Handlers (`InfoLogger.php`, `DebugLogger.php`, `ErrorLogger.php`)
-These classes will implement the actual logging behavior based on their level.
+---
+
+### 🔹 `ConcreteHandlerA.php`
+
+**Purpose**:
+Handles specific requests ("A"). Otherwise, it delegates.
 
 ```php
 <?php
-// InfoLogger.php
-include_once "AbstractLogger.php";
+// ConcreteHandlerA.php
 
-class InfoLogger extends AbstractLogger {
-    public function __construct() {
-        $this->level = 1;
-    }
+require_once 'AbstractHandler.php';
 
-    protected function write($message) {
-        echo "Info Logger: " . $message . "<br>";
-    }
-}
-?>
+// ConcreteHandlerA processes 'A' type requests
+class ConcreteHandlerA extends AbstractHandler
+{
+    public function handle(string $request): ?string
+    {
+        if ($request === 'A') {
+            return "Handler A: I handled the request.";
+        }
 
-<?php
-// DebugLogger.php
-include_once "AbstractLogger.php";
-
-class DebugLogger extends AbstractLogger {
-    public function __construct() {
-        $this->level = 2;
-    }
-
-    protected function write($message) {
-        echo "Debug Logger: " . $message . "<br>";
+        // delegate to next handler
+        return parent::handle($request);
     }
 }
-?>
-
-<?php
-// ErrorLogger.php
-include_once "AbstractLogger.php";
-
-class ErrorLogger extends AbstractLogger {
-    public function __construct() {
-        $this->level = 3;
-    }
-
-    protected function write($message) {
-        echo "Error Logger: " . $message . "<br>";
-    }
-}
-?>
 ```
 
-### Step 4: Demo (`index.php`)
-In this file, you will create the chain of loggers and demonstrate how logging works based on different levels.
+---
+
+### 🔹 `ConcreteHandlerB.php`
+
+**Purpose**:
+Handles "B" type requests. Uses base class for delegation.
+
+```php
+<?php
+// ConcreteHandlerB.php
+
+require_once 'AbstractHandler.php';
+
+// ConcreteHandlerB processes 'B' type requests
+class ConcreteHandlerB extends AbstractHandler
+{
+    public function handle(string $request): ?string
+    {
+        if ($request === 'B') {
+            return "Handler B: I handled the request.";
+        }
+
+        // delegate to next handler
+        return parent::handle($request);
+    }
+}
+```
+
+---
+
+### 🔹 `ConcreteHandlerC.php`
+
+**Purpose**:
+Handles "C" type requests.
+
+```php
+<?php
+// ConcreteHandlerC.php
+
+require_once 'AbstractHandler.php';
+
+// ConcreteHandlerC processes 'C' type requests
+class ConcreteHandlerC extends AbstractHandler
+{
+    public function handle(string $request): ?string
+    {
+        if ($request === 'C') {
+            return "Handler C: I handled the request.";
+        }
+
+        // delegate to next handler
+        return parent::handle($request);
+    }
+}
+```
+
+---
+
+### 🚀 `index.php`
+
+**Purpose**:
+Acts as the client. It assembles the chain and sends a few requests.
 
 ```php
 <?php
 // index.php
 
-include_once "InfoLogger.php";
-include_once "DebugLogger.php";
-include_once "ErrorLogger.php";
+require_once 'ConcreteHandlerA.php';
+require_once 'ConcreteHandlerB.php';
+require_once 'ConcreteHandlerC.php';
 
-// Create the chain of loggers
-$errorLogger = new ErrorLogger();
-$debugLogger = new DebugLogger();
-$infoLogger = new InfoLogger();
+// Set up the chain: A -> B -> C
+$a = new ConcreteHandlerA();
+$b = new ConcreteHandlerB();
+$c = new ConcreteHandlerC();
 
-$infoLogger->setNext($debugLogger)->setNext($errorLogger);
+$a->setNext($b)->setNext($c); // chaining handlers
 
-// Demonstrate logging
-$infoLogger->logMessage(1, "This is an informational message.");
-$infoLogger->logMessage(2, "This is a debug message.");
-$infoLogger->logMessage(3, "This is an error message.");
-?>
+// Test requests
+$requests = ['A', 'B', 'C', 'D'];
+
+foreach ($requests as $request) {
+    echo "Client: Who can handle '$request'?\n";
+    $result = $a->handle($request);
+
+    if ($result) {
+        echo "$result\n";
+    } else {
+        echo "No handler could handle the request.\n";
+    }
+
+    echo str_repeat('-', 40) . "\n";
+}
 ```
 
-When you open `index.php` in a browser, you should see:
+---
 
-```
-Info Logger: This is an informational message.
-Info Logger: This is a debug message.
-Info Logger: This is an error message.
-Error Logger: This is an error message.
+## ✅ Expected Output
+
+```bash
+Client: Who can handle 'A'?
+Handler A: I handled the request.
+----------------------------------------
+Client: Who can handle 'B'?
+Handler B: I handled the request.
+----------------------------------------
+Client: Who can handle 'C'?
+Handler C: I handled the request.
+----------------------------------------
+Client: Who can handle 'D'?
+No handler could handle the request.
+----------------------------------------
 ```
 
-The handlers ensure that the messages are passed and handled according to the specified log levels. In the example, since we have started the chain with `InfoLogger`, all log levels (`INFO`, `DEBUG`, and `ERROR`) will be processed and displayed in the browser.
+---
+
+## 🧠 Teaching Tips
+
+* Chain of Responsibility decouples the sender from receivers.
+* Use `setNext()` to change chain order at runtime.
+* Encourage students to create a new handler (e.g. `HandlerD`) to extend functionality.
+
