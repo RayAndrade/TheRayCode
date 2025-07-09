@@ -1,6 +1,8 @@
 
 # 🧱 Builder Design Pattern – Maze Example (JavaScript)
 
+[top](../README.md)
+
 This project is a faithful JavaScript implementation of the **Builder Pattern** as described in the GoF book (*Design Patterns: Elements of Reusable Object-Oriented Software*, p. 97). It demonstrates how to separate the construction of a complex object (`Maze`) from its representation, using a `Director` and a `ConcreteBuilder`.
 
 ---

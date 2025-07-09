@@ -1,5 +1,6 @@
-
 # 🏰 Abstract Factory Pattern: Enchanted Maze Example (JavaScript, GoF Style)
+
+[top](../README.md)
 
 This project is a complete JavaScript implementation of the **Abstract Factory** pattern, inspired by the *MazeFactory* example from the GoF book (*Design Patterns: Elements of Reusable Object-Oriented Software*).
 
