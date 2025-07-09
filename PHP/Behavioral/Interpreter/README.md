@@ -10,7 +10,7 @@
 |---|---|---|---|
 | [**Intepretor**](README.md) | [C++](../../../CPP/Behavioral/Intepretor/README.md) | [C#](../../../Csharp/Behavioral/Intepretor/README.md) | [Java](../../../Java/Behavioral/Intepretor/README.md) |
 
-[Example](Example/README.md) [Example2](Example2/README.md) [Example3](Example3/README.md)
+[Example1](Example1/README.md) [Example2](Example2/README.md) [Example3](Example3/README.md)
 
 
 ## 🗣️ What Is the Interpreter Pattern?
