@@ -158,7 +158,7 @@ These patterns are about **how classes and objects are composed** to build compl
 
 They help make complex workflows and interactions **more manageable, maintainable, and decoupled**.
 
-### 🔸 **Chain of Responsibility**](./Behavioral/ChainOfResponsibility/README.md)
+### 🔸 [**Chain of Responsibility**](./Behavioral/ChainOfResponsibility/README.md)
 
 > Passes a request along a chain of handlers until one handles it.
 
