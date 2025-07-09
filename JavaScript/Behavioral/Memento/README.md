@@ -1,4 +1,4 @@
-(up)[../README.md]
+[up](../README.md)
 
 # TheRayCode is AWESOME!!!
 
@@ -10,9 +10,7 @@
 
 JavaScript Memento section
 
-[Example 0](./MO0/README.md)
-
-[Example 1](./Example1/)
+[Example 1](./Example1/README.md)
 
 ## 🧭 What Is the Mediator Design Pattern?
 
