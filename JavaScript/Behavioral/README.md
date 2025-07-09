@@ -6,7 +6,7 @@
 
 **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
 
-
+hello??
 
 ## 🎓 Introduction to the Gang of Four Design Patterns in JavaScript
 
@@ -38,7 +38,7 @@ Each pattern is implemented using modern JavaScript (`ES6+`) syntax and explaine
 
 They help make complex workflows and interactions **more manageable, maintainable, and decoupled**.
 
-### 🔸 **Chain of Responsibility**
+### 🔸 **[Chain of Responsibility](./ChainOfResponsibility/README.md)**
 
 > Passes a request along a chain of handlers until one handles it.
 
