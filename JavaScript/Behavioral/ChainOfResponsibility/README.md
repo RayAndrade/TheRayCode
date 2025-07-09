@@ -1,6 +1,8 @@
+**[Behavioral patterns ](../README.md)** 
+
+
 ## 🔗 What Is the Chain of Responsibility Design Pattern?
 
-**[Behavioral](../README.md)** 
 
 The **Chain of Responsibility** pattern is a behavioral pattern that lets you pass a request along a **chain of handlers**, where each handler decides whether to process it or pass it on.
 

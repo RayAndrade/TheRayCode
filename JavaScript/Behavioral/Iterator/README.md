@@ -1,3 +1,5 @@
+**[Behavioral patterns ](../README.md)** 
+
 # TheRayCode is AWESOME!!!
 
 **Iterator**
@@ -20,10 +22,10 @@
 
 JavaScript **Iterator** section
 
-[Example 1](./I1/README.md)
+[Example 1](./Example1/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [x @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
