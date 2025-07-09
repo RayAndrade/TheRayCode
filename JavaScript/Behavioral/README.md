@@ -6,7 +6,6 @@
 
 **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
 
-hello??
 
 ## 🎓 Introduction to the Gang of Four Design Patterns in JavaScript
 
@@ -16,7 +15,7 @@ This repository demonstrates **all 23 GoF patterns implemented in JavaScript**, 
 
 * [Creational Patterns](../Creational/README.md)
 * [Structural Patterns](../Structural/README.md)
-* Behavioral Patterns
+* [Behavioral Patterns](../Behavioral/README.md)
 
 Each pattern is implemented using modern JavaScript (`ES6+`) syntax and explained with detailed comments and examples.
 
@@ -32,7 +31,7 @@ Each pattern is implemented using modern JavaScript (`ES6+`) syntax and explaine
 * **[Template](./Template/README.md)**
 * **[Visitor](./Visitor/README.md)**
 
-## 🧠 Behavioral Patterns
+## 🧠 [Behavioral Patterns](../Behavioral/README.md)
 
 **Definition**: Behavioral patterns are concerned with **how objects interact and communicate** with each other.
 
@@ -45,7 +44,7 @@ They help make complex workflows and interactions **more manageable, maintainabl
 * Decouples sender from receiver.
 * Used in logging frameworks, middleware chains.
 
-### 🔸 **Command**
+### 🔸 **[Command](./Command/README.md)**
 
 > Encapsulates a request as an object, allowing parameterization, queuing, and undoable operations.
 
