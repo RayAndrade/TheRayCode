@@ -152,13 +152,13 @@ These patterns are about **how classes and objects are composed** to build compl
 
 ---
 
-## 🧠 Behavioral Patterns
+## 🧠 [**Behavioral Patterns**](./Behavioral/README.md)
 
 **Definition**: Behavioral patterns are concerned with **how objects interact and communicate** with each other.
 
 They help make complex workflows and interactions **more manageable, maintainable, and decoupled**.
 
-### 🔸 13. **Chain of Responsibility**
+### 🔸 13x. **Chain of Responsibility(./Behavioral/ChainOfResponsibility/README.md)**
 
 > Passes a request along a chain of handlers until one handles it.
 
