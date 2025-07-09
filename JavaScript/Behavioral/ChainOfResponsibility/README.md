@@ -20,7 +20,7 @@
 
 JavaScript **Chain of Responsibity** Pattern
 
-[Example 1](./COR1/README.md)
+[Example 1](./Example1/README.md) [Example 2](./Example2/README.md)
 
 [TheRayCode.ORG](https://www.TheRayCode.ORG)
 
