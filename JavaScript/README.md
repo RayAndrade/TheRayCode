@@ -165,6 +165,7 @@ They help make complex workflows and interactions **more manageable, maintainabl
 * Decouples sender from receiver.
 * Used in logging frameworks, middleware chains.
 
+### 🔸 [**Command**](./Behavioral/Command/README.md)
 ### 🔸 14. **Command**
 
 > Encapsulates a request as an object, allowing parameterization, queuing, and undoable operations.
