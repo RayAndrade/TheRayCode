@@ -1,116 +1,180 @@
 [top](../README.md)
 
-The Interpreter pattern is used to represent a grammar of a language in an object-oriented fashion and interpret sentences of that language. For this example, let's consider a simple arithmetic expression evaluator that can handle addition and subtraction.
+## ✅ Overview of the Interpreter Pattern (GoF)
 
-Here's a step-by-step implementation using PHP:
+**Purpose**: Define a grammar for a language and use an interpreter to interpret sentences in that language.
 
-1. **Expression.php** - The abstract expression which declares an abstract interpret operation.
+---
+
+### 📘 UML Participants (GoF Terminology)
+
+| Role                      | Class Name              | Description                                                |
+| ------------------------- | ----------------------- | ---------------------------------------------------------- |
+| **AbstractExpression**    | `AbstractExpression`    | Declares an interface for interpreting                     |
+| **TerminalExpression**    | `TerminalExpression`    | Implements interpretation for terminal symbols             |
+| **NonterminalExpression** | `NonterminalExpression` | Implements interpretation for grammar rules                |
+| **Context**               | `Context`               | Contains global information during interpretation          |
+| **Client**                | `Client`                | Builds the abstract syntax tree and invokes interpretation |
+
+---
+
+## 📁 Code File Structure
+
+Each class will be placed in its own `.php` file, followed by an `index.php` demo to show how it all works.
+
+---
+
+### 🗂️ `AbstractExpression.php`
+
+**Purpose**: Declares the interface that all expressions (terminal or not) will implement.
+
 ```php
 <?php
-// Expression.php
-interface Expression {
+// AbstractExpression.php
+
+interface AbstractExpression
+{
     public function interpret($context);
 }
-?>
 ```
 
-2. **NumberExpression.php** - Terminal Expression for numbers.
+---
+
+### 🗂️ `TerminalExpression.php`
+
+**Purpose**: Implements the interpretation for terminal symbols (e.g., literals).
+
 ```php
 <?php
-// NumberExpression.php
-include_once 'Expression.php';
+// TerminalExpression.php
 
-class NumberExpression implements Expression {
-    private $number;
+require_once 'AbstractExpression.php';
 
-    public function __construct($number) {
-        $this->number = $number;
+class TerminalExpression implements AbstractExpression
+{
+    private $data;
+
+    public function __construct($data)
+    {
+        $this->data = $data; // Store the literal value
     }
 
-    public function interpret($context) {
-        return $this->number;
+    public function interpret($context)
+    {
+        // Return true if context contains the literal value
+        return strpos($context, $this->data) !== false;
     }
 }
-?>
 ```
 
-3. **AddExpression.php** - Non-terminal expression to represent Addition.
+---
+
+### 🗂️ `OrExpression.php`
+
+**Purpose**: A non-terminal expression. It checks if *either* expression matches the context.
+
 ```php
 <?php
-// AddExpression.php
-include_once 'Expression.php';
+// OrExpression.php
 
-class AddExpression implements Expression {
-    private $leftExpression;
-    private $rightExpression;
+require_once 'AbstractExpression.php';
 
-    public function __construct(Expression $left, Expression $right) {
-        $this->leftExpression = $left;
-        $this->rightExpression = $right;
+class OrExpression implements AbstractExpression
+{
+    private $expr1;
+    private $expr2;
+
+    public function __construct(AbstractExpression $expr1, AbstractExpression $expr2)
+    {
+        $this->expr1 = $expr1;
+        $this->expr2 = $expr2;
     }
 
-    public function interpret($context) {
-        return $this->leftExpression->interpret($context) + $this->rightExpression->interpret($context);
+    public function interpret($context)
+    {
+        return $this->expr1->interpret($context) || $this->expr2->interpret($context);
     }
 }
-?>
 ```
 
-4. **SubtractExpression.php** - Non-terminal expression to represent Subtraction.
+---
+
+### 🗂️ `AndExpression.php`
+
+**Purpose**: A non-terminal expression. It checks if *both* expressions match the context.
+
 ```php
 <?php
-// SubtractExpression.php
-include_once 'Expression.php';
+// AndExpression.php
 
-class SubtractExpression implements Expression {
-    private $leftExpression;
-    private $rightExpression;
+require_once 'AbstractExpression.php';
 
-    public function __construct(Expression $left, Expression $right) {
-        $this->leftExpression = $left;
-        $this->rightExpression = $right;
+class AndExpression implements AbstractExpression
+{
+    private $expr1;
+    private $expr2;
+
+    public function __construct(AbstractExpression $expr1, AbstractExpression $expr2)
+    {
+        $this->expr1 = $expr1;
+        $this->expr2 = $expr2;
     }
 
-    public function interpret($context) {
-        return $this->leftExpression->interpret($context) - $this->rightExpression->interpret($context);
+    public function interpret($context)
+    {
+        return $this->expr1->interpret($context) && $this->expr2->interpret($context);
     }
 }
-?>
 ```
 
-5. **Demo with index.php**:
+---
+
+### 🚀 `index.php` (Client)
+
+**Purpose**: Demonstrates how to build expressions and interpret them with a given context.
+
 ```php
 <?php
 // index.php
-include_once 'Expression.php';
-include_once 'NumberExpression.php';
-include_once 'AddExpression.php';
-include_once 'SubtractExpression.php';
 
-$context = "";  // This can be used to provide any contextual data necessary for interpretation.
+require_once 'TerminalExpression.php';
+require_once 'OrExpression.php';
+require_once 'AndExpression.php';
 
-// Constructing an expression tree: 5 + 3 - 2
-$numberFive = new NumberExpression(5);
-$numberThree = new NumberExpression(3);
-$addition = new AddExpression($numberFive, $numberThree);
-$numberTwo = new NumberExpression(2);
-$resultExpression = new SubtractExpression($addition, $numberTwo);
+// Rule: "Ray or Andrade"
+$ray = new TerminalExpression("Ray");
+$andrade = new TerminalExpression("Andrade");
+$rayOrAndrade = new OrExpression($ray, $andrade);
 
-// Interpreting the expression
-$result = $resultExpression->interpret($context);
+// Rule: "Ray AND Developer"
+$developer = new TerminalExpression("Developer");
+$rayAndDeveloper = new AndExpression($ray, $developer);
 
-echo "Result of 5 + 3 - 2 = $result";  // This should output 6
-?>
+// Test interpretation
+echo "Test 1: 'Ray Andrade' matches Ray OR Andrade? ";
+echo $rayOrAndrade->interpret("Ray Andrade") ? "Yes\n" : "No\n";
+
+echo "Test 2: 'Ray is a Developer' matches Ray AND Developer? ";
+echo $rayAndDeveloper->interpret("Ray is a Developer") ? "Yes\n" : "No\n";
+
+echo "Test 3: 'Andrade is a Developer' matches Ray AND Developer? ";
+echo $rayAndDeveloper->interpret("Andrade is a Developer") ? "Yes\n" : "No\n";
 ```
 
-Explanation:
+---
 
-- **Expression.php**: This is the interface that every concrete expression class will implement. The `interpret` method is the primary method that will execute the logic to evaluate the expression.
-  
-- **NumberExpression.php**: This class represents numbers in our arithmetic expressions. Its `interpret` method simply returns the number itself.
-  
-- **AddExpression.php & SubtractExpression.php**: These are the non-terminal expressions. They combine other expressions. Their `interpret` methods delegate the interpretation to the encapsulated expressions and then apply the arithmetic operation.
+### ✅ Output
 
-- **index.php**: Here, we're creating an expression tree to represent `5 + 3 - 2` and then interpreting it. The result should be `6`.
+```
+Test 1: 'Ray Andrade' matches Ray OR Andrade? Yes
+Test 2: 'Ray is a Developer' matches Ray AND Developer? Yes
+Test 3: 'Andrade is a Developer' matches Ray AND Developer? No
+```
 
-To ensure this code works as expected, ensure you place each class in its separate file and include them appropriately in the `index.php` as demonstrated.
+---
+
+## 📘 Summary
+
+* This is a **simple language parser** using boolean rules.
+* The Interpreter pattern can handle arithmetic expressions, command parsers, and other DSLs (domain-specific languages).
+* This implementation is educational and models the **GoF class structure** exactly.
