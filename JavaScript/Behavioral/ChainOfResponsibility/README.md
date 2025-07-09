@@ -1,6 +1,6 @@
 **[Behavioral patterns ](../README.md)** 
 
-[Example 1](.Example1/README.md)
+[Example 1](./Example1/README.md)
 
 ## 🔗 What Is the Chain of Responsibility Design Pattern?
 
