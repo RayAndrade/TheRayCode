@@ -166,70 +166,69 @@ They help make complex workflows and interactions **more manageable, maintainabl
 * Used in logging frameworks, middleware chains.
 
 ### 🔸 [**Command**](./Behavioral/Command/README.md)
-### 🔸 14. **Command**
 
 > Encapsulates a request as an object, allowing parameterization, queuing, and undoable operations.
 
 * Ideal for implementing action queues or undo/redo.
 * Separates command execution from the object that invokes it.
 
-### 🔸 15. **Interpreter**
+### 🔸 [**Interpreter**](./Behavioral/Interpreter/README.md)
 
 > Defines a grammar and interprets sentences in the language.
 
 * Used to interpret custom DSLs (e.g., regex, SQL).
 * Each rule is represented as a class in the tree.
 
-### 🔸 16. **Iterator**
+### 🔸 [**Iterator**](./Behavioral/Iterator/README.md)
 
 > Provides a way to access elements of an aggregate sequentially without exposing its underlying representation.
 
 * Common in collections and custom data structures.
 * Helps separate traversal logic from container logic.
 
-### 🔸 17. **Mediator**
+### 🔸 [**Mediator**](./Behavioral/Mediator/README.md)
 
 > Defines an object that centralizes communication between a set of objects.
 
 * Reduces direct dependencies between objects.
 * Useful in UI frameworks to decouple widgets.
 
-### 🔸 18. **Memento**
+### 🔸 [**Memento**](./Behavioral/Memento/README.md)
 
 > Captures and restores an object's internal state without violating encapsulation.
 
 * Used in undo features (e.g., editor history).
 * Stores snapshots of state.
 
-### 🔸 19. **Observer**
+### 🔸 [**Observer**](./Behavioral/Observer/README.md)
 
 > Defines a one-to-many dependency so when one object changes state, all its dependents are notified.
 
 * Found in event systems, pub/sub models.
 * Decouples publisher from subscriber.
 
-### 🔸 20. **State**
+### 🔸 [**State**](./Behavioral/State/README.md)
 
 > Allows an object to alter its behavior when its internal state changes.
 
 * Behaves like a finite state machine.
 * Each state is encapsulated in a class.
 
-### 🔸 21. **Strategy**
+### 🔸 [**Strategy**](./Behavioral/Strategy/README.md)
 
 > Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
 
 * Replaces conditional statements with polymorphism.
 * Good for sorting, filtering, or pricing strategies.
 
-### 🔸 22. **Template Method**
+### 🔸 [**Template**](./Behavioral/Template/README.md)
 
 > Defines the skeleton of an algorithm, deferring some steps to subclasses.
 
 * Promotes code reuse.
 * Subclasses override only specific steps.
 
-### 🔸 23. **Visitor**
+### 🔸 [**Visitor**](./Behavioral/Visitor/README.md)
 
 > Lets you define new operations on objects without changing their classes.
 
