@@ -65,16 +65,14 @@ They help make complex workflows and interactions **more manageable, maintainabl
 * Common in collections and custom data structures.
 * Helps separate traversal logic from container logic.
 
-### 🔸 **[Command](./Command/README.md)**
-### 🔸 **Mediator**
+### 🔸 **[Mediator](./Mediator/README.md)**
 
 > Defines an object that centralizes communication between a set of objects.
 
 * Reduces direct dependencies between objects.
 * Useful in UI frameworks to decouple widgets.
 
-### 🔸 **[Command](./Command/README.md)**
-### 🔸 **Memento**
+### 🔸 **[Memento](./Memento/README.md)**
 
 > Captures and restores an object's internal state without violating encapsulation.
 
