@@ -1,19 +1,17 @@
-const Composite = require('./Composite');
-const Leaf = require('./Leaf');
-const Client = require('./Client');
+// index.js
 
-const root = new Composite("root");
+import { ConcreteImplementorA } from './ConcreteImplementorA.js';
+import { ConcreteImplementorB } from './ConcreteImplementorB.js';
 
-const leaf1 = new Leaf("A");
-const leaf2 = new Leaf("B");
+import { Abstraction } from './Abstraction.js';
+import { RefinedAbstraction } from './RefinedAbstraction.js';
 
-root.add(leaf1);
-root.add(leaf2);
+const implementorA = new ConcreteImplementorA();
 
-const branch = new Composite("branch");
-branch.add(new Leaf("C1"));
-branch.add(new Leaf("C2"));
+const abstractionA = new Abstraction(implementorA);
+abstractionA.operation();
 
-root.add(branch);
+const implementorB = new ConcreteImplementorB();
 
-Client.execute(root);
+const abstractionB = new RefinedAbstraction(implementorB);
+abstractionB.operation();
