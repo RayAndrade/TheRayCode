@@ -54,7 +54,7 @@ The Adapter pattern is all about **compatibility**:
 
 It gives you a **bridge** between mismatched components, keeping your system clean, maintainable, and consistent.
 
-**S.W\.O.T. Analysis** of using the **Adapter Design Pattern** in **JavaScript** 
+### **S.W\.O.T. Analysis** of using the **Adapter Design Pattern** in **JavaScript** 
 
 ### 🟩 **Strengths**
 
