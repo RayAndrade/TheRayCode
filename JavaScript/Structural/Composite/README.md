@@ -54,7 +54,7 @@ It helps build flexible, scalable systems that work with nested or hierarchical 
 
 ### **S.W\.O.T. Analysis** of using the **Composite Design Pattern** in **JavaScript**
 
-### 🟩 **Strengths*
+### 🟩 **Strengths**
 
 **Tree Structure**
    Allows you to build part-whole hierarchies like folders and files.
