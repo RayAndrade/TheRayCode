@@ -56,53 +56,54 @@ It helps build flexible, scalable systems that work with nested or hierarchical 
 
 ### 🟩 **Strengths**
 
-**Tree Structure**
+1. **Tree Structure**
    Allows you to build part-whole hierarchies like folders and files.
 
-**Uniform Access**
+2. **Uniform Access**
    Treats single items and groups the same using one interface.
 
-**Clean Design**
+3. **Clean Design**
    Organizes code nicely when working with complex groupings of objects.
 
 ---
 
 ### 🟨 **Weaknesses**
 
-**Hard Debugging**
+1. **Hard Debugging**
    Mistakes in tree logic can be tough to track down.
 
-**Extra Setup**
+2. **Extra Setup**
    Requires planning and setup, even for small examples.
 
-**Recursive Thinking**
+3. **Recursive Thinking**
    Requires understanding recursion, which may confuse beginners at first.
 
 ---
 
 ### 🟦 **Opportunities**
 
-**UI Elements**
+1. **UI Elements**
    Perfect for menus, buttons, or nested components in web apps.
 
-**Game Objects**
+2. **Game Objects**
    Helps group enemies, players, or items in game development.
 
-**File Systems**
+3. **File Systems**
    Ideal for building file/folder tools in the browser.
 
 ---
 
 ### 🟥 **Threats**
 
-**Too Generic**
+1. **Too Generic**
    Overuse may lead to overly abstract or vague code.
 
-**Misuse Risk**
+2. **Misuse Risk**
    Beginners may misuse it when simpler structures would work.
 
-**Performance Drop**
+3. **Performance Drop**
    Too many nested composites may slow down large applications.
+
 
 
 [RayAndrade.COM](https://www.RayAndrade.com)
