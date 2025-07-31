@@ -29,18 +29,6 @@ The Flyweight pattern reduces memory use by sharing objects that have identical 
 
 ---
 
-## 🧩 Participants
-
-| **Role**                   | **Class**                  | **Description** |
-|----------------------------|----------------------------|-----------------|
-| Flyweight                  | `Flyweight.js`             | Defines the interface to receive extrinsic state |
-| ConcreteFlyweight          | `ConcreteFlyweight.js`     | Stores shared (intrinsic) state and implements the Flyweight interface |
-| UnsharedConcreteFlyweight  | `UnsharedConcreteFlyweight.js` | Has unique state, not shared |
-| FlyweightFactory           | `FlyweightFactory.js`      | Creates and reuses flyweights |
-| Client                     | `Client.js`                | Uses the flyweights through the FlyweightFactory |
-
----
-
 ### **S.W\.O.T. Analysis** of the **Flyweight Pattern** for **JavaScript developers**.
 ---
 
