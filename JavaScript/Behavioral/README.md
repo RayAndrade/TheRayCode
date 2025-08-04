@@ -22,7 +22,7 @@ Each pattern is implemented using modern JavaScript (`ES6+`) syntax and explaine
 **JavaScript Behavoiral Patterns**
 
 * **[ChainOfResponsibility](./ChainOfResponsibility/README.md)**
-* **[Command](./Command/README.md)***
+* **[Command](./Command/README.md)**
 * **[Iterator](./Iterator/README.md)**
 * **[Mediator](./Mediator/README.md)**
 * **[Memento](./Memento/README.md)**
