@@ -1,7 +1,7 @@
 
 **[Behavioral patterns ](../README.md)** 
 
-[Example 1](./Example1/README.md) [Example 2](./Example2/README.md)
+[Example 1](./Example1/README.md) 
 
 ## 🎮 What Is the Behavioral Command Design Pattern?
 
