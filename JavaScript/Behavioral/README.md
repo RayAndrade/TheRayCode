@@ -11,7 +11,7 @@
 
 The **Gang of Four (GoF)** book *“Design Patterns: Elements of Reusable Object-Oriented Software”* defines 23 classic software design patterns. These patterns offer proven solutions to common design challenges in object-oriented systems.
 
-This repository demonstrates **all 23 GoF patterns implemented in JavaScript**, categorized into:
+This repository demonstrates **ALL 23 GoF patterns implemented in JavaScript**, categorized into:
 
 * [Creational Patterns](../Creational/README.md)
 * [Structural Patterns](../Structural/README.md)
