@@ -1,6 +1,6 @@
 [Behavioral patterns](../README.md)
 
-[Example1](./README.md)
+[Example1](../README.md)
 
 ## 🗣️ What Is the Interpreter Design Pattern?
 
