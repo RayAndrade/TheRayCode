@@ -23,7 +23,7 @@ Each pattern is implemented using modern JavaScript (`ES6+`) syntax and explaine
 
 * **[ChainOfResponsibility](./ChainOfResponsibility/README.md)**
 * **[Command](./Command/README.md)**
-* **[Interpeter](./Interpeter/README.md)**
+* **[Interpreter](./Interpreter/README.md)**
 * **[Iterator](./Iterator/README.md)**
 * **[Mediator](./Mediator/README.md)**
 * **[Memento](./Memento/README.md)**
