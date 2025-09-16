@@ -1,5 +1,7 @@
 [Behavioral patterns](../README.md)
 
+[Example1](./README.md)
+
 ## 🗣️ What Is the Interpreter Design Pattern?
 
 The **Interpreter** pattern is a behavioral pattern that defines a **grammar** for a language and uses an interpreter to process and evaluate statements in that language.
