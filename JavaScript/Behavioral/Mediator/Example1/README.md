@@ -1,188 +1,254 @@
 # TheRayCode
-## Mediator pattern java
+## Mediator pattern JavaSctipt
 
-The Mediator design pattern is used to handle communication between related ojects called **Colleagues**.
-All communication is handled by the **Mediator** and the **Colleagues** don't need to know anything about each other.
+Let’s focus on the **Mediator Pattern**, a behavioral pattern described in the GoF book on pages 273–282, with its UML on page 278.
 
-We start by creating an interface called **Mediator**.
-```java
-public interface Mediator {
-    public void saleOffer(String stock, int shares, int collCode);
-    public void buyOffer(String stock, int shares, int collCode);
-    public void addColleague(Colleague colleague);
-}
-```
-We create an abstract class for the **Colleague**s.
-Notice you can create a new instance of a **Colleague**.
-```java
-public abstract class Colleague {
-    private Mediator mediator;
-    private int colleagueCode;
-    public Colleague(Mediator newMediator){
-        mediator = newMediator;
-        mediator.addColleague(this);
-    }
-    public void saleOffer(String stock, int shares){
-        mediator.saleOffer(stock, shares, this.colleagueCode);
-    }
-    public void buyOffer(String stock, int shares){
-        mediator.buyOffer(stock, shares, this.colleagueCode);
-    }
-    public void setCollCode(int collCode)
-    { 
-    	colleagueCode = collCode; 
-    }
-}
-```
-Provides infor information about the number of shares, the stock symbol and a varable to tie all these  colleagues together.
-We also add methods that will do actions like getstockShares, getStockSymbol and the colleagueCode.
-```java
-public class StockOffer {
-    private int stockShares = 0;
-    private String stockSymbol = "";
-    private int colleagueCode = 0;
+✅ GoF participants you’ll see:
 
-    public StockOffer(int numOfShares, String stock, int collCode){
+* **Mediator** (defines the interface for communicating colleagues)
+* **ConcreteMediator** (coordinates communication)
+* **Colleague** (base participant with a reference to the mediator)
+* **ConcreteColleague** (concrete participant objects)
+* **Client** (sets up colleagues and mediator)
 
-        stockShares = numOfShares;
-        stockSymbol = stock;
-        colleagueCode = collCode;
+---
 
-    }
+**As you requested**, I will:
+✅ explain each class outside the code block
+✅ put code inside triple-backtick blocks with detailed line-by-line comments
+✅ place each class in its own `.js` module
+✅ add a working `index.js` demo
+✅ in a GitHub-ready style
 
-    public int getstockShares() { return stockShares; }
-    public String getStockSymbol() { return stockSymbol; }
-    public int getCollCode() { return colleagueCode; }
-}
-```
-Let's create a colleague class we call **GormanSlacks**.
-This class will be extended with **Colleague**.
+---
 
-```java
-public class GormanSlacks extends Colleague{
-    public GormanSlacks(Mediator newMediator) {
-        super(newMediator);
-        System.out.println("Gorman Slacks signed up with the stockexchange\n");
+# 🧩 Class-by-Class Explanation
+
+---
+
+## 🧩 `Mediator.js`
+
+**Purpose**
+Defines the abstract interface for coordinating communication between colleagues.
+
+```javascript
+// Mediator.js
+
+// Mediator defines the interface for coordinating colleagues
+class Mediator {
+    send(message, colleague) {
+        throw new Error("send() must be implemented by subclasses");
     }
 }
+
+module.exports = Mediator;
 ```
 
-Let create a class that will be simular to **GormanSlacks** we call this class **JTPoorman**.
-```java
-public class JTPoorman extends Colleague{
-    public JTPoorman(Mediator newMediator) {
-        super(newMediator);
-        System.out.println("JT Poorman signed up with the stockexchange\n");
-    }
-}
-```
-Let's create a class called the **StockMediator**.
+---
 
+## 🧩 `ConcreteMediator.js`
 
-```java
-import java.util.ArrayList;
+**Purpose**
+Implements coordination logic, handling message routing between colleagues.
 
-public class StockMediator implements Mediator{
-    private ArrayList<Colleague> colleagues;
-    private ArrayList<StockOffer> stockBuyOffers;
-    private ArrayList<StockOffer> stockSaleOffers;
-    private int colleagueCodes = 0;
-    public StockMediator(){
-        colleagues = new ArrayList<Colleague>();
-        stockBuyOffers = new ArrayList<StockOffer>();
-        stockSaleOffers = new ArrayList<StockOffer>();
+```javascript
+// ConcreteMediator.js
+
+const Mediator = require('./Mediator');
+
+// ConcreteMediator: coordinates colleagues' communication
+class ConcreteMediator extends Mediator {
+    constructor() {
+        super();
+        this.colleague1 = null; // store reference to colleague1
+        this.colleague2 = null; // store reference to colleague2
     }
-    public void addColleague(Colleague newColleague){
-        colleagues.add(newColleague);
-        colleagueCodes++;
-        newColleague.setCollCode(colleagueCodes);
+
+    setColleague1(colleague) {
+        this.colleague1 = colleague;
     }
-    public void saleOffer(String stock, int shares, int collCode) {
-        boolean stockSold = false;
-        for(StockOffer offer: stockBuyOffers){
-            if((offer.getStockSymbol() == stock) && (offer.getstockShares() == shares)){
-                System.out.println(shares + " shares of " + stock +
-                        " sold to colleague code " + offer.getCollCode());
-                stockBuyOffers.remove(offer);
-                stockSold = true;
-            }
-            if(stockSold){ break; }
-        }
-        if(!stockSold) {
-            System.out.println(shares + " shares of " + stock +
-                    " added to inventory");
-            StockOffer newOffering = new StockOffer(shares, stock, collCode);
-            stockSaleOffers.add(newOffering);
-        }
+
+    setColleague2(colleague) {
+        this.colleague2 = colleague;
     }
-    @Override
-    public void buyOffer(String stock, int shares, int collCode) {
-        boolean stockBought = false;
-        for(StockOffer offer: stockSaleOffers){
-            if((offer.getStockSymbol() == stock) && (offer.getstockShares() == shares)){
-                System.out.println(shares + " shares of " + stock +
-                        " bought by colleague code " + offer.getCollCode());
-                stockSaleOffers.remove(offer);
-                stockBought = true;
-            }
-            if(stockBought){ break; }
-        }
-        if(!stockBought) {
-            System.out.println(shares + " shares of " + stock +
-                    " added to inventory");
-            StockOffer newOffering = new StockOffer(shares, stock, collCode);
-            stockBuyOffers.add(newOffering);
-        }
-    }
-    public void getstockOfferings(){
-        System.out.println("\nStocks for Sale");
-        for(StockOffer offer: stockSaleOffers){
-            System.out.println(offer.getstockShares() + " of " + offer.getStockSymbol());
-        }
-        System.out.println("\nStock Buy Offers");
-        for(StockOffer offer: stockBuyOffers){
-            System.out.println(offer.getstockShares() + " of " + offer.getStockSymbol());
+
+    send(message, sender) {
+        // check who sent the message
+        if (sender === this.colleague1) {
+            // colleague1 sends to colleague2
+            this.colleague2.notify(message);
+        } else {
+            // colleague2 sends to colleague1
+            this.colleague1.notify(message);
         }
     }
 }
+
+module.exports = ConcreteMediator;
 ```
-Now let's put this altogether in a main method we put in a class we call **TestStockMediator**.
-```java
-public class TestStockMediator {
-    public static void main(String[] args){
-        StockMediator nyse = new StockMediator();
-        GormanSlacks broker = new GormanSlacks(nyse);
-        JTPoorman broker2 = new JTPoorman(nyse);
-        broker.saleOffer("MSFT", 100);
-        broker.saleOffer("GOOG", 50);
-        broker2.buyOffer("MSFT", 100);
-        broker2.saleOffer("NRG", 10);
-        broker.buyOffer("NRG", 10);
-        nyse.getstockOfferings();
+
+---
+
+## 🧩 `Colleague.js`
+
+**Purpose**
+Defines a base participant in the interaction. Holds a reference to the mediator.
+
+```javascript
+// Colleague.js
+
+// Colleague holds a reference to the mediator
+class Colleague {
+    constructor(mediator) {
+        this.mediator = mediator; // the mediator for communication
     }
 }
+
+module.exports = Colleague;
 ```
 
-Let's comile and run this.
-We should get:
-```run
-Gorman Slacks signed up with the stockexchange
+---
 
-JT Poorman signed up with the stockexchange
+## 🧩 `ConcreteColleague1.js`
 
-100 shares of MSFT added to inventory
-50 shares of GOOG added to inventory
-100 shares of MSFT bought by colleague code 1
-10 shares of NRG added to inventory
-10 shares of NRG bought by colleague code 2
+**Purpose**
+A concrete colleague that can send and receive messages via the mediator.
 
-Stocks for Sale
-50 of GOOG
+```javascript
+// ConcreteColleague1.js
 
-Stock Buy Offers
+const Colleague = require('./Colleague');
+
+// ConcreteColleague1 communicates through the mediator
+class ConcreteColleague1 extends Colleague {
+    send(message) {
+        console.log(`ConcreteColleague1 sends: ${message}`);
+        this.mediator.send(message, this); // delegate to mediator
+    }
+
+    notify(message) {
+        console.log(`ConcreteColleague1 receives: ${message}`);
+    }
+}
+
+module.exports = ConcreteColleague1;
 ```
 
-The Ray Code is AWESOME!!!
+---
+
+## 🧩 `ConcreteColleague2.js`
+
+**Purpose**
+Another concrete colleague using the same mediator.
+
+```javascript
+// ConcreteColleague2.js
+
+const Colleague = require('./Colleague');
+
+// ConcreteColleague2 communicates through the mediator
+class ConcreteColleague2 extends Colleague {
+    send(message) {
+        console.log(`ConcreteColleague2 sends: ${message}`);
+        this.mediator.send(message, this); // delegate to mediator
+    }
+
+    notify(message) {
+        console.log(`ConcreteColleague2 receives: ${message}`);
+    }
+}
+
+module.exports = ConcreteColleague2;
+```
+
+---
+
+## 👤 `Client.js`
+
+**Purpose**
+Sets up the mediator, registers colleagues, and demonstrates communication.
+
+```javascript
+// Client.js
+
+// Client sets up the mediator and the colleagues
+class Client {
+    static run() {
+        const ConcreteMediator = require('./ConcreteMediator');
+        const ConcreteColleague1 = require('./ConcreteColleague1');
+        const ConcreteColleague2 = require('./ConcreteColleague2');
+
+        // create mediator
+        const mediator = new ConcreteMediator();
+
+        // create colleagues
+        const colleague1 = new ConcreteColleague1(mediator);
+        const colleague2 = new ConcreteColleague2(mediator);
+
+        // register colleagues with the mediator
+        mediator.setColleague1(colleague1);
+        mediator.setColleague2(colleague2);
+
+        // colleagues communicate through the mediator
+        colleague1.send("How are you?");
+        colleague2.send("I'm good, thanks!");
+    }
+}
+
+module.exports = Client;
+```
+
+---
+
+## 🚀 `index.js`
+
+**Purpose**
+Runs the demonstration.
+
+```javascript
+// index.js
+
+const Client = require('./Client');
+
+// start the Mediator pattern demo
+Client.run();
+```
+
+---
+
+# ✅ Expected Output
+
+```bash
+ConcreteColleague1 sends: How are you?
+ConcreteColleague2 receives: How are you?
+ConcreteColleague2 sends: I'm good, thanks!
+ConcreteColleague1 receives: I'm good, thanks!
+```
+
+---
+
+# 📚 References
+
+* *Design Patterns: Elements of Reusable Object-Oriented Software* (Gamma et al)
+* Mediator Pattern, pages 273–282
+* UML page 278
+* Participants:
+
+  * Mediator
+  * ConcreteMediator
+  * Colleague
+  * ConcreteColleague
+  * Client
+
+---
+
+# 🧠 Teaching Notes
+
+✅ Emphasize how Mediator **decouples** colleagues, letting them interact without referring directly to each other
+✅ Show how this can simplify **many-to-many** communication
+✅ Extend to more colleagues or even build a **chat room** example
+
+
 
 [Wikipedia](https://en.wikipedia.org/wiki/Mediator_pattern)
 
