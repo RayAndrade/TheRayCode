@@ -14,9 +14,14 @@
 
 [Example](Example/README.md) [Example2](Example2/README.md) [Example3](Example3/README.md)
 
-
 ### **What is the Builder Pattern?**
 The Builder Pattern is a **Creational Design Pattern** that constructs complex objects step-by-step, separating the construction process from the object’s representation.
+
+
+<p>
+👉 [Why](https://vimeo.com/1082694541)  
+*(Ctrl+Click = new tab, Shift+Click = new window)*
+</p>
 
 ### **Why PHP Developers Should Study the Builder Pattern**
 
