@@ -19,7 +19,7 @@ The Builder Pattern is a **Creational Design Pattern** that constructs complex o
 
 
 <p>
-👉 [Why](https://vimeo.com/1082694541)  
+👉 [Why](https://vimeo.com/1082694541) <br/>
 *(Ctrl+Click = new tab, Shift+Click = new window)*
 </p>
 
