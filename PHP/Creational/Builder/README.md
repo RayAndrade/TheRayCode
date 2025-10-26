@@ -20,7 +20,7 @@ The Builder Pattern is a **Creational Design Pattern** that constructs complex o
 
 <p>
 👉 [Why](https://vimeo.com/1082694541 target="_blank")<br/>
-*(Ctrl+Click = new tab, Shift+Click = new window)*
+*(Ctrl+Click = new tab, Shift+Click)*
 </p>
 
 ### **Why PHP Developers Should Study the Builder Pattern**
