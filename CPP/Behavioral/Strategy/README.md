@@ -15,6 +15,9 @@
 The Strategy Design Pattern is a behavioral design pattern that enables selecting an algorithm's implementation at runtime. Instead of implementing a single algorithm directly, a class can be designed to use multiple algorithms interchangeably. The Strategy pattern encapsulates each algorithm inside a separate class, known as a strategy class, allowing them to be switched in and out as required. This design aids in decoupling the algorithm's definition from its usage.
 
 <h3>Why C++ Programmers Should Study It</h3>
+👉 [why]([https://github.com/RayAndrade/JavaScriptStudy](https://vimeo.com/997115790))  
+*(Ctrl+Click = new tab, Shift+Click = new window)*
+
 
 **Flexibility** Allows dynamic swapping of algorithms based on runtime conditions.
 
