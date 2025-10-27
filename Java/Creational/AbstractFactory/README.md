@@ -6,6 +6,11 @@
 
 **Java Creational Patterns**
 
+<p>
+👉 [sample code](https://vimeo.com/1073028617)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
 
 |Example in Java|   |   |   |   |
 |---|---|---|---|---|
