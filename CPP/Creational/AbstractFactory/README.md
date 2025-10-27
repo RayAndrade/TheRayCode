@@ -6,6 +6,11 @@
 
 **C++ Abstract Factory Design Pattern**
 
+<p>
+👉 [complete](https://vimeo.com/1078492795)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
 |Example in C++|   |   |   | 
 |---|---|---|---|
 | [**Abstract Factory**](../AbstractFactory/README.md) | [**C#**](../../../Csharp/Creational/AbstractFactory/README.md) | [Java](../../../Java/Creational/AbstractFactory/README.md) | [PHP](../../../PHP/Creational/AbstractFactory/README.md) |
@@ -16,9 +21,19 @@
 <p>
 👉 [uml](https://vimeo.com/997115708) *(Ctrl+Click = new tab, Shift+Click = new window)*
 </p>
+<p>
+👉 [uml](https://vimeo.com/1078092249)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
 The Abstract Factory Design Pattern is a creational design pattern that provides an interface for creating families of related or dependent objects without specifying their concrete classes. In other words, it abstracts the process of creating objects by encapsulating the creation logic into separate factory objects. These factory objects are responsible for creating objects that belong to a common theme or family.
 
 Here are some reasons why studying the Abstract Factory design pattern can be beneficial for a C++ developer:
+
+<p>
+👉 [why](https://vimeo.com/1078492063)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 1. **Code Maintenance:** Simplifies system maintenance by isolating concrete classes and reducing dependencies among objects.
 2. **System Scalability:** Facilitates adding new families of products without altering existing code, enhancing scalability.
