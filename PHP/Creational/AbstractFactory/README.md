@@ -4,6 +4,12 @@
 
 **Creational Pattern Abstract Factory**
 
+<p>
+👉 [unl](https://vimeo.com/1078091028)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
+
 |Pattern|   |   |   |
 |---|---|---|---|
 | [**Abstract Factory**](README.md) | [**C++**](../../../CPP/Creational/AbstractFactory/README.md) | [**C#**](../../../Csharp/Creational/AbstractFactory/README.md) | [Java](../../../Java/Creational/AbstractFactory/README.md) 
@@ -12,7 +18,10 @@
 
 [Example](Example/README.md) [Example2](Example2/README.md) [Example3](Example3/README.md)
 
-https://vimeo.com/1066253692?share=copy#t=0
+<p>
+👉 [why](https://vimeo.com/1078090954)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 The **Abstract Factory Pattern** is a design pattern often used in programming, including in PHP. It's a part of the *Creational Design Patterns*, focusing on ways to handle object creation mechanisms, intending to create suitable objects based on the context or the logic of the program.
 
@@ -33,6 +42,10 @@ As a PHP developer, you might need to understand the Abstract Factory pattern fo
 Remember, though, while design patterns like the Abstract Factory pattern can be very useful, they are not a silver bullet. They should be used when they help solve problems more effectively, not for their own sake.
 
 ### S.W.O.T. Analysis of the Creational Pattern: Abstract Factory Design Pattern Using PHP
+<p>
+👉 [swot](https://vimeo.com/1078091099)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 **Strengths**
 1. **Consistency:** Provides a consistent interface for creating related objects without specifying their concrete classes.
