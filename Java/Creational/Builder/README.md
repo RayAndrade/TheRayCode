@@ -12,6 +12,11 @@
 
 **Java Builder Design Pattern**
 
+<p>
+👉 [uml](https://vimeo.com/1081671501)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
 [**Example1**](Example1/README.md) | [**Example2**](Example2/README.md) | [**Example3**](Example3/README.md)
 
 <p>
