@@ -46,6 +46,11 @@ By studying the Builder design Pattern, developers in PHP can **simplify object 
 
 ### **S.W.O.T. Analysis of Builder Design Patterns for PHP**
 
+<p>
+👉 [swot](https://vimeo.com/1082694385)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
 **Strengths**  
 1. **Handles Complex Objects**: Efficiently manages the creation of objects with numerous attributes, particularly in PHP configurations and data structures.  
 2. **Fluent Interfaces**: PHP's support for method chaining enhances the readability and usability of Builder pattern implementations.  
