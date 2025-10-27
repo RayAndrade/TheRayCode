@@ -35,6 +35,11 @@ Here are some reasons why a Java programmer should study the Builder design patt
 
 These reasons highlight the practical advantages of the Builder design pattern for Java developers in terms of code maintainability, readability, flexibility, and design.
 
+<p>
+👉 [swot](https://vimeo.com/1081671531)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
 ### **S – Strengths**
 
 1. **Readable Object Construction**
