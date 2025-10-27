@@ -14,6 +14,10 @@
 
 [**Example1**](Example1/README.md) | [**Example2**](Example2/README.md) | [**Example3**](Example3/README.md)
 
+<p>
+👉 [why](https://vimeo.com/1081671600)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 The Builder Design Pattern is a Creational Pattern that constructs complex objects step-by-step, separating the construction process from the object’s representation.
 
