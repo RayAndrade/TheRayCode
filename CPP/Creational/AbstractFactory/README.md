@@ -17,10 +17,13 @@
 
 [**Example**](Example/README.md) | [**Example2**](Example2/README.md) | [**Example3**](Example3/README.md)
 
-<h3>Abstract Factory UML</h3>
+
 <p>
-👉 [uml](https://vimeo.com/997115708) *(Ctrl+Click = new tab, Shift+Click = new window)*
+👉 [uml](https://vimeo.com/997115708)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
 </p>
+
+
 <p>
 👉 [uml](https://vimeo.com/1078092249)<br/>
 *(Ctrl+Click = new tab, Shift+Click)*
