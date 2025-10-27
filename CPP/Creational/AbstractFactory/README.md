@@ -23,12 +23,6 @@
 *(Ctrl+Click = new tab, Shift+Click)*
 </p>
 
-
-<p>
-👉 [uml](https://vimeo.com/1078092249)<br/>
-*(Ctrl+Click = new tab, Shift+Click)*
-</p>
-
 The Abstract Factory Design Pattern is a creational design pattern that provides an interface for creating families of related or dependent objects without specifying their concrete classes. In other words, it abstracts the process of creating objects by encapsulating the creation logic into separate factory objects. These factory objects are responsible for creating objects that belong to a common theme or family.
 
 Here are some reasons why studying the Abstract Factory design pattern can be beneficial for a C++ developer:
