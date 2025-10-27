@@ -13,6 +13,11 @@
 
 **Java Abstract Factory Design Pattern**
 
+<p>
+👉 [uml](https://vimeo.com/1073028695)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
 [**Example**](Example/README.md)
 
 **Abstract Factory Design Pattern for Java Developers**
@@ -23,6 +28,12 @@ The **Abstract Factory** pattern provides an interface for creating families of 
 ---
 
 ### 🔍 **5 Reasons to Study the Abstract Factory Pattern (for Java Developers)**
+
+<p>
+👉 [why](https://vimeo.com/1073028722)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
 
 1. **Modularity**  
 Encourages code that’s easier to maintain by abstracting object creation for UI themes or database drivers.
@@ -42,6 +53,10 @@ Facilitates mocking dependencies in unit tests by abstracting object creation be
 ---
 
 ### 🧠 **S.W.O.T. Analysis of Abstract Factory**
+<p>
+👉 [swot](https://vimeo.com/1073028649)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 **Strengths**  
 1. Promotes clean separation between interface and implementation layers  
