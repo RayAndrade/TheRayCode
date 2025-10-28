@@ -1,8 +1,13 @@
 [up](../README.md)
 
+
+
 Here is the **C# implementation** of the **Singleton Design Pattern** along with a **PlainClass** to demonstrate the difference in object creation. This follows **best practices in C#**, ensuring a **thread-safe Singleton** implementation.
 
 ---
+
+👉 [code](https://vimeo.com/1065190430)  
+*(Ctrl+Click = new tab, Shift+Click = new window)*
 
 ## 📁 **File Structure**
 ```
