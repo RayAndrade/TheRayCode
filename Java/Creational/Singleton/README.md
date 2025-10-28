@@ -14,13 +14,13 @@
 
 ![UML](s_00000.png)
 
-https://vimeo.com/1065203415
+👉 [uml](https://vimeo.com/1065203415
+*(Ctrl+Click = new tab, Shift+Click = new window)*
 
-Let's delve into the "Singleton Design Pattern" and its importance for Java programmers.
+👉 [why](https://vimeo.com/1065203472
+*(Ctrl+Click = new tab, Shift+Click = new window)*
 
 ### **5 Reasons to Study the Creational design patten Singleton for Java Developers**
-
-https://vimeo.com/1065203472
 
 1. **Resource Management** – Using the Singleton pattern ensures controlled access to shared resources like database connections, reducing unnecessary memory consumption and improving performance.  
 
@@ -36,7 +36,8 @@ https://vimeo.com/1065203472
 
 ### **S.W.O.T Analysis of Using the Singleton Pattern in Java Projects**  
 
-https://vimeo.com/1065203169
+👉 [swot](https://vimeo.com/1065203169
+*(Ctrl+Click = new tab, Shift+Click = new window)*
 
 #### **Strengths:**  
 1. **Memory Efficiency** – Ensures only one instance of a class is created, reducing memory footprint and improving system resource utilization.  
