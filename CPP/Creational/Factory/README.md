@@ -14,7 +14,12 @@
 
 ![UML](s_00000.png)
 
-https://vimeo.com/1065236128
+
+👉 [why](https://vimeo.com/1065236128)  
+*(Ctrl+Click = new tab, Shift+Click = new window)*
+
+👉 [why](https://vimeo.com/1065236128)  
+*(Ctrl+Click = new tab, Shift+Click = new window)*
 
 The Factory design pattern deals with the problem of creating objects without specifying the exact class of object that will be created. Instead of calling a constructor directly to create an object, a factory method is employed to create the object. This factory method is typically defined in an interface, which is implemented by concrete classes. The pattern is thus about delegating the responsibility of object instantiation to specialized methods, rather than directly instantiating objects with constructors.
 
@@ -41,6 +46,8 @@ https://vimeo.com/1065236128
 In summary, for C++ developers, understanding the Factory design pattern provides a powerful means to abstract away the complexities and intricacies of object creation, resulting in cleaner, more maintainable, and scalable code.
 
 ### **S.W.O.T. Analysis of the Factory Method Design Patterns for C++**
+👉 [swot](https://vimeo.com/1065235757)  
+*(Ctrl+Click = new tab, Shift+Click = new window)*
 
 https://vimeo.com/1065235757
 
