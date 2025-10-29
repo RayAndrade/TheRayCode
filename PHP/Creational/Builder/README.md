@@ -11,6 +11,10 @@
 | [**Builder**](../Builder/README.md) | [C++](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../Csharp/Creational/Builder/README.md) | [Java](../../../Java/Creational/Builder/README.md) |
 
 **Builder Design Pattern**:
+<p>
+👉 [uml](https://vimeo.com/1082694356)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 [Example](Example/README.md) [Example2](Example2/README.md) [Example3](Example3/README.md)
 
@@ -45,6 +49,11 @@ Simplifies construction of data objects in REST APIs or microservices, which is 
 By studying the Builder design Pattern, developers in PHP can **simplify object construction**, **enhance code modularity**, and **align with modern development practices**.
 
 ### **S.W.O.T. Analysis of Builder Design Patterns for PHP**
+
+<p>
+👉 [swot](https://vimeo.com/1082694385)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 **Strengths**  
 1. **Handles Complex Objects**: Efficiently manages the creation of objects with numerous attributes, particularly in PHP configurations and data structures.  

@@ -12,8 +12,17 @@
 
 **Java Builder Design Pattern**
 
+<p>
+👉 [uml](https://vimeo.com/1081671501)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
 [**Example1**](Example1/README.md) | [**Example2**](Example2/README.md) | [**Example3**](Example3/README.md)
 
+<p>
+👉 [why](https://vimeo.com/1081671600)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 The Builder Design Pattern is a Creational Pattern that constructs complex objects step-by-step, separating the construction process from the object’s representation.
 
@@ -30,6 +39,11 @@ Here are some reasons why a Java programmer should study the Builder design patt
 5. **Design Flexibility**: Provides flexibility to change the internal representation of objects without affecting the client code.
 
 These reasons highlight the practical advantages of the Builder design pattern for Java developers in terms of code maintainability, readability, flexibility, and design.
+
+<p>
+👉 [swot](https://vimeo.com/1081671531)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 ### **S – Strengths**
 

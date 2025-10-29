@@ -15,7 +15,11 @@
 
 [**Example**](Example1/README.md) | [**Example2**](Example2/README.md) | [**Example3**](Example3/README.md)
 
-[**UML**](https://vimeo.com/1070513815)
+<p>
+👉 [uml](https://vimeo.com/1073028695)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
 
 ### Definition of the Abstract Factory Pattern:
 The **Abstract Factory** pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes. It allows a system to be independent of how its objects are created, composed, and represented.
@@ -23,6 +27,10 @@ The **Abstract Factory** pattern provides an interface for creating families of 
 https://vimeo.com/1070513901
 
 ### 5 Reasons Studying the Abstract Factory Pattern is Beneficial for the C# Developer:
+<p>
+👉 [why](https://vimeo.com/1073028722)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 1. **Improved Flexibility**  
    Studying this pattern helps create systems that can be easily adapted to different platforms in C#.
 
@@ -41,6 +49,10 @@ https://vimeo.com/1070513901
 https://vimeo.com/1070513852
 
 ### SWOT Analysis for the Abstract Factory Pattern:
+<p>
+👉 [swot](https://vimeo.com/1073028649)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 **Strengths**  
 * Ensures consistent object creation across families of products, preventing mismatched dependencies.  

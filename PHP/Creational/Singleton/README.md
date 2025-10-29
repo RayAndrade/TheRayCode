@@ -14,8 +14,11 @@
 
 ![UML](s_00000.png)
 
-https://vimeo.com/1065217544
+👉 [uml](https://vimeo.com/1065217544)  
+*(Ctrl+Click = new tab, Shift+Click = new window)*
 
+👉 [why](https://vimeo.com/1065217429)  
+*(Ctrl+Click = new tab, Shift+Click = new window)*
 
 Let's delve into the "Singleton Design Pattern" and its significance for PHP programmers.
 
@@ -37,7 +40,8 @@ https://vimeo.com/1065217429
 
 ### **S.W.O.T. Analysis of Using the Singleton Pattern in PHP Projects**  
 
-https://vimeo.com/1065217759
+👉 [swot](https://vimeo.com/1065217759)  
+*(Ctrl+Click = new tab, Shift+Click = new window)*
 
 #### **Strengths:**  
 1. **Efficient Resource Management** – Limits object instantiation, saving memory and improving performance in resource-intensive PHP applications like CMS and e-commerce platforms.  

@@ -5,6 +5,11 @@
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
 **C# Builder Design Pattern**
+<p>
+👉 [uml](https://vimeo.com/1080708908)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
 
 |Example in C#|   |   |   |
 |---|---|---|---|
@@ -13,10 +18,18 @@
 [Example](Example/README.md) |[Example2](Example2/README.md)  |[Example3](Example3/README.md) 
 
 
-### **What is the Builder Pattern?**
+### **Why study Builder design Pattern?**
+<p>
+👉 [why](https://vimeo.com/1080708995)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
 The Builder Pattern is a **Creational Design Pattern** that constructs complex objects step-by-step, separating the construction process from the object’s representation. It’s widely applicable in object-oriented programming languages like C#.
 
-why https://vimeo.com/1080708995
+<p>
+👉 [why](https://vimeo.com/1080708995)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 Here are some reasons why a C# programmer should study the **Builder** design pattern:
 
@@ -41,6 +54,11 @@ By studying the Builder Pattern, developers in C# can **simplify object construc
 
 
 ### S.W.O.T. Analysis of the Builder Design Pattern in C#
+<p>
+👉 [swot](https://vimeo.com/1080708945)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
 
 #### **Strengths**
 1. **Improved Readability**: Builder provides a step-by-step creation process, making code more readable and maintainable for developers.

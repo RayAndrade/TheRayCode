@@ -2,9 +2,29 @@
 
 [top](../README.md)
 
+<p>
+👉 [code](https://vimeo.com/1078092342)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
+<p>
+👉 [all](https://vimeo.com/1078492795)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
 **C++ Abstract Factory Design Pattern**
+
+<p>
+👉 [uml](https://vimeo.com/1080708908)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
+<p>
+👉 [complete](https://vimeo.com/1078492795)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 |Example in C++|   |   |   | 
 |---|---|---|---|
@@ -12,13 +32,20 @@
 
 [**Example**](Example/README.md) | [**Example2**](Example2/README.md) | [**Example3**](Example3/README.md)
 
-<h3>Abstract Factory UML</h3>
+
 <p>
-👉 [uml](https://vimeo.com/997115708) *(Ctrl+Click = new tab, Shift+Click = new window)*
+👉 [uml](https://vimeo.com/997115708)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
 </p>
+
 The Abstract Factory Design Pattern is a creational design pattern that provides an interface for creating families of related or dependent objects without specifying their concrete classes. In other words, it abstracts the process of creating objects by encapsulating the creation logic into separate factory objects. These factory objects are responsible for creating objects that belong to a common theme or family.
 
 Here are some reasons why studying the Abstract Factory design pattern can be beneficial for a C++ developer:
+
+<p>
+👉 [why](https://vimeo.com/1078492063)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 1. **Code Maintenance:** Simplifies system maintenance by isolating concrete classes and reducing dependencies among objects.
 2. **System Scalability:** Facilitates adding new families of products without altering existing code, enhancing scalability.
@@ -30,9 +57,11 @@ Here are some reasons why studying the Abstract Factory design pattern can be be
 
 By studying the Abstract Factory pattern in C++, developers can learn how to structure their code to accommodate changes and extensions more gracefully, resulting in more robust and adaptable software systems.
 
-https://vimeo.com/1067479477
-
 ### S.W.O.T. Analysis 
+<p>
+👉 [swot](https://vimeo.com/1080708945)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 #### Strengths
 1. **Abstraction**: The Abstract Factory design pattern provides a high level of abstraction. It decouples the client code from the concrete classes it needs to instantiate, promoting loose coupling and flexibility.

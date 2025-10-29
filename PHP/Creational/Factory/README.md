@@ -10,9 +10,16 @@
 |---|---|---|---|
 | [**Factory**](README.md) | [C++](../../../CPP/Creational/Factory/README.md) | [**C#**](../../../Csharp/Creational/Factory/README.md) | [Java](../../../Java/Creational/Factory/README.md) |
 
+👉 [uml](https://vimeo.com/1066254018)  
+*(Ctrl+Click = new tab, Shift+Click = new window)*
+
 [Example](Example/README.md) [Example2](Example2/README.md)  [Example3](Example3/README.md)
 
+
 The Factory Design Pattern is a creational design pattern that provides an interface for creating objects in a superordinate class, while allowing subclasses to alter the type of objects that will be created. It centralizes object creation and encapsulates the instantiation process, promoting flexibility, reusability, and separation of concerns.
+
+👉 [why](https://vimeo.com/1066254073)  
+*(Ctrl+Click = new tab, Shift+Click = new window)*
 
 ### **5 Reasons Studying the Factory Pattern is Beneficial for a PHP Developer**  
 
@@ -29,6 +36,9 @@ The Factory Design Pattern is a creational design pattern that provides an inter
 ---  
 
 ### **S.W.O.T. Analysis of Using the Factory Pattern in PHP Projects**  
+
+👉 [swot](https://vimeo.com/1066254028)  
+*(Ctrl+Click = new tab, Shift+Click = new window)*
 
 #### **Strengths:**  
 1. **Promotes Maintainability** – Reduces the complexity of object instantiation, making PHP code more organized and easier to update.  

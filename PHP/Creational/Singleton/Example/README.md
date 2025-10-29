@@ -1,5 +1,8 @@
 [up](../README.md) 
-[script](script/page01.md)
+
+👉 [code](https://vimeo.com/1065217358)  
+*(Ctrl+Click = new tab, Shift+Click = new window)*
+
 
 Alright! The Singleton design pattern is a pattern that restricts a class from instantiating multiple objects. Instead, it ensures a class has only one instance and provides a global point to this instance.
 

@@ -1,6 +1,8 @@
 Sure! Here’s the **Java implementation** of the **Singleton Design Pattern** along with a **PlainClass** to demonstrate the difference in object creation.
 
----
+👉 [code](https://vimeo.com/1065203115)
+*(Ctrl+Click = new tab, Shift+Click = new window)*
+
 
 ## 📁 **File Structure**
 ```

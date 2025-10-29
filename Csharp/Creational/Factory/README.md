@@ -12,7 +12,10 @@
 
 [Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)
 
-https://vimeo.com/1065247572?share=copy
+
+👉 [why](https://vimeo.com/1065247473)  
+*(Ctrl+Click = new tab, Shift+Click = new window)*
+
 
 A Factory, in software design, refers to a creational design pattern that provides a centralized mechanism for creating objects. It encapsulates the object creation process, hiding the details of instantiation from the client code. The Factory pattern aims to abstract the process of object creation, promoting flexibility, code reusability, and maintenance.
 
@@ -39,6 +42,8 @@ C# programmers should study the Factory pattern for several reasons:
 In summary, C# programmers should study the Factory pattern to deepen their understanding of software design concepts and to leverage a powerful technique for managing object creation. This knowledge helps in creating more modular, maintainable, and flexible code, ultimately leading to better software development practices and higher-quality applications.
 
 ### **S.W.O.T. Analysis of the Factory Method Design Pattern in C#**
+👉 [swot](https://vimeo.com/1065247652)  
+*(Ctrl+Click = new tab, Shift+Click = new window)*
 
 **Strengths**  
 1. **Simplified Creation**: Simplifies object creation by encapsulating logic within a factory.  

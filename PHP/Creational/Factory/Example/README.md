@@ -5,6 +5,10 @@
 ## Introduction
 The Factory Design Pattern is a creational pattern that provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created.
 
+👉 [code](https://vimeo.com/1066254101)  
+*(Ctrl+Click = new tab, Shift+Click = new window)*
+
+
 ## Class Structure
 ### 1. Product Interface (`Product.php`)
 Defines a common interface that all concrete products must implement.
