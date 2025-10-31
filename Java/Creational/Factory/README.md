@@ -10,10 +10,20 @@
 |---|---|---|---|
 |  [**Factory**](README.md) | [**C++**](../../../CPP/Creational/Factory/README.md) | [**C#**](../../../Csharp/Creational/Factory/README.md) | [PHP](../../../PHP/Creational/Factory/README.md) |
 
+<p>
+👉 [uml](https://vimeo.com/1065275192)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
 [Example1](./Example1/README.md) [Example2](./Example2/README.md)
 
 
 ### **5 Reasons Studying the Factory Pattern is Beneficial for a Java Developer**  
+
+<p>
+👉 [why](https://vimeo.com/1065275226)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 1. **Encapsulation** – Hides object creation logic within factory methods, reducing direct dependencies and making Java applications more modular and maintainable.  
 
@@ -28,6 +38,11 @@
 ---  
 
 ### **S.W.O.T. Analysis of Using the Factory Pattern in Java Projects**  
+
+<p>
+👉 [swot](https://vimeo.com/1065275317)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 #### **Strengths:**  
 1. **Reduces Code Duplication** – Centralizing object creation eliminates redundant code, making Java applications more maintainable and efficient.  
