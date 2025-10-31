@@ -5,6 +5,10 @@
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
 **C++ Prototype Design Pattern**
+<p>
+👉 [uml](https://vimeo.com/1044544988)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 |Example in C++|   |   |   |
 |---|---|---|---|
@@ -13,6 +17,11 @@
 [Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)
 
 ### **5 Reasons Studying the Prototype Pattern is Beneficial for a C++ Developer**
+
+<p>
+👉 [why](https://vimeo.com/1044543868)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 1. **Efficient Object Cloning** – Avoids the cost of repeatedly instantiating complex objects by cloning existing ones, boosting performance in C++ applications.
 
@@ -27,6 +36,11 @@
 ---
 
 ### **S.W\.O.T. Analysis of Using the Prototype Pattern in C++ Projects**
+
+<p>
+👉 [swot](https://vimeo.com/1044543356)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 #### **Strengths:**
 
