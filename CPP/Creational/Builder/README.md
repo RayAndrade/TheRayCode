@@ -21,6 +21,12 @@
 
 Here are some reasons why a C++ programmer would benefit from learning and studying the Builder design pattern:
 
+
+<p>
+👉 [why](https://vimeo.com/1078092298)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
 **Object Creation**: Helps simplify complex object creation, improving code readability and maintainability in C++.
 
 **Code Reusability**: Encourages code reuse by separating the construction process from the representation of objects.
@@ -37,6 +43,11 @@ Here are some reasons why a C++ programmer would benefit from learning and study
 
 
 ### **S.W.O.T. Analysis of the Builder Design Pattern in C++**
+
+<p>
+👉 [swot](https://vimeo.com/1078092153)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
 
 #### **S: Strengths**
 1. **Flexibility**: Simplifies object construction by allowing the same code to create varied, complex representations.  
