@@ -4,6 +4,11 @@
 
 Below is a **C++** implementation of the **Builder** design pattern, a **Creational** pattern, following the **Gang of Four (GoF)** structure. Each class is placed in its own `.h` and `.cpp` files, with the order of creation designed to avoid dependency issues.
 
+<p>
+👉 [code](https://vimeo.com/1078092342)<br/>
+*(Ctrl+Click = new tab, Shift+Click)*
+</p>
+
 ---
 
 ## ✅ Class Creation Order (to avoid dependency errors)
