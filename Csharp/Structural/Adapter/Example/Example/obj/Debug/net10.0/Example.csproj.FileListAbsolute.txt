@@ -1,0 +1,15 @@
+/home/ray/Projects/TheRayCode/Csharp/Structural/Adapter/Example/Example/bin/Debug/net10.0/Example
+/home/ray/Projects/TheRayCode/Csharp/Structural/Adapter/Example/Example/bin/Debug/net10.0/Example.deps.json
+/home/ray/Projects/TheRayCode/Csharp/Structural/Adapter/Example/Example/bin/Debug/net10.0/Example.runtimeconfig.json
+/home/ray/Projects/TheRayCode/Csharp/Structural/Adapter/Example/Example/bin/Debug/net10.0/Example.dll
+/home/ray/Projects/TheRayCode/Csharp/Structural/Adapter/Example/Example/bin/Debug/net10.0/Example.pdb
+/home/ray/Projects/TheRayCode/Csharp/Structural/Adapter/Example/Example/obj/Debug/net10.0/Example.GeneratedMSBuildEditorConfig.editorconfig
+/home/ray/Projects/TheRayCode/Csharp/Structural/Adapter/Example/Example/obj/Debug/net10.0/Example.AssemblyInfoInputs.cache
+/home/ray/Projects/TheRayCode/Csharp/Structural/Adapter/Example/Example/obj/Debug/net10.0/Example.AssemblyInfo.cs
+/home/ray/Projects/TheRayCode/Csharp/Structural/Adapter/Example/Example/obj/Debug/net10.0/Example.csproj.CoreCompileInputs.cache
+/home/ray/Projects/TheRayCode/Csharp/Structural/Adapter/Example/Example/obj/Debug/net10.0/Example.sourcelink.json
+/home/ray/Projects/TheRayCode/Csharp/Structural/Adapter/Example/Example/obj/Debug/net10.0/Example.dll
+/home/ray/Projects/TheRayCode/Csharp/Structural/Adapter/Example/Example/obj/Debug/net10.0/refint/Example.dll
+/home/ray/Projects/TheRayCode/Csharp/Structural/Adapter/Example/Example/obj/Debug/net10.0/Example.pdb
+/home/ray/Projects/TheRayCode/Csharp/Structural/Adapter/Example/Example/obj/Debug/net10.0/Example.genruntimeconfig.cache
+/home/ray/Projects/TheRayCode/Csharp/Structural/Adapter/Example/Example/obj/Debug/net10.0/ref/Example.dll

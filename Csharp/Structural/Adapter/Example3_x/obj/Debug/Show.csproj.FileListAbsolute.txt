@@ -16,9 +16,11 @@
 /home/ray/TheRayCode/TheRayCode/Shows/csharp/Start/obj/Debug/Show.csproj.CoreCompileInputs.cache
 /home/ray/TheRayCode/TheRayCode/Shows/csharp/Start/obj/Debug/Example3.exe
 /home/ray/TheRayCode/TheRayCode/Shows/csharp/Start/obj/Debug/Example3.pdb
-/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/Example2/bin/Debug/Example2.exe
-/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/Example2/bin/Debug/Example2.pdb
-/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/Example2/obj/Debug/Show.csproj.AssemblyReference.cache
-/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/Example2/obj/Debug/Show.csproj.CoreCompileInputs.cache
-/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/Example2/obj/Debug/Example2.exe
-/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/Example2/obj/Debug/Example2.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/Example3/bin/Debug/Example3.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/Example3/bin/Debug/Example3.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/Example3/obj/Debug/Show.csproj.AssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/Example3/obj/Debug/Show.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/Example3/obj/Debug/Example3.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Adapter/Example3/obj/Debug/Example3.pdb
+/home/ray/Projects/TheRayCode/Csharp/Structural/Adapter/Example3/obj/Debug/Example3.exe
+/home/ray/Projects/TheRayCode/Csharp/Structural/Adapter/Example3/obj/Debug/Example3.pdb
