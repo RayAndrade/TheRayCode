@@ -1,7 +1,5 @@
 <?php
 
-//namespace TheRayCode\Adapter;
-
 class Adaptee
 {
     public function specificRequest(): string
