@@ -1,0 +1,6 @@
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Composite/example2/Composite/Composite/bin/Debug/Composite.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Composite/example2/Composite/Composite/bin/Debug/Composite.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Composite/example2/Composite/Composite/obj/Debug/Composite.csproj.AssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Composite/example2/Composite/Composite/obj/Debug/Composite.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Composite/example2/Composite/Composite/obj/Debug/Composite.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Structural/Composite/example2/Composite/Composite/obj/Debug/Composite.pdb

@@ -1,0 +1,15 @@
+/home/ray/TheRayCode/CSharpStudy/Creational/Builder/code/Example/bin/Debug/net8.0/Example
+/home/ray/TheRayCode/CSharpStudy/Creational/Builder/code/Example/bin/Debug/net8.0/Example.deps.json
+/home/ray/TheRayCode/CSharpStudy/Creational/Builder/code/Example/bin/Debug/net8.0/Example.runtimeconfig.json
+/home/ray/TheRayCode/CSharpStudy/Creational/Builder/code/Example/bin/Debug/net8.0/Example.dll
+/home/ray/TheRayCode/CSharpStudy/Creational/Builder/code/Example/bin/Debug/net8.0/Example.pdb
+/home/ray/TheRayCode/CSharpStudy/Creational/Builder/code/Example/obj/Debug/net8.0/Example.GeneratedMSBuildEditorConfig.editorconfig
+/home/ray/TheRayCode/CSharpStudy/Creational/Builder/code/Example/obj/Debug/net8.0/Example.AssemblyInfoInputs.cache
+/home/ray/TheRayCode/CSharpStudy/Creational/Builder/code/Example/obj/Debug/net8.0/Example.AssemblyInfo.cs
+/home/ray/TheRayCode/CSharpStudy/Creational/Builder/code/Example/obj/Debug/net8.0/Example.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/CSharpStudy/Creational/Builder/code/Example/obj/Debug/net8.0/Example.sourcelink.json
+/home/ray/TheRayCode/CSharpStudy/Creational/Builder/code/Example/obj/Debug/net8.0/Example.dll
+/home/ray/TheRayCode/CSharpStudy/Creational/Builder/code/Example/obj/Debug/net8.0/refint/Example.dll
+/home/ray/TheRayCode/CSharpStudy/Creational/Builder/code/Example/obj/Debug/net8.0/Example.pdb
+/home/ray/TheRayCode/CSharpStudy/Creational/Builder/code/Example/obj/Debug/net8.0/Example.genruntimeconfig.cache
+/home/ray/TheRayCode/CSharpStudy/Creational/Builder/code/Example/obj/Debug/net8.0/ref/Example.dll
