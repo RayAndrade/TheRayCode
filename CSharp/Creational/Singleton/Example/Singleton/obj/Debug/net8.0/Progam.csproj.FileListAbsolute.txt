@@ -1,0 +1,15 @@
+/home/ray/TheRayCode/CSharpStudy/Creational/Singleton/code/Progam/bin/Debug/net8.0/Progam
+/home/ray/TheRayCode/CSharpStudy/Creational/Singleton/code/Progam/bin/Debug/net8.0/Progam.deps.json
+/home/ray/TheRayCode/CSharpStudy/Creational/Singleton/code/Progam/bin/Debug/net8.0/Progam.runtimeconfig.json
+/home/ray/TheRayCode/CSharpStudy/Creational/Singleton/code/Progam/bin/Debug/net8.0/Progam.dll
+/home/ray/TheRayCode/CSharpStudy/Creational/Singleton/code/Progam/bin/Debug/net8.0/Progam.pdb
+/home/ray/TheRayCode/CSharpStudy/Creational/Singleton/code/Progam/obj/Debug/net8.0/Progam.GeneratedMSBuildEditorConfig.editorconfig
+/home/ray/TheRayCode/CSharpStudy/Creational/Singleton/code/Progam/obj/Debug/net8.0/Progam.AssemblyInfoInputs.cache
+/home/ray/TheRayCode/CSharpStudy/Creational/Singleton/code/Progam/obj/Debug/net8.0/Progam.AssemblyInfo.cs
+/home/ray/TheRayCode/CSharpStudy/Creational/Singleton/code/Progam/obj/Debug/net8.0/Progam.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/CSharpStudy/Creational/Singleton/code/Progam/obj/Debug/net8.0/Progam.sourcelink.json
+/home/ray/TheRayCode/CSharpStudy/Creational/Singleton/code/Progam/obj/Debug/net8.0/Progam.dll
+/home/ray/TheRayCode/CSharpStudy/Creational/Singleton/code/Progam/obj/Debug/net8.0/refint/Progam.dll
+/home/ray/TheRayCode/CSharpStudy/Creational/Singleton/code/Progam/obj/Debug/net8.0/Progam.pdb
+/home/ray/TheRayCode/CSharpStudy/Creational/Singleton/code/Progam/obj/Debug/net8.0/Progam.genruntimeconfig.cache
+/home/ray/TheRayCode/CSharpStudy/Creational/Singleton/code/Progam/obj/Debug/net8.0/ref/Progam.dll

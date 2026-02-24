@@ -1,0 +1,6 @@
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Interpreter/Example/Interpreter/Interpreter/bin/Debug/Interpreter.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Interpreter/Example/Interpreter/Interpreter/bin/Debug/Interpreter.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Interpreter/Example/Interpreter/Interpreter/obj/Debug/Interpreter.csproj.AssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Interpreter/Example/Interpreter/Interpreter/obj/Debug/Interpreter.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Interpreter/Example/Interpreter/Interpreter/obj/Debug/Interpreter.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Interpreter/Example/Interpreter/Interpreter/obj/Debug/Interpreter.pdb

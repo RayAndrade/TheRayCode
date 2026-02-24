@@ -1,0 +1,6 @@
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Memento/Example3/Memento/Memento/bin/Debug/Memento.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Memento/Example3/Memento/Memento/bin/Debug/Memento.pdb
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Memento/Example3/Memento/Memento/obj/Debug/Memento.csproj.AssemblyReference.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Memento/Example3/Memento/Memento/obj/Debug/Memento.csproj.CoreCompileInputs.cache
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Memento/Example3/Memento/Memento/obj/Debug/Memento.exe
+/home/ray/TheRayCode/TheRayCode/Csharp/Behavioral/Memento/Example3/Memento/Memento/obj/Debug/Memento.pdb

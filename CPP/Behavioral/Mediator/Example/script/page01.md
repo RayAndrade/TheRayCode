@@ -1,0 +1,25 @@
+[home](./page01.md) | [next](./page02.md)
+
+**CMakeLists.txt**
+```
+cmake_minimum_required(VERSION 3.26)
+project(Example)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(Example main.cpp
+)
+```
+
+**main.cpp**
+
+```
+#include <iostream>
+```
+
+```
+std::cout << "The Ray Code is AWESOME!!!" << std::endl;
+```
+
+
+[page 2](./page02.md)

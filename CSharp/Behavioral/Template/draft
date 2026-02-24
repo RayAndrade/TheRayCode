@@ -1,0 +1,39 @@
+Below is a copy of some C# code that is a demo of the behavioral pattern the Template design patterns
+Explain what each class is and does
+
+**AbstractClass.cs**
+
+```
+public abstract class AbstractClass
+{
+    // The template method defines the skeleton of an algorithm.
+    public void TemplateMethod()
+    {
+        PrimitiveOperation1();
+        PrimitiveOperation2();
+        Console.WriteLine("");
+    }
+
+    // These operations have to be implemented in subclasses.
+    protected abstract void PrimitiveOperation1();
+    protected abstract void PrimitiveOperation2();
+}
+```
+**ConcreteClassA.cs**
+```
+public class ConcreteClassA: AbstractClass
+{
+    protected override void PrimitiveOperation1()
+    {
+        Console.WriteLine("ConcreteClassA.PrimitiveOperation1()");
+    }
+
+    protected override void PrimitiveOperation2()
+    {
+        Console.WriteLine("ConcreteClassA.PrimitiveOperation2()");
+    }
+}
+```
+**ConcreteClassB.cs**
+
+
