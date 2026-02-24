@@ -2,7 +2,7 @@
 
 <a href="http://theraycode.org" rel="noopener" target="_new">Go to $`\textcolor{red}{\text{TheRayCode}}`$ </a>
 
-**[C++](./CPP/README.md)** | **[C#](./Csharp/README.md)** | **[Java](./Java/README.md)**  | **[PHP](./PHP/README.md)** | **[JavaScript](./JavaScript/README.md)**  
+**[C++](./CPP/README.md)** | **[C#](./CSharp/README.md)** | **[Java](./Java/README.md)**  | **[PHP](./PHP/README.md)** | **[JavaScript](./JavaScript/README.md)**  
 
 Hi, I'm Ray and this is my code for the project I call The Ray Code.
 
