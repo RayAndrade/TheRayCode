@@ -32,8 +32,6 @@ The Chain of Responsibility Design Pattern allows an object to pass a request al
 
 7. **Applications in Middleware**: C++ is often employed in systems where middleware plays a significant role, such as in networking or communications systems. The Chain of Responsibility pattern is a common approach in such contexts, where a request (like a packet or a message) may pass through multiple stages or layers of processing.
 
-8. **Performance Concerns**: Since C++ is a language often chosen for its performance capabilities, developers must ensure that the chain doesn't become too long, leading to performance overhead. Understanding the pattern will help developers make informed decisions about the balance between design flexibility and performance.
-
 In conclusion, the Chain of Responsibility Design Pattern provides C++ developers with a structured and scalable approach to handle requests. Given the complex and performance-critical systems often developed in C++, understanding this pattern can equip a developer with a versatile tool to ensure code clarity, system scalability, and efficient design.
 
 ### **S.W.O.T. Analysis of the Chain of Responsibility Design Pattern for C++**
