@@ -228,8 +228,3 @@ ConcreteHandler3: no handler for 30
 ✅ Explain how the chain is **dynamic** (the order or number of handlers can change at runtime)
 ✅ Show how each handler either processes or forwards
 ✅ Discuss error handling if there is no handler (the chain ends)
-
----
-
-If you’d like, I can help you extend this with **asynchronous handlers** (for example with Promises) or even show a **middleware** pattern like in Express — just say the word! 🚀
-
