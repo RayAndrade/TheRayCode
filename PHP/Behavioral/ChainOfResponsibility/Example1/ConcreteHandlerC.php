@@ -1,17 +1,12 @@
 <?php
-// ConcreteHandlerC.php
-
 require_once 'AbstractHandler.php';
-
-// Handles "C" type requests
 class ConcreteHandlerC extends AbstractHandler
 {
-    public function handle(string $request): string
+    public function handle(string $request): ?string
     {
-        if ($request === "C") {
-            return "ConcreteHandlerC handled the request.";
+        if ($request === 'C') {
+            return "Handler C: I handled the request.";
         }
-
         return parent::handle($request);
     }
 }
