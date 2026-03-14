@@ -7,9 +7,6 @@
 **C++ Builder Design Pattern**
 
 <p>
-👉 [uml](https://vimeo.com/1078092249)<br/>
-*(Ctrl+Click = new tab, Shift+Click)*
-</p>
 
 |Example in C++|   |   |   |
 |---|---|---|---|
