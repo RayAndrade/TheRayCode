@@ -5,16 +5,18 @@
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
 **C++ Prototype Design Pattern**
-<p>
-👉 [uml](https://vimeo.com/1044544988)<br/>
-*(Ctrl+Click = new tab, Shift+Click)*
-</p>
 
 |Example in C++|   |   |   |
 |---|---|---|---|
 |  [**Example in C++**](README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [**Java**](../../../Java/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
 
 [Example](Example/README.md) | [Example2](Example2/README.md) | [Example3](Example3/README.md)
+
+
+
+
+
+**C++ Prototype Design Pattern**
 
 ### **5 Reasons Studying the Prototype Pattern is Beneficial for a C++ Developer**
 
