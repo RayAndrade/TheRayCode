@@ -16,7 +16,7 @@
 
 [here why-what]
 
-# [S.W.O.T.]
+<!-- [S.W.O.T.] -->
 
 The **Singleton** pattern is helpful when a program should have **exactly one object** in charge of something important.
 It is powerful, but it should be used carefully because it can make testing and future changes harder.
