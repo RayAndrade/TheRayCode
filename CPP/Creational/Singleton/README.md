@@ -135,14 +135,6 @@ A program may become harder to change later because too much depends on one shar
 
 ---
 
-## Simple takeaway for students
-
-
-
-I can also turn this into a **video-ready slide version** with short presenter notes.
-
-
-
 
 [TheRayCode.ORG](https://www.TheRayCode.org)  
 
