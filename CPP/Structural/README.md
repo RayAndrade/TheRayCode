@@ -33,7 +33,7 @@ In C++, this matters even more because:
 
 ---
 
-## 🌉 2. Bridge (./Bridge/README.md)
+## 🌉 2. [**Bridge**](./Structural/Bridge/README.md) 
 
 **Problem:** Class explosion from combining multiple variations
 
