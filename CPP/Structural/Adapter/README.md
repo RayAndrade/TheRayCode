@@ -11,7 +11,7 @@
 |---|---|---|---|
 | [**Adapter**](./README.md) | [**C#**](../../../Csharp/Structural/Adapter/README.md) | [**Java**](../../../Java/Structural/Adapter/README.md) | [**PHP**](../../../PHP/Structural/Adapter/README.md) |
 
-[Example](Example/README.md) | [Example2](Example2/README.md)  | [Example2](Example2/README.md) 
+[Example](Example/README.md) | [Example2](Example2/README.md)  | [Example3](Example3/README.md) 
 
 
 
