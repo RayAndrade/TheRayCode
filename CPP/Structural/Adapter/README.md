@@ -9,7 +9,7 @@
 
 |Pattern|   |   |   |
 |---|---|---|---|
-| [**Adapter**](Adapter/README.md) | [**C#**](../../../Csharp/Structural/Adapter/README.md) | [**Java**](../../../Java/Structural/Adapter/README.md) | [**PHP**](../../../PHP/Structural/Adapter/README.md) |
+| [**Adapter**](./Adapter/README.md) | [**C#**](../../../Csharp/Structural/Adapter/README.md) | [**Java**](../../../Java/Structural/Adapter/README.md) | [**PHP**](../../../PHP/Structural/Adapter/README.md) |
 
 [Example](Example/README.md) 
 
