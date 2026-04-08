@@ -63,4 +63,3 @@ In summary, understanding the Bridge pattern is crucial for a C++ developer beca
 [RayAndrade.COM](https://www.RayAndrade.com)
 
 [Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
-
