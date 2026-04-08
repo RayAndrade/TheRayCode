@@ -1,4 +1,21 @@
 
+# [TheRayCode](../../../README.md) is AWESOME!!!
+
+[top](../README.md)
+
+**[Creational Patterns](../../Creational/README.md)** | **[Structural Patterns](..//README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
+
+**C++ Bridge Design Pattern**
+
+|Pattern|   |   |   |
+|---|---|---|---|
+| [**Adapter**](Adapter/README.md) | [**C#**](../../../Csharp/Structural/Adapter/README.md) | [**Java**](../../../Java/Structural/Adapter/README.md) | [**PHP**](../../../PHP/Structural/Adapter/README.md) |
+
+[Example](Example/README.md) 
+
+
+
+
 The Adapter pattern acts as a bridge between two incompatible interfaces. In essence, it allows for two different classes with incompatible interfaces to work together by converting the interface of one class into an interface that the other class expects. The Adapter pattern can be seen as a "wrapper" that modifies an existing class's interface without altering its underlying code.
 
 This pattern typically involves three roles:
