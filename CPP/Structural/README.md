@@ -19,7 +19,7 @@ In C++, this matters even more because:
 
 ---
 
-## 🔌 1. Adapter
+## 🔌 1. [**Adapter**](./Adapter/README.md) 
 
 **Problem:** Two classes can’t work together because their interfaces don’t match
 
