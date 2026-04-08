@@ -1,6 +1,6 @@
 
 [top](../README.md)
-Hello!!
+
 |**[Creational Patterns](./Creational/README.md)** | **[Structural Patterns](./Structural/README.md)** | **[Behavioral Patterns](./Behavioral/README.md)** |
 |---|---|---|
 |**[C#](../Csharp/Creational/README.md)** | **[C#](../Csharp/Structural/README.md)** | **[C#](../Csharp/Behavioral/README.md)** |
@@ -22,8 +22,6 @@ Hello!!
 |                                                               |                                                       | [**Strategy**](./Behavioral/Strategy/README.md)  |
 |                                                               |                                                       | [**Template**](./Behavioral/Template/README.md) |
 |                                                               |                                                       | [**Visitor**](./Behavioral/Visitor/README.md) |
-
-![alt text](pictures/cover.png)
 
 ### **Promotional Outline: Mastering Design Patterns in C++**
 
