@@ -10,7 +10,7 @@
 |**[PHP](../PHP/Creational/README.md)** | **[PHP](../PHP/Structural/README.md)** | **[PHP](../PHP/Behavioral/README.md)** |
 |**[Python](../Python/Creational/README.md)** | **[Python](../Python/Structural/README.md)** | **[Python](../Python/Behavioral/README.md)** |
 
-**[Java](../README.md)** 
+**[Python](../README.md)** 
 
 | Creational Patterns | Structural Patterns | Behavioral Patterns |
 |--------------|-----|-----------|
@@ -26,9 +26,9 @@
 |                                                               |                                                       | [**Template**](./Behavioral/Template/README.md) |
 |                                                               |                                                       | [**Visitor**](./Behavioral/Visitor/README.md) |
 
-### **Promotional Outline: Mastering Design Patterns in Java**
+### **Promotional Outline: Mastering Design Patterns in Python**
 
-Welcome to *Mastering Design Patterns in Java*, a class tailored for students eager to enhance their software development expertise. This course introduces the essential design patterns from the Gang of Four and demonstrates how Java, with its rich features and versatile ecosystem, is an ideal language to implement these patterns. With practical examples, in-depth discussions, and real-world applications, you'll learn to write flexible, maintainable, and scalable code.
+Welcome to *Mastering Design Patterns in Python*, a class tailored for students eager to enhance their software development expertise. This course introduces the essential design patterns from the Gang of Four and demonstrates how Java, with its rich features and versatile ecosystem, is an ideal language to implement these patterns. With practical examples, in-depth discussions, and real-world applications, you'll learn to write flexible, maintainable, and scalable code.
 
 ---
 
@@ -37,7 +37,7 @@ Welcome to *Mastering Design Patterns in Java*, a class tailored for students ea
 - **What are Design Patterns?**  
   Design patterns are time-tested solutions to common software design problems. They provide a structured way to design systems that are robust, reusable, and easy to understand.
 
-- **Why Use Design Patterns in Java?**  
+- **Why Use Design Patterns in Python?**  
   Java's object-oriented principles, strong typing, and extensive libraries make it perfect for implementing design patterns. Its widespread use ensures you’ll see these patterns applied in real-world development.
 
 ---
