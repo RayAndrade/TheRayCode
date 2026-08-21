@@ -4,11 +4,11 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../Structural/README.md)** | **[Behavioral Patterns](../Behavioral/README.md)**
 
-**Java Creational Patterns**
+**Python Creational Patterns**
 
 |Pattern|   |   |   |
 |---|---|---|---|
-| [**Builder**](README.md) | [**C++**](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../Csharp/Creational/Builder/README.md) | [PHP](../../../PHP/Creational/Builder/README.md) |
+| [**Builder**](README.md) | [**C++**](../../../CPP/Creational/Builder/README.md) | [**C#**](../../../Csharp/Creational/Builder/README.md) | [**JS**](../../../JavaScript/Creational/Builder/README.md) [**Java**](../../../Java/Creational/Builder/README.md) | | [PHP](../../../PHP/Creational/Builder/README.md) |
 
 **Java Builder Design Pattern**
 
