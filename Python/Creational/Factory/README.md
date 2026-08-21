@@ -6,8 +6,8 @@
 
 **Java Factory Design Pattern**
 
-|Pattern|   |   |   |   |
-|---|---|---|---|---|
+|Pattern|   |   |   |   |   |
+|---|---|---|---|---|---|
 |  [**Factory**](README.md) | [**C++**](../../../CPP/Creational/Factory/README.md) | [**C#**](../../../Csharp/Creational/Factory/README.md) | [**JS**](../../../JavaScript/Creational/Factory/README.md) | [**Java**](../../../Java/Creational/Factory/README.md)  | [PHP](../../../PHP/Creational/Factory/README.md) |
 
 
