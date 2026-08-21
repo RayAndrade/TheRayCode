@@ -1,4 +1,3 @@
-Yes. Here is what I would produce for a **video build**, one class at a time.
 
 ## Project Structure
 
