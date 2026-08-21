@@ -251,22 +251,3 @@ if __name__ == "__main__":
 ```
 
 ---
-
-# 🎯 Teaching Insight (VERY IMPORTANT for your video)
-
-When you explain this, emphasize:
-
-👉 The **client never knows**:
-
-* `WindowsButton`
-* `MacButton`
-
-👉 The client only knows:
-
-* `factory.create_button()`
-
-This is the **core power** of Abstract Factory.
-
----
-
-If you want next, I can convert this into your **README.md teaching format** (like you use for your JavaScript lessons) or give you a **script you can literally read on video**.
