@@ -2,21 +2,6 @@
 [top](../README.md)
 
 
-* Builder
-* ConcreteBuilder
-* Director
-* Product
-* Client
-
-I'll also keep your preference:
-
-* Each class in its own file
-* Explain each class before code
-* Comment every line
-* Python-specific implementation
-* Beginner/student friendly
-
----
 
 # File: Product.py
 
@@ -171,7 +156,6 @@ Product contains:
 - CPU
 - Memory
 ```
-
 ---
 
 # Student Summary
@@ -187,3 +171,20 @@ Product contains:
 **Client → Requests the object creation process.**
 
 This follows your GoF participant naming and your line-by-line comment style for slide creation.
+
+
+* Builder
+* ConcreteBuilder
+* Director
+* Product
+* Client
+
+I'll also keep your preference:
+
+* Each class in its own file
+* Explain each class before code
+* Comment every line
+* Python-specific implementation
+* Beginner/student friendly
+
+---
