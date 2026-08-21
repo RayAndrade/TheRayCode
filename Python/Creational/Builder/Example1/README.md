@@ -1,7 +1,6 @@
 
 [top](../README.md)
 
-Following your established TRC style, I'll keep the **GoF participant names** where appropriate:
 
 * Builder
 * ConcreteBuilder
