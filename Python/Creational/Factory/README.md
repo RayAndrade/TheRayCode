@@ -6,24 +6,15 @@
 
 **Java Factory Design Pattern**
 
-|Pattern|   |   |   |
-|---|---|---|---|
-|  [**Factory**](README.md) | [**C++**](../../../CPP/Creational/Factory/README.md) | [**C#**](../../../Csharp/Creational/Factory/README.md) | [PHP](../../../PHP/Creational/Factory/README.md) |
-
-<p>
-👉 [uml](https://vimeo.com/1065275192)<br/>
-*(Ctrl+Click = new tab, Shift+Click)*
-</p>
-
-[Example1](./Example1/README.md) [Example2](./Example2/README.md)
+|Pattern|   |   |   |   |
+|---|---|---|---|---|
+|  [**Factory**](README.md) | [**C++**](../../../CPP/Creational/Factory/README.md) | [**C#**](../../../Csharp/Creational/Factory/README.md) | [**Java**](../../../Java/Creational/Factory/README.md) [PHP](../../../PHP/Creational/Factory/README.md) |
 
 
-### **5 Reasons Studying the Factory Pattern is Beneficial for a Java Developer**  
+[Example1](./Example1/README.md) 
 
-<p>
-👉 [why](https://vimeo.com/1065275226)<br/>
-*(Ctrl+Click = new tab, Shift+Click)*
-</p>
+### **5 Reasons Studying the Factory Pattern is Beneficial for a Python Developer**  
+
 
 1. **Encapsulation** – Hides object creation logic within factory methods, reducing direct dependencies and making Java applications more modular and maintainable.  
 
