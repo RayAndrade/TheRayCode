@@ -12,14 +12,11 @@
 
 **Python Builder Design Pattern**
 
-
 [**Example1**](Example1/README.md) 
-
 
 The Builder Design Pattern is a Creational Pattern that constructs complex objects step-by-step, separating the construction process from the object’s representation.
 
 Here are some reasons why a Python programmer should study the Builder design pattern:
-
 
 ### **S – Strengths**
 
@@ -28,7 +25,6 @@ Here are some reasons why a Python programmer should study the Builder design pa
 ### **O – Opportunities**
 
 ### **T – Threats**
-
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
