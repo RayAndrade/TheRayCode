@@ -165,4 +165,4 @@ This course is for you! Sign up today to transform your coding skills with the p
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com@TheRayCode/) | [YouTube](https://www.youtube.com@TheRayCode/)
+[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
