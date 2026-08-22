@@ -8,9 +8,9 @@
 
 |Pattern|   |   |   |   |   |
 |---|---|---|---|---|---|
-|  [**Prototype**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
+|  [**Prototype**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [**Java**](../../../Java/Creational/Prototype/README.md) | [**JS**](../../../JavaScript/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
 
-[Example1](Example1/) | [Example2](Example2/)
+[Example1](Example1/) 
 
 ### What is the Prototype Design Pattern? (Java)
 The Prototype design pattern is a creational pattern in Java that enables object duplication by cloning existing instances. It uses the `clone()` method, allowing efficient object creation without direct constructor calls.
