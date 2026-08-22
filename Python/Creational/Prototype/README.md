@@ -6,9 +6,9 @@
 
 **Python Prototype Design Pattern**
 
-|Pattern|   |   |   |
-|---|---|---|---|
-|  [**Prototype**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
+|Pattern|   |   |   |   |   |
+|---|---|---|---|---|---|
+|  [**Prototype**](README.md) | [**C++**](../../../CPP/Creational/Prototype/README.md) | [**C#**](../../../Csharp/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) | [**PHP**](../../../PHP/Creational/Prototype/README.md) |
 
 [Example1](Example1/) | [Example2](Example2/)
 
