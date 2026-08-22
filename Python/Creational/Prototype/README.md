@@ -4,7 +4,7 @@
 
 **[Creational Patterns](../README.md)** | **[Structural Patterns](../../Structural/README.md)** | **[Behavioral Patterns](../../Behavioral/README.md)**
 
-**Java Prototype Design Pattern**
+**Python Prototype Design Pattern**
 
 |Pattern|   |   |   |
 |---|---|---|---|
