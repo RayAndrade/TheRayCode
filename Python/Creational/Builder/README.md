@@ -102,7 +102,7 @@ Summary
 
 Here are some reasons why a Python programmer should study the Builder design pattern:
 
-### *UML/ORM For the Builder design pattern using Python
+### UML/ORM For the Builder design pattern using Python
 
 # Pattern: Builder
 
@@ -113,7 +113,7 @@ Here are some reasons why a Python programmer should study the Builder design pa
 3. In Python, this is commonly implemented using an abstract base class (`ABC`).
 4. The Director calls its methods while ConcreteBuilder supplies the implementation.
 
----
+
 
 ## Participant: ConcreteBuilder
 
@@ -122,7 +122,7 @@ Here are some reasons why a Python programmer should study the Builder design pa
 3. In Python, it typically maintains a Product instance and updates it dynamically.
 4. It receives requests from the Director and returns the completed Product.
 
----
+
 
 ## Participant: Director
 
@@ -131,7 +131,7 @@ Here are some reasons why a Python programmer should study the Builder design pa
 3. In Python, it usually stores a Builder reference and invokes build methods.
 4. It works with Builder interfaces without depending on specific implementations.
 
----
+
 
 ## Participant: Product
 
@@ -140,7 +140,7 @@ Here are some reasons why a Python programmer should study the Builder design pa
 3. In Python, this may be a class whose attributes are assigned incrementally.
 4. It receives its completed state from the ConcreteBuilder.
 
----
+
 
 ## Student Summary
 
