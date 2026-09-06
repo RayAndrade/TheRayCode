@@ -8,7 +8,7 @@
 
 **[Example](./Example/README.md)**
 
-## What is Abstract Factory (Python)
+## What is Abstract Factory (Python) ?
 
 * Creates **families of related objects**
   → Groups related objects together so they are created and used consistently.
