@@ -27,11 +27,7 @@
 |                                                               |                                                       | [**Template**](./Behavioral/Template/README.md) |
 |                                                               |                                                       | [**Visitor**](./Behavioral/Visitor/README.md) |
 
-### **Promotional Outline: Mastering Design Patterns in Python**
-
 Welcome to *Mastering Design Patterns in Python*, a class tailored for students eager to enhance their software development expertise. This course introduces the essential design patterns from the Gang of Four and demonstrates how Python, with its rich features and versatile ecosystem, is an ideal language to implement these patterns. With practical examples, in-depth discussions, and real-world applications, you'll learn to write flexible, maintainable, and scalable code.
-
----
 
 ## **Introduction to Design Patterns**
 
