@@ -30,7 +30,7 @@
 
 ---
 
-## Why Study Abstract Factory (Python)
+## Why Study Abstract Factory (Python) ?
 
 1.* Separates **object creation from usage**
   → Keeps creation logic independent from the code that uses objects.
@@ -49,6 +49,57 @@
 
 6.* Reinforces **GoF design pattern principles across languages**
   → Builds transferable knowledge usable in C++, Java, PHP, and Python.
+
+## UML Structure
+
+## Pattern: Abstract Factory
+
+---
+
+### Participant: AbstractFactory
+
+1. Declares an interface for operations that create abstract product objects.
+2. Defines methods for creating each kind of product family member.
+3. Separates product creation from concrete implementation details.
+4. Uses Python abstract base classes to enforce consistent factory behavior.
+
+---
+
+### Participant: ConcreteFactory
+
+1. Implements operations that create concrete product objects.
+2. Creates only products belonging to a specific product family.
+3. Ensures related Python objects are used together consistently.
+4. Returns concrete products through abstract product interfaces.
+
+---
+
+### Participant: AbstractProduct
+
+1. Declares the interface for a type of product object.
+2. Defines operations all concrete products must implement.
+3. Allows products to be used polymorphically by the client.
+4. Supports interchangeable object families within Python applications.
+
+---
+
+### Participant: ConcreteProduct
+
+1. Implements the interface defined by the abstract product.
+2. Represents a specific product variant within a product family.
+3. Provides concrete behavior for Python application functionality.
+4. Works correctly with related products created by the same factory.
+
+---
+
+### Participant: Client
+
+1. Uses only interfaces declared by AbstractFactory and AbstractProduct classes.
+2. Remains independent from concrete product implementation details.
+3. Requests objects through factory methods instead of direct instantiation.
+4. Switches product families by changing the concrete factory object.
+
+---
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
