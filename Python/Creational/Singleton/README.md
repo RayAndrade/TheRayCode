@@ -79,6 +79,11 @@ For a Python student, the larger lesson is not simply learning how to write a Si
 
 # Pattern: Creational Singleton
 
+
+![Singleton UML](singleton_uml.png)
+
+
+
 ## Participant: Singleton
 
 1. Defines the operation that gives clients access to the single shared instance.
