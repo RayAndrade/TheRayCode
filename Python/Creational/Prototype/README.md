@@ -71,13 +71,43 @@ Prototype says:
 **Improve Software Design Decisions**
     Understanding Prototype gives a Python programmer another option when deciding how objects should be created, configured, and duplicated.
 
-## Student Summary
+## Summary
 
 **Prototype means creating a new object by copying an existing object.**
 
 For a Python student, the most important lesson is not simply learning `copy()`. It is understanding **when cloning an existing configured object is a better design than constructing and configuring another object from scratch.**
 
 
+# Creational Pattern:  Prototype with cosideration in python
+
+## Participant: Prototype
+
+1. Declares the interface for cloning an existing object.
+2. In Python, this is commonly represented by a base class or abstract base class containing a method such as `clone()`.
+3. Defines the cloning contract that **ConcretePrototype** objects provide.
+4. Allows the **Client** to request copies without depending on the concrete class of the object being copied.
+
+## Participant: ConcretePrototype
+
+1. Implements the cloning operation defined by **Prototype**.
+2. Creates a new object whose state is copied from the existing prototype.
+3. In Python, cloning can commonly use `copy.copy()` for a shallow copy or `copy.deepcopy()` when nested mutable objects must also be copied.
+4. Returns the cloned object so the **Client** can modify the copy independently when the copied state permits it.
+
+## Participant: Client
+
+1. Creates new objects by asking a **Prototype** to clone itself.
+2. Works through the Prototype interface instead of directly constructing a specific **ConcretePrototype**.
+3. In Python, the Client works with object references and normally does not perform explicit pointer or memory management.
+4. Can create differently configured objects by cloning different prototype instances rather than repeating their initialization logic.
+
+# Student Summary
+
+**Prototype:** Defines how an object can be cloned. It gives the Client a common way to request a copy.
+
+**ConcretePrototype:** Performs the actual copying. In Python, `copy.copy()` and `copy.deepcopy()` are common tools for implementing this responsibility.
+
+**Client:** Requests new objects by cloning existing prototypes instead of constructing and configuring every object from scratch.
 
 
 ### **S.W.O.T. Analysis of the Prototype Design Pattern in Java**
