@@ -154,6 +154,59 @@ Here are some reasons why a Python programmer should study the Builder design pa
 
 **Product** → The final completed object returned to the client.
 
+# TRC-SWOT [Builder] [Python]
+
+## Strengths
+
+**• Simplifies complex object creation**
+Builds complicated objects step-by-step with cleaner and easier-to-understand code.
+
+**• Improves code maintainability**
+Separates construction logic from business logic, reducing future modification effort.
+
+**• Supports multiple product configurations**
+Creates different object versions using the same construction process.
+
+
+
+## Weaknesses
+
+**• Adds additional classes**
+Builder introduces more classes than direct object creation approaches.
+
+**• May increase code complexity**
+Small projects may not benefit from the extra structure.
+
+**• Can require additional setup time**
+Designing builders and products initially takes more development effort.
+
+
+
+## Opportunities
+
+**• Creates scalable Python applications**
+Supports growth when applications require more object variations.
+
+**• Encourages SOLID design principles**
+Promotes separation of responsibilities and reduces coupling.
+
+**• Supports reusable construction logic**
+Allows construction processes to be reused across multiple object types.
+
+
+
+## Threats
+
+**• Overengineering simple applications**
+Simple objects may not justify using Builder pattern structure.
+
+**• Poor builder design causes confusion**
+Unclear construction steps reduce readability and maintainability.
+
+**• Excessive abstraction reduces clarity**
+Too many layers may hide the application's true behavior.
+
+
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
