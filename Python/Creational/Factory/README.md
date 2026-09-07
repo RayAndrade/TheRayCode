@@ -164,13 +164,75 @@ Factory Method becomes useful when:
 * **Creator** → Declares the factory method for object creation.
 * **ConcreteCreator** → Creates and returns the specific product object.
 
+# S.W.O.T. Analysis – Factory Method Pattern in Python
 
+## Strengths
 
+### 1. Promotes Loose Coupling
 
-### **S.W.O.T. Analysis 
+Clients work with abstract products instead of concrete classes.
 
+### 2. Easier to Extend
 
+New product types can be added without changing existing client code.
 
+### 3. Supports Open/Closed Principle
+
+The system is open for extension but closed for modification.
+
+---
+
+## Weaknesses
+
+### 1. More Classes Required
+
+Factory Method introduces additional creator and product classes.
+
+### 2. Increased Complexity
+
+Small projects may not benefit from the extra abstraction.
+
+### 3. Harder for Beginners
+
+The relationship between creators and products can be confusing initially.
+
+---
+
+## Opportunities
+
+### 1. Build Flexible Applications
+
+Ideal for systems that create different object types dynamically.
+
+### 2. Improve Code Maintainability
+
+Changes to product creation remain isolated in factory classes.
+
+### 3. Prepare for Advanced Patterns
+
+Factory Method provides a foundation for Abstract Factory and Prototype.
+
+---
+
+## Threats
+
+### 1. Overengineering Small Projects
+
+Using Factory Method where simple object creation is sufficient adds unnecessary complexity.
+
+### 2. Excessive Class Growth
+
+Large systems may accumulate many factory and product classes.
+
+### 3. Poor Documentation
+
+Without clear UML and naming conventions, developers may misuse the pattern.
+
+---
+
+### Student Summary
+
+Factory Method is a Creational Design Pattern that delegates object creation to specialized factory methods. In Python, it helps create flexible, maintainable, and extensible applications while reducing direct dependencies on concrete classes. Although it introduces additional classes and complexity, it is a valuable pattern for developers building scalable software systems.
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
