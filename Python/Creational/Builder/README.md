@@ -26,13 +26,13 @@ The **Builder Pattern** is a **Creational Design Pattern** that separates the co
 
 Instead of creating a large object with a complicated constructor full of parameters, the Builder pattern constructs an object **step by step**.
 
----
+
 
 ### Short Definition
 
 **Builder creates complex objects step-by-step while separating object construction from object representation.**
 
----
+
 
 ### How it works in Python
 
@@ -154,7 +154,9 @@ Here are some reasons why a Python programmer should study the Builder design pa
 
 **Product** → The final completed object returned to the client.
 
-# TRC-SWOT [Builder] [Python]
+
+
+# SWOT Builder using Python]
 
 ## Strengths
 
@@ -167,8 +169,6 @@ Separates construction logic from business logic, reducing future modification e
 **• Supports multiple product configurations**
 Creates different object versions using the same construction process.
 
-
-
 ## Weaknesses
 
 **• Adds additional classes**
@@ -180,8 +180,6 @@ Small projects may not benefit from the extra structure.
 **• Can require additional setup time**
 Designing builders and products initially takes more development effort.
 
-
-
 ## Opportunities
 
 **• Creates scalable Python applications**
@@ -192,8 +190,6 @@ Promotes separation of responsibilities and reduces coupling.
 
 **• Supports reusable construction logic**
 Allows construction processes to be reused across multiple object types.
-
-
 
 ## Threats
 
