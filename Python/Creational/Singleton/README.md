@@ -77,6 +77,18 @@ Singleton provides a way for them to work with **one shared instance**.
 **Singleton means one class, one shared instance, with a controlled way to access it.**
 For a Python student, the larger lesson is not simply learning how to write a Singleton. It is learning to recognize **when one shared object is appropriate—and when ordinary object creation and dependency passing would produce a cleaner design.**
 
+# Pattern: Creational Singleton
+
+## Participant: Singleton
+
+1. Defines the operation that gives clients access to the single shared instance.
+2. In Python, the class commonly stores that instance in a class attribute such as `_instance`.
+3. It controls object creation so repeated access returns the same object instead of creating new independent objects.
+4. Python implementations may use `__new__()`, a class method, or another controlled access technique rather than explicit pointers or manual memory management.
+
+## Student Summary
+
+**Singleton:** The Singleton class is responsible for creating, storing, and returning the one shared instance. In Python, students should focus on class-level state, object identity, and controlled creation rather than pointer ownership or manual deletion.
 
 
 [TheRayCode.ORG](https://www.TheRayCode.org)  
