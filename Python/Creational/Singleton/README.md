@@ -6,9 +6,9 @@
 
 **Python Singleton Design Pattern**
 
-|Pattern|   |   |   |   |   |
-|---|---|---|---|---|---|
-|  [**Singleton**](README.md) | [**C++**](../../../CPP/Creational/Singleton/README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [**JavaScript**](../../../JavaScript/Creational/Singleton/README.md) | [**PHP**](../../../PHP/Creational/Singleton/README.md) | [**Python**](../../../Python/Creational/Singleton/README.md) |
+|Pattern|   |   |   |   |
+|---|---|---|---|---|
+|  [**Singleton**](README.md) | [**C++**](../../../CPP/Creational/Singleton/README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [**JavaScript**](../../../JavaScript/Creational/Singleton/README.md) | [**PHP**](../../../PHP/Creational/Singleton/README.md) |
 
 Todo
 
