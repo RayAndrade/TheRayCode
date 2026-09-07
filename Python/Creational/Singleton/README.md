@@ -10,6 +10,8 @@
 |---|---|---|---|---|
 |  [**Singleton**](README.md) | [**C++**](../../../CPP/Creational/Singleton/README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [**JavaScript**](../../../JavaScript/Creational/Singleton/README.md) | [**PHP**](../../../PHP/Creational/Singleton/README.md) |
 
+[Example1](Example1) 
+
 # What Is the Singleton Design Pattern?
 
 The **Singleton Design Pattern** is a **creational design pattern** from the Gang of Four (GoF).
