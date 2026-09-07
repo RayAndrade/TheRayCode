@@ -10,7 +10,7 @@
 |---|---|---|---|---|
 |  [**Singleton**](README.md) | [**C++**](../../../CPP/Creational/Singleton/README.md) | [**C#**](../../../Csharp/Creational/Singleton/README.md) | [**JavaScript**](../../../JavaScript/Creational/Singleton/README.md) | [**PHP**](../../../PHP/Creational/Singleton/README.md) |
 
-[Example1](Example1) 
+[Example](Example) 
 
 # What Is the Singleton Design Pattern?
 
