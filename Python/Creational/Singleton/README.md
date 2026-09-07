@@ -95,6 +95,57 @@ For a Python student, the larger lesson is not simply learning how to write a Si
 
 **Singleton:** The Singleton class is responsible for creating, storing, and returning the one shared instance. In Python, students should focus on class-level state, object identity, and controlled creation rather than pointer ownership or manual deletion.
 
+# SWOT — Singleton Design Pattern in Python
+
+## Strengths
+
+**Guarantees a Single Shared Instance**
+   Singleton provides controlled access to one object when an application should have only one shared instance.
+
+**Provides Centralized Resource Access**
+   Resources such as configuration settings, logging services, or shared application state can be accessed from a common location.
+
+**Avoids Repeated Object Creation**
+   Python can reuse the existing Singleton instance instead of repeatedly constructing equivalent objects.
+
+## Weaknesses
+
+**Introduces Global-Like State**
+   A Singleton can behave like a global variable, making it harder to determine which parts of the program modify shared state.
+
+**Makes Unit Testing More Difficult**
+   Tests may influence one another when they share the same Singleton instance and its internal state.
+
+**Creates Hidden Dependencies**
+   Classes can access the Singleton directly, making their dependency on that shared object less obvious.
+
+## Opportunities
+
+**Centralizes Application Configuration**
+   Singleton can provide one controlled object for application-wide configuration that many Python components need to access.
+
+**Coordinates Shared Services**
+   Logging, caching, resource managers, and similar services can sometimes benefit from a single coordinated access point.
+
+**Teaches Python Object Creation**
+   Implementing Singleton gives students practical experience with class attributes, object identity, `__new__()`, and class-level behavior.
+
+## Threats
+
+**Can Become an Overused Global Object**
+   Developers may use Singleton simply for convenient access rather than because the application truly requires one instance.
+
+**Can Increase Application Coupling**
+   When many classes depend directly on the Singleton, changing or replacing that shared service can become difficult.
+
+**Can Create Concurrency Problems**
+   If multiple threads can create or modify the shared instance, the implementation may require synchronization to prevent inconsistent behavior.
+
+## TRC Student Takeaway
+
+**Singleton is useful when the application genuinely needs one controlled, shared instance.**
+
+Its greatest advantage—**easy access to shared state**—can also become its greatest disadvantage. A Python student should learn both **how to implement Singleton and how to recognize when a simpler dependency or ordinary object would be the better design.**
 
 [TheRayCode.ORG](https://www.TheRayCode.org)  
 
