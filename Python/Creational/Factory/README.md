@@ -129,6 +129,8 @@ Factory Method becomes useful when:
 
 # ORM/UML Factory Method Python
 
+![Factory UML](factory_uml.png)
+
 ## Pattern: The Factory Method UML ORM with a focus toward Python
 
 ## Participant: Product
