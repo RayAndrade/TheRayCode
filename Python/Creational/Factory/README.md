@@ -126,36 +126,27 @@ Python allows simple object creation:
 dog = Dog()
 ```
 
-23- For small applications this may be sufficient.
+For small applications this may be sufficient.
 
 Factory Method becomes useful when:
 
-24- * Many object types exist
-25- * Creation rules become complex
-26- * Applications must remain flexible
-27- * Future expansion is expected
-28- * Code reuse is important
+* Many object types exist
+* Creation rules become complex
+* Applications must remain flexible
+* Future expansion is expected
+* Code reuse is important
 
-
-
-31- ## Student Summary
+## Student Summary
 
 **Factory Method lets Python applications create objects through a common interface instead of directly creating classes.**
 
 **Think of it like ordering food from a menu: you request the item, and the kitchen decides how it gets prepared.**
 
+### **S.W.O.T. Analysis 
 
 
-### **S.W.O.T. Analysis of Using the Factory Pattern in Java Projects**  
 
 
-#### **Strengths:**  
-
-#### **Weaknesses:**  
-
-#### **Opportunities:**  
-
-#### **Threats:**  
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
