@@ -1,153 +1,128 @@
-Below is a **Java** implementation of the **Factory Method** design pattern, which falls under the **Creational** category. This follows the **Gang of Four (GoF)** structure, with each class in its own file and an appropriate order to avoid dependency issues.
+Yes. Corrected: **file name and class name match case**.
 
-<p>
-👉 [code](https://vimeo.com/1065275371)<br/>
-*(Ctrl+Click = new tab, Shift+Click)*
-</p>
+# Product.py
 
-## **Class Creation Order**
-To avoid dependency issues, create classes in this order:
+The **Product** class is the GoF Product participant.
 
-1. **Product (Abstract Product Interface)**
-2. **ConcreteProduct (Concrete Implementations)**
-3. **Creator (Abstract Factory Class)**
-4. **ConcreteCreator (Factory Implementations)**
-5. **Client Code (Main Class)**
+```python
+# Define the Product participant.
+class Product:
 
----
+    # Define the product operation.
+    def Operation(self):
 
-## **1. `Product.java` (Abstract Product Interface)**
-
-```java
-// Abstract Product interface
-public interface Product {
-    void use();
-}
+        # Show basic product behavior.
+        print("Product Operation")
 ```
 
-### **Explanation**
-- Declares an interface `Product`, which all concrete products will implement.
-- The method `use()` will be defined by concrete classes.
+# ConcreteProduct.py
 
----
+The **ConcreteProduct** class is the GoF ConcreteProduct participant.
 
-## **2. `ConcreteProductA.java` & `ConcreteProductB.java` (Concrete Products)**
+```python
+# Import the Product participant.
+from Product import Product
 
-### **`ConcreteProductA.java`**
-```java
-// Concrete Product A
-public class ConcreteProductA implements Product {
-    @Override
-    public void use() {
-        System.out.println("Using ConcreteProductA");
-    }
-}
+
+# Define the ConcreteProduct participant.
+class ConcreteProduct(Product):
+
+    # Override the Operation method.
+    def Operation(self):
+
+        # Show concrete product behavior.
+        print("ConcreteProduct Operation")
 ```
 
-### **`ConcreteProductB.java`**
-```java
-// Concrete Product B
-public class ConcreteProductB implements Product {
-    @Override
-    public void use() {
-        System.out.println("Using ConcreteProductB");
-    }
-}
+# Creator.py
+
+The **Creator** class is the GoF Creator participant.
+
+```python
+# Import ABC support.
+from abc import ABC
+
+# Import abstractmethod support.
+from abc import abstractmethod
+
+# Import the Product participant.
+from Product import Product
+
+
+# Define the Creator participant.
+class Creator(ABC):
+
+    # Declare the FactoryMethod.
+    @abstractmethod
+    def FactoryMethod(self) -> Product:
+
+        # Require subclasses to implement FactoryMethod.
+        pass
+
+    # Require subclasses to implement FactoryMethod.
+        pass
+
+        # Create a product using FactoryMethod.
+        product = self.FactoryMethod()
+
+        # Use the created product.
+        product.Operation()
+
+        # Return the created product.
+        return product
 ```
 
-### **Explanation**
-- **ConcreteProductA** and **ConcreteProductB** implement `Product`.
-- Each class provides a specific implementation of the `use()` method.
+# ConcreteCreator.py
 
----
+The **ConcreteCreator** class is the GoF ConcreteCreator participant.
 
-## **3. `Creator.java` (Abstract Factory Class)**
+```python
+# Import the Creator participant.
+from Creator import Creator
 
-```java
-// Abstract Creator class
-public abstract class Creator {
-    // Factory Method: Must be implemented by concrete creators
-    public abstract Product factoryMethod();
-}
+# Import the Product participant.
+from Product import Product
+
+# Import the ConcreteProduct participant.
+from ConcreteProduct import ConcreteProduct
+
+
+# Define the ConcreteCreator participant.
+class ConcreteCreator(Creator):
+
+    # Override FactoryMethod.
+    def FactoryMethod(self) -> Product:
+
+        # Return a ConcreteProduct instance.
+        return ConcreteProduct()
 ```
 
-### **Explanation**
-- Declares the abstract `factoryMethod()`, which returns an instance of `Product`.
-- The **Factory Method Pattern** ensures concrete creators decide which product to instantiate.
+# Main.py
 
----
+The **Main** file runs the Factory Method example.
 
-## **4. `ConcreteCreatorA.java` & `ConcreteCreatorB.java` (Factory Implementations)**
+```python
+# Import the ConcreteCreator participant.
+from ConcreteCreator import ConcreteCreator
 
-### **`ConcreteCreatorA.java`**
-```java
-// Concrete Creator A
-public class ConcreteCreatorA extends Creator {
-    @Override
-    public Product factoryMethod() {
-        return new ConcreteProductA();
-    }
-}
+
+# Define the main function.
+def main():
+
+    # Create a ConcreteCreator object.
+    creator = ConcreteCreator()
+
+    # Run AnOperation and receive the product.
+    product = creator.AnOperation()
+
+    # Display the product class name.
+    print(type(product).__name__)
+
+
+# Run this file directly.
+if __name__ == "__main__":
+
+    # Start the program.
+    main()
 ```
 
-### **`ConcreteCreatorB.java`**
-```java
-// Concrete Creator B
-public class ConcreteCreatorB extends Creator {
-    @Override
-    public Product factoryMethod() {
-        return new ConcreteProductB();
-    }
-}
-```
-
-### **Explanation**
-- `ConcreteCreatorA` and `ConcreteCreatorB` override `factoryMethod()`.
-- They instantiate `ConcreteProductA` and `ConcreteProductB`, respectively.
-
----
-
-## **5. `Main.java` (Client Code)**
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        // Create a factory for ProductA
-        Creator creatorA = new ConcreteCreatorA();
-        Product productA = creatorA.factoryMethod();
-        productA.use(); // Output: Using ConcreteProductA
-
-        // Create a factory for ProductB
-        Creator creatorB = new ConcreteCreatorB();
-        Product productB = creatorB.factoryMethod();
-        productB.use(); // Output: Using ConcreteProductB
-    }
-}
-```
-
----
-
-## **Final Explanation**
-1. **`Product` (Abstract Product Interface)**
-   - Defines the `use()` method to be implemented by all concrete products.
-
-2. **`ConcreteProductA` & `ConcreteProductB`**
-   - Implement `Product` and provide concrete behavior.
-
-3. **`Creator` (Abstract Factory)**
-   - Defines the abstract `factoryMethod()`.
-
-4. **`ConcreteCreatorA` & `ConcreteCreatorB`**
-   - Implement `factoryMethod()` to create specific products.
-
-5. **`Main.java` (Client Code)**
-   - Uses factories without depending on concrete classes.
-
----
-
-## **Key Takeaways**
-✅ **Encapsulation**: The client does not know which concrete product it gets.  
-✅ **Scalability**: Easily add new products and factories.  
-✅ **Decoupling**: The factory method isolates the creation logic.  
-
-Would you like to extend this with **Parameterized Factory Methods** or **Singleton Factories**? 🚀
