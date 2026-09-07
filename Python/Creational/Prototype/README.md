@@ -80,6 +80,11 @@ For a Python student, the most important lesson is not simply learning `copy()`.
 
 # Creational Pattern:  Prototype with cosideration in python
 
+
+![Prototype UML](prototype_uml.png)
+
+
+
 ## Participant: Prototype
 
 1. Declares the interface for cloning an existing object.
