@@ -52,7 +52,7 @@
 
 ## UML Structure
 
-![Description of image](AB-uml.png)
+![Abstract Factory UML](AB-uml.png)
 
 
 ## Pattern: Abstract Factory
