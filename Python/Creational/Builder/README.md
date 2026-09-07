@@ -57,13 +57,13 @@ Python makes Builder especially interesting because:
 
 Large constructors with many parameters quickly become difficult to read and maintain.
 
----
+
 
 ### 2. Improves code readability
 
 Step-by-step construction makes object creation easier for developers to understand.
 
----
+
 
 ### 3. Supports multiple object configurations
 
@@ -77,13 +77,13 @@ Example:
 
 using the same building process.
 
----
+
 
 ### 4. Follows SOLID design principles
 
 Builder helps separate object construction logic from business logic, reducing coupling.
 
----
+
 
 ### 5. Creates cleaner and more maintainable Python applications
 
@@ -103,6 +103,8 @@ Summary
 Here are some reasons why a Python programmer should study the Builder design pattern:
 
 ### UML/ORM For the Builder design pattern using Python
+
+![Builder UML](Builder-uml.png)
 
 # Pattern: Builder
 
