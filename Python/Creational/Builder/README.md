@@ -104,7 +104,7 @@ Here are some reasons why a Python programmer should study the Builder design pa
 
 ### UML/ORM For the Builder design pattern using Python
 
-![Builder UML](Builbuilder_uml.png)
+![Builder UML](builder_uml.png)
 
 # Pattern: Builder
 
