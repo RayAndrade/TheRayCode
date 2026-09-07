@@ -118,46 +118,46 @@ For a Python student, the most important lesson is not simply learning `copy()`.
 
 ## Strengths
 
-* **Simple Object Duplication**
+**Simple Object Duplication**
   Copies existing objects quickly without repeatedly invoking complex constructors.
 
-* **Flexible Runtime Cloning**
+**Flexible Runtime Cloning**
   Creates customized instances dynamically using Python's powerful object copying capabilities.
 
-* **Reduced Initialization Cost**
+**Reduced Initialization Cost**
   Reuses prepared objects, minimizing expensive setup operations for new instances.
 
 ## Weaknesses
 
-* **Complex Deep Copying**
+**Complex Deep Copying**
   Nested object references complicate implementing correct deep cloning behavior.
 
-* **Hidden Shared State**
+**Hidden Shared State**
   Shallow copies may unintentionally share mutable data between cloned objects.
 
-* **Clone Maintenance Overhead**
+**Clone Maintenance Overhead**
   Every class requires careful cloning logic as attributes evolve over time.
 
 ## Opportunities
 
-* **Game Object Templates**
+**Game Object Templates**
   Clone enemies, characters, and items efficiently from predefined prototype objects.
 
-* **Configuration Replication**
+**Configuration Replication**
   Duplicate application settings quickly while modifying only required configuration values.
 
-* **Framework Integration Benefits**
+**Framework Integration Benefits**
   Combine Prototype with Factory or Builder for flexible object creation workflows.
 
 ## Threats
 
-* **Improper Copy Implementation**
+**Improper Copy Implementation**
   Incorrect clone methods introduce subtle bugs that are difficult to diagnose.
 
-* **Memory Consumption Growth**
+**Memory Consumption Growth**
   Excessive cloned objects increase application memory usage and management complexity.
 
-* **Unnecessary Pattern Usage**
+**Unnecessary Pattern Usage**
   Simple constructors may outperform Prototype, reducing readability without meaningful benefits.
 
 
