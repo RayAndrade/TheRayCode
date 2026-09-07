@@ -21,7 +21,6 @@ Prototype creates new objects by **copying or cloning an existing object** rathe
 
 ** In Python, this idea fits naturally with the `copy` module. A prototype object can be duplicated using `copy.copy()` for a **shallow copy** or `copy.deepcopy()` for a **deep copy**.
 
-(skip)
 The basic idea is:
 
 ```text
