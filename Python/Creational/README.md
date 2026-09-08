@@ -25,8 +25,6 @@
 #### *Implementation in Python:*
 
 
-#### *Implementation in Java:*
-
 ### **[Factory Method Pattern](./Factory/README.md)**
 #### *Definition:*  
 
