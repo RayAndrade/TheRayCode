@@ -17,7 +17,7 @@
 ### **Outline for Creational Patterns in Python**
 
 
-### **[1. Singleton Pattern](./Singleton/README.md)**
+### **[Singleton Pattern](./Singleton/README.md)**
 #### *Definition:*  
 
 #### *How It Fits the Category:*  
@@ -27,21 +27,21 @@
 
 #### *Implementation in Java:*
 
-### **[2. Factory Method Pattern](./Prototype/README.md)**
+### **[Factory Method Pattern](./Factory/README.md)**
 #### *Definition:*  
 
 #### *How It Fits the Category:*  
 
 #### *Implementation in Python:*
 
-### **[3. Abstract Factory Pattern](./Prototype/README.md)**
+### **[Abstract Factory Pattern](./AbstractFactory/README.md)**
 #### *Definition:*  
 
 #### *How It Fits the Category:*  
 
 #### *Implementation in Python:*
 
-### **[4. Builder Pattern](./Prototype/README.md)**
+### **[Builder Pattern](./Builder/README.md)**
 #### *Definition:*  
 
 #### *How It Fits the Category:*  
@@ -50,7 +50,7 @@
 
 ---
 
-### **[5. Prototype Pattern](./Prototype/README.md)**
+### **[Prototype Pattern](./Prototype/README.md)**
 #### *Definition:*  
 
 #### *Definition:*  
