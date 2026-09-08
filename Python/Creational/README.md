@@ -17,7 +17,7 @@
 ### **Outline for Creational Patterns in Python**
 
 
-### **[1. Singleton Pattern](./Prototype/README.md)**
+### **[1. Singleton Pattern](./Singleton/README.md)**
 #### *Definition:*  
 
 #### *How It Fits the Category:*  
