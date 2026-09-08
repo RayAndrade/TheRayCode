@@ -44,10 +44,7 @@
 
 **Description:** The Abstract Factory Pattern creates **families of related objects** while keeping the client independent of their specific concrete classes.
 
-**Definition:** Abstract Factory is a **Creational Design Pattern** because it controls **how groups of related objects are created**, using a factory interface instead of having the Python client instantiate concrete objects directly. ([github.com][1])
-
-[1]: https://github.com/RayAndrade/TheRayCode/blob/main/Python/Creational/AbstractFactory/README.md "TheRayCode/Python/Creational/AbstractFactory/README.md at main · RayAndrade/TheRayCode · GitHub"
-
+**Definition:** Abstract Factory is a **Creational Design Pattern** because it controls **how groups of related objects are created**, using a factory interface instead of having the Python client instantiate concrete objects directly. 
 
 #### *Implementation in Python:*
 
