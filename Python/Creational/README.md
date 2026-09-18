@@ -17,43 +17,57 @@
 ### **Outline for Creational Patterns in Python**
 
 
-### **[1. Singleton Pattern](./Prototype/README.md)**
-#### *Definition:*  
+### **[Singleton Pattern](./Singleton/README.md)**
 
-#### *How It Fits the Category:*  
+### Definition and How It Fits the Category
 
-#### *Implementation in Python:*
+**Description:** The Singleton Pattern controls object creation so that only one instance of a class exists and is shared throughout the application.
 
-
-#### *Implementation in Java:*
-
-### **[2. Factory Method Pattern](./Prototype/README.md)**
-#### *Definition:*  
-
-#### *How It Fits the Category:*  
+**Definition:** Singleton is a **Creational Design Pattern** because it controls **how and when an object is created**, returning the same instance instead of creating a new one each time.
 
 #### *Implementation in Python:*
 
-### **[3. Abstract Factory Pattern](./Prototype/README.md)**
-#### *Definition:*  
 
-#### *How It Fits the Category:*  
+### **[Factory Method Pattern](./Factory/README.md)**
+
+### Definition and How It Fits the Category
+
+**Description:** The Factory Method Pattern defines a method for creating objects while allowing subclasses to decide which concrete object is created.
+
+**Definition:** Factory Method is a **Creational Design Pattern** because it separates **object creation from object use**, allowing subclasses to control which type of object is instantiated.
 
 #### *Implementation in Python:*
 
-### **[4. Builder Pattern](./Prototype/README.md)**
-#### *Definition:*  
+### **[Abstract Factory Pattern](./AbstractFactory/README.md)**
 
-#### *How It Fits the Category:*  
+### Definition and How It Fits the Category
+
+**Description:** The Abstract Factory Pattern creates **families of related objects** while keeping the client independent of their specific concrete classes.
+
+**Definition:** Abstract Factory is a **Creational Design Pattern** because it controls **how groups of related objects are created**, using a factory interface instead of having the Python client instantiate concrete objects directly. 
+
+#### *Implementation in Python:*
+
+### **[Builder Pattern](./Builder/README.md)**
+
+Definition and How It Fits the Category
+
+Description: The Builder Pattern constructs a complex object step by step, allowing the same construction process to create different representations of the object.
+
+Definition: Builder is a Creational Design Pattern because it separates the construction of an object from its final representation, giving Python programs greater control over how complex objects are assembled.
 
 #### *Implementation in Python:*
 
 ---
 
-### **[5. Prototype Pattern](./Prototype/README.md)**
-#### *Definition:*  
+### **[Prototype Pattern](./Prototype/README.md)**
 
-#### *Definition:*  
+### Definition and How It Fits the Category
+
+**Description:** The Prototype Pattern creates new objects by **copying or cloning an existing object** rather than constructing each new object from scratch.
+
+**Definition:** Prototype is a **Creational Design Pattern** because it controls **how new objects are created**, using an existing object as the prototype for producing new instances.
+ 
 
 #### *How It Fits the Category:*  
 
