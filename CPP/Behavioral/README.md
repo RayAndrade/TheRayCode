@@ -6,20 +6,6 @@
 
 **C++ Structural Patterns**
 
-| examples using C++ | | | |
-|----|---|---|---|
-|**[ChainOfResponsibility](./ChainOfResponsibility/README.md)**  | [C#](../../Csharp/Behavioral/ChainOfResponsibility/README.md) | [Java](../../Java/Behavioral/ChainOfResponsibility/README.md) | [PHP](../../PHP/Behavioral/ChainOfResponsibility/README.md) |
-|**[Command](./Command/README.md)**  | [C#](../../Csharp/Behavioral/Command/README.md) | [Java](../../Java/Behavioral/Command/README.md) | [PHP](../../PHP/Behavioral/Command/README.md) |
-|**[Interpreter](./Interpreter/README.md)**  | [C#](../../Csharp/Behavioral/Interpreter/README.md) | [Java](../../Java/Behavioral/Interpreter/README.md) | [PHP](../../PHP/Behavioral/Interpreter/README.md) |
-|**[Iterator](./Iterator/README.md)**  | [C#](../../Csharp/Behavioral/Iterator/README.md) | [Java](../../Java/Behavioral/Iterator/README.md) | [PHP](../../PHP/Behavioral/Iterator/README.md) |
-|**[Mediator](./Mediator/README.md)**  | [C#](../../Csharp/Behavioral/Mediator/README.md) | [Java](../../Java/Behavioral/Mediator/README.md) | [PHP](../../PHP/Behavioral/Mediator/README.md) |
-|**[Memento](./Memento/README.md)**  | [C#](../../Csharp/Behavioral/Memento/README.md) | [Java](../../Java/Behavioral/Memento/README.md) | [PHP](../../PHP/Behavioral/Memento/README.md) |
-|**[Observer](./Observer/README.md)**  | [C#](../../Csharp/Behavioral/Observer/README.md) | [Java](../../Java/Behavioral/Observer/README.md) | [PHP](../../PHP/Behavioral/Observer/README.md) |
-|**[State](./State/README.md)**  | [C#](../../Csharp/Behavioral/State/README.md) | [Java](../../Java/Behavioral/State/README.md) | [PHP](../../PHP/Behavioral/State/README.md) |
-|**[Strategy](./Strategy/README.md)**  | [C#](../../Csharp/Behavioral/Strategy/README.md) | [Java](../../Java/Behavioral/Strategy/README.md) | [PHP](../../PHP/Behavioral/Strategy/README.md) |
-|**[Template](./Template/README.md)**  | [C#](../../Csharp/Behavioral/Template/README.md) | [Java](../../Java/Behavioral/Template/README.md) | [PHP](../../PHP/Behavioral/Template/README.md) |
-|**[Visitor](./Visitor/README.md)**  | [C#](../../Csharp/Behavioral/Visitor/README.md) | [Java](../../Java/Behavioral/Visitor/README.md) | [PHP](../../PHP/Behavioral/Visitor/README.md) |
-
 ### **Outline for Behavioral Patterns in C++**
 
 Behavioral patterns focus on communication and interaction between objects, ensuring a dynamic and scalable system while reducing tight coupling. C++’s polymorphism, inheritance, function pointers, and templates make it a powerful language for implementing behavioral design patterns.
