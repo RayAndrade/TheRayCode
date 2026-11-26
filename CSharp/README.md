@@ -165,4 +165,4 @@ This course is for you! Sign up today and unlock the full potential of C++ by ma
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Instagram](https://www.instagram.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+[Instagram](https://www.instagram.com/The_Ray_Code/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
