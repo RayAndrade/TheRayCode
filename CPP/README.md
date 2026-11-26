@@ -9,22 +9,6 @@
 |**[PHP](../PHP/Creational/README.md)** | **[PHP](../PHP/Structural/README.md)** | **[PHP](../PHP/Behavioral/README.md)** |
 |**[Python](../Python/Creational/README.md)** | **[Python](../Python/Structural/README.md)** | **[Python](../Python/Behavioral/README.md)** |
 
-**[C++](../README.md)** 
-
-| Creational Patterns | Structural Patterns | Behavioral Patterns |
-|--------------|-----|-----------|
-| [**AbstractFactory**](./Creational/AbstractFactory/README.md) | [**Adapter**](./Structural/Adapter/README.md)         | [**Chain Of Responsibility**](./Behavioral/ChainOfResponsibility/README.md) |
-| [**Builder**](./Creational/Builder/README.md)                 | [**Bridge**](./Structural/Bridge/README.md)           | [**Command**](./Behavioral/Command/README.md) |
-| [**Factory**](./Creational/Factory/README.md)                 | [**Composite**](./Structural/Composite/README.md)     | [**Interpreter**](./Behavioral/Interpreter/README.md) |
-| [**Prototype**](./Creational/Prototype/README.md)             | [**Decorator**](./Structural/Decorator/README.md)     | [**Iterator**](./Behavioral/Iterator/README.md) |
-| [**Singleton**](./Creational/Singleton/README.md)             | [**Facade**](./Structural/Facade/README.md)           | [**Mediator**](./Behavioral/Mediator/README.md) |
-|                                                               | [**Flyweight**](./Structural/Flyweight/README.md)     | [**Memento**](./Behavioral/Memento/README.md)  |
-|                                                               | [**Proxy**](./Structural/Proxy/README.md)             | [**Observer**](./Behavioral/Observer/README.md) |
-|                                                               |                                                       | [**State**](./Behavioral/State/README.md)  |
-|                                                               |                                                       | [**Strategy**](./Behavioral/Strategy/README.md)  |
-|                                                               |                                                       | [**Template**](./Behavioral/Template/README.md) |
-|                                                               |                                                       | [**Visitor**](./Behavioral/Visitor/README.md) |
-
 ### **Promotional Outline: Mastering Design Patterns in C++**
 
 Welcome to *Mastering Design Patterns in C++*, a course designed for students passionate about programming and eager to refine their skills in one of the most powerful programming languages. This course explores the 23 essential design patterns from the Gang of Four and demonstrates how C++'s object-oriented features, templates, and memory management capabilities make it an excellent choice for implementing these patterns. Through real-world examples, practical exercises, and in-depth discussions, you'll learn to build robust, efficient, and scalable software systems.
