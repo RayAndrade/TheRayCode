@@ -12,7 +12,7 @@ Behavioral patterns focus on communication and interaction between objects, ensu
 
 ---
 
-### **[1. Chain of Responsibility Pattern](./ChainOfResponsibility/README.md)**
+### **[Chain of Responsibility Pattern](./ChainOfResponsibility/README.md)**
 #### *Definition:*  
 Passes a request along a chain of handlers, where each handler decides either to process the request or pass it to the next handler.
 
@@ -26,7 +26,7 @@ This pattern allows multiple objects to handle a request without knowing each ot
 
 ---
 
-### **[2. Command Pattern](./Command/README.md)**
+### **[Command Pattern](./Command/README.md)**
 #### *Definition:*  
 Encapsulates a request as an object, allowing it to be parameterized, queued, or logged.
 
@@ -40,7 +40,7 @@ The Command pattern decouples the sender of a request from its receiver. In C++,
 
 ---
 
-### **[3. Interpreter Pattern](./Interpreter/README.md)**
+### **[Interpreter Pattern](./Interpreter/README.md)**
 #### *Definition:*  
 Defines a grammar for a language and uses an interpreter to interpret sentences in that language.
 
@@ -54,7 +54,7 @@ The Interpreter pattern is ideal for scenarios where structured input, such as m
 
 ---
 
-### **[4. Iterator Pattern](./Iterator/README.md)**
+### **[Iterator Pattern](./Iterator/README.md)**
 #### *Definition:*  
 Provides a way to access elements of a collection sequentially without exposing its underlying representation.
 
@@ -68,7 +68,7 @@ The Iterator pattern allows traversal of collections in a uniform manner. C++’
 
 ---
 
-### **[5. Mediator Pattern](./Mediator/README.md)**
+### **[Mediator Pattern](./Mediator/README.md)**
 #### *Definition:*  
 Centralizes communication between objects, preventing direct communication and reducing dependencies.
 
@@ -82,7 +82,7 @@ The Mediator pattern simplifies interactions between objects. In C++, it’s use
 
 ---
 
-### **[6. Memento Pattern](./Memento/README.md)**
+### **[Memento Pattern](./Memento/README.md)**
 #### *Definition:*  
 Captures and restores an object’s internal state without exposing its details.
 
@@ -96,7 +96,7 @@ The Memento pattern is ideal for implementing undo/redo functionality. In C++, i
 
 ---
 
-### **[7. Observer Pattern](./Observer/README.md)**
+### **[Observer Pattern](./Observer/README.md)**
 #### *Definition:*  
 Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified.
 
@@ -110,7 +110,7 @@ The Observer pattern is widely used in event-driven systems. In C++, it’s effe
 
 ---
 
-### **[8. State Pattern](./State/README.md)**
+### **[State Pattern](./State/README.md)**
 #### *Definition:*  
 Allows an object to change its behavior when its internal state changes.
 
@@ -124,7 +124,7 @@ The State pattern is ideal for finite state machines. In C++, it’s used in sce
 
 ---
 
-### **[9. Strategy Pattern](./Strategy/README.md)**
+### **[Strategy Pattern](./Strategy/README.md)**
 #### *Definition:*  
 Encapsulates a family of algorithms and makes them interchangeable.
 
@@ -138,7 +138,7 @@ The Strategy pattern simplifies swapping algorithms dynamically. In C++, it’s 
 
 ---
 
-### **[10. Template Method Pattern](./Template/README.md)**
+### **[Template Method Pattern](./Template/README.md)**
 #### *Definition:*  
 Defines the skeleton of an algorithm in a method, deferring some steps to subclasses.
 
@@ -152,7 +152,7 @@ The Template Method pattern provides a consistent structure for algorithms. In C
 
 ---
 
-### **[11. Visitor Pattern](./Observer/README.md)**
+### **[Visitor Pattern](./Observer/README.md)**
 #### *Definition:*  
 Represents an operation to be performed on elements of an object structure, without modifying the structure.
 
@@ -199,4 +199,4 @@ By mastering these behavioral patterns in C++, developers can build dynamic, mai
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+[Instagram](https://www.Instagram.com/The_Ray_Code/) | [X @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
