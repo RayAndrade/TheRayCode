@@ -9,21 +9,6 @@
 |**[PHP](../PHP/Creational/README.md)** | **[PHP](../PHP/Structural/README.md)** | **[PHP](../PHP/Behavioral/README.md)** |
 |**[Python](../Python/Creational/README.md)** | **[Python](../Python/Structural/README.md)** | **[Python](../Python/Behavioral/README.md)** |
 
-**[C++](../README.md)** 
-
-| Creational Patterns | Structural Patterns | Behavioral Patterns |
-|--------------|-----|-----------|
-| [**AbstractFactory**](./Creational/AbstractFactory/README.md) | [**Adapter**](./Structural/Adapter/README.md)         | [**Chain Of Responsibility**](./Behavioral/ChainOfResponsibility/README.md) |
-| [**Builder**](./Creational/Builder/README.md)                 | [**Bridge**](./Structural/Bridge/README.md)           | [**Command**](./Behavioral/Command/README.md) |
-| [**Factory**](./Creational/Factory/README.md)                 | [**Composite**](./Structural/Composite/README.md)     | [**Interpreter**](./Behavioral/Interpreter/README.md) |
-| [**Prototype**](./Creational/Prototype/README.md)             | [**Decorator**](./Structural/Decorator/README.md)     | [**Iterator**](./Behavioral/Iterator/README.md) |
-| [**Singleton**](./Creational/Singleton/README.md)             | [**Facade**](./Structural/Facade/README.md)           | [**Mediator**](./Behavioral/Mediator/README.md) |
-|                                                               | [**Flyweight**](./Structural/Flyweight/README.md)     | [**Memento**](./Behavioral/Memento/README.md)  |
-|                                                               | [**Proxy**](./Structural/Proxy/README.md)             | [**Observer**](./Behavioral/Observer/README.md) |
-|                                                               |                                                       | [**State**](./Behavioral/State/README.md)  |
-|                                                               |                                                       | [**Strategy**](./Behavioral/Strategy/README.md)  |
-|                                                               |                                                       | [**Template**](./Behavioral/Template/README.md) |
-|                                                               |                                                       | [**Visitor**](./Behavioral/Visitor/README.md) |
 
 ![alt text](pictures/cover.png)
 
@@ -43,7 +28,7 @@ Welcome to *Mastering Design Patterns in C++*, a course designed for students pa
 
 ---
 
-### **[1. Creational Patterns](./Creational/README.md)**
+### **[Creational Patterns](./Creational/README.md)**
 #### *Definition:*  
 Creational patterns provide solutions to object creation, ensuring flexibility and reducing coupling between the system and specific implementations.
 
@@ -73,25 +58,25 @@ Creational patterns provide solutions to object creation, ensuring flexibility a
 #### *Definition:*  
 Structural patterns focus on class and object composition, helping to build systems that are modular and extensible.
 
-1. **[Adapter](./Structural/Adapter/README.md)**  
+**[Adapter](./Structural/Adapter/README.md)**  
    Converts one interface into another expected by clients. C++'s multiple inheritance and operator overloading make implementing adapters seamless. Useful for integrating legacy code or third-party libraries.
 
-2. **[Bridge](./Structural/Bridge/README.md)**  
+**[Bridge](./Structural/Bridge/README.md)**  
    Decouples an abstraction from its implementation, allowing them to vary independently. C++’s pointers and virtual functions are well-suited for implementing this pattern. Ideal for GUI frameworks and rendering systems.
 
-3. **[Composite](./Structural/Composite/README.md)**  
+**[Composite](./Structural/Composite/README.md)**  
    Composes objects into tree structures to represent part-whole hierarchies. C++'s recursive structures and polymorphism make it perfect for implementing this pattern in file systems or graphical applications.
 
-4. **[Decorator](./Structural/Decorator/README.md)**  
+**[Decorator](./Structural/Decorator/README.md)**  
    Dynamically adds behavior to an object without modifying its structure. C++'s support for object composition and operator overloading facilitates this pattern. Commonly used for extending functionality in streams and I/O systems.
 
-5. **[Facade](./Structural/Facade/README.md)**  
+**[Facade](./Structural/Facade/README.md)**  
    Provides a unified interface to a complex subsystem. C++ makes it easy to encapsulate subsystems into a single class, simplifying client access. Often used in simplifying graphics APIs.
 
-6. **[Flyweight](./Structural/Flyweight/README.md)**  
+**[Flyweight](./Structural/Flyweight/README.md)**  
    Reduces memory usage by sharing data between similar objects. C++’s explicit memory control and object pooling make Flyweight ideal for managing large datasets like game objects or GUI elements.
 
-7. **[Proxy](./Structural/Proxy/README.md)**  
+**[Proxy](./Structural/Proxy/README.md)**  
    Acts as a surrogate or placeholder for another object. C++ supports proxy implementation for lazy initialization, access control, and remote procedure calls. Examples include smart pointers and file handles.
 
 #### *How They Relate:*  
@@ -101,7 +86,7 @@ Structural patterns focus on class and object composition, helping to build syst
 
 ---
 
-### **[3. Behavioral Patterns](./Behavioral/README.md)**
+### **[Behavioral Patterns](./Behavioral/README.md)**
 #### *Definition:*  
 Behavioral patterns focus on object interactions and responsibilities, enabling dynamic communication and robust workflows.
 
