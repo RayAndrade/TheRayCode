@@ -12,8 +12,6 @@
 |**[PHP](../PHP/Creational/README.md)** | **[PHP](../PHP/Structural/README.md)** | **[PHP](../PHP/Behavioral/README.md)** |
 |**[Python](../Python/Creational/README.md)** | **[Python](../Python/Structural/README.md)** | **[Python](../Python/Behavioral/README.md)** |
 
-**[JavaScript](../README.md)** 
-
 | Creational Patterns | Structural Patterns | Behavioral Patterns |
 |--------------|-----|-----------|
 | [**AbstractFactory**](Creational/AbstractFactory/README.md) | [**Adapter**](./Structural/Adapter/README.md)         | [**Chain Of Responsibility**](./Behavioral/ChainOfResponsibility/README.md) |
