@@ -1,8 +1,9 @@
 [up](../README.md)
 
-**Mediator**
 
 # TheRayCode is AWESOME!!!
+
+**Mediator**
 
 * **[JavaScritp](../README.md)** * 
 
