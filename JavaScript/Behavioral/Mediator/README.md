@@ -1,7 +1,6 @@
 [up](../README.md)
 
-# TheRayCode
-## is AWESOME!!!
+# TheRayCode is AWESOME!!!
 
 * **[JavaScritp](../README.md)** * 
 
