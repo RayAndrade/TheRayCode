@@ -8,7 +8,9 @@
 |**[C++](../CPP/Creational/README.md)** | **[C++](../CPP/Structural/README.md)** | **[C++](../CPP/Behavioral/README.md)** |
 |**[C#](../Csharp/Creational/README.md)** | **[C#](../Csharp/Structural/README.md)** | **[C#](../Csharp/Behavioral/README.md)** |
 |**[Java](../Java/Creational/README.md)** | **[Java](../Java/Structural/README.md)** | **[Java](../Java/Behavioral/README.md)** |
+|**[JavaScript](../JavaScript/Creational/README.md)** | **[JavaScript](../JavaScript/Structural/README.md)** | **[PHP](../JavaScript/Behavioral/README.md)** |
 |**[PHP](../PHP/Creational/README.md)** | **[PHP](../PHP/Structural/README.md)** | **[PHP](../PHP/Behavioral/README.md)** |
+|**[Python](../Python/Creational/README.md)** | **[Python](../Python/Structural/README.md)** | **[Python](../Python/Behavioral/README.md)** |
 
 **[JavaScript](../README.md)** 
 
@@ -253,5 +255,5 @@ This repository provides examples for each of these patterns using **modern Java
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+[Instagram](https://www.Instagram.com/The_Ray_Code/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
 
