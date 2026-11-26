@@ -33,7 +33,7 @@
  * **[Structural](./Structural/README.md)**
  * **[Behavioral](./Behavioral/README.md)**
 
-**[C++](../CPP/README.md)** | **[C#](../Csharp/README.md)** | **[Java](../Java/README.md)**  | **[PHP](../PHP/README.md)** | **[JavaScript](../JavaScript/README.md)**
+**[C++](../CPP/README.md)** | **[C#](../Csharp/README.md)** | **[Java](../Java/README.md)**  |  **[JavaScript](../Java/README.md)**  | **[PHP](../PHP/README.md)** | **[Python](../Python/README.md)**
 
 
 
