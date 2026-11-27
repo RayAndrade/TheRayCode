@@ -44,7 +44,6 @@ The Visitor pattern is about **externalizing operations for multiple objects**:
 
 It helps you add new features while keeping your object structure clean and stable.
 
----
 
 ## 🧠 S.W\.O.T. Analysis — Visitor Pattern
 
@@ -54,7 +53,6 @@ It helps you add new features while keeping your object structure clean and stab
 2. Keeps data classes clean and focused on their own responsibilities.
 3. Supports type-safe traversal through complex structures.
 
----
 
 ### ❌ **Weaknesses**
 
@@ -62,23 +60,17 @@ It helps you add new features while keeping your object structure clean and stab
 2. May introduce tight coupling between visitors and the element classes.
 3. Requires careful design to avoid breaking the visitor interface.
 
----
-
 ### 🌱 **Opportunities**
 
 1. Helps juniors learn to separate data from behavior cleanly.
 2. Encourages scalable designs when adding new features to structured data.
 3. Builds skills useful for compilers, interpreters, and reporting tools.
 
----
-
 ### ⚠️ **Threats**
 
 1. Overuse may create complicated, hard-to-follow visitor hierarchies.
 2. Improperly coordinated visitors can break element encapsulation.
 3. Debugging errors in double-dispatch mechanisms can be tricky for juniors.
-
----
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
