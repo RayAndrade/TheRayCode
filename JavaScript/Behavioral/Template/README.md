@@ -20,7 +20,6 @@ The **Template Method** pattern is a behavioral pattern that defines the **skele
 
 Think of it like a **recipe**: the structure stays the same, but you can swap out ingredients or steps as needed.
 
-
 ## 🤔 Why Would I Use It?
 
 * When you want to enforce a consistent sequence of steps while letting subclasses handle the details.
@@ -33,7 +32,6 @@ Think of it like a **recipe**: the structure stays the same, but you can swap ou
 * Promotes reuse by keeping common algorithm steps in a superclass.
 * Makes changes easier since you only override what differs.
 * Encourages consistent processes across related subclasses.
-
 
 ## 🧩 Summary
 
@@ -69,7 +67,6 @@ It supports consistent and extensible design while encouraging reuse.
 1. Overuse may lead to deep inheritance hierarchies that are hard to manage.
 2. Misuse can cause subclasses to override too much, breaking the template.
 3. Poorly documented templates can confuse maintainers about what’s fixed versus what’s customizable.
-
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
