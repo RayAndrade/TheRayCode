@@ -27,7 +27,6 @@ Think of it like a **recipe**: the structure stays the same, but you can swap ou
 * When you have algorithms that share structure but differ in a few parts.
 * When you want to reuse code and avoid duplicating boilerplate.
 
----
 
 ## ✅ Benefits of the Template Method Pattern
 
