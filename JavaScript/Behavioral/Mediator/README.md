@@ -6,7 +6,7 @@
 
 **Mediator**
 
-**[JavaScritp](../README.md)** * 
+**[JavaScritp](../README.md)**
 
 **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
 
