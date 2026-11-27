@@ -17,7 +17,7 @@ JavaScript State section
 
 ## 🎭 What Is the State Design Pattern?
 
-The **State** pattern is a behavioral pattern that allows an object to **change its behavior when its internal state changes**, appearing to change its class.
+The **State** pattern is a behavioral pattern that  allows an object to **change its behavior when its internal state changes**, appearing to change its class.
 
 Think of it like a **traffic light** — it behaves differently depending on whether it’s showing red, yellow, or green, but it’s still the same traffic light.
 
