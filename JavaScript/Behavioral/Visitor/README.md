@@ -86,4 +86,4 @@ It helps you add new features while keeping your object structure clean and stab
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Inatagram](https://www.Inatagram.com/The_Ray_Code/) | [x@TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+[Instagram](https://www.Instagram.com/The_Ray_Code/) | [x@TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
