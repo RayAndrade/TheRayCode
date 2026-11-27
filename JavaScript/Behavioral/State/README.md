@@ -1,19 +1,21 @@
+[up](../README.md)
+
 **[Behavoiral Patterns](../README.md)** 
 
 # TheRayCode is AWESOME!!!
 
 **State**
 
-**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
+**[JavaScript](../README.md)** 
 
-JavaScript State section
+**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
 
 [Example 1](./Example1/README.md)
 
 
 ## 🎭 What Is the State Design Pattern?
 
-The **State** pattern is a behavioral pattern that allows an object to **change its behavior when its internal state changes**, appearing to change its class.
+The **State** pattern is a behavioral pattern that  allows an object to **change its behavior when its internal state changes**, appearing to change its class.
 
 Think of it like a **traffic light** — it behaves differently depending on whether it’s showing red, yellow, or green, but it’s still the same traffic light.
 
@@ -83,4 +85,4 @@ It keeps code organized, flexible, and easier to extend.
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [x @TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+[Instagram](https://www.Instagram.com/The_Ray_Code/) | [X@TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)

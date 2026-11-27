@@ -1,4 +1,6 @@
-[Behavioral Patterns](../README.md)
+[up](../README.md)
+
+**[Behavioral Patterns ](../README.md)** 
 
 # TheRayCode is AWESOME!!!
 
@@ -7,18 +9,6 @@
 **[JavaScript](../README.md)** 
 
 **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
-
-* **[ChainOfResponsibility](../ChainOfResponsibility/README.md)**
-* **[Iterator](../Iterator/README.md)**
-* **[Mediator](../Mediator/README.md)**
-* **[Memento](../Memento/README.md)**
-* **[Observer](../Observer/README.md)**
-* **[State](../State/README.md)**
-* **[Strategy](../Strategy/README.md)**
-* **[Template](../Template/README.md)**
-* **[Visitor](../Visitor/README.md)**
-
-JavaScript Visitior section
 
 [Example 1](./Example1/README.md)
 
@@ -54,7 +44,6 @@ The Visitor pattern is about **externalizing operations for multiple objects**:
 
 It helps you add new features while keeping your object structure clean and stable.
 
----
 
 ## 🧠 S.W\.O.T. Analysis — Visitor Pattern
 
@@ -64,7 +53,6 @@ It helps you add new features while keeping your object structure clean and stab
 2. Keeps data classes clean and focused on their own responsibilities.
 3. Supports type-safe traversal through complex structures.
 
----
 
 ### ❌ **Weaknesses**
 
@@ -72,15 +60,11 @@ It helps you add new features while keeping your object structure clean and stab
 2. May introduce tight coupling between visitors and the element classes.
 3. Requires careful design to avoid breaking the visitor interface.
 
----
-
 ### 🌱 **Opportunities**
 
 1. Helps juniors learn to separate data from behavior cleanly.
 2. Encourages scalable designs when adding new features to structured data.
 3. Builds skills useful for compilers, interpreters, and reporting tools.
-
----
 
 ### ⚠️ **Threats**
 
@@ -88,10 +72,8 @@ It helps you add new features while keeping your object structure clean and stab
 2. Improperly coordinated visitors can break element encapsulation.
 3. Debugging errors in double-dispatch mechanisms can be tricky for juniors.
 
----
-
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [x@TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+[Instagram](https://www.Instagram.com/The_Ray_Code/) | [X@TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)

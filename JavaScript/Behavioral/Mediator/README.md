@@ -1,15 +1,16 @@
 [up](../README.md)
 
-# TheRayCode
-## is AWESOME!!!
+**[Behavioral Patterns ](../README.md)** 
 
-* **[JavaScritp](../README.md)** * 
+# TheRayCode is AWESOME!!!
 
-* **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
+**Mediator**
+
+**[JavaScript](../README.md)**
+
+**[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
 
 [Example 1](./Example1/README.md)
-
-
 
 ## 🧭 What Is the Mediator Design Pattern?
 
@@ -27,7 +28,6 @@ Instead of many objects sending messages back and forth — which can get messy 
 * B → Mediator
 * Mediator → routes messages to the right object
 
----
 
 ## 📘 Real-World Analogy
 
@@ -37,7 +37,6 @@ Think of a **chat room**:
 * They send messages to the **chat server** (Mediator), which then distributes them.
 * This keeps communication **centralized** and **controlled**.
 
----
 
 ## 🧠 Where You Might Use It in JavaScript
 
@@ -45,7 +44,6 @@ Think of a **chat room**:
 * **Chat systems**: Each user sends messages through a central mediator.
 * **Game programming**: Different game objects sending events through a central controller.
 
----
 
 ## 🎓 5 Reasons Why a Novice JavaScript Programmer Should Study the Mediator Pattern
 
@@ -67,7 +65,6 @@ Think of a **chat room**:
 
 ## 🤝 Mediator Pattern – S.W\.O.T. Analysis (JavaScript)
 
----
 
 ### 🟩 **Strengths**
 
@@ -80,7 +77,6 @@ Think of a **chat room**:
 3. **Better Maintenance**
    Easier to update behavior by changing one Mediator, not every class.
 
----
 
 ### 🟨 **Weaknesses**
 
@@ -93,7 +89,6 @@ Think of a **chat room**:
 3. **Extra Setup**
    Requires more setup up front compared to direct object-to-object communication.
 
----
 
 ### 🟦 **Opportunities**
 
@@ -105,8 +100,6 @@ Think of a **chat room**:
 
 3. **Game Events**
    Mediates messages between game characters, menus, or systems in game development.
-
----
 
 ### 🟥 **Threats**
 
@@ -120,10 +113,8 @@ Think of a **chat room**:
    Bugs can hide in the Mediator since it connects everything indirectly.
 
 
-
-
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
+[Instagram](https://www.Instagram.com/The_Ray_Code/) | [X@TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
