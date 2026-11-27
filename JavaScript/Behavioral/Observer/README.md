@@ -8,20 +8,7 @@
 
 **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
 
-* **[ChainOfResponsibility](../ChainOfResponsibility/README.md)**
-* **[Iterator](../Iterator/README.md)**
-* **[Mediator](../Mediator/README.md)**
-* **[Memento](../Memento/README.md)**
-* **[Observer](../Observer/README.md)**
-* **[State](../State/README.md)**
-* **[Strategy](../Strategy/README.md)**
-* **[Template](../Template/README.md)**
-* **[Visitor](../Visitor/README.md)**
-
-JavaScript Oberver section
-
 [Example 1](./Example1/README.md).
-
 
 ## 👀 What Is the Observer Design Pattern?
 
@@ -29,7 +16,6 @@ The **Observer** pattern is a behavioral pattern that creates a **one-to-many de
 
 Think of it like **subscribing to a YouTube channel** — when the creator posts a new video, all subscribers get notified.
 
----
 
 ## 🤔 Why Would I Use It?
 
@@ -37,7 +23,6 @@ Think of it like **subscribing to a YouTube channel** — when the creator posts
 * When you want to keep objects **loosely coupled** yet still coordinated.
 * When you need to build **publish/subscribe** systems or event frameworks.
 
----
 
 ## ✅ Benefits of the Observer Pattern
 
@@ -45,7 +30,6 @@ Think of it like **subscribing to a YouTube channel** — when the creator posts
 * Promotes loose coupling between the subject and its observers.
 * Simplifies building reactive, event-driven architectures.
 
----
 
 ## 🧩 Summary
 
@@ -55,11 +39,9 @@ The Observer pattern is about **broadcasting changes to subscribers**:
 
 It’s widely used for UI updates, data streams, and event systems.
 
----
 
 ## 🧠 S.W\.O.T. Analysis — Observer Pattern
 
----
 
 ### 🟩 **Strengths**
 
@@ -72,7 +54,6 @@ It’s widely used for UI updates, data streams, and event systems.
 3. **Real-Time UI**
    Works great for syncing UI elements, like auto-refreshing messages or scores.
 
----
 
 ### 🟨 **Weaknesses**
 
@@ -85,7 +66,6 @@ It’s widely used for UI updates, data streams, and event systems.
 3. **Memory Leaks**
    Forgetting to remove observers can lead to unused code staying active in memory.
 
----
 
 ### 🟦 **Opportunities**
 
@@ -98,7 +78,6 @@ It’s widely used for UI updates, data streams, and event systems.
 3. **Game Events**
    Notifies characters or systems when things like damage, score, or time change.
 
----
 
 ### 🟥 **Threats**
 
@@ -111,10 +90,9 @@ It’s widely used for UI updates, data streams, and event systems.
 3. **Complex Chains**
    Chained observers can cause loops or unexpected behaviors if not managed carefully.
 
----
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
-[Facebook](https://www.facebook.com/TheRayCode/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
+[Instagram ](https://www.Instagram .com/The_Ray_Code/) | [Twitter @TheRayCode](https://www.twitter.com/TheRayCode/) | [YouTube](https://www.youtube.com/AndradeRay/)
