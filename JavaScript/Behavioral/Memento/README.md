@@ -24,7 +24,6 @@ It’s like using **Ctrl+Z** (Undo) in a text editor. Behind the scenes, the app
 * **Memento**: A snapshot object that holds the saved state.
 * **Caretaker**: The manager that asks the Originator to save or restore state, but **doesn’t look inside** the Memento.
 
----
 
 ## 📘 Real-World Analogy
 
@@ -34,7 +33,6 @@ Think of a **video game**:
 * A save system (Caretaker) stores all those saves.
 * You can reload from a past save without knowing what data was inside it.
 
----
 
 ## 🧠 Where You Might Use It in JavaScript
 
@@ -42,8 +40,6 @@ Think of a **video game**:
 * Saving canvas state in a **drawing app**.
 * Storing game checkpoints or player status.
 * Form wizards where users can **go back and forth** between steps.
-
----
 
 ## 🎓 5 Reasons Why a Novice JavaScript Programmer Should Study the Memento Pattern
 
@@ -64,7 +60,6 @@ Think of a **video game**:
 
 ## 🧠 Memento Pattern – S.W\.O.T. Analysis (JavaScript)
 
----
 
 ### 🟩 **Strengths**
 
@@ -77,7 +72,6 @@ Think of a **video game**:
 3. **Multiple Snapshots**
    You can store many versions of an object without rewriting its logic.
 
----
 
 ### 🟨 **Weaknesses**
 
@@ -90,7 +84,6 @@ Think of a **video game**:
 3. **Deep Copying**
    You must be careful to clone objects properly—shallow copies might break your state.
 
----
 
 ### 🟦 **Opportunities**
 
@@ -103,7 +96,6 @@ Think of a **video game**:
 3. **Game Saves**
    Helps store and restore game progress, player stats, or level checkpoints.
 
----
 
 ### 🟥 **Threats**
 
@@ -116,9 +108,6 @@ Think of a **video game**:
 3. **Improper Use**
    Can be misused to patch bad design instead of planning better state management.
 
-
-
-[Example 2](./MO2/README.md)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
