@@ -8,14 +8,12 @@
 
 **[JavaScript](../README.md)** 
 
-**[Statergy](../README.md)** 
 
 **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
 
 JavaScript Statergy section
 
 [Example 1](./[Example1/README.md)
-
 
 ## 🧩 What Is the Strategy Design Pattern?
 
