@@ -4,6 +4,8 @@
 
 # TheRayCode is AWESOME!!!
 
+**Interpreter**
+
 [Example1](../README.md)
 
 ## 🗣️ What Is the Interpreter Design Pattern?
