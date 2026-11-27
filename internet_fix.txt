@@ -1,0 +1,155 @@
+# **TheRayCode — Network Failure and Recovery Report**
+
+November 14, 2026 | Ubuntu Linux | NetworkManager
+
+**Status: Internet connection restored (confirmed by user).**
+
+## **1. Problem summary**
+
+The TheRayCode computer lost its internet connection even though Ubuntu reported that Wi-Fi was connected to the `TheRayCode` network.
+
+The underlying problem was a **missing IPv4 routing configuration**, rather than a disconnected Wi-Fi adapter.
+
+## **2. Diagnostic findings**
+
+| Component          | Finding            |
+| ------------------ | ------------------ |
+| Wi-Fi interface    | `wlp4s0`           |
+| Wi-Fi connection   | TheRayCode         |
+| Interface status   | UP / Connected     |
+| IPv4 address       | `192.168.0.164/24` |
+| Expected gateway   | `192.168.0.1`      |
+| IPv4 default route | Missing            |
+| Local subnet route | Missing            |
+| DNS servers        | Present            |
+| IPv6 gateway       | Present            |
+
+The critical discovery came from:
+
+```
+ip -4 addr show wlp4s0
+```
+
+Ubuntu reported:
+
+```
+inet 192.168.0.164/24
+scope global dynamic noprefixroute wlp4s0
+```
+
+The `noprefixroute` flag means Linux does not automatically create a subnet route simply because that address is assigned. Normally, NetworkManager handles the necessary routes separately.
+
+In this case, the required IPv4 routes were absent.
+
+## **3. Why the initial repair failed**
+
+We first restarted NetworkManager:
+
+```
+sudo systemctl restart NetworkManager
+```
+
+That did not restore the IPv4 routes.
+
+We then attempted to restore the default gateway:
+
+```
+sudo ip route add default via 192.168.0.1 dev wlp4s0
+```
+
+Ubuntu responded:
+
+```
+Error: Nexthop has invalid gateway.
+```
+
+**Why?** Linux did not have a route identifying `192.168.0.0/24` as directly reachable through `wlp4s0`.
+
+Consequently, it could not validate `192.168.0.1` as an accessible gateway.
+
+## **4. Recovery procedure**
+
+We identified two commands needed to reconstruct the missing IPv4 routes.
+
+**First — Restore the local subnet route:**
+
+```
+sudo ip route add 192.168.0.0/24 dev wlp4s0
+```
+
+This tells Linux that addresses on the `192.168.0.x` network are reachable through the Wi-Fi adapter.
+
+**Second — Restore the default gateway:**
+
+```
+sudo ip route add default via 192.168.0.1 dev wlp4s0
+```
+
+This tells Linux to send traffic destined for other networks through the router.
+
+**Third — Test connectivity:**
+
+```
+ping -c 4 8.8.8.8
+```
+
+You subsequently confirmed that internet access returned. The individual command results were not shown, so the precise successful recovery sequence is inferred from our troubleshooting.
+
+## **5. Why this problem keeps returning**
+
+We encountered a similar missing-route problem on October 29, 2026.
+
+At that time, restarting NetworkManager restored the connection.
+
+Today's incident required additional routing repairs.
+
+Possible underlying causes include:
+
+- NetworkManager failing to install IPv4 routes after connecting.
+- DHCP supplying incomplete routing information.
+- Conflicting network configurations involving NetworkManager and Netplan.
+- A connection profile that prevents installation of the default route.
+
+**We have not yet established which of these is responsible.**
+
+Also, the `ip route add` commands make temporary changes. They do not guarantee the routes will survive a reboot or reconnection.
+
+## **6. Emergency recovery checklist**
+
+**TheRayCode — Internet Recovery**
+
+Save for future use
+
+Restart NetworkManager
+
+`sudo systemctl restart NetworkManager`
+
+Check existing routes
+
+`ip route`
+
+Restore local network route if missing
+
+`sudo ip route add 192.168.0.0/24 dev wlp4s0`
+
+Restore default gateway if missing
+
+`sudo ip route add default via 192.168.0.1 dev wlp4s0`
+
+Test internet connection
+
+`ping -c 4 8.8.8.8`
+
+Reset checklist
+
+Run the first two commands, then add only the routes that are missing. This checklist assumes the same Wi-Fi network and router configuration.
+
+## **7. Recommendation**
+
+Because this has happened more than once, **we should investigate the permanent cause rather than continue applying temporary repairs.**
+
+On our next troubleshooting session, I recommend inspecting the NetworkManager connection profile and its IPv4 gateway and routing settings.
+
+That should help us determine why the routes disappear.
+
+**Final assessment:** TheRayCode's Wi-Fi adapter was functioning, but its IPv4 routing table was incomplete. Restoring the missing subnet and default routes was the recovery procedure. The recurring configuration problem remains unresolved.
