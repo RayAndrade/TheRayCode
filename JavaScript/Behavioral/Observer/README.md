@@ -93,8 +93,8 @@ It’s widely used for UI updates, data streams, and event systems.
    Chained observers can cause loops or unexpected behaviors if not managed carefully.
 
 
-[RayAndrade.COM](https://www.RayAndrade.com)
-
 [TheRayCode.ORG](https://www.TheRayCode.org)
+
+[RayAndrade.COM](https://www.RayAndrade.com)
 
 [Instagram](https://www.Instagram.com/The_Ray_Code/) | [X@TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
