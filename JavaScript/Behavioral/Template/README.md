@@ -46,7 +46,6 @@ The Template Method is about **defining a framework with customizable hooks**:
 
 It supports consistent and extensible design while encouraging reuse.
 
----
 
 ## 🧠 S.W\.O.T. Analysis — Template Method Pattern
 
@@ -56,7 +55,6 @@ It supports consistent and extensible design while encouraging reuse.
 2. Makes subclass implementations easier by requiring only custom step overrides.
 3. Supports consistent behavior across related classes.
 
----
 
 ### ❌ **Weaknesses**
 
@@ -64,15 +62,12 @@ It supports consistent and extensible design while encouraging reuse.
 2. Makes it harder to change algorithm steps without affecting all subclasses.
 3. Can limit flexibility if the algorithm’s structure must change frequently.
 
----
 
 ### 🌱 **Opportunities**
 
 1. Helps juniors see how to separate invariants from variations.
 2. Encourages reuse of workflow steps while still supporting customization.
 3. Builds skills valuable for framework and library design.
-
----
 
 ### ⚠️ **Threats**
 
