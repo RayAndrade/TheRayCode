@@ -10,8 +10,6 @@
 
 **[Creational Patterns](../../Creational/README.md)** * **[Structural Patterns](../../Structural/README.md)** * **[Behavioral Patterns](../README.md)**
 
-JavaScript State section
-
 [Example 1](./Example1/README.md)
 
 
