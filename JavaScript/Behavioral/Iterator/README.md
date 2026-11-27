@@ -66,8 +66,6 @@ It improves usability and flexibility across lists, trees, and other containers.
 2. Poorly implemented iterators might break if the collection changes mid-iteration.
 3. Debugging traversal issues can be tricky if multiple iterators operate at once.
 
-
-
 [TheRayCode.ORG](https://www.TheRayCode.org)
 
 [RayAndrade.COM](https://www.RayAndrade.com)
