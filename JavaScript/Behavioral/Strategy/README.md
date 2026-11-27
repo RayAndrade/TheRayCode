@@ -81,4 +81,4 @@ It makes code flexible, extensible, and easier to evolve.
 
 [RayAndrade.COM](https://www.RayAndrade.com)
 
-[Instagram](https://www.Instagram.com/The_Ray_Code/) | X@TheRayCode](https://www.x.com/TheRayCode/) | [YouTube](https://www.youtube.com/TheRayCode/)
+[Instagram](https://www.Instagram.com/The_Ray_Code/) |[ X@TheRayCode](https://www.x.com/TheRayCode/)] | [YouTube](https://www.youtube.com/TheRayCode/)
