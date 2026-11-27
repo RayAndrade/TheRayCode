@@ -10,11 +10,9 @@
 
 **[Creational Patterns](../Creational/README.md)** * **[Structural Patterns](../Structural/README.md)** * **[Behavioral Patterns](../Behavioral/README.md)**
 
-**JavaScript Behavoiral Patterns**
-
-
 [Example 1](./Example1/README.md)
 
+**JavaScript Behavoiral Patterns**
 
 ## 🔁 What Is the Iterator Design Pattern?
 
