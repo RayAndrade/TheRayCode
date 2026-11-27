@@ -1,6 +1,6 @@
 [up](../README.md)
 
-[Behavioral Patterns](../README.md)
+**[Behavioral Patterns ](../README.md)** 
 
 # TheRayCode is AWESOME!!!
 
