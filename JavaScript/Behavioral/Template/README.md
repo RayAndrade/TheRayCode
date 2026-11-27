@@ -20,7 +20,6 @@ The **Template Method** pattern is a behavioral pattern that defines the **skele
 
 Think of it like a **recipe**: the structure stays the same, but you can swap out ingredients or steps as needed.
 
----
 
 ## 🤔 Why Would I Use It?
 
@@ -36,7 +35,6 @@ Think of it like a **recipe**: the structure stays the same, but you can swap ou
 * Makes changes easier since you only override what differs.
 * Encourages consistent processes across related subclasses.
 
----
 
 ## 🧩 Summary
 
@@ -45,7 +43,6 @@ The Template Method is about **defining a framework with customizable hooks**:
 > “Bake the cake this way, but you can choose the flavor.”
 
 It supports consistent and extensible design while encouraging reuse.
-
 
 ## 🧠 S.W\.O.T. Analysis — Template Method Pattern
 
@@ -61,7 +58,6 @@ It supports consistent and extensible design while encouraging reuse.
 1. May introduce tight coupling between the base class and its subclasses.
 2. Makes it harder to change algorithm steps without affecting all subclasses.
 3. Can limit flexibility if the algorithm’s structure must change frequently.
-
 
 ### 🌱 **Opportunities**
 
