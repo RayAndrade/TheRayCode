@@ -12,8 +12,6 @@
 
 [Example 1](./Example1/README.md)
 
-**JavaScript Behavoiral Patterns**
-
 ## 🔁 What Is the Iterator Design Pattern?
 
 The **Iterator** pattern is a behavioral pattern that provides a **standard way to access elements of a collection** sequentially without exposing its underlying details.
